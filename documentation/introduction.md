@@ -1,3 +1,5 @@
 # Introduction
 
-DCL is a template language used to personalize your content in Emarketeer. It is not a full programming language like C, PHP or Visual Basic and should be seen as a language to output dynamic content in your E-Mail, SMS or Webpages. It does not feature arithmetic instructions but it does offer some flow control. DCL is tightly coupled with a template engine for HTML Webpages, Dynamic Content Engine (DCE).
+DCL is a template language used to personalize content in eMarketeer.
+
+It is not a full programming language like C, PHP, or Visual Basic. Think of it as a language for outputting dynamic content in your email, SMS, or web pages. DCL does not provide arithmetic instructions, but it does offer some flow control. It is tightly coupled with a template engine for HTML web pages: the Dynamic Content Engine (DCE).

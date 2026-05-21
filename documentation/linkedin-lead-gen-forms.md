@@ -1,81 +1,79 @@
 # LinkedIn Lead Gen Forms
 
-**When advertizing on LinkedIn you have the option to add a Call to Action to your ads. This is a great way to collect registrations, leads, sign ups and more directly from LinkedIn.**
+Connect LinkedIn Lead Gen Forms to eMarketeer so ad submissions create contacts, set lead scores, and trigger journeys automatically.
 
-[Read more about Lead Gen Forms on Linked in here](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads).
+When you advertise on LinkedIn, you can attach a Call to Action to your ads to collect registrations, leads, and sign-ups. [Read more about Lead Gen Forms on LinkedIn here](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads).
 
-By default LinkedIn offers you to download the submitted leads as a CSV-file which you need to manually process.
+By default, LinkedIn lets you download submitted leads as a CSV file that you process manually. With the eMarketeer LinkedIn connector, every Lead Gen Form submission is sent straight into eMarketeer where it can:
 
-With the eMarketeer LinkedIn connector however, you can automatically send all Lead Gen Form submissions directly to eMarketeer to
+- Create and update contacts.
+- Set lead score.
+- Trigger journeys.
+- Send leads to sales.
 
--   Create and update contacts
--   Set Lead Score
--   Trigger Journeys
--   Send leads to Sales
+## Get started with LinkedIn Lead Gen Forms
 
-### Get started with LinkedIn Lead Gen Forms
+### Connect eMarketeer to LinkedIn
 
-**Connect eMarketeer to LinkedIn**
+As an admin in eMarketeer, click "Settings", "Plugins and integrations", and "LinkedIn". Click "Connect to LinkedIn" to start the connection.
 
-As an admin in eMarketeer, click “Settings”, “Plugins and integrations” and “Linked In”.  
-Click “Connect to LinkedIn” to initiate the connection.
+Note: you connect with your personal LinkedIn profile, which gives eMarketeer access to the Ad Accounts that profile has access to. Connect with a profile that has access to the Ad Accounts you want to receive Lead Gen Form submissions from.
 
-_Note:_ You will connect with your personal LinkedIn profile which will give eMarketeer access to the Ad Accounts that your profile has access to. Make sure to connect to LinkedIn with a profile that has access to the Ad Accounts that you want to receive Lead Gen Form submissions from.
+Once connected, you will see the list of Ad Accounts available to receive leads from.
 
-Once connected you will see the list of Ad Accounts available to receive leads from.
+![LinkedIn Ad Account list in the eMarketeer connector](../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-10.39.12.png)
 
-![](../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-10.39.12.png)
+Check the Ad Accounts you want to receive leads from. Checking an Ad Account automatically sends incoming leads from any Lead Gen Form on that Ad Account to eMarketeer.
 
-Check the Ad Accounts you want to receive leads from.  
-By checking an Ad Account it will automatically send incoming leads from any Lead Gen Form submitted on that Ad Account to eMarketeer.
+## What is sent to eMarketeer when a LinkedIn Lead Gen Form is submitted?
 
-**What is sent to eMarketeer when a LinkedIn Lead Gen Form is submitted?**
+When you build a Lead Gen Form on LinkedIn, you choose up to 12 profile data fields that can be sent with the lead. You can also add custom questions to the form, including checkboxes, dropdowns, and text fields.
 
-When creating a Lead Gen form on LinkedIn you decide up to 12 profile data fields that can be sent with the lead. Additionally you can create custom questions in the lead form that you want the visitor to answer such as checkboxes, droplists and text fields.
+All data submitted in the LinkedIn form is sent to eMarketeer and shown on the timeline event.
 
-All the data that is submitted in the LinkedIn form will be sent to eMarketeer to be viewed in the timeline event.
+## New contacts created from LinkedIn
 
-**New contacts created from LinkedIn**
+When eMarketeer receives a lead from LinkedIn, it matches the contact on email address. If the email already exists, the contact is updated with the new information. Otherwise, a new contact is created.
 
-When eMarketeer receives the lead from LinkedIn we will match the contact on email address. If the same email already exist, it will be updated with the new information. Otherwise a new contact will be created.  
-_Note_: Make sure not to reach your accounts contact limit. If reached no new contacts can be created.
+Note: make sure you do not reach your account's contact limit. If the limit is reached, no new contacts can be created.
 
-These are the fields we use from LinkedIn (if submitted) to create or update contacts in eMarketeer.
+These are the fields eMarketeer uses from LinkedIn (when submitted) to create or update contacts:
 
--   Email
--   FirstName
--   LastName
--   Phone
--   City
--   ZipCode
--   Country
--   State
--   Title
--   Company
+- Email
+- FirstName
+- LastName
+- Phone
+- City
+- ZipCode
+- Country
+- State
+- Title
+- Company
 
-Any other submitted information will be shown on the timeline event on the contact card.
+Any other submitted information is shown on the timeline event on the contact card.
 
-**How to test a lead form on LinkedIn**
+## How to test a lead form on LinkedIn
 
-Forms on LinkedIn can only be used in a paid and published ad but there is a way to test leads before you publish.  
-First create the form and the ad in LinkedIn. Then click “Preview” on the ad you created.  
-In the preview you can test the Lead Gen Form, and if you submit it the test lead will be sent to eMarketeer. This way you can prepare and test scores, Journeys and lead qualification eMarketeer before launching the ad on LinkedIn.  
-[You can read more about testing leads on LinkedIn here.](https://www.linkedin.com/help/lms/answer/a420737)
+LinkedIn forms can only be used in a paid, published ad, but there is a way to test leads before you publish.
 
-**Processing the incoming leads**
+First, create the form and the ad in LinkedIn. Then click "Preview" on the ad. From the preview, you can submit the Lead Gen Form, and the test lead is sent to eMarketeer. This lets you prepare and test scores, journeys, and lead qualification before launching the ad on LinkedIn.
 
-Once the leads are sent to eMarketeer you will be able to access them using the Contact Filter as Engagement.
+[Read more about testing leads on LinkedIn here.](https://www.linkedin.com/help/lms/answer/a420737)
 
-![](../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png)
+## Processing the incoming leads
 
-Using this filter you can retrieve all contacts who
+Once leads arrive in eMarketeer, you can access them through the Contact Filter as Engagement.
 
--   Submitted any LinkedIn Lead Gen Form
--   A specific Lead Gen Form
--   or answered the form in a specific way
+![Contact Filter showing LinkedIn engagement options](../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png)
 
-Since this engagement is part of the Contact Filter, you will be able to use the same selections in
+Using this filter, you can retrieve all contacts who:
 
--   Contact Lead Score
--   Journeys as a starting point or as an if/else condition
--   Qualifying leads for the Lead Board.
+- Submitted any LinkedIn Lead Gen Form.
+- Submitted a specific Lead Gen Form.
+- Answered the form in a specific way.
+
+Because this engagement is part of the Contact Filter, you can use the same selections in:
+
+- Contact Lead Score.
+- Journeys, as a starting point or as an if/else condition.
+- Qualifying leads for the Lead Board.

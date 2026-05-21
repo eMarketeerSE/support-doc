@@ -1,31 +1,41 @@
 # Journeys Triggering Events
 
-## Triggering events for Journeys
+Journey starting points are evaluated only when specific events happen to a contact. Knowing which events trigger evaluation helps you start a journey at the right moment.
 
-To set a good starting point it is important to understand exactly when a Journey starting point criteria is evaluated as this is key to start the Journey at the right time. For now criteria are evaluated only when specific events happen (triggering events). Below follows a list of events that will evaluate journey starting points:
+## Events that evaluate journey starting points
+
+When any of the events below happens for a contact, eMarketeer checks whether a journey should start for that contact.
 
 ### All engagement
 
--   Email engagement
--   Form engagement
--   SMS engagement
--   Landing page engagement
--   Web monitor engagement
--   SuperOffice engagement
--   Facebook engagement
--   LinkedIn engagement
--   Custom signals engagement
+- Email engagement
+- Form engagement
+- SMS engagement
+- Landing page engagement
+- Web monitor engagement
+- SuperOffice engagement
+- Facebook engagement
+- LinkedIn engagement
+- Custom signals engagement
 
 ### Contact card
 
--   Contact card update
--   Legal basis update
--   Added to a contact list
+- Contact card update
+- Legal basis update
+- Added to a contact list
 
-### Leadboard
+### Lead Board
 
--   Lead state change
+- Lead state change
 
-Anytime any of the above events occur for a specific contact, eMarketeer will check if a Journey should start. This does mean that for a starting point to be effective it needs to either be of the type listed or be paired with a criteria that is based on any of these events, else it will not trigger immediately but will instead need to wait for a triggering event even though it matches the Journey condition.
+## What this means for starting points
 
-Example: A common misconception is that if you make a Journey starting point based on a Contact List, the journey will trigger and start the Journey for all contacts in this contact list when the Journey is activated. However, since no triggering event has occurred the Journey will not start. Instead it will be idle until any of the triggering events happen for each individual contact in the list. Do note that the event does not necessarily need to be related to the “Added to contact list” event, but can be any event that evaluates if a Journey should start. This will lead to contacts not starting the Journey at the same moment. To avoid this, make sure to populate the contact list only after the Journey has been activated.
+For a starting point to fire immediately, it must either be one of the events listed above or be paired with a criterion based on one of these events. Otherwise, the journey waits until one of these events occurs for the contact, even if the contact already matches the journey condition.
+
+## Example: a contact-list starting point
+
+A common misconception: if you base a starting point on a contact list, the journey will start for every contact in that list when the journey is activated.
+
+That is not the case. Because no triggering event has occurred, the journey stays idle. It waits for any triggering event to happen for each individual contact in the list. The event does not have to be "Added to contact list" — any event that evaluates starting points works.
+
+The result is that contacts do not start the journey at the same moment. To avoid this, populate the contact list only after the journey is activated.
