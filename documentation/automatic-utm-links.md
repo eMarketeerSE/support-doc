@@ -1,15 +1,15 @@
 # Automatic UTM links
 
-**To assist your web analytics with the eMarketeer Web Tracker as well as other systems such as Google Analytics, eMarketeer automatically adds utm-parameters to links in you emails and landing pages.**
+eMarketeer automatically adds UTM parameters to links in your emails and landing pages so web analytics — including the eMarketeer Web Tracker and tools like Google Analytics — can attribute visits correctly.
 
-These are the utm-parameters that are added to your links when created in eMarketeer emails and landing pages.
+These are the UTM parameters added to your links when created in eMarketeer emails and landing pages.
 
--   **_utm\_source_** – The source will always be “eMarketeer” to indicate which platform the visit comes from
--   **_utm\_campaign_** – This is the name of the eMarketeer campaign where your email/landing page is located.
--   _**utm\_medium**_
-    -   for emails this will be “email”
-    -   for landing pages this will be “referral”
--   _**utm\_content**_
-    -   for emails: the subject line of the email
-    -   for landing pages: the title of the page
--   _**utm\_em\_source**_ – this is specific for eMarketeer, the ID of the component used
+- _utm\_source_ – Always "eMarketeer", to indicate which platform the visit comes from.
+- _utm\_campaign_ – The name of the eMarketeer campaign where your email or landing page is located.
+- _utm\_medium_
+  - For emails: "email"
+  - For landing pages: "referral"
+- _utm\_content_
+  - For emails: the subject line of the email
+  - For landing pages: the title of the page
+- _utm\_em\_source_ – Specific to eMarketeer; the ID of the component used.

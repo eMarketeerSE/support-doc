@@ -1,38 +1,40 @@
 # Conditionals
 
-DCL features a simple “if-eliseif-else-endif” Conditional. You may test one string as equal or not equal with another string. The conditional functions are normal functions with normal syntax and always return an empty string. The conditional functions may however not be used as arguments to other functions. You may test for equality or non equality. There is no concept of boolean operators, but you may simulate AND by nesting conditionals.
+DCL supports a simple `if-elseif-else-endif` conditional for testing whether one string equals another.
 
-Check if “foo” is equal to “foo” (true)
+Conditional functions follow normal function syntax and always return an empty string. They cannot be used as arguments to other functions. You can test for equality or inequality. There is no concept of boolean operators, but you can simulate AND by nesting conditionals.
 
-<% if compare="foo" equal="foo" %>
+Check if "foo" is equal to "foo" (true):
 
-Check if “foo” is equal to “bar” (false)
+<% if compare="foo" equal="foo" %>
 
-<% if compare="foo" equal="bar" %>
+Check if "foo" is equal to "bar" (false):
 
-Check if “foo” is not equal to “foo” (false)
+<% if compare="foo" equal="bar" %>
 
-<% if compare="foo" notequal="foo" %>
+Check if "foo" is not equal to "foo" (false):
 
-Check if “foo” is not equal to “bar” (true)
+<% if compare="foo" notequal="foo" %>
 
-<% if compare="foo" notequal="bar" %>
+Check if "foo" is not equal to "bar" (true):
 
-Below we have a full example of a conditional block.
+<% if compare="foo" notequal="bar" %>
 
-<% if compare=<% contact field="firstname" %> equal="Bart" %>
+Full example of a conditional block:
+
+<% if compare=<% contact field="firstname" %> equal="Bart" %>
 	You're Homers son!
-<% elseif compare=<% contact field="firstname" %> equal="Lisa" %>
+<% elseif compare=<% contact field="firstname" %> equal="Lisa" %>
 	You're Homers elder daughter!
-<% elseif compare=<% contact field="firstname" %> equal="Maggie" %>
+<% elseif compare=<% contact field="firstname" %> equal="Maggie" %>
 	You're Homers younger daughter!
-<% else %>
+<% else %>
 	Doh!
-<% endif %>
+<% endif %>
 
-Below we use the boolean or in an expression. To use an “and” just replace “or” with “and”. Internaly the if function checks its “and”, “or” argument for “true”.
+Below we use the boolean `or` in an expression. To use an `and`, just replace `or` with `and`. Internally, the `if` function checks its `and` or `or` argument for `true`.
 
-<% if compare=<% contact field="firstname" %> equal="Bart"
-	or=<% if compare=<% contact field="firstname" %> equal="Lisa" %> %>
+<% if compare=<% contact field="firstname" %> equal="Bart"
+	or=<% if compare=<% contact field="firstname" %> equal="Lisa" %> %>
 	You're my child
-<% endif %>
+<% endif %>

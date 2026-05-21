@@ -1,8 +1,9 @@
 # API (new)
 
-This API gives you access to eMarketeer data.  
-The documentation for the API functions is in the portal for the API.
+The eMarketeer API gives you programmatic access to data in your account.
+
+Reference documentation for the API functions lives in the API portal.
 
 [https://api-doc.emarketeer.com/](https://api-doc.emarketeer.com/)
 
-You generate your API key in the eMarketeer application under “settings” and “Plugins and integration”.
+You generate your API key inside the eMarketeer application under **Settings** → **Plugins and integration**.
