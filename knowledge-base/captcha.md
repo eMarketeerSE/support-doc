@@ -1,19 +1,21 @@
 # reCAPTCHA for eMarketeer Forms
 
-reCAPTCHA is a CAPTCHA system provided by Google, which allows web hosts to distinguish between human and automated access to websites. All eMarketeer forms that are published after April 25th, 2022 have the reCAPTCHA protection. This is shown by displaying a grey and blue arrow icon at the bottom of the hosted Form pages, which means that this system is active for the page.
+reCAPTCHA protects your forms from bot submissions using Google's CAPTCHA system.
+
+All eMarketeer forms published after April 25th, 2022 have reCAPTCHA protection. A grey and blue arrow icon at the bottom of hosted form pages shows that reCAPTCHA is active.
 
 ![](../assets/captcha/recaptchaicon.png)
 
-reCaptcha Icon
+reCAPTCHA icon
 
-reCAPTCHA prevents bots from submitting fake answers to your Forms which otherwise may fill your report with unwanted activity and create fake contacts in your eMarketeer account. The reCAPTCHA system works for both eMarketeer-hosted forms and if you’d like to implement them directly on your site. It’s easy to implement, just follow the steps provided by eMarketeer when you want to publish the form.
+reCAPTCHA prevents bots from submitting fake answers to your forms, which would otherwise fill your reports with unwanted activity and create fake contacts in your account. It works for both eMarketeer-hosted forms and forms you embed on your own site. Follow the steps shown when you publish the form.
 
-### **reCAPTCHA v3**
+## reCAPTCHA v3
 
-You might recognize earlier versions of CAPTCHA, where it might ask you to find objects in images, like trucks or traffic lights, or decipher text that is hard to read, to verify that you’re not a bot.  But this version of reCAPTCHA (v3) is different as it instead analyzes how the visitor interacts with webpages and uses this to classify the visitor as either a person or a bot. This means that you don’t have to worry about your form visitors being disrupted when submitting your form.
+Earlier versions of CAPTCHA asked visitors to identify objects in images or decipher hard-to-read text. reCAPTCHA v3 works differently: it analyzes how visitors interact with the page and uses that to classify each visitor as a person or a bot. Your form visitors are not interrupted when submitting.
 
-If you would like to read more about reCAPTCHA, you can find it in [Google’s documentation.](https://www.google.com/recaptcha/about/)
+For more detail, see [Google's reCAPTCHA documentation](https://www.google.com/recaptcha/about/).
 
-### Turning off reCAPTCHA
+## Turning off reCAPTCHA
 
-You can turn off reCAPTCHA for Forms on your account via the related option on the Account’s Integration settings page.
+You can turn off reCAPTCHA for forms on your account from the related option on the account's Integration settings page.

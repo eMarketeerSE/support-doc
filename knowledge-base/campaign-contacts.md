@@ -1,31 +1,36 @@
 # Campaign Contacts
 
-The Campaign Contacts is a tab in each campaign that lists contacts that belong to the specific campaign.
+Campaign Contacts is a tab in each campaign that lists the contacts belonging to that campaign.
+
+Use it to see who has interacted with the campaign, review individual contact history, and remove unwanted contacts.
 
 A contact is added to the Campaign Contacts list when it:
 
--   is addressed and sent an email that belongs to the campaign (contacts excluded prior to sending are not added).
--   is addressed and sent an sms that belongs to the campaign (contacts excluded prior to sending are not added).
--   submits a form belonging to the campaign.
--   visits a webpage belonging to the campaign (anonymous visits are not added).
--   is imported to the campaign using the “Import Contacts” feature in the Campaigns left hand menu.
+- Is addressed and sent an email that belongs to the campaign. Contacts excluded before sending are not added.
+- Is addressed and sent an SMS that belongs to the campaign. Contacts excluded before sending are not added.
+- Submits a form belonging to the campaign.
+- Visits a webpage belonging to the campaign. Anonymous visits are not added.
+- Is imported to the campaign using the Import Contacts feature in the campaign's left-hand menu.
 
-### Campaign contacts interface
+## Campaign Contacts interface
 
 [![](../assets/campaign-contacts/2021-05-04_16-13-22.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-13-22.png)
 
-Campaign contacts interface.
+Campaign Contacts interface
 
-Clicking on individual contacts lets you view the history of interactions within the campaign. To easily find a specific contact you are looking for you can use Quick Search in the top right corner of the tab.
+Click an individual contact to view the history of their interactions within the campaign. To find a specific contact, use Quick Search in the top right corner of the tab.
 
-##### Removing contacts from a campaign
+### Removing contacts from a campaign
 
-You can also use this tab to remove unwanted contacts from the campaign, and by extension each component report within the campaign (great for removing tests). Start by selecting the contacts you wish to remove from the campaign using the boxes on the left hand side of each contact, then click the “Remove selected from campaign” option above the list.
+You can use this tab to remove unwanted contacts from the campaign, and by extension from each component report within the campaign. This is useful for removing test contacts.
 
-### All contacts in this campaign (Recipient Source)
+1. Select the contacts to remove using the checkboxes on the left of each row.
+2. Click Remove selected from campaign above the list.
 
-The Campaign Contacts can be addressed using the “All contacts in this campaign” option while sending email or sms. Please refer to the definition at the top of the article to learn what constitutes a campaign contact.
+## All contacts in this campaign (Recipient Source)
+
+You can address Campaign Contacts using the "All contacts in this campaign" option when sending an email or SMS. See the definition at the top of this article for what counts as a campaign contact.
 
 [![](../assets/campaign-contacts/2021-05-04_16-06-53.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-06-53.png)
 
-The “All contacts in this campaign” option.
+The "All contacts in this campaign" option

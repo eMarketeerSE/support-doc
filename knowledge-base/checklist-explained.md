@@ -1,50 +1,50 @@
 # Understanding the Email Checklist
 
-When sending an Email you will encounter the Checklist page where you can see how many Contact’s will be addressed in the Email sendout and how many there are that will not be Addressed, along with some categories showing why, which we will explain in short in this article.
+The Email Checklist shows how many contacts will be addressed by a sendout, and how many will not, broken down by reason.
 
-* * *
+You see this page when sending an email. Review it to confirm your sendout reaches the right audience and to understand any exclusions.
 
 ![Screenshot of the email checklist content](../assets/checklist-explained/email.checklist.25.png)
 
 Example of the Checklist
 
-#### The Checklist contains the following information and categories:
+## Checklist categories
 
-**Addressed email by you:**  
-This shows how many contacts were included in the recipient lists that you used for this Email sendout.
+Addressed email by you
+This is the total number of contacts included in the recipient lists used for this sendout.
 
-**Duplicates:**  
-This counts the number of duplicate email addresses there were, usually only relevant if you used more than one recipient list for your sendout.
+Duplicates
+The number of duplicate email addresses found. Usually only relevant when you use more than one recipient list.
 
-**Unsubscribed:**  
-Shows how many of the intended recipients are unsubscribed from the Subscription List used to categorize this Email, only relevant if you are using such a list for your Email.
+Unsubscribed
+The number of intended recipients unsubscribed from the subscription list used to categorize this email. Only relevant when you use such a list.
 
-**Consent Withdrawn:**  
-Shows the number of Contacts that have revoked their Consent to receive sendouts from you. The specific consent setting this refers to is the contact’s “Marketing Consent”.  
-_[This article](https://support.emarketeer.com/knowledgebase/how-does-consent-work/) explains Consent in further detail._
+Consent Withdrawn
+The number of contacts who have revoked their consent to receive sendouts from you. The specific consent setting is the contact's Marketing Consent.
+[This article](https://support.emarketeer.com/knowledgebase/how-does-consent-work/) explains consent in more detail.
 
-**Undeliverable Email Addresses:**  
-Shows the number of contacts that have email addresses that have previously reported that they cannot receive emails.  
-_[This guide](https://support.emarketeer.com/knowledgebase/undeliverable-contacts-email-checklist/) shows how to find undeliverable contacts in your contact database._
+Undeliverable Email Addresses
+The number of contacts whose email addresses have previously reported they cannot receive email.
+[This guide](https://support.emarketeer.com/knowledgebase/undeliverable-contacts-email-checklist/) shows how to find undeliverable contacts in your contact database.
 
-**Deliverable but Unengaged:**  
-Shows the number of contacts that can receive emails but haven’t read the emails you have sent them and don’t have any activity registered for emails you have sent to them during a long period of time. You choose if you want the email to be sent to these contacts in Step 2 of the email sendout creation process by changing the setting called “Exclude Inactive Recipients”.  
-_[This article](https://support.emarketeer.com/documentation/exclude-inactive-recipients/) explains the option to Exclude Inactive Recipients from your sendout._
+Deliverable but Unengaged
+The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting.
+[This article](https://support.emarketeer.com/documentation/exclude-inactive-recipients/) explains Exclude Inactive Recipients.
 
-**Emails with Blocked Domains:**  
-If you are blocking domains for sendouts from your account then any contacts with email addresses on those domains that were included in your recipient list(s) will be counted here.
+Emails with Blocked Domains
+If your account blocks specific domains for sendouts, any contacts on those domains in your recipient lists are counted here.
 
-**Blocked Contacts:**  
-If you are using a setting for your Email Sendout that dynamically blocks some contacts from receiving the sendout then these will be counted here. Examples of this is the setting “Exclude contacts that have already been sent this email” or actively blocking a recipient source, e.g. when sending reminder emails as described in _[this guide](https://support.emarketeer.com/knowledgebase/configuring-reminder-email/)_.
+Blocked Contacts
+If a setting on your sendout dynamically blocks some contacts, they are counted here. Examples include "Exclude contacts that have already been sent this email" or actively blocking a recipient source, such as when sending reminder emails as described in [this guide](https://support.emarketeer.com/knowledgebase/configuring-reminder-email/).
 
-**Invalid Sender Email Address:**  
-When your recipients fall under this category then it means that the Sender email address you have used for this Email Component is invalid. This could be because an invalid email domain has been selected, or that the address is formatted incorrectly. You can fix this by going to the Email’s editing page and changing the Sender email address in the left-side menu.
+Invalid Sender Email Address
+Recipients fall under this category when the sender email address for this email component is invalid. This can be because of an invalid email domain or an incorrectly formatted address. Fix it on the email's editing page by updating the sender email in the left-side menu.
 
-**Missing Required Double Opt-In:**  
-Shows the number of contacts in the recipient list(s) that have not completed the double opt-in process in cases where this is required before a contact can be cleared for receiving emails from your account.
+Missing Required Double Opt-In
+The number of contacts in the recipient list that have not completed the double opt-in process, in cases where double opt-in is required before a contact can receive email from your account.
 
-**Emails that will be addressed:**  
-The number of Contacts that will be addressed for this email sendout after excluding blocked contacts as shown in the checklist.
+Emails that will be addressed
+The number of contacts that will be addressed by this sendout after exclusions.
 
-**Email that will not be addressed:**  
-The total number of Contacts that will not be addressed in this email sendout.
+Email that will not be addressed
+The total number of contacts that will not be addressed by this sendout.

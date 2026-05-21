@@ -1,15 +1,19 @@
 # Forms: Close a form
 
-A form in eMarketeer allows you to set the criteria for when it should not longer accept any answers.
+Set criteria for when a form should stop accepting answers.
 
-To change these settings, click ‘Publish’ on the form in the campaign view.
+Use this when a form should only run for a limited time or up to a maximum number of submissions.
 
-![formpub1](../assets/close-a-form/form_publish.png)
+## Open the form's publish settings
 
-Then find the ‘Open/Close form’ link in the left menu.
+1. In the campaign view, click Publish on the form.
 
-![formpub2](../assets/close-a-form/form_openclose.png)
+   ![formpub1](../assets/close-a-form/form_publish.png)
 
-Last, choose the settings you need for your form.
+2. In the left menu, click Open/Close form.
 
-![formpub3](../assets/close-a-form/form_openclosesettings.png)
+   ![formpub2](../assets/close-a-form/form_openclose.png)
+
+3. Choose the settings you need for your form.
+
+   ![formpub3](../assets/close-a-form/form_openclosesettings.png)

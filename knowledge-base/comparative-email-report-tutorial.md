@@ -1,5 +1,5 @@
 # How to use the Comparative email report
 
-### How’s your email sendouts doing?
+The Comparative email report lets you compare performance across your email sendouts.
 
-Head over to the comparative email report and find out!
+> TODO: verify — the source article has no body content beyond a one-line teaser. Confirm where the report lives and add steps for using it.

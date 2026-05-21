@@ -1,35 +1,41 @@
 # Change home screen icon in Web App
 
-This article is only applicable to older web app templates.  
-Updated versions of the app have built-in image browser for web app icons and favicons in the settings block as shown in the image below.![](../assets/change-home-screen-icon-in-web-app/pn_22-05-11_09-47-04.png)  
-Web App Icon fields
+Replace the default eMarketeer icon with your own when saving a Web App to a mobile home screen.
 
-When using the Web App in eMarketeer and you save the app to your mobile home screen, the icon used is the eMarketeer default icon as shown below.
+This article applies to older web app templates only. Updated versions of the app have a built-in image browser for web app icons and favicons in the settings block, as shown below.
+
+![](../assets/change-home-screen-icon-in-web-app/pn_22-05-11_09-47-04.png)
+
+Web App icon fields
+
+When you save the Web App to your mobile home screen, the default icon used is the eMarketeer logo shown below.
 
 ![](../assets/change-home-screen-icon-in-web-app/IMG_0431.png)
 
-In order to change this icon to your custom icon, follow these steps.
+To use a custom icon, follow the steps below.
 
 ## Create a custom icon
 
-First create a square image at least 254 pixels wide and tall but no more than 1024. This is the icon you want to use on your home screen. Save the image as png, jpg or png format.
+Create a square image at least 254 pixels wide and tall, and no more than 1024. Save the image as PNG or JPG.
 
-## Upload the image to eMarketeer and get the url
+> TODO: verify — original lists "png, jpg or png format" which is a typo; confirm the supported formats.
 
-Next, go to files in eMarketeer and upload the image to a folder of your choice. Click to preview the image and save the relative url (not including the domain name). (Copy the URL part shown in the image below)
+## Upload the image to eMarketeer and get the URL
+
+Go to Files in eMarketeer and upload the image to a folder of your choice. Click to preview the image and copy the relative URL (without the domain name), as shown below.
 
 ![](../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.26.23.png)
 
 ## Paste the new URL into the web app header
 
-Now, go into your Web App in developer mode and change the icon urls.
+Open your Web App in developer mode and change the icon URLs.
 
-1.  Enable developer mode (if you don’t see this, ask your admin to enable this privilege)
-2.  Click “Colors, Fonts & Head” in the left menu bar
-3.  Click the “Head” tab.
-4.  On line 9-12, edit the urls and paste your new url on all four rows.
-5.  Click “Save”
+1. Enable developer mode. If you don't see this option, ask your admin to grant the privilege.
+2. Click Colors, Fonts & Head in the left menu.
+3. Click the Head tab.
+4. On lines 9-12, paste your new URL on all four rows.
+5. Click Save.
 
 ![](../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png)
 
-Now your app will use the new icon when saving it to your home screen.
+Your app now uses the new icon when saved to a home screen.
