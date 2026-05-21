@@ -1,40 +1,36 @@
 # Creating Branching Question Paths and using Question Display Rules in Forms
 
-Branching of questions is something you can do in eMarketeer Forms and there are 2 ways primary ways of creating Branching Question Paths or otherwise hide questions until relevant in an eMarketeer Form and it’s by using Form Question “Rules”.
+Branch form questions or hide them until they are relevant by using rules on form questions.
 
-1.  Branch off to different pages with questions depending on an answer by skipping to a specific page.
-2.  Hide or Show questions on the same page depending on an answer using Display Options.
+There are two primary approaches:
 
-* * *
+1. Branch to different pages of questions based on an answer, by skipping to a specific page.
+2. Show or hide questions on the same page based on an answer, by using display options.
 
 ## Skip to Page
 
-This alternative is easier to use if there are many questions for each branch.
+Skip to Page is easier when each branch has many questions.
 
-What the Skip to Page Rule does is change what page the visitor will land on when clicking the “Next Page” button at the bottom of the page.
+The rule changes which page the visitor lands on when they click Next Page. In this hypothetical scenario, a form asks about two meetings. Each visitor attended one, and the questions differ depending on which.
 
-In the following hypothetical scenario, we have a Form with questions about 2 Meetings where the visitors have attended one of them, and the questions should differ (or the answers should be separated) depending on which meeting they attended.
+To set this up, use a radio button question where each answer has a Skip to Page rule. Questions about Meeting A live on page 2, questions about Meeting B on page 3.
 
-To do this we can use a Radio Button Question where each answer has a “Skip to Page” Rule. Questions about Meeting A is on Page 2, while questions about Meeting B are on Page 3.
+![Radio button question with Skip to Page rules routing each answer to a different page](../assets/question-branching-display-rules/pn_21-07-12_11-42-16.png)
 
-![](../assets/question-branching-display-rules/pn_21-07-12_11-42-16.png)
+The selected answer moves the visitor to the matching page. To stop a visitor sent to page 2 from continuing into the Meeting B questions on page 3, double-click the Next Page button on page 2 and set it to skip ahead to page 4.
 
-The selected answer will move the visitor to that page, but what about those that are sent to Page 2 for questions about Meeting A, how do you skip Page 3 with Meeting B questions? For this, we can double-click the”Next Page” button on Page 2 and change it to move the visitor to Page 4.
+![Next Page button configured to skip from page 2 directly to page 4](../assets/question-branching-display-rules/pn_21-07-12_11-45-47.png)
 
-![](../assets/question-branching-display-rules/pn_21-07-12_11-45-47.png)
+## Question Display Rules
 
-* * *
+Display rules suit small branching sets, or single-page forms. They show or hide a question based on the visitor's earlier answer.
 
-## **Question Display Rules**
+In this hypothetical scenario, a form asks about two meetings, and a visitor may have attended one or both. Questions for each meeting should appear only for visitors who attended that meeting, and all questions should appear if both were attended.
 
-The other alternative, which is good for when you only have a few branching questions (or only want the Form to be a single page), is to use the Display Option Rules to Show or Hide questions depending on the visitor’s answer on a previous question.
+Use a checkbox question where the visitor selects Meeting A, Meeting B, or both. Add the meeting-specific questions after it, then open each one's rules and configure its display settings. In this example, the Meeting A question is set to show only when that option is selected on the preceding checkbox question.
 
-In the following hypothetical scenario, we have a Form with questions about 2 Meetings where the visitors could have attended one or both of them, and the questions concerning each Meeting should only be shown to the visitors that attended that Meeting and show all questions if they attended both.
+Display rules are configured per question and support multiple answers — or combinations of answers — on the preceding question. Checkbox answers are not mutually exclusive, so with more than two options you can show a question only for specific combinations.
 
-To do this we can use a Checkbox Question where the visitor can select if they attended Meeting A, Meeting B, or both. Following this question, we then add the Meeting Specific questions and go into their Rules to change the Display Settings of the questions. Here we have a Question about Meeting A where we set the question to only show if that option is selected on the preceding Checkbox question.
+![Display rule configured on a question, set to show only when a specific checkbox answer is selected on the preceding question](../assets/question-branching-display-rules/pn_21-07-12_11-51-15.png)
 
-The Display Rules are set up individually for each Question, and allow multiple different answers (or combination of answers) on a preceding question to Show the Question. In the image displaying this rule, you can see that the checkbox answers are not mutually exclusive and if you have more than 2 answer options, you can have questions that only show if a combination is selected.
-
-![](../assets/question-branching-display-rules/pn_21-07-12_11-51-15.png)
-
-Note: A question cannot be both required to answer and hidden so the required setting is ignored if there are active display rules for the question.
+A question cannot be both required and hidden. If a question has active display rules, the required setting is ignored.

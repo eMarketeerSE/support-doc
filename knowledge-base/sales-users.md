@@ -1,23 +1,21 @@
 # Sales users
 
-**A user in eMarketeer can have access to both marketing and sales features. With access to sales, the user will be able to work in a sales team on the lead board.**
+A user in eMarketeer can have access to both marketing and sales features. With sales access, the user can work in a sales team on the lead board.
 
-To manage users you need admin privileges.
+Managing users requires admin privileges.
 
-Go to the settings are of eMarketeer and choose “User Accounts” to show a list of the current users and their privileges.
+Open Settings and choose User Accounts to see the current users and their privileges.
 
-![](../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.08.53-1024x427.png)
+![User Accounts list showing existing users and their assigned privileges](../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.08.53-1024x427.png)
 
-### Create a new sales user
+## Create a new sales user
 
-Click on the “Create User” button.
+1. Click Create User.
+2. Enter the email address of the new user.
+3. Enable Sales leads with the checkbox, then tick one or more sales teams the user should belong to. A user can belong to one or more sales teams.
 
-Start by typing the email address of the new user.  
-Enable “Sales leads” by checking the checkbox and then one or more sales teams that the new user should be a member of.
+   ![Create User form with Sales leads enabled and sales teams selected](../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.15.05.png)
 
-A user can be a member of one or more sales teams.
+4. Click Create user and send login email.
 
-![](../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.15.05.png)
-
-To create the user click the button “Create user and send login email”.  
-The user will be notified with an email to create a password and complete the profile.
+The user is notified by email to set a password and complete the profile.

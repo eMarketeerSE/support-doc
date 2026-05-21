@@ -1,38 +1,39 @@
 # Migrating to Lead Board
 
-If you have an existing integration between eMarketeer and SuperOffice (Online or onSite) this document describes the migration.
+If you have an existing integration between eMarketeer and SuperOffice (Online or onSite), this article describes what changes when Lead Board is released to your account.
 
-### eMarketeer releases The Lead Board to all customers.
+The release does not change how the integration works. Automations, imports, and other behavior continue exactly as before. The differences are limited to the eMarketeer web panels inside SuperOffice.
 
-**The release will not change in any way how the integration works. All automations, imports etc will work just as before.**
+## Current web panels
 
-The only real difference before and after the release will be about the eMarketeer web panels in SuperOffice.
+As of May 2023, the existing web panels in SuperOffice are:
 
-The current (as of May 2023) web panels that you have in SuperOffice are these:
+- The automation queue — screen and create contacts that do not yet exist in SuperOffice.
+- The timeline — lists interactions for a specific contact in eMarketeer.
+- Detailed info on sales and activities created by eMarketeer.
 
--   The automation queue – where you get to screen and create all contacts that does not exist in SuperOffice.
--   The timeline – lists all interactions for a specific contact in eMarketeer
--   Detailed info on Sales and Activities created by eMarketeer
+## New web panels
 
-After restarting your integration, the following new web panels will be added which also requires eMarketeer sales users to be accessed.  
-This ensures we can personalize the information and add security.
+After restarting the integration, the following panels are added. They require eMarketeer sales users to access, which allows personalization and added security.
 
--   Lead Board web panel in the left navigation and under the SuperOffice Logo.
--   Contact Summary – an improved version of contact timeline in the side panel
--   Company Summary – summarizing all interaction and info on company (domain) level in the side panel.
+- Lead Board — in the left navigation, under the SuperOffice logo.
+- Contact Summary — an improved contact timeline in the side panel.
+- Company Summary — interactions and info on company (domain) level in the side panel.
 
-Not changed
+## Unchanged
 
--   The Automation Queue will not be changed and it will not require a sales user.
--   Detailed info web panel for sales and activities
+- The automation queue stays the same and does not require a sales user.
+- The detailed info web panel for sales and activities.
 
-Removed
+## Removed
 
--   The old version of “marketing timeline” for a contact will be removed. (Replaced by the new ones above)
+- The old marketing timeline for a contact is removed, replaced by the new panels above.
 
-### Things to consider
+## Things to consider
 
--   When you restart the integration, the new web panels, (the Lead Board in particular) will be published in your SuperOffice and visible to the SuperOffice users. If you don’t want to show this panel to the users just yet, feel free to deactivate or hide this panel in the SuperOffice admin.
--   If eMarketeer did not succeed removing the old web panels (because customization was done), you can easily remove them using the SuperOffice admin tool.
+- When you restart the integration, the new panels — Lead Board in particular — become visible to SuperOffice users. If you are not ready to expose Lead Board, deactivate or hide the panel in the SuperOffice admin.
+- If eMarketeer cannot remove the old web panels (typically because they were customized), you can remove them in the SuperOffice admin tool.
 
-For more information on the Lead Board, [click here.](https://support.emarketeer.com/knowledgebase/get-started-leads/)
+## What to do next
+
+For more on Lead Board, see [Get started with leads](https://support.emarketeer.com/knowledgebase/get-started-leads/).
