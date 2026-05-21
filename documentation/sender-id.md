@@ -1,35 +1,35 @@
 # SMS Sender ID
 
-## What is Sender ID
+The Sender ID is the name or number a contact sees when they receive your SMS. This article explains what Sender ID is, how to request your own, and where the feature has limitations.
 
-![](../assets/sender-id/Sms_sender_id.png)Basically Sender ID is the answer to the question “Who sent me this SMS?”.
+![SMS Sender ID shown on a mobile device](../assets/sender-id/Sms_sender_id.png)
 
-When you recieve a SMS you will see who that SMS is from. If that SMS comes from another mobile phone you will see the senders mobile phone number.
+When you receive an SMS from another mobile phone, you see the sender's number. When you send SMS through a service like eMarketeer, the sender information can instead be a text — typically your company name.
 
-When you use a service to send SMS such as eMarketeer the sender information will be a text such as your company name.
+## Request your own Sender ID
 
-## Create you own Sender ID
+To use your company name as the sender, the Sender ID must meet these requirements:
 
-Want your company name to be displayed as sender?
+- Between 3 and 11 characters long.
+- Only `A-Z`, `a-z`, and `0-9` characters.
+- Cannot start with a number or be a phone number.
 
-We will help you do this.
+Requests are processed manually. If we receive your request during office hours, it is usually ready the same day unless we need more information.
 
--   It needs to be between 3 and 11 characters long, only (A-Z, a-z, 0-9) characters are allowed, and it cannot start with a number or be a phone number.
--   Your request will be processed manually. If we receive your request during office hours it is usually ready the same day unless we need you to provide additional information.
--   Send the Sender ID you want and the name of the account where you want it implemented to support@emarketeer.com.
+To request a Sender ID, email `support@emarketeer.com` with the Sender ID you want and the name of the account where it should be applied.
 
-## Why do I need to apply for a Sender ID?
+## Why Sender IDs need to be approved
 
-The ability to customize a Sender ID of an SMS can result in abuse by using it as a tool for spamming and spoofing. Spoofing is when a person or company masquerades as another by falsifying data and thereby gaining an illegitimate identity.
+Custom Sender IDs can be abused for spam and spoofing. Spoofing is when someone falsifies sender data to masquerade as another person or company.
 
-For example, someone can spoof another person by setting the Sender ID to the number of another person. This could be used as a tool to defraud or harass, such as like luring children to a specific location or writing something malicious and have it appear to come from a particular person.
+For example, someone could set the Sender ID to another person's number to defraud or harass — luring children to a location, or sending malicious content that appears to come from a known sender.
 
-To reduce the abuse and ensure the legitimate use of this feature to protect our customers, while still providing our customers with the ability to customize the Sender ID, each customized Sender ID must be registered and authenticated before use.
+To prevent abuse while still offering customisation, every Sender ID must be registered and authenticated before use.
 
 ## Limitations
 
-Still most Belgian, US and Mexican mobile operators does not support aplha numerical sender information. If you send a SMS to a recipient under one of these mobile operators, your Sender ID will be replaced with a (random looking) number. This also applies to some other features such as multi-part sms and unicode. See the [Whitelist of countries supporting SMS Sender ID](https://support.emarketeer.com/documentation/sender-id/whitelist-of-countries-supporting-sms-sender-id/) for more informatino and a full country list.
+Most Belgian, US, and Mexican mobile operators do not support alphanumeric sender information. If you send to a recipient on one of those networks, your Sender ID is replaced with a randomly generated number. The same constraint applies to some other features such as multi-part SMS and Unicode. See the [whitelist of countries supporting SMS Sender ID](https://support.emarketeer.com/documentation/sender-id/whitelist-of-countries-supporting-sms-sender-id/) for the full list.
 
-It is also important to know that our SMS Service provider (46elks) can’t always guarantee that the SMS Sender ID will be displayed.
+Our SMS service provider (46elks) cannot always guarantee that the Sender ID is displayed. 46elks and their upstream supplier disable the feature on certain routes because some mobile operators filter messages, which would otherwise cause non-delivery. Delivery is prioritised over presentation.
 
-46elks do disable the feature on their end for certain routes and so does their upstream supplier, this is due to the fact that mobile operators tend to filter text messages, which result in non delivery and the number one priority is message delivery and not the features that go along with it. There are loads of mobile operators that that do not allow SMS aggregators to use the sender I.D feature. What we would recommend in a case where the mobile users must know who the message is from, you can specify your company, product name or system name in the first line of the message, as most handsets nowadays lets you see the fist few characters of the text message before you open it.
+If the recipient must know who the message is from, include your company, product, or system name in the first line of the message. Most handsets show the first few characters of an SMS before it is opened.

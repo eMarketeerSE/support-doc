@@ -1,72 +1,72 @@
 # Subscriptions
 
-**Instead of letting your recipients unsubscribe from all future sendouts, subscriptions adds the option to fine tune which types of emails they want to receive in the future. This increases your service to your audience and reduces full unsubscribes.**
+Subscriptions let contacts fine-tune which types of email they receive from you, instead of having to unsubscribe from everything. This article explains how subscriptions work and how to set them up.
 
-This document describes subscriptions and helps you get started.
+Offering granular choice improves the contact's experience and reduces full unsubscribes.
 
-### Description
+## How subscriptions work
 
-Subscriptions mainly consists of a list of categories, one for each type of communication you are sending.
+A subscription setup is a list of categories, one for each type of communication you send.
 
-Lets say you have these categories:
+For example:
 
--   Newsletters
--   Event invitations
--   Special offers
+- Newsletters
+- Event invitations
+- Special offers
 
-This means every time you send an email, you need to set which subscription category it belongs to. When the email is sent, eMarketeer will skip any recipient who has unsubscribed from this specific category. The same recipient may still receive emails from other subscription categories.
+Every time you send an email, you choose which subscription category it belongs to. When the email is sent, eMarketeer skips any contact who has unsubscribed from that category. The same contact may still receive emails in other categories.
 
-The subscription categories will be visible on the subscription center (public unsubscribe page).
+The subscription categories are shown in the subscription centre (the public unsubscribe page).
 
-Note: You can set an email to have no subscription category. In this case only total unsubscriptions will be rejected.
+You can also send an email with no subscription category. In that case, only total unsubscribes are excluded.
 
-### Setting up subscription categories (Admin privileges required)
+## Set up subscription categories
 
-First of all, if you do not have set up any subscriptions eMarketeer will work as usual, only offering total unsubscription to the recipients.
+Administrator privileges are required.
 
-To add subscriptions, head over to “Account” and find “Subscription and send outs”.
+If you do not configure subscriptions, eMarketeer works as before and only offers total unsubscribe to contacts.
 
-![](../assets/subscriptions/2018-05-22_08-52-07.png)
+1. In eMarketeer, go to **Account** and find **Subscription and send outs**.
 
-On this page you will find the subscription categories, create or manage existing ones.
+   ![Subscription and send outs section in Account settings](../assets/subscriptions/2018-05-22_08-52-07.png)
 
-![](../assets/subscriptions/2018-05-22_08-54-54.png)
+2. On the subscriptions page, create or manage your categories.
 
-When you create subscriptions, think about the following.
+   ![Manage subscription categories](../assets/subscriptions/2018-05-22_08-54-54.png)
 
--   The name you provide will be visible to recipients, so make them short and clear.
--   Keep the list short and do not be too specific. Generally choose a subscription for each type of send out you think your audience want to manage.
+When you create subscriptions, keep these guidelines in mind:
 
-Once you have created the subscriptions they will available in eMarketeer and publicly.
+- The category name is shown to contacts. Keep names short and clear.
+- Keep the list short and avoid being too specific. Use one category per type of send your audience would want to manage.
 
-### Your contacts
+Once created, subscriptions are available in eMarketeer and on the public subscription centre.
 
-Now that you have created a list of subscriptions it will be available on each contact card in eMarketeer.  
-All subscriptions will be ON for all contacts. Any new contact created will also have all subscriptions set to ON.  
-It’s up to the contacts to turn any subscription off the next time they go to the subscription center.
+## Subscriptions on your contacts
 
-You can however use bulk update to set subscriptions to on or off for any selection.
+Subscriptions appear on every contact card in eMarketeer. All subscriptions are set to ON for existing and new contacts. It is up to the contact to turn any subscription off in the subscription centre.
 
-### Creating an email
+You can also use bulk update to set subscriptions on or off for a selection of contacts.
 
-When creating a new email from a template, you will notice a new setting: the subscription droplist.
+## Choose a subscription when creating an email
 
-![](../assets/subscriptions/2018-05-22_09-10-14.png)
+When you create a new email from a template, you see a new setting: the subscription droplist.
 
-Select the subscription category which matches the type of email you are sending.
+![Subscription droplist when creating an email](../assets/subscriptions/2018-05-22_09-10-14.png)
 
-Note: From time to time you will send an email which is not the typical send out and does not match an existing subscription. In this case you can set the category to “none”. Just remember everyone who is not totally unsubscribed (legal basis = withdrawn) will get this email.
+Select the category that matches the type of email you are sending.
 
-If you choose to copy an existing email, the new copy will get the same subscription as the original. It can however be changed again when editing the email.
+If you send an email that does not fit any existing category, set the category to **none**. Every contact who is not totally unsubscribed (legal basis = withdrawn) receives it.
 
-![](../assets/subscriptions/2018-05-22_09-11-03.png)
+When you copy an existing email, the copy inherits the subscription of the original. You can change it while editing.
 
-### Subscription center
+![Subscription setting on a copied email](../assets/subscriptions/2018-05-22_09-11-03.png)
 
-You do not have to change anything in your templates to get the new subscription center. It’s just a new name for the “unsubscribe page”. It will looks the same, just with added option to manage subscriptions. To unsubscribe fully, the recipient needs to check a checkbox to “Unsubscribe from all future sendouts” (which will withdraw the marketing consent and stop all emails).
+## Subscription centre
 
-![](../assets/subscriptions/2018-05-22_09-05-44.png)
+You do not need to change anything in your templates to use the new subscription centre. It is the existing unsubscribe page with added options to manage subscriptions. To unsubscribe fully, the contact checks **Unsubscribe from all future sendouts**, which withdraws marketing consent and stops all emails.
 
-### Automations
+![Subscription centre with category options](../assets/subscriptions/2018-05-22_09-05-44.png)
 
-You will also find new automations to set and unset subscriptions to be used on any component event.
+## Automations
+
+New automations are available to set and unset subscriptions, and can be used on any component event.

@@ -1,12 +1,16 @@
-# Resetting a SuperOffice integration
+# Reset a SuperOffice integration
 
-In order to reset an integration for SuperOffice Online, follow these steps.
+This article explains how to reset a SuperOffice Online integration if it stops working or needs to be reconnected.
 
-1.  Log in to your eMarketeer account
-2.  Navigate to Account -> Plugins & Integrations -> SuperOffice
-3.  Click to set integration to “None” and then “Apply” the changes.  
-    ![](../assets/resetting-a-superoffice-online-integration/soreset.png)
-4.  Now the integration is disabled. Now turn it back on again by clicking the “ONLINE” or “ON PREMISE” radiobutton and then “Apply Changes” again.
-5.  This will bring up the login screen for SO. Login in and wait for the process to finish.
+## Reset the integration
 
-Your integration is now reset and active again.
+1. Sign in to your eMarketeer account.
+2. Go to **Account** > **Plugins & Integrations** > **SuperOffice**.
+3. Set the integration to **None** and click **Apply** to save the change.
+
+   ![SuperOffice integration set to None](../assets/resetting-a-superoffice-online-integration/soreset.png)
+
+4. The integration is now disabled. Re-enable it by selecting the **ONLINE** or **ON PREMISE** radio button and clicking **Apply Changes** again.
+5. Sign in on the SuperOffice login screen and wait for the process to finish.
+
+Your integration is reset and active again.

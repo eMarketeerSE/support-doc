@@ -1,18 +1,20 @@
-# On premise: Installation process
+# On premise: installation process
 
-#### Requirements
+This article outlines the requirements and high-level steps for integrating an on-premise SuperOffice installation with eMarketeer.
 
-In order to integrate an on premise installation of SuperOffice you need the following.
+## Requirements
 
--   A SuperOffice installation version 7.5 or newer.
--   A SuperOffice user for the integration.
--   NetServer running on Internet Information Server (IIS).
--   NetServer exposed to eMarketeer over internet.
+To integrate an on-premise SuperOffice installation, you need the following:
 
-#### Actions performed during the integration setup.
+- A SuperOffice installation version 7.5 or newer.
+- A SuperOffice user dedicated to the integration.
+- NetServer running on Internet Information Services (IIS).
+- NetServer exposed to eMarketeer over the internet.
 
-Once eMarketeer has access to SuperOffice and the integration is enabled, eMarketeer installs new items to SuperOffice such as web panels, fields, types etc. [Read more about these actions](/documentation/actions-performed-during-set-up/)
+## Actions performed during setup
 
-#### Starting the integration
+Once eMarketeer has access to SuperOffice and the integration is enabled, eMarketeer installs new items in SuperOffice such as web panels, fields, and types. [Read more about these actions](/documentation/actions-performed-during-set-up/).
 
-The main part of the manual integration process is to make NetServer accessible by eMarketeer. Depending on security solution chosen this normally involves restricting/enabling access with a firewall for the communication between eMarketeer and NetServer.
+## Starting the integration
+
+The main manual step is making NetServer accessible to eMarketeer. Depending on your chosen security solution, this usually involves opening firewall rules for the communication between eMarketeer and NetServer.

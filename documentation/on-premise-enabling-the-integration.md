@@ -1,20 +1,22 @@
-# On premise: Enabling the integration
+# On premise: enabling the integration
 
-This is the final step of the integration process. For it to work your NetServer must be accessible from eMarketeer and you need a SuperOffice user for the integration.  
-If you haven’t completed these steps, [follow these instructions](/documentation/on-premise-netserver-url-and-user-creation/).
+This is the final step of the SuperOffice on-premise integration. Your NetServer must already be reachable from eMarketeer and you need a SuperOffice user dedicated to the integration.
 
-### Enabling the integration
+If you have not completed these prerequisites, [follow these instructions](/documentation/on-premise-netserver-url-and-user-creation/).
 
-Once SuperOffice is ready, the rest of the integration is made from the eMarketeer application.
+## Enable the integration
 
-Log in to eMarketeer and go to “Account” and “Plugins and integrations”. Click on “Super Office”. This takes you to the integration settings page.
+Once SuperOffice is ready, complete the rest of the setup in eMarketeer.
 
-![onpremisesettings](../assets/on-premise-enabling-the-integration/onpremisesettings.png)
+1. Sign in to eMarketeer and go to **Account** > **Plugins and integrations**.
+2. Click **Super Office** to open the integration settings page.
 
-Check the “On premise” radio button and fill out the form entering the username, password and WSDL base URL (pointing to your NetServer SVC-file directory).
+![SuperOffice on-premise integration settings](../assets/on-premise-enabling-the-integration/onpremisesettings.png)
 
-Click “Apply changes” to start the integration.
+3. Select the **On premise** radio button.
+4. Fill out the form with the username, password, and WSDL base URL pointing to your NetServer SVC-file directory.
+5. Click **Apply changes** to start the integration.
 
-Note: During the integration process (After clicking “Apply changes”) eMarketeer will install items in your SuperOffice. [Read more about those actions here](https://help.emarketeer.com/hc/en-us/articles/205695665).
+During the integration process, eMarketeer installs items in your SuperOffice instance. [Read more about those actions](https://help.emarketeer.com/hc/en-us/articles/205695665).
 
-After a successful integration the systems are ready for work.
+When the integration completes successfully, both systems are ready to use.
