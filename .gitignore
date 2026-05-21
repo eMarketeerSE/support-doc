@@ -1,0 +1,13 @@
+# Migration script
+tools/migrate/node_modules/
+tools/migrate/dist/
+tools/migrate/.cache/
+
+# Editor / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Logs
+*.log
