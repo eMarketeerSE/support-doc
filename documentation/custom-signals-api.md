@@ -1,25 +1,26 @@
 # Custom Signals API
 
-This tutorial explains how to use the Signals API to send in contact events using this API  
-[https://api-doc.emarketeer.com/?urls.primaryName=Engagement](https://api-doc.emarketeer.com/?urls.primaryName=Engagement)
+This tutorial explains how to use the Signals API to send contact events into eMarketeer.
+
+API reference: [https://api-doc.emarketeer.com/?urls.primaryName=Engagement](https://api-doc.emarketeer.com/?urls.primaryName=Engagement)
 
 * * *
 
-Contacts in eMarketeer mainly consists of these three parts:
+Contacts in eMarketeer consist of three main parts:
 
--   Contact fields
--   Engagement
--   Legal basis (consent)
+- Contact fields
+- Engagement
+- Legal basis (consent)
 
-Engagement is by default registering every interaction the contact makes with campaign components such as emails, forms, landing pages etc. which can be seen on the contact timeline. These interactions can be used to set lead score, trigger Journeys and more. It also gives a 360 view of what this contact has been interacting with over time.
+Engagement records every interaction a contact makes with campaign components such as emails, forms, and landing pages. These interactions appear on the contact timeline and can be used to set lead score, trigger Journeys, and more. They give a 360-degree view of what the contact has interacted with over time.
 
 ![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.07.08.png)
 
 ### Custom Signals
 
-With the Custom Signals API you can send in contact events from any other system to eMarketeer, as long as you have the email address of the contact. These signals will be added as timeline events on the contact to be used in filters, scoring, Journeys and lead generation.
+With the Custom Signals API you can send contact events from any other system into eMarketeer, as long as you have the contact's email address. These signals are added as timeline events on the contact and can be used in filters, scoring, Journeys, and lead generation.
 
-In the following scenario you have an arcade game “Space Invaders”, and each time someone plays the game you want to store the event in eMarketeer. You could then trigger Journeys based on different critera. Ex. send an email for anyone who get a score over 100.
+In the following scenario, you have an arcade game called "Space Invaders". Each time someone plays the game, you want to record the event in eMarketeer. You could then trigger Journeys based on different criteria — for example, send an email to anyone who scores over 100.
 
 ![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.14.03.png)
 
@@ -27,7 +28,7 @@ In the following scenario you have an arcade game “Space Invaders”, and each
 
 ### The custom signals structure
 
-To send the above example as a Signal theough the API, you would use this payload. Please continue reading about how to use the different parameters.
+To send the example above as a signal through the API, you would use this payload. The parameters are explained below.
 
 ```
 {
@@ -54,44 +55,44 @@ To send the above example as a Signal theough the API, you would use this payloa
 }
 ```
 
-A custom signal has the following main parts
+A custom signal has the following main parts.
 
 **Adapter**
 
-This is the top level name of the signal and will be listed directly under “engagement” in the filter.
+The top-level name of the signal. It is listed directly under "Engagement" in the filter.
 
 ![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.46.43.png)
 
-Make sure you keep the different adapter names to a minimum since all distinct adapter names will be listed directly under engagement. A good practice is to use the service name of the signals you are sending. An adapter can then send multiple types of events.
+Keep the number of distinct adapter names to a minimum, since all distinct adapter names appear directly under Engagement. A good practice is to use the service name of the signals you are sending. An adapter can then send multiple types of events.
 
-Our custom signal will have the name “Space Invaders”
+In this example, the adapter name is "Space Invaders".
 
 **Category**
 
-This is the “verb” name. In the Space Invaders example we can have different categories. Such as
+The "verb" of the signal. In the Space Invaders example, possible categories include:
 
--   Game played
--   Inserted coins
--   Got high score
+- Game played
+- Inserted coins
+- Got high score
 
 ![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.58.48.png)
 
-In the filter, once selecting the adapter name “Space Invaders” you will see the different categories of signals you have sent for this adapter.
+In the filter, once you select the adapter name "Space Invaders", you see the categories of signals you have sent for that adapter.
 
 **Event data**
 
-With the signal you can send event data with any information you need. In this case the “Game played” signal tells Player Name, Reached Level and Score. These can all be used in the contact filter to find all who played a game and reached a certain score or level.
+You can send any information you need with the signal. In this case, the "Game played" signal carries Player Name, Reached Level, and Score. All of these can be used in the contact filter to find contacts who played the game and reached a certain score or level.
 
 ![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png)
 
 **Contact data**
 
-All signals needs to be assigned to a contact. You need at least an email address but can send any standard or custom field to the contact card to create or update the contact.
+All signals must be assigned to a contact. At minimum, you need an email address, but you can send any standard or custom field to the contact card to create or update the contact.
 
 **Consent (optional)**
 
-Along with the signal you can also send legal basis data for marketing emails.
+You can also send legal basis data for marketing emails along with the signal.
 
 **Event Time**
 
-This is the timestamp you want for the event in the timeline. You send it as “Zulu time” (UTC).
+The timestamp you want for the event in the timeline. Send it as Zulu time (UTC).

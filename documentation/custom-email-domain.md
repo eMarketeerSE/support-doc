@@ -1,37 +1,39 @@
-# Using your own Email Domain with eMarketeer
+# Using your own email domain with eMarketeer
 
-## 3 simple steps to use your own email domain
+This article walks through authenticating your own email domain in eMarketeer in three steps.
 
-**Not only is sending emails using your own domain important to get the best deliverability, trust and response from your recipients, it is required in order to send emails with eMarketeer at all. To do this you need to add records in your DNS that give “proof” that it’s authorized by your company and not a fraudulent email. eMarketeer allows you to get full validation of the emails sent that will pass SPF, DKIM and DMARC checks by the receiving email servers.**
+Sending email from your own domain is required to send any email through eMarketeer. It also gives you the best deliverability, trust, and response from your recipients. To authenticate, you add DNS records that prove the email is authorized by your company and not fraudulent. eMarketeer supports SPF, DKIM, and DMARC validation.
 
-When you authenticate a domain to be used with eMarketeer you will be able to use this domain as from address in your emails. This will also use your domain as return-path which will align with your DMARC.
+When a domain is authenticated, you can use it as the From address in your emails. The domain is also used as the return-path, which aligns with DMARC.
 
-**Too technical? Don’t worry, follow these steps and we have prepared an email that you can forward to your IT department.**
+If this sounds too technical, follow the steps below. eMarketeer can also generate a pre-written email you can forward to your IT department.
 
-### 1\. Go to email domains settings
+### 1. Go to email domains settings
 
-Go to your [email domain settings](https://app.emarketeer.com/corporate/gui/account/customize/domain/new.php), you need to be logged in to eMarketeer as administrator for the link to work. You can also get to your email domain settings by going to “account settings” -> “email domains” in eMarketeer.
+Go to your [email domain settings](https://app.emarketeer.com/corporate/gui/account/customize/domain/new.php). You must be logged in to eMarketeer as an administrator for the link to work. You can also reach the settings by going to "Account settings" > "Email domains" in eMarketeer.
 
-### 2\. Add domain
+### 2. Add a domain
 
-Click “add a domain” and type the domain you’d like to use, for example, yourcompany.com. Click “add.” Note that you don’t have to add ‘www’ before the domain name.
+Click "Add a domain" and type the domain you want to use, for example `yourcompany.com`. Click "Add". You do not need to add `www` before the domain name.
 
-### ![](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.27.png)
+![](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.27.png)
 
-### 3\. Update your DNS records
+### 3. Update your DNS records
 
-You now see a list of records that needs to be added to your DNS. When the records are added to the DNS, click “Authenticate.”
+eMarketeer shows a list of records that need to be added to your DNS. When the records are added, click "Authenticate".
 
-**![](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.42.png)**
+![](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.42.png)
 
 ### Ask your IT department
 
-If you don’t have access or knowledge about your DNS, click the “generate email” link in the bottom of the dialog. A pre-written email with the records will pop up and you can send it to the person that’s in charge of the domains at your company. Usually, it’s someone in the IT department.When the records have been added correctly to the DNS, they are marked green when clicking the “authenticate” button. Please note that DNS changes often update rather quickly but it might take up to 48 hours. You can now send emails from your domain!
+If you do not have access to your DNS, click the "Generate email" link at the bottom of the dialog. A pre-written email with the records opens, ready to send to whoever manages domains at your company — usually someone in IT.
 
-**![](../assets/custom-email-domain/SCR-20240321-jgsz.png)**
+When the records have been added correctly, they are marked green after you click "Authenticate". DNS changes often propagate quickly, but can take up to 48 hours. After authentication, you can send emails from your domain.
 
-**Mandatory and optional fields**
+![](../assets/custom-email-domain/SCR-20240321-jgsz.png)
 
-The mandatory fields are DKIM and SPF. Without these the emails will fail checks by spam filters.
+### Mandatory and optional fields
 
-The optional fields are DMARC and Email From. This protects your emails even more and makes sure DMARC will pass. The Email From will use your own domain also in the return path of the email (but received by eMarketeer).
+The mandatory fields are DKIM and SPF. Without these, emails fail checks by spam filters.
+
+The optional fields are DMARC and Email From. These protect your emails further and make sure DMARC passes. Email From uses your own domain as the return path of the email (but the address is still received by eMarketeer).
