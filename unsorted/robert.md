@@ -1,3 +1,0 @@
-# Robert – eMarketeer Support
-
-Smarter lead capture. Smarter tracking. With our biggest upgrade in a while, you’ll generate better leads – and know exactly where they come from. 5 Real-life examples of what YOU can now do: Build branded forms with quizzes, scoring, and translation – perfect for global campaigns or local events. Track every visitor interaction without cookies \[…\]
