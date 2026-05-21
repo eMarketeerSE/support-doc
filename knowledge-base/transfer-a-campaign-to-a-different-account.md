@@ -1,38 +1,36 @@
 # Transfer a campaign to a different account
 
-**In eMarketeer you can transfer a whole campaign to a different account. This comes in handy if your organisation uses multiple separate accounts and you want to send useful campaigns between each other.** **When you transfer a campaign only components will be transfered. No contacts or automations will be transfered to the new account.**
+You can transfer a copy of a campaign from one eMarketeer account to another. This helps when your organisation runs several separate accounts and wants to share work between them.
 
-Note! Transferirng a campaign will transfer a **copy** of your campaign. It will not disappear from your account.
+Only the campaign components are transferred. Contacts and automations stay in the original account, and the original campaign remains in place — the destination receives a copy.
 
-### Preparations
+### Before you start
 
 You need two things:
 
-1.  A campaign that you want to transfer
-2.  The EMID of the destination account.
+1. A campaign you want to transfer.
+2. The EMID of the destination account.
 
-### Getting the destination EMID
+### Get the destination EMID
 
-The EMID is a unique identifier string for an eMarketeer account. To get it you need a user of the destination account to log in to their account and click “Account” -> “My Identifier Code (EMID)”.
+The EMID is a unique identifier for an eMarketeer account. Ask a user on the destination account to log in and click "Account" → "My Identifier Code (EMID)".
 
-![](../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png)
+![EMID lookup under the Account menu](../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png)
 
-Ask the user to copy the code and send it to you. Once you have it you are ready to transfer.
+Have them copy the code and send it to you.
 
 ### Transfer the campaign
 
-Under “Campaigns” in eMarketeer, find the campaign you want to transfer in the list of campaigns.
+Open "Campaigns" and find the campaign you want to transfer in the list. Click the gear icon on the far right of that row, then click "Transfer".
 
-Click the gear icon to the far right in the list for the campaign you want to transfer. In the menu click “Transfer”.
+![Transfer option in the gear menu for a campaign](../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png)
 
-![](../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png)
+A dialog opens and asks for the EMID of the destination account. Paste the EMID you received and click "Fetch User".
 
-Now a dialog box opens which asks you to enter the EMID of the destination account. Paste the EMID you received and click “Fetch User”.
+![Transfer dialog with EMID field](../assets/transfer-a-campaign-to-a-different-account/transferdialog.png)
 
-![](../assets/transfer-a-campaign-to-a-different-account/transferdialog.png)
+Verify the destination account looks correct, then click "Transfer Campaign" to complete the transfer.
 
-When you fetch user, you can verify that the destination account is correct. Complete the transfer by clicking “Transfer Campaign”.
+### After the transfer
 
-### Done!
-
-The receiving account now has a copy of the campaign as the first campaign in the list of campaigns.
+The receiving account now has a copy of the campaign as the first entry in its campaign list.

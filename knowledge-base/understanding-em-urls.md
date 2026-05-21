@@ -1,47 +1,39 @@
 # Understanding eMarketeer URLs
 
-eMarketeer makes use of a few different types of URLs which can be useful to understand and this article covers the most common ones that you might encounter when using the service. These relate mostly to how Form Components are accessed, so the explanations are written from that perspective.
+eMarketeer uses several URL types, and knowing them helps you pick the right link for each situation. This article focuses on the URLs you encounter when working with Form components.
 
 ### Publishing URL
 
-This URL is the one that eMarketeer gives you when you endeavour to Publish a Form and is the URL that allows anyone to reach the form at any time as long as the Form Component is Live and Open for answers. You can in most cases Identify this URL by the **_&Origin_** part of the URL that by default is set to _&Origin=Direct_ .
+This is the URL eMarketeer gives you when you publish a form. Anyone with the link can reach the form at any time, as long as the Form component is live and open for answers. You can usually identify it by the `&Origin` parameter, which defaults to `&Origin=Direct`.
 
-![Example of a Direct URL](../assets/understanding-em-urls/direct-URL.png)
+![Example of a direct publishing URL](../assets/understanding-em-urls/direct-URL.png)
 
-A Publishing URL with Origin Direct
+Use the Publishing URL in almost all situations — for example, a link in a social media post or on your website — where many different people should be able to open the form.
 
-This URL is to be used for almost all situations and is recommended for cases where many people should be able to click the link to reach the Component, such as a link in a Social Media post or on your Website.
-
-When someone accesses a Form using a Direct URL they are redirected to a unique Session URL.
+When someone opens a form through a Publishing URL, they are redirected to a unique Session URL.
 
 ### Session URL
 
-A Session URL is temporary and is unique for each visitor. It is generated when someone wants to access a form and is used as an anonymous identifier if the visitor answers the form. A Session URL only accepts one answer and has a lifetime of 24 hours, and will stop working once either condition is met. You can Identify this URL by the _**&sessid=**_ part of the URL.
+A Session URL is temporary and unique to each visitor. It's generated when someone opens a form and acts as an anonymous identifier if they submit it. The URL accepts a single answer and expires after 24 hours, whichever comes first. You can identify it by the `&sessid=` parameter.
 
-![An example of a session URL](../assets/understanding-em-urls/Session-URL.png)
+![Example of a session URL](../assets/understanding-em-urls/Session-URL.png)
 
-A Session URL
-
-This URL shouldn’t be used to link to a Form due to the 24 hour lifetime and One Answer limit.
+Don't share a Session URL as a link to the form — the 24-hour lifetime and one-answer limit make it unsuitable.
 
 ### Internal URL
 
-Internal URLs are dynamic and are used to link to other components and files on eMarketeer using id numbers instead of file paths or permanent URLs. These allow you to move components without breaking links or even copy a Campaign and have the duplicated Component’s URLs change to link to the new duplicates of the destination components.
+Internal URLs are dynamic links between components and files inside eMarketeer. They use ID numbers rather than file paths or permanent URLs. This lets you move components without breaking links, and when you copy a campaign, the duplicated components' URLs update to point at the new copies.
 
-![internal url](../assets/understanding-em-urls/2021-04-01-09_40_14-Window.png)
-
-Internal eMarketeer URL
+![An internal eMarketeer URL](../assets/understanding-em-urls/2021-04-01-09_40_14-Window.png)
 
 ### Personalised URL
 
-Personalised URLs can be used when sending a link to a Form via an eMarketeer Email Component to known Contacts. Answers to a Form from a Personalised URL will be linked to the Contact automatically and do not require the visitor to identify themselves in the Form. A Personalised URL isn’t as easy to identify since all eMarketeer links generated for Emails look similar, but below is an example:
+Personalised URLs are used when you send a form link to known contacts through an eMarketeer Email component. Answers from a Personalised URL are linked to the contact automatically, so the visitor doesn't need to identify themselves in the form. Personalised URLs look similar to other eMarketeer email links, so they're not always easy to spot by sight.
 
-![Example of personalised URL](../assets/understanding-em-urls/scramble-URL.png)
+![Example of a personalised URL](../assets/understanding-em-urls/scramble-URL.png)
 
-A Personalised URL
-
-This URL can be used when a Form is for well-known recipients and want their Form submission to be automatically identified as them, such as an Invitation to a meeting or an event. However, be aware that any answer to the form through the link will be made in the original recipient’s name, and forwards of the Email might lead to unexpected situations.
+Use a Personalised URL when the form is meant for known recipients and you want submissions identified automatically — for example, an invitation to a meeting or event. Be aware that any answer submitted through the link is recorded under the original recipient's name, so forwarded emails can produce unexpected results.
 
 ### Anonymous URL
 
-Anonymous URLs are an option to Personalised URLs in Emails and allow multiple people to answer a Form and each answer is recorded separately. This URL acts as a Direct URL, but is specific to Emails and is what we call “Forward Friendly”. Anonymous and Personalised URLs look the same which makes them difficult to identify by sight.
+Anonymous URLs are an alternative to Personalised URLs in emails. They let multiple people answer the same form, with each answer recorded separately. An Anonymous URL behaves like a Publishing URL but is specific to emails and is "forward-friendly". Anonymous and Personalised URLs look the same, so they're difficult to tell apart by sight.

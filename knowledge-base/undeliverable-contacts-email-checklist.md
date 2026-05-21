@@ -1,63 +1,60 @@
-# How to find Undeliverable Email Addresses from Checklist
+# How to find undeliverable email addresses from the checklist
 
-During the process of sending an Email your intended recipient contacts are verified during the Checklist step, where some are Blocked from being addressed in the email sendout. There are several reasons why a contact may be removed from the sendout but the least understood reason is Undeliverable Email Address, and we regularly get asked how one can get a list of these contacts to review and manage. This guide is intended to answer those questions and provide a step-by-step guide to create a list of these contacts.
+When you send an email, recipients are verified at the Checklist step, and some are blocked from the sendout. This guide explains the Undeliverable Email Address category and shows how to build a list of those contacts for review.
 
-* * *
+## What an undeliverable email address is
 
-## What is an Undeliverable Email Address and how are they identified?
+An undeliverable address is one that cannot receive email due to a delivery issue. eMarketeer blocks sends to these addresses to protect your sender reputation — a metric most email services use to separate spam from legitimate mail.
 
-An undeliverable email address is, in short, an address that cannot receive emails due to some delivery issue. eMarketeer blocks emails from being sent to these addresses to protect the account’s Sender Reputation, which is a metric used by most email services to separate spam emails from legitimate emails. An email address is marked as Undeliverable if it previously has “Bounced” with a permanent delivery error, which is shown in [the email report](https://support.emarketeer.com/knowledgebase/email-report-explained/) and on the contact card of the contact. You can read more about Bounces, Sender Reputation, and how eMarketeer protects your sendouts in [this article](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+An address is marked undeliverable when a previous send returned a permanent bounce. You can see this in [the email report](https://support.emarketeer.com/knowledgebase/email-report-explained/) and on the contact card. For more on bounces and sender reputation, see [this article](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
 
-Most addresses blocked by the checklist stage due to being undeliverable is because of the scenario above, but it also does another type of check for this which won’t show up on the affected contact’s contact card. This check of undeliverable addresses is an active verification of the recipient contact’s email service’s ability to receive emails at the time of sending by checking if it is active. If the recipient’s email service is down, then the contacts with addresses using that service will be counted as undeliverable in the checklist report, but it won’t be permanently recorded on their contact card as such service outages usually only are temporary. This means that the contact most likely will get the next email you try to send them, but also that we won’t be able to include them in the list we create using the guide in this article.
+The Checklist also runs a second, live check at send time: it verifies whether each recipient's mail service is currently able to receive email. If a recipient's mail service is temporarily down, that contact is counted as undeliverable for the current send but is not permanently marked on the contact card. The contact will probably receive your next send, but you can't include them in the list this guide builds.
 
-## How to create a list of contacts with Undeliverable Email Addresses of the contacts identified in the Checklist
+## Build a list of contacts with undeliverable addresses
 
-Starting from the Checklist page where you identify that there are some contacts with undeliverable addresses that you want to get a list of, assuming you already have a list of all of your intended recipients there are only a few steps to get a list of only these contacts.
+Start from the Checklist page where you see the undeliverable count. The steps below assume you already have a contact list for the intended recipients.
 
-![Undeliverable addresses count as shown on the checklist page](../assets/undeliverable-contacts-email-checklist/chun1.png)
+![Undeliverable count shown on the Checklist page](../assets/undeliverable-contacts-email-checklist/chun1.png)
 
-Undeliverable Count as seen on Checklist
+#### 1. Navigate to the Contacts page
 
-#### 1\. Navigate to the Contacts page for the eMarketeer Account.
+Open the Contacts section for the account.
 
-#### 2\. Navigate to the Contact Lists on the account using the menu on the left.
+#### 2. Open Contact Lists
 
--   If you don’t have a contact list with the recipients, select Import instead of Contact Lists in the menu and create a contact list, then navigate to the Contact Lists page.
--   If you instead want to check all Undeliveable contacts on your account and not only the ones identified in a checklist, skip ahead to step 4.
+Use the menu on the left to open Contact Lists.
 
-#### 3\. Navigate to the contact list containing the recipients.
+- If you don't have a contact list with the recipients, choose Import instead, create the list, then return to Contact Lists.
+- If you want to check every undeliverable contact on the account rather than only the recipients from a specific send, skip to step 4.
+
+#### 3. Open the contact list with the recipients
 
 ![Steps to navigate to the contact list from the checklist](../assets/undeliverable-contacts-email-checklist/chun2.png)
 
-Navigating to the Contact List
+#### 4. Open the Filter feature
 
-#### 4\. Click on the Filter button to open the filter feature
+Click the Filter button on the right side of the Contacts page.
 
-![the button to access the contact filter feature is on the right side of the contact page](../assets/undeliverable-contacts-email-checklist/chun3.png)
+![Filter button location on the Contacts page](../assets/undeliverable-contacts-email-checklist/chun3.png)
 
-Filter Button Location on the Contacts page
+#### 5. Apply this filter
 
-#### 5\. Use the following filter parameters to only show the contacts with Undeliverable Email Addresses
+Use these parameters to show only contacts with undeliverable email addresses:
 
-\[Delivery: E-mail > Equals > Undeliverable\]
+`[Delivery: E-mail > Equals > Undeliverable]`
 
-![The parameters of a filter for undeliverable contacts are: 1 Delivery plus E-mail, 2 Equals, 3 Undeliverable.](../assets/undeliverable-contacts-email-checklist/chun4.png)
+![Filter parameters: Delivery plus E-mail, Equals, Undeliverable](../assets/undeliverable-contacts-email-checklist/chun4.png)
 
-Parameters for a Filter listing Contacts with Undeliverable Email Addresses
+#### 6. Apply the filter
 
-#### 6\. Apply the filter to create your list
+The resulting list contains the recipients with undeliverable addresses you saw on the Checklist page.
 
-The resulting list of contacts will be the recipients with Undeliverable Email Addresses you saw on the Checklist page during the sendout process.
+## What you can do with the list
 
-At this point, you can do a few things with the contacts, such as the following.
+- Open an individual contact card and check the engagement log for the last email sent. The specific delivery error that marked the contact undeliverable appears there.
+- Export a spreadsheet of the contacts.
+  - To request that the undeliverable status be lifted, export their email addresses (comma-separated) and send the file to support@emarketeer.com.
+  - If you have a CRM integration such as SuperOffice, you can export the contacts to a list on that CRM.
+- Use the [Bulk Actions tool](https://support.emarketeer.com/knowledgebase/bulk-actions-tool/) to manage the contacts. For example, "Add to Contact List" creates a permanent list you can refer back to later.
 
-1.  Investigate individual contact card’s engagement logs for the last email sent to the contact to see the specific delivery error message that marked them Undeliverable.
-2.  Export a spreadsheet text file of the contacts.
-    -   If you need the contacts’ Undeliverable status lifted then you can export their Email addresses (separated by commas) and sent the resulting file to the Support at support@emarketeer.com for help with this.
-    -   Alternatively, if you have a CRM integration on your account such as the one with SuperOffice, then you can export the contacts to a list on that CRM.
-3.  Use the [Bulk Actions tool](https://support.emarketeer.com/knowledgebase/bulk-actions-tool/) to manage the contacts.
-    -   There are several options hen using this tool, one example being ‘Add to Contact List’ which could be used to create a permanent list with these contacts in case you want to refer back to them at a later date.
-
-* * *
-
-Thank you for reading this article, if you still have questions about this then please get in touch with the support via the appropriate channels as found [on this page](https://app.emarketeer.com/corporate/gui/help/contact.php) when logged in to your account.
+If you still have questions, contact support through the channels listed on [this page](https://app.emarketeer.com/corporate/gui/help/contact.php) when logged in.

@@ -1,18 +1,21 @@
 # What should I do before GDPR?
 
-**GDPR goes live on May 25th, 2018. That’s when you need consent to send marketing emails (unless you can claim [Legitimate Interest](https://support.emarketeer.com/knowledgebase/how-does-consent-work/)). eMarketeer will have a system to help you manage consent, but until that’s fully in place, you can still prepare and comply with GDPR right now.**
+GDPR took effect on 25 May 2018, and from that date you need consent to send marketing emails unless you can claim [legitimate interest](https://support.emarketeer.com/knowledgebase/how-does-consent-work/). The practices below help you prepare and stay compliant.
 
-These practices will help you get up and running in time.
+> TODO: verify — this article was written ahead of the 2018 effective date and refers to an upcoming eMarketeer consent system that may now be in place.
 
-**Get consent**
+### Get consent
 
-Use a checkbox in all your forms to get consent for e-marketing. This checkbox should not be pre-ticked and it needs to clearly state what the consent means.  
-Example: “Yes, please keep me updated with your newsletters, events, and product offers”.
+Add a checkbox to all your forms to capture consent for marketing email. Don't pre-tick it, and state clearly what the consent covers.
 
-**Privacy Policy**
+Example: "Yes, please keep me updated with your newsletters, events, and product offers."
 
-Always have a link to your privacy policy which describes, in layman terms, how you handle data, what it’s used for and for how long it’s stored. You can also have a checkbox to consent to these terms.
+### Privacy policy
 
-**Store consent**
+Link to your privacy policy from every form. The policy should describe, in plain language, how you handle data, what you use it for, and how long you keep it. You can also add a checkbox for the visitor to accept the policy.
 
-When the eMarketeer consent system is in place, you will be able to bulk update any selection of contacts in eMarketeer. This means you can go back to forms, select all contacts who gave consent and update the consent for them all at the same time. You can also create a custom checkbox on the contact card for consent today, and then let an automation tick the box when the contact gives consent via a form. This will then be easy to filter and update in bulk later.
+### Store consent
+
+When the eMarketeer consent system is in place, you'll be able to bulk-update consent on any selection of contacts. That means you can revisit existing forms, select contacts who gave consent, and update them all at once.
+
+In the meantime, you can add a custom consent checkbox to the contact card today and use a journey to tick it when a contact gives consent through a form. Once you have a custom field, you can filter on it and bulk-update later.

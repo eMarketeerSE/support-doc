@@ -1,17 +1,17 @@
 # What happens when I reach my contact limit?
 
-The eMarketeer pay plans are based on the number of contacts you’d like to communicate with. In other words, the pay plan you’re on sets the size of your contact database. You can see your contact database limit on the home page dashboard in your eMarketeer account in the box called “your account.”
+eMarketeer pay plans are sized by the number of contacts you communicate with, so your plan sets the size of your contact database. You can see the limit on the home page dashboard under "your account".
 
-### What happens when I reach the contact limit?
+### What happens at the contact limit
 
-When you’ve reached the contact database limit, you won’t be able to create any new contacts in your eMarketeer account. It means that you cannot accept any form submissions or import contacts. The forms you have published will be closed and show an error message. In the case of a file import, the contacts are listed as rejected.
+When you reach the contact database limit, you can't create new contacts in the account. New form submissions are rejected, file imports list contacts as rejected, and published forms close and show an error message.
 
-### How will I know if I have reached the contact limit?
+### How you know you're approaching the limit
 
-To avoid pausing the account as much as possible, we send notifiers you are closing in on the contact limit. We send you the first warning when you have reached 90% of your contact database capacity. We send the notifiers to the users of your account via email and as chat messages in your eMarketeer account.
+To avoid pausing the account, we send warnings as you get close to the limit. The first warning goes out at 90% of capacity. Warnings reach the users on your account by email and as chat messages inside eMarketeer.
 
-### What can I do to create new contacts again?
+### How to create new contacts again
 
-You need to make sure that you’re under your contact limit again by removing contacts from your account or upgrading it. Reach out to us via the chat in eMarketeer or [by email](mailto:customerservice@emarketeer.com) if you want to upgrade, and we’ll help you out.
+Bring the account back under the limit by removing contacts or upgrading the plan. Contact us through the chat in eMarketeer or [by email](mailto:customerservice@emarketeer.com) if you want to upgrade.
 
-Once you’re under the contact limit, the forms and file import will work again within minutes.
+Once you're under the limit again, forms and file imports start working within minutes.
