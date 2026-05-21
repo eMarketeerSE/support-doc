@@ -29,13 +29,61 @@ When you add, rename, or move a page, update `SUMMARY.md` in the same commit. Fo
 
 ## Voice and style
 
-- Second person ("you"), present tense.
-- Short sentences, plain English. No marketing voice.
-- Lead with the task, not the feature name. "To set up SMTP" beats "SMTP Configuration."
-- Code blocks always have a language hint (` ```bash `, ` ```json `, ` ```typescript `).
-- Screenshots have alt text describing what is shown.
-- No emoji unless the source had one.
-- Do not invent facts, prices, version numbers, or API endpoints. If unclear, leave a `> TODO:` callout and flag it to the user.
+Voice: professional and approachable. Like a colleague who knows the
+product and respects your time. Confident, never breezy. No marketing
+fluff, no exclamation marks, no "easy as pie."
+
+### Tone rules
+- Second person ("you"), present tense, active voice.
+- Short sentences. Average 12–18 words. Break long ones.
+- Lead with the task or outcome, not the feature name. "To set up SMTP"
+  beats "SMTP Configuration."
+- One idea per paragraph. Use paragraphs of 1–3 sentences.
+- No emoji, no "🚀", no exclamation marks.
+
+### Terminology (use these, not synonyms)
+- "Contact" — a person in the database. Not "lead," "subscriber,"
+  "user," or "recipient" (unless quoting an interface label).
+- "Journey" — automated sequence. Not "workflow" or "campaign."
+- "Campaign" — single outbound send. Not "broadcast" or "blast."
+- "Form" — eMarketeer's form builder output. Not "survey" or "page."
+- "Account" — the user's eMarketeer subscription. Not "tenant" or
+  "workspace."
+
+### Structure of an article
+Every article should follow this shape (omit a section only if it
+genuinely doesn't apply):
+1. **One-sentence opener** — what this article is about, written so a
+   user can decide in five seconds whether to keep reading.
+2. **Brief context** — 1–2 sentences. Why this matters, who it's for.
+3. **The how / the details** — the substantive body, broken into H2/H3
+   sections. Use ordered lists for steps, unordered lists for options
+   and considerations.
+4. **What to do next** (optional) — link to a related article if there's
+   a natural follow-up.
+
+### What to fix when rewriting an existing article
+- Strip " – eMarketeer Support" and " - eMarketeer Support" suffixes
+  from the H1.
+- Remove inline bold inside headings: `### **Foo**` becomes `### Foo`.
+- Collapse loose lists: remove blank lines between items unless the
+  source clearly intended a loose list with paragraph-length items.
+- Remove leftover Word/Pages presentational classes if any survived as
+  raw HTML (`<span class="s1">`, empty `<b></b>`).
+- Preserve all images, code blocks, and links as-is. Image alt text
+  should describe what the image shows, not "image" or "screenshot."
+
+### What NOT to change
+- Do not invent facts, version numbers, API endpoints, or pricing.
+- Do not merge, split, or reorder articles. One article in, one out.
+- Do not rename the file (URL stability).
+- If a claim in the source is unclear or contradictory, leave the
+  original wording and add a `> TODO: verify` callout near it.
+
+### What is out of scope (do NOT add)
+- GitBook hint blocks (`{% hint %}`). Not in this pass.
+- New screenshots, embedded videos, or external links.
+- Translations or alternate-language versions.
 
 ## Autonomous vs. confirm-first
 
