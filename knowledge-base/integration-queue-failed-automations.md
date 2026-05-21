@@ -1,40 +1,40 @@
 # Why did the SuperOffice automation fail?
 
-SuperOffice automation events that have been listed as failed are all listed in the Integration Queue: [https://app.emarketeer.com/corporate/gui/account/integrations/integration\_queue.php](https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php) (need to be logged in)
+Failed SuperOffice automation events are listed in the Integration Queue at [https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php](https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php) (login required).
 
-This feature offers a way to review all failed automation events and to re-enqueue them; retrying to launch the failed automation event. Below is a list of known reasons as to why a SuperOffice automation event failed and the suggested resolution.
+From there you can review failed events and re-enqueue them to retry. Below are the known reasons a SuperOffice automation event fails, along with the suggested resolution for each.
 
-### Missing mandatory information
+## Missing mandatory information
 
-If the contact is missing mandatory contact information it will fail, and a yellow warning triangle will be shown. Below is a list of mandatory information.
+If the contact is missing mandatory contact information, the automation fails and a yellow warning triangle is shown. The mandatory fields are:
 
--   Email
--   First name
--   Last name
--   Company (only applicable in older SuperOffice installations)
+- Email
+- First name
+- Last name
+- Company (only applicable in older SuperOffice installations)
 
-_Make sure the contact does not miss mandatory information. Then re-enqueue._
+Add the missing information to the contact, then re-enqueue.
 
-### Bad External ID
+## Bad External ID
 
-When a contact triggers a SuperOffice automation eMarketeer will check the “External ID” field of the contact. If the field has a defined value (not empty), eMarketeer will attempt to perform the SuperOffice task using the specified value as an id of SuperOffice contact. If no contact in SuperOffice matches the value the automation will fail. 
+When a contact triggers a SuperOffice automation, eMarketeer checks the contact's External ID field. If the field has a value, eMarketeer attempts the SuperOffice task using that value as the SuperOffice contact id. If no SuperOffice contact matches the value, the automation fails.
 
-_Remove the bad External ID from the contact. Then re-enqueue._
+Remove the bad External ID from the contact, then re-enqueue.
 
-### Automation refer to old SuperOffice resources
+## Automation refers to old SuperOffice resources
 
-Older automations may refer to SuperOffice resources that have since been deleted. E.g. if specific projects, selections or interest codes that are deleted are referred to the automation will fail.
+Older automations may reference SuperOffice resources that have since been deleted, such as projects, selections, or interest codes. If the referenced resource no longer exists, the automation fails.
 
-_Edit the automation and update it to contain existing SuperOffice resources. Then re-enqueue._
+Edit the automation to reference existing SuperOffice resources, then re-enqueue.
 
-### No connection to server / throttled network (request limits) 
+## No connection to server or throttled network
 
-If you are using your own SuperOffice server and this server is down, the network is down or if anything else prevents eMarketeer from communicating with your server the automation will fail. In some cases when a large amount of automations or feed activities are generated, communication may be throttled by the SuperOffice server preventing the automation from perfoming the task.
+If you use your own SuperOffice server and the server is down, the network is down, or anything else prevents eMarketeer from communicating with the server, the automation fails. When a large volume of automations or feed activities is generated, the SuperOffice server may also throttle communication and prevent the task from running.
 
-_Wait until SuperOffice can be reached. Then re-enqueue._
+Wait until SuperOffice can be reached, then re-enqueue.
 
-### SuperOffice online service overloaded
+## SuperOffice Online service overloaded
 
-On rare occasions SuperOffice Online is under too much load and their service is disrupted, preventing the service from being reached. During this time automations will fail.
+On rare occasions, SuperOffice Online is under heavy load and the service is disrupted. Automations fail while the service is unreachable.
 
-_Wait until SuperOffice can be reached. Then re-enqueue._
+Wait until SuperOffice can be reached, then re-enqueue.

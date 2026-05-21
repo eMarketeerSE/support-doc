@@ -1,13 +1,17 @@
 # How will eMarketeer work with SuperOffice in compliance with GDPR?
 
-**Just like eMarketeer, SuperOffice will introduce features during Q1 and Q2 2018 to manage consent and subscriptions. Would you then need to collect consent in two separate systems?**
+eMarketeer and SuperOffice keep consent and subscription preferences in sync so you only collect them once.
 
-As eMarketeer can run as a  stand-alone program, it needs its own consent system. However, if you’re a SuperOffice user, you most likely treat SuperOffice as your master system. Hence, eMarketeer should replicate and update SuperOffice when changes are made online.
+SuperOffice introduced its own consent and subscription features during Q1 and Q2 2018. If you use both systems, you should not have to manage consent in two places.
 
-To manage consent and subscriptions, eMarketeer will seamlessly work with SuperOffice:
+## How the sync works
 
--   New contacts added through lead report will have consent and subscriptions set in SuperOffice based on eMarketeer settings.
--   Imports from SuperOffice to eMarketeer will have consent and subscriptions set.
--   When a change of consent or subscription preferences happens in either system, the other system is also updated.
+eMarketeer can run as a stand-alone product, so it keeps its own consent system. If you use SuperOffice as your master system, eMarketeer replicates and updates SuperOffice when changes happen online.
 
-It’s important that these settings are synced between eMarketeer and SuperOffice to avoid sending emails to someone who withdrew consent or changed their subscription preferences, which is why the integration will be updated to handle this seamlessly.
+The integration covers these scenarios:
+
+- New contacts added through the lead report have their consent and subscriptions set in SuperOffice based on eMarketeer settings.
+- Imports from SuperOffice to eMarketeer carry consent and subscription values across.
+- When consent or subscription preferences change in either system, the other system is updated.
+
+Keeping these settings in sync prevents sends to contacts who withdrew consent or changed their subscription preferences.

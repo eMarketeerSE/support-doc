@@ -1,51 +1,58 @@
 # Lead Board and SuperOffice
 
-**eMarketeer Lead Board can be used completely through SuperOffice. It allows Sales to manage leads from within SuperOffice and also get insights on contacts and companies through the eMarketeer web panels. Additionally, new leads are automatically matched with SuperOffice contacts and auto-assigned to the responsible sales user.**
+The eMarketeer Lead Board can be used entirely through SuperOffice, so Sales can manage leads from within SuperOffice while still using the eMarketeer web panels for insights on contacts and companies.
 
-When integrating to SuperOffice Online, you will get four main panels to use.
+New leads are automatically matched with SuperOffice contacts and auto-assigned to the responsible sales user.
 
--   The Lead Board – As a main web panel where all leads are delivered and managed.
--   Company Summary – Side panel on company that shows a summary of the company from eMarketeer
--   Contact Summary – Side panel on contact view, showing data on the contact from eMarketeer
--   Automation Queue – Showing all automations waiting for the corresponding contact to be matched or created in SuperOffice.
+## Panels
 
-### Integration
+When you integrate with SuperOffice Online, you get four main panels:
 
-When the integration is initialized in eMarketeer, the new panels will be set up by the integration script.
+- The Lead Board — the main web panel where leads are delivered and managed.
+- Company Summary — side panel on a company view that shows a summary of the company from eMarketeer.
+- Contact Summary — side panel on a contact view that shows data on the contact from eMarketeer.
+- Automation Queue — shows all automations waiting for the corresponding contact to be matched or created in SuperOffice.
 
-### Loggin in to the web panels (Automatically)
+## Integration
 
-When viewing a side panel or the Lead Board you need to exist as a user in eMarketeer. When a SuperOffice user loads the eMarketeer web panel a check is made to see if the SuperOffice username (email address) is a user un eMarketeer. If there is a match in email address, the user is automatically logged in to eMarketeer and the web panel.
+When the integration is initialised in eMarketeer, the new panels are set up by the integration script.
 
-If the SuperOffice user email is not found as a user in eMarketeer, the SuperOffice user will see an option to request access to eMarketeer. This will generate an email to the admin users of your eMarketeer account.
+## Logging in to the web panels (automatically)
 
-### The Lead Board
+When viewing a side panel or the Lead Board, you need an eMarketeer user. When a SuperOffice user loads an eMarketeer web panel, a check runs to see if the SuperOffice username (email address) matches an eMarketeer user. If the email matches, the user is logged in to eMarketeer and the panel automatically.
 
-![](../assets/lead-board-and-superoffice/soboard-1024x517.png)
+If the SuperOffice user's email is not found in eMarketeer, they see an option to request access. This sends an email to the admin users on your eMarketeer account.
 
-You will find the Lead Board on the main Web Panel found under the SuperOffice logo. There is also a shortcut in the navigation.
+## The Lead Board
 
-### SuperOffice matching and Auto Assign
+![SuperOffice web panel showing the Lead Board](../assets/lead-board-and-superoffice/soboard-1024x517.png)
 
-When a contact in eMarketeer becomes a MQL and ends up on the Lead Board, it will automatically be checked against SuperOffice to see if the contact already exists in SuperOffice. The search will be done using the contact email address.  
-If a match is found eMarketeer will pick the first contact in the result and save the ContactID to eMarketeer. A match is visualized by the SuperOffice (owl) icon on the lead card.
+You will find the Lead Board on the main web panel under the SuperOffice logo. There is also a shortcut in the navigation.
 
-When a match is successful it will also release any waiting automations on the contact.
+## SuperOffice matching and auto-assign
 
-eMarketeer will also assign the new lead to the correct Sales User in eMarketeer. The assign is done only if the responsible SuperOffice user also is a member of the Sales Team in eMarketeer.
+When a contact in eMarketeer becomes an MQL and reaches the Lead Board, it is automatically checked against SuperOffice to see if the contact already exists there. The search uses the contact's email address.
 
-### The contact summary web panel
+If a match is found, eMarketeer picks the first contact in the result and saves the ContactID to eMarketeer. A match is shown by the SuperOffice (owl) icon on the lead card.
 
-![](../assets/lead-board-and-superoffice/socontact-1024x646.png)
+A successful match also releases any waiting automations on the contact.
 
-On the contact view in SuperOffice you can show the eMarketeer contact summary panel. This will show all relevant and enriched data from eMarketeer on the contact. The matching is made on email address of the contact and shows data only if the contact exists in eMarketeer.
+eMarketeer then assigns the new lead to the correct sales user in eMarketeer. The assignment only happens if the responsible SuperOffice user is also a member of the Sales Team in eMarketeer.
 
-### The company summary web panel
+## The contact summary web panel
 
-![](../assets/lead-board-and-superoffice/socompany-1024x646.png)
+![Contact summary panel inside SuperOffice](../assets/lead-board-and-superoffice/socontact-1024x646.png)
 
-On the company view in SuperOffice you have available the eMarketeer Company Summary which shows enriched data and an overview of all known contacts and their interactions in eMarketeer. The company is identified on domain from their web
+On the contact view in SuperOffice you can show the eMarketeer contact summary panel. It shows enriched data from eMarketeer for the contact. Matching is done on email address, and data is shown only if the contact exists in eMarketeer.
 
-### Automation Queue
+## The company summary web panel
 
-The Automation Queue show all contacts in eMarketeer that have pending automations waiting to get in to SuperOffice. The reason they are pending is that there is no ContactID defined on the eMarketeer Contact (External ID). The contact first needs to be created in SuperOffice using the “Share to CRM” button.
+![Company summary panel inside SuperOffice](../assets/lead-board-and-superoffice/socompany-1024x646.png)
+
+On the company view in SuperOffice you can use the eMarketeer Company Summary, which shows enriched data and an overview of all known contacts and their interactions in eMarketeer. The company is identified by the domain from its web address.
+
+> TODO: verify — original text ends mid-sentence ("identified on domain from their web").
+
+## Automation Queue
+
+The Automation Queue shows all eMarketeer contacts with automations pending entry to SuperOffice. They are pending because no ContactID is defined on the eMarketeer contact (External ID). The contact first needs to be created in SuperOffice using the "Share to CRM" button.

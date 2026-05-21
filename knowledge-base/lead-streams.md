@@ -1,58 +1,53 @@
 # Lead streams
 
-**A lead stream is a set of rules to generate Marketing Qualified Leads (MQL) for sales to process. Any time a contact matches the rules of a lead stream, it will become a lead and be delivered to a set sales team. Once you set up a lead stream it will continuously deliver leads.** 
+A lead stream is a set of rules that generates Marketing Qualified Leads (MQL) for Sales to process.
 
-### Create a lead stream
+Whenever a contact matches the rules of a lead stream, the contact becomes a lead and is delivered to a chosen sales team. Once set up, a lead stream delivers leads continuously.
 
-To create a lead stream you go to the lead board by clicking “Leads” in the top menu.  
-This takes you to the lead board.
+## Create a lead stream
 
-Now, to set up a new lead stream, click on the settings cog wheel in the lead streams box.
+Open the lead board by clicking Leads in the top menu.
 
-![](../assets/lead-streams/editstream.png)
+To set up a new lead stream, click the settings cog wheel in the lead streams box.
 
-This takes you to the lead stream page where you can create or manage lead streams.
+![Lead streams cog wheel on the lead board](../assets/lead-streams/editstream.png)
 
-To create a new lead stream, click the button “Add lead stream”.
+This opens the lead stream page, where you can create or manage lead streams.
 
-![](../assets/lead-streams/2022-06-09_15-04-03.png)
+Click Add lead stream to create a new one.
+
+![Add lead stream button](../assets/lead-streams/2022-06-09_15-04-03.png)
 
 A lead stream needs three things:
 
--   A name and an optional description
--   A set of filter rules
--   One or more sales teams to which it delivers leads to
+- A name and an optional description
+- A set of filter rules
+- One or more sales teams to deliver leads to
 
-#### Add a new rule
+### Add a new rule
 
-Click “add new rule” to add the first criteria for becoming a lead.
+Click Add new rule to add the first criterion for becoming a lead.
 
-In this scenario we want to make contacts who have high lead scores.
+In this scenario we want to find contacts with high lead scores.
 
-![](../assets/lead-streams/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png)
+![Adding a lead score rule](../assets/lead-streams/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png)
 
-Click “Apply” to add the new rule to your lead stream. Feel free to add any other rules to expand or narrow down which contacts are to be considered a lead.
+Click Apply to add the rule. Add other rules to expand or narrow which contacts qualify as leads.
 
-#### Choose a sales team
+### Choose a sales team
 
-Check one or more sales teams which should have access to this lead stream.
+Check one or more sales teams that should have access to this lead stream.
 
-#### Enable the new leads stream
+### Enable the new lead stream
 
-You have the following features on your new lead stream.
+You have the following options on a new lead stream:
 
--   **Enabled/Disabled  
-    **When first created the lead stream is inactive. To set it live, you need to toggle the switch and set it to “Active”. From the moment any new matches to your rules will generate leads.
--   **Clear leads  
-    **You can at any time clear the lead stream from all leads. This will remove the leads from the lead board who match this stream. Note that your lead stream needs to be inactive for this option to be available.
--   **Fetch history  
-    **A lead stream only generates leads from new matches of your rules.  
-    Ex. if you want to make leads from contacts who answers a form, your lead stream will generate leads from form submits coming in while the stream is active.  
-    If you want to make leads from matches back in time, you click the button “Fetch ALL leads from history”. This will generate the retro leads once.  
-    Note: the stream needs to be active for this option to be available.
+- Enabled / Disabled — a new lead stream starts inactive. Toggle the switch to Active to set it live. From that moment, any new matches to your rules generate leads.
+- Clear leads — you can clear the lead stream of all leads at any time. This removes the leads from the lead board that match this stream. The stream must be inactive for this option to be available.
+- Fetch history — a lead stream only generates leads from new matches. For example, if you want to make leads from contacts who answer a form, the stream generates leads only from form submits that come in while the stream is active. To make leads from past matches, click "Fetch ALL leads from history" to generate the historical leads once. The stream must be active for this option to be available.
 
-### Check the results
+## Check the results
 
-Now head back to the lead board to see the new leads.
+Head back to the lead board to see the new leads.
 
-![](../assets/lead-streams/streamsleads-1024x593.png)
+![New leads visible on the lead board](../assets/lead-streams/streamsleads-1024x593.png)

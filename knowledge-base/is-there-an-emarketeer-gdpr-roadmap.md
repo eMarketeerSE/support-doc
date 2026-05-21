@@ -1,26 +1,25 @@
 # The eMarketeer GDPR roadmap
 
-Before May 25 eMarketeer will have provided you with the features needed to work with consent and keep it in sync with SuperOffice (if integrated).
+Before 25 May, eMarketeer will deliver the features you need to manage consent and keep it in sync with SuperOffice if you have that integration.
 
-The roadmap will lead to the following main features.
+> TODO: verify — this article references a 2018 deadline and may be out of date.
 
--   **Consent management  
-    **Features for you set and keep track on consent on all contacts. This will cover bulk updating your existing contacts and cover all scenarios for new contacts wether you import them or if contacts register in web forms.
--   **Subscription management  
-    **eMarketeer introduces subscription management as a way for recipients to fine tune their received communication or unsubscribe completely (withdraw marketing consent).
--   **SuperOffice integration  
-    **Updating the integration for SuperOffice 8.2 and onward to keep consent and subscriptions in sync.
+## Main features on the roadmap
 
-**Timeframe**
+- Consent management — features to set and track consent on all contacts. This covers bulk updates to existing contacts and all scenarios for new contacts, whether you import them or they register through web forms.
+- Subscription management — a way for recipients to fine-tune the communication they receive or unsubscribe completely (withdraw marketing consent).
+- SuperOffice integration — the integration for SuperOffice 8.2 and later is being updated to keep consent and subscriptions in sync.
 
-In 2017 we completed the first part of the GDPR project making sure our platform as a Processor will live up to some important requirements relating to security, audit logs and more. This image illustrated the work performed in 2017.
+## Timeframe
 
-![](../assets/is-there-an-emarketeer-gdpr-roadmap/done.png)
+In 2017 we completed the first part of the GDPR project. This made sure our platform, as a processor, met important requirements around security, audit logs, and more. The image below illustrates the work performed in 2017.
 
-**GDPR roadmap 2018.**
+![GDPR work completed in 2017](../assets/is-there-an-emarketeer-gdpr-roadmap/done.png)
 
-The roll out order of the features will be as listed above, starting with consent management. This will give you more time to migrate. Followed by subscriptions and then the SuperOffice adaptions.
+## GDPR roadmap 2018
 
-The roadmap and it’s features are best illustrated in the following illustration.
+The features will roll out in the order listed above, starting with consent management. This gives you more time to migrate. Subscriptions follow, then the SuperOffice adaptations.
 
-![](../assets/is-there-an-emarketeer-gdpr-roadmap/Roadmap.png)
+The roadmap is illustrated below.
+
+![GDPR roadmap 2018 illustration](../assets/is-there-an-emarketeer-gdpr-roadmap/Roadmap.png)

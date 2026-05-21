@@ -1,30 +1,30 @@
-# Journeys - Overview
+# Journeys overview
 
-## Getting started
+A journey is a sequential list of actions (steps) that runs on every contact who matches the criteria set as its starting point.
 
-### Introduction to Journeys
+Journeys are the automation engine in eMarketeer. They let you nurture contacts, update your CRM, and drive other processes without manual work.
 
-![](../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png)
+## Introduction to journeys
 
-A Journey is a sequential list of actions (steps) that are performed on all contacts that matches the critieria set as the starting point for a Journey.
+![Journey illustration](../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png)
 
-When a new contact matches the criteria (filter) for the Journey, it is added to the journey and is taken through the steps in order.
+When a new contact matches the criteria (filter) for a journey, the contact enters the journey and moves through the steps in order.
 
-### Key Benefits of Using Journeys
+## Key benefits
 
-Journeys can be used for:
+Journeys can be used to:
 
--   Nurturing leads from your website
--   Automating tasks in eMarketeer
--   Create and update tasks in your CRM
--   Automate your Lead Board
+- Nurture leads from your website
+- Automate tasks in eMarketeer
+- Create and update tasks in your CRM
+- Automate your lead board
 
-And much more.
+And more. Using the filter as a starting point, combined with the logic and steps available, gives you a powerful tool for automating any process.
 
-Using the filter as starting point and all the logic and steps available gives you a powerful tool for automating any process.
+## System requirements
 
-### System Requirements
+You can use journeys even without purchasing the add-on. In trial mode you can create as many journeys as you like, but only one journey can be active at a time.
 
-You can use Journeys even without purchasing the add-on. In Trial mode you can create as many Journeys as you like, but only one Journey can be active at the same time.
+## What to do next
 
-[Learn how to create your first Journey.](https://support.emarketeer.com/documentation/journeys/creating-your-first-journey/)
+[Learn how to create your first journey.](https://support.emarketeer.com/documentation/journeys/creating-your-first-journey/)
