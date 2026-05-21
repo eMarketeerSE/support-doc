@@ -1,41 +1,33 @@
 # Default score rules in eMarketeer
 
-Lead scoring works the best when you set up your own lead score rules, but to get you started, there are some default score rules in eMarketeer. Those score rules are active by default and the points are calculated on all your eMarketeer contacts. The score range we have in mind for the default score rules is 0-100 points.
+eMarketeer ships with two sets of default lead score rules so scoring works out of the box, even before you build your own.
 
-We have grouped the rules into two different score sets and the rules are:
+Lead scoring is most useful when you set up rules tailored to your business, but the defaults give you a starting baseline. The default rules are active by default and apply to every contact on the account. The intended score range for the defaults is 0–100 points.
 
-#### Default engagement score set:
+The defaults are grouped into two score sets.
 
-Includes score rules based on the contacts’ marketing engagement, like link clicks and web visits.
+## Default engagement score set
 
-Clicked a link in an SMS                       5 points
+Rules based on a contact's marketing engagement, such as link clicks and web visits.
 
-Clicked any link in an email                 5 points
+- Clicked a link in an SMS — 5 points
+- Clicked any link in an email — 5 points
+- Clicked any link on a landing page — 5 points
+- Submitted any form — 15 points
+- Visited a landing page — 5 points
+- Visited any page on website — 10 points
 
-Clicked any link on a landing page     5 points
+The time frame is 3 months for all engagement rules. A contact only earns the points if the event happened within the past 90 days.
 
-Submitted any form                           15 points
+## Default persona score set
 
-Visited a landing page                         5 points
+Rules based on data on the contact card, such as demographics.
 
-Visited any page on website             10 points
+- First name is set on contact card — 2 points
+- Last name is set — 2 points
+- Job title is set — 2 points
+- Company is set — 2 points
+- Country is set — 2 points
+- Phone number is set — 2 points
 
-The time frame is set to 3 months for all rules. That means that the contacts that fulfill these rules will only get the points if it happened in the past  90 days.
-
-#### Default persona score set:
-
-Includes score rules based on the information on the contact cards, like demographics.
-
-First name is set on contact card     2 points
-
-Last name is set                                 2 points
-
-Job title is set                                    2 points
-
-Company is set                                  2 points
-
-Country is set                                    2 points
-
-Phone number is set                         2 points
-
-The default score sets can be edited, inactivated, or even removed if you’d like. [Visit this tutorial to learn how to set up your own score rules in eMarketeer.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+You can edit, deactivate, or remove the default score sets at any time. [See this tutorial to set up your own score rules.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)

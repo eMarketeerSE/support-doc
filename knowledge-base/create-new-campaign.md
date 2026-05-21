@@ -1,37 +1,40 @@
-# How to Create a New Campaign
+# How to create a new campaign
 
-As a new eMarketeer User one of the first things you will do is to create a new Campaign, here are the steps.
+Create a campaign as the container for the emails, forms, and webpages you want to send and publish.
 
-![](../assets/create-new-campaign/cc1.png)
+A campaign groups related components, so creating one is usually the first step for a new piece of work in eMarketeer.
 
-Creating a Campaign
+![Creating a campaign](../assets/create-new-campaign/cc1.png)
 
-#### 1\. Go to the \[Campaigns\] page via the Navigation bar.
+Creating a campaign
 
-#### 2\. Click the \[Create Campaign\] button at the top-left of the page.
+### 1. Open the Campaigns page from the navigation bar
 
--   If you want the new Campaign to be located in an existing Folder then navigate to the Folder before creating the Campaign.
+If you want the new campaign to live inside an existing folder, navigate to that folder first.
 
-#### 3\. Give your new Campaign a unique name that you will remember.
+### 2. Click [Create Campaign] at the top-left
 
--   The Campaign name is used to identify the Campaign in eMarketeer and it won’t be shown to your Contacts.
--   Optional: Write a description for the Campaign. It will only be shown to you and not to your Contacts.
+### 3. Give the campaign a unique name
 
-#### 4\. Click the \[Create Campaign\] button at the bottom of the page.
+The name identifies the campaign inside eMarketeer and is never shown to your contacts. You can also add an optional description, which is also internal-only.
 
--   This finalizes the creation of the new Campaign and will show you the empty Components page for the new Campaign.
+### 4. Click [Create Campaign] at the bottom of the page
 
-* * *
+This creates the campaign and opens its empty Components page.
 
-#### Next, you will want to add your first Component to the Campaign. This might be an email invitation, registration form, or landing page for your event.
+---
 
-![](../assets/create-new-campaign/cc2.png)
+## What to do next
 
-Add New Component Buttons
+Add your first component to the campaign. This might be an email invitation, a registration form, or a landing page.
 
-#### The following articles explain how to create each type of Component from start to finish:
+![Add new component buttons](../assets/create-new-campaign/cc2.png)
 
-**[Creating your first Email](https://support.emarketeer.com/knowledgebase/basics-creating-email/)  
-[Creating your first Form (Legacy)](https://support.emarketeer.com/knowledgebase/basics-creating-form/)  
-[Creating your first SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/)  
-[Creating your first Webpage](https://support.emarketeer.com/knowledgebase/creating-first-webpage/)**
+Add new component buttons
+
+The following articles cover each component type from start to finish:
+
+- [Creating your first email](https://support.emarketeer.com/knowledgebase/basics-creating-email/)
+- [Creating your first form (Legacy)](https://support.emarketeer.com/knowledgebase/basics-creating-form/)
+- [Creating your first SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/)
+- [Creating your first webpage](https://support.emarketeer.com/knowledgebase/creating-first-webpage/)

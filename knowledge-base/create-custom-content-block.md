@@ -1,71 +1,69 @@
-# How to Create a Custom Content Block (Developer)
+# How to create a custom content block (Developer)
 
-_This article covers advanced use of eMarketeer and is outside the scope of standard Support.  
-If you need help with Developer features then contact your reseller to be put in contact with a development consultant or technician._ 
+Save an edited content block so it becomes reusable across components and templates.
 
-* * *
+This article covers advanced use of eMarketeer and is outside the scope of standard support. If you need help with developer features, contact your reseller to be put in touch with a development consultant or technician.
 
-Users with Developer permissions have the ability to make significant changes to eMarketeer Components, such as editing the HTML of a content block to change how it looks and operates. When you’ve done a large change to a content block you may want to save it for future use, which we will cover in this guide. A saved block will be accessible for all users that edit the Component in the future, not only those with Developer permissions, and if the Component is saved as a Template then the saved block will be accessible in all new components that are created from that Template as well.
+Users with Developer permissions can change the HTML of a content block to alter how it looks and works. Once you have made a substantial edit, you can save the block for reuse. A saved block is then available to every user who edits that component, and if the component becomes a template, the saved block carries through to any new component created from that template.
 
-_Contact your account’s Account Administrator if you need to be given Developer permission on your user account._
+Contact your account's Account Administrator if you need Developer permission on your user account.
 
-* * *
+---
 
-# How to Save a Custom Content Block
+## How to save a custom content block
 
-![img: step 1 of saving a block](../assets/create-custom-content-block/pn_21-07-08_10-30-58.png)
+![Step 1 of saving a block](../assets/create-custom-content-block/pn_21-07-08_10-30-58.png)
 
-Saving a Block
+Saving a block
 
-### 1\. Go into Developer Mode
+### 1. Enable Developer Mode
 
-If you have Developer Permissions you will see the button \[Enable Developer Mode\] in the Tools menu.
+With Developer permissions you will see the [Enable Developer Mode] button in the Tools menu.
 
-### 2\. Select the Block to Save
+### 2. Open the block to save
 
-Double-click the Custom Block to open the block’s configuration menu.
+Double-click the custom block to open its configuration menu.
 
-### 3\. Go to Block Settings
+### 3. Go to Block Settings
 
-Navigate to the Block’s Settings tab in the configuration menu.
+Open the Settings tab in the block's configuration menu.
 
-### 4\. Give a Label to the Block
+### 4. Give the block a label
 
-The Label is the name that is shown in the Component Content section when in use.  
-Example: _1 Column: Text (1/1)_
+The Label is the name shown in the Component Content section when the block is in use. Example: *1 Column: Text (1/1)*.
 
-### 5\. Click Save as Block
+### 5. Click Save as Block
 
-The \[Save as Block\] button will open the window where you can save the custom block to the component.
+[Save as Block] opens the dialog where you can save the custom block to the component.
 
-![img: step 2 saving a block](../assets/create-custom-content-block/pn_21-07-08_10-35-19.png)
+![Step 2 of saving a block](../assets/create-custom-content-block/pn_21-07-08_10-35-19.png)
 
 Save as block window
 
-### 1\. Set a Container Name
+### 1. Set a container name
 
-The container name is used by the system to identify the Custom Block and can be seen in Developer Mode.
+The container name identifies the custom block in the system and is visible in Developer Mode.
 
-### 2\. Set a Unique Label for the Block
+### 2. Set a unique label for the block
 
-This will be the “Name” that will be shown to all Users when using the Custom Block.
+This label is the name every user sees when working with the custom block.
 
-### 3\. Create the Custom Block
+### 3. Create the custom block
 
-Clicking the \[Create\] button will save the Custom Block and adds it to the list of blocks that later can be accessed from the “Add Content Block” menu by all users.
+Clicking [Create] saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in.
 
-![img: shows the new block in the Add Content list](../assets/create-custom-content-block/pn_21-07-08_10-37-10.png)
+![The new block in the Add Content list](../assets/create-custom-content-block/pn_21-07-08_10-37-10.png)
 
-The Block as shown in the Add Content list
+The block as shown in the Add Content list
 
-* * *
+---
 
-# Custom Blocks in Templates
+## Custom blocks in templates
 
-If you wish this block to be available in new components created from Templates then you can either add the block to a template you already have (edit the template), or create a new template from a component where it’s located as in the image below.
+To make the block available in new components built from a template, either edit an existing template to add the block, or create a new template from a component that already contains it, as shown below.
 
-![img: shows creating a template from a component](../assets/create-custom-content-block/pn_21-07-08_10-38-45.png)
+![Creating a template from a component](../assets/create-custom-content-block/pn_21-07-08_10-38-45.png)
 
-Creating a Template from a Component with a Custom Block
+Creating a template from a component with a custom block
 
-As mentioned in the previous section, any new Component created from this Template would also have access to the Custom Block. Additionally, if the Custom Block is later changed and updated in the Template, it would also be updated in the Components already created from that Template.
+Any new component created from that template inherits the custom block. If you later update the block in the template, the change also propagates to components already built from it.

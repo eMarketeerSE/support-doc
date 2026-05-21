@@ -1,36 +1,28 @@
 # DMARC setup
 
-**DMARC** (Domain-based Message Authentication, Reporting & Conformance) is an email authentication protocol that builds on SPF and DKIM and tells mail receivers how to handle unauthenticated email from your domain. It also allows you to receive reports on authentication results. Proper DMARC setup helps protect your domain from spoofing and phishing and improves email deliverability.
+Publish a DMARC record in your DNS so receiving servers know how to handle mail that fails authentication for your domain.
 
-When DMARC is missing from your DNS, receiving servers may not properly evaluate whether mail claiming to be from your domain is legitimately authenticated by SPF and/or DKIM, which can increase the risk of spoofed email and affect deliverability.
+DMARC (Domain-based Message Authentication, Reporting & Conformance) builds on SPF and DKIM and tells mail receivers how to treat unauthenticated email claiming to come from your domain. It also lets you receive reports on authentication results. A correctly configured DMARC record protects your domain from spoofing and phishing and improves deliverability.
 
-To troubleshoot:
+If DMARC is missing from your DNS, receiving servers may not properly evaluate mail that claims to be from your domain, which raises the risk of spoofing and can hurt deliverability.
 
-1.  Go to **Email Domain settings** in your eMarketeer account (admin access required).
-    
-2.  Click **Authorize** for the domain you’re checking.
-    
-3.  The domain setup dialog shows all required DNS records — including any DMARC policy settings you should publish.
-    
-4.  In your DNS provider’s control panel, **verify that a DMARC TXT record exists** (typically under \_dmarc.yourdomain.com) and matches what eMarketeer recommends.
-    
-    -   A DMARC record is a DNS TXT entry that tells mail servers how to handle messages failing authentication checks.
-        
-    -   Common policy options are:
-        
-        -   p=none – monitor only
-            
-        -   p=quarantine – send failed mail to spam/junk
-            
-        -   p=reject – block failed mail entirely 
-            
-5.  Save changes and wait for them to propagate (may take up to 48 hours).
-    
+## To troubleshoot
 
-**Helpful tip:**
+1. Open **Email Domain settings** in your eMarketeer account. Administrator access is required.
+2. Click **Authorize** on the domain you are checking.
+3. The domain setup dialog lists every required DNS record, including the DMARC policy settings you should publish.
+4. In your DNS provider's control panel, verify that a DMARC TXT record exists — typically at `_dmarc.yourdomain.com` — and matches the value eMarketeer recommends.
+   - A DMARC record is a DNS TXT entry that tells mail servers how to handle messages that fail authentication.
+   - Common policy options:
+     - `p=none` — monitor only
+     - `p=quarantine` — send failed mail to spam/junk
+     - `p=reject` — block failed mail entirely
+5. Save the changes and wait for them to propagate. This can take up to 48 hours.
 
-If you don’t manage DNS yourself, you can use the email feature in the dialog to send all required DNS info to someone who does.
+## Helpful tip
 
-For the full email domain setup, [please refer to this guide](https://support.emarketeer.com/documentation/custom-email-domain/).
+If you do not manage DNS yourself, use the email feature in the dialog to send the required DNS information to whoever does.
 
-If you need assistance, please contact [support@emarketeer.com](mailto:support@emarketeer.com)
+For the full email domain setup, see the [custom email domain guide](https://support.emarketeer.com/documentation/custom-email-domain/).
+
+If you need assistance, contact [support@emarketeer.com](mailto:support@emarketeer.com).

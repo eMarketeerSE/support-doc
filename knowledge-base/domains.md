@@ -1,13 +1,11 @@
 # Custom domain
 
-The custom domain is part of your unique links to the content you create in eMarketeer.
+A custom domain replaces the default eMarketeer hostname in the links your account generates.
 
-By default your domain name will be **app.emarketeer**_**.com**_
+By default, the domain on your account is `app.emarketeer.com`. That hostname appears in every URL eMarketeer creates for you, including forms, landing pages, and email tracking links.
 
-This will be part of all urls you generate in eMarketeer such as forms, landing pages, email tracking links etc.
+## Using a via-em.com subdomain as a custom domain
 
-##### Using a via-em.com domain as a custom domain.
+This is the preferred method, because it supports HTTPS. You can claim any unused subdomain of `via-em.com` to brand the links on your account, as long as no other eMarketeer account is already using it.
 
-This is the preferred method as it allows for the use of the https protocol. You may freely use unused subdomains from our via-em.com domain to brand the domain of your account. The sub domain must be free (not used by another emarketeer account).
-
-Example: https://**yourcompany**.via-em.com/
+Example: `https://yourcompany.via-em.com/`
