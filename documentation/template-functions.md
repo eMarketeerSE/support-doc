@@ -1,75 +1,97 @@
 # Template Functions
 
-DCL is used first and foremost with its template engine, Dynamic Content Engine (DCE). DCE uses nested chunks of code (blocks) to obtain a structured layout. Child blocks may be inserted manually by their parent block or they may be “flowed” out at a specific point in the parent block.
+This article covers the template functions in DCL, the language behind eMarketeer's Dynamic Content Engine (DCE). DCE composes structured layouts from nested chunks of code called blocks.
 
-In Emarketeer these blocks are called Container Blocks, A Container Block may have HTML Code and may have child blocks. There are also other blocks like Text, Image and Link Blocks which does not include HTML but most may use parts of DCL. To create blocks in Emarketeer you enter the HTMLEditor in developer mode and use the GUI to add blocks. In order to change the order of the flowed blocks you may use Drag and Drop in the Emarketeer GUI.
+DCE uses nested chunks of code (blocks) to obtain a structured layout. Child blocks can be inserted manually by their parent block, or they can be "flowed" out at a specific point in the parent block.
 
-### Inserting blocks
+In eMarketeer these blocks are called Container Blocks. A Container Block can have HTML code and can have child blocks. There are also other blocks such as Text, Image, and Link Blocks, which do not include HTML but can still use parts of DCL. To create blocks in eMarketeer, open the HTML editor in developer mode and use the UI to add blocks. To change the order of flowed blocks, use drag and drop in the eMarketeer UI.
 
-In order to insert a child block you use the insert\_block function.
+## Inserting blocks
 
+To insert a child block, use the `insert_block` function.
+
+```
 <div id="child">
-	<% insert\_block name="child\_block" \[onlypos="first,middle,last"\] %>
+	<% insert_block name="child_block" [onlypos="first,middle,last"] %>
 </div>
+```
 
-Notice the optional parameter “onlypos”, it is a flow control argument discussed in 5.3 and can be disregarded for now. The child block will start it’s render at the position in the code. You do not need any div tag around the code, it’s here for demonstrational purposes.
+The optional `onlypos` parameter is a flow-control argument discussed in 5.3 and can be ignored for now. The child block starts rendering at the position in the code. The `<div>` tag is not required; it is shown for demonstration.
 
-### Insert code
+> TODO: verify reference to section "5.3"
 
-There is a function for inserting HTML code into DCE. It may seem superfluous as you may just write HTML code in the editor, but this offer you some conditional control and the onlypos argument for flow control.
+## Insert code
 
-<% insert\_code code="<b>Hello World</b>"
-	\[onlypos="first,middle,last"\]
-	\[notempty=String\]
-	\[empty=String\]
+There is a function for inserting HTML code into DCE. It may seem redundant since you can just write HTML in the editor, but this function gives you conditional control and the `onlypos` argument for flow control.
+
+```
+<% insert_code code="<b>Hello World</b>"
+	[onlypos="first,middle,last"]
+	[notempty=String]
+	[empty=String]
 %>
+```
 
-“onlypos” is discussed in 5.3 and not mention further here. “empty” and “notempty” is a conditional argument. It will only insert the code if the string in the argument in either empty or not empty.
+`onlypos` is discussed in 5.3 and not covered further here. `empty` and `notempty` are conditional arguments. They insert the code only if the string in the argument is empty or not empty.
 
-### Flow Control
+> TODO: verify reference to section "5.3"
 
-DCE has functions for flowing content into the resulting document. Flowing means you don’t explicity insert a block using insert\_block. When the container is rendered and its child is not rendered, the block will render all its unrendered childs after all its own content.
+## Flow control
 
-In Emarketeer you go into settings on a container block and mark it as flow block for the children to flow on automatic, this also makes the GUI drag and drop aware in this specific block so you may reorder the childs.
+DCE has functions for flowing content into the resulting document. Flowing means you do not explicitly insert a block using `insert_block`. When the container is rendered and its child is not rendered, the block renders all its unrendered children after its own content.
 
-You may alter the position of where the flow happens, by default it is after the block own content but by isuing a function you may change this. In this example the flow will occur in the “after-this” div.
+In eMarketeer, open the settings on a container block and mark it as a flow block so the children flow automatically. This also makes the UI drag-and-drop aware in that block, so you can reorder the children.
 
+You can change where the flow happens. By default it is after the block's own content, but you can move it. In the example below, the flow occurs in the `after-this` div.
+
+```
 <div id="after-this">
-	<% insert\_block flow="true" %>
+	<% insert_block flow="true" %>
 </div>
+```
 
-A child is aware of its position in the flow and may alter the content based on that fact. A child knows it is inserted first, middle or last in the flow. There are some rule that apply here. think of this as a flow from top to bottom.
+A child is aware of its position in the flow and can change its content based on that. A child knows whether it is inserted first, middle, or last in the flow. Think of this as a flow from top to bottom.
 
 <table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Number of Blocks</td><td></td><td></td><td></td></tr><tr><td valign="top">1 Block</td><td valign="top">Only block, considers itself first and last</td><td></td><td></td></tr><tr><td valign="top">2 Blocks</td><td valign="top">Top block considers itself first</td><td valign="top">Bottom block considers itself last</td><td></td></tr><tr><td valign="top">3 Blocks or more</td><td valign="top">Top block considers itself first</td><td valign="top">All blocks but top and bottom considers themselves middle</td><td valign="top">Bottom block considers itself last</td></tr></tbody></table>
 
-The insert\_block and insert\_code functions have the onlypos argument which will insert code only if the position in the flow matches. If you use a onlypos argument the rendering will be turned of by default until at match is found. The positions in the onlypos arument is a commaseperated list of “first”, “middle” or “last”, They are parsed from left to right and the block is rendered if a block who consider itseld first encounter a first in the argument. Likewise you may want to not render a block, if thats the case you may use the “!” before the position to turn of rendering. Consider this code.
+The `insert_block` and `insert_code` functions take the `onlypos` argument, which inserts code only if the position in the flow matches. If you use `onlypos`, rendering is off by default until a match is found. The positions in the `onlypos` argument are a comma-separated list of `first`, `middle`, or `last`. They are parsed from left to right, and a block renders if a block that considers itself first encounters a `first` in the argument. To suppress rendering, use `!` before the position. Consider this code:
 
-<% insert\_code code="<hr />" onlypos="middle,last,!first" %>
+```
+<% insert_code code="<hr />" onlypos="middle,last,!first" %>
+```
 
-We use a table to explain in full what happens to blocks when they encounter this specific code.
+The table below explains what happens to blocks when they encounter this specific code.
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Number of Blocks</td><td></td><td></td><td></td></tr><tr><td valign="top">1 Block</td><td valign="top">Only block, although “last” matches and would render, “!first” also matches and turns rendering off.</td><td></td><td></td></tr><tr><td valign="top">2 Blocks</td><td valign="top">First block matches on “first” and will turn off rendering.</td><td valign="top">Last block matches on “last” and will render the code.</td><td></td></tr><tr><td valign="top">3 Blocks or more</td><td valign="top">First block matches on “!first” and will never render the code.</td><td valign="top">All blocks but top and bottom matches on “middle” and will render the code.</td><td valign="top">Last block matches on “last” and will render the code.</td></tr></tbody></table>
+<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Number of Blocks</td><td></td><td></td><td></td></tr><tr><td valign="top">1 Block</td><td valign="top">Only block, although "last" matches and would render, "!first" also matches and turns rendering off.</td><td></td><td></td></tr><tr><td valign="top">2 Blocks</td><td valign="top">First block matches on "first" and will turn off rendering.</td><td valign="top">Last block matches on "last" and will render the code.</td><td></td></tr><tr><td valign="top">3 Blocks or more</td><td valign="top">First block matches on "!first" and will never render the code.</td><td valign="top">All blocks but top and bottom matches on "middle" and will render the code.</td><td valign="top">Last block matches on "last" and will render the code.</td></tr></tbody></table>
 
-It can be hard to grasp why you would need such a system. The specific code above can be inserted first in a block to make a divider beetween the blocks. The divider would only be rendered before a block that has a sibling block directly before it. It will never render on the first block, and it will never render if we only have one block.
+It can be hard to see why you would need such a system. The code above can be inserted first in a block to draw a divider between blocks. The divider only renders before a block that has a sibling block directly before it. It never renders on the first block, and it never renders if there is only one block.
 
-There is a way to “reset” the flow. This means whatever block comes after the one who is reseting the flow will be first again. This can be used for example in some cases to not have a divider beetween specific blocks. Lets saty you have a image block that doesn’t need a divider after it you may put this code last in the image block.
+You can also reset the flow. After a reset, whatever block comes next is treated as first again. This is useful when you do not want a divider between specific blocks. For example, if an image block does not need a divider after it, put this code last in the image block:
 
-<% flow command="reset" %>
+```
+<% flow command="reset" %>
+```
 
-Now, with the insert\_code presented above, the block below it will not render a divider because that block is now first in the flow again.
+With the `insert_code` above, the block that follows does not render a divider, because it is now first in the flow again.
 
-### Case converting
+## Case converting
 
-DCL has three specific functions for converting the case of strings. It can convert to uppercase, lowercase or “title”. Title means the first letter in the string will become uppercase and the rest lowercase.
+DCL has three functions for converting the case of strings: uppercase, lowercase, and "title". Title means the first letter of the string becomes uppercase and the rest lowercase.
 
-Convert firstname on contact card to uppercase.
+Convert the first name on the contact card to uppercase:
 
-<% upper string=<% contact field="firstname" %> %>
+```
+<% upper string=<% contact field="firstname" %> %>
+```
 
-Convert firstname on contact card to lowercase.
+Convert the first name on the contact card to lowercase:
 
-<% lower string=<% contact field="firstname" %> %>
+```
+<% lower string=<% contact field="firstname" %> %>
+```
 
-Convert firstname on contact card to title.
+Convert the first name on the contact card to title case:
 
-<% title string=<% contact field="firstname" %> %>
+```
+<% title string=<% contact field="firstname" %> %>
+```

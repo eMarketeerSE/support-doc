@@ -1,38 +1,39 @@
 # Transactional sendouts
 
-eMarketeer has a built in consent management system that keeps track on who you can send marketing emails to. If a recipient has withdrawn consent for marketing emails the email will be stopped and not sent.
+A transactional send-out lets you deliver a non-marketing email to a contact regardless of their marketing consent. This article explains when to use it and how to enable it.
 
-In some cases however the email you want to send is **not a marketing email** and you want to make sure the recipients get this email regardless of their consent settings. Here are some examples:
+eMarketeer has a built-in consent management system that tracks who you can send marketing emails to. If a contact has withdrawn consent for marketing emails, the email is stopped and not sent.
 
--   Important service information to customers
--   Confirmation emails
--   Delivery of requested information
+In some cases the email you want to send is not a marketing email, and you need the contact to receive it regardless of their consent settings. Examples include:
 
-In order to send an email which overrides the consent settings, you will mark the send out as a “transactional email”.
+- Important service information to customers
+- Confirmation emails
+- Delivery of requested information
 
-Caution: Sending **marketing emails** without consent is illegal. Make sure you use this setting only if the recipient truly needs this information or is waiting for it.
+To send an email that overrides the consent settings, mark the send-out as a "transactional email".
 
-### Sending an email manually from a campaign
+Sending marketing emails without consent is illegal. Use this setting only if the contact truly needs the information or is waiting for it.
 
-You will see this setting when addressing your email in the standard send out screen like below.
+## Sending an email manually from a campaign
 
-![](../assets/transactional-sendouts/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png)
+You see this setting when addressing your email in the standard send-out screen.
 
-### Sending an email in a Journey
+![Send-out screen with the transactional email setting highlighted](../assets/transactional-sendouts/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png)
 
-When adding a Journey step “Send email” you will also have the option to ignore consent by choosing “transactional email”.
+## Sending an email in a Journey
 
-When should you use transactional email in a Journey?  
-Ask yourself “Is the recipient expecting or waiting for this email?”. If “yes”, you can use transactional emails.
+When you add the "Send email" step in a Journey, you also have the option to ignore consent by choosing "transactional email".
 
-Common scenarios are
+To decide whether to use transactional email in a Journey, ask yourself: is the contact expecting or waiting for this email? If yes, you can use a transactional email.
 
--   Delivery of a requested material ex. e-book download.
--   Confirmation of subscription or registration
--   “Thank you”-emails
+Common scenarios:
 
-When **not** to use transactional email.
+- Delivery of requested material, for example an e-book download
+- Confirmation of a subscription or registration
+- Thank-you emails
 
--   Drip campaigns that sends x emails over time
--   Nurture campaigns
--   Typical marketing emails that are unsolicited
+When not to use a transactional email:
+
+- Drip campaigns that send several emails over time
+- Nurture campaigns
+- Typical marketing emails that are unsolicited

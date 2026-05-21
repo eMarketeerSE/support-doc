@@ -1,36 +1,39 @@
 # SuperOffice Legal Basis Sync
 
-eMarketeer and SuperOffice are two separate systems which means that each one of them have their own separate database for consent. To make this consent management easier for you, eMarketeer keeps those consent databases in sync automatically. So in other words, if the consent of a contact changes in eMarketeer, the consent is also updated in SuperOffice and vice versa.
+eMarketeer and SuperOffice each maintain their own consent database. The legal basis sync keeps both in step automatically, so a change in one system is reflected in the other.
 
-### **Requirements:**
+## Requirements
 
-Consent syncing works with SuperOffice online and onSite.
+Consent syncing works with SuperOffice Online and on-site installations.
 
-### Enabling legal basis sync
+## Enabling legal basis sync
 
-When integrating to SuperOffice you will see the option to enable Legal Basis sync. Check the checkbox for legal basis before you click “Apply changes” and the sync will be activated.
+When you set up the SuperOffice integration, you see the option to enable legal basis sync. Check the box for legal basis before you click "Apply changes" to activate the sync.
 
-**Already have integration running without sync?** You will need to entirely disable the integration and re-enable it to get the sync features.  
-To do this, select “None” on the SuperOffice CRM settings page in eMarketeer and click “Apply changes”. Then Enable it again.
+If your integration is already running without sync, you need to disable it entirely and re-enable it to pick up the sync features. Select "None" on the SuperOffice CRM settings page in eMarketeer, click "Apply changes", then enable the integration again.
 
-### How does the sync work?
+## How the sync works
 
-When the Consent Sync is enabled it will engage **every 30 minutes and every time you send an email or SMS**.  
-If you address a list of recipients (from any source), on the “Checklist” page eMarketeer will look at the legal basis for all contacts in both eMarketeer and SuperOffice. The system with the latest change on legal basis will be used and updated in the other system.
+When consent sync is enabled, it runs every 30 minutes and every time you send an email or SMS.
 
-The sync is made on both “Store and process” and “Marketing sendouts” purposes.
+For a campaign, eMarketeer checks the legal basis for each contact in both systems at the "Checklist" stage. The system with the most recent change wins, and the other system is updated to match.
 
-### Disabling the sync.
+The sync covers both the "Store and process" and "Marketing sendouts" purposes.
 
-To disable the sync, you need to disable the integration. Select “None” in the SuperOffice CRM settings, uncheck the “Legal basis sync” and click “Apply changes”.
+## Disabling the sync
 
-### FAQ
+To disable the sync, disable the integration. Select "None" in the SuperOffice CRM settings, uncheck "Legal basis sync", and click "Apply changes".
 
-**With sync activated, will eMarketeer and SuperOffice CRM always be 100% in sync?  
-**No, eMarketeer only sync consent data every 30 minutes and on those contacts you send emails or SMS to, at the point of sending.
+## FAQ
 
-**What happens to duplicate email addresses in eMarketeer vs SuperOffice?  
-**If there are duplicate email addresses in SuperOffice, having different legal basis, the oldest contact will be used for syncing.
+**With sync activated, will eMarketeer and SuperOffice CRM always be 100% in sync?**
 
-**When will scheduled emails be synced?  
-**If you schedule a send out for the future, a new consent sync will be made at the point of sending.
+No. eMarketeer syncs consent data every 30 minutes, and on the contacts you send emails or SMS to at the point of sending.
+
+**What happens to duplicate email addresses in eMarketeer vs SuperOffice?**
+
+If duplicate email addresses in SuperOffice have different legal basis values, the oldest contact is used for syncing.
+
+**When will scheduled emails be synced?**
+
+If you schedule a send-out for the future, a new consent sync runs at the point of sending.

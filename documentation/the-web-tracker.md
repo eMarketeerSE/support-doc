@@ -1,80 +1,76 @@
 # The Web tracker
 
-**The eMarketeer web tracker records your visitor sources and the behavior of individual contacts on your website.**
+The eMarketeer web tracker records visitor sources and the behavior of individual contacts on your website.
 
-With the tracker installed you will
+With the tracker installed you can:
 
--   Populate the marketing overview dashboard
--   Track identified contacts on your website
--   Integration to your website consent banner
--   Origin tracking on your contacts
+- Populate the marketing overview dashboard
+- Track identified contacts on your website
+- Integrate with your website consent banner
+- Track the origin of your contacts
 
-👉 Are you ready to install the script on your website? [Click here for instructions.](https://support.emarketeer.com/documentation/installing-the-web-tracker-script-on-your-website/)  
-👉 Also note, you get the best results [installing eMarketeer forms](https://support.emarketeer.com/documentation/publish-a-form/) on your website for conversions.
+Ready to install the script on your website? [See the installation instructions](https://support.emarketeer.com/documentation/installing-the-web-tracker-script-on-your-website/). You get the best results when you also [install eMarketeer forms](https://support.emarketeer.com/documentation/publish-a-form/) on your website for conversions.
 
 ## How the tracker works
 
-With the eMarketeer tracker script on your website you will get data on where your visitors comes from from source down to campaign level. When a contact converts (using an eMarketeer Form) you will also get historic browsing data as well as future sessions for those contacts. Also when a contact visits your site by clicking a link in an eMarketeer email, the visit is immediately identified and logged in eMarketeer.
+With the eMarketeer tracker script on your website, you get data on where your visitors come from, from source down to campaign level. When a contact converts using an eMarketeer Form, you also get historic browsing data and future sessions for that contact. When a contact visits your site by clicking a link in an eMarketeer email, the visit is immediately identified and logged in eMarketeer.
 
-In the end you will know which campaigns and sources drives the most conversions on your website, get retroactive web visit data from converted leads and full browsing history on your contacts.
+You end up knowing which campaigns and sources drive the most conversions on your website, with retroactive web visit data from converted leads and full browsing history on your contacts.
 
-The tracker works together with the most common cookie consent services and only tracks visitors who give consent.
+The tracker works with the most common cookie consent services and only tracks visitors who give consent.
 
-**What do we track?**
+### What we track
 
-When an identified contact enters your site we will store
+When an identified contact enters your site, we store:
 
--   Sessions and page urls
--   UTM parameters for campaign tracking
--   Referring site
--   Time on site
--   Contact identity
--   Consent for tracking
+- Sessions and page URLs
+- UTM parameters for campaign tracking
+- Referring site
+- Time on site
+- Contact identity
+- Consent for tracking
 
-**How is a contact identified on the website?**
+### How a contact is identified on the website
 
 There are two ways to identify a contact on your website.
 
--   Clicking a link in an eMarketeer email.  
-    If the clicked link goes to your website (where the tracker is installed) the contact will be identified.
--   Answering an embedded [eMarketeer form](https://support.emarketeer.com/documentation/publish-a-form/) on your website.  
-    When the form is submitted with contact details, an identifier will be stored in the browser of the visitor.
+- Clicking a link in an eMarketeer email. If the link goes to your website where the tracker is installed, the contact is identified.
+- Submitting an embedded [eMarketeer form](https://support.emarketeer.com/documentation/publish-a-form/) on your website. When the form is submitted with contact details, an identifier is stored in the visitor's browser.
 
-**Retrospective tracking**
+### Retrospective tracking
 
-We have two important events on your website.
+There are two important events on your website:
 
-1.  When the visitor gives marketing consent for tracking (usually when entering the website for the first time).
-2.  When the contact is identified from an email or a form submit.
+1. The visitor gives marketing consent for tracking, usually when entering the website for the first time.
+2. The contact is identified from an email or a form submission.
 
-When identified eMarketeer will store **all the tracking data from the time consent was given**.
+Once identified, eMarketeer stores all the tracking data from the time consent was given.
 
-**Example:**  
-A visitor first enters your website anonymously from a google search and gives consent in your cookie banner.  
-After a few pages they leave the site. At this point we have stored the visit in the browsers local storage and nothing is sent to eMarketeer. The visitor then returns a few times and finally answers a form on your website.  
-When the form is submitted and the visitor is identified we now store **all the visit data** from when the tracking consent was given.
+**Example:**
 
-This means that when a form is submitted we also get the original source and webvisits which led up to the conversion. This can be used to see which of your marketing efforts leads to the most conversions.
+A visitor first enters your website anonymously from a Google search and gives consent in your cookie banner. After a few pages, they leave the site. At this point the visit is stored in the browser's local storage and nothing is sent to eMarketeer. The visitor returns a few times and eventually submits a form on your website. When the form is submitted and the visitor is identified, all the visit data from when tracking consent was given is stored.
+
+This means that when a form is submitted, you also get the original source and web visits that led up to the conversion. Use this to see which of your marketing efforts drives the most conversions.
 
 ## Web tracker technical explanation
 
-The tracking script does **not** use cookies. Instead it uses **local storage** in the visitors browser. This makes it much easier to stay GDPR compliant. This is why.
+The tracking script does not use cookies. Instead, it uses local storage in the visitor's browser. This makes it easier to stay GDPR compliant, for these reasons:
 
--   Local storage is not cross domain. This means data tracked on your site can not be read on other sites. (which is what many cookie blockers and policies wants to prevent).
--   Browsers increasingly block 3rd party cookies to prevent cross domain tracking. Thus our tracker is not affected.
--   Local storage data is not sent to the server on every page request. (Cookies does this)
+- Local storage is not cross-domain. Data tracked on your site cannot be read on other sites, which is what many cookie blockers and policies aim to prevent.
+- Browsers increasingly block third-party cookies to prevent cross-domain tracking. The tracker is not affected by this.
+- Local storage data is not sent to the server on every page request, unlike cookies.
 
-## GDPR and Privacy Policy recommendations
+## GDPR and privacy policy recommendations
 
-Even if the eMarketeer Web Tracker does not use cookies, the purpose of the feature is to track visitors on your website where we can identify the contact. This behaviour requires consent from the visitor to comply with GDPR.
+Even though the eMarketeer web tracker does not use cookies, the purpose of the feature is to track visitors on your website where the contact can be identified. This requires consent from the visitor to comply with GDPR.
 
-**Cookie banner**
+### Cookie banner
 
-The consent should be handled by your cookie consent banner under the Marketing category. Before the visitor gives this consent eMarketeer will receive no information from the web tracker.
+Consent should be handled by your cookie consent banner under the Marketing category. Before the visitor gives this consent, eMarketeer receives no information from the web tracker.
 
-**Privacy policy updates**
+### Privacy policy updates
 
-Below you will find a suggestion on amendment for your privacy policy when using the eMarketeer Web Tracker.
+Below is a suggested amendment to your privacy policy when using the eMarketeer web tracker.
 
 * * *
 
@@ -84,7 +80,7 @@ _We use a tracking system provided by eMarketeer to understand how visitors inte
 **_How We Track Website Visitors_**  
 _If you click a link in an email we send, we may identify your visit to our website and associate it with your existing contact profile in our system._
 
-_If you visit our website anonymously, we may temporarily store visit history (such as pages viewed, UTM parameters, and referrer information) in your browser’s local storage. This data remains anonymous unless you later submit a form._
+_If you visit our website anonymously, we may temporarily store visit history (such as pages viewed, UTM parameters, and referrer information) in your browser's local storage. This data remains anonymous unless you later submit a form._
 
 _When you submit a form, your past visit history may be linked to your submission to help us improve our service and communication._
 
