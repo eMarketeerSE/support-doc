@@ -1,59 +1,62 @@
-# Send webhook from Zapier to eMarketeer
+# Send a webhook from Zapier to eMarketeer
 
-**How to Set Up a Zap to Send Contact Data to eMarketeer as a Custom Signal**
+Set up a Zap that sends contact data to eMarketeer as a custom signal.
 
-This guide will show you how to create a Zap that receives contact data (and more) from any source and sends it to eMarketeer as a custom signal. This setup will automatically create or update contacts in eMarketeer, along with any additional data you want to include, such as form responses.
+This is useful when you want to capture form submissions, CRM updates, or other engagement data from any source. The signal will create or update the contact in eMarketeer and record the engagement.
 
-### Step 1: Create a New Zap
+### Step 1: Create a new Zap
 
-1.  **Log in to your Zapier account** and click on the “Create Zap” button.
-2.  **Name your Zap** for easy reference.
+1. Log in to Zapier and click "Create Zap".
+2. Name the Zap for easy reference.
 
-### ![](../assets/send-webhook-from-zapier-to-emarketeer/zap.png)Step 2: Set Up the Trigger
+### Step 2: Set up the trigger
 
-1.  **Choose a trigger app** that contains the contact data you want to send to eMarketeer. For this example, we’ll use a Sleeknote form submission.
-2.  **Select the specific event** that will trigger the Zap (e.g., “New Form Submission”).
-3.  **Connect your account** and **test the trigger** to ensure the data is being captured correctly.
+![Zap setup view](../assets/send-webhook-from-zapier-to-emarketeer/zap.png)
 
-### Step 3: Add the Webhook Action
+1. Choose a trigger app that holds the contact data you want to send. In this example, a Sleeknote form submission.
+2. Select the specific event that triggers the Zap, for example "New Form Submission".
+3. Connect your account and test the trigger to confirm the data is being captured.
 
-1.  Click on **“+ Add Action”** and select **“Webhooks by Zapier”** as the action app.
-2.  Choose **“Custom Request”** as the action event. This will allow you to send a custom API call to eMarketeer.
+### Step 3: Add the webhook action
 
-### Step 4: Configure the Webhook
+1. Click "+ Add Action" and select "Webhooks by Zapier" as the action app.
+2. Choose "Custom Request" as the action event so you can send a custom API call to eMarketeer.
 
-1.  In the **Webhook Setup** dialog, enter the following details:
-    -   **Method:** POST
-    -   **URL:** Use the Signals API endpoint from eMarketeer:  
-        `https://connect.emarketeer.com/engagements-api/v1/signals`
-    -   **Headers:**
-        -   Content-Type: `application/json`
-        -   Authorization: `Bearer YOUR_API_KEY` (replace `YOUR_API_KEY` with your actual API key)
-    -   **Payload Type:** JSON
-2.  In the **Data** section, enter the data you want to send in JSON format. Here’s an example template you can use:
-    
-    `{   "adapter": "Sleeknote",   "category": "Newsletter signup",   "contact": {   "firstName": "{{trigger_data_first_name}}",   "lastName": "{{trigger_data_last_name}}",   "email": "{{trigger_data_email}}",   "mobilePhone": "{{trigger_data_phone}}"   },   "eventTime": "{{zap_meta_utc_iso}}",   "consent": {   "marketing": {   "allowed": true,   "text": "Consents to marketing sendouts"   }   }   }   `
-    
-    -   Replace the placeholder values (e.g., `{{trigger_data_first_name}}`) with the corresponding fields from your trigger data, such as the contact’s first name, last name, email, and phone number.
+### Step 4: Configure the webhook
 
-### Step 5: Test the Webhook Action
+In the webhook setup dialog, enter:
 
-1.  Click **“Test & Review”** to send a test payload to eMarketeer.
-2.  Check eMarketeer to confirm that the contact was created or updated as expected, and that the custom signal was recorded correctly.
+- **Method:** POST
+- **URL:** the Signals API endpoint — `https://connect.emarketeer.com/engagements-api/v1/signals`
+- **Headers:**
+  - Content-Type: `application/json`
+  - Authorization: `Bearer YOUR_API_KEY` (replace `YOUR_API_KEY` with your actual API key)
+- **Payload Type:** JSON
 
-### Step 6: Turn on Your Zap
+In the **Data** section, enter the data you want to send in JSON. Example template:
 
-1.  Once the test is successful, click **“Turn on Zap”** to activate it.
-2.  Your Zap will now automatically send contact data to eMarketeer whenever the specified trigger occurs.
+`{   "adapter": "Sleeknote",   "category": "Newsletter signup",   "contact": {   "firstName": "{{trigger_data_first_name}}",   "lastName": "{{trigger_data_last_name}}",   "email": "{{trigger_data_email}}",   "mobilePhone": "{{trigger_data_phone}}"   },   "eventTime": "{{zap_meta_utc_iso}}",   "consent": {   "marketing": {   "allowed": true,   "text": "Consents to marketing sendouts"   }   }   }   `
 
-### Additional Information:
+Replace the placeholder values (e.g. `{{trigger_data_first_name}}`) with the matching fields from your trigger data.
 
--   **Adapter:** This is the name of the signal source. It could be the name of the tool you’re using (e.g., Sleeknote, CRM, etc.).
--   **Category:** This describes the type of data or action (e.g., “Newsletter signup”, “Sale closed”).
--   **Event Time:** Use `{{zap_meta_utc_iso}}` to capture the exact time the event occurred.
+### Step 5: Test the webhook action
 
-### Recommended Use Cases:
+1. Click "Test & Review" to send a test payload to eMarketeer.
+2. Check eMarketeer to confirm the contact was created or updated and that the custom signal was recorded.
 
-You can use this Zap setup to send various types of engagement data to eMarketeer, such as form submissions, lead updates, or CRM activity. For form submissions specifically, we recommend using the Signals API as shown above.
+### Step 6: Turn on your Zap
 
-For more details on the Signals API, please refer to the [eMarketeer API Documentation](https://api-doc.emarketeer.com/?urls.primaryName=Engagement#/Signals/post_signals).
+1. Once the test passes, click "Turn on Zap" to activate it.
+2. The Zap will now send contact data to eMarketeer whenever the trigger fires.
+
+### Additional information
+
+- **Adapter:** the name of the signal source, such as the tool you're using (Sleeknote, CRM, and so on).
+- **Category:** the type of data or action, for example "Newsletter signup" or "Sale closed".
+- **Event Time:** use `{{zap_meta_utc_iso}}` to capture the exact time the event occurred.
+
+### Recommended use cases
+
+Use this setup to send engagement data such as form submissions, contact updates, or CRM activity. For form submissions, the Signals API shown above is the recommended approach.
+
+For more details on the Signals API, see the [eMarketeer API documentation](https://api-doc.emarketeer.com/?urls.primaryName=Engagement#/Signals/post_signals).

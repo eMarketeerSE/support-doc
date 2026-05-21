@@ -1,62 +1,57 @@
-# How to Scan event attendance with mobile phone
+# How to scan event attendance with a mobile phone
 
-**This guide will teach you how to register attendance on site on your physical events using a mobile phone.**
+Use a mobile phone to register attendance on site at physical events by scanning attendee QR codes.
 
-**Basically, registering attendance is done by using an eMarketeer form with a field for email address. You register attendance by entering and submitting the email address of the attendee. But instead of manually typing and submitting each visitors email, you will use your mobile phone to scan the visitors QR-code from their event app.**
+Attendance is registered by submitting an email address through an eMarketeer form. Instead of typing each visitor's email, you use a phone with a QR-code keyboard app to scan their code from the event app.
 
-The components in the event we use in this example are as follows.
+The example below uses these event components.
 
-![](../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png)
+![Event component overview](../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png)
 
--   **Invitation email**  
-    You send your invitation to the audience you want to invite to your event.
--   **Registration form  
-    **This where your audience registers to the event. (Remember to ask for mobile phone number)
--   **App delivery and Mobile app**  
-    You create an app for your event which is a great way to keep all event information in your pocket at the event. Make sure to have the QR code enabled.  
-    The “App Delivery” is an SMS you use with a link to the app. Send the SMS to all who registered to the event.
--   **Scan form  
-    **This is the form used to register the attendees. It’s specially made to register an email address and return to the register page again after submit. You create it by adding a “New Form” and choose the “Event Barcode Scan” template. It is ready to be used.
+- **Invitation email.** Send your invitation to the audience you want at your event.
+- **Registration form.** Where your audience registers for the event. Ask for mobile phone number.
+- **App delivery and mobile app.** Create an app for your event to keep all event information in attendees' pockets. Enable the QR code. The "App Delivery" is an SMS with a link to the app; send it to everyone who registered.
+- **Scan form.** The form used to register attendees. It is built to accept an email address and return to the register page after submit. Create it by adding a "New Form" and choosing the "Event Barcode Scan" template.
 
-![](../assets/scan-attendance-phone/2022-12-16_13-27-56-1024x636.png)
+![Form list with the Event Barcode Scan template](../assets/scan-attendance-phone/2022-12-16_13-27-56-1024x636.png)
 
 ### Register attendance
 
-On the day of the event your visitors will arrive with the their mobile event app showing you their bar code to be scanned.
+On the day of the event, your visitors arrive with their mobile event app showing a barcode to be scanned.
 
-![](../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png)
+![Mobile event app showing a barcode](../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png)
 
-**Preparations**
+#### Preparations
 
-Before you can scan the QR code you need to install an app on your mobile phone.
+Before you can scan QR codes you need a keyboard app on your phone.
 
 [You find the app here](https://www.socketmobile.com/readers-accessories/product-families/socketcam/get-started)
 
-_\* Please note that this app is not an eMarketeer product. There are also other similar apps on the market for “QR code keyboard”. For example, [this app](https://play.google.com/store/apps/details?id=com.nikosoft.nikokeyboard) is one such option for android phones and [this app](https://apps.apple.com/us/app/scankey-qr-ocr-nfc-keyboard/id1356206918) is one for iPhone._
+_Note: this app is not an eMarketeer product. Other "QR code keyboard" apps are available. For example, [this app](https://play.google.com/store/apps/details?id=com.nikosoft.nikokeyboard) for Android and [this app](https://apps.apple.com/us/app/scankey-qr-ocr-nfc-keyboard/id1356206918) for iPhone._
 
-Installing the app adds a new keyboard on your mobile phone. It works as a normal keyboard, but it can also scan barcodes.
+Installing the app adds a new keyboard to your phone. It works like a normal keyboard but can also scan barcodes.
 
-**Scanning attendance**
+#### Scanning attendance
 
-Now, get the web URL for the form “Event Barcode Scan” in your eMarketeer campaign and visit it on your mobile phone.
+Get the web URL for the "Event Barcode Scan" form in your eMarketeer campaign and open it on your phone.
 
-![](../assets/scan-attendance-phone/IMG_1824-473x1024.png)
+![Scan form open on a mobile phone](../assets/scan-attendance-phone/IMG_1824-473x1024.png)
 
-**To scan a badge**
+To scan a badge:
 
-1.  Tap the text field in the form and the keyboard opens. Make sure you switch to the new keyboard with QR scan
-2.  Tap the barcode scan icon (top right) and your camera will appear and you can scan the barcode.
-3.  The form will submit automatically and show the contact details of the scanned person.
-4.  After a few seconds the screen will return to scan a new person, so repeat from step 1.
+1. Tap the text field in the form so the keyboard opens. Switch to the new keyboard with QR scan.
+2. Tap the barcode scan icon (top right). Your camera opens — scan the barcode.
+3. The form submits automatically and shows the contact details of the scanned person.
+4. After a few seconds the screen returns to scan another person. Repeat from step 1.
 
-All the scanned badges will be a submitted answer from known contacts in eMarketeer. This way you know exactly who attended the event and you can follow up based on who was registered.
+Each scanned badge becomes a form submission from a known contact in eMarketeer. You know exactly who attended and can follow up based on who was registered.
 
-Once the attendees are scanned you can also consider
+Once attendees are scanned you can also:
 
--   Sending evaluations only to attended registrants
--   Creating automations based on being scanned. Ex send them an SMS with welcome and tips.
--   Reach out during the event using SMS with relevant information. “Don’t forget your goodie bag!”.
+- Send evaluations only to attended registrants.
+- Create journeys based on being scanned — for example, an SMS welcome with tips.
+- Reach out during the event using SMS with relevant information, such as "Don't forget your goodie bag."
 
-**Alternative Scanning Setup (Advanced)**
+### Alternative scanning setup (advanced)
 
-You can generate Form specific QR-codes for registering attendees in eMarketeer that can be scanned with any smartphone camera app, but it requires more planning and configuration beforehand. A guide for how to configure this can be found in [this article.](https://support.emarketeer.com/knowledgebase/advanced-event-qr-code/)
+You can generate form-specific QR codes for registering attendees that can be scanned with any smartphone camera app. This requires more planning and configuration. See [this article](https://support.emarketeer.com/knowledgebase/advanced-event-qr-code/) for the setup guide.

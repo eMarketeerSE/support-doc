@@ -1,103 +1,106 @@
 # SuperOffice automations (PRO)
 
+This article describes the SuperOffice automations available in eMarketeer and how they appear in the leads report.
+
+The leads report collects contacts that trigger SuperOffice automations so your sales team can act on them. The automations themselves cover sales, tasks, notifications, interests, projects, and selections.
+
 ## Lead reports
 
-All contacts that trigger the following automation will be added to the leads report
+All contacts that trigger any of the following automations are added to the leads report:
 
--   Create Sale
--   Create Task
--   Create Notification
--   Set/unset interest(s)
+- Create Sale
+- Create Task
+- Create Notification
+- Set/unset interest(s)
 
-If the contact is known to SuperOffice (has an external ID or matching email address) it will be added to the “Assigned leads” section of the lead report.
+If the contact is known to SuperOffice — it has an external ID or a matching email address — it is added to the "Assigned leads" section. If the contact is unknown to SuperOffice (no external ID and no matching email), it is added to the "Leads without owners" section.
 
-If the contact is unknown to SuperOffice (external ID is unset and no matching email address is found) the contact will be added to the “Leads without owners” section of the lead report
-
-The leads report is accessible from within SuperOffice, click on the leads button and a web-panel will be shown.  
-if your leads button and web-panel is missing **[here](https://support.emarketeer.com/documentation/actions-performed-during-set-up/)** is how you get it.
+The leads report is accessible from within SuperOffice — click the leads button and a web panel opens. If your leads button and web panel are missing, [here](https://support.emarketeer.com/documentation/actions-performed-during-set-up/) is how to get them.
 
 ### Leads without owners
 
-In this report you pick the lead you want to import to SuperOffice. You have the opportunity to add the unknown contact to a company and create or merge it with an existing one, or create a new company and assign an owner.
+In this report you pick the lead you want to import to SuperOffice. You can add the unknown contact to an existing company, merge it with one, or create a new company and assign an owner.
 
-When the contact has been added to SuperOffice it is moved from Leads List to Assigned leads.
+When the contact has been added to SuperOffice, it moves from the Leads List to Assigned leads.
 
-If a lead is removed from any of the lists, the contact will be removed from the list not from the campaign / component or any other part of the system.
+If a lead is removed from any of the lists, the contact is removed from the list — not from the campaign, component, or any other part of the system.
 
-Leads without owners will remain in the Leads report for sixty (60) days after which they will expire from the list. The leads and contacts will still remain in eMarketeer.
+Leads without owners remain in the leads report for 60 days, after which they expire from the list. The leads and contacts remain in eMarketeer.
 
 #### Most interesting lead right now
 
-The Lead that has the highest accumulated sale value has a own place in the report.
+The lead with the highest accumulated sale value has its own place in the report.
 
-#### Current Lead Age
+#### Current lead age
 
-Shows the age and activity type of the leads in the leads report. This enables you to get a quick overview of your sales team’s lead response time. You can click the activity types in the chart legend to single out specific types of leads in the chart.
+Shows the age and activity type of the leads in the report. This gives a quick overview of your sales team's lead response time. Click the activity types in the chart legend to single out specific types in the chart.
 
-#### Leads List
+#### Leads list
 
-A list of leads and information about the automation the unknown contact triggered.
+A list of leads and information about the automation each unknown contact triggered.
 
 ### Assigned leads
 
-This list shows the Sales, Task and notification automations on contacts that were already known in SuperOffice (based on contact ID or matching email address). Assigned leads will remain in the list for sixty (60) days after which they will expire from the list. The leads and contacts will still remain in eMarketeer.
+This list shows the sales, task, and notification automations on contacts already known in SuperOffice (matched by contact ID or email). Assigned leads remain in the list for 60 days, after which they expire. The leads and contacts remain in eMarketeer.
 
-### Leads Over Time
+### Leads over time
 
-The graphs and statistics shows all the leads created over time and the distribution of lead types since the SuperOffice and eMarketeer integration was activated.
+The graphs and statistics show all leads created over time and the distribution of lead types since the SuperOffice and eMarketeer integration was activated.
 
 ## Automations
 
 ### Create new sale
 
-A Sale entry is created in SuperOffice and it is assigned to the person. The sale properties set by eMarketeer is Source, Rating, Description It is also possible to add the person to a Selection or Project (optional) when the sale is created.
+A sale entry is created in SuperOffice and assigned to the person. eMarketeer sets the source, rating, and description properties. You can optionally add the person to a selection or project when the sale is created.
 
-If the contact triggering the automation is unknown to SuperOffice the automation will be put on hold and added to the leads report.
+If the triggering contact is unknown to SuperOffice, the automation is put on hold and added to the leads report.
 
 ### Create a task
 
-The creates a task in SuperOffice creates a activity in in SuperOffice of a kind specified when creating the automation. In addition to type a description can be added. Task are always marked as not completed.
+Creates a task (activity) in SuperOffice of a kind you specify when creating the automation. You can add a description. Tasks are always marked as not completed.
 
-If the contact triggering the automation is unknown to SuperOffice the automation will be put on hold and added to the leads report.
+If the triggering contact is unknown to SuperOffice, the automation is put on hold and added to the leads report.
 
-### Notify sales rep.
+### Notify sales rep
 
-The notify sales rep. in SuperOffice creates a activity in in SuperOffice of a kind specified when creating the automation. In addition to type a description can be added. Notify sales rep. are always marked as completed.
+Creates an activity in SuperOffice of a kind you specify when creating the automation. You can add a description. Notify sales rep activities are always marked as completed.
 
-If the contact triggering the automation is unknown to SuperOffice the automation will be put on hold and added to the leads report.
+If the triggering contact is unknown to SuperOffice, the automation is put on hold and added to the leads report.
 
-### Set Interest
+### Set interest
 
-Check the interests that you want to set. If the eMarketeer contact has a SuperOffice ID set then the SuperOffice interest will be changed.
+Check the interests you want to set. If the eMarketeer contact has a SuperOffice ID, the SuperOffice interest is changed.
 
-If the contact triggering the automation is unknown to SuperOffice the automation be put on hold, but the lead will not be visible in the leads report.
+If the triggering contact is unknown to SuperOffice, the automation is put on hold but the lead does not appear in the leads report.
 
-The contact must trigger a Sale, Task or Notification automation if you want to be able to take ownership of the contact.
+The contact must trigger a Sale, Task, or Notification automation before you can take ownership of the contact.
 
-### Unset Interest
+### Unset interest
 
-Check the interests that you want to unset. If the eMarketeer contact has a SuperOffice ID set then the SuperOffice interest will be changed.
+Check the interests you want to unset. If the eMarketeer contact has a SuperOffice ID, the SuperOffice interest is changed.
 
-If the contact triggering the automation is unknown to SuperOffice the automation be put on hold, but the lead will not be visible in the leads report.
+If the triggering contact is unknown to SuperOffice, the automation is put on hold but the lead does not appear in the leads report.
 
-The contact must trigger a Sale, Task or Notification automation if you want to be able to take ownership of the contact.
+The contact must trigger a Sale, Task, or Notification automation before you can take ownership of the contact.
 
-### Add to Project
+### Add to project
 
-The add to project adds the triggering contact to a project specified when creating the automation. If the person is unknown to SuperOffice the automation will fail.
+Adds the triggering contact to a project specified when creating the automation. If the person is unknown to SuperOffice, the automation fails.
 
-### Remove from Project
+### Remove from project
 
-The remove from project removes the triggering contact from a project specified when creating the automation. If the person is unknown to SuperOffice the automation will fail.
+Removes the triggering contact from a project specified when creating the automation. If the person is unknown to SuperOffice, the automation fails.
 
-### Add to Selection
+### Add to selection
 
-The add to selection adds the triggering contact to a static selection specified when creating the automation. Note that it is possible to create duplicate entries in static selections.
+Adds the triggering contact to a static selection specified when creating the automation. Static selections can contain duplicate entries.
 
-If the person is unknown to SuperOffice the automation will fail.
+If the person is unknown to SuperOffice, the automation fails.
 
-### Remove from Selection
+### Remove from selection
 
-The remove from selection removes the triggering contact from a static selection specified when creating the
+Removes the triggering contact from a static selection specified when creating the automation.
 
-If the person is unknown to SuperOffice the automation will fail.
+> TODO: verify — the source ends "removes the triggering contact from a static selection specified when creating the" mid-sentence.
+
+If the person is unknown to SuperOffice, the automation fails.

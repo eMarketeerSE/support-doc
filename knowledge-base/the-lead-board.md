@@ -1,60 +1,55 @@
 # The lead board
 
-**All the contacts which have been qualified by marketing to become leads for your and your team are delivered to the lead board. The purpose of the lead board is for sales to evaluate the leads and bring them down the funnel to a sale.**
+The lead board is where contacts qualified by marketing as leads are delivered to your sales team.
 
-### The lead board
+The purpose of the board is to let sales evaluate leads and move them down the funnel to a sale.
 
-### ![](../assets/the-lead-board/theboard.png)
+![The lead board](../assets/the-lead-board/theboard.png)
 
 ### The process
 
-When a lead is fresh it ends up in the MQL stage. Your task is to validate the MQLs and move them down the funnel. If you find the lead interesting you move it to the next stage. If the lead at any stage disqualifies you can move it to the stage “Lost / No opportunity”. This will also give important feedback to your marketing team.
+A fresh lead lands in the MQL stage. Your job is to validate MQLs and move them down the funnel. If a lead is interesting, move it to the next stage. If it disqualifies at any point, move it to "Lost / No opportunity" — this also gives important feedback to your marketing team.
 
 ### The features
 
-To assist your work in the sales process you have several features at hand.
+Several features help you work the sales process.
 
 #### Filtering
 
-If you need to narrow down the leads on your board you have several features to tailor your view.
+To narrow the leads on your board, use these filters:
 
--   **Lead streams**  
-    By default the board shows all leads regardless of source. You can click on a specific lead stream to show leads only from that stream.
--   **Date range  
-    **Only show leads that were generated in a specific date range. If you don’t find what you are looking for, try expanding the date range.
--   **Filters  
-    **On top of the stages you can also filter to show all leads or only leads assigned to you. There is also an option to show hidden leads.
--   **Contact category  
-    **Choose to see leads from all categories or only from a specific one. Like prospects, customers or others.
--   **Search  
-    **Searching for an email, name or company can help you find the lead you are looking for.
+- **Lead streams.** By default the board shows all leads regardless of source. Click a specific lead stream to show only leads from that stream.
+- **Date range.** Show only leads generated in a specific date range. If you don't find what you're looking for, expand the date range.
+- **Filters.** Above the stages, filter to show all leads, only leads assigned to you, or hidden leads.
+- **Contact category.** Show leads from all categories or only one, such as prospects, customers, or others.
+- **Search.** Search by email, name, or company to find a specific lead.
 
 ### The contact card
 
-![](../assets/the-lead-board/contactcard-241x300.png)If you click on a lead on the leadboard the contact card opens up. The first tab you see is the lead tab which shows you everything relevant for managing this lead.
+![Contact card with the lead tab open](../assets/the-lead-board/contactcard-241x300.png)
 
-From here you can
+Click a lead on the board to open the contact card. The first tab is the lead tab, which shows everything relevant for managing the lead.
 
--   See which lead streams the contact has matched and the description.
--   Change category of the lead to prospect, customer or other
--   Change lead stage
--   Assign the lead to your self or someone else
--   Hide the lead from the board
+From here you can:
 
-You also have direct links to the contacts email and corporate website.
+- See which lead streams the contact has matched and the description.
+- Change the category of the lead to prospect, customer, or other.
+- Change the lead stage.
+- Assign the lead to yourself or someone else.
+- Hide the lead from the board.
 
-The other tabs on the contact card allows you to
+You also have direct links to the contact's email and corporate website.
 
--   Review the full engagement timeline
--   edit the contact information
--   make notes
+The other tabs on the contact card let you:
+
+- Review the full engagement timeline.
+- Edit the contact information.
+- Make notes.
 
 There is also a link to the company card.
 
 ### The company card
 
-From the lead board or the contact card you can open the company card which shows you a summary of the company.
+From the lead board or the contact card, open the company card to see a summary of the company. The company is identified by the domain in the lead's email address.
 
-The company is identified based on the domain name from the email address of the lead.
-
-![](../assets/the-lead-board/company_card-225x300.png)
+![Company card](../assets/the-lead-board/company_card-225x300.png)
