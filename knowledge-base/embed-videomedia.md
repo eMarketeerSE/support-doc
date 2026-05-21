@@ -1,33 +1,31 @@
 # Embed Video/Media
 
-### General Information
+Use the Video/Media block in the Page Builder to embed video, slides, and other rich content from external services.
 
-Embed Video/Media is available in the Page Builder (E-mail and Webpages) and allows you to embed video, slides and more from hundreds of external services.
+The block is available in the Page Builder for emails and webpages. eMarketeer pulls media from services such as YouTube and renders it inside your content.
 
 ![](../assets/embed-videomedia/embed_mediablock.png)
 
-eMarketeer takes the media from the service (e.g. youtube and others) and places the media into your eMarketeer content.
-
-### How do I add video and media?
+### How to add video and media
 
 ![](../assets/embed-videomedia/embed_mediasettings.png)
 
-Add a block to your page with Video/Media in it and double-click to edit. The above dialog appears. To add your media, just paste the URL into the text box. (e.g. **[https://www.youtube.com/watch?v=ueMNqdB1QIE](https://www.youtube.com/watch?v=ueMNqdB1QIE))**
+Add a block with Video/Media in it and double-click to edit. The dialog above appears. Paste the URL of your media into the text box (for example, [https://www.youtube.com/watch?v=ueMNqdB1QIE](https://www.youtube.com/watch?v=ueMNqdB1QIE)).
 
-Once pasted, you will se a preview of the media below the text box. Click ‘Save’ to add the chosen media.
+A preview appears below the text box once the URL resolves. Click Save to add the media.
 
-If the content is not updated in the block, you clicked ‘Save’ too quickly before everything could be completely fetched.
+If the block does not update, you clicked Save before the preview finished loading. Try again.
 
-### Will this work in E-mails?
+### Will this work in emails?
 
-The majority of e-mails don’t support video objects in the content. However, they support images. If you add video/media to an e-mail in eMarketeer, we will add an image with a screenshot of your video instead. We put a play-button on the image and link it to the original URL you entered. This way the recipient gets the illusion of video on the e-mail, and when clicking ‘Play’ he/she will watch the video in his/hers web browser instead.
+Most email clients do not support video objects, but they do support images. When you add Video/Media to an email, eMarketeer inserts a screenshot of the video with a play button and links it to the original URL. The recipient sees the illusion of an embedded video and opens the real one in a browser on click.
 
 ### Video/Media and the page editor
 
-When you are editing your page/e-mail and adds a video/media block, we will show a preview of the video/media only. However once you look at the page outside the editor (publish, send or preview) the actual embedded player will show.
+While you edit a page or email, the block shows only a preview of the media. The actual embedded player appears when you publish, send, or preview the page.
 
 ### Supported media formats
 
-The embed feature supports the majority of online ‘rich content’ providers and the list is constantly growing. It supports videos, image galleries, presentations, audio etc.
+The embed feature supports most online rich-content providers, and the list keeps growing. It covers videos, image galleries, presentations, audio, and more.
 
-A selection of the supported serviced we can embed are: YouTube, Vimeo, SlideRocket, Slideshare, Flickr, Google Maps and alot more. [View a full list of supported formats here](https://embed.ly/providers).
+Supported services include YouTube, Vimeo, SlideRocket, Slideshare, Flickr, and Google Maps. [View the full list of supported formats](https://embed.ly/providers).

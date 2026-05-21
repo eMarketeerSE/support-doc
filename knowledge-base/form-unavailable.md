@@ -1,12 +1,10 @@
 # Identifying why a Form is Unavailable (Legacy)
 
-If you encounter something unusual when trying to access an eMarketeer Form or have a Form link that doesn’t seem to work and want to know what the cause could be then this guide is for you.
+This guide helps you diagnose unusual behavior or broken links when accessing an eMarketeer form.
 
-However, even if your problem seems to be one of the scenarios in this guide, always start by opening a Private or Incognito window in your browser and try to access the Form from it. If one can access the form from a Private/Incognito window, then the problem is most likely caused by faulty historical data stored in the affected browser and a cleanup of this data from the browser’s settings page should solve the problem.
+Before you start, open a private or incognito window and try the form there. If the form loads in private mode, the cause is most likely stale data in your browser. Clear that data from your browser's settings and the issue should be gone.
 
-This page refers frequently to the different types of eMarketeer URLs, more information about these can be found on the following page.
-
-[Understanding eMarketeer URLs](https://support.emarketeer.com/knowledgebase/understanding-em-urls/)
+This article references different types of eMarketeer URLs. For background, see [Understanding eMarketeer URLs](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
 
 ## The form cannot be displayed at this time
 
@@ -14,68 +12,68 @@ This page refers frequently to the different types of eMarketeer URLs, more info
 
 The form cannot be displayed at this time error message
 
-This situation is most commonly caused by the emarketeer account having reached it’s contact limit and can not accept any new registrations until the limit is raised or the contact amount on the account is decreased.
+This usually means the eMarketeer account has reached its contact limit and cannot accept new registrations until the limit is raised or the contact count is reduced.
 
-To increase the contact limit send a request to [customerservice@emarketeer.com](mailto:customerservice@emarketeer.com)
+To raise the contact limit, send a request to [customerservice@emarketeer.com](mailto:customerservice@emarketeer.com).
 
-## White Webpage
+## White webpage
 
 ![Image of a blank page](../assets/form-unavailable/blank-page.png)
 
-An Empty Webpage
+An empty webpage
 
-This situation is most commonly caused by a faulty URL that the system expects to work, such as an URL with a few characters changed in a dynamic part of the URL. If you see this then go back and verify that the link you used is the correct one, preferably the [Direct URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
+This usually means the URL is faulty, for example a few characters changed in a dynamic part of the URL. Go back and confirm the link is correct, preferably the [Direct URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
 
-Another reason for this error could be that the Form has been moved to another campaign. This error can only occur when using an eMarketeer [Internal URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/). This is because when using an internal URL the link becomes dependant on the target component location relative to the location of the component where the link is rendered. E.g. if you link from an email component to a form component that exists within the same campaign, both components need to exist in the same campaign for the link to remain functional. Moving the form (or the email) to a different campaign will in this scenario break the link. This problem can easily be fixed by moving the components back to the original configuration of when the link was created. You can also redo the linking process.
+It can also happen when a form has been moved to another campaign. This only occurs with an eMarketeer [Internal URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/), because internal URLs depend on the target component's location relative to the source. For example, an email that links to a form inside the same campaign breaks if you move the form to a different campaign. Move the components back to their original layout, or redo the linking.
 
 ## No such session
 
 ![Webpage that shows a message saying "No such session"](../assets/form-unavailable/no-such-session.png)
 
-A Webpage showing the message “No such session”
+A webpage showing the message "No such session"
 
-This situation is most commonly caused by trying to access a Form through a [Session URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) that has expired. Session URLs have a lifetime of 24 hours and only allow one Form answer to be submitted before expiring. It can also happen if an Answer has been deleted from the Form Components Report as this also deletes the Session the Session URL links to.
+This usually means the [Session URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) has expired. Session URLs live for 24 hours and allow only one answer before they expire. It can also happen when an answer has been deleted from the Form Components Report, since that deletes the session the URL points to.
 
-The solution to this is to use the Direct URL to the Form instead.
+Use the Direct URL to the form instead.
 
-## Answer Already Registered
+## Answer already registered
 
 ![Picture of screen showing a message saying that an answer already has been registrerd](../assets/form-unavailable/already-answered-on-this-session.png)
 
 Answer has already been registered
 
-This message is shown if a Form is configured to only allow one answer per person after someone has answered using the Session or [Personalised URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) you are trying to access the From through, or if you are the person that answered and are trying to reach the Form again using a Direct URL. This might show up unexpected for people who has forwarded, or received a forward of an email with a Personalised URL to the Form as only one person is allowed to answer.
+You see this message when a form is set to allow one answer per person and someone has already answered using the Session or [Personalised URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) you are trying to use, or when the original respondent revisits the form through a Direct URL. It can surprise people who forwarded or received a forwarded email with a Personalised URL, since only one person can answer.
 
-This message is rarely seen in error, but if it is then you should make sure that the correct link was used and that the Form Visitor Settings allow more than one answer.
+If you see this in error, confirm you used the correct link and that the form's visitor settings allow more than one answer.
 
-## Form Component has been Deleted
+## Form component has been deleted
 
 ![Picture of message saying that the Form URL is Incorrect](../assets/form-unavailable/form-component-deleted.png)
 
-Direct URL message for a Deleted Form Component
+Direct URL message for a deleted form component
 
 ![Picture showing message stating that the form is no longer available](../assets/form-unavailable/form-deleted-session.png)
 
-Session URL message for a Deleted Form Component
+Session URL message for a deleted form component
 
-These messages usually mean that the Form Component has been deleted on eMarketeer, but in a few cases the “Incorrect Form URL” message can mean that someone has changed the URL by mistake. If the form still exist on eMarketeer then the solution is to make sure the URL used to reach the form is correct.
+These messages usually mean the form component has been deleted in eMarketeer. In a few cases, the "Incorrect Form URL" message means someone changed the URL by mistake. If the form still exists in eMarketeer, confirm the URL used to reach it is correct.
 
-## Form Component is Closed
+## Form component is closed
 
 ![Picture of message saying that the form is closed](../assets/form-unavailable/survey-closed.png)
 
-The Default Message for a Closed Form
+The default message for a closed form
 
-This message is shown if the Form Component Open/Close setting is set to closed and is done manually or automatically when a condition is met. You might see this unexpectedly if the Form you are trying to access is a copy of another Form Component that was closed or had a close condition set at the time of duplication.
+You see this when the form's Open/Close setting is set to closed, either manually or by a condition. It can appear unexpectedly if the form is a copy of another form component that was closed or had a close condition set at the time of duplication.
 
-The solution is to change the Form’s Open/Close setting so that the Form is Open to receive new Answers.
+Change the form's Open/Close setting to Open so it accepts new answers.
 
 ## Anonymous not allowed
 
 ![Picture of message saying that anonymous is not allowed](../assets/form-unavailable/formanon.png)
 
-Message for a missing Form
+Message for a missing form
 
-This message can be shown if the Form Component doesn’t exist or otherwise cannot be found with the URL that was used.
+This message appears when the form component does not exist or cannot be found at the URL used.
 
-The solution is to get the correct URL from the Form.
+Get the correct URL from the form.

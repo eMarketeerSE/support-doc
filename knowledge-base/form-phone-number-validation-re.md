@@ -1,12 +1,12 @@
 # Form Phone Number Validation when using reCAPTCHA (Advanced)
 
-It is possible to specify that you need to fill in the country code in the field for mobile number in a Form, and this is done by adding code to the HTML Form. You will need to do the following steps and depending on your use case also change the Regular Expression used for the string validation part of the code covered in step 3.
+This guide shows how to require a country code in the mobile number field of a form when reCAPTCHA is active.
 
-If you have used validation before activating reCAPTCHA then you will need to change it to use the ‘submit captcha’ part of the code shown in step 2.
+You add code to the form's HTML and, if needed, adjust the regular expression that validates the string. If you used validation before activating reCAPTCHA, switch to the "submit captcha" version of the code in step 2.
 
 * * *
 
-### 1\. Start by adding this snippet at the top of the “CSS” textbox located on the “Colors & Fonts -> HTML” page:
+### 1. Add this snippet at the top of the CSS textbox on the Colors & Fonts -> HTML page
 
 * * *
 
@@ -20,7 +20,7 @@ $J = jQuery.noConflict();
 
 * * *
 
-### 2\. After that you can put this script at the end of “Design Header HTML” which you will also find on the page “Colors & Fonts -> HTML”:
+### 2. Add this script at the end of Design Header HTML on the Colors & Fonts -> HTML page
 
 * * *
 
