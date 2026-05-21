@@ -1,51 +1,34 @@
 # Dynamics - Import
 
-The eMarketeer integration allows you to easily import contacts directly from your Microsoft Dynamics 365 Sales Marketing Lists. You can do this as a standalone import to build your eMarketeer database, or you can import contacts on the fly right before sending an email campaign.
+Import contacts directly from your Microsoft Dynamics 365 Sales Marketing Lists. You can do this as a standalone import to build your eMarketeer database, or on the fly right before sending a campaign.
 
-### Important Notes on the Integration Scope
+## Integration scope
 
--   **Supported Lists:** Currently, the integration only supports importing from **Contact** Marketing Lists in Dynamics 365 Sales. Importing from Lead Marketing Lists is planned for a future update.
-    
--   **Imported Data Fields:** To keep your data clean and relevant, eMarketeer will import the following core fields from Dynamics:
-    
-    -   First Name
-        
-    -   Last Name
-        
-    -   Email Address
-        
-    -   Company Name
-        
-    -   Mobile Phone Number
-        
+- **Supported lists:** the integration currently supports importing from Contact Marketing Lists in Dynamics 365 Sales. Importing from Lead Marketing Lists is planned for a future update.
+- **Imported fields:** eMarketeer imports the following core fields from Dynamics:
+  - First Name
+  - Last Name
+  - Email Address
+  - Company Name
+  - Mobile Phone Number
 
-### Method 1: The Standard Import
+## Method 1: standard import
 
-Use this method if you want to bring a Dynamics segment into eMarketeer for general database building or to group them into a specific eMarketeer list.
+Use this method to bring a Dynamics segment into eMarketeer for general database building or to group contacts into a specific eMarketeer list.
 
-1.  In eMarketeer, navigate to the **Contacts** section.
-    
-2.  Click on **Import contacts**.
-    
-3.  Select **Microsoft Dynamics** as your import source.
-    
-4.  A search box will appear. Start typing the name of the Dynamics Marketing List you want to import.
-    
-5.  eMarketeer will present a dropdown of matching search results. Select the correct list.
-    
-6.  **Optional:** Before finalizing, you can choose whether the imported contacts should be added to a specific eMarketeer contact list.
-    
-7.  Click **Import** to bring the contacts into eMarketeer.
-    
+1. In eMarketeer, go to the **Contacts** section.
+2. Click **Import contacts**.
+3. Select **Microsoft Dynamics** as the import source.
+4. In the search box, start typing the name of the Dynamics Marketing List you want to import.
+5. Select the correct list from the dropdown of matching results.
+6. Optional: choose whether the imported contacts should be added to a specific eMarketeer contact list.
+7. Click **Import** to bring the contacts into eMarketeer.
 
-### Method 2: Import On the Fly (While Sending an Email)
+## Method 2: import on the fly while sending an email
 
-This is the fastest method. It allows you to import a Dynamics segment and send them an email in one seamless process, minimizing the need to create standalone eMarketeer contact lists just for grouping.
+This is the fastest method. It lets you import a Dynamics segment and send a campaign in one step, without creating a standalone eMarketeer contact list.
 
-1.  When you are setting up an email send-out in the eMarketeer UI, choose the option to select your recipients.
-    
-2.  Select the option to import from **Microsoft Dynamics**.
-    
-3.  Search for and select your Dynamics Marketing List, just as you would in the standard import.
-    
-4.  eMarketeer will import the contacts and queue the email to send to that exact segment immediately.
+1. When setting up a send-out in the eMarketeer UI, choose the option to select recipients.
+2. Select the option to import from **Microsoft Dynamics**.
+3. Search for and select your Dynamics Marketing List, as you would in the standard import.
+4. eMarketeer imports the contacts and queues the campaign to send to that segment immediately.

@@ -1,18 +1,16 @@
 # Microsoft Dynamics 365 Sales Integration
 
-Welcome to the eMarketeer integration for Microsoft Dynamics 365 Sales. This integration is designed to bridge the gap between your marketing and sales teams, ensuring that your CRM and marketing automation platform share a single, reliable source of truth.
+The eMarketeer integration for Microsoft Dynamics 365 Sales bridges your marketing and sales teams so your CRM and marketing automation platform share a single, reliable source of truth.
 
-By connecting eMarketeer with Dynamics, you can seamlessly sync contact preferences, enforce strict GDPR compliance, import CRM segments on the fly, and automate your customer journeys—all without creating data silos.
+With Dynamics connected to eMarketeer, you can sync contact preferences, enforce GDPR compliance, import CRM segments on the fly, and automate customer Journeys without creating data silos.
 
-Browse the articles in this section to learn how to set up and get the most out of your integration:
+## In this section
 
--   [**Setup & Configuration:**](https://support.emarketeer.com/documentation/dynamics/dynamics-installation/) Step-by-step instructions on connecting your Dynamics 365 instance to eMarketeer and provisioning your initial data tables.
-    
--   [**Consent & Subscription Sync:**](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-legal-basis-sync/) Learn how our automated, multi-tiered sync engine handles Legal Basis and granular email subscriptions to keep both systems perfectly aligned and 100% compliant.
-    
--   [**Importing Contacts & Lists:**](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-import/) Discover how to easily pull Dynamics Contact Marketing Lists directly into eMarketeer, whether you are doing a standard database import or importing on the fly right before an email send-out.
-    
--   [**Journey Steps & Automations:**](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-journey-steps/) Explore how to use eMarketeer’s visual automations to trigger actions, sync engagement, and update data in Dynamics based on how your leads interact with your marketing.
-    
+- [Setup & Configuration](https://support.emarketeer.com/documentation/dynamics/dynamics-installation/): step-by-step instructions for connecting your Dynamics 365 instance to eMarketeer and provisioning the initial data tables.
+- [Consent & Subscription Sync](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-legal-basis-sync/): how the automated, multi-tiered sync engine handles Legal Basis and granular email subscriptions to keep both systems aligned and compliant.
+- [Importing Contacts & Lists](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-import/): how to pull Dynamics Contact Marketing Lists into eMarketeer, either as a standard import or on the fly before a send-out.
+- [Journey Steps & Automations](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-journey-steps/): how to use eMarketeer's visual automations to trigger actions, sync engagement, and update data in Dynamics based on how contacts interact with your marketing.
 
-If you are setting this up for the first time, we recommend starting with the [**Setup & Configuration**](https://support.emarketeer.com/documentation/dynamics/dynamics-installation/) guide to get your systems securely connected.
+## What to do next
+
+If you are setting this up for the first time, start with the [Setup & Configuration](https://support.emarketeer.com/documentation/dynamics/dynamics-installation/) guide to connect the two systems.

@@ -1,34 +1,32 @@
 # Exclude inactive recipients
 
-**When addressing an email to be sent you have the recommended option to exclude inactive contacts from the send out. What is an inactive email address and why should you stop sending to these contacts? Read further to find out.**
+When you address a campaign in eMarketeer, you can exclude inactive contacts from the send-out. This article explains what an inactive email address is and why you should stop sending to those contacts.
 
-### What is an inactive email address?
+## What is an inactive email address?
 
-In short, an inactive email address is a fully functional email address that never engages (opens or clicks) with your emails. These are the recipients that would normally unsubscribe to your emails but never bothers to do so. They just keep ignoring or just deleting your emails.
+An inactive email address is a fully functional address that never engages with your emails — no opens, no clicks. These recipients would normally unsubscribe but never bother to. They keep ignoring or deleting your emails.
 
-At eMarketeer we flag your contacts as “Inactive recipients” when they have not interacted (opened or clicked) with any of your emails for 12 months.
+eMarketeer flags a contact as an "Inactive recipient" when they have not opened or clicked any of your emails for 12 months. As soon as they engage with one of your emails again, they are treated as active.
 
-As soon as someone engaged with one of your emails, they will be treated as active again.
+When you address a campaign, you can choose to include or exclude inactive recipients.
 
-When you address an email you have the option to include or exclude inactive recipients.
+## Why exclude inactive recipients
 
-### Why should you exclude inactive recipients
+If someone is not listening, you should think about a different approach.
 
-If someone does not listen to you. Should you keep talking? Or should you consider a different approach?
+Large email providers — Google, Microsoft, Yahoo, and others — fight spam by monitoring sender identity, bounces, complaints, and other obvious signs. They also track how recipients engage with the emails that get delivered.
 
-The large email services that people use for email (Google, Microsoft, Yahoo etc) prevents spam by monitoring sender identity, bounces, complaints and all of the obvious signs of bad emails. They also monitor the emails that actually get delivered. How are the email users engaging with the emails from different senders?
+If they see high engagement from a sender, those emails are prioritized over emails from senders with low engagement. If you send large volumes of email that no one engages with, your emails may get filtered or treated as low priority.
 
-If they notice a high engagement from a sender the emails get a higher priority than those emails that have a low percentage of engaged recipients.
+## What to do with inactive recipients
 
-This means if you send large volumes of emails that no one engages with, the emails may get filtered or categorized as low priority.
+In the contact filter, go to **Delivery → Email → Deliverable but unengaged** to list all your inactive recipients.
 
-### What should you do with your inactive recipients?
+For these contacts, consider:
 
-In the contact filter you can find “Delivery” -> “Email” -> “Deliverable but unengaged”. Use this to list all your inactive recipients.
+- Building a Journey that reacts when a contact becomes inactive. Use the Journey to send a re-engagement email asking whether they want to stay on the list. If they do not engage, let the Journey move them to a different list or unsubscribe them.
+- Sending emails to this segment less frequently, and rethinking content that might re-engage them.
 
-For these contacts you can consider:
+## What to do next
 
--   Create a Journey that reacts on contacts becoming “inactive”. Use the Journey to send a re-engagement email asking them if they want to stay on the list. If they don’t engage, let the Journey move them to a different list or even unsubscribe them.
--   Consider sending emails less frequently to this segment and think about content that could wake them up.
-
-Read more about [best practices for email marketing](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/)
+Read more about [best practices for email marketing](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).

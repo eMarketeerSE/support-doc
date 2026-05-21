@@ -1,21 +1,23 @@
 # Dynamics - Add Lead activity
 
+The **Add Lead Activity** step creates a Task or Phone Call on a Lead record in Microsoft Dynamics 365 Sales. Unlike the generic Add Activity step, this one does not fall back to a Contact if no Lead is found.
+
 [![](../assets/dynamics-add-lead-activity/add_lead_activity-1024x907.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/add_lead_activity.png)
 
-The **Add Lead Activity** Step creates a Task or Phone Call strictly on a **Lead** record in your Microsoft Dynamics CRM. Unlike the generic “Add Activity” Step, this action will not fall back to a Contact if a Lead is missing.  
-Step Configuration  
-When adding this Step to your Journey, you will configure the following fields:
+## Step configuration
 
--   **Subject (Required):** Sets the title of the activity in Dynamics (e.g., “Follow-up Call” or “Send Pricing Guide”).
--   **Description:** Provides additional details or notes for the person completing the task.
--   **Activity Type:** Choose whether to log the activity as a **Task** or a **Phone Call**.
--   **Owner (Required):** Select the Dynamics user who will be assigned the activity.
--   **Schedule:** Optionally set a delay for the activity (e.g., “Schedule to start in 2 days”).
+When you add this step to a Journey, configure the following fields:
 
-### Strict Lead Matching
+- **Subject (required):** the title of the activity in Dynamics, for example "Follow-up Call" or "Send Pricing Guide".
+- **Description:** additional details or notes for the person completing the task.
+- **Activity Type:** log the activity as either a Task or a Phone Call.
+- **Owner (required):** the Dynamics user assigned to the activity.
+- **Schedule:** an optional delay before the activity starts, for example "Schedule to start in 2 days".
 
-Because this Step is specifically designed for Leads, eMarketeer uses a strict search process:
+## Strict Lead matching
 
--   eMarketeer searches Dynamics exclusively for a matching Lead.
--   If a Lead is found, the activity is created and attached to that Lead record.
--   **If no Lead is found:** The Step is skipped, and no activity is created. eMarketeer will **not** attempt to find or update a Contact record.
+Because this step is designed for Leads, eMarketeer uses a strict search process:
+
+- eMarketeer searches Dynamics exclusively for a matching Lead.
+- If a Lead is found, the activity is created and attached to that Lead record.
+- If no Lead is found, the step is skipped and no activity is created. eMarketeer does not attempt to find or update a Contact record.
