@@ -1,34 +1,34 @@
-# Creating Clickable Email Address Links and Buttons
+# Creating clickable email address links and buttons
 
-Clickable Email addresses in a text that automatically create a new email message with the address as the recipient are not uncommon on the web and is something that many email clients do automatically for incoming email, but if you want to make sure that an email address in text or a button has this functionality then this article will show how that can be accomplished.
+A clickable email address opens a new message in the recipient's email client with the address already filled in.
 
-The way to do this is the same as for web pages, you link to a URL that is made up of the prefix “mailto:” followed by the email address, like this:
+Many email clients add this behavior automatically when they detect an address in incoming mail, but you can make it explicit on a link or button. The technique is the same as for a web link — you use a URL with the `mailto:` prefix, like this:
 
 > mailto:support@emarketeer.com
 
-### Clickable Address In Text
+## Clickable address in text
 
-To create a clickable email link in the text of a component you follow the same steps as when you want to link to a website.
+To turn text inside a component into an email link, follow the same steps as for a regular web link.
 
-1.  Highlight/Select the text you want to be clickable
-2.  Click the Hyperlink/Link button in the text editor
-3.  In the Link URL field you want to write the email address, but with the prefix “**mailto:**“
-4.  Apply the Link URL to the text
+1. Highlight the text you want to be clickable.
+2. Click the Hyperlink/Link button in the text editor.
+3. In the Link URL field, write the email address with the prefix `mailto:`.
+4. Apply the link.
 
-Note: Best practice is to _avoid_ adding this type of link in the text of an Email Component. Instead, most email clients add it automatically to the email for the recipient if they find an email address in the text of an email so that the sender doesn’t need to create the link before sending.
+Best practice is to avoid adding this type of link in the body of an email component. Most email clients already turn plain email addresses into clickable links, so the sender does not need to add the link manually.
 
-![](../assets/email-address-links/image.png)
+![Email link applied to text in the editor](../assets/email-address-links/image.png)
 
-Example of Email Link applied to Text
+Example of an email link applied to text.
 
-### Button that is linked to the Email Address
+## Button linked to an email address
 
-As in the example above, you add the “mailto:” URL to the URL field, but in this case you add it to the URL field of a Button Link.
+The approach is the same — the `mailto:` URL goes in the Link URL field, but this time on a button.
 
-1.  Select the block where you want the button and open the “Link” box that corresponds to the button you want
-2.  In the Link URL field you want to write the email address, but with the prefix “**mailto:**“
-3.  Apply the Link URL to the text
+1. Select the block with the button and open the Link box that matches the button.
+2. In the Link URL field, write the email address with the prefix `mailto:`.
+3. Apply the link.
 
-![](../assets/email-address-links/image.png)
+![Email link applied to a button](../assets/email-address-links/image.png)
 
-Example of Email Link on a Button
+Example of an email link on a button.

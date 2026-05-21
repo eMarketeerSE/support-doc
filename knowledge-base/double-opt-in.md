@@ -1,35 +1,27 @@
 # Double opt-in subscription
 
-Double opt in is a process where the subscriber verifies his sign up to a newsletter in multiple steps. This also verifies that the subscriber is actually the same person who filled out the form.
+Double opt-in is a sign-up process where the contact confirms their subscription in two steps, verifying that the address belongs to the person who submitted the form.
 
-To build this process in eMarketeer you first need to decide on where/how to store the verified contacts. A few examples:
-
-All verified contacts should:
-
--   be added to a campaign
--   be added to a contact list
--   have a checkbox checked on their contact card
-
-This is the process you build for the double opt in.
+To build this in eMarketeer, first decide where to store verified contacts. Common choices include adding them to a campaign, adding them to a contact list, or ticking a checkbox on the contact card.
 
 ![doubleoptin](../assets/double-opt-in/doubleoptin.png)
 
-The process consists of:
+## How the process works
 
--   The sign up form, placed on your web site
--   The confirmation email. Sent after filling out the form. This is where the user needs to take action by clicking on a link “Click to verify your email”.
--   Landing page. This page confirms the click and says “Thank you! You are now subscribing to our newsletter”.
+The double opt-in consists of three components:
 
-Create the double opt in
+- The sign-up form, placed on your website.
+- The confirmation email, sent after the form is submitted. It contains a link such as "Click to verify your email."
+- The landing page, which confirms the click with a message like "Thank you. You are now subscribed to our newsletter."
 
-1.  Create the components
-    -   The signup form, to be put on your web site
-    -   The confirmation email – thanking for the sign up and providing a link to the confirmation landing page.
-        -   The link should point to the confirmation landing page below.
-    -   The confirmation landing page – confirming message that the sign up is finished.
-2.  Create the automations
-    -   Send Email – Automate the confirmation email to be send out on submitting the signup form
-    -   Add to contact list – when clicking any link in the confirmation email.
-        -   (or, add to campaign, update contact card or what ever you decide to use)
+## Create the double opt-in
 
-Now, when the form is submitted, the confirmation email will be sent. When the link in the email is clicked the subscriber will be redirected to the confirmation landing page. The automation will add the contact to your contact list when clicking.
+1. Create the components:
+   - The sign-up form to publish on your website.
+   - The confirmation email that thanks the contact and links to the confirmation landing page.
+   - The confirmation landing page that confirms the sign-up is complete.
+2. Create the automations:
+   - Send Email — sends the confirmation email when the sign-up form is submitted.
+   - Add to contact list — triggers when any link in the confirmation email is clicked. You can swap this for Add to campaign, Update contact card, or another action that fits your setup.
+
+When the form is submitted, the confirmation email goes out. When the contact clicks the link, they land on the confirmation page and the automation adds them to your contact list.
