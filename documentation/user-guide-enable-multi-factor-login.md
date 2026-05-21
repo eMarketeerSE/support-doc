@@ -1,47 +1,51 @@
-# User guide: Enable Multi Factor Login
+# User guide: Enable Multi-Factor Login
 
-In this guide, you learn the 3 simple steps on how to set up and log in to eMarketeer using Multi-Factor Login (MFA) with an authentication app. If you want to learn more about MFA, [visit this article](https://support.emarketeer.com/documentation/multi-factor-authentication/).
+This guide walks you through setting up Multi-Factor Authentication (MFA) for your eMarketeer login using an authentication app.
 
-### Download authentication app
+MFA adds an extra layer of security to your account. To learn more about the feature, see the [Multi-Factor Authentication article](https://support.emarketeer.com/documentation/multi-factor-authentication/).
 
-Before you get started, download an authentication app to your mobile device, if you don’t have one already. We recommend the apps Google Authenticator or Twilio Authy. Click one of the links below or search for them in your app store.
+## Download an authentication app
 
-#### **Google Authenticator**
+Before you start, install an authentication app on your mobile device if you don't already have one. We recommend Google Authenticator or Twilio Authy. Use the links below or search for them in your app store.
 
-     **![](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34.png)**[![](../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) [![](../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png)](https://apps.apple.com/se/app/google-authenticator/id388497605)
+### Google Authenticator
 
-#### **Twilio Authy 2-Factor Authentication**
+![Google Authenticator app icon](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34.png)
+[![Get it on Google Play](../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) [![Download on the App Store](../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png)](https://apps.apple.com/se/app/google-authenticator/id388497605)
 
-![](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54.png)     [![](../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.authy.authy) [![](../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png)](https://apps.apple.com/us/app/twilio-authy/id494168017)
+### Twilio Authy 2-Factor Authentication
 
-# Set up MFA
+![Twilio Authy app icon](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54.png)
+[![Get it on Google Play](../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.authy.authy) [![Download on the App Store](../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png)](https://apps.apple.com/us/app/twilio-authy/id494168017)
 
-Follow these quick steps after you or your admin has enabled MFA on your account. (You can set it up on your own login if you in eMarketeer go to Settings -> Edit my profile -> click the toggle bar for MFA.)
+## Set up MFA
 
-## 1\. Go to the eMarketeer login page
+Follow these steps after you or your administrator enables MFA on your account. To enable MFA on your own login, go to Settings, then Edit my profile, and click the toggle for MFA.
 
-Type in your username and password. If you or your account admin has requested MFA, you see a button that says “Activate MFA”. Click that button.
+### 1. Go to the eMarketeer login page
 
-![](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1.png)
+Type your username and password. If you or your account administrator requested MFA, an "Activate MFA" button appears. Click it.
 
-## 2\. Set up the app
+![eMarketeer login screen with Activate MFA button](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1.png)
 
-You now see a QR code on the screen. Open the authenticator app on your mobile phone and click “Scan QR code” in the app. Use the app to scan the QR code on your computer screen. When you have scanned the QR code with your mobile app, a six-digit code appears in your app. Type this code on the computer screen and click “Continue”.
+### 2. Set up the app
 
-![](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit.png)
+A QR code appears on the screen. Open the authenticator app on your mobile phone and tap "Scan QR code." Use the app to scan the code on your computer screen. The app then displays a six-digit code. Type this code into eMarketeer and click "Continue."
 
-## 3\. Save recovery code
+![QR code displayed during MFA setup](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit.png)
 
-You are now authenticated, but before you can proceed, you are presented with a recovery code. This code is your “back-up,” if you for some reason don’t have your phone with the authenticator app. Then you would use this code to log in. Save this code and keep it in a secure place. Once you have done this, check the checkbox to confirm that you saved it and click to “Continue”.
+### 3. Save the recovery code
 
-![](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09.png)
+You are now authenticated, but before you can proceed, eMarketeer shows you a recovery code. Use this code as a backup if you don't have your phone with the authenticator app. Save it and keep it in a secure place. Check the box to confirm you saved it, then click "Continue."
 
-Now you are all done!
+![Recovery code displayed during MFA setup](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09.png)
 
-## Next time you log in to eMarketeer
+Setup is complete.
 
-The next time you log in to eMarketeer, you see a message saying “Verify your identity”. This is when you open your authentication app, take the six-digit code you see in the app, and type it into the login screen. If you check the checkbox, eMarketeer remembers your identity on this device for 30 days and you don’t have to use the authenticator app every time.
+## Next time you log in
 
-![](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14.png)
+The next time you log in, eMarketeer shows a "Verify your identity" message. Open your authentication app, read the six-digit code, and type it into the login screen. If you check the box, eMarketeer remembers your identity on this device for 30 days, and you don't need the authenticator app for that period.
 
-Now you’re all good to go! Should you have any problems logging in, please contact support by using the chat box on the login-page.
+![Verify your identity prompt during login](../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14.png)
+
+If you run into problems logging in, contact support through the chat box on the login page.
