@@ -1,132 +1,129 @@
-# Creating your first Form (Legacy)
+# Creating your first form (Legacy)
 
-Creating your first Form for an event or newsletter signup is quite easy to do in eMarketeer and this guide will show you how to do it.
+This guide walks you through creating a form in eMarketeer — for an event signup, newsletter signup, or any other use.
+
+By the end you will have a working form with a thank-you page and an optional confirmation email.
 
 * * *
 
-#### 1\. Starting from the Campaign page where you wish to create the Form, click the \[Add Form\] button.
+### 1. Add the form from the campaign page
 
--   If you first need to create the Campaign, then refer to the following article: [How to Create a New Campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/)
+From the campaign where you want to create the form, click **Add Form**.
+
+- If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
 ![](../assets/basics-creating-form/cf1.png)
 
-The \[Add Form\] Button
+The Add Form button
 
-#### 2\. Filling the settings fields, choosing a Template to use, and Creating the Form Component.
+### 2. Fill in settings, choose a template, create the form
 
 ![](../assets/basics-creating-form/cf2.png)
 
-Form Settings
+Form settings
 
 #### Settings
 
--   **Name your Form:**  
-    Give your Form a unique name so that you can find it later. It is recommended that the name also describes the purpose of the Form component in the context of the Campaign (eg. “Registration” if the Form component is a registration form). This name is something only you will see and will not be shown to the visitors of the Form.
+- **Name your form:** Give the form a unique name so you can find it later. Describe its purpose in the campaign — for example, "Registration" for a registration form. Only you see this name; it is not shown to visitors.
 
 #### Template
 
-Select a Template from one of the tabs to use as a base for the design of the Form.  
-For this guide, I’ve chosen the Template called Sign-up Basic found on the \[Sign-Up Forms\] tab.  
-If your company has custom Templates saved on the Account then they will be shown on the tab called \[My Templates\].
+Pick a template from one of the tabs as a starting point for the design. This guide uses **Sign-up Basic** from the **Sign-Up Forms** tab. Custom templates saved on your account appear under **My Templates**.
 
-#### Create Form Component
+#### Create form component
 
-After filling out the settings fields and selecting a Template to use you can click the \[Create Form\] button to create the Component.
+Once settings and template are set, click **Create Form** to create the component.
 
-#### 3\. The Form Editor
+### 3. The form editor
 
-After clicking the \[Create Form\] button in step 2, the Email will be created and the Form editor will open so that you can update the Content of your new component.  
-The page will show a menu on the left where you can add new Form Items, access some Tools, and change the settings.  
-The rest of the page shows the current Form Content, which at creation is imported from the Template that you chose to use.  
-The content is made up of Content Blocks called Form Items that can be updated individually as shown in the following steps.
+After you click **Create Form**, the editor opens. The left-side menu lets you add form items, access tools, and change settings. The rest of the page shows the form content, imported from the template.
+
+The content is made up of content blocks called form items, which you edit individually in the following steps.
 
 ![](../assets/basics-creating-form/cf_edit_view.png)
 
-The Form editing view
+The form editing view
 
-#### 4\. Changing the introduction text
+### 4. Change the introduction text
 
-The first Form Item in most templates will be a Rich Text block where you can add an explanation of the Form or add any relevant information such as dates, times and locations relevant to an Event.
+The first form item in most templates is a Rich Text block where you can introduce the form or add relevant information such as dates, times, and locations.
 
-To edit any Form Item in the content you can either click the \[Edit\] button of the block, or double-click the block itself, and a popup where you can change the questions, answers, or in this case the text.
+To edit any form item, either click its **Edit** button or double-click the block itself. A popup opens where you can change the text, questions, or answers.
 
 ![](../assets/basics-creating-form/cf_edit_richtext.png)
 
 Editing a Rich Text block
 
-#### 5\. Adjusting the Registration block
+### 5. Adjust the Registration block
 
-The Registration block is the most important block in any Form that isn’t set up specifically to collect anonymous answers. This Form Item is not only able to save the visitor’s contact information in their form submission, but also takes the information and matches it against your eMarketeer contact database to either match the submission to the visitor’s contact card and update it with any new information, or to create a new contact if they don’t have an existing contact card, among other things that allow for more advanced uses not covered in this article.
+The Registration block is the most important block in any form that is not collecting anonymous answers. It saves the visitor's contact information with their submission and matches it against your eMarketeer contact database — updating an existing contact card or creating a new contact if none exists.
 
 ![](../assets/basics-creating-form/cf_registration.png)
 
-The Registration Form Item options
+The Registration form item options
 
-The options for what you can ask for in the Contact Registration block is directly linked to the fields on a Contact Card and when editing this Form Item you can select which ones to ask for and which ones should be required to answer to submit an answer to the Form. Note that this Form Item always asks for the visitor’s Email Address, this is because it’s a required field on on your contacts’ contact cards.
+What you can ask for in the Registration block is tied to the fields on a contact card. You choose which fields to ask for and which are required. The Registration block always asks for the visitor's email address, because it is a required field on a contact card.
 
-#### 6\. The most commonly used Form Items
+### 6. The most commonly used form items
 
-When it comes to what Form Items to use we will only focus on the basic types in this article to get you started.
+This article covers the basic question types to get you started.
 
--   **Radiobutton**: A question type with multiple pre-defined answers where the visitor only can choose _one_ of the options.
--   **Checkbox**: A question type with multiple pre-defined answers where the visitor can choose _multiple_ of the options.
--   **Textbox**: A question where the visitor can write any text answer they want. Preferable to use when you want longer answers.
--   **Multi** **Text**: A Form Item where you can have several short questions where the visitor can write any text answer they want. Preferable when the answers are intended to be short.
--   **Consent**: Creates a checkbox with a text of your choosing which automatically updates the Consent setting on the visitors contact card in eMarketeer. Useful for when you need to collect explicit consent to store a visitors contact information.
+- **Radio button:** A question with multiple pre-defined answers where the visitor picks _one_.
+- **Checkbox:** A question with multiple pre-defined answers where the visitor can pick _several_.
+- **Textbox:** A question where the visitor can write any text answer. Use this for longer answers.
+- **Multi Text:** A form item with several short text questions. Use this for short answers.
+- **Consent:** A checkbox with text of your choosing. Selecting it updates the Consent setting on the visitor's contact card — useful when you need explicit consent to store contact information.
 
-You can find the menu to add these question types in the Add Form Item menu found in the top-left of the Form editor.
+You can find these question types in the Add Form Item menu in the top-left of the form editor.
 
-#### 7\. Setting up the Thank You page
+### 7. Set up the thank-you page
 
-After a visitor has submitted an answer they will be redirected to the Thank You page to show that their answer has been saved. The default Thank You page only consists of a text block, which you can edit to fit your Form and include any additional information relevant to the visitors that have reached this page. To set up your Form’s Thank You page you click on the \[Thank You Page\] button in the menu on the left side of the editor.
+After a visitor submits, they are redirected to the thank-you page to confirm their answer was saved. The default thank-you page contains a single text block, which you can edit to fit your form. Open the thank-you page settings by clicking **Thank You Page** in the left-side menu.
 
 ![](../assets/basics-creating-form/cf_thank_you_page.png)
 
-The Thank You page options
+The thank-you page options
 
-The first option you have in the Thank You page settings is the option to either use a Hosted Thank You page or a Custom URL. The hosted page is the default and is the simpler option where you simply change the text to be shown. The custom URL option is for when you have a specific Thank You page you want to bring the visitors to, such as a webpage on your website.
+You have two options: a hosted thank-you page or a custom URL. The hosted page is the default — change the text and you are done. Use a custom URL if you want to redirect visitors to a specific page, such as one on your own website.
 
-The second option is to edit the text that is shown to the visitor, which you can do by clicking the \[Edit\] button as shown in the image above.
+To edit the text shown on the hosted page, click **Edit** as shown above.
 
-#### 8\. Using a Confirmation page (optional)
+### 8. Use a confirmation page (optional)
 
-We generally do not recommend that you use this feature unless it is needed, but for some longer surveys you may want to allow the visitor to review their answers before submitting them. The Confirmation Page shows the visitor their answers and gives them the option to either \[Edit\] their answers or \[Finish\] and submit their answer.
+We do not recommend using this feature unless you need it, but for longer surveys you may want to let visitors review their answers before submitting. The confirmation page shows their answers and gives them a choice: **Edit** their answers or **Finish** to submit.
 
 ![](../assets/basics-creating-form/cf_confirmation_page.png)
 
-The Confirmation Page options
+The confirmation page options
 
-When active, the confirmation page will be shown after the visitor has proceeded from the Form to submit their answer, at which point the visitor has to click the previously mentioned \[Finish\] button to confirm their submission, be directed to the Form’s Thank You page, and be sent a Confirmation Email (if used for the Form).
+When active, the confirmation page appears after the visitor proceeds from the form. The visitor must click **Finish** to confirm. They are then redirected to the thank-you page and, if configured, sent a confirmation email.
 
-#### 9\. Configuring a Confirmation Email (optional)
+### 9. Configure a confirmation email (optional)
 
-The Confirmation Email settings allow you to send a copy of form submissions that come in to a specified email address and send a copy of the answers to the person that submitted them.
+Confirmation email settings let you send a copy of each submission to a specified email address, and send a copy of the answers back to the person who submitted them.
 
 ![](../assets/basics-creating-form/cf_confirmation_email.png)
 
-Confirmation Email options
+Confirmation email options
 
-There are several options and fields to think about when you want to activate confirmation emails for your Form, an example of which can be seen in the image above.
+Options:
 
--   **Activate Confirmation Email**: Activate the feature for this Form.
--   **Send to responding contact**: If the visitor should get a confirmation email with their answer.
--   **Send to specific e-mail**: If you want to send a copy of all submitted answers to yourself or another colleague.
--   **Add Edit Link in e-mail**: If the visitor should have the option to go back and edit their answers at a later date via the email. Not recommended in most cases.
--   **Sender** **Name**: The name of the sender of the Confirmation email as shown in the recipient’s email client.
--   **Sender E-mail** **address**: The address of the sender or the confirmation email as shown in the recipient’s email client.
--   **Email** **Subject**: The text that will be shown in the subject line for the email in the recipient’s email client.
+- **Activate Confirmation Email:** Turn the feature on for this form.
+- **Send to responding contact:** Send the contact a confirmation with their answers.
+- **Send to specific e-mail:** Send a copy of every submission to yourself or a colleague.
+- **Add Edit Link in e-mail:** Let the contact go back and edit their answers later. Not recommended in most cases.
+- **Sender Name:** The sender name shown in the recipient's email client.
+- **Sender E-mail Address:** The sender address shown in the recipient's email client.
+- **Email Subject:** The subject line shown in the recipient's email client.
 
-#### 10\. Publishing your Form
+### 10. Publish your form
 
-When you are done creating your Form you have a couple of options for sharing it to your contacts or visitors.
+Once your form is ready, you have a few options for sharing it.
 
 ![](../assets/basics-creating-form/cf_publish_page.png)
 
-The Publishing page for a Form
+The Publishing page for a form
 
--   **Direct URL**  
-    This option provides you with a direct link to the Form which can for example be shared with your colleagues, posted on social media, or linked to from your website. When this option is clicked you will see a popup that contains the link to the Form which you have to copy directly from the field to wherever you want to send it. Note that you cannot visit this link and then share the URL of the Form page from your web browser, this is because each visitor of a Form gets a unique URL that is intended to only be used by that specific visitor, so copy the Direct URL directly from the popup window.
--   **Website Integration**  
-    This option provides you with the HTML code and scripts to integrate the Form to your own website. Our support cannot always help with issues you may encounter when using this option since it’s implemented externally from eMarketeer so we do not recommend this option if you do not have experience with this type of integration.
--   **E-mail**  
-    You can link to a Form in an Email via the Email editor. This article has a section that shows you how: [\[Creating your first Email\]](https://support.emarketeer.com/knowledgebase/basics-creating-email/)
+- **Direct URL:** A direct link to the form. Share it with colleagues, post it on social media, or link it from your website. When you click this option, a popup shows the link — copy it from the popup. Do not visit the link and copy from your browser address bar: each visitor gets a unique URL meant only for them.
+- **Website Integration:** HTML code and scripts to embed the form on your own website. Our support cannot always help with issues here because it is implemented outside eMarketeer. Skip this option unless you are comfortable with this kind of integration.
+- **E-mail:** Link to the form from an email. See the linking section in [Creating your first email](https://support.emarketeer.com/knowledgebase/basics-creating-email/).

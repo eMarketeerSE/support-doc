@@ -1,37 +1,33 @@
 # Email bounce handling
 
-This article explains how eMarketeer handles email bounces and what it means for your email sending.
+This article explains how eMarketeer handles email bounces and what it means for your sending.
 
-### **What it means**
+Keeping bounces low is part of protecting your sender reputation. eMarketeer handles most of the work automatically, but how you build and maintain your contact lists matters too.
 
-An email **bounce** occurs when a message cannot be delivered to the recipient’s email address. Bounces are typically categorized as **temporary (soft)** or **permanent (hard)**.
+### What it means
 
-eMarketeer automatically processes bounce reports from receiving mail servers. When an email address generates a **permanent (hard) bounce**, the address is automatically **blocked from future sends** to prevent repeated delivery attempts to an invalid recipient.
+A **bounce** happens when a message cannot be delivered to the recipient's email address. Bounces are categorized as **temporary (soft)** or **permanent (hard)**.
 
-### **Why it matters**
+eMarketeer processes bounce reports from receiving mail servers automatically. When an address generates a **permanent (hard) bounce**, it is automatically **blocked from future sends** to prevent repeated delivery attempts to an invalid address.
 
--   Sending repeatedly to invalid addresses harms **email deliverability**.
-    
--   High bounce rates damage your **sender reputation** with mailbox providers.
-    
--   Automatic blocking of permanently bounced addresses helps protect both your account and the overall sending reputation of eMarketeer.
-    
+### Why it matters
 
-Bounce handling reduces risk, but consistently high bounce rates may still lead to sending restrictions.
+- Sending repeatedly to invalid addresses harms **email deliverability**.
+- High bounce rates damage your **sender reputation** with mailbox providers.
+- Automatic blocking of hard-bounced addresses protects both your account and eMarketeer's overall sending reputation.
 
-### **What you should do**
+Bounce handling reduces risk, but consistently high bounce rates can still lead to sending restrictions.
 
-To keep bounce rates low and maintain healthy sending:
+### What you should do
 
--   Regularly clean and maintain your contact lists
-    
--   Avoid importing outdated or purchased email lists
-    
--   Use confirmed or double opt-in where possible
-    
--   Remove inactive contacts over time
-    
--   Validate email addresses before large imports or campaigns
-    
+To keep bounce rates low and your sending healthy:
 
-For general guidance, see: [Maximizing email marketing success – best practices and pitfalls to avoid](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/)
+- Clean and maintain your contact lists regularly.
+- Avoid importing outdated or purchased contact lists.
+- Use confirmed or double opt-in where possible.
+- Remove inactive contacts over time.
+- Validate addresses before large imports or campaigns.
+
+### What to do next
+
+For broader guidance, see [Maximizing email marketing success — best practices and pitfalls to avoid](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).

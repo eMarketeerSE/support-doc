@@ -1,60 +1,63 @@
 # Creating your first SMS
 
-Creating your first SMS to publish an App or notify about an event may be new to you but it is only a few steps to set it up in eMarketeer and this guide will show you how to do it.
+This guide walks you through creating an SMS in eMarketeer — for publishing an app, notifying about an event, or any other use.
+
+Sending SMS is only a few steps once the message is set up. By the end of this guide you will have a message ready to send.
 
 * * *
 
-#### 1\. Starting from the Campaign page, click the \[Add SMS\] button.
+### 1. Add the SMS from the campaign page
 
--   If you first need to create the Campaign, then refer to the following article: [How to Create a New Campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/)
+From the campaign page, click **Add SMS**.
+
+- If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
 ![](../assets/basics-creating-sms/cs1.png)
 
-The \[Add SMS\] Button
+The Add SMS button
 
-#### 2\. Filling the settings fields, choosing a Template to use, and Creating the SMS Component.
+### 2. Fill in settings, choose a template, create the SMS
 
 ![](../assets/basics-creating-sms/cs2.png)
 
-SMS Settings
+SMS settings
 
 #### Settings
 
--   **Name your SMS:**  
-    Give your SMS a unique name so that you can find it later. It is recommended that the name also describes the purpose of the SMS component in the context of the Campaign (eg. “Invitation” if the SMS component is an email invitation). This name is something only you will see and will not be shown to your Contacts.
+- **Name your SMS:** Give the SMS a unique name so you can find it later. Describe its purpose in the campaign — for example, "Invitation" for an event invitation. Only you see this name; it is not shown to your contacts.
 
 #### Template
 
-Select a Template from one of the tabs to use as a base for the design of the SMS.  
-For this guide, I’ve chosen the Template called Mobile App Delivery.  
-If your company has custom Templates saved on the Account then they will be shown on a tab called \[My Templates\].
+Pick a template from one of the tabs as a starting point. This guide uses **Mobile App Delivery**. Custom templates saved on your account appear under **My Templates**.
 
-#### Create SMS Component
+#### Create SMS component
 
-After filling out the settings fields and selecting a Template to use you can click the \[Create SMS\] button to create the Component.
+Once settings and template are set, click **Create SMS** to create the component.
 
-#### 3\. The SMS Editor
+### 3. The SMS editor
 
-After clicking the \[Create SMS\] button in step 2, the SMS will be created and the SMS editor will open so that you can update the Content of your new component.  
-The page will show a text box where you can edit your SMS content and the Sender ID options underneath that.  
-The Sender ID of the SMS is the name of the sender as shown on the recipients phone. The default Sender ID is eMarketeer, but you can also request a Sender ID of your choosing as described in [this article](https://support.emarketeer.com/documentation/sender-id/).  
-Underneath that you will find the SMS Testing feature which you can use to quickly send the SMS to yourself to see how it looks when received. Note that any links that you include in the SMS will not work in the Test SMS, so you will have to send the SMS the normal way if you need to test any links.
+After you click **Create SMS**, the editor opens. You see a text box where you edit the message and a Sender ID option below it.
+
+The Sender ID is the name of the sender as shown on the recipient's phone. The default is `eMarketeer`. You can request a custom Sender ID — see [this article](https://support.emarketeer.com/documentation/sender-id/).
+
+Below that you find the SMS testing feature, which lets you send the SMS to yourself to see how it looks on arrival. Links in test SMS messages do not work — send the SMS the normal way if you need to test links.
 
 ![](../assets/basics-creating-sms/cs_edit_view.png)
 
 The SMS editor view
 
-#### 4\. Changing the SMS Content
+### 4. Edit the SMS content
 
-To change the text of the SMS you simply edit the text in the text box, and you have the options of adding Links and Personalised text such as the recipient’s name using the buttons found above the text box. An additional feature of SMS is that link that point to other eMarkteer components are personalised, which means that if you send out a link to a Mobile App component for an event it can include a unique QR code or badge that the visitor can use to identify themselves at the event.
+Edit the message text in the text box. The buttons above the text box let you add links and personalized text such as the recipient's name.
 
-Remember to click the \[Save Message\] button after making your changes to the content to save your work.
+Links to other eMarketeer components are personalized per contact. For example, if you send a link to a mobile app component for an event, it can include a unique QR code or badge the contact uses to identify themselves at the event.
 
-#### 5\. Sending your SMS
+Click **Save Message** after each change to save your work.
 
-Sending an SMS is done similarly to how you send an Email via eMarketeer and have many of the same options.  
-You can find a guide on how to send emails here: [\[How to send an Email\]](https://support.emarketeer.com/knowledgebase/basics-send-email/)
+### 5. Send your SMS
 
-Note that the phone numbers you have for your contacts need to include country code and follow standard formatting before you send your SMS. Example: +46701231231
+Sending an SMS works much like sending an email and has many of the same options. See [How to send an email](https://support.emarketeer.com/knowledgebase/basics-send-email/) for the full walkthrough.
 
-For more advanced ways of sending SMS you can also check out our guides on Email sending options.
+Phone numbers must include the country code and follow standard formatting before you send. For example: `+46701231231`.
+
+For more advanced sending options, see our email sending guides.

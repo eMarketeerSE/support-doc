@@ -1,46 +1,52 @@
 # Barcodes
 
-## What is a Barcode?
+This article explains what barcodes are, where they are used, and how you can use them in eMarketeer.
 
-## ![](../assets/barcodes/Barcodes2.jpg)
+## What is a barcode?
+
+![](../assets/barcodes/Barcodes2.jpg)
 
 A barcode scanner reading a barcode
 
-In short a barcode is a font that computers can read visually. For a computer to read a barcode it needs eyes, in the form of a barcode reader. Just like any font, you can type what ever you want. You can type numbers, texts, sentences just like using a normal font. And just as before, what you type needs to mean something for someone… or something.
+A barcode is essentially a font that computers can read visually. To read one, a computer needs a barcode reader — its "eyes." Like any font, you can encode whatever you want: numbers, text, full sentences. What you encode only matters if it means something to someone, or something, on the other end.
 
-Example: Let’s say you want type your phone number. In a “human” font it would look like this:  
-004651410050
+For example, this phone number in a regular font:
+`004651410050`
 
-Your eyes interprets this series of digits and you would know what to do with them.
+Your eyes read the digits and know what to do with them.
 
-Now, the same phone number could be typed using a barcode: ![](../assets/barcodes/Barcodes1.png)
+The same number as a barcode looks like this:
+
+![](../assets/barcodes/Barcodes1.png)
 
 ## Where are barcodes used?
 
-One of the most common places you encounter barcodes are at your local store. You know that “Beep!” that sounds over and over? Thats a bar code reader reads each of the products into the cash register. Other places you often encounter barcodes are on tickets, coupons, parcels, ID-cards and more.
+The most familiar place is your local store. The "beep" at checkout is a barcode reader scanning each product into the register. You also see barcodes on tickets, coupons, parcels, ID cards, and more.
 
 ## How can I use barcodes with eMarketeer?
 
-First of all, as in any scenario using barcodes, you need a system to generate the codes and one system to scan the barcodes. eMarketeer is just a way to transport your code from one system to another. Example: You want to send out an e-mail with coupons to your customers. You already have the article-numbers for the items, and you already have a cash register to scan barcodes. What eMarketeer can do, is to take take the information and send a ready-to-print e-mail with the offers including barcodes and all. The customers only need to print the e-mail, and bring it to the store to scan it and get the discount.
+You need two systems: one to generate the codes and one to scan them. eMarketeer transports the code from one to the other.
+
+For example, you want to send coupons to your customers. You already have article numbers for the items and a cash register that scans barcodes. eMarketeer takes that information and sends a ready-to-print email with the offers and barcodes included. Customers print the email, bring it to the store, and the register scans the barcode to apply the discount.
 
 ## Barcode standards
 
-eMarketeer currently support the following barcode standards. The default standard used in the eMarketeer blocks is **Code 128**. To change barcode standard, you need to edit the barcode in developer mode.
+eMarketeer supports the following barcode standards. The default in eMarketeer blocks is **Code 128**. To change the standard, edit the barcode in Developer Mode.
 
--   Code 128
--   Codabar
--   Code 11
--   Code 39
--   Code 39 Extended
--   Code 93
--   EAN-8
--   EAN-13
--   ISBN-10 / ISBN-13
--   Interleaved 2 of 5
--   Standard 2 of 5
--   MSI Plessey
--   UPC-A
--   UPC-E
--   UPC Extension 2
--   UPC Extension 5
--   PostNet
+- Code 128
+- Codabar
+- Code 11
+- Code 39
+- Code 39 Extended
+- Code 93
+- EAN-8
+- EAN-13
+- ISBN-10 / ISBN-13
+- Interleaved 2 of 5
+- Standard 2 of 5
+- MSI Plessey
+- UPC-A
+- UPC-E
+- UPC Extension 2
+- UPC Extension 5
+- PostNet

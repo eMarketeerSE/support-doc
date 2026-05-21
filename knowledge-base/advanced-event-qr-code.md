@@ -1,54 +1,59 @@
-# Form specific QR-code generation for Scanning Event Attendance (Advanced)
+# Form-specific QR code generation for scanning event attendance (advanced)
 
-The standard QR-code generator that is used for eMarketeer can dynamically give you any data from a contact’s contact card in the form of a QR-code that can be distributed to your contacts via an email or app component. This guide shows how to manipulate the QR-code generator to open a specific Form on your account where this data can be registered automatically via scanning the QR-code. This is a more advanced way of doing QR-codes and may require that you have some knowledge about HTML and URLs before starting.
+This guide shows how to build a QR code that, when scanned, submits the contact's email to a specific eMarketeer form to register event attendance.
+
+The standard QR code generator can produce a QR code from any contact field. This advanced variant points the code at a form receiver URL, so scanning the code automatically registers the contact. Some HTML and URL knowledge helps before you start.
 
 * * *
 
 ### What you need to start
 
-First off you will need a Form component on your account where you will register the contacts that are attending the event. We will use the integration HTML from this Form to create the QR-code.
+You need a form on your account where attending contacts will be registered. You will pull two values out of the form's website integration code to build the QR URL.
 
-Secondly you will need the URL for the QR-code generation, the following string is that URL:
+The QR code generation URL looks like this:
 
-https://app.emarketeer.com/library/qrcode/php/qr\_img.php?s=6&d=https://app.emarketeer.com/ext/form/receiver.php?m=M\_VALUE%26NAME\_VALUE=<% contact field="email" %>
+`https://app.emarketeer.com/library/qrcode/php/qr_img.php?s=6&d=https://app.emarketeer.com/ext/form/receiver.php?m=M_VALUE%26NAME_VALUE=<% contact field="email" %>`
 
-This URL example is missing 2 values before it will work, the M-Value and the NAME-Value. These values are what you will need to get from the specific Form that you want the attendance registered in.
+The placeholders `M_VALUE` and `NAME_VALUE` are what you will replace with values from your form.
 
-### Getting the M-Value and NAME-Value from the Form
+### Get the M-value and NAME-value from the form
 
-Start by going to the Form components Report page for the specific Form that you want the attendance registered in, then do the following to access the Form’s webpage integration code.
+Open the report page for the form where attendance should be registered, then open the form's website integration code.
 
-![Step-by-Step illustration about how to find the Form integration code](../assets/advanced-event-qr-code/formintegrationcodeguide.png)
+![Step-by-step illustration of how to find the form integration code](../assets/advanced-event-qr-code/formintegrationcodeguide.png)
 
-Guide to Form Integration Code
+Guide to form integration code
 
-1.  Click on \[Publish Form\] in the left-side menu to access the publishing options.
-2.  Click \[Website Integration\] on the publishing page.
-3.  Under <FORM>, write any domain in the domain field and then click the ENTER key on your keyboard. For example, you can write “emarketeer.com” in this field.
-4.  Click the button \[Get Code\]
+1. Click **Publish Form** in the left-side menu to open the publishing options.
+2. Click **Website Integration** on the publishing page.
+3. Under `<FORM>`, type any domain in the domain field and press Enter. For example, `emarketeer.com`.
+4. Click the **Get Code** button.
 
-Next is getting the M-Value and the NAME-value you need from the website integration code, the M-Value is the identifier for the Form Component and the NAME-Value is the identifier for the specific Question. The question you want is the that corresponds to the contact’s email address, which will be used to identify the contact for registering attendance. What you will be looking for is the values for **<input type=”hidden” name=”m” value=”M-Value”>** and **<input type=”email” name=”NAME-Value”>**
+Next, find the two values in the integration code. The M-value identifies the form. The NAME-value identifies the specific question — in this case, the question that stores the contact's email address. Look for:
 
-![The form integration code with m-value and name-value highlighted](../assets/advanced-event-qr-code/mandnamevalueforform.png)
+- `<input type="hidden" name="m" value="M-Value">`
+- `<input type="email" name="NAME-Value">`
 
-The M-Value and NAME-Value
+![The form integration code with the m-value and name-value highlighted](../assets/advanced-event-qr-code/mandnamevalueforform.png)
 
-Examples of these values:  
-M-Value: “353750ae84ccbd4692021cd1e93a90145287fee”  
-NAME-value: “query\_2027106\_16\_3”
+The M-value and NAME-value
 
-### Creating the QR-code URL
+Example values:
+- M-value: `353750ae84ccbd4692021cd1e93a90145287fee`
+- NAME-value: `query_2027106_16_3`
 
-Now that you have the values you need from the specific Form that you want the attendance registered in, you will have to add them to the QR-code generation URL by replacing these parts in the example URL:
+### Build the QR code URL
 
-https://app.emarketeer.com/library/qrcode/php/qr\_img.php?s=6&d=https://app.emarketeer.com/ext/form/receiver.php?m=M\_VALUE%26NAME\_VALUE=<% contact field="email" %>
+Replace the placeholders in the QR code URL with the values from your form. Starting from this template:
 
-After doing this you will end up with a URL that looks like this:
+`https://app.emarketeer.com/library/qrcode/php/qr_img.php?s=6&d=https://app.emarketeer.com/ext/form/receiver.php?m=M_VALUE%26NAME_VALUE=<% contact field="email" %>`
 
-https://app.emarketeer.com/library/qrcode/php/qr\_img.php?s=6&d=https://app.emarketeer.com/ext/form/receiver.php?m=353750ae84ccbd4692021cd1e93a90145287fee%26query\_2027106\_16\_3=<% contact field="email" %>
+The finished URL looks like this:
 
-### Using the QR-code URL
+`https://app.emarketeer.com/library/qrcode/php/qr_img.php?s=6&d=https://app.emarketeer.com/ext/form/receiver.php?m=353750ae84ccbd4692021cd1e93a90145287fee%26query_2027106_16_3=<% contact field="email" %>`
 
-This QR-code URL can now be put into an image block in an Email or App component as if it was an image URL. When the email or app is distributed, each individual contact will get a unique QR-code that contains their email address for identification and when scanned it will register them to the Form component.
+### Use the QR code URL
 
-For use on an App component’s QR-code page you will need Developer permissions for you User account and then start Developer Mode on the App’s editing page. From here you will have to open the QR-code block, go to the HTML tab, and then replace the standard QR-code URL in the HTML with the new one you have created.
+Paste this URL into an image block in an email or app component as if it were a regular image URL. When the email or app is distributed, each contact gets a unique QR code containing their email address. Scanning the code registers them to the form.
+
+To use this URL on an app component's QR code page, you need Developer permissions on your user account. Enable Developer Mode on the app's editing page, open the QR code block, switch to the HTML tab, and replace the standard QR code URL in the HTML with your new one.

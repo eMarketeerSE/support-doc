@@ -1,174 +1,171 @@
-# Creating your first Email
+# Creating your first email
 
-Creating your first Email to send to your members or customers may seem daunting at first but it is quite simple to create a great looking Email in eMarketeer and this guide will show you how to do it. The Email created in the guide will be an Event Invitation Email, but the creation process is similar for all types of Emails.
+This guide walks you through creating an email in eMarketeer, from setting it up to editing content blocks and adding the final touches.
+
+The example builds an event invitation email, but the process is the same for any email type. By the end, you will have an email ready to send.
 
 * * *
 
-#### 1\. Starting from the Campaign page, click the \[Add Email\] button.
+### 1. Add the email from the campaign page
 
--   If you first need to create the Campaign, then refer to the following article: [How to Create a New Campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/)
+From the campaign page, click **Add Email**.
+
+- If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
 ![](../assets/basics-creating-email/ce1.png)
 
-Add Email Button
+Add Email button
 
-#### 2\. Filling the settings fields, choosing a Template to use, and Creating the Email Component.
+### 2. Fill in settings, choose a template, create the email
 
 ![](../assets/basics-creating-email/ce2.png)
 
-Email Settings
+Email settings
 
 #### Settings
 
--   **Name your Email:**  
-    Give your Email a unique name so that you can find it later. It is recommended that the name also describes the purpose of the Email component in the context of the Campaign (eg. “Invitation” if the Email component is an email invitation). This name is something only you will see and will not be shown to your Contacts.
--   **Subject:**  
-    This will be the subject line of the Email that the recipients will see in their email clients.
--   **From Name:**  
-    This is the name that will be shown as the Email’s sender in the recipients’ email clients.
--   **From Address:**  
-    This setting has two parts that will make up the email address that is used to send the email.  
-    1\. The first part is what will be before the @ in the address and can be almost anything but if you don’t know what to write then “noreply” works well for most types of Emails, though an email inbox that can receive emails is preferred.  
-    2\. The second part is the email’s domain name. You are required to add your own email domain before you can send emails.  
-    _You can read how to add your own domain in [this article](https://support.emarketeer.com/documentation/custom-email-domain/)._
--   **Reply-to Address (optional):**  
-    A setting where you can add an email address that will receive any replies that are made to the email in the event that the From Address cannot receive emails.  
-    It’s rarely used and something that can be skipped.
--   **Subscription Category (optional):**  
-    If you have a Subscription List on your Account that this Email should be categorized for then this can be selected here.  
-    It’s rarely used and something that can be skipped.
+- **Name your email:** Give the email a unique name so you can find it later. Describe the email's purpose in the context of the campaign — for example, "Invitation" for an invitation email. Only you see this name; it is not shown to your contacts.
+- **Subject:** The subject line recipients see in their email clients.
+- **From Name:** The sender name shown in recipients' email clients.
+- **From Address:** This has two parts that make up the sending address.
+   1. The part before the `@` can be almost anything. If you are not sure, `noreply` works for most cases, though a real inbox that can receive replies is preferred.
+   2. The part after the `@` is your email domain. You must add your own domain before you can send. See [this article](https://support.emarketeer.com/documentation/custom-email-domain/) for how.
+- **Reply-to Address (optional):** An address that receives any replies, useful if the From Address cannot receive email. Rarely used; usually safe to skip.
+- **Subscription Category (optional):** If your account uses subscription lists, you can categorize this email here. Rarely used; usually safe to skip.
 
 #### Template
 
-Select a Template from one of the tabs to use as a base for the design of the Email.  
-For this guide, I’ve chosen the Template called Hero Event found on the \[Events\] tab.  
-If your company has custom Templates saved on the Account then they will be shown on the tab called \[My Templates\].
+Pick a template from one of the tabs as a starting point for the design. This guide uses **Hero Event** from the **Events** tab. Custom templates saved on your account appear under **My Templates**.
 
-#### Create Email Component
+#### Create email component
 
-After filling out the settings fields and selecting a Template to use you can click the \[Create Email\] button to create the Component.
+Once settings and template are set, click **Create Email** to create the component.
 
-#### 3\. The Email Editor
+### 3. The email editor
 
-After clicking the \[Create Email\] button in step 2, the Email will be created and the Email editor will open so that you can update the Content of your new Email.  
-The page will show a menu on the left where you can add new Content Blocks, access some Tools, and update the email settings if you need to change something from step 2.  
-The rest of the page shows the current Email Content, which at creation is imported from the Template that you chose to use.  
-The content is made up of Content Blocks that can be updated individually as shown in the following steps.
+After you click **Create Email**, the editor opens with the new email. The left-side menu lets you add content blocks, access tools, and update the settings from step 2. The rest of the page shows the email content, imported from the template you chose.
+
+The content is made up of content blocks, which you edit individually in the following steps.
 
 ![](../assets/basics-creating-email/ce3.png)
 
-Email Editor View
+Email editor view
 
-#### 4\. Editing an Email Content Block
+### 4. Edit a content block
 
-Each Content Block in the Email is made up of a few different parts which you can update by clicking the Edit button for a Content Block as shown in the image below.
+Each content block is made up of several parts you can update. Click the block's edit button to open its settings.
 
 ![](../assets/basics-creating-email/ce-edit-block-1.png)
 
-Editing a Content Block
+Editing a content block
 
-When you click the Edit button on a block, a settings menu opens up on the right side of the page.  
-The menu usually has two tabs, Content and Styles. Content is where you change the Block’s settings and Content, while Styles is where you change the Colors and Font settings.  
-Focusing on the Content tab there are two sections. First, there are some settings for how the block will be displayed which we will leave as is. The second section is what we will be looking at more as this corresponds to what is shown in the Content Block, such as any images, headlines, text paragraphs, and buttons that you can use in the block.
+A settings menu opens on the right with two tabs: **Content** and **Styles**. Content is where you change the block's settings and content. Styles is where you change colors and fonts.
 
-#### 5\. Changing the Headline of a Block
+On the Content tab, the first section controls how the block displays — leave those defaults for now. The second section is what appears in the block: images, headlines, text paragraphs, and buttons.
 
-To change the text of a Headline or Text paragraph you start by clicking the Title bar for the part you want to change and then edit the text in the text box.  
-If you leave the text box empty, then that part of the Content Block will be hidden. As an example, in the image below we are not using the text paragraph and two of the link buttons so they are not being shown in the Content of the Email.  
-Remember to click the \[Save\] button after making a change to the Block’s content to save your work.
+### 5. Change a block's headline
+
+To change a headline or text paragraph, click the title bar for that part and edit the text in the text box. If you leave the text box empty, that part of the block is hidden.
+
+In the image below, we are not using the text paragraph and two of the link buttons, so they do not appear in the email.
+
+Click **Save** after each change to save your work.
 
 ![](../assets/basics-creating-email/ce5.png)
 
-Update Content Block text
+Update content block text
 
-#### 6\. Uploading an Image File
+### 6. Upload an image
 
-You may want to upload your own images to use in your email content and to do so you open the content block for editing, then go to the Image section in the right-side menu and click the \[Choose Image\] button.
+To upload your own image, open the content block for editing, go to the Image section in the right-side menu, and click **Choose Image**.
 
 ![](../assets/basics-creating-email/ce_upload_image_1.png)
 
-The \[Choose Image\] button
+The Choose Image button
 
-  
-The image below shows the steps for uploading your own image and using it in a content block by following these steps:  
-1\. Click the \[Upload File\] button.  
-2\. Click the \[Choose files\] button and select the image file on your computer.  
-3\. Upload the chosen image file to your eMarketeer account.  
-4\. Your file should now show up in the file browser window and you click on it to select it.  
-5\. Click the \[Use Selected\] button to add it to your content block.
+To upload and use an image:
+
+1. Click **Upload File**.
+2. Click **Choose files** and select the image on your computer.
+3. Upload the file to your eMarketeer account.
+4. Click the file in the browser window to select it.
+5. Click **Use Selected** to add it to the content block.
 
 ![](../assets/basics-creating-email/ce_image_upload_2.png)
 
 Steps for uploading and using a new image file
 
-If the image file you want to use doesn’t match the recommended dimensions for the content block, then an option to automatically scale the image to fit the content block will appear. To allow the image to be auto scaled you simply click the link in the notice.
+If the image does not match the recommended dimensions for the block, an option to auto-scale it appears. Click the link in the notice to accept.
 
 ![](../assets/basics-creating-email/ce_upload_image_3.png)
 
 Auto Scale option
 
-#### 7\. Adding a Button with a Link
+### 7. Add a button with a link
 
-When you want to link to a webpage, file, or another eMarketeer Component you have the option to use buttons. To link to a website you can simply write the website URL in the URL field of the Link settings (the https:// or https:// protocol of the URL must be included) and write an appropriate caption text for the Button that is displayed, but there are a few more steps if you want to create a dynamic link from the Email to another eMarketeer component.  
-The image below shows the steps for adding a link to a Form by following these steps:  
-1\. Open the “Link 1” content settings and click the \[Browse\] button.  
-2\. Click the \[eMarketeer Form\] button.  
-3\. Select the Campaign where your Form is located in the first dropdown menu and then select the Form you want to link to in the second dropdown menu.  
-4-6. Click \[Select\], then \[Apply\], and lastly \[Save\] to add the link to the button and save the change to the Block.
+Use buttons to link to a webpage, file, or another eMarketeer component. For a web link, type the URL in the Link settings (include the `http://` or `https://` protocol) and write a button caption. To link to another eMarketeer component, follow these steps:
+
+1. Open the "Link 1" content settings and click **Browse**.
+2. Click **eMarketeer Form**.
+3. Pick the campaign that contains your form in the first dropdown, then the form in the second dropdown.
+4. Click **Select**, then **Apply**, then **Save** to add the link and save the block.
 
 ![](../assets/basics-creating-email/ce6.png)
 
-Update Content Block button link
+Update content block button link
 
-#### 8\. Adding an additional Content Block to the Email
+### 8. Add a new content block
 
-If you want to add a new Content Block to the Email you start by clicking the \[Add Content Block\] button in the left-side menu.  
-Then you click the \[Add Block\] button that corresponds to the Block you want to add from the Add Content menu that appears on the right side of the page. If the button is grey then you need to first click on an existing content block in the Email to select it, this tells the editor where you want the new block to be inserted in the Email.
+To add a new content block, click **Add Content Block** in the left-side menu. In the Add Content menu on the right, click **Add Block** next to the type you want.
+
+If the button is grey, first click an existing block to tell the editor where the new one should go.
 
 ![](../assets/basics-creating-email/ce-add-12.png)
 
-Add Content Block to open the menu and then Add the specific Block you want
+Add a content block, then add the specific block you want
 
-#### 9\. Repositioning a Content Block in the Email Content
+### 9. Reposition a content block
 
-When you have added a new Content Block or want to reposition an existing one you click and hold the repositioning icon on the left side of the Block’s context bar and then drag the block to the position where you want it in the email.
+To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
 ![](../assets/basics-creating-email/ce-move.png)
 
-Reposition Block in Content by dragging it into position
+Reposition a block by dragging it into place
 
-#### 10\. Deleting a Content Block from the Email
+### 10. Delete a content block
 
-The Template may also have included a Content Block that you do not want in your email and to delete it you click the delete button on that Block’s context bar as shown in the image below.
+To remove a block from the template, click the delete button on its context bar.
 
 ![](../assets/basics-creating-email/ce-delete.png)
 
-Delete Content Block button
+Delete content block button
 
-#### 11\. Using a Content Block with a calendar link
+### 11. Use a block with a calendar link
 
-Before we look at the Email Settings block and finish this Email I want to showcase the Calendar link feature that exists in some Content Blocks as it is usually very useful for events. What the feature does is create a link that when clicked by an email recipient creates a Calender file for them that creates an event in their calendar with the settings you have chosen in the Content Block.  
-As shown in the image below, you can choose the settings for the calendar event in the Block’s content menu, setting the date, time, title, location, and more.
+Some content blocks support a calendar link feature, which is useful for events. When a recipient clicks the link, eMarketeer generates a calendar file that adds the event to their calendar using the settings you chose.
 
-It is recommended that the “Description” field contain only text and that the length of said text is limited to at most 2-3 short paragraphs.
+You configure the calendar event in the block's content menu — date, time, title, location, and so on.
+
+Keep the **Description** field to plain text and limit it to two or three short paragraphs.
 
 ![](../assets/basics-creating-email/ce7.png)
 
-Update Add to Calendar Block
+Update Add to Calendar block
 
-#### 12\. Adding a Preheader and finishing the Email
+### 12. Add a preheader and finish the email
 
-The last thing we want to look at before we are Done Editing the Email Content is the Email Settings block found at the top of most Emails.  
-This block is entirely optional and most settings are only for special use-cases when a link to the Email content is shared, but the Preheader setting is something that you may want to take a look at.  
-The text added to the Preheader is what the recipient’s email clients will show as the Email message’s summary and it is recommended that you write a short summary of the email content here.  
-When you have saved a Preheader we are done and can click the \[Done Editing\] button to exit the Email editor.
+The Email Settings block at the top of most emails is optional. Most of its settings are for special use cases involving shared links to the email content, but the **Preheader** is worth using.
+
+The preheader is the short summary that recipient email clients show next to the subject line. Use it to summarize what the email contains.
+
+Once your preheader is saved, click **Done Editing** to exit the editor.
 
 ![](../assets/basics-creating-email/ce8.png)
 
-Write a Preaheader and Exit the Editor
+Write a preheader and exit the editor
 
 * * *
 
-#### The Email is now ready to be sent, check out the following guide if you want to read up on how to do this:
+### What to do next
 
-**[How to Send an Email](https://support.emarketeer.com/knowledgebase/basics-send-email/)**
+The email is ready to send. See [How to send an email](https://support.emarketeer.com/knowledgebase/basics-send-email/).
