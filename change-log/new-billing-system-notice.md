@@ -1,19 +1,25 @@
-# New billing system notice – eMarketeer Support
+# New billing system notice
 
-We are excited to announce that we are migrating to a new billing system, and we’d like to inform you about a few key updates that may affect you.
+We are migrating to a new billing system, and a few changes will affect customers from October 1, 2024.
 
-Starting **October 1, 2024**, the new billing system will be fully operational, bringing some changes you should be aware of:
+This notice explains what changes, when, and what you need to do.
 
-**New Invoice Design**  
-Expect a fresh look on your invoices from eMarketeer. The new design will make it easier to read and understand your billing details.
+## What changes on October 1, 2024
 
-**Introducing User Licenses**  
-Beginning October 1, 2024, all eMarketeer customers will be assigned a specific number of user licenses. These licenses determine the maximum number of users who can access the platform for marketing and sales activities.You’ll be able to see the number of licenses allocated to your account, as well as how many are in use, on the **User Administration** page.
+### New invoice design
 
-**Monthly Prepaid Billing**  
-All monthly subscriptions will now be billed in advance. As part of this transition, you will receive **two invoices in October**: one covering September–October, and another for October–November. To help with this change, you’ll have a 60-day payment window for the second invoice.
+Invoices from eMarketeer will have a fresh look. The new design makes it easier to read and understand your billing details.
 
-**Questions?**  
-If you have any questions or need assistance, feel free to reach out to us at [billing@emarketeer.com](mailto:billing@emarketeer.com). We’re here to help!Thank you for your continued trust in eMarketeer.Best regards,
+### User licenses
 
-The eMarketeer Team
+Starting October 1, 2024, all eMarketeer customers will be assigned a specific number of user licenses. These licenses determine the maximum number of users who can access the platform for marketing and sales activities.
+
+You can see the number of licenses allocated to your account, as well as how many are in use, on the User Administration page.
+
+### Monthly prepaid billing
+
+All monthly subscriptions will now be billed in advance. As part of this transition, you will receive two invoices in October: one covering September–October, and another for October–November. To help with this change, you have a 60-day payment window for the second invoice.
+
+## Questions
+
+If you have any questions or need assistance, contact us at [billing@emarketeer.com](mailto:billing@emarketeer.com).
