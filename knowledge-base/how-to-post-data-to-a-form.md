@@ -1,63 +1,59 @@
 # How to post data to a form
 
-**Using the hosted version of a form is great in many cases, but sometimes you want to put the form on your website or use other methods to get the answers into the form. A form is a great way to trigger automations from other systems. In this “how-to”, we’ll look closer on how to use other methods to post data to a form.**
+This guide shows how to post answers to an eMarketeer form from your own website or from another system.
 
-In any case we always need to create a Form in eMarketeer. This is where you define which questions you need answered. So go ahead and create your form.
+The hosted version of a form covers many cases, but sometimes you need to embed the form on your website or trigger automations from another system. A form is a flexible target for posting data from outside eMarketeer.
 
-Now that you have a form, you can post answers to this form in several ways.
+## Before you start
 
--   Get the direct URL and let visitors answer the hosted form. (not covered in this document)
--   Iframe the hosted form on to your site. (not covered in this document)
--   Put the html of the form on your website
--   Use scripts to post data to the form programmatically
+You always need to create the form in eMarketeer first. The form defines which questions you want answered. Once it exists, you can post answers to it in several ways:
 
-All forms have these important properties.
+- Get the direct URL and let visitors answer the hosted form (not covered here).
+- Iframe the hosted form onto your site (not covered here).
+- Put the HTML of the form on your website.
+- Use a script to post data to the form programmatically.
 
--   A URL to post the data to
--   Input fields with name and value
+Every form has two important properties:
 
-Thats it! If you just POST (or even GET) the answers to the right URL with the right name=value, your answers are saved in eMarketeer.
+- A URL to post the data to.
+- Input fields with a name and a value.
 
-**Lets do this!**
+If you POST (or GET) the answers to that URL with the right name/value pairs, your answers are saved in eMarketeer.
 
-**1\. Create the form**
+## 1. Create the form
 
-In eMarketeer create a form with a contact registration and some other questions.
+In eMarketeer, create a form with a contact registration and any other questions you need.
 
-**![](../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png)**
+![A form being created in eMarketeer.](../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png)
 
-**2\. Get form HTML code**
+## 2. Get the form HTML code
 
-Click “publish” on the form.
+Click "publish" on the form.
 
-![](../assets/how-to-post-data-to-a-form/form_publish.png)
+![The publish button on a form.](../assets/how-to-post-data-to-a-form/form_publish.png)
 
-Then “Website integration”.
+Then click "Website integration."
 
-![](../assets/how-to-post-data-to-a-form/form_websiteintegration.png)
+![The website integration option.](../assets/how-to-post-data-to-a-form/form_websiteintegration.png)
 
-Then click “GET CODE” under the “<FORM>” section to get to the form code. If you have reCAPTCHA active on your account then you will need to add a domain to the domain field before you can access the code.
+Click "GET CODE" under the `<FORM>` section to open the form code. If reCAPTCHA is active on your account, add a domain to the domain field before you can access the code.
 
-![](../assets/how-to-post-data-to-a-form/form_formcode.png)
+![The GET CODE button under the FORM section.](../assets/how-to-post-data-to-a-form/form_formcode.png)
 
-Now you get the form code for this form.
+The form code is displayed.
 
-![](../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png)
+![The generated form HTML code.](../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png)
 
-Now, this form code you can put directly on your website and it will post the answers to eMarketeer and then show the “Thank you page”.
+You can paste this code directly on your website. It posts the answers to eMarketeer and then shows the thank-you page.
 
-The form code can be designed and altered as much as you want as long as you keep the **action URL and input names intact.** There is also an important hidden input field with the name “m” and a value which must be kept since it identifies which form to post to.
+You can restyle and rearrange the code as much as you want — as long as you keep the action URL and the input names intact. There is also a hidden input named "m" with a value that identifies which form to post to. Keep it.
 
-**cUrl and other methods to post**
+## cURL and other methods to post
 
-SO now you have the URL and the input fields, and you are free to use any method to get the answers to your form. Instead of using the web browser to post, you can also use cUrl and similar to post programmatically in the background. Just remember to keep the input names intact.
+Once you have the URL and the input fields, any method that posts to that URL works. Instead of using a browser, you can use cURL or a similar tool to post programmatically. Keep the input names intact. GET is also valid — pass the parameters in the query string.
 
-Even “GET” is a valid method to send data to the form. In this case you load the URL with all parameters in the query string.
+## Custom thank-you page
 
-**Custom thank you page**
+If you embed the form on your site, you may want to send visitors to your own thank-you page instead of the eMarketeer-hosted one. To change the redirect, edit the form in eMarketeer and click "Thank you page." Choose "Use custom URL" and enter the URL to redirect to.
 
-If you put the form on your web site you may not want to redirect the visitor to eMarketeer hosted thank you page after answering the form. In this case, you can redirect the visitor to any URL after answering. You could create your own thank you page on your site and redirect there.
-
-To change the redirect, go into edit mode on the form in eMarketeer and click “Thank you page”. There choose “Use custom URL” and enter the URL you want to redirect to after answering.
-
-![](../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png)
+![The custom thank-you page setting on a form.](../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png)

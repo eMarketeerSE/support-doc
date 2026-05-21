@@ -1,69 +1,58 @@
 # How does consent work?
 
-_The process of consent consists of a few different parts; purpose, legal base, source and the option to withdraw consent._
+Consent in eMarketeer is built from four parts: purpose, legal base, source, and the option to withdraw.
 
-Technically, you use eMarketeer to:
+You use eMarketeer to store contact information imported from other systems, collect more contact data through web forms, and send emails and SMS for various purposes. The information you store belongs to your contacts (the data subject), and you use it to communicate with them. GDPR gives each contact more control over the information you hold and shapes how you may communicate with them.
 
--   Store contact information, imported from other systems
--   Collect more contact data through web forms
--   Send emails and SMS for various purposes
+## Purpose
 
-This means that the information you store actually belongs to your contacts (data subject) and that information is used to communicate with the contacts. GDPR is giving the individual contact more control over the information you store about him/her and GDPR also determines how the communication between you and the person (data subject) should be commenced.
+The most important part of consent is defining each purpose and the right by which you carry it out. eMarketeer ships with these purposes by default:
 
-**Purpose**
+- Store data — keep information about data subjects in a secure place, in this case eMarketeer.
+- Emarketing — send emails and SMS to these contacts.
+- Profiling — use contact information that shows interests or behavior for segmentation or personalization.
 
-The most important part of consent is about defining different purposes and by what right you can perform them.  
-eMarketeer has these **purposes** by default.
+## Each purpose needs a legal base
 
--   Store data – to keep information of data subjects in a secure place, in this case, eMarketeer.
--   Emarketing – to send emails and SMS to these contacts.
--   Profiling – to use contact information that shows interests, behavior etc, for segmenting or personalization.
+For each purpose, you add a legal base. The available options are:
 
-**Each Purpose Needs a Legal base**
+- Consent
+- Legitimate interest
+- Contract
+- Required by law
+- Protect vital interests
+- Public interests
 
-By which right do you have to perform the above-mentioned purposes? For each one of the purposes, you then need to add a “**legal base.**” A legal base can be one of the following:
+The most relevant legal bases for most marketers are consent and legitimate interest.
 
--   Consent
--   Legitimate interest
--   Contract
--   Required by law
--   Protect vital interests
--   Public interests
+## Legal bases: consent and legitimate interest
 
-The most relevant legal bases for most marketers are “consent” and “legitimate interest”, so let’s look at these a little closer.
+GDPR states that to have consent, the data subject must opt in by an unambiguous and clear affirmative action. Once they do, you have consent to send marketing or to store the data you need. You do not need an affirmative action for every purpose, however.
 
-**Legal Bases – Consent and Legitimate Interest**
-
-GDPR states that to have consent, you need the data subject to opt-in by an “_unambiguous” and “clear affirmative”_ action. Congratulations! You now have consent to send that marketing email or storing the data you need. But does this mean that you need a data subject’s clear affirmative action for all your purposes? No.
-
-Say hello to “Legitimate interest”! It’s not your “get out of jail”- card, but it does make GDPR a little bit less scary. This legal base, legitimate interest, allows you to, for example, communicate with the data subject without explicit consent – **_if the data subject expects you to do so_**.
+Legitimate interest lets you communicate with the data subject without explicit consent, if the data subject expects you to do so.
 
 Examples:
 
--   If a person is a customer of yours, the customer expects you to store the data he/she gave you. It is in both of your interests that you do so. This is legitimate interest.
--   If a customer registered to your event, the customer expects you to send information about the event they registered to – Legitimate interest.
--   You have customers and you need to reach out with relevant service information to them? Legitimate interest.
+- If a person is a customer, the customer expects you to store the data they gave you. Storing it is in both parties' interest. This is legitimate interest.
+- If a customer registered for an event, the customer expects you to send information about that event. Legitimate interest.
+- You have customers and need to reach them with relevant service information. Legitimate interest.
 
-This is, of course, a grey zone so it’s important to know how to apply legitimate interest; if the action you perform is in the interest of the data subject, you can claim Legitimate Interest.
+Legitimate interest is a grey area, so apply it carefully. If the action is in the interest of the data subject, you can claim legitimate interest. GDPR requires a clear relationship, genuine mutual interest, a balance of interests, expected and appropriate processing, and no infringement on the rights and freedoms of the individual.
 
--   -   GDPR requires a clear relationship, genuine mutual interest, a balance of interests, expected and appropriate processing, and without infringement, of individual rights and freedoms of the individual.
+## How to set a legal base for each purpose
 
-**How to Set a Legal Base for Each Purpose**
+You need a legal base for each purpose. A typical setup looks like this:
 
-Remember that we need a legal base for each one of the purposes. Normally, it looks something like this:
+- Store data = Legitimate interest. You store the contact data because it is in both your and the subject's interest. Storing data does not mean you can market to them.
+- E-marketing = Consent. For marketing you need explicit consent unless you can prove legitimate interest.
+- Profiling = Consent. Same as e-marketing.
 
--   Store data = Legitimate interest. You store the contact data because it is in both your and the subjects interest. Storing data, however, does not mean you can market to them.
--   E-marketing = Consent. For marketing (selling) you will need an explicit consent unless you can prove legitimate interest.
--   Profiling = Consent. Same as e-marketing.
+Tip: if you collect contact data digitally through web forms, always include a consent checkbox that clearly states how you will use the information. This gives you explicit consent, which is a stronger legal base than legitimate interest.
 
-Tip!
+## Source
 
-If you collect contact data digitally through web forms, always have a consent checkbox which clearly states how you will use the information. This way you will get an explicit consent which is a stronger legal base than legitimate interest.
+When you set a consent, you also need to add the source — for example, "web form" or "added by user." Add any additional information that can serve as proof of the consent.
 
-**Source**
+## Withdraw consent
 
-Additionally, when you set a consent, you always need to add the source of the consent. This could be “web form,” “added by user,” or similar. This, plus any additional information that can be provided as proof of the consent, should be added.
-
-**Withdraw consent**
-
-Regardless of which legal base you set for your purposes, the subject can always withdraw their consent and you need to provide an easy way to do so.
+Regardless of the legal base you set, the subject can always withdraw their consent. You need to provide an easy way for them to do so.

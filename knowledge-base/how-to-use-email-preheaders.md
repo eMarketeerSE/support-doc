@@ -1,6 +1,11 @@
 # Tutorial: How to use email preheaders
 
-This video shows how to add a preheader in emails based on older templates.  
-For newer templates you will find this in the email settings section.
+This tutorial shows how to add a preheader to an email in eMarketeer.
 
-A preheader is the text you see right after the subject line when an email arrives at the inbox. By default, it is always the first piece of text in the content that’s displayed here, but marketers often tend to forget that it can be customized to either play nicely along with the subject line or present a short summary of what the email contains. After all, the subject line is your shot to encourage the subscribers to actually open the email, and the preheader gives you some extra space and words for higher open rates.
+The video covers adding a preheader in emails built from older templates. For newer templates, you find the preheader in the email settings section.
+
+## What a preheader is
+
+A preheader is the text that appears next to the subject line when an email arrives in the inbox. By default it shows the first piece of text in the content, but you can customize it. Use the preheader to complement the subject line or summarize what the email contains. The subject line gets the contact to open the email — the preheader gives you extra space and words to raise open rates.
+
+> TODO: verify — the original article references a tutorial video but no video URL or embed is present in the source.

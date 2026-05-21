@@ -1,34 +1,35 @@
 # How to link to a form
 
-There are multiple ways to link to a form. This guide shows you how to do it from an eMarketeer Email or a Web page component. 
+This guide shows how to link to a form from an eMarketeer email or web page component.
 
-Links can be added in text, images or link elements (such as link buttons). To add a link to a button you configure it like this:
+You can add links to text, images, or link elements such as buttons. The steps below use a button as the example.
 
-[![](../assets/how-to-link-to-a-form/2025-03-06_12-32-51.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-32-51.png)
+## Add the link
 
-Click the browse button next to the url field.
+Open the button settings and click the browse button next to the URL field.
 
-[![](../assets/how-to-link-to-a-form/2025-03-06_12-33-19.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-33-19.png)
+[![The link configuration panel for a button.](../assets/how-to-link-to-a-form/2025-03-06_12-32-51.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-32-51.png)
 
-Click link to eMarketeer form.
+[![The browse dialog opened from the URL field.](../assets/how-to-link-to-a-form/2025-03-06_12-33-19.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-33-19.png)
 
-[![](../assets/how-to-link-to-a-form/2025-03-06_12-34-00.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-34-00.png)
+Click "link to eMarketeer form."
 
-In this last step we have a few more options to choose from. Below follows a description so that you can choose the best fit for your use case.
+[![The form link options dialog.](../assets/how-to-link-to-a-form/2025-03-06_12-34-00.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-34-00.png)
 
-**Choose campaign:**  
-This allows you to link to a form outside  your current campaign. Leave this option as is to choose a form from within the same campaign that you are currently working with.
+## Choose the link options
 
-**Choose form:**  
-Choose the form you want your button to link to.  
-  
-**Choose identification:**  
-This allows you to create either an anonymous link or a personal link to the form. The difference between these links is that the anonymous link will be the same no matter which contact receives the email while the personal link will be unique for each recipient.
+The final step gives you a few options. Pick the best fit for your use case.
 
-This matters because the unique links will be able to identify the respondent of the form when the form is opened and will thus be able to prefill the form with contact data that we already know about the respondent. 
+**Choose campaign:** link to a form outside the campaign you are currently working on. Leave this as is to use a form from the current campaign.
 
-Some features such as “Allow only one answer per visitor” (found in the form publish settings) works best if the link is personal.
+**Choose form:** the form the button links to.
 
-Don’t forget to “Select -> Apply -> Save”.
+**Choose identification:** create either an anonymous link or a personal link. An anonymous link is the same for every contact who receives the email. A personal link is unique to each recipient.
 
-Note: A benefit of using the method described in this guide is that it will create a link to the form that is relative to the campaign, which means that if you copy the campaign, the new copy will still link internally to its own campaign and you will not have to manually redo/update the link url.
+The identification choice matters because a personal link identifies the respondent when the form is opened, which lets the form prefill contact data you already have. Some features — such as "Allow only one answer per visitor" in the form publish settings — work best with a personal link.
+
+Click "Select -> Apply -> Save."
+
+## Why use this method
+
+Linking through this dialog creates a link that is relative to the campaign. If you copy the campaign, the new copy still links to its own internal form — you do not have to manually update the URL.

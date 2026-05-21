@@ -1,95 +1,89 @@
 # How to use eMarketeer campaign reports
 
-**Update as of February 2021: If you look at the tutorial, please note that we have changed the placement of the reporting widgets in eMarketeer. They now have their own tab called “dashboard” when you enter a campaign. Other than that, setting up widgets works just as shown in the video.** 
+The campaign dashboard lets you build real-time reports for any campaign using drag-and-drop widgets.
 
-In this article you learn:
+Update as of February 2021: the reporting widgets now live on their own tab called "dashboard" inside a campaign. Setting up widgets works the same as in the older tutorial.
 
--   How the campaign report dashboard works
--   A description of all reporting widgets and how to set them up
+In this article, you learn how the campaign report dashboard works and what each reporting widget does.
 
 ## Campaign dashboard
 
-With the campaign dashboard, you can use different reporting widgets to build reports that suit your campaigns. The reports are updated in real-time and you decide the look of it with the simple drag-and-drop feature.
+The campaign dashboard builds reports from a set of widgets you choose. Reports update in real time, and you arrange them with drag-and-drop.
 
 ### To build a campaign report
 
-Go to the eMarketeer campaign you’d like to build a report for. Click the tab called “dashboard” and click the button that says “add reporting widget.” You now have different widgets to choose from to add to your report (see below for further explanation on these). You can pick as many as you’d like to track your campaign’s performance. You can also easily rearrange the widgets with the simple drag-and-drop feature.
+Go to the campaign you want to report on. Click the "dashboard" tab and then "add reporting widget." Pick any widgets you want to track the campaign with. Rearrange them by dragging.
 
-![](../assets/how-to-use-emarketeer-campaign-reports/campaign_dashboard.png)
+![The campaign dashboard with reporting widgets.](../assets/how-to-use-emarketeer-campaign-reports/campaign_dashboard.png)
 
 ## Reporting widgets
 
-The available reporting widgets are email top list, email performance, funnel chart, KPI counter, and goal gauge. Below, you find more details on what they mean and how you can set them up.
+The available widgets are email top list, email performance, funnel chart, KPI counter, and goal gauge.
 
-![](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png)
+![The list of reporting widgets you can add.](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png)
 
 ### Email top list
 
-**Find out which of your email send-outs performs the best**
+Find out which of your campaigns performs best.
 
-![](../assets/how-to-use-emarketeer-campaign-reports/email_toplist-1-300x122.png)
+![The email top list widget.](../assets/how-to-use-emarketeer-campaign-reports/email_toplist-1-300x122.png)
 
-The email top list widget automatically ranks your email send-outs according to each of their open rate, click-through rate, or click-to-open rate. This is a great way to get an overview of each emails’ rates and to see which type of emails your recipients prefer. 
+The email top list widget ranks your campaigns by open rate, click-through rate, or click-to-open rate. It gives you an overview of how each campaign performed and which type your contacts prefer.
 
-When you click to add the email top list;
+To add the widget:
 
-1.  Choose the time frame for which emails to include in the list; all time or this year. 
-2.  Choose how you want it sorted; according to open rate, click-through rate, or click-to-open rate and the time frame. The list is then automatically generated with the top 10 email send-outs. That’s it!
+1. Choose the time frame — all time or this year.
+2. Choose how to sort — open rate, click-through rate, or click-to-open rate. The list generates automatically with the top 10 campaigns.
 
 ### Email performance report
 
-**Suited for your email marketing**
+Suited for your email marketing.
 
-![](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-01-28-at-14.11.12.png)
+![The email performance widget.](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-01-28-at-14.11.12.png)
 
-Learn your average email send-out performance; open rate,  click-through rate,  click-to-open rate and, unsubsribes. You can also quickly compare your average rates with another one of your email send-outs. When you’ve clicked to add the email performance widget, all you have to do is choose the email send-out you’d like to compare and the report is automatically generated.
+See your average campaign performance — open rate, click-through rate, click-to-open rate, and unsubscribes. You can also compare averages with another campaign. After adding the widget, choose the campaign to compare against and the report generates automatically.
 
 ### Funnel chart
 
-**Works well for lead nurture campaigns and events**
+Works well for lead nurture campaigns and events.
 
-![Colorful bar graphs](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-11.25.00.png)
+![A funnel chart with colored bars showing conversion between steps.](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-11.25.00.png)
 
-Track your marketing flow step by step.
+Track your marketing flow step by step. The funnel chart visualizes each step you build — for example, event invitation, event sign-up, and attendee form. Each step is a bar with the conversion rate to the next, and the chart shows the overall conversion from the first step to the last.
 
-The funnel chart works just as a marketing funnel. Here you can track each step in the flow you built and see how many convert to the next step and how many drop off, for example, for the first event invitation, to event sign up to attendee form. Each of these steps would be visualized in their own bar along with the conversion rate between each step. You also get the overall conversion rate, from the first component to the very last. It’s very easy to set it up:
+To set it up:
 
-1.  Click “add campaign reports”
-2.  Choose “funnel chart”
-3.  Choose the component that’s the first step in your flow. Depending on the type of component you choose, you can pick a couple of different actions. For example, for emails, you could track addressed, delivered, opened, and clicked. For forms, you can choose submissions.
-4.  Add all the steps you have in your flow. You can set up as many as you’d like. Remember, that it has to be in the correct order in terms of your flow, from start to finish.
+1. Click "add campaign reports."
+2. Choose "funnel chart."
+3. Choose the component that is the first step in the flow. Depending on the component, you pick from a few actions — for emails: addressed, delivered, opened, clicked. For forms: submissions.
+4. Add the remaining steps in the order they happen in your flow.
 
-When you click a bar, you can see which contacts did or didn’t do the step. Under the bar, you can click the name of the component to see the report for that specific component.
+Click a bar to see which contacts did or did not complete that step. Click the component name under a bar to open the report for that component.
 
-Important to know: for a contact to be counted in a step, it must be a part of the previous step.
+Important: for a contact to be counted in a step, they must also be counted in the previous step.
 
-The funnel chart can be changed in size. If you’d like it to be smaller so you have room for another chart (for example the goal gauge) right next to it, open the funnel chart. Find the drop-down menu that says “size” and choose a lower number. You now have more space to add one of the charts below.
+You can resize the funnel chart. Open it, find the "size" drop-down, and pick a smaller value to make room for another chart next to it — for example a goal gauge.
 
 ### Goal gauge
 
-**Works well for downloads or sign-ups**
+Works well for downloads or sign-ups.
 
-![](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.24.21.png)
+![The goal gauge widget showing progress toward a target.](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.24.21.png)
 
-Set a target and see how close you are to reaching it.
+Set a target and watch progress toward it. The goal gauge works as a progress bar and shows the percentage to target.
 
-The goal gauge works as a progress bar, where it’s visualized how close you are to reaching your target. You also see how many percent you are from reaching that target. This one is set up within seconds.
-
-1.  1.  Click “add campaign reports”
-    2.  Choose “goal gauge”
-    3.  Choose the component you want to track, for example, form submissions
-    4.  Set the target you have
-    5.  All done!
+1. Click "add campaign reports."
+2. Choose "goal gauge."
+3. Choose the component to track — for example, form submissions.
+4. Set the target.
 
 ### KPI counter
 
-![](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.26.00.png)
+![The KPI counter widget.](../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.26.00.png)
 
-Get a quick look at how many people filled out a form, clicked an email, or whatever you’d like to track.
+A quick count of form submissions, email clicks, or whatever you want to track. Like the goal gauge, but without a target.
 
-This one is similar to goal gauge, but, as the name implies, is simply a counter. In other words, you don’t set up a target. You could, for example, use this for new email subscribers.
-
-1.  Click “add campaign reports”
-2.  Choose “KPI counter”
-3.  Choose the component you want to track, for example, form submissions
-4.  The KPI is calculated right away.
+1. Click "add campaign reports."
+2. Choose "KPI counter."
+3. Choose the component to track — for example, form submissions.
+4. The KPI calculates immediately.

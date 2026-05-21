@@ -1,83 +1,82 @@
 # How to build and use Contact Filters
 
-With filters, you can segment your contacts based on different criteria you set up. A filter could be just as broad or specific as you’d like depending on how many criteria you add to your filter. In this article, you get to know the filter builder, some examples of filters you can build, and what actions you can take on your selection of contacts.
+Filters let you segment contacts by any criteria you set up, from broad groups to highly specific selections.
 
-### Get to know the filter builder
+This article walks through the filter builder, shows a few example filters, and covers the actions you can take on a selection of contacts.
 
-When you’re in eMarketeer, click the tab for “contacts.” This is the heart of eMarketeer and where you work with and get to know your contacts. Now, if you’d like to segment or build different selections of your contacts, click the tab that says “filter.” It’s on the right-hand side right above the list of contacts.
+## Get to know the filter builder
 
-A web panel will open and this is where you build and also find your saved filters.
+In eMarketeer, click the "contacts" tab. This is where you work with and get to know your contacts. To segment or build a selection, click the "filter" tab on the right-hand side, just above the contact list. A web panel opens — this is where you build filters and find the ones you have saved.
 
-![](../assets/how-to-build-contact-filters/filter_panel.png)
+![The filter panel in eMarketeer.](../assets/how-to-build-contact-filters/filter_panel.png)
 
-When you click the drop-down list, you see all categories you can base your filter on. These categories are:
+The first drop-down lists every category you can filter on:
 
-Contact fields (any information you have on the contact card)  
-Marketing engagement  
-Delivery  
-Dates  
-Consent  
-Subscription categories  
-Contact lists
+- Contact fields (any information on the contact card)
+- Marketing engagement
+- Delivery
+- Dates
+- Consent
+- Subscription categories
+- Contact lists
 
-![](../assets/how-to-build-contact-filters/categories.png)
+![The filter category drop-down.](../assets/how-to-build-contact-filters/categories.png)
 
-### Let’s build a filter
+## Build a filter
 
-Basically, the steps to set up a filter are to choose the category you want to base your filter on and choose the suitable operator, for example, “equals” or “doesn’t equal.” The operators differ depending on the category you choose.
+To build a filter, pick the category and then a suitable operator — for example, "equals" or "doesn't equal." The operators available depend on the category.
 
-Let’s look at an example where we start off simple with just one criterion. Let’s say you want to segment your contacts according to a specific country. You would then do these steps:
+For a simple example, segment contacts by country:
 
-1\. In the first drop-down list choose Contact fields -> country.
+1. In the first drop-down, choose Contact fields -> country.
 
-![](../assets/how-to-build-contact-filters/add_country.png)
+![Adding the country field to a filter.](../assets/how-to-build-contact-filters/add_country.png)
 
-2\. In the next drop-down list (the operator), choose the suitable option for what you’re looking for. In this example, we know which country we want so we put “equals.”
+2. In the operator drop-down, choose "equals."
 
-![](../assets/how-to-build-contact-filters/country_operator.png)
+![Setting the equals operator on the country filter.](../assets/how-to-build-contact-filters/country_operator.png)
 
-3\. In the third field, type the country.
+3. In the third field, type the country.
 
-![](../assets/how-to-build-contact-filters/country.png)
+![Typing the country value.](../assets/how-to-build-contact-filters/country.png)
 
-4\. Click “apply” and you will now se all contacts that fit into this filter.
+4. Click "apply." You now see all contacts that match the filter.
 
-### Make filter more specific by adding more criteria
+## Make a filter more specific by adding criteria
 
-You could make a filter more specific by adding multiple criteria to the same filter. After setting up the first criteria, just click “and” or “or” to add another one. The difference between “and” or “or” is:
+To narrow a filter, add more criteria. After the first one, click "and" or "or" to add another.
 
-AND: the contact has to fulfill both criteria you set
+- AND: the contact must match both criteria.
 
-![](../assets/how-to-build-contact-filters/and_operator.png)
+![A filter using the AND operator.](../assets/how-to-build-contact-filters/and_operator.png)
 
-OR: the contact has to fulfill one of the criteria you set
+- OR: the contact must match one of the criteria.
 
-![](../assets/how-to-build-contact-filters/or_operator2.png)
+![A filter using the OR operator.](../assets/how-to-build-contact-filters/or_operator2.png)
 
-With these operators,  you can add as many criteria as you’d like, and you can mix both “AND”/”OR” in the same filter.
+You can add as many criteria as you like and mix AND and OR in the same filter.
 
-### Filter on engagement
+## Filter on engagement
 
-One of the categories worth highlighting is the engagement category. This means that you can filter out contacts based on how they engaged in your marketing content. For example, if they filled out a specific form, clicked a link in an email, or visited a certain page on your website. This is useful in a couple of ways; for example, you can group contacts that’s shown enough interest to be sent to sales or make sure they receive the right content from you based on their activities.
+The engagement category is worth highlighting. You can filter contacts by how they engaged with your marketing — for example, whether they filled out a specific form, clicked a link in an email, or visited a page on your website. This is useful for grouping contacts who have shown enough interest to be passed to sales, or for sending follow-up content based on activity.
 
-### Save filters
+## Save filters
 
-Don’t forget to save your filter if you’d like to go back to it and have quick access to it. The saved filters aren’t personal, but accessible to all users on your account. You find the saved filters in the same place as the filter builder. You can also add them as favorites so they’re listed on your left-hand side menu.
+Save a filter to come back to it quickly. Saved filters are not personal — every user on your account can see them. You find saved filters in the same panel as the filter builder. You can also mark a filter as a favorite to pin it to the left-hand menu.
 
-### What you can do with your selection of contacts
+## What you can do with your selection of contacts
 
-**Bulk actions**
+### Bulk actions
 
-There are several bulk actions to choose from to update all contacts in the filter at once. You could update their legal basis, subscriptions, add them to a campaign or to an email list, etc.
+Several bulk actions let you update every contact in the filter at once. You can update legal basis, change subscriptions, add the contacts to a campaign or an email list, and more.
 
-**Set filter as a recipient**
+### Set the filter as a recipient
 
-If you’d like to communicate with the contacts in your filter, you could add the filter as a recipient to your email.  
-To do so:
+To send to the contacts in a filter:
 
-1.  Go to the send-out options for your email, where you add recipients.
-2.  Choose “eMarketeer contact data base.”
-3.  Click “contact filter.”
-4.  In the drop-down list, choose the filter you’d like to send to. Note that the filter must be saved for it to show up in this list.
+1. Go to the send-out options for your email, where you add recipients.
+2. Choose "eMarketeer contact data base."
+3. Click "contact filter."
+4. In the drop-down, choose the filter you want to send to. The filter must be saved to appear here.
 
-Now every contact that fit into this filter at the time of send-out will get your email.
+Every contact that matches the filter at send time receives the email.
