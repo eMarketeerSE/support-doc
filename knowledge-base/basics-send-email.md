@@ -12,7 +12,7 @@ Before you start, you need a finished email component. See [How to create a new 
 
 Go to the campaign that contains the email and click **Send**.
 
-![](../assets/basics-send-email/se1-2.png)
+![Send button on the campaign page](../assets/basics-send-email/se1-2.png)
 
 Starting the email send-out
 
@@ -20,7 +20,7 @@ Starting the email send-out
 
 This guide covers sending immediately. You also have the option to schedule the email for a later time.
 
-![](../assets/basics-send-email/CleanShot-2022-04-27-at-13.05.07.png)
+![Send Now option in the send-out dialog](../assets/basics-send-email/CleanShot-2022-04-27-at-13.05.07.png)
 
 Sending the email now
 
@@ -28,7 +28,7 @@ Sending the email now
 
 To preview the email in your own email client, send yourself a quick test. Type your email address in the address field and click **Quick Send**.
 
-![](../assets/basics-send-email/CleanShot-2022-04-28-at-13.37.12.png)
+![Quick Send field for sending a test email to yourself](../assets/basics-send-email/CleanShot-2022-04-28-at-13.37.12.png)
 
 Quick send a test email to yourself
 
@@ -43,19 +43,19 @@ If you do not have a contact list yet, see:
 
 First, select **eMarketeer Contact Database**.
 
-![](../assets/basics-send-email/CleanShot-2022-04-27-at-13.06.57.png)
+![Selecting eMarketeer Contact Database as the recipient source](../assets/basics-send-email/CleanShot-2022-04-27-at-13.06.57.png)
 
 Step 1: select email recipients
 
 Second, select **Contact List**.
 
-![](../assets/basics-send-email/CleanShot-2022-04-27-at-13.07.43.png)
+![Selecting Contact List as the recipient type](../assets/basics-send-email/CleanShot-2022-04-27-at-13.07.43.png)
 
 Step 2: select email recipients
 
 Third, choose your contact list in the dropdown and click **Add This List**. The example below uses a list called "Example List" with 15 contacts.
 
-![](../assets/basics-send-email/CleanShot-2022-04-27-at-13.08.20.png)
+![Contact list dropdown with Add This List button](../assets/basics-send-email/CleanShot-2022-04-27-at-13.08.20.png)
 
 Step 3: choose a contact list with recipients
 
@@ -65,7 +65,7 @@ The next page, **2. Send Options**, shows the chosen list of recipients and offe
 
 Click **Continue To Checklist** to proceed.
 
-![](../assets/basics-send-email/CleanShot-2022-04-27-at-13.09.42.png)
+![Send Options page with Continue To Checklist button](../assets/basics-send-email/CleanShot-2022-04-27-at-13.09.42.png)
 
 Proceed to the checklist
 
@@ -77,7 +77,7 @@ If you want the details, see [Understanding the email checklist](https://support
 
 Click **Launch Email** to address and send the email to the contacts in the list.
 
-![](../assets/basics-send-email/CleanShot-2022-04-28-at-11.46.51.png)
+![Checklist page showing excluded contacts and Launch Email button](../assets/basics-send-email/CleanShot-2022-04-28-at-11.46.51.png)
 
 Checklist results and launching the email send-out
 
@@ -85,7 +85,7 @@ Checklist results and launching the email send-out
 
 After launch, the email is handed to the email servers, which usually finish addressing and sending within a few minutes.
 
-![](../assets/basics-send-email/CleanShot-2022-04-27-at-13.16.52.png)
+![Send-out confirmation screen after launch](../assets/basics-send-email/CleanShot-2022-04-27-at-13.16.52.png)
 
 The email send-out has been launched and the system starts sending
 
