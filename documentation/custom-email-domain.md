@@ -16,13 +16,13 @@ Go to your [email domain settings](https://app.emarketeer.com/corporate/gui/acco
 
 Click "Add a domain" and type the domain you want to use, for example `yourcompany.com`. Click "Add". You do not need to add `www` before the domain name.
 
-![](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.27.png)
+![add a domain dialog](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.27.png)
 
 ### 3. Update your DNS records
 
 eMarketeer shows a list of records that need to be added to your DNS. When the records are added, click "Authenticate".
 
-![](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.42.png)
+![DNS records to add for the new domain](../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.42.png)
 
 ### Ask your IT department
 
@@ -30,7 +30,7 @@ If you do not have access to your DNS, click the "Generate email" link at the bo
 
 When the records have been added correctly, they are marked green after you click "Authenticate". DNS changes often propagate quickly, but can take up to 48 hours. After authentication, you can send emails from your domain.
 
-![](../assets/custom-email-domain/SCR-20240321-jgsz.png)
+![authenticated domain with green-checked DNS records](../assets/custom-email-domain/SCR-20240321-jgsz.png)
 
 ### Mandatory and optional fields
 

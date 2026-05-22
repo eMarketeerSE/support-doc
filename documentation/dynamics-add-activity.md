@@ -2,7 +2,7 @@
 
 The Add Activity step creates a Task or Phone Call in your Microsoft Dynamics CRM. Because a person might exist as either a Lead or a Contact in Dynamics, this step asks for your preference and uses a built-in fallback to make sure the activity is logged.
 
-[![](../assets/dynamics-add-activity/add_activity-982x1024.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/add_activity.png)
+[![Add Activity step configuration with Prefer Contact or Lead setting](../assets/dynamics-add-activity/add_activity-982x1024.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/add_activity.png)
 
 ### Step configuration
 

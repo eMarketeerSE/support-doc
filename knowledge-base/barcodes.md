@@ -4,7 +4,7 @@ This article explains what barcodes are, where they are used, and how you can us
 
 ## What is a barcode?
 
-![](../assets/barcodes/Barcodes2.jpg)
+![barcode scanner reading a barcode](../assets/barcodes/Barcodes2.jpg)
 
 A barcode scanner reading a barcode
 
@@ -17,7 +17,7 @@ Your eyes read the digits and know what to do with them.
 
 The same number as a barcode looks like this:
 
-![](../assets/barcodes/Barcodes1.png)
+![phone number encoded as a Code 128 barcode](../assets/barcodes/Barcodes1.png)
 
 ## Where are barcodes used?
 

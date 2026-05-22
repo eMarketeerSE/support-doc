@@ -21,7 +21,7 @@ You can do this for multiple domains.
 
 This is what the email settings look like when you build an email and have authenticated a domain. The drop-down menu lets you choose from the list of domains you've authenticated.
 
-![](../assets/why-authorize-email-domain/Screenshot-2019-12-09-at-17.37.39.png)
+![email settings with authenticated domain dropdown](../assets/why-authorize-email-domain/Screenshot-2019-12-09-at-17.37.39.png)
 
 ## Important dates and roll-out routine
 
