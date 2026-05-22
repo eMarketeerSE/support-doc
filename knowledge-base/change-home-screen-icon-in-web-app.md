@@ -4,13 +4,13 @@ Replace the default eMarketeer icon with your own when saving a Web App to a mob
 
 This article applies to older web app templates only. Updated versions of the app have a built-in image browser for web app icons and favicons in the settings block, as shown below.
 
-![](../assets/change-home-screen-icon-in-web-app/pn_22-05-11_09-47-04.png)
+![web app icon and favicon fields in the settings block](../assets/change-home-screen-icon-in-web-app/pn_22-05-11_09-47-04.png)
 
 Web App icon fields
 
 When you save the Web App to your mobile home screen, the default icon used is the eMarketeer logo shown below.
 
-![](../assets/change-home-screen-icon-in-web-app/IMG_0431.png)
+![default eMarketeer icon on a mobile home screen](../assets/change-home-screen-icon-in-web-app/IMG_0431.png)
 
 To use a custom icon, follow the steps below.
 
@@ -24,7 +24,7 @@ Create a square image at least 254 pixels wide and tall, and no more than 1024. 
 
 Go to Files in eMarketeer and upload the image to a folder of your choice. Click to preview the image and copy the relative URL (without the domain name), as shown below.
 
-![](../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.26.23.png)
+![image preview with the relative URL to copy](../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.26.23.png)
 
 ## Paste the new URL into the web app header
 
@@ -36,6 +36,6 @@ Open your Web App in developer mode and change the icon URLs.
 4. On lines 9-12, paste your new URL on all four rows.
 5. Click Save.
 
-![](../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png)
+![icon URLs pasted on lines 9-12 of the web app head](../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png)
 
 Your app now uses the new icon when saved to a home screen.

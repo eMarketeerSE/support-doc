@@ -14,7 +14,7 @@ Contacts in eMarketeer consist of three main parts:
 
 Engagement records every interaction a contact makes with campaign components such as emails, forms, and landing pages. These interactions appear on the contact timeline and can be used to set lead score, trigger Journeys, and more. They give a 360-degree view of what the contact has interacted with over time.
 
-![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.07.08.png)
+![contact timeline showing engagement events](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.07.08.png)
 
 ### Custom Signals
 
@@ -22,9 +22,9 @@ With the Custom Signals API you can send contact events from any other system in
 
 In the following scenario, you have an arcade game called "Space Invaders". Each time someone plays the game, you want to record the event in eMarketeer. You could then trigger Journeys based on different criteria — for example, send an email to anyone who scores over 100.
 
-![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.14.03.png)
+![Space Invaders game played event on contact timeline](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.14.03.png)
 
-![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png)
+![event data fields shown in the contact filter](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png)
 
 ### The custom signals structure
 
@@ -61,7 +61,7 @@ A custom signal has the following main parts.
 
 The top-level name of the signal. It is listed directly under "Engagement" in the filter.
 
-![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.46.43.png)
+![adapter name listed under Engagement in the filter](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.46.43.png)
 
 Keep the number of distinct adapter names to a minimum, since all distinct adapter names appear directly under Engagement. A good practice is to use the service name of the signals you are sending. An adapter can then send multiple types of events.
 
@@ -75,7 +75,7 @@ The "verb" of the signal. In the Space Invaders example, possible categories inc
 - Inserted coins
 - Got high score
 
-![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.58.48.png)
+![signal categories shown under the selected adapter](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.58.48.png)
 
 In the filter, once you select the adapter name "Space Invaders", you see the categories of signals you have sent for that adapter.
 
@@ -83,7 +83,7 @@ In the filter, once you select the adapter name "Space Invaders", you see the ca
 
 You can send any information you need with the signal. In this case, the "Game played" signal carries Player Name, Reached Level, and Score. All of these can be used in the contact filter to find contacts who played the game and reached a certain score or level.
 
-![](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png)
+![event data fields used in the contact filter](../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png)
 
 **Contact data**
 
