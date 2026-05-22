@@ -2,185 +2,253 @@
 
 * [Welcome](README.md)
 
-## Getting Started
-
-* [Overview](getting-started/README.md)
-
 ## Knowledge Base
 
 * [Overview](knowledge-base/README.md)
-* [About email bounces and complaints](knowledge-base/about-email-bounces.md)
-* [Form specific QR-code generation for Scanning Event Attendance (Advanced)](knowledge-base/advanced-event-qr-code.md)
-* [Changing the Mobile App Navigation Icons (Developer)](knowledge-base/app-navigation-icons.md)
-* [How to authenticate your domain (Administrator)](knowledge-base/authorize-email-domain.md)
-* [Barcodes](knowledge-base/barcodes.md)
-* [Creating your first Email](knowledge-base/basics-creating-email.md)
-* [Creating your first Form (Legacy)](knowledge-base/basics-creating-form.md)
-* [Creating your first SMS](knowledge-base/basics-creating-sms.md)
-* [How to send an Email](knowledge-base/basics-send-email.md)
-* [Email bounce handling](knowledge-base/bounce-handling.md)
-* [Bulk Actions: A Tool for Managing Lists of Contacts](knowledge-base/bulk-actions-tool.md)
-* [Creating a shortcut to a Campaign using My Favorites](knowledge-base/campaign-add-favorite.md)
-* [Campaign Contacts](knowledge-base/campaign-contacts.md)
-* [Campaign Interface explained](knowledge-base/campaign-interface-explained.md)
-* [reCAPTCHA for eMarketeer Forms](knowledge-base/captcha.md)
-* [Change home screen icon in Web App](knowledge-base/change-home-screen-icon-in-web-app.md)
-* [Understanding the Email Checklist](knowledge-base/checklist-explained.md)
-* [Forms: Close a form](knowledge-base/close-a-form.md)
-* [How to use the Comparative email report](knowledge-base/comparative-email-report-tutorial.md)
-* [Email complaint handling](knowledge-base/complaint-handling.md)
-* [How to set up and send a Reminder Email](knowledge-base/configuring-reminder-email.md)
-* [How to Create a Custom Content Block (Developer)](knowledge-base/create-custom-content-block.md)
-* [How to Create a New Campaign](knowledge-base/create-new-campaign.md)
-* [Creating your first Webpage](knowledge-base/creating-first-webpage.md)
-* [Credit Card Payments (Administrator)](knowledge-base/credit-card-payments.md)
-* [Conditionals](knowledge-base/dcl-dynamic-content-language.md)
-* [Default score rules in eMarketeer](knowledge-base/default-score-rules-in-emarketeer.md)
-* [DKIM is missing or incorrectly configured](knowledge-base/dkim-setup.md)
-* [DMARC setup](knowledge-base/dmarc-setup.md)
-* [Custom domain](knowledge-base/domains.md)
-* [Double opt-in subscription](knowledge-base/double-opt-in.md)
-* [Editing a live form](knowledge-base/editing-a-live-form.md)
-* [Creating Clickable Email Address Links and Buttons](knowledge-base/email-address-links.md)
-* [When is an email registered as opened?](knowledge-base/email-open.md)
-* [Email Report Explained](knowledge-base/email-report-explained.md)
-* [New email templates – here’s what you need to know](knowledge-base/email-templates.md)
-* [Email Health Dashboard](knowledge-base/emailhealthdashboard.md)
-* [Whitelisting Email Servers](knowledge-base/emailservices.md)
-* [eMarketeer GDPR overview](knowledge-base/emarketeer-gdpr-overview.md)
-* [eMarketeer Sender Policy](knowledge-base/emarketeer-sender-policy.md)
-* [Embed Video/Media](knowledge-base/embed-videomedia.md)
-* [Email feedback loop](knowledge-base/feedback-loop.md)
-* [Form Phone Number Validation when using reCAPTCHA (Advanced)](knowledge-base/form-phone-number-validation-re.md)
-* [Identifying why a Form is Unavailable (Legacy)](knowledge-base/form-unavailable.md)
-* [Embed Forms on your Website](knowledge-base/form.md)
-* [[Video] GDPR and what it means for eMarketeer users](knowledge-base/gdpr-and-what-it-means-for-emarketeer-users.md)
-* [GDPR – General Data Protection Regulation](knowledge-base/gdpr-general-data-protection-regulation.md)
-* [Second release in GDPR roadmap](knowledge-base/gdpr-release.md)
-* [Generate HAR file for support](knowledge-base/generate-har-file.md)
-* [Get started with leads](knowledge-base/get-started-leads.md)
-* [How does consent work?](knowledge-base/how-does-consent-work.md)
-* [How lead scoring works in eMarketeer and tutorial](knowledge-base/how-lead-scoring-works-in-emarketeer.md)
-* [How to build and use Contact Filters](knowledge-base/how-to-build-contact-filters.md)
-* [How to link to a form](knowledge-base/how-to-link-to-a-form.md)
-* [How to post data to a form](knowledge-base/how-to-post-data-to-a-form.md)
-* [How to set up your lead scoring model and lead scoring mistakes](knowledge-base/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
-* [How to use campaign fields in eMarketeer](knowledge-base/how-to-use-campaign-fields-in-emarketeer.md)
-* [Tutorial: How to use email preheaders](knowledge-base/how-to-use-email-preheaders.md)
-* [How to use eMarketeer campaign reports](knowledge-base/how-to-use-emarketeer-campaign-reports.md)
-* [How to use the image editor in eMarketeer](knowledge-base/how-to-use-the-image-editor-in-emarketeer.md)
-* [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
-* [Identifying why an Email wasn’t recieved](knowledge-base/identify-email-not-recieved.md)
-* [Import contacts from Excel](knowledge-base/import-contacts-from-excel.md)
-* [Why did the SuperOffice automation fail?](knowledge-base/integration-queue-failed-automations.md)
-* [How to Invite Users to your Account (Administrator)](knowledge-base/invite-user-account.md)
-* [The eMarketeer GDPR roadmap](knowledge-base/is-there-an-emarketeer-gdpr-roadmap.md)
-* [Journeys - Overview](knowledge-base/journeys.md)
-* [Lead Board and SuperOffice](knowledge-base/lead-board-and-superoffice.md)
-* [Lead streams](knowledge-base/lead-streams.md)
-* [Set max number of answers for a Form Checkbox question (Legacy – Advanced)](knowledge-base/max-answers-form-checkbox.md)
-* [Maximizing Email Marketing Success: 10 Best Practices and Pitfalls to Avoid](knowledge-base/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
-* [Microsoft Dynamics 365 Sales Integration](knowledge-base/microsoft-dynamics-integration.md)
-* [Migrating to Lead Board](knowledge-base/migrating-to-lead-board.md)
-* [Missing Image Block in Email Component (Developer)](knowledge-base/missing-image-block.md)
-* [How to Create a New Contact List](knowledge-base/new-contact-list.md)
-* [Personalize content](knowledge-base/personalize-content.md)
-* [Creating Branching Question Paths and using Question Display Rules in Forms](knowledge-base/question-branching-display-rules.md)
-* [How do I remove a form answer?](knowledge-base/removing-a-form-answer.md)
-* [Sales teams](knowledge-base/sales-teams.md)
-* [Sales users](knowledge-base/sales-users.md)
-* [How to Scan event attendance with mobile phone](knowledge-base/scan-attendance-phone.md)
-* [Send webhook from Zapier to eMarketeer](knowledge-base/send-webhook-from-zapier-to-emarketeer.md)
-* [LinkedIn Lead Gen Forms](knowledge-base/signals.md)
-* [SMS Sender ID](knowledge-base/sms.md)
-* [SPF setup](knowledge-base/spf-setup.md)
-* [SuperOffice automations (PRO)](knowledge-base/superoffice-automations-pro.md)
-* [SuperOffice Integration](knowledge-base/superofficeintegration.md)
-* [Tags](knowledge-base/tags.md)
-* [Contact field character limit](knowledge-base/technical-specifications.md)
-* [The lead board](knowledge-base/the-lead-board.md)
-* [Transfer a campaign to a different account](knowledge-base/transfer-a-campaign-to-a-different-account.md)
-* [Tutorial: How to set up campaign folders](knowledge-base/tutorial-how-to-set-up-campaign-folders.md)
-* [How to find Undeliverable Email Addresses from Checklist](knowledge-base/undeliverable-contacts-email-checklist.md)
-* [Understanding eMarketeer URLs](knowledge-base/understanding-em-urls.md)
-* [User guide: Enable Multi Factor Login](knowledge-base/user-accounts.md)
-* [Webinar: How to Build Mobile Apps in eMarketeer](knowledge-base/webinar-build-mobile-app.md)
-* [Form: Website Integration Requirements](knowledge-base/website-integration-requirements.md)
-* [Automatic UTM links](knowledge-base/webtracker.md)
-* [What happens when I reach my contact limit?](knowledge-base/what-happens-when-i-reach-my-contact-limit.md)
-* [What should I do before GDPR?](knowledge-base/what-should-i-do-before-gdpr.md)
-* [Where is eMarketeer data stored geographically?](knowledge-base/where-is-emarketeer-data-stored-geographically.md)
-* [Which new features will eMarketeer introduce to help with GDPR?](knowledge-base/which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
-* [Faster send out and better deliverability – here’s eMarketeer’s new email service](knowledge-base/why-authorize-email-domain.md)
-* [Why eMarketeer Doesn’t Support SRI for Embed Scripts](knowledge-base/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
+
+### Getting Started
+
+* [Creating your first email](knowledge-base/getting-started/basics-creating-email.md)
+* [Creating your first form (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
+* [Creating your first SMS](knowledge-base/getting-started/basics-creating-sms.md)
+* [How to send an email](knowledge-base/getting-started/basics-send-email.md)
+* [How to create a new campaign](knowledge-base/getting-started/create-new-campaign.md)
+* [Get started with leads](knowledge-base/getting-started/get-started-leads.md)
+* [How to Create a New Contact List](knowledge-base/getting-started/new-contact-list.md)
+
+### Email Content & Creation
+
+* [How to set up and send a reminder email](knowledge-base/email-content/configuring-reminder-email.md)
+* [How to create a custom content block (Developer)](knowledge-base/email-content/create-custom-content-block.md)
+* [Creating clickable email address links and buttons](knowledge-base/email-content/email-address-links.md)
+* [New email templates — what you need to know](knowledge-base/email-content/email-templates.md)
+* [Embed Video/Media](knowledge-base/email-content/embed-videomedia.md)
+* [Tutorial: How to use email preheaders](knowledge-base/email-content/how-to-use-email-preheaders.md)
+* [How to use the image editor in eMarketeer](knowledge-base/email-content/how-to-use-the-image-editor-in-emarketeer.md)
+* [Missing Image Block in Email Component (Developer)](knowledge-base/email-content/missing-image-block.md)
+* [Personalize content](knowledge-base/email-content/personalize-content.md)
+
+### Email Deliverability
+
+* [About email bounces and complaints](knowledge-base/email-deliverability/about-email-bounces.md)
+* [How to authenticate your domain (Administrator)](knowledge-base/email-deliverability/authorize-email-domain.md)
+* [Email bounce handling](knowledge-base/email-deliverability/bounce-handling.md)
+* [Email complaint handling](knowledge-base/email-deliverability/complaint-handling.md)
+* [DKIM is missing or incorrectly configured](knowledge-base/email-deliverability/dkim-setup.md)
+* [DMARC setup](knowledge-base/email-deliverability/dmarc-setup.md)
+* [Email Health Dashboard](knowledge-base/email-deliverability/emailhealthdashboard.md)
+* [Whitelisting email servers](knowledge-base/email-deliverability/emailservices.md)
+* [eMarketeer sender policy](knowledge-base/email-deliverability/emarketeer-sender-policy.md)
+* [Email feedback loop](knowledge-base/email-deliverability/feedback-loop.md)
+* [Identifying why an email was not received](knowledge-base/email-deliverability/identify-email-not-recieved.md)
+* [SPF setup](knowledge-base/email-deliverability/spf-setup.md)
+* [How to find undeliverable email addresses from the checklist](knowledge-base/email-deliverability/undeliverable-contacts-email-checklist.md)
+* [Faster send-out and better deliverability — eMarketeer's new email service](knowledge-base/email-deliverability/why-authorize-email-domain.md)
+
+### Forms
+
+* [Form-specific QR code generation for scanning event attendance (advanced)](knowledge-base/forms/advanced-event-qr-code.md)
+* [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
+* [Forms: Close a form](knowledge-base/forms/close-a-form.md)
+* [Editing a live form](knowledge-base/forms/editing-a-live-form.md)
+* [Form Phone Number Validation when using reCAPTCHA (Advanced)](knowledge-base/forms/form-phone-number-validation-re.md)
+* [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)
+* [Embed Forms on your Website](knowledge-base/forms/form.md)
+* [How to link to a form](knowledge-base/forms/how-to-link-to-a-form.md)
+* [How to post data to a form](knowledge-base/forms/how-to-post-data-to-a-form.md)
+* [Set max number of answers for a form checkbox question (legacy, advanced)](knowledge-base/forms/max-answers-form-checkbox.md)
+* [Creating Branching Question Paths and using Question Display Rules in Forms](knowledge-base/forms/question-branching-display-rules.md)
+* [How do I remove a form answer?](knowledge-base/forms/removing-a-form-answer.md)
+* [How to scan event attendance with a mobile phone](knowledge-base/forms/scan-attendance-phone.md)
+* [Form: Website integration requirements](knowledge-base/forms/website-integration-requirements.md)
+
+### Campaigns
+
+* [Creating a shortcut to a Campaign using My Favorites](knowledge-base/campaigns/campaign-add-favorite.md)
+* [Campaign Contacts](knowledge-base/campaigns/campaign-contacts.md)
+* [Campaign Interface explained](knowledge-base/campaigns/campaign-interface-explained.md)
+* [How to use campaign fields in eMarketeer](knowledge-base/campaigns/how-to-use-campaign-fields-in-emarketeer.md)
+* [Transfer a campaign to a different account](knowledge-base/campaigns/transfer-a-campaign-to-a-different-account.md)
+* [Tutorial: How to set up campaign folders](knowledge-base/campaigns/tutorial-how-to-set-up-campaign-folders.md)
+
+### Journeys
+
+* [Journeys overview](knowledge-base/journeys/journeys.md)
+
+### Reports & Analytics
+
+* [Understanding the Email Checklist](knowledge-base/reports/checklist-explained.md)
+* [How to use the Comparative email report](knowledge-base/reports/comparative-email-report-tutorial.md)
+* [When is an email registered as opened?](knowledge-base/reports/email-open.md)
+* [Email report explained](knowledge-base/reports/email-report-explained.md)
+* [How to use eMarketeer campaign reports](knowledge-base/reports/how-to-use-emarketeer-campaign-reports.md)
+* [Maximizing Email Marketing Success: 10 Best Practices and Pitfalls to Avoid](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
+
+### Contacts & Lists
+
+* [Bulk Actions: A Tool for Managing Lists of Contacts](knowledge-base/contacts-lists/bulk-actions-tool.md)
+* [How to build and use Contact Filters](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
+* [Import contacts from Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)
+* [Tags](knowledge-base/contacts-lists/tags.md)
+* [What happens when I reach my contact limit?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)
+
+### Lead Board & Scoring
+
+* [Default score rules in eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)
+* [How lead scoring works in eMarketeer and tutorial](knowledge-base/lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)
+* [How to set up your lead scoring model and lead scoring mistakes](knowledge-base/lead-board-scoring/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
+* [Lead Board and SuperOffice](knowledge-base/lead-board-scoring/lead-board-and-superoffice.md)
+* [Lead streams](knowledge-base/lead-board-scoring/lead-streams.md)
+* [Migrating to Lead Board](knowledge-base/lead-board-scoring/migrating-to-lead-board.md)
+* [Sales teams](knowledge-base/lead-board-scoring/sales-teams.md)
+* [Sales users](knowledge-base/lead-board-scoring/sales-users.md)
+* [The lead board](knowledge-base/lead-board-scoring/the-lead-board.md)
+
+### Integrations
+
+* [Why did the SuperOffice automation fail?](knowledge-base/integrations/integration-queue-failed-automations.md)
+* [Microsoft Dynamics 365 Sales Integration](knowledge-base/integrations/microsoft-dynamics-integration.md)
+* [Send a webhook from Zapier to eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
+* [LinkedIn Lead Gen Forms](knowledge-base/integrations/signals.md)
+* [SuperOffice automations (PRO)](knowledge-base/integrations/superoffice-automations-pro.md)
+* [SuperOffice integration](knowledge-base/integrations/superofficeintegration.md)
+
+### GDPR & Consent
+
+* [Double opt-in subscription](knowledge-base/gdpr-consent/double-opt-in.md)
+* [eMarketeer GDPR overview](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
+* [[Video] GDPR and what it means for eMarketeer users](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)
+* [GDPR – General Data Protection Regulation](knowledge-base/gdpr-consent/gdpr-general-data-protection-regulation.md)
+* [Second release in GDPR roadmap](knowledge-base/gdpr-consent/gdpr-release.md)
+* [How does consent work?](knowledge-base/gdpr-consent/how-does-consent-work.md)
+* [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+* [The eMarketeer GDPR roadmap](knowledge-base/gdpr-consent/is-there-an-emarketeer-gdpr-roadmap.md)
+* [What should I do before GDPR?](knowledge-base/gdpr-consent/what-should-i-do-before-gdpr.md)
+* [Which new features will eMarketeer introduce to help with GDPR?](knowledge-base/gdpr-consent/which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
+
+### Account & Admin
+
+* [Changing the mobile app navigation icons (Developer)](knowledge-base/account-admin/app-navigation-icons.md)
+* [Change home screen icon in Web App](knowledge-base/account-admin/change-home-screen-icon-in-web-app.md)
+* [Credit card payments (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
+* [Custom domain](knowledge-base/account-admin/domains.md)
+* [How to invite users to your account (administrator)](knowledge-base/account-admin/invite-user-account.md)
+* [SMS Sender ID](knowledge-base/account-admin/sms.md)
+* [Contact field character limit](knowledge-base/account-admin/technical-specifications.md)
+* [Understanding eMarketeer URLs](knowledge-base/account-admin/understanding-em-urls.md)
+* [User guide: Enable Multi Factor Login](knowledge-base/account-admin/user-accounts.md)
+* [Automatic UTM links](knowledge-base/account-admin/webtracker.md)
+* [Where is eMarketeer data stored geographically?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
+
+### Developer & Advanced
+
+* [Barcodes](knowledge-base/developer-advanced/barcodes.md)
+* [Creating your first webpage](knowledge-base/developer-advanced/creating-first-webpage.md)
+* [Conditionals](knowledge-base/developer-advanced/dcl-dynamic-content-language.md)
+* [Generate HAR file for support](knowledge-base/developer-advanced/generate-har-file.md)
+* [Webinar: How to Build Mobile Apps in eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
+* [Why eMarketeer doesn't support SRI for embed scripts](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
 
 ## Documentation
 
 * [Overview](documentation/README.md)
-* [Installing Dynamics Contact Panel](documentation/5355-2.md)
-* [About the SuperOffice integration](documentation/about-the-superoffice-integration.md)
-* [Actions performed during SuperOffice Integration setup](documentation/actions-performed-during-set-up.md)
-* [API (new)](documentation/api-consent-subscription.md)
-* [Legacy API 1.0 docs (Deprecated)](documentation/api.md)
-* [Legacy API 1.0 docs (Deprecated)](documentation/apiv1.md)
-* [Automatic send pause](documentation/automatic-send-pause.md)
-* [Automatic UTM links](documentation/automatic-utm-links.md)
-* [Cloudflare & eMarketeer Tracking Parameters](documentation/cloudflare-emarketeer-tracking-parameters.md)
-* [Conditionals](documentation/conditionals.md)
-* [Contact field character limit](documentation/contact-field-character-limit.md)
-* [Conventions](documentation/conventions.md)
-* [Dynamics - Create/Update Lead](documentation/create-update-lead.md)
-* [Creating your first Journey](documentation/creating-your-first-journey.md)
-* [Custom domain](documentation/custom-domain.md)
-* [Using your own Email Domain with eMarketeer](documentation/custom-email-domain.md)
-* [Custom Signals API](documentation/custom-signals-api.md)
-* [Dynamics - Add activity](documentation/dynamics-add-activity.md)
-* [Dynamics - Add contact activity](documentation/dynamics-add-contact-activity.md)
-* [Dynamics - Add Contact to Marketing List](documentation/dynamics-add-contact-to-marketing-list.md)
-* [Dynamics - Add Lead activity](documentation/dynamics-add-lead-activity.md)
-* [Dynamics - Add Lead to Marketing List](documentation/dynamics-add-lead-to-marketing-list.md)
-* [Dynamics - Features](documentation/dynamics-features.md)
-* [Dynamics - Import](documentation/dynamics-import.md)
-* [Dynamics - Installation Process](documentation/dynamics-installation.md)
-* [Dynamics - Journey Steps](documentation/dynamics-journey-steps.md)
-* [Dynamics - Legal basis & Subscription sync](documentation/dynamics-legal-basis-sync.md)
-* [Microsoft Dynamics 365 Sales Integration](documentation/dynamics.md)
-* [Emarketeer specific functions](documentation/emarketeer-specific-functions.md)
-* [Exclude inactive recipients](documentation/exclude-inactive-recipients.md)
-* [Facebook Lead Forms](documentation/facebook-lead-forms.md)
-* [Import contacts from SuperOffice CRM](documentation/import-contacts-from-superoffice-crm.md)
-* [Installing the web tracker script on your website](documentation/installing-the-web-tracker-script-on-your-website.md)
-* [The SuperOffice Integration - features and flows](documentation/integration-features-and-flows.md)
-* [Introduction](documentation/introduction.md)
-* [Dynamics - Add contact activity](documentation/journey-add-contact-activity.md)
-* [Journeys Triggering Events](documentation/journeys-triggering-events.md)
-* [Journeys - Overview](documentation/journeys.md)
-* [Language Syntax](documentation/language-syntax.md)
-* [LinkedIn Lead Gen Forms](documentation/linkedin-lead-gen-forms.md)
-* [Microsoft Dynamics 365 Sales Integration](documentation/microsoft-dynamics-integration.md)
-* [About Multi Factor Authentication](documentation/multi-factor-authentication.md)
-* [On premise: Enabling the integration](documentation/on-premise-enabling-the-integration.md)
-* [On premise: Installation process](documentation/on-premise-installation-process.md)
-* [On Premise: NetServer URL and user creation](documentation/on-premise-netserver-url-and-user-creation.md)
-* [Embed Forms on your Website](documentation/publish-a-form.md)
-* [reCAPTCHA for eMarketeer Forms](documentation/recaptcha-em-forms.md)
-* [Resetting a SuperOffice integration](documentation/resetting-a-superoffice-online-integration.md)
-* [SMS Sender ID](documentation/sender-id.md)
-* [Subscriptions](documentation/subscriptions.md)
-* [SuperOffice Legal Basis Sync](documentation/superoffice-legalbasis-sync.md)
-* [SuperOffice Online integration](documentation/superoffice-online-integration.md)
-* [SuperOffice Signals](documentation/superoffice-signals.md)
-* [SuperOffice Integration](documentation/superoffice.md)
-* [Tags](documentation/tags.md)
-* [Template Functions](documentation/template-functions.md)
-* [The Form component](documentation/the-form-component.md)
-* [The Web tracker](documentation/the-web-tracker.md)
-* [Transactional sendouts](documentation/transactional-sendouts.md)
-* [SuperOffice Integration Setup Troubleshooting](documentation/troubleshooting-so-setup.md)
-* [User accounts](documentation/user-accounts.md)
-* [User guide: Enable Multi Factor Login](documentation/user-guide-enable-multi-factor-login.md)
-* [Whitelist of countries supporting SMS Sender ID](documentation/whitelist-of-countries-supporting-sms-sender-id.md)
-* [Whitelisting Email Servers](documentation/whitelisting-email-servers.md)
+
+### Getting Started
+
+* [Introduction](documentation/getting-started/introduction.md)
+
+### APIs & Developer Reference
+
+* [API (new)](documentation/apis-developer/api-consent-subscription.md)
+* [Legacy API 1.0 docs (Deprecated)](documentation/apis-developer/api.md)
+* [Legacy API 1.0 docs (Deprecated)](documentation/apis-developer/apiv1.md)
+* [Conditionals](documentation/apis-developer/conditionals.md)
+* [Contact field character limit](documentation/apis-developer/contact-field-character-limit.md)
+* [Conventions](documentation/apis-developer/conventions.md)
+* [Custom Signals API](documentation/apis-developer/custom-signals-api.md)
+* [Emarketeer specific functions](documentation/apis-developer/emarketeer-specific-functions.md)
+* [Language Syntax](documentation/apis-developer/language-syntax.md)
+* [Subscriptions](documentation/apis-developer/subscriptions.md)
+* [Tags](documentation/apis-developer/tags.md)
+* [Template Functions](documentation/apis-developer/template-functions.md)
+
+### Forms
+
+* [Embed forms on your website](documentation/forms/publish-a-form.md)
+* [reCAPTCHA for eMarketeer Forms](documentation/forms/recaptcha-em-forms.md)
+* [The Form component](documentation/forms/the-form-component.md)
+
+### Journeys
+
+* [Creating your first Journey](documentation/journeys/creating-your-first-journey.md)
+* [Journeys Triggering Events](documentation/journeys/journeys-triggering-events.md)
+* [Journeys - Overview](documentation/journeys/journeys.md)
+
+### Email & SMS Sending
+
+* [Automatic send pause](documentation/email-sms/automatic-send-pause.md)
+* [Exclude inactive recipients](documentation/email-sms/exclude-inactive-recipients.md)
+* [SMS Sender ID](documentation/email-sms/sender-id.md)
+* [Transactional sendouts](documentation/email-sms/transactional-sendouts.md)
+* [Whitelist of countries supporting SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
+* [Whitelisting Email Servers](documentation/email-sms/whitelisting-email-servers.md)
+
+### Custom Domains
+
+* [Custom domain](documentation/custom-domain/custom-domain.md)
+* [Using your own email domain with eMarketeer](documentation/custom-domain/custom-email-domain.md)
+
+### Web Tracker & UTM
+
+* [Automatic UTM links](documentation/web-tracker/automatic-utm-links.md)
+* [Cloudflare & eMarketeer Tracking Parameters](documentation/web-tracker/cloudflare-emarketeer-tracking-parameters.md)
+* [Installing the web tracker script on your website](documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md)
+* [The Web tracker](documentation/web-tracker/the-web-tracker.md)
+
+### User Accounts & Auth
+
+* [Multi-factor authentication](documentation/accounts-auth/multi-factor-authentication.md)
+* [User accounts](documentation/accounts-auth/user-accounts.md)
+* [User guide: Enable Multi-Factor Login](documentation/accounts-auth/user-guide-enable-multi-factor-login.md)
+
+### Microsoft Dynamics 365
+
+* [Installing Dynamics Contact Panel](documentation/dynamics-365/5355-2.md)
+* [Dynamics - Create/Update Lead](documentation/dynamics-365/create-update-lead.md)
+* [Dynamics - Add activity](documentation/dynamics-365/dynamics-add-activity.md)
+* [Dynamics - Add contact activity](documentation/dynamics-365/dynamics-add-contact-activity.md)
+* [Dynamics - Add Contact to Marketing List](documentation/dynamics-365/dynamics-add-contact-to-marketing-list.md)
+* [Dynamics - Add Lead activity](documentation/dynamics-365/dynamics-add-lead-activity.md)
+* [Dynamics - Add Lead to Marketing List](documentation/dynamics-365/dynamics-add-lead-to-marketing-list.md)
+* [Dynamics - Features](documentation/dynamics-365/dynamics-features.md)
+* [Dynamics - Import](documentation/dynamics-365/dynamics-import.md)
+* [Dynamics - Installation Process](documentation/dynamics-365/dynamics-installation.md)
+* [Dynamics - Journey Steps](documentation/dynamics-365/dynamics-journey-steps.md)
+* [Dynamics - Legal basis & Subscription sync](documentation/dynamics-365/dynamics-legal-basis-sync.md)
+* [Microsoft Dynamics 365 Sales Integration](documentation/dynamics-365/dynamics.md)
+* [Dynamics - Add contact activity](documentation/dynamics-365/journey-add-contact-activity.md)
+* [Microsoft Dynamics 365 Sales Integration](documentation/dynamics-365/microsoft-dynamics-integration.md)
+
+### SuperOffice
+
+* [About the SuperOffice integration](documentation/superoffice/about-the-superoffice-integration.md)
+* [Actions performed during SuperOffice integration setup](documentation/superoffice/actions-performed-during-set-up.md)
+* [Import contacts from SuperOffice CRM](documentation/superoffice/import-contacts-from-superoffice-crm.md)
+* [The SuperOffice Integration - features and flows](documentation/superoffice/integration-features-and-flows.md)
+* [On premise: enabling the integration](documentation/superoffice/on-premise-enabling-the-integration.md)
+* [On premise: installation process](documentation/superoffice/on-premise-installation-process.md)
+* [On premise: NetServer URL and user creation](documentation/superoffice/on-premise-netserver-url-and-user-creation.md)
+* [Reset a SuperOffice integration](documentation/superoffice/resetting-a-superoffice-online-integration.md)
+* [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)
+* [SuperOffice Online integration](documentation/superoffice/superoffice-online-integration.md)
+* [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
+* [SuperOffice Integration](documentation/superoffice/superoffice.md)
+* [SuperOffice Integration Setup Troubleshooting](documentation/superoffice/troubleshooting-so-setup.md)
+
+### Lead Capture Integrations
+
+* [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
+* [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
 
 ### Legal
 
@@ -199,12 +267,12 @@
 ## Change Log
 
 * [Overview](change-log/README.md)
-* [Change log – eMarketeer Support](change-log/change-log.md)
-* [Essential Updates for Upcoming Email Changes – eMarketeer Support](change-log/essential-updates-for-upcoming-email-changes.md)
-* [New billing system notice – eMarketeer Support](change-log/new-billing-system-notice.md)
-* [Product launch – June 2025 – eMarketeer Support](change-log/product-launch-june-2025.md)
-* [Product Launch – October 2025 – eMarketeer Support](change-log/product-launch-october-2025.md)
-* [Release notes: copy block in email editor and more campaign fields – eMarketeer Support](change-log/release-notes-march-28th-2022.md)
-* [Release notes November 26th – templates, lead score summary, campaign fields and improvements in email reports – eMarketeer Support](change-log/release-notes-november-26th-lead-score-summary-and-bot-clicks.md)
-* [Report on CVE-2021-44228 vulnerability – eMarketeer Support](change-log/report-on-cve-2021-44228-vulnerability.md)
-* [Upcoming changes to eMarketeer/SuperOffice Consent Sync – eMarketeer Support](change-log/upcoming-changes-to-emarketeer-superoffice-consent-sync.md)
+* [Change log](change-log/change-log.md)
+* [Essential updates for upcoming email changes](change-log/essential-updates-for-upcoming-email-changes.md)
+* [New billing system notice](change-log/new-billing-system-notice.md)
+* [Product launch — June 2025](change-log/product-launch-june-2025.md)
+* [Product launch — October 2025](change-log/product-launch-october-2025.md)
+* [Release notes — March 28, 2022](change-log/release-notes-march-28th-2022.md)
+* [Release notes — November 26: templates, lead score summary, campaign fields, and email report improvements](change-log/release-notes-november-26th-lead-score-summary-and-bot-clicks.md)
+* [Report on CVE-2021-44228 vulnerability](change-log/report-on-cve-2021-44228-vulnerability.md)
+* [Upcoming changes to eMarketeer/SuperOffice Consent Sync](change-log/upcoming-changes-to-emarketeer-superoffice-consent-sync.md)
