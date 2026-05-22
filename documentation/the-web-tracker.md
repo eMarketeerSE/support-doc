@@ -74,22 +74,22 @@ Below is a suggested amendment to your privacy policy when using the eMarketeer 
 
 * * *
 
-**_Website Tracking & Analytics_**  
+**_Website Tracking & Analytics_**
 _We use a tracking system provided by eMarketeer to understand how visitors interact with our website and to improve our communication with customers. This section explains how this tracking works and your choices regarding it._
 
-**_How We Track Website Visitors_**  
+**_How We Track Website Visitors_**
 _If you click a link in an email we send, we may identify your visit to our website and associate it with your existing contact profile in our system._
 
 _If you visit our website anonymously, we may temporarily store visit history (such as pages viewed, UTM parameters, and referrer information) in your browser's local storage. This data remains anonymous unless you later submit a form._
 
 _When you submit a form, your past visit history may be linked to your submission to help us improve our service and communication._
 
-**_What Data Do We Store?_**  
+**_What Data Do We Store?_**
 _We do not use cookies for this tracking. Instead, we use local storage, which saves information on your device without transmitting it to external servers unless you interact with our site._
 
 _Stored data may include page visit history, referrer information, and email identifiers (if applicable)._
 
-**_Your Privacy Choices_**  
+**_Your Privacy Choices_**
 _Website tracking only starts after you accept our tracking consent banner._
 
 _You can clear your tracking data at any time by removing local storage data from your browser settings._

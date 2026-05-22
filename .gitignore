@@ -1,7 +1,6 @@
-# Migration script
-tools/migrate/node_modules/
-tools/migrate/dist/
-tools/migrate/.cache/
+# Internal / not for GitBook
+docs/
+tools/
 
 # Editor / OS
 .DS_Store

@@ -7,7 +7,6 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - Markdown files in this repo are rendered as pages on the eMarketeer support GitBook.
 - `SUMMARY.md` defines the navigation tree.
 - `.gitbook.yaml` configures GitBook.
-- `tools/migrate/` and `docs/superpowers/` are internal — they do not render as docs.
 
 ## File layout
 
@@ -98,7 +97,6 @@ genuinely doesn't apply):
 - Renaming files (URL changes).
 - Restructuring sections.
 - Force-pushing.
-- Any change inside `tools/`.
 
 ## Ask, don't guess
 
@@ -119,7 +117,3 @@ After a content commit, push to `origin/main`. GitBook syncs within ~1 minute.
 ```bash
 git push origin main
 ```
-
-## When unsure
-
-Read the spec: `docs/superpowers/specs/2026-05-21-gitbook-ai-publishing-design.md`. It captures the intent behind these rules.
