@@ -5,22 +5,44 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 ## What this repo is
 
 - Markdown files in this repo are rendered as pages on the eMarketeer support GitBook.
-- `SUMMARY.md` defines the navigation tree.
-- `.gitbook.yaml` configures GitBook.
+- The site has two language variants: **English** (repo root) and **Swedish** (`sv/` subfolder). Each maps to its own GitBook Space; a language picker switches between them.
+- `SUMMARY.md` defines the English navigation; `sv/SUMMARY.md` defines the Swedish navigation.
+- `.gitbook.yaml` configures the English space; `sv/.gitbook.yaml` configures the Swedish space.
+- `sv/CLAUDE.md` holds Swedish-specific glossary, style rules, and the image-path adjustment rule. Read it whenever you touch any file under `sv/`.
 
 ## File layout
 
 - `getting-started/` — onboarding articles for new users.
-- `knowledge-base/` — feature guides and how-tos.
-- `documentation/` — technical reference. Sub-folder `legal/` for legal docs.
+- `knowledge-base/` — feature guides and how-tos, grouped by topic in subfolders.
+- `documentation/` — technical reference, grouped by topic in subfolders. Sub-folder `legal/` for legal docs.
 - `change-log/` — release notes.
-- `assets/<article-slug>/` — images and downloads for a specific article.
+- `assets/<article-slug>/` — images and downloads. **Shared between both languages** — never duplicate into `sv/assets/`.
+- `sv/` — Swedish variant. Mirrors the English structure exactly except `sv/documentation/legal/` does not exist (legal stays English-only).
 
 ## Naming
 
-- Filenames are kebab-case slugs, e.g. `setting-up-smtp.md`.
+- Filenames are kebab-case slugs, e.g. `setting-up-smtp.md`. The English and Swedish copies of an article share the same filename and folder path under their respective roots.
 - Every article starts with one H1 (`# Title`) matching its title.
-- Image paths are always relative, e.g. `![Alt](../assets/setting-up-smtp/diagram.png)`.
+- Image paths are relative and depend on the file's depth:
+  - English KB / Doc article at depth 2 (e.g. `knowledge-base/forms/foo.md`): `![Alt](../../assets/foo/img.png)`.
+  - Swedish KB / Doc article at depth 3 (e.g. `sv/knowledge-base/forms/foo.md`): `![Alt](../../../assets/foo/img.png)`.
+  - English change-log at depth 1: `![Alt](../assets/foo/img.png)`. Swedish change-log at depth 2: `![Alt](../../assets/foo/img.png)`.
+
+## Bilingual policy
+
+**Every article exists in both English and Swedish.** Whenever you add, edit, or rewrite an article in one language, you must mirror the change in the other language in the same commit (or a tightly paired follow-up commit). The pair is the unit of work.
+
+### Rules
+
+- **New article**: write it in whichever language the user gave you, then translate to the other language. Both files land before the commit is pushed.
+- **Update**: if the user edits the English file, re-translate the matching Swedish file (or surgically apply the same edit if the change is small and the structure is unchanged). Same in reverse.
+- **Rename / move**: rename both files in parallel and update both `SUMMARY.md`s.
+- **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both.
+- **Translation engine**: translate using Claude (you), guided by `sv/CLAUDE.md`'s glossary and style rules. Do not call external translation services.
+- **Image paths**: when translating EN → SV (or copying an SV file back to EN), adjust image paths per the Naming section rules above.
+- **Legal docs** (`documentation/legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/documentation/legal/`.
+
+If the user explicitly asks you to edit only one language for a deliberate reason (e.g. "fix a typo in Swedish only"), respect that. Otherwise, keep the pair in sync.
 
 ## `SUMMARY.md`
 
@@ -82,21 +104,23 @@ genuinely doesn't apply):
 ### What is out of scope (do NOT add)
 - GitBook hint blocks (`{% hint %}`). Not in this pass.
 - New screenshots, embedded videos, or external links.
-- Translations or alternate-language versions.
+- Additional languages beyond English and Swedish (the bilingual pair is fixed).
 
 ## Autonomous vs. confirm-first
 
 **Autonomous (do, then push):**
 - Drafting or editing article content.
-- Updating `SUMMARY.md` to match file changes.
+- **Translating the change to the other language** to keep the English/Swedish pair in sync (per the Bilingual policy section).
+- Updating `SUMMARY.md` and `sv/SUMMARY.md` to match file changes.
 - Fixing typos, broken links, formatting.
 - Adding cross-links between related articles.
 
 **Confirm with the user first:**
-- Deleting articles.
+- Deleting articles (in either language — and deletion always applies to both sides of the pair).
 - Renaming files (URL changes).
 - Restructuring sections.
 - Force-pushing.
+- Editing legal docs (`documentation/legal/`).
 
 ## Ask, don't guess
 
@@ -104,9 +128,11 @@ If a request is ambiguous — which section, what audience, conflicting facts in
 
 ## Commit message style
 
-- `add: <slug>` — new article.
-- `update: <slug>` — content changes.
-- `rewrite: <slug>` — Stage 2 AI rewrite pass.
+- `add: <slug>` — new article (covers both English + Swedish).
+- `update: <slug>` — content changes (covers both languages when paired).
+- `translate(sv): <slug>` — Swedish translation of an existing English article (use when the English file was already committed earlier and you're catching up the Swedish side).
+- `translate(en): <slug>` — same in the reverse direction.
+- `rewrite: <slug>` — rewrite pass for voice or structure.
 - `fix: <slug>` — typo, broken link, small correction.
 - `restructure: <area>` — moving or grouping pages.
 
