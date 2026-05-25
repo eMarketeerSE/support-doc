@@ -139,6 +139,7 @@
 * [User guide: Enable Multi Factor Login](knowledge-base/account-admin/user-accounts.md)
 * [Automatic UTM links](knowledge-base/account-admin/webtracker.md)
 * [Where is eMarketeer data stored geographically?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
+* [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
 
 ### Developer & Advanced
 
