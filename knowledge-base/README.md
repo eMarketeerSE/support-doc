@@ -2,7 +2,7 @@
 
 Articles and guides about everyday eMarketeer tasks. Pick a topic to dive in, or use the navigation on the left to browse.
 
-<table data-view="cards">
+<table data-view="cards" data-card-size="large">
   <thead>
     <tr>
       <th></th>
