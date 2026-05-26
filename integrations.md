@@ -2,6 +2,6 @@
 icon: link
 ---
 
-# Integrations
+# Lead capture & other
 
-Connect eMarketeer to your CRM, ad platforms, and other tools.
+Capture leads from LinkedIn and Facebook, and connect to eMarketeer via Zapier.

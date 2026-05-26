@@ -1,3 +1,3 @@
-# Guider
+# Kampanjguider
 
-Steg-för-steg-artiklar för varje funktionsområde i eMarketeer.
+Guider för e-post, SMS, formulär, kampanjer och Journeys.

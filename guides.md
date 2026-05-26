@@ -2,6 +2,6 @@
 icon: book-open-lines
 ---
 
-# Guides
+# Campaign guides
 
-Step-by-step how-to articles for every feature area in eMarketeer.
+Guides for email, SMS, forms, campaigns, and journeys.

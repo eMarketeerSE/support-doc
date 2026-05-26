@@ -1,3 +1,3 @@
-# Integrationer
+# Lead-integrationer & övriga
 
-Koppla eMarketeer till ditt CRM, annonsplattformar och andra verktyg.
+Hämta leads från LinkedIn och Facebook, och koppla till eMarketeer via Zapier.

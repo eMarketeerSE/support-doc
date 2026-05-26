@@ -1,3 +1,3 @@
-# Referens
+# Konfiguration
 
-Teknisk referensdokumentation för API:er, konfiguration och utvecklarverktyg.
+Teknisk konfiguration: egna domäner, Web Tracker och användarkonton.

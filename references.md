@@ -2,6 +2,6 @@
 icon: list
 ---
 
-# References
+# Configuration
 
-Technical reference documentation for APIs, configuration, and developer tooling.
+Technical configuration: custom domains, web tracker, and user accounts.
