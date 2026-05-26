@@ -12,13 +12,13 @@ From the campaign page, click **Add Email**.
 
 * If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
-![Add Email button on the campaign page](../../.gitbook/assets/ce1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce1.png" alt="Add Email button on the campaign page"></div>
 
 Add Email button
 
 ### 2. Fill in settings, choose a template, create the email
 
-![Email settings and template selection dialog](../../.gitbook/assets/ce2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce2.png" alt="Email settings and template selection dialog"></div>
 
 Email settings
 
@@ -47,7 +47,7 @@ After you click **Create Email**, the editor opens with the new email. The left-
 
 The content is made up of content blocks, which you edit individually in the following steps.
 
-![Email editor with content blocks and left-side menu](../../.gitbook/assets/ce3.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce3.png" alt="Email editor with content blocks and left-side menu"></div>
 
 Email editor view
 
@@ -55,7 +55,7 @@ Email editor view
 
 Each content block is made up of several parts you can update. Click the block's edit button to open its settings.
 
-![Edit button on a content block](../../.gitbook/assets/ce-edit-block-1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce-edit-block-1.png" alt="Edit button on a content block"></div>
 
 Editing a content block
 
@@ -71,7 +71,7 @@ In the image below, we are not using the text paragraph and two of the link butt
 
 Click **Save** after each change to save your work.
 
-![Editing a block's headline text in the content menu](../../.gitbook/assets/ce5.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce5.png" alt="Editing a block's headline text in the content menu"></div>
 
 Update content block text
 
@@ -79,7 +79,7 @@ Update content block text
 
 To upload your own image, open the content block for editing, go to the Image section in the right-side menu, and click **Choose Image**.
 
-![Choose Image button in the image section](../../.gitbook/assets/ce_upload_image_1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1.png" alt="Choose Image button in the image section"></div>
 
 The Choose Image button
 
@@ -91,13 +91,13 @@ To upload and use an image:
 4. Click the file in the browser window to select it.
 5. Click **Use Selected** to add it to the content block.
 
-![Upload File, Choose files, and Use Selected steps](../../.gitbook/assets/ce_image_upload_2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2.png" alt="Upload File, Choose files, and Use Selected steps"></div>
 
 Steps for uploading and using a new image file
 
 If the image does not match the recommended dimensions for the block, an option to auto-scale it appears. Click the link in the notice to accept.
 
-![Auto Scale notice for resizing the uploaded image](../../.gitbook/assets/ce_upload_image_3.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_3.png" alt="Auto Scale notice for resizing the uploaded image"></div>
 
 Auto Scale option
 
@@ -110,7 +110,7 @@ Use buttons to link to a webpage, file, or another eMarketeer component. For a w
 3. Pick the campaign that contains your form in the first dropdown, then the form in the second dropdown.
 4. Click **Select**, then **Apply**, then **Save** to add the link and save the block.
 
-![Setting a button link via Browse to an eMarketeer form](../../.gitbook/assets/ce6.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce6.png" alt="Setting a button link via Browse to an eMarketeer form"></div>
 
 Update content block button link
 
@@ -120,7 +120,7 @@ To add a new content block, click **Add Content Block** in the left-side menu. I
 
 If the button is grey, first click an existing block to tell the editor where the new one should go.
 
-![Add Content Block menu with block type options](../../.gitbook/assets/ce-add-12.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12.png" alt="Add Content Block menu with block type options"></div>
 
 Add a content block, then add the specific block you want
 
@@ -128,7 +128,7 @@ Add a content block, then add the specific block you want
 
 To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
-![Reposition icon used to drag a content block](../../.gitbook/assets/ce-move.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce-move.png" alt="Reposition icon used to drag a content block"></div>
 
 Reposition a block by dragging it into place
 
@@ -136,7 +136,7 @@ Reposition a block by dragging it into place
 
 To remove a block from the template, click the delete button on its context bar.
 
-![Delete button on a content block's context bar](../../.gitbook/assets/ce-delete.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Delete button on a content block's context bar"></div>
 
 Delete content block button
 
@@ -148,7 +148,7 @@ You configure the calendar event in the block's content menu — date, time, tit
 
 Keep the **Description** field to plain text and limit it to two or three short paragraphs.
 
-![Add to Calendar block settings with date, time, and location](../../.gitbook/assets/ce7.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce7.png" alt="Add to Calendar block settings with date, time, and location"></div>
 
 Update Add to Calendar block
 
@@ -160,7 +160,7 @@ The preheader is the short summary that recipient email clients show next to the
 
 Once your preheader is saved, click **Done Editing** to exit the editor.
 
-![Preheader field in Email Settings block with Done Editing button](../../.gitbook/assets/ce8.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce8.png" alt="Preheader field in Email Settings block with Done Editing button"></div>
 
 Write a preheader and exit the editor
 

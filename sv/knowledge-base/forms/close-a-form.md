@@ -8,12 +8,12 @@ Använd det här när ett formulär bara ska vara öppet under en begränsad tid
 
 1. I kampanjvyn, klicka på Publish på formuläret.
 
-   ![formpub1](../../../assets/close-a-form/form_publish.png)
+   <div data-with-frame="true"><img src="../../../assets/close-a-form/form_publish.png" alt="formpub1"></div>
 
 2. I vänstermenyn, klicka på Open/Close form.
 
-   ![formpub2](../../../assets/close-a-form/form_openclose.png)
+   <div data-with-frame="true"><img src="../../../assets/close-a-form/form_openclose.png" alt="formpub2"></div>
 
 3. Välj de inställningar du behöver för ditt formulär.
 
-   ![formpub3](../../../assets/close-a-form/form_openclosesettings.png)
+   <div data-with-frame="true"><img src="../../../assets/close-a-form/form_openclosesettings.png" alt="formpub3"></div>

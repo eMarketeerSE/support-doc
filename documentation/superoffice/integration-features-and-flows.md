@@ -69,7 +69,7 @@ When an automation runs, eMarketeer can perform the following actions in SuperOf
 * Add or remove a contact from a selection or project.
 * Add or remove an interest from a contact.
 
-![SuperOffice contact card showing activities added by eMarketeer automations](../../.gitbook/assets/image-29.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/image-29.png" alt="SuperOffice contact card showing activities added by eMarketeer automations"></div>
 
 These activities have been added to SuperOffice by automations from eMarketeer.
 
@@ -81,11 +81,11 @@ Web panels show more information or extend eMarketeer features into SuperOffice 
 * The Timeline Report. A web panel on the contact card in SuperOffice CRM. It shows every interaction the contact had with eMarketeer marketing content, including emails, forms, SMS, and landing pages.
 * Event details. When eMarketeer creates a sale or an activity, this panel shows the event that triggered it.
 
-![Timeline Report on a SuperOffice contact card](../../.gitbook/assets/image-30-1024x530.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/image-30-1024x530.png" alt="Timeline Report on a SuperOffice contact card"></div>
 
 Learn more about your contacts and how they engaged with your marketing content.
 
-![Lead Report listing contacts not yet in SuperOffice](../../.gitbook/assets/image-31.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/image-31.png" alt="Lead Report listing contacts not yet in SuperOffice"></div>
 
 This is where all contacts that are not yet in SuperOffice are listed.
 

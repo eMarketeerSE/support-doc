@@ -2,7 +2,7 @@
 
 reCAPTCHA är Googles CAPTCHA-system som skiljer mänskliga besökare från botar. Alla eMarketeer-formulär som publicerats efter den 25 april 2022 skyddas av reCAPTCHA, vilket visas med en grå och blå pilikon längst ner på den värdbaserade formulärsidan.
 
-![reCAPTCHA-ikon på värdbaserade formulärsidor](../../../assets/recaptcha-em-forms/recaptchaicon.png)
+<div data-with-frame="true"><img src="../../../assets/recaptcha-em-forms/recaptchaicon.png" alt="reCAPTCHA-ikon på värdbaserade formulärsidor"></div>
 
 reCAPTCHA hindrar botar från att skicka in falska svar som annars skulle skräpa ner dina rapporter och skapa onödiga kontakter. Det fungerar både för formulär som är värdbaserade hos eMarketeer och formulär som är inbäddade på din webbplats. Systemet aktiveras automatiskt när du publicerar ett formulär.
 

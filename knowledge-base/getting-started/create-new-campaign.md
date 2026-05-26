@@ -4,7 +4,7 @@ Create a campaign as the container for the emails, forms, and webpages you want 
 
 A campaign groups related components, so creating one is usually the first step for a new piece of work in eMarketeer.
 
-![Creating a campaign](../../.gitbook/assets/cc1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cc1.png" alt="Creating a campaign"></div>
 
 Creating a campaign
 
@@ -28,7 +28,7 @@ This creates the campaign and opens its empty Components page.
 
 Add your first component to the campaign. This might be an email invitation, a registration form, or a landing page.
 
-![Add new component buttons](../../.gitbook/assets/cc2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cc2.png" alt="Add new component buttons"></div>
 
 Add new component buttons
 

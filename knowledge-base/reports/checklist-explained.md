@@ -4,7 +4,7 @@ The Email Checklist shows how many contacts will be addressed by a sendout, and 
 
 You see this page when sending an email. Review it to confirm your sendout reaches the right audience and to understand any exclusions.
 
-![Screenshot of the email checklist content](../../.gitbook/assets/email.checklist.25.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/email.checklist.25.png" alt="Screenshot of the email checklist content"></div>
 
 Example of the Checklist
 

@@ -12,13 +12,13 @@ Klicka på **Add Form** från kampanjen där du vill skapa formuläret.
 
 - Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
-![Knappen Add Form på kampanjsidan](../../../assets/basics-creating-form/cf1.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf1.png" alt="Knappen Add Form på kampanjsidan"></div>
 
 Knappen Add Form
 
 ### 2. Fyll i inställningar, välj en mall och skapa formuläret
 
-![Dialog för formulärinställningar och val av mall](../../../assets/basics-creating-form/cf2.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf2.png" alt="Dialog för formulärinställningar och val av mall"></div>
 
 Formulärinställningar
 
@@ -40,7 +40,7 @@ När du klickat på **Create Form** öppnas redigeraren. Menyn till vänster lå
 
 Innehållet består av innehållsblock som kallas formulärobjekt, som du redigerar var för sig i följande steg.
 
-![Formulärredigeraren med formulärobjekt och vänstermeny](../../../assets/basics-creating-form/cf_edit_view.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_edit_view.png" alt="Formulärredigeraren med formulärobjekt och vänstermeny"></div>
 
 Vy över formulärredigering
 
@@ -50,7 +50,7 @@ Det första formulärobjektet i de flesta mallar är ett Rich Text-block där du
 
 För att redigera ett formulärobjekt klickar du antingen på dess **Edit**-knapp eller dubbelklickar på själva blocket. En popup öppnas där du kan ändra text, frågor eller svar.
 
-![Popup för redigering av Rich Text-block](../../../assets/basics-creating-form/cf_edit_richtext.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_edit_richtext.png" alt="Popup för redigering av Rich Text-block"></div>
 
 Redigera ett Rich Text-block
 
@@ -58,7 +58,7 @@ Redigera ett Rich Text-block
 
 Registration-blocket är det viktigaste blocket i alla formulär som inte samlar anonyma svar. Det sparar besökarens kontaktinformation tillsammans med deras inlämning och matchar mot din eMarketeer-kontaktdatabas — uppdaterar ett befintligt kontaktkort eller skapar en ny kontakt om ingen finns.
 
-![Registration-blockets alternativ med fältväljare för kontaktuppgifter](../../../assets/basics-creating-form/cf_registration.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_registration.png" alt="Registration-blockets alternativ med fältväljare för kontaktuppgifter"></div>
 
 Alternativ för formulärobjektet Registration
 
@@ -80,7 +80,7 @@ Du hittar dessa frågetyper i menyn Add Form Item uppe till vänster i formulär
 
 Efter att en besökare skickat in formuläret omdirigeras de till tacksidan som bekräftar att deras svar sparats. Standardtacksidan innehåller ett enda textblock som du kan redigera så det passar ditt formulär. Öppna inställningarna för tacksidan genom att klicka på **Thank You Page** i vänstermenyn.
 
-![Inställningar för tacksida med alternativ för hostad sida och anpassad URL](../../../assets/basics-creating-form/cf_thank_you_page.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_thank_you_page.png" alt="Inställningar för tacksida med alternativ för hostad sida och anpassad URL"></div>
 
 Alternativ för tacksidan
 
@@ -92,7 +92,7 @@ För att redigera texten som visas på den hostade sidan klickar du på **Edit**
 
 Vi rekommenderar inte att du använder funktionen om du inte behöver den, men för längre enkäter kan du vilja låta besökare granska sina svar innan de skickar in. Bekräftelsesidan visar deras svar och ger dem två val: **Edit** för att ändra svaren eller **Finish** för att skicka in.
 
-![Inställningar för bekräftelsesida med alternativen Edit och Finish](../../../assets/basics-creating-form/cf_confirmation_page.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_confirmation_page.png" alt="Inställningar för bekräftelsesida med alternativen Edit och Finish"></div>
 
 Alternativ för bekräftelsesidan
 
@@ -102,7 +102,7 @@ När den är aktiv visas bekräftelsesidan efter att besökaren gått vidare fr�
 
 Inställningarna för bekräftelsemejl låter dig skicka en kopia av varje inlämning till en angiven e-postadress, och skicka en kopia av svaren tillbaka till personen som lämnade in dem.
 
-![Inställningar för bekräftelsemejl med fält för avsändare och ämne](../../../assets/basics-creating-form/cf_confirmation_email.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_confirmation_email.png" alt="Inställningar för bekräftelsemejl med fält för avsändare och ämne"></div>
 
 Alternativ för bekräftelsemejl
 
@@ -120,7 +120,7 @@ Alternativ:
 
 När formuläret är klart har du några alternativ för att dela det.
 
-![Publiceringssida med alternativ för Direct URL, Website Integration och E-mail](../../../assets/basics-creating-form/cf_publish_page.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_publish_page.png" alt="Publiceringssida med alternativ för Direct URL, Website Integration och E-mail"></div>
 
 Publiceringssidan för ett formulär
 

@@ -4,7 +4,7 @@ Double opt-in is a sign-up process where the contact confirms their subscription
 
 To build this in eMarketeer, first decide where to store verified contacts. Common choices include adding them to a campaign, adding them to a contact list, or ticking a checkbox on the contact card.
 
-![doubleoptin](../../.gitbook/assets/doubleoptin.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/doubleoptin.png" alt="doubleoptin"></div>
 
 ## How the process works
 

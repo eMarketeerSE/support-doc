@@ -12,13 +12,13 @@ From the campaign page, click **Add SMS**.
 
 * If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
-![Add SMS button on the campaign page](../../.gitbook/assets/cs1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cs1.png" alt="Add SMS button on the campaign page"></div>
 
 The Add SMS button
 
 ### 2. Fill in settings, choose a template, create the SMS
 
-![SMS settings with name field and template selector](../../.gitbook/assets/cs2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cs2.png" alt="SMS settings with name field and template selector"></div>
 
 SMS settings
 
@@ -42,7 +42,7 @@ The Sender ID is the name of the sender as shown on the recipient's phone. The d
 
 Below that you find the SMS testing feature, which lets you send the SMS to yourself to see how it looks on arrival. Links in test SMS messages do not work — send the SMS the normal way if you need to test links.
 
-![SMS editor with message box, Sender ID and test send](../../.gitbook/assets/cs_edit_view.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cs_edit_view.png" alt="SMS editor with message box, Sender ID and test send"></div>
 
 The SMS editor view
 

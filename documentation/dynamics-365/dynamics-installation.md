@@ -27,7 +27,7 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 4. Check **Audit changes to its data**.
 5. Click **Save**.
 
-![Advanced options for the Contact table with audit changes enabled](../../.gitbook/assets/audit.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/audit.png" alt="Advanced options for the Contact table with audit changes enabled"></div>
 
 ## Step 3: Enable the integration in eMarketeer
 
@@ -37,10 +37,10 @@ In eMarketeer, go to [Account → Plugins & Integration → Microsoft Dynamics 3
 
 Click **Connect to Dynamics 365**.
 
-[![Microsoft Dynamics 365 integration page in eMarketeer with the Connect button](../../.gitbook/assets/dynamics_1-1024x388.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_1.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/dynamics_1-1024x388.png" alt="Microsoft Dynamics 365 integration page in eMarketeer with the Connect button"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_1.png)
 
 Log in with a Microsoft account that has access to the Dynamics environment you want to integrate.
 
-[![Microsoft sign-in prompt for connecting Dynamics](../../.gitbook/assets/dynamics_2-1024x442.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_2.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/dynamics_2-1024x442.png" alt="Microsoft sign-in prompt for connecting Dynamics"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_2.png)
 
 Choose the organization (environment) you want to integrate with and click **Continue**.

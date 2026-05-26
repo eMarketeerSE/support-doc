@@ -2,7 +2,7 @@
 
 This article explains the event tags in the eMarketeer email report, the numbers next to them, and how the widget percentages are calculated.
 
-![Example of an email report page](../../.gitbook/assets/Email-Report-Page.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Email-Report-Page.png" alt="Example of an email report page"></div>
 
 Example of an email report page.
 
@@ -32,7 +32,7 @@ Each event tag shows two numbers, like "Event **10 (20)**." The number before th
 
 The widget values are based on how many delivered contacts interacted in a given way. In the example below, the email component was sent and delivered to 25 contacts. 10 opened it, and 3 clicked a link.
 
-![Example of the email report widgets](../../.gitbook/assets/EmailReportWidgets.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/EmailReportWidgets.png" alt="Example of the email report widgets"></div>
 
 Example of email report widget values.
 
@@ -48,7 +48,7 @@ The calculations use unique contacts, not the total number of events. If a singl
 
 ## Sendout health widget
 
-![Sendout health widget](<../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38 (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38 (1" alt="Sendout health widget"></div>.png>)
 
 Sendout health widget example.
 

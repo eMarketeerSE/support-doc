@@ -6,7 +6,7 @@ Tillsammans förändrar de hur du fångar leads och hur du attribuerar trafiken 
 
 ## Den nya formulärredigeraren
 
-![Den nya formulärredigeraren](../../assets/product-launch-june-2025/new-forms-editor-1024x576.png)
+<div data-with-frame="true"><img src="../../assets/product-launch-june-2025/new-forms-editor-1024x576.png" alt="Den nya formulärredigeraren"></div>
 
 Formulär är där relationer med kontakter börjar. Den nya redigeraren låter dig skapa moderna, flexibla formulär och enkäter som konverterar.
 

@@ -14,7 +14,7 @@ The Checklist also runs a second, live check at send time: it verifies whether e
 
 Start from the Checklist page where you see the undeliverable count. The steps below assume you already have a contact list for the intended recipients.
 
-![Undeliverable count shown on the Checklist page](../../.gitbook/assets/chun1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/chun1.png" alt="Undeliverable count shown on the Checklist page"></div>
 
 #### 1. Navigate to the Contacts page
 
@@ -29,13 +29,13 @@ Use the menu on the left to open Contact Lists.
 
 #### 3. Open the contact list with the recipients
 
-![Steps to navigate to the contact list from the checklist](../../.gitbook/assets/chun2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/chun2.png" alt="Steps to navigate to the contact list from the checklist"></div>
 
 #### 4. Open the Filter feature
 
 Click the Filter button on the right side of the Contacts page.
 
-![Filter button location on the Contacts page](../../.gitbook/assets/chun3.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/chun3.png" alt="Filter button location on the Contacts page"></div>
 
 #### 5. Apply this filter
 
@@ -43,7 +43,7 @@ Use these parameters to show only contacts with undeliverable email addresses:
 
 `[Delivery: E-mail > Equals > Undeliverable]`
 
-![Filter parameters: Delivery plus E-mail, Equals, Undeliverable](../../.gitbook/assets/chun4.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/chun4.png" alt="Filter parameters: Delivery plus E-mail, Equals, Undeliverable"></div>
 
 #### 6. Apply the filter
 

@@ -17,7 +17,7 @@ För att göra en text inuti en komponent till en e-postlänk, följ samma steg 
 
 Bästa praxis är att undvika den här typen av länk i brödtexten i en e-postkomponent. De flesta e-postklienter gör redan om vanliga e-postadresser till klickbara länkar, så avsändaren behöver inte lägga till länken manuellt.
 
-![E-postlänk tillämpad på text i redigeraren](../../../assets/email-address-links/image.png)
+<div data-with-frame="true"><img src="../../../assets/email-address-links/image.png" alt="E-postlänk tillämpad på text i redigeraren"></div>
 
 Exempel på en e-postlänk tillämpad på text.
 
@@ -29,6 +29,6 @@ Tillvägagångssättet är detsamma — `mailto:`-URL:en läggs i fältet Link U
 2. I fältet Link URL, skriv e-postadressen med prefixet `mailto:`.
 3. Tillämpa länken.
 
-![E-postlänk tillämpad på en knapp](../../../assets/email-address-links/image.png)
+<div data-with-frame="true"><img src="../../../assets/email-address-links/image.png" alt="E-postlänk tillämpad på en knapp"></div>
 
 Exempel på en e-postlänk på en knapp.

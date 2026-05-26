@@ -14,7 +14,7 @@ En kontakt läggs till i listan Kampanjkontakter när den:
 
 ## Gränssnittet för Kampanjkontakter
 
-[![Fliken Kampanjkontakter som listar kontakter i en kampanj](../../../assets/campaign-contacts/2021-05-04_16-13-22.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-13-22.png)
+[<div data-with-frame="true"><img src="../../../assets/campaign-contacts/2021-05-04_16-13-22.png" alt="Fliken Kampanjkontakter som listar kontakter i en kampanj"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-13-22.png)
 
 Gränssnittet för Kampanjkontakter
 
@@ -31,6 +31,6 @@ Du kan använda fliken för att ta bort oönskade kontakter från kampanjen, och
 
 Du kan rikta utskick till Kampanjkontakter med alternativet "All contacts in this campaign" när du skickar ett e-post eller SMS. Se definitionen högst upp i artikeln för vad som räknas som en kampanjkontakt.
 
-[![Rullgardinsmenyn Recipient Source med "All contacts in this campaign" valt](../../../assets/campaign-contacts/2021-05-04_16-06-53.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-06-53.png)
+[<div data-with-frame="true"><img src="../../../assets/campaign-contacts/2021-05-04_16-06-53.png" alt="Rullgardinsmenyn Recipient Source med "All contacts in this campaign" valt"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-06-53.png)
 
 Alternativet "All contacts in this campaign"

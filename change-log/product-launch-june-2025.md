@@ -6,7 +6,7 @@ Together they change how you capture leads and how you attribute the traffic tha
 
 ## The new form editor
 
-![New forms editor](../.gitbook/assets/new-forms-editor-1024x576.png)
+<div data-with-frame="true"><img src="../.gitbook/assets/new-forms-editor-1024x576.png" alt="New forms editor"></div>
 
 Forms are where relationships with contacts begin. This new editor lets you create modern, flexible forms and surveys that convert.
 

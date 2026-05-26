@@ -4,7 +4,7 @@ Den här artikeln förklarar vad streckkoder är, var de används och hur du kan
 
 ## Vad är en streckkod?
 
-![streckkodsläsare som läser en streckkod](../../../assets/barcodes/Barcodes2.jpg)
+<div data-with-frame="true"><img src="../../../assets/barcodes/Barcodes2.jpg" alt="streckkodsläsare som läser en streckkod"></div>
 
 En streckkodsläsare som läser en streckkod
 
@@ -17,7 +17,7 @@ Dina ögon läser siffrorna och vet vad de ska göra med dem.
 
 Samma nummer som streckkod ser ut så här:
 
-![telefonnummer kodat som en Code 128-streckkod](../../../assets/barcodes/Barcodes1.png)
+<div data-with-frame="true"><img src="../../../assets/barcodes/Barcodes1.png" alt="telefonnummer kodat som en Code 128-streckkod"></div>
 
 ## Var används streckkoder?
 

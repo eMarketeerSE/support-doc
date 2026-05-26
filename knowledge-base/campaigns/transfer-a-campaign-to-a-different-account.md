@@ -15,7 +15,7 @@ You need two things:
 
 The EMID is a unique identifier for an eMarketeer account. Ask a user on the destination account to log in and click "Account" → "My Identifier Code (EMID)".
 
-![EMID lookup under the Account menu](../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png" alt="EMID lookup under the Account menu"></div>
 
 Have them copy the code and send it to you.
 
@@ -23,11 +23,11 @@ Have them copy the code and send it to you.
 
 Open "Campaigns" and find the campaign you want to transfer in the list. Click the gear icon on the far right of that row, then click "Transfer".
 
-![Transfer option in the gear menu for a campaign](../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png" alt="Transfer option in the gear menu for a campaign"></div>
 
 A dialog opens and asks for the EMID of the destination account. Paste the EMID you received and click "Fetch User".
 
-![Transfer dialog with EMID field](../../.gitbook/assets/transferdialog.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/transferdialog.png" alt="Transfer dialog with EMID field"></div>
 
 Verify the destination account looks correct, then click "Transfer Campaign" to complete the transfer.
 

@@ -22,13 +22,13 @@ Välj samma kontaktgrupp som du använde för den ursprungliga kampanjen som din
 
 Använd den här knappen för att lägga till det urval av kontakter du vill blockera från påminnelsen.
 
-![På sidan för det andra utskickssteget, klicka på knappen Add More Recipients för att lägga till det urval av kontakter som ska blockeras senare](../../../assets/configuring-reminder-email/rem-add-more.png)
+<div data-with-frame="true"><img src="../../../assets/configuring-reminder-email/rem-add-more.png" alt="På sidan för det andra utskickssteget, klicka på knappen Add More Recipients för att lägga till det urval av kontakter som ska blockeras senare"></div>
 
 Knappen [Add More Recipients] på sidan Send Options
 
 ### 4. Välj "Selection" som andra Recipient Source
 
-![Mottagarlistan av typen Selection är det sista alternativet på sidan för första Recipient Source](../../../assets/configuring-reminder-email/rem-selection.png)
+<div data-with-frame="true"><img src="../../../assets/configuring-reminder-email/rem-selection.png" alt="Mottagarlistan av typen Selection är det sista alternativet på sidan för första Recipient Source"></div>
 
 Selection är ett av alternativen på första Recipient Source-sidan
 
@@ -38,13 +38,13 @@ Vilket urval du väljer beror på vad påminnelsen handlar om. De två exemplen 
 
 - För att påminna kontakter att läsa ett tidigare e-postmeddelande, bygg ett urval av kontakter som har öppnat det e-postmeddelandet. Det är de kontakterna du kommer att blockera.
 
-![På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt tidigare e-postmeddelande, och därefter händelsetypen "Opened E-mail" för att blockera utskicket av påminnelse-mejlet till de kontakter som redan har läst det tidigare e-postmeddelandet](../../../assets/configuring-reminder-email/rem-sel-email-open.png)
+<div data-with-frame="true"><img src="../../../assets/configuring-reminder-email/rem-sel-email-open.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt tidigare e-postmeddelande, och därefter händelsetypen "Opened E-mail" för att blockera utskicket av påminnelse-mejlet till de kontakter som redan har läst det tidigare e-postmeddelandet"></div>
 
 Välj kontakter som har öppnat det tidigare e-postmeddelandet som en Recipient Source att blockera i nästa steg
 
 - För att påminna kontakter att registrera sig via ett formulär, bygg ett urval av kontakter som har skickat in det formuläret. Det är de kontakterna du kommer att blockera.
 
-![På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt formulär, och därefter händelsetypen "Submitted" för att blockera e-postutskicket till registrerade på ett formulär i nästa steg](../../../assets/configuring-reminder-email/rem-sel-event-reg.png)
+<div data-with-frame="true"><img src="../../../assets/configuring-reminder-email/rem-sel-event-reg.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt formulär, och därefter händelsetypen "Submitted" för att blockera e-postutskicket till registrerade på ett formulär i nästa steg"></div>
 
 Välj formulärregistrerade som en Recipient Source att blockera i nästa steg
 
@@ -52,7 +52,7 @@ Välj formulärregistrerade som en Recipient Source att blockera i nästa steg
 
 Listan Recipients visar nu både din ursprungliga grupp och det nya urvalet. Ändra Type-rullgardinen för urvalet från "Send to" till "Block".
 
-![Block Recipients-alternativet finns som ett rullgardinsalternativ på raden för Recipient Source](../../../assets/configuring-reminder-email/rem-type-block.png)
+<div data-with-frame="true"><img src="../../../assets/configuring-reminder-email/rem-type-block.png" alt="Block Recipients-alternativet finns som ett rullgardinsalternativ på raden för Recipient Source"></div>
 
 Blockera utskicket genom att sätta Recipient Source till Block
 

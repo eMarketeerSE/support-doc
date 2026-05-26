@@ -4,7 +4,7 @@ reCAPTCHA protects your forms from bot submissions using Google's CAPTCHA system
 
 All eMarketeer forms published after April 25th, 2022 have reCAPTCHA protection. A grey and blue arrow icon at the bottom of hosted form pages shows that reCAPTCHA is active.
 
-![reCAPTCHA icon on a hosted form page](../../.gitbook/assets/recaptchaicon.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/recaptchaicon.png" alt="reCAPTCHA icon on a hosted form page"></div>
 
 reCAPTCHA icon
 

@@ -4,7 +4,7 @@ En Journey är en sekvens av automatiserade steg som körs för varje kontakt so
 
 När en ny kontakt matchar kriterierna (filtret) lägger eMarketeer till kontakten i din Journey och tar den genom stegen i ordning.
 
-![Journey-byggare som visar en sekvens av steg](../../../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png)
+<div data-with-frame="true"><img src="../../../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Journey-byggare som visar en sekvens av steg"></div>
 
 ## Vad du kan göra med Journeys
 

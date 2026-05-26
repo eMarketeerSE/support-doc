@@ -6,7 +6,7 @@ Att hantera användare kräver administratörsrättigheter.
 
 Öppna Settings och välj User Accounts för att se aktuella användare och deras rättigheter.
 
-![Listan User Accounts som visar befintliga användare och deras tilldelade rättigheter](../../../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.08.53-1024x427.png)
+<div data-with-frame="true"><img src="../../../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.08.53-1024x427.png" alt="Listan User Accounts som visar befintliga användare och deras tilldelade rättigheter"></div>
 
 ## Skapa en ny sales user
 
@@ -14,7 +14,7 @@ Att hantera användare kräver administratörsrättigheter.
 2. Ange e-postadressen för den nya användaren.
 3. Aktivera Sales leads med kryssrutan, och bocka sedan i ett eller flera sales-team som användaren ska tillhöra. En användare kan tillhöra ett eller flera sales-team.
 
-   ![Formuläret Create User med Sales leads aktiverat och sales-team valda](../../../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.15.05.png)
+   <div data-with-frame="true"><img src="../../../assets/sales-users/Ska_CC_88rmavbild-2022-06-09-kl.-14.15.05.png" alt="Formuläret Create User med Sales leads aktiverat och sales-team valda"></div>
 
 4. Klicka på Create user and send login email.
 

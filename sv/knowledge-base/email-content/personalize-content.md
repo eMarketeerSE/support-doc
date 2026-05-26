@@ -4,7 +4,7 @@ Personaliserat innehåll visas olika för varje kontakt baserat på data som lag
 
 Det vanligaste exemplet är en personaliserad e-posthälsning som tilltalar kontakten med namn. Personalisering fungerar i e-postmeddelanden, SMS, formulär och webbsidor.
 
-[![En e-posthälsning som lyder "Hi Sebastian," personaliserad med kontaktens förnamn](../../../assets/personalize-content/2021-05-19_10-30-58.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_10-30-58.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_10-30-58.png" alt="En e-posthälsning som lyder "Hi Sebastian," personaliserad med kontaktens förnamn"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_10-30-58.png)
 
 En personaliserad hälsning i ett e-postmeddelande.
 
@@ -12,7 +12,7 @@ En personaliserad hälsning i ett e-postmeddelande.
 
 När en kontakt är identifierad i en eMarketeer-komponent kan den komponenten hämta data från kontaktkortet. E-postmeddelanden och SMS identifierar alltid kontakten, eftersom de riktas till specifika kontakter vid utskickstillfället. Formulär och webbsidor kan också personalisera när kontakten är identifierad — till exempel via en personlig länk.
 
-[![Kontaktkort som visar fält ifyllda för en exempelkontakt](../../../assets/personalize-content/2021-05-19_10-40-28-1024x546.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_10-40-28.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_10-40-28-1024x546.png" alt="Kontaktkort som visar fält ifyllda för en exempelkontakt"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_10-40-28.png)
 
 eMarketeer-kontaktkort med data.
 
@@ -28,7 +28,7 @@ De vanligaste sätten att samla kontaktdata är CRM-synk, Excel-import och formu
 
 Att importera via Excel låter dig sätta data på varje kontakt genom att förbereda arket före uppladdning. I det här exemplet importeras First name, Last name, Email, Company och Personal Code för två kontakter.
 
-[![Excel-ark med fem kolumner förberedda för import](../../../assets/personalize-content/2021-05-19_11-10-16.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_11-10-16.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_11-10-16.png" alt="Excel-ark med fem kolumner förberedda för import"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_11-10-16.png)
 
 Excel-fil redo för import.
 
@@ -36,7 +36,7 @@ Du kan importera en Excel-fil som en del av att skicka ett e-postmeddelande elle
 
 I det här exemplet är Personal Code ett anpassat fält. Anpassade fält är icke-standardiserade kontaktkortsfält. Lägg till anpassade fält i Account Settings, Customize eMarketeer, Customize Contact Card (administratörsroll krävs).
 
-[![Skärm för kolumnmatchning under Excel-import som visar källkolumner matchade mot kontaktkortsfält](../../../assets/personalize-content/2021-05-19_11-33-09.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_11-33-09.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_11-33-09.png" alt="Skärm för kolumnmatchning under Excel-import som visar källkolumner matchade mot kontaktkortsfält"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_11-33-09.png)
 
 Importera kontakter med Excel, matcha data med tillgängliga fält.
 
@@ -44,13 +44,13 @@ Importera kontakter med Excel, matcha data med tillgängliga fält.
 
 Lägg till personaliserad data i vilket textfält som helst med alternativet Personalize i verktygsfältet.
 
-[![Personalize-ikonen i redigerarens verktygsfält](../../../assets/personalize-content/2021-05-19_14-39-08.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_14-39-08.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_14-39-08.png" alt="Personalize-ikonen i redigerarens verktygsfält"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_14-39-08.png)
 
 Personalize-ikonen i verktygsfältet.
 
 Menyn listar alla tillgängliga kontaktkortsfält, företagskontofält och [kampanjfält](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
 
-[![Personalize-menyn öppen med listan över tillgängliga fält](../../../assets/personalize-content/2021-05-19_14-44-42.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_14-44-42.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_14-44-42.png" alt="Personalize-menyn öppen med listan över tillgängliga fält"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_14-44-42.png)
 
 Personalize-menyn, som visar alla tillgängliga fält.
 
@@ -81,25 +81,25 @@ När du skriver avsnitt för hand är det ett vanligt misstag att glömma det h�
 
 ### Avsändarinfo för e-post
 
-[![Avsändarinfo-fält för e-post med personaliseringsplatshållare infogade](../../../assets/personalize-content/2021-05-19_15-08-07.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-08-07.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_15-08-07.png" alt="Avsändarinfo-fält för e-post med personaliseringsplatshållare infogade"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-08-07.png)
 
 Avsändarinfo-fält för e-post kan personaliseras.
 
 ### Textinnehåll
 
-[![Textinnehåll som visar en personaliseringsplatshållare inline](../../../assets/personalize-content/2021-05-19_15-09-54.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-09-54.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_15-09-54.png" alt="Textinnehåll som visar en personaliseringsplatshållare inline"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-09-54.png)
 
 Personalisering i textinnehåll.
 
 ### Länkar och URL:er
 
-[![En länk-URL med en personlig kod inbäddad som en personaliseringsplatshållare](../../../assets/personalize-content/2021-05-19_15-11-34.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-11-34.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_15-11-34.png" alt="En länk-URL med en personlig kod inbäddad som en personaliseringsplatshållare"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-11-34.png)
 
 En länk-URL med en personlig kod. Bild-URL:er fungerar på samma sätt.
 
 ### HTML
 
-[![HTML-redigerare som visar ett villkorligt personaliseringsblock](../../../assets/personalize-content/2021-05-19_15-17-02.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-17-02.png)
+[<div data-with-frame="true"><img src="../../../assets/personalize-content/2021-05-19_15-17-02.png" alt="HTML-redigerare som visar ett villkorligt personaliseringsblock"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-17-02.png)
 
 Personalisering i HTML med en villkorlig sats. Blocket är synligt endast för kontakter med värdet "prospect" för fältet contact category.
 

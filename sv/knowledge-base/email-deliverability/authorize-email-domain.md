@@ -8,14 +8,14 @@ När du är klar, hör av dig till oss så aktiverar vi den nya e-posttjänsten 
 
 1. I eMarketeer går du till **Account** → **Email domains** och klickar på **Add a domain**.
 2. Ange den domän du vill autentisera (till exempel `yourdomain.com`) och klicka för att lägga till.
-   [![Dialog för att lägga till en domän med fält för domännamn](../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png)](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.31.57.png)
+   [<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png" alt="Dialog för att lägga till en domän med fält för domännamn"></div>](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.31.57.png)
 3. eMarketeer visar en lista med DNS-poster. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på länken i autentiseringsdialogen för att skicka posterna till ansvarig person.
-   [![DNS-poster listade i autentiseringsdialogen](../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.16.png)](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.30.16.png)
-   [![länk för att skicka DNS-poster till IT-avdelningen](../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png)](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.30.42.png)
+   [<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.16.png" alt="DNS-poster listade i autentiseringsdialogen"></div>](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.30.16.png)
+   [<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="länk för att skicka DNS-poster till IT-avdelningen"></div>](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.30.42.png)
 4. När posterna är på plats återvänder du till autentiseringsdialogen och klickar på **Authorize**.
 5. Om posterna är korrekta validerar dialogen och godkänner autentiseringen. Om något är fel markeras posten som misslyckas i rött.
-   [![felaktig DNS-post markerad i rött](../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.00.png)](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.31.00.png)
-   [![bekräftelse på lyckad domänautentisering](../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.06.02.png)](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.06.02.png)
+   [<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.00.png" alt="felaktig DNS-post markerad i rött"></div>](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.31.00.png)
+   [<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.06.02.png" alt="bekräftelse på lyckad domänautentisering"></div>](https://support.emarketeer.com/wp-content/uploads/2019/12/Skärmavbild-2019-12-11-kl.-14.06.02.png)
 
 DNS-ändringar sprids oftast snabbt, men räkna med upp till 48 timmar.
 

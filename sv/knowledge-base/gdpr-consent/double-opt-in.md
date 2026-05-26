@@ -4,7 +4,7 @@ Double opt-in är en registreringsprocess där kontakten bekräftar sin prenumer
 
 För att bygga detta i eMarketeer, börja med att bestämma var verifierade kontakter ska lagras. Vanliga val är att lägga till dem i en kampanj, lägga till dem i en kontaktlista eller markera en kryssruta på kontaktkortet.
 
-![Översikt över double opt-in-flödet](../../../assets/double-opt-in/doubleoptin.png)
+<div data-with-frame="true"><img src="../../../assets/double-opt-in/doubleoptin.png" alt="Översikt över double opt-in-flödet"></div>
 
 ## Så fungerar processen
 

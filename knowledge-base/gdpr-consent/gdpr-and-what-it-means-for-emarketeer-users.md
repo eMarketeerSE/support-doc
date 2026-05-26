@@ -18,7 +18,7 @@ The General Data Protection Regulation (GDPR) gives ownership and control of per
 
 GDPR features ship in three phases, two releases per phase. The image below summarizes what each release covers.
 
-![eMarketeer GDPR roadmap with three release phases](../../.gitbook/assets/GDPR-eMarketeer-Master-Presentation-1.jpg)
+<div data-with-frame="true"><img src="../../.gitbook/assets/GDPR-eMarketeer-Master-Presentation-1.jpg" alt="eMarketeer GDPR roadmap with three release phases"></div>
 
 For more, visit the [eMarketeer GDPR Center](https://support.emarketeer.com/kb/gdpr/) or download the [GDPR guide](https://www.emarketeer.com/portfolio/gdpr-guide-businesses-prepare/) for a quick reference.
 

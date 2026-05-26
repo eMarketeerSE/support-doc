@@ -14,19 +14,19 @@ Kampanjens dashboard bygger rapporter från en uppsättning widgetar som du väl
 
 Gå till kampanjen du vill rapportera om. Klicka på fliken "dashboard" och sedan "add reporting widget". Välj de widgetar du vill spåra kampanjen med. Arrangera om dem genom att dra.
 
-![Kampanjens dashboard med rapporteringswidgetar.](../../../assets/how-to-use-emarketeer-campaign-reports/campaign_dashboard.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/campaign_dashboard.png" alt="Kampanjens dashboard med rapporteringswidgetar."></div>
 
 ## Rapporteringswidgetar
 
 De tillgängliga widgetarna är email top list, email performance, funnel chart, KPI counter och goal gauge.
 
-![Listan över rapporteringswidgetar du kan lägga till.](../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png" alt="Listan över rapporteringswidgetar du kan lägga till."></div>
 
 ### Email top list
 
 Ta reda på vilka av dina kampanjer som presterar bäst.
 
-![Widgeten email top list.](../../../assets/how-to-use-emarketeer-campaign-reports/email_toplist-1-300x122.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/email_toplist-1-300x122.png" alt="Widgeten email top list."></div>
 
 Widgeten email top list rangordnar dina kampanjer efter open rate, click-through rate eller click-to-open rate. Den ger dig en överblick över hur varje kampanj presterade och vilken typ dina kontakter föredrar.
 
@@ -39,7 +39,7 @@ Så lägger du till widgeten:
 
 Lämplig för din e-postmarknadsföring.
 
-![Widgeten email performance.](../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-01-28-at-14.11.12.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-01-28-at-14.11.12.png" alt="Widgeten email performance."></div>
 
 Se din genomsnittliga kampanjprestanda — open rate, click-through rate, click-to-open rate och avregistreringar. Du kan också jämföra genomsnitt med en annan kampanj. När du har lagt till widgeten väljer du kampanjen att jämföra mot och rapporten genereras automatiskt.
 
@@ -47,7 +47,7 @@ Se din genomsnittliga kampanjprestanda — open rate, click-through rate, click-
 
 Fungerar bra för lead nurture-kampanjer och event.
 
-![Ett funnel chart med färgade staplar som visar konvertering mellan steg.](../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-11.25.00.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-11.25.00.png" alt="Ett funnel chart med färgade staplar som visar konvertering mellan steg."></div>
 
 Spåra ditt marknadsföringsflöde steg för steg. Funnel chart visualiserar varje steg du bygger — till exempel eventinbjudan, eventanmälan och deltagarformulär. Varje steg är en stapel med konverteringsfrekvensen till nästa, och diagrammet visar den totala konverteringen från första steget till det sista.
 
@@ -68,7 +68,7 @@ Du kan ändra storlek på funnel chart. Öppna det, hitta rullgardinsmenyn "size
 
 Fungerar bra för nedladdningar eller registreringar.
 
-![Widgeten goal gauge som visar framsteg mot ett mål.](../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.24.21.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.24.21.png" alt="Widgeten goal gauge som visar framsteg mot ett mål."></div>
 
 Sätt ett mål och se framstegen mot det. Goal gauge fungerar som en förloppsindikator och visar procenten till målet.
 
@@ -79,7 +79,7 @@ Sätt ett mål och se framstegen mot det. Goal gauge fungerar som en förloppsin
 
 ### KPI counter
 
-![Widgeten KPI counter.](../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.26.00.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.26.00.png" alt="Widgeten KPI counter."></div>
 
 En snabb räknare för formulärinskick, e-postklick eller vad du nu vill spåra. Som goal gauge, men utan ett mål.
 

@@ -4,7 +4,7 @@ reCAPTCHA skyddar dina formulär från botinskick med hjälp av Googles CAPTCHA-
 
 Alla eMarketeer-formulär som publicerats efter den 25 april 2022 har reCAPTCHA-skydd. En grå och blå pilikon längst ned på sidor med formulär som driftas av eMarketeer visar att reCAPTCHA är aktivt.
 
-![reCAPTCHA-ikonen på en sida med ett driftat formulär](../../../assets/captcha/recaptchaicon.png)
+<div data-with-frame="true"><img src="../../../assets/captcha/recaptchaicon.png" alt="reCAPTCHA-ikonen på en sida med ett driftat formulär"></div>
 
 reCAPTCHA-ikon
 

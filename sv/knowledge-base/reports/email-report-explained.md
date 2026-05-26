@@ -2,7 +2,7 @@
 
 Den här artikeln förklarar händelsetaggarna i eMarketeers e-postrapport, siffrorna bredvid dem och hur procentvärdena i widgetarna beräknas.
 
-![Exempel på en e-postrapportsida](../../../assets/email-report-explained/Email-Report-Page.png)
+<div data-with-frame="true"><img src="../../../assets/email-report-explained/Email-Report-Page.png" alt="Exempel på en e-postrapportsida"></div>
 
 Exempel på en e-postrapportsida.
 
@@ -32,7 +32,7 @@ Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran fö
 
 Värdena i widgetarna baseras på hur många levererade kontakter som interagerade på ett visst sätt. I exemplet nedan skickades och levererades e-postkomponenten till 25 kontakter. 10 öppnade den, och 3 klickade på en länk.
 
-![Exempel på e-postrapportens widgetar](../../../assets/email-report-explained/EmailReportWidgets.png)
+<div data-with-frame="true"><img src="../../../assets/email-report-explained/EmailReportWidgets.png" alt="Exempel på e-postrapportens widgetar"></div>
 
 Exempel på värden i e-postrapportens widgetar.
 
@@ -48,7 +48,7 @@ Beräkningarna använder unika kontakter, inte det totala antalet händelser. Om
 
 ## Widget för utskickets hälsa
 
-![Widget för utskickets hälsa](../../../assets/email-report-explained/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png)
+<div data-with-frame="true"><img src="../../../assets/email-report-explained/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="Widget för utskickets hälsa"></div>
 
 Exempel på widget för utskickets hälsa.
 

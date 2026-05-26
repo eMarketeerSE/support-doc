@@ -8,10 +8,10 @@ Use this when a form should only run for a limited time or up to a maximum numbe
 
 1.  In the campaign view, click Publish on the form.
 
-    ![formpub1](../../.gitbook/assets/form_publish.png)
+    <div data-with-frame="true"><img src="../../.gitbook/assets/form_publish.png" alt="formpub1"></div>
 2.  In the left menu, click Open/Close form.
 
-    ![formpub2](../../.gitbook/assets/form_openclose.png)
+    <div data-with-frame="true"><img src="../../.gitbook/assets/form_openclose.png" alt="formpub2"></div>
 3.  Choose the settings you need for your form.
 
-    ![formpub3](../../.gitbook/assets/form_openclosesettings.png)
+    <div data-with-frame="true"><img src="../../.gitbook/assets/form_openclosesettings.png" alt="formpub3"></div>

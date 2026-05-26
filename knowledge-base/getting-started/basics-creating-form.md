@@ -12,13 +12,13 @@ From the campaign where you want to create the form, click **Add Form**.
 
 * If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
-![Add Form button on the campaign page](../../.gitbook/assets/cf1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf1.png" alt="Add Form button on the campaign page"></div>
 
 The Add Form button
 
 ### 2. Fill in settings, choose a template, create the form
 
-![Form settings and template selection dialog](../../.gitbook/assets/cf2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf2.png" alt="Form settings and template selection dialog"></div>
 
 Form settings
 
@@ -40,7 +40,7 @@ After you click **Create Form**, the editor opens. The left-side menu lets you a
 
 The content is made up of content blocks called form items, which you edit individually in the following steps.
 
-![Form editor with form items and left-side menu](../../.gitbook/assets/cf_edit_view.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_edit_view.png" alt="Form editor with form items and left-side menu"></div>
 
 The form editing view
 
@@ -50,7 +50,7 @@ The first form item in most templates is a Rich Text block where you can introdu
 
 To edit any form item, either click its **Edit** button or double-click the block itself. A popup opens where you can change the text, questions, or answers.
 
-![Rich Text block edit popup](../../.gitbook/assets/cf_edit_richtext.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_edit_richtext.png" alt="Rich Text block edit popup"></div>
 
 Editing a Rich Text block
 
@@ -58,7 +58,7 @@ Editing a Rich Text block
 
 The Registration block is the most important block in any form that is not collecting anonymous answers. It saves the visitor's contact information with their submission and matches it against your eMarketeer contact database — updating an existing contact card or creating a new contact if none exists.
 
-![Registration block options with contact field selectors](../../.gitbook/assets/cf_registration.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_registration.png" alt="Registration block options with contact field selectors"></div>
 
 The Registration form item options
 
@@ -80,7 +80,7 @@ You can find these question types in the Add Form Item menu in the top-left of t
 
 After a visitor submits, they are redirected to the thank-you page to confirm their answer was saved. The default thank-you page contains a single text block, which you can edit to fit your form. Open the thank-you page settings by clicking **Thank You Page** in the left-side menu.
 
-![Thank-you page settings with hosted page and custom URL options](../../.gitbook/assets/cf_thank_you_page.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_thank_you_page.png" alt="Thank-you page settings with hosted page and custom URL options"></div>
 
 The thank-you page options
 
@@ -92,7 +92,7 @@ To edit the text shown on the hosted page, click **Edit** as shown above.
 
 We do not recommend using this feature unless you need it, but for longer surveys you may want to let visitors review their answers before submitting. The confirmation page shows their answers and gives them a choice: **Edit** their answers or **Finish** to submit.
 
-![Confirmation page settings with Edit and Finish options](../../.gitbook/assets/cf_confirmation_page.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_confirmation_page.png" alt="Confirmation page settings with Edit and Finish options"></div>
 
 The confirmation page options
 
@@ -102,7 +102,7 @@ When active, the confirmation page appears after the visitor proceeds from the f
 
 Confirmation email settings let you send a copy of each submission to a specified email address, and send a copy of the answers back to the person who submitted them.
 
-![Confirmation email settings with sender and subject fields](../../.gitbook/assets/cf_confirmation_email.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_confirmation_email.png" alt="Confirmation email settings with sender and subject fields"></div>
 
 Confirmation email options
 
@@ -120,7 +120,7 @@ Options:
 
 Once your form is ready, you have a few options for sharing it.
 
-![Publishing page with Direct URL, Website Integration, and E-mail options](../../.gitbook/assets/cf_publish_page.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cf_publish_page.png" alt="Publishing page with Direct URL, Website Integration, and E-mail options"></div>
 
 The Publishing page for a form
 

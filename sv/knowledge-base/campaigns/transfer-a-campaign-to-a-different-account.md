@@ -15,7 +15,7 @@ Du behöver två saker:
 
 EMID är en unik identifierare för ett eMarketeer-konto. Be en användare på destinationskontot att logga in och klicka på "Account" → "My Identifier Code (EMID)".
 
-![EMID-uppslag under menyn Account](../../../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png)
+<div data-with-frame="true"><img src="../../../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png" alt="EMID-uppslag under menyn Account"></div>
 
 Be dem kopiera koden och skicka den till dig.
 
@@ -23,11 +23,11 @@ Be dem kopiera koden och skicka den till dig.
 
 Öppna "Campaigns" och leta upp kampanjen du vill överföra i listan. Klicka på kugghjulsikonen längst till höger på den raden, och klicka sedan på "Transfer".
 
-![Alternativet Transfer i kugghjulsmenyn för en kampanj](../../../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png)
+<div data-with-frame="true"><img src="../../../assets/transfer-a-campaign-to-a-different-account/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png" alt="Alternativet Transfer i kugghjulsmenyn för en kampanj"></div>
 
 En dialogruta öppnas och frågar efter EMID för destinationskontot. Klistra in EMID:n du fick och klicka på "Fetch User".
 
-![Överföringsdialog med EMID-fält](../../../assets/transfer-a-campaign-to-a-different-account/transferdialog.png)
+<div data-with-frame="true"><img src="../../../assets/transfer-a-campaign-to-a-different-account/transferdialog.png" alt="Överföringsdialog med EMID-fält"></div>
 
 Verifiera att destinationskontot ser rätt ut, klicka sedan på "Transfer Campaign" för att slutföra överföringen.
 

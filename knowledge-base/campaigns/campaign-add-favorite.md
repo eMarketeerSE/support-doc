@@ -4,7 +4,7 @@ My Favorites is a section in the campaign navigation that holds shortcuts to cam
 
 Use it to pin campaigns you visit often or that are currently active, so they are one click away from any campaign navigation page.
 
-!["My Favorites" is located in the left-side menu on campaign navigation pages](../../.gitbook/assets/fav1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/fav1.png" alt=""My Favorites" is located in the left-side menu on campaign navigation pages"></div>
 
 Location of My Favorites on the Campaign navigation pages
 
@@ -14,6 +14,6 @@ Location of My Favorites on the Campaign navigation pages
 2. Click the cogwheel icon on the right side of the campaign's row.
 3. Click Add Favorite in the context menu.
 
-![The Cogwheel is on the right side of the campaign's row and the first context menu item is "Add Favorite"](../../.gitbook/assets/fav2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/fav2.png" alt="The Cogwheel is on the right side of the campaign's row and the first context menu item is "Add Favorite""></div>
 
 Adding a campaign to Favorites

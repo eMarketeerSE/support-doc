@@ -8,13 +8,13 @@ Du kan lägga till länkar i text, bilder eller länkelement som knappar. Stegen
 
 Öppna knappens inställningar och klicka på bläddra-knappen bredvid URL-fältet.
 
-[![Länkkonfigurationspanelen för en knapp.](../../../assets/how-to-link-to-a-form/2025-03-06_12-32-51.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-32-51.png)
+[<div data-with-frame="true"><img src="../../../assets/how-to-link-to-a-form/2025-03-06_12-32-51.png" alt="Länkkonfigurationspanelen för en knapp."></div>](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-32-51.png)
 
-[![Bläddra-dialogen öppnad från URL-fältet.](../../../assets/how-to-link-to-a-form/2025-03-06_12-33-19.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-33-19.png)
+[<div data-with-frame="true"><img src="../../../assets/how-to-link-to-a-form/2025-03-06_12-33-19.png" alt="Bläddra-dialogen öppnad från URL-fältet."></div>](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-33-19.png)
 
 Klicka på "link to eMarketeer form."
 
-[![Dialogen med länkalternativ för formulär.](../../../assets/how-to-link-to-a-form/2025-03-06_12-34-00.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-34-00.png)
+[<div data-with-frame="true"><img src="../../../assets/how-to-link-to-a-form/2025-03-06_12-34-00.png" alt="Dialogen med länkalternativ för formulär."></div>](https://support.emarketeer.com/wp-content/uploads/2025/03/2025-03-06_12-34-00.png)
 
 ## Välj länkalternativen
 

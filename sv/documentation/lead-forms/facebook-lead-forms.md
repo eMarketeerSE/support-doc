@@ -30,15 +30,15 @@ I Facebook-popupen, logga in med din personliga profil för att identifiera dig.
 
 Välj sedan vilka businesses du vill ta emot leads från. Du kan välja vilken business du har åtkomst till.
 
-![Skärm för val av Facebook-business](../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.21.png)
+<div data-with-frame="true"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.21.png" alt="Skärm för val av Facebook-business"></div>
 
 Klicka på "Continue". Från de valda businesses väljer du de sidor du vill ansluta. Du kan välja alla sidor eller specifika.
 
-![Skärm för val av Facebook-sidor](../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.31.png)
+<div data-with-frame="true"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.31.png" alt="Skärm för val av Facebook-sidor"></div>
 
 Slutligen, godkänn eMarketeers behörigheter och spara anslutningen.
 
-![Bekräftelse av Facebook-behörigheter](../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.09.24.png)
+<div data-with-frame="true"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Bekräftelse av Facebook-behörigheter"></div>
 
 Du är nu ansluten.
 
@@ -52,7 +52,7 @@ När dina leadannonser är publicerade, [använd det här verktyget](https://dev
 
 När något inskick anländer, riktigt eller test, skickas det automatiskt till eMarketeer. Du hittar dessa kontakter under Contacts i Engagement-filtret.
 
-![Engagement-filter som visar Facebook-leadsinskick](../../../assets/facebook-lead-forms/Skarmavbild-2023-12-15-kl.-08.55.45.png)
+<div data-with-frame="true"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement-filter som visar Facebook-leadsinskick"></div>
 
 ## Bearbeta inkommande leads från Facebook
 
@@ -68,7 +68,7 @@ När leads börjar komma in och du ser ditt test i Engagement-filtret kan du bea
 
 När du skapar ett [test-lead](https://developers.facebook.com/tools/lead-ads-testing/) ska statuskolumnen visa "Success". Om den visar "Failed" med "CRM access"-felet nedan behöver du ge eMarketeer åtkomst till dina leads.
 
-![CRM access-fel från Meta Lead Ads Testing-verktyget](../../../assets/facebook-lead-forms/image.png)
+<div data-with-frame="true"><img src="../../../assets/facebook-lead-forms/image.png" alt="CRM access-fel från Meta Lead Ads Testing-verktyget"></div>
 
 Så här löser du det:
 

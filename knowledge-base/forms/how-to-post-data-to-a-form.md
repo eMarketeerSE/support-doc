@@ -24,25 +24,25 @@ If you POST (or GET) the answers to that URL with the right name/value pairs, yo
 
 In eMarketeer, create a form with a contact registration and any other questions you need.
 
-![A form being created in eMarketeer.](../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png" alt="A form being created in eMarketeer."></div>
 
 ## 2. Get the form HTML code
 
 Click "publish" on the form.
 
-![The publish button on a form.](<../../.gitbook/assets/form_publish (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/form_publish (1" alt="The publish button on a form."></div>.png>)
 
 Then click "Website integration."
 
-![The website integration option.](../../.gitbook/assets/form_websiteintegration.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/form_websiteintegration.png" alt="The website integration option."></div>
 
 Click "GET CODE" under the `<FORM>` section to open the form code. If reCAPTCHA is active on your account, add a domain to the domain field before you can access the code.
 
-![The GET CODE button under the FORM section.](../../.gitbook/assets/form_formcode.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/form_formcode.png" alt="The GET CODE button under the FORM section."></div>
 
 The form code is displayed.
 
-![The generated form HTML code.](../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png" alt="The generated form HTML code."></div>
 
 You can paste this code directly on your website. It posts the answers to eMarketeer and then shows the thank-you page.
 
@@ -56,4 +56,4 @@ Once you have the URL and the input fields, any method that posts to that URL wo
 
 If you embed the form on your site, you may want to send visitors to your own thank-you page instead of the eMarketeer-hosted one. To change the redirect, edit the form in eMarketeer and click "Thank you page." Choose "Use custom URL" and enter the URL to redirect to.
 
-![The custom thank-you page setting on a form.](../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png" alt="The custom thank-you page setting on a form."></div>

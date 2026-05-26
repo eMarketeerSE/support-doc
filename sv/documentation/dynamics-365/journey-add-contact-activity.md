@@ -4,7 +4,7 @@ Steget Add Contact Activity skapar en Task eller ett Phone Call på en Contact-p
 
 Till skillnad från det generiska Add Activity-steget faller denna åtgärd inte tillbaka till en Lead när en Contact saknas. Använd det när aktiviteten måste vara kopplad till en Dynamics Contact specifikt.
 
-[![Journey-stegkonfiguration för Add Contact Activity](../../../assets/journey-add-contact-activity/add_contact_activity-1024x912.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/add_contact_activity.png)
+[<div data-with-frame="true"><img src="../../../assets/journey-add-contact-activity/add_contact_activity-1024x912.png" alt="Journey-stegkonfiguration för Add Contact Activity"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/add_contact_activity.png)
 
 ## Stegkonfiguration
 

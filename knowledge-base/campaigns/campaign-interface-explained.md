@@ -6,7 +6,7 @@ The left side of the screen holds the Add components menu and quick links for co
 
 Components make up the content of your campaign. There are four component types: [Emails](https://support.emarketeer.com/knowledgebase/basics-creating-email/), [Forms](https://support.emarketeer.com/knowledgebase/basics-creating-form/), [SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/), and [Webpages](https://support.emarketeer.com/knowledgebase/creating-first-webpage/), plus one sub-component, Mobile apps.
 
-[![Campaign UI](../../.gitbook/assets/campaign-UI-numbers.png)](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/campaign-UI-numbers.png" alt="Campaign UI"></div>](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
 
 The campaign user interface
 

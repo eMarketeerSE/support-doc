@@ -2,7 +2,7 @@
 
 This page is the main resource on the General Data Protection Regulation (GDPR) for eMarketeer users.
 
-![GDPR text over an EU flag](../../.gitbook/assets/600x315xgdpr-flag.png.pagespeed.ic.FWbONW9d6s.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/600x315xgdpr-flag.png.pagespeed.ic.FWbONW9d6s.png" alt="GDPR text over an EU flag"></div>
 
 The page is updated continuously until GDPR is in full effect on May 25th, 2018. eMarketeer has scheduled changes and updates that ship continuously before that date. The compliance project focuses on two areas:
 

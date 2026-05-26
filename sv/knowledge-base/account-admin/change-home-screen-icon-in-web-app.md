@@ -4,13 +4,13 @@ Ersätt eMarketeers standardikon med din egen när du sparar en Web App på en m
 
 Den här artikeln gäller endast äldre Web App-mallar. Uppdaterade versioner av appen har en inbyggd bildväljare för Web App-ikoner och favicons i inställningsblocket, enligt nedan.
 
-![Fält för Web App-ikon och favicon i inställningsblocket](../../../assets/change-home-screen-icon-in-web-app/pn_22-05-11_09-47-04.png)
+<div data-with-frame="true"><img src="../../../assets/change-home-screen-icon-in-web-app/pn_22-05-11_09-47-04.png" alt="Fält för Web App-ikon och favicon i inställningsblocket"></div>
 
 Fält för Web App-ikon
 
 När du sparar din Web App på mobilens hemskärm används eMarketeers logotyp som standardikon, enligt nedan.
 
-![Standardikonen från eMarketeer på en mobil hemskärm](../../../assets/change-home-screen-icon-in-web-app/IMG_0431.png)
+<div data-with-frame="true"><img src="../../../assets/change-home-screen-icon-in-web-app/IMG_0431.png" alt="Standardikonen från eMarketeer på en mobil hemskärm"></div>
 
 Följ stegen nedan för att använda en egen ikon.
 
@@ -24,7 +24,7 @@ Skapa en kvadratisk bild som är minst 254 pixlar bred och hög, och högst 1024
 
 Gå till Files i eMarketeer och ladda upp bilden till valfri mapp. Klicka för att förhandsgranska bilden och kopiera den relativa URL:en (utan domännamnet), enligt nedan.
 
-![Förhandsgranskning av bild med den relativa URL:en som ska kopieras](../../../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.26.23.png)
+<div data-with-frame="true"><img src="../../../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.26.23.png" alt="Förhandsgranskning av bild med den relativa URL:en som ska kopieras"></div>
 
 ## Klistra in den nya URL:en i Web App-headern
 
@@ -36,6 +36,6 @@ Gå till Files i eMarketeer och ladda upp bilden till valfri mapp. Klicka för a
 4. På rad 9–12 klistrar du in din nya URL på alla fyra raderna.
 5. Klicka på Save.
 
-![URL:er för ikoner inklistrade på rad 9–12 i Web App-headern](../../../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png)
+<div data-with-frame="true"><img src="../../../assets/change-home-screen-icon-in-web-app/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png" alt="URL:er för ikoner inklistrade på rad 9–12 i Web App-headern"></div>
 
 Din app använder nu den nya ikonen när den sparas på en hemskärm.

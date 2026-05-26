@@ -4,7 +4,7 @@ Skapa en kampanj som behållare för de e-postmeddelanden, formulär och webbsid
 
 En kampanj samlar relaterade komponenter, så att skapa en är oftast första steget för ett nytt arbete i eMarketeer.
 
-![Skapa en kampanj](../../../assets/create-new-campaign/cc1.png)
+<div data-with-frame="true"><img src="../../../assets/create-new-campaign/cc1.png" alt="Skapa en kampanj"></div>
 
 Skapa en kampanj
 
@@ -28,7 +28,7 @@ Detta skapar kampanjen och öppnar dess tomma komponentsida.
 
 Lägg till din första komponent i kampanjen. Det kan vara en e-postinbjudan, ett anmälningsformulär eller en landningssida.
 
-![Knappar för att lägga till nya komponenter](../../../assets/create-new-campaign/cc2.png)
+<div data-with-frame="true"><img src="../../../assets/create-new-campaign/cc2.png" alt="Knappar för att lägga till nya komponenter"></div>
 
 Knappar för att lägga till nya komponenter
 

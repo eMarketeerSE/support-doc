@@ -4,7 +4,7 @@ Mina favoriter är en sektion i kampanjnavigeringen som innehåller genvägar ti
 
 Använd den för att fästa kampanjer du besöker ofta eller som är aktiva just nu, så att de är ett klick bort från varje kampanjnavigeringssida.
 
-!["Mina favoriter" finns i vänstermenyn på kampanjnavigeringssidorna](../../../assets/campaign-add-favorite/fav1.png)
+<div data-with-frame="true"><img src="../../../assets/campaign-add-favorite/fav1.png" alt=""Mina favoriter" finns i vänstermenyn på kampanjnavigeringssidorna"></div>
 
 Plats för Mina favoriter på kampanjnavigeringssidorna
 
@@ -14,6 +14,6 @@ Plats för Mina favoriter på kampanjnavigeringssidorna
 2. Klicka på kugghjulsikonen till höger om kampanjens rad.
 3. Klicka på Add Favorite i kontextmenyn.
 
-![Kugghjulet ligger till höger om kampanjens rad och den första menyposten är "Add Favorite"](../../../assets/campaign-add-favorite/fav2.png)
+<div data-with-frame="true"><img src="../../../assets/campaign-add-favorite/fav2.png" alt="Kugghjulet ligger till höger om kampanjens rad och den första menyposten är "Add Favorite""></div>
 
 Lägga till en kampanj i Favoriter

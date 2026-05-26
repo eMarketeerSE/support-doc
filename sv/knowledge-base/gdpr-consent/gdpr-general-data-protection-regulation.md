@@ -2,7 +2,7 @@
 
 Den här sidan är huvudresursen om General Data Protection Regulation (GDPR) för eMarketeer-användare.
 
-![GDPR-text över en EU-flagga](../../../assets/gdpr-general-data-protection-regulation/600x315xgdpr-flag.png.pagespeed.ic.FWbONW9d6s.png)
+<div data-with-frame="true"><img src="../../../assets/gdpr-general-data-protection-regulation/600x315xgdpr-flag.png.pagespeed.ic.FWbONW9d6s.png" alt="GDPR-text över en EU-flagga"></div>
 
 Sidan uppdateras kontinuerligt fram tills GDPR är i full kraft den 25 maj 2018. eMarketeer har planerade ändringar och uppdateringar som levereras löpande fram till det datumet. Efterlevnadsprojektet fokuserar på två områden:
 

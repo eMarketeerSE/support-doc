@@ -14,7 +14,7 @@ Before 25 May, eMarketeer will deliver the features you need to manage consent a
 
 In 2017 we completed the first part of the GDPR project. This made sure our platform, as a processor, met important requirements around security, audit logs, and more. The image below illustrates the work performed in 2017.
 
-![GDPR work completed in 2017](../../.gitbook/assets/done.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/done.png" alt="GDPR work completed in 2017"></div>
 
 ## GDPR roadmap 2018
 
@@ -22,4 +22,4 @@ The features will roll out in the order listed above, starting with consent mana
 
 The roadmap is illustrated below.
 
-![GDPR roadmap 2018 illustration](../../.gitbook/assets/Roadmap.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Roadmap.png" alt="GDPR roadmap 2018 illustration"></div>

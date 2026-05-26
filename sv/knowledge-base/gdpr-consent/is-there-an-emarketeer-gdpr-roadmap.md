@@ -14,7 +14,7 @@ Innan den 25 maj kommer eMarketeer att leverera de funktioner du behöver för a
 
 Under 2017 slutförde vi den första delen av GDPR-projektet. Detta säkerställde att vår plattform, som personuppgiftsbiträde, uppfyllde viktiga krav kring säkerhet, granskningsloggar och mer. Bilden nedan illustrerar arbetet som utfördes 2017.
 
-![GDPR-arbete slutfört 2017](../../../assets/is-there-an-emarketeer-gdpr-roadmap/done.png)
+<div data-with-frame="true"><img src="../../../assets/is-there-an-emarketeer-gdpr-roadmap/done.png" alt="GDPR-arbete slutfört 2017"></div>
 
 ## GDPR-färdplan 2018
 
@@ -22,4 +22,4 @@ Funktionerna rullas ut i den ordning som listas ovan, med början med samtyckesh
 
 Färdplanen illustreras nedan.
 
-![Illustration av GDPR-färdplanen 2018](../../../assets/is-there-an-emarketeer-gdpr-roadmap/Roadmap.png)
+<div data-with-frame="true"><img src="../../../assets/is-there-an-emarketeer-gdpr-roadmap/Roadmap.png" alt="Illustration av GDPR-färdplanen 2018"></div>

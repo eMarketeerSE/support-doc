@@ -28,10 +28,10 @@ If you do not configure subscriptions, eMarketeer works as before and only offer
 
 1.  In eMarketeer, go to **Account** and find **Subscription and send outs**.
 
-    ![Subscription and send outs section in Account settings](../../.gitbook/assets/2018-05-22_08-52-07.png)
+    <div data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_08-52-07.png" alt="Subscription and send outs section in Account settings"></div>
 2.  On the subscriptions page, create or manage your categories.
 
-    ![Manage subscription categories](../../.gitbook/assets/2018-05-22_08-54-54.png)
+    <div data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_08-54-54.png" alt="Manage subscription categories"></div>
 
 When you create subscriptions, keep these guidelines in mind:
 
@@ -50,7 +50,7 @@ You can also use bulk update to set subscriptions on or off for a selection of c
 
 When you create a new email from a template, you see a new setting: the subscription droplist.
 
-![Subscription droplist when creating an email](../../.gitbook/assets/2018-05-22_09-10-14.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_09-10-14.png" alt="Subscription droplist when creating an email"></div>
 
 Select the category that matches the type of email you are sending.
 
@@ -58,13 +58,13 @@ If you send an email that does not fit any existing category, set the category t
 
 When you copy an existing email, the copy inherits the subscription of the original. You can change it while editing.
 
-![Subscription setting on a copied email](../../.gitbook/assets/2018-05-22_09-11-03.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_09-11-03.png" alt="Subscription setting on a copied email"></div>
 
 ## Subscription centre
 
 You do not need to change anything in your templates to use the new subscription centre. It is the existing unsubscribe page with added options to manage subscriptions. To unsubscribe fully, the contact checks **Unsubscribe from all future sendouts**, which withdraws marketing consent and stops all emails.
 
-![Subscription centre with category options](../../.gitbook/assets/2018-05-22_09-05-44.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_09-05-44.png" alt="Subscription centre with category options"></div>
 
 ## Automations
 

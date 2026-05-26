@@ -4,7 +4,7 @@ This article explains what barcodes are, where they are used, and how you can us
 
 ## What is a barcode?
 
-![barcode scanner reading a barcode](../../.gitbook/assets/Barcodes2.jpg)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Barcodes2.jpg" alt="barcode scanner reading a barcode"></div>
 
 A barcode scanner reading a barcode
 
@@ -16,7 +16,7 @@ Your eyes read the digits and know what to do with them.
 
 The same number as a barcode looks like this:
 
-![phone number encoded as a Code 128 barcode](../../.gitbook/assets/Barcodes1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Barcodes1.png" alt="phone number encoded as a Code 128 barcode"></div>
 
 ## Where are barcodes used?
 

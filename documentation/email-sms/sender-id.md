@@ -2,7 +2,7 @@
 
 The Sender ID is the name or number a contact sees when they receive your SMS. This article explains what Sender ID is, how to request your own, and where the feature has limitations.
 
-![SMS Sender ID shown on a mobile device](<../../.gitbook/assets/Sms_sender_id (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/Sms_sender_id (1" alt="SMS Sender ID shown on a mobile device"></div>.png>)
 
 When you receive an SMS from another mobile phone, you see the sender's number. When you send SMS through a service like eMarketeer, the sender information can instead be a text — typically your company name.
 

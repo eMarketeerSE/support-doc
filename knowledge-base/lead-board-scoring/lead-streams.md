@@ -10,13 +10,13 @@ Open the lead board by clicking Leads in the top menu.
 
 To set up a new lead stream, click the settings cog wheel in the lead streams box.
 
-![Lead streams cog wheel on the lead board](../../.gitbook/assets/editstream.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/editstream.png" alt="Lead streams cog wheel on the lead board"></div>
 
 This opens the lead stream page, where you can create or manage lead streams.
 
 Click Add lead stream to create a new one.
 
-![Add lead stream button](../../.gitbook/assets/2022-06-09_15-04-03.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2022-06-09_15-04-03.png" alt="Add lead stream button"></div>
 
 A lead stream needs three things:
 
@@ -30,7 +30,7 @@ Click Add new rule to add the first criterion for becoming a lead.
 
 In this scenario we want to find contacts with high lead scores.
 
-![Adding a lead score rule](../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png" alt="Adding a lead score rule"></div>
 
 Click Apply to add the rule. Add other rules to expand or narrow which contacts qualify as leads.
 
@@ -50,4 +50,4 @@ You have the following options on a new lead stream:
 
 Head back to the lead board to see the new leads.
 
-![New leads visible on the lead board](../../.gitbook/assets/streamsleads-1024x593.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/streamsleads-1024x593.png" alt="New leads visible on the lead board"></div>

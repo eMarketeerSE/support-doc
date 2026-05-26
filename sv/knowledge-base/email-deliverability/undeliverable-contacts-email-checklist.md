@@ -14,7 +14,7 @@ Checklistan kör också en andra, live-kontroll vid utskickstillfället: den ver
 
 Börja på checklistesidan där du ser antalet ej levererbara. Stegen nedan förutsätter att du redan har en kontaktlista för de avsedda mottagarna.
 
-![Antal ej levererbara på checklistesidan](../../../assets/undeliverable-contacts-email-checklist/chun1.png)
+<div data-with-frame="true"><img src="../../../assets/undeliverable-contacts-email-checklist/chun1.png" alt="Antal ej levererbara på checklistesidan"></div>
 
 #### 1. Navigera till sidan Contacts
 
@@ -29,13 +29,13 @@ Använd menyn till vänster för att öppna Contact Lists.
 
 #### 3. Öppna kontaktlistan med mottagarna
 
-![Steg för att navigera till kontaktlistan från checklistan](../../../assets/undeliverable-contacts-email-checklist/chun2.png)
+<div data-with-frame="true"><img src="../../../assets/undeliverable-contacts-email-checklist/chun2.png" alt="Steg för att navigera till kontaktlistan från checklistan"></div>
 
 #### 4. Öppna Filter-funktionen
 
 Klicka på Filter-knappen till höger på Contacts-sidan.
 
-![Placering av Filter-knappen på Contacts-sidan](../../../assets/undeliverable-contacts-email-checklist/chun3.png)
+<div data-with-frame="true"><img src="../../../assets/undeliverable-contacts-email-checklist/chun3.png" alt="Placering av Filter-knappen på Contacts-sidan"></div>
 
 #### 5. Använd det här filtret
 
@@ -43,7 +43,7 @@ Använd dessa parametrar för att visa endast kontakter med ej levererbara e-pos
 
 `[Delivery: E-mail > Equals > Undeliverable]`
 
-![Filterparametrar: Delivery plus E-mail, Equals, Undeliverable](../../../assets/undeliverable-contacts-email-checklist/chun4.png)
+<div data-with-frame="true"><img src="../../../assets/undeliverable-contacts-email-checklist/chun4.png" alt="Filterparametrar: Delivery plus E-mail, Equals, Undeliverable"></div>
 
 #### 6. Tillämpa filtret
 

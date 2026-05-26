@@ -10,13 +10,13 @@ This guide walks through creating a webpage component, editing its content block
 
 If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
-![The Add Webpage button](../../.gitbook/assets/cw1.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cw1.png" alt="The Add Webpage button"></div>
 
 The \[Add Webpage] button
 
 ### 2. Fill in the settings and choose a template
 
-![Webpage settings](../../.gitbook/assets/cw2.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cw2.png" alt="Webpage settings"></div>
 
 Webpage settings
 
@@ -37,7 +37,7 @@ Click \[Create Web Page] to create the component.
 
 After creation, the editor opens with the template's content already in place. The left menu lets you add content blocks, open tools, and adjust the settings from step 2. The rest of the page shows the current content, made up of blocks you can edit one at a time.
 
-![The webpage editing view](../../.gitbook/assets/cw_editor.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cw_editor.png" alt="The webpage editing view"></div>
 
 The webpage editing view
 
@@ -45,7 +45,7 @@ The webpage editing view
 
 Each content block has several parts. Click the Edit button on the block to open its editor.
 
-![Editing of a webpage content block](../../.gitbook/assets/cw_edit_content_block.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_content_block.png" alt="Editing of a webpage content block"></div>
 
 Editing a webpage content block
 
@@ -55,7 +55,7 @@ The settings panel opens on the right with two tabs: Content and Styles. Content
 
 Click the title bar of the part you want to change, then edit the text in the text box. An empty text box hides that part of the block. In the example below, the text paragraph and two link buttons are empty, so they do not appear on the page. Click \[Save] to keep your changes.
 
-![Editing the headline text of a block](../../.gitbook/assets/cw_edit_text.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_text.png" alt="Editing the headline text of a block"></div>
 
 Editing the headline text of a block
 
@@ -63,7 +63,7 @@ Editing the headline text of a block
 
 Open the block for editing, go to the Image section on the right, and click \[Choose Image].
 
-![The Choose Image button](<../../.gitbook/assets/ce_upload_image_1 (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce_upload_image_1 (1" alt="The Choose Image button"></div>.png>)
 
 The \[Choose Image] button
 
@@ -75,13 +75,13 @@ To upload your own image:
 4. Select the uploaded file from the file browser.
 5. Click \[Use Selected] to add it to the content block.
 
-![Steps for uploading and using a new image file](<../../.gitbook/assets/ce_image_upload_2 (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce_image_upload_2 (1" alt="Steps for uploading and using a new image file"></div>.png>)
 
 Steps for uploading and using a new image file
 
 If the image does not match the recommended dimensions, an auto-scale option appears. Click the link in the notice to scale the image automatically.
 
-![Auto Scale option](<../../.gitbook/assets/ce_upload_image_3 (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce_upload_image_3 (1" alt="Auto Scale option"></div>.png>)
 
 Auto Scale option
 
@@ -96,7 +96,7 @@ To link to a form:
 3. Pick the campaign that holds your form, then pick the form itself.
 4. Click \[Select], then \[Apply], then \[Save] to attach the link and save the block.
 
-![Update content block button link](<../../.gitbook/assets/ce6 (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce6 (1" alt="Update content block button link"></div>.png>)
 
 Update content block button link
 
@@ -104,7 +104,7 @@ Update content block button link
 
 Click \[Add Content Block] in the left menu, then click \[Add Block] next to the block type you want. If the button is greyed out, click an existing block in the page first so the editor knows where to insert the new one.
 
-![Add Content Block to open the menu and then Add the specific block you want](<../../.gitbook/assets/ce-add-12 (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce-add-12 (1" alt="Add Content Block to open the menu and then Add the specific block you want"></div>.png>)
 
 Add Content Block to open the menu and then Add the specific block you want
 
@@ -112,7 +112,7 @@ Add Content Block to open the menu and then Add the specific block you want
 
 Click and hold the reposition icon on the left side of the block's context bar, then drag the block to the new position.
 
-![Reposition block in content by dragging it into position](<../../.gitbook/assets/ce-move (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce-move (1" alt="Reposition block in content by dragging it into position"></div>.png>)
 
 Reposition block by dragging it into position
 
@@ -120,7 +120,7 @@ Reposition block by dragging it into position
 
 If the template includes a block you do not need, click the delete button on that block's context bar.
 
-![Delete content block button](<../../.gitbook/assets/ce-delete (1).png>)
+<div data-with-frame="true"><img src="<../../.gitbook/assets/ce-delete (1" alt="Delete content block button"></div>.png>)
 
 Delete content block button
 
@@ -128,6 +128,6 @@ Delete content block button
 
 Click \[Done Editing] to leave the editor.
 
-![The Done Editing button](../../.gitbook/assets/cw_done.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/cw_done.png" alt="The Done Editing button"></div>
 
 The \[Done Editing] button

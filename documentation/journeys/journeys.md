@@ -4,7 +4,7 @@ A journey is a sequence of automated steps that runs on every contact who matche
 
 When a new contact matches the criteria (filter), eMarketeer adds the contact to the journey and walks them through the steps in order.
 
-![Journey builder showing a sequence of steps](../../.gitbook/assets/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Journey builder showing a sequence of steps"></div>
 
 ## What you can do with journeys
 

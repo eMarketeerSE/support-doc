@@ -18,7 +18,7 @@ Att skicka marknadsföringsmeddelanden utan samtycke är olagligt. Använd endas
 
 Du ser den här inställningen när du adresserar ditt meddelande på standardskärmen för utskick.
 
-![Utskicksskärm med inställningen för transaktionellt meddelande markerad](../../../assets/transactional-sendouts/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png)
+<div data-with-frame="true"><img src="../../../assets/transactional-sendouts/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Utskicksskärm med inställningen för transaktionellt meddelande markerad"></div>
 
 ## Skicka ett meddelande i en Journey
 

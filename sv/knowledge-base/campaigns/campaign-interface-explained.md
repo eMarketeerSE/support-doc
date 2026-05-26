@@ -6,7 +6,7 @@ Vänstra sidan av skärmen innehåller menyn Add components och snabblänkar fö
 
 Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](https://support.emarketeer.com/knowledgebase/basics-creating-email/), [Forms](https://support.emarketeer.com/knowledgebase/basics-creating-form/), [SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/) och [Webpages](https://support.emarketeer.com/knowledgebase/creating-first-webpage/), plus en underkomponent, Mobile apps.
 
-[![Kampanjens gränssnitt](../../../assets/campaign-interface-explained/campaign-UI-numbers.png)](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
+[<div data-with-frame="true"><img src="../../../assets/campaign-interface-explained/campaign-UI-numbers.png" alt="Kampanjens gränssnitt"></div>](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
 
 Kampanjens användargränssnitt
 

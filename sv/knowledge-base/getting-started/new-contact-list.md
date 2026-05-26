@@ -4,7 +4,7 @@ Skapa en ny kontaktlista att använda i en kampanj på några få steg.
 
 En kontaktlista grupperar kontakter så att du kan rikta dig till dem i kampanjer och Journeys.
 
-![De fyra stegen för att skapa en ny kontaktlista, visade i ordning i eMarketeer-gränssnittet](../../../assets/new-contact-list/pn_21-08-18_14-57-33.png)
+<div data-with-frame="true"><img src="../../../assets/new-contact-list/pn_21-08-18_14-57-33.png" alt="De fyra stegen för att skapa en ny kontaktlista, visade i ordning i eMarketeer-gränssnittet"></div>
 
 Stegen för att skapa en ny kontaktlista.
 

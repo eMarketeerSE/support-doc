@@ -12,7 +12,7 @@ Contact your account's Account Administrator if you need Developer permission on
 
 ## How to save a custom content block
 
-![Step 1 of saving a block](../../.gitbook/assets/pn_21-07-08_10-30-58.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-30-58.png" alt="Step 1 of saving a block"></div>
 
 Saving a block
 
@@ -36,7 +36,7 @@ The Label is the name shown in the Component Content section when the block is i
 
 \[Save as Block] opens the dialog where you can save the custom block to the component.
 
-![Step 2 of saving a block](../../.gitbook/assets/pn_21-07-08_10-35-19.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-35-19.png" alt="Step 2 of saving a block"></div>
 
 Save as block window
 
@@ -52,7 +52,7 @@ This label is the name every user sees when working with the custom block.
 
 Clicking \[Create] saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in.
 
-![The new block in the Add Content list](../../.gitbook/assets/pn_21-07-08_10-37-10.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-37-10.png" alt="The new block in the Add Content list"></div>
 
 The block as shown in the Add Content list
 
@@ -62,7 +62,7 @@ The block as shown in the Add Content list
 
 To make the block available in new components built from a template, either edit an existing template to add the block, or create a new template from a component that already contains it, as shown below.
 
-![Creating a template from a component](../../.gitbook/assets/pn_21-07-08_10-38-45.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-38-45.png" alt="Creating a template from a component"></div>
 
 Creating a template from a component with a custom block
 

@@ -12,13 +12,13 @@ Klicka på **Add SMS** på kampanjsidan.
 
 - Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
-![Knappen Add SMS på kampanjsidan](../../../assets/basics-creating-sms/cs1.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-sms/cs1.png" alt="Knappen Add SMS på kampanjsidan"></div>
 
 Knappen Add SMS
 
 ### 2. Fyll i inställningar, välj en mall och skapa SMS:et
 
-![SMS-inställningar med namnfält och mallval](../../../assets/basics-creating-sms/cs2.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-sms/cs2.png" alt="SMS-inställningar med namnfält och mallval"></div>
 
 SMS-inställningar
 
@@ -42,7 +42,7 @@ Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard
 
 Nedanför hittar du SMS-testfunktionen, som låter dig skicka SMS:et till dig själv för att se hur det ser ut när det kommer fram. Länkar i test-SMS fungerar inte — skicka SMS:et på vanligt sätt om du behöver testa länkar.
 
-![SMS-redigeraren med meddelandefält, Sender ID och testskick](../../../assets/basics-creating-sms/cs_edit_view.png)
+<div data-with-frame="true"><img src="../../../assets/basics-creating-sms/cs_edit_view.png" alt="SMS-redigeraren med meddelandefält, Sender ID och testskick"></div>
 
 Vy över SMS-redigeraren
 

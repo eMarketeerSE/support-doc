@@ -8,7 +8,7 @@ This article explains how to reset a SuperOffice Online integration if it stops 
 2. Go to **Account** > **Plugins & Integrations** > **SuperOffice**.
 3.  Set the integration to **None** and click **Apply** to save the change.
 
-    ![SuperOffice integration set to None](../../.gitbook/assets/soreset.png)
+    <div data-with-frame="true"><img src="../../.gitbook/assets/soreset.png" alt="SuperOffice integration set to None"></div>
 4. The integration is now disabled. Re-enable it by selecting the **ONLINE** or **ON PREMISE** radio button and clicking **Apply Changes** again.
 5. Sign in on the SuperOffice login screen and wait for the process to finish.
 

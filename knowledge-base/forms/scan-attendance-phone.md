@@ -6,20 +6,20 @@ Attendance is registered by submitting an email address through an eMarketeer fo
 
 The example below uses these event components.
 
-![Event component overview](../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png" alt="Event component overview"></div>
 
 * **Invitation email.** Send your invitation to the audience you want at your event.
 * **Registration form.** Where your audience registers for the event. Ask for mobile phone number.
 * **App delivery and mobile app.** Create an app for your event to keep all event information in attendees' pockets. Enable the QR code. The "App Delivery" is an SMS with a link to the app; send it to everyone who registered.
 * **Scan form.** The form used to register attendees. It is built to accept an email address and return to the register page after submit. Create it by adding a "New Form" and choosing the "Event Barcode Scan" template.
 
-![Form list with the Event Barcode Scan template](../../.gitbook/assets/2022-12-16_13-27-56-1024x636.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2022-12-16_13-27-56-1024x636.png" alt="Form list with the Event Barcode Scan template"></div>
 
 ### Register attendance
 
 On the day of the event, your visitors arrive with their mobile event app showing a barcode to be scanned.
 
-![Mobile event app showing a barcode](../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png" alt="Mobile event app showing a barcode"></div>
 
 #### Preparations
 
@@ -35,7 +35,7 @@ Installing the app adds a new keyboard to your phone. It works like a normal key
 
 Get the web URL for the "Event Barcode Scan" form in your eMarketeer campaign and open it on your phone.
 
-![Scan form open on a mobile phone](../../.gitbook/assets/IMG_1824-473x1024.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/IMG_1824-473x1024.png" alt="Scan form open on a mobile phone"></div>
 
 To scan a badge:
 

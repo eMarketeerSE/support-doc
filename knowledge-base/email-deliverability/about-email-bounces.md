@@ -33,7 +33,7 @@ Filtering helps, but eMarketeer is not a list-cleaning tool. If you import addre
 
 You can see the bounce rate in the email report. Keep your average bounce rate under 5% or your sending will be paused for audit.
 
-![bounce rate shown in the email report](../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="bounce rate shown in the email report"></div>
 
 ### What happens if my bounce rate is too high?
 

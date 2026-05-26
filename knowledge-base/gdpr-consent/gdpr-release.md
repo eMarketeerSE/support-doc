@@ -46,24 +46,24 @@ Keep in mind:
 * Contacts that were unsubscribed from a specific campaign stay unsubscribed from that campaign. If they unsubscribe again after this release, consent is withdrawn from all marketing send-outs.
 * From now on, any unsubscribe action sets the contact's consent to withdrawn from all marketing send-outs, and email will not dispatch to that contact.
 
-[![Previous unsubscribe link on the contact card](../../.gitbook/assets/Screen-Shot-2018-03-27-at-14.24.34.png)](https://support.emarketeer.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-27-at-14.24.34.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/Screen-Shot-2018-03-27-at-14.24.34.png" alt="Previous unsubscribe link on the contact card"></div>](https://support.emarketeer.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-27-at-14.24.34.png)
 
-[![Previous unsubscribed state shown on the contact card](../../.gitbook/assets/Screen-Shot-2018-03-27-at-14.24.17.png)](https://support.emarketeer.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-27-at-14.24.17.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/Screen-Shot-2018-03-27-at-14.24.17.png" alt="Previous unsubscribed state shown on the contact card"></div>](https://support.emarketeer.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-27-at-14.24.17.png)
 
-[![New consent slider in green showing consent granted](../../.gitbook/assets/Screen-Shot-2018-03-27-at-14.48.19.png)](https://support.emarketeer.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-27-at-14.48.19.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/Screen-Shot-2018-03-27-at-14.48.19.png" alt="New consent slider in green showing consent granted"></div>](https://support.emarketeer.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-27-at-14.48.19.png)
 
 ### Bulk update of consent and unsubscriptions
 
 Depending on the number of contacts you update, the action can take a few minutes. The bulk actions dialog tells you the estimated time.
 
-[![Bulk consent update dialog](../../.gitbook/assets/gdpr_consent2.png)](https://support.emarketeer.com/wp-content/uploads/2018/03/gdpr_consent2.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/gdpr_consent2.png" alt="Bulk consent update dialog"></div>](https://support.emarketeer.com/wp-content/uploads/2018/03/gdpr_consent2.png)
 
-[![Bulk update progress with estimated time](../../.gitbook/assets/gdpr_consent3.png)](https://support.emarketeer.com/wp-content/uploads/2018/03/gdpr_consent3.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/gdpr_consent3.png" alt="Bulk update progress with estimated time"></div>](https://support.emarketeer.com/wp-content/uploads/2018/03/gdpr_consent3.png)
 
 ### Send-outs and bulk update
 
 Send-outs now check each contact's consent at the time the send-out runs. If you bulk update consent and start a send-out immediately, the bulk process may not be done and the send-out may not reflect your changes. The send-out options warn you about this. Wait until the bulk update completes before sending.
 
-[![Send-out warning shown when a bulk consent update is in progress](../../.gitbook/assets/gdpr_sendout_bulkupdate.png)](https://support.emarketeer.com/wp-content/uploads/2018/03/gdpr_sendout_bulkupdate.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/gdpr_sendout_bulkupdate.png" alt="Send-out warning shown when a bulk consent update is in progress"></div>](https://support.emarketeer.com/wp-content/uploads/2018/03/gdpr_sendout_bulkupdate.png)
 
 For more about upcoming functions and features, see the [GDPR roadmap](https://support.emarketeer.com/knowledgebase/gdpr-and-what-it-means-for-emarketeer-users/) or visit the [GDPR center](https://support.emarketeer.com/knowledgebase/gdpr-general-data-protection-regulation/). For other questions, email support@emarketeer.com.

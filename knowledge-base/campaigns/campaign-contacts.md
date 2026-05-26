@@ -14,7 +14,7 @@ A contact is added to the Campaign Contacts list when it:
 
 ## Campaign Contacts interface
 
-[![Campaign Contacts tab listing contacts in a campaign](../../.gitbook/assets/2021-05-04_16-13-22.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-13-22.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-04_16-13-22.png" alt="Campaign Contacts tab listing contacts in a campaign"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-13-22.png)
 
 Campaign Contacts interface
 
@@ -31,6 +31,6 @@ You can use this tab to remove unwanted contacts from the campaign, and by exten
 
 You can address Campaign Contacts using the "All contacts in this campaign" option when sending an email or SMS. See the definition at the top of this article for what counts as a campaign contact.
 
-[![Recipient Source dropdown with "All contacts in this campaign" selected](../../.gitbook/assets/2021-05-04_16-06-53.png)](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-06-53.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-04_16-06-53.png" alt="Recipient Source dropdown with "All contacts in this campaign" selected"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-04_16-06-53.png)
 
 The "All contacts in this campaign" option

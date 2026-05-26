@@ -8,7 +8,7 @@ Lead Board ger sälj ett intuitivt sätt att kvalificera och föra leads framåt
 2. Arbeta med leads som säljanvändare.
 3. Använda eMarketeer Leads inuti ditt CRM.
 
-![eMarketeer Lead Board med kvalificerade leads](../../../assets/get-started-leads/theboardclean-1024x576.png)
+<div data-with-frame="true"><img src="../../../assets/get-started-leads/theboardclean-1024x576.png" alt="eMarketeer Lead Board med kvalificerade leads"></div>
 
 ## Generera och leverera leads till ett säljteam
 

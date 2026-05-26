@@ -43,7 +43,7 @@ Sammanfattningsvis, titta på:
 
 Använd data för att bygga dina köpar-personas. Dina personas kan se ut så här:
 
-![Exempel på köpar-personas.](../../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Examples-of-buyer-personas-1024x554.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Examples-of-buyer-personas-1024x554.png" alt="Exempel på köpar-personas."></div>
 
 Datapunkterna i dina personas blir grunden för dina score-regler. Ju mer en framtida kontakt matchar dina personas, desto fler poäng får personen. Det här steget kräver analys, men ju bättre du förstår dina kunder, desto bättre score:ar du framtida kontakter.
 
@@ -53,7 +53,7 @@ Många lead scoring-modeller använder ett intervall på 1–100, vilket är det
 
 Marknad och sälj bör vara överens om denna tröskel. För att göra det enklare att läsa av en kontakts "hetta", sätt trösklar över hela intervallet:
 
-![Ett diagram som visar lead score-trösklar från kall till het.](../../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Lead-score-thresholds-212x300.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Lead-score-thresholds-212x300.png" alt="Ett diagram som visar lead score-trösklar från kall till het."></div>
 
 ### 3. Sätt poäng för varje regel
 
@@ -67,7 +67,7 @@ Bestäm nu hur många poäng varje regel är värd. Några saker att tänka på:
 
 Lista dina regler, hur många poäng var och en är värd och när de går ut. Listan kan se ut så här:
 
-![En lista över lead score-regler med poäng och utgångsinställningar.](../../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Screenshot-2021-06-17-at-10.16.23.png)
+<div data-with-frame="true"><img src="../../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Screenshot-2021-06-17-at-10.16.23.png" alt="En lista över lead score-regler med poäng och utgångsinställningar."></div>
 
 ### 4. Sätt din lead score i verket
 

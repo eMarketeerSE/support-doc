@@ -24,7 +24,7 @@ The selected range applies to the overview cards, the time series charts, and th
 
 ## Overview cards
 
-[![Overview cards on the Email Health Dashboard](../../.gitbook/assets/email_health_1-1024x404.png)](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_1.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/email_health_1-1024x404.png" alt="Overview cards on the Email Health Dashboard"></div>](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_1.png)
 
 The overview cards give you a quick snapshot of your most important email health metrics:
 
@@ -39,7 +39,7 @@ Each card also shows the change compared to the previous date range, so you can 
 
 ## Metrics charts
 
-[![Metrics time series charts on the Email Health Dashboard](../../.gitbook/assets/email_health_2-1024x295.png)](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_2.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/email_health_2-1024x295.png" alt="Metrics time series charts on the Email Health Dashboard"></div>](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_2.png)
 
 The Metrics section visualizes how your email health develops over time. Two time series charts are shown:
 
@@ -56,7 +56,7 @@ These charts are useful for catching gradual changes that can signal future deli
 
 ## Domains table
 
-[![Domains table on the Email Health Dashboard](../../.gitbook/assets/email_health_3-1024x408.png)](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_3.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/email_health_3-1024x408.png" alt="Domains table on the Email Health Dashboard"></div>](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_3.png)
 
 The Domains table shows how your emails perform for each receiving domain during the selected date range. For each domain, you can see:
 
@@ -77,7 +77,7 @@ Only domains with at least 10 sent emails in the selected date range appear in t
 
 ## Account table
 
-[![Account table on the Email Health Dashboard](../../.gitbook/assets/email_health_4-1024x433.png)](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_4.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/email_health_4-1024x433.png" alt="Account table on the Email Health Dashboard"></div>](https://support.emarketeer.com/wp-content/uploads/2025/12/email_health_4.png)
 
 Switch to the Account tab to view email health statistics for the whole account. The table shows volume and rate for:
 

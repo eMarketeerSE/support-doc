@@ -8,7 +8,7 @@ If you cannot find the User Accounts settings page, you do not have permission t
 
 Navigate to the User Accounts settings page via the Company Account Settings.
 
-![Account Settings page](../../.gitbook/assets/pn_22-01-14_12-42-59.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_22-01-14_12-42-59.png" alt="Account Settings page"></div>
 
 Account Settings page
 
@@ -16,7 +16,7 @@ Account Settings page
 
 On the User Accounts page, click Invite User to start the invite process.
 
-![Invite User button](../../.gitbook/assets/pn_22-01-14_12-43-03.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_22-01-14_12-43-03.png" alt="Invite User button"></div>
 
 Invite User button
 
@@ -25,7 +25,7 @@ This opens the Create New User page. Enter the email address of the new user, se
 * Developer: can access Developer Mode in components for advanced customisation.
 * Administrator: can access the Corporate Account Settings and invite users to the account.
 
-![Create New User page](../../.gitbook/assets/pn_22-01-14_12-43-05.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/pn_22-01-14_12-43-05.png" alt="Create New User page"></div>
 
 Create New User page
 

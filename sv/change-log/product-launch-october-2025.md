@@ -21,7 +21,7 @@ Den nya dashboarden ersätter det gamla Home-avsnittet i eMarketeer.
 
 ## Vad du behöver installera
 
-![Varning](../../assets/product-launch-october-2025/26a0.svg) Dashboarden kräver att det nya webbspårarskriptet installeras på din webbplats. Utan det visas ingen webbplatstrafikdata. [Läs hur du installerar spåraren här.](../documentation/the-web-tracker/)
+<div data-with-frame="true"><img src="../../assets/product-launch-october-2025/26a0.svg" alt="Varning"></div> Dashboarden kräver att det nya webbspårarskriptet installeras på din webbplats. Utan det visas ingen webbplatstrafikdata. [Läs hur du installerar spåraren här.](../documentation/the-web-tracker/)
 
 [De nya formulären](../documentation/the-form-component/) och det nya formulärskriptet bidrar också till data på dashboarden. Om du inte har installerat det nya formulärskriptet, installera det och börja använda de nya formulären. [Läs hur du installerar formulärskriptet här](../documentation/publish-a-form/).
 
