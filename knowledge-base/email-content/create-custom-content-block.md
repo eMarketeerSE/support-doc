@@ -8,17 +8,17 @@ Users with Developer permissions can change the HTML of a content block to alter
 
 Contact your account's Account Administrator if you need Developer permission on your user account.
 
----
+***
 
 ## How to save a custom content block
 
-![Step 1 of saving a block](../../assets/create-custom-content-block/pn_21-07-08_10-30-58.png)
+![Step 1 of saving a block](../../.gitbook/assets/pn_21-07-08_10-30-58.png)
 
 Saving a block
 
 ### 1. Enable Developer Mode
 
-With Developer permissions you will see the [Enable Developer Mode] button in the Tools menu.
+With Developer permissions you will see the \[Enable Developer Mode] button in the Tools menu.
 
 ### 2. Open the block to save
 
@@ -30,13 +30,13 @@ Open the Settings tab in the block's configuration menu.
 
 ### 4. Give the block a label
 
-The Label is the name shown in the Component Content section when the block is in use. Example: *1 Column: Text (1/1)*.
+The Label is the name shown in the Component Content section when the block is in use. Example: _1 Column: Text (1/1)_.
 
 ### 5. Click Save as Block
 
-[Save as Block] opens the dialog where you can save the custom block to the component.
+\[Save as Block] opens the dialog where you can save the custom block to the component.
 
-![Step 2 of saving a block](../../assets/create-custom-content-block/pn_21-07-08_10-35-19.png)
+![Step 2 of saving a block](../../.gitbook/assets/pn_21-07-08_10-35-19.png)
 
 Save as block window
 
@@ -50,19 +50,19 @@ This label is the name every user sees when working with the custom block.
 
 ### 3. Create the custom block
 
-Clicking [Create] saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in.
+Clicking \[Create] saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in.
 
-![The new block in the Add Content list](../../assets/create-custom-content-block/pn_21-07-08_10-37-10.png)
+![The new block in the Add Content list](../../.gitbook/assets/pn_21-07-08_10-37-10.png)
 
 The block as shown in the Add Content list
 
----
+***
 
 ## Custom blocks in templates
 
 To make the block available in new components built from a template, either edit an existing template to add the block, or create a new template from a component that already contains it, as shown below.
 
-![Creating a template from a component](../../assets/create-custom-content-block/pn_21-07-08_10-38-45.png)
+![Creating a template from a component](../../.gitbook/assets/pn_21-07-08_10-38-45.png)
 
 Creating a template from a component with a custom block
 

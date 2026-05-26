@@ -15,11 +15,11 @@ The rule changes which page the visitor lands on when they click Next Page. In t
 
 To set this up, use a radio button question where each answer has a Skip to Page rule. Questions about Meeting A live on page 2, questions about Meeting B on page 3.
 
-![Radio button question with Skip to Page rules routing each answer to a different page](../../assets/question-branching-display-rules/pn_21-07-12_11-42-16.png)
+![Radio button question with Skip to Page rules routing each answer to a different page](../../.gitbook/assets/pn_21-07-12_11-42-16.png)
 
 The selected answer moves the visitor to the matching page. To stop a visitor sent to page 2 from continuing into the Meeting B questions on page 3, double-click the Next Page button on page 2 and set it to skip ahead to page 4.
 
-![Next Page button configured to skip from page 2 directly to page 4](../../assets/question-branching-display-rules/pn_21-07-12_11-45-47.png)
+![Next Page button configured to skip from page 2 directly to page 4](../../.gitbook/assets/pn_21-07-12_11-45-47.png)
 
 ## Question Display Rules
 
@@ -31,6 +31,6 @@ Use a checkbox question where the visitor selects Meeting A, Meeting B, or both.
 
 Display rules are configured per question and support multiple answers — or combinations of answers — on the preceding question. Checkbox answers are not mutually exclusive, so with more than two options you can show a question only for specific combinations.
 
-![Display rule configured on a question, set to show only when a specific checkbox answer is selected on the preceding question](../../assets/question-branching-display-rules/pn_21-07-12_11-51-15.png)
+![Display rule configured on a question, set to show only when a specific checkbox answer is selected on the preceding question](../../.gitbook/assets/pn_21-07-12_11-51-15.png)
 
 A question cannot be both required and hidden. If a question has active display rules, the required setting is ignored.

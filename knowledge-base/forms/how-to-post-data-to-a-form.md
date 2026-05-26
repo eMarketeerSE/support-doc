@@ -8,15 +8,15 @@ The hosted version of a form covers many cases, but sometimes you need to embed 
 
 You always need to create the form in eMarketeer first. The form defines which questions you want answered. Once it exists, you can post answers to it in several ways:
 
-- Get the direct URL and let visitors answer the hosted form (not covered here).
-- Iframe the hosted form onto your site (not covered here).
-- Put the HTML of the form on your website.
-- Use a script to post data to the form programmatically.
+* Get the direct URL and let visitors answer the hosted form (not covered here).
+* Iframe the hosted form onto your site (not covered here).
+* Put the HTML of the form on your website.
+* Use a script to post data to the form programmatically.
 
 Every form has two important properties:
 
-- A URL to post the data to.
-- Input fields with a name and a value.
+* A URL to post the data to.
+* Input fields with a name and a value.
 
 If you POST (or GET) the answers to that URL with the right name/value pairs, your answers are saved in eMarketeer.
 
@@ -24,25 +24,25 @@ If you POST (or GET) the answers to that URL with the right name/value pairs, yo
 
 In eMarketeer, create a form with a contact registration and any other questions you need.
 
-![A form being created in eMarketeer.](../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png)
+![A form being created in eMarketeer.](../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png)
 
 ## 2. Get the form HTML code
 
 Click "publish" on the form.
 
-![The publish button on a form.](../../assets/how-to-post-data-to-a-form/form_publish.png)
+![The publish button on a form.](<../../.gitbook/assets/form_publish (1).png>)
 
 Then click "Website integration."
 
-![The website integration option.](../../assets/how-to-post-data-to-a-form/form_websiteintegration.png)
+![The website integration option.](../../.gitbook/assets/form_websiteintegration.png)
 
 Click "GET CODE" under the `<FORM>` section to open the form code. If reCAPTCHA is active on your account, add a domain to the domain field before you can access the code.
 
-![The GET CODE button under the FORM section.](../../assets/how-to-post-data-to-a-form/form_formcode.png)
+![The GET CODE button under the FORM section.](../../.gitbook/assets/form_formcode.png)
 
 The form code is displayed.
 
-![The generated form HTML code.](../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png)
+![The generated form HTML code.](../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png)
 
 You can paste this code directly on your website. It posts the answers to eMarketeer and then shows the thank-you page.
 
@@ -56,4 +56,4 @@ Once you have the URL and the input fields, any method that posts to that URL wo
 
 If you embed the form on your site, you may want to send visitors to your own thank-you page instead of the eMarketeer-hosted one. To change the redirect, edit the form in eMarketeer and click "Thank you page." Choose "Use custom URL" and enter the URL to redirect to.
 
-![The custom thank-you page setting on a form.](../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png)
+![The custom thank-you page setting on a form.](../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png)

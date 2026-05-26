@@ -8,8 +8,6 @@ Once a form is embedded, any future changes you make in eMarketeer update automa
 
 Add the following script to every page on your website, or at least to those pages that will host eMarketeer forms. You only need to do this once.
 
-<script type="application/javascript" src="https://app.emarketeer.com/public/scripts/forms.js"></script>
-
 The easiest path is to load the script in the header of your site on all pages, or to deploy it through Google Tag Manager.
 
 Once the script is in place, you can embed any eMarketeer form you have created.
@@ -30,18 +28,17 @@ Use an HTML block or whatever your CMS provides for raw markup.
 
 If your form has multiple language versions, set the language by appending `locale` to the script.
 
-<script>em\_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en" });</script>
+em\\\_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en" });
 
 ## Prepopulate fields
 
 To populate visible or hidden question fields with your own data, add the following code.
 
-<script>
-   em\_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en" });
-   em\_cta.setValue('question1', 'My value');
-   em\_cta.setValue('toggle1', 'true');
-   em\_cta.setValue('checkboxes1', \['Item 1', 'Item 2'\])
-</script>
+\
+&#x20;  em\\\_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en" });\
+&#x20;  em\\\_cta.setValue('question1', 'My value');\
+&#x20;  em\\\_cta.setValue('toggle1', 'true');\
+&#x20;  em\\\_cta.setValue('checkboxes1', \\\['Item 1', 'Item 2'\\])
 
 ## Styling the form
 
@@ -59,19 +56,18 @@ em\_cta.injectExternalStyle('https://yourdomain.com/example.css')
 
 You can turn off the ShadowDOM so the form is not rendered in its own separate DOM. This increases the chance of clashes with your site's styles, but lets your CSS target the form directly. Append `useShadowDom: false` to the script:
 
-<script>em\_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en", useShadowDom: false});</script>
+em\\\_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en", useShadowDom: false});
 
 #### Trigger your own scripts on form submit
 
 To run your own code when a visitor answers the form, use this snippet.
 
-<script>
- em\_cta.getSurvey().then(survey => {
-   survey.onComplete.add(() => {
-     console.log('Survey completed');
-   })
- })
-</script>
+\
+&#x20;em\\\_cta.getSurvey().then(survey => {\
+&#x20;  survey.onComplete.add(() => {\
+&#x20;    console.log('Survey completed');\
+&#x20;  })\
+&#x20;})
 
 ## Forms and web tracking
 

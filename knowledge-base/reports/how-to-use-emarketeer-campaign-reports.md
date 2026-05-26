@@ -14,19 +14,19 @@ The campaign dashboard builds reports from a set of widgets you choose. Reports 
 
 Go to the campaign you want to report on. Click the "dashboard" tab and then "add reporting widget." Pick any widgets you want to track the campaign with. Rearrange them by dragging.
 
-![The campaign dashboard with reporting widgets.](../../assets/how-to-use-emarketeer-campaign-reports/campaign_dashboard.png)
+![The campaign dashboard with reporting widgets.](../../.gitbook/assets/campaign_dashboard.png)
 
 ## Reporting widgets
 
 The available widgets are email top list, email performance, funnel chart, KPI counter, and goal gauge.
 
-![The list of reporting widgets you can add.](../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png)
+![The list of reporting widgets you can add.](../../.gitbook/assets/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png)
 
 ### Email top list
 
 Find out which of your campaigns performs best.
 
-![The email top list widget.](../../assets/how-to-use-emarketeer-campaign-reports/email_toplist-1-300x122.png)
+![The email top list widget.](../../.gitbook/assets/email_toplist-1-300x122.png)
 
 The email top list widget ranks your campaigns by open rate, click-through rate, or click-to-open rate. It gives you an overview of how each campaign performed and which type your contacts prefer.
 
@@ -39,7 +39,7 @@ To add the widget:
 
 Suited for your email marketing.
 
-![The email performance widget.](../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2021-01-28-at-14.11.12.png)
+![The email performance widget.](../../.gitbook/assets/Screenshot-2021-01-28-at-14.11.12.png)
 
 See your average campaign performance — open rate, click-through rate, click-to-open rate, and unsubscribes. You can also compare averages with another campaign. After adding the widget, choose the campaign to compare against and the report generates automatically.
 
@@ -47,7 +47,7 @@ See your average campaign performance — open rate, click-through rate, click-t
 
 Works well for lead nurture campaigns and events.
 
-![A funnel chart with colored bars showing conversion between steps.](../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-11.25.00.png)
+![A funnel chart with colored bars showing conversion between steps.](../../.gitbook/assets/Screenshot-2020-05-20-at-11.25.00.png)
 
 Track your marketing flow step by step. The funnel chart visualizes each step you build — for example, event invitation, event sign-up, and attendee form. Each step is a bar with the conversion rate to the next, and the chart shows the overall conversion from the first step to the last.
 
@@ -68,7 +68,7 @@ You can resize the funnel chart. Open it, find the "size" drop-down, and pick a 
 
 Works well for downloads or sign-ups.
 
-![The goal gauge widget showing progress toward a target.](../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.24.21.png)
+![The goal gauge widget showing progress toward a target.](../../.gitbook/assets/Screenshot-2020-05-20-at-12.24.21.png)
 
 Set a target and watch progress toward it. The goal gauge works as a progress bar and shows the percentage to target.
 
@@ -79,7 +79,7 @@ Set a target and watch progress toward it. The goal gauge works as a progress ba
 
 ### KPI counter
 
-![The KPI counter widget.](../../assets/how-to-use-emarketeer-campaign-reports/Screenshot-2020-05-20-at-12.26.00.png)
+![The KPI counter widget.](../../.gitbook/assets/Screenshot-2020-05-20-at-12.26.00.png)
 
 A quick count of form submissions, email clicks, or whatever you want to track. Like the goal gauge, but without a target.
 

@@ -10,18 +10,18 @@ The integration is used from two perspectives: marketing (the eMarketeer side) a
 
 From a marketing perspective, the integration is most often used to:
 
-- Import SuperOffice segments (selections) for addressing emails.
-- Use automations to send events or create objects in SuperOffice CRM, such as:
-  - Create a sale.
-  - Create activities (pending or completed).
-  - Add or remove contacts from selections or projects.
-  - Add or remove interests.
+* Import SuperOffice segments (selections) for addressing emails.
+* Use automations to send events or create objects in SuperOffice CRM, such as:
+  * Create a sale.
+  * Create activities (pending or completed).
+  * Add or remove contacts from selections or projects.
+  * Add or remove interests.
 
 From a sales perspective, the integration allows SuperOffice CRM users to:
 
-- See information sent from eMarketeer about the contacts. The automations described above can create a sale, activity, or task in the CRM.
-- Use the Lead Report (a web panel) which lists all new leads in SuperOffice CRM.
-- Get a full history of contact interactions with online content through eMarketeer's Timeline Report.
+* See information sent from eMarketeer about the contacts. The automations described above can create a sale, activity, or task in the CRM.
+* Use the Lead Report (a web panel) which lists all new leads in SuperOffice CRM.
+* Get a full history of contact interactions with online content through eMarketeer's Timeline Report.
 
 ## Integration interface
 
@@ -33,27 +33,27 @@ eMarketeer connects to SuperOffice CRM using the standard NetServer services. eM
 
 eMarketeer and SuperOffice CRM have separate databases, and they stay separate even with the integration in place. There is no background synchronization of contacts. Contacts are only created by the integration in specific scenarios:
 
-- SuperOffice CRM: eMarketeer creates new contacts (and companies) in SuperOffice CRM only when a SuperOffice user approves it on the eMarketeer Lead Report web panel. Sales or a controller typically monitors this report for new leads. Because eMarketeer generates leads from the web, this screening step makes sure only valid leads reach SuperOffice CRM.
-- eMarketeer: New contacts are created in eMarketeer only when you run the import feature. This is commonly done when sending an email to a SuperOffice selection or project.
+* SuperOffice CRM: eMarketeer creates new contacts (and companies) in SuperOffice CRM only when a SuperOffice user approves it on the eMarketeer Lead Report web panel. Sales or a controller typically monitors this report for new leads. Because eMarketeer generates leads from the web, this screening step makes sure only valid leads reach SuperOffice CRM.
+* eMarketeer: New contacts are created in eMarketeer only when you run the import feature. This is commonly done when sending an email to a SuperOffice selection or project.
 
 ### Mapped contact fields
 
 The following contact fields are transferred when importing contacts into either system:
 
-- First name
-- Last name
-- Email
-- Telephone
-- Mobile
-- Title
-- Person ID
+* First name
+* Last name
+* Email
+* Telephone
+* Mobile
+* Title
+* Person ID
 
 In SuperOffice, companies can also be created if you opt in. These fields are filled on the company card:
 
-- Company name
-- Country
-- Category
-- Industry
+* Company name
+* Country
+* Category
+* Industry
 
 There is no custom field mapping; the standard fields above are used. Beyond these, automations can add or remove interests from contacts.
 
@@ -63,13 +63,13 @@ When contacts interact with eMarketeer through emails, forms, apps, and so on, a
 
 When an automation runs, eMarketeer can perform the following actions in SuperOffice CRM:
 
-- Create a new sale.
-- Create a task (pending activity).
-- Notify a sales representative (completed activity).
-- Add or remove a contact from a selection or project.
-- Add or remove an interest from a contact.
+* Create a new sale.
+* Create a task (pending activity).
+* Notify a sales representative (completed activity).
+* Add or remove a contact from a selection or project.
+* Add or remove an interest from a contact.
 
-![SuperOffice contact card showing activities added by eMarketeer automations](../../assets/integration-features-and-flows/image-29.png)
+![SuperOffice contact card showing activities added by eMarketeer automations](../../.gitbook/assets/image-29.png)
 
 These activities have been added to SuperOffice by automations from eMarketeer.
 
@@ -77,15 +77,15 @@ These activities have been added to SuperOffice by automations from eMarketeer.
 
 Web panels show more information or extend eMarketeer features into SuperOffice CRM. They can be shown or hidden based on the SuperOffice user's group. The following web panels are used in SuperOffice to interact with eMarketeer.
 
-- The Lead Report. The hub for incoming new leads. For example, if an automation is set up to create a new sale, it can only be processed if the contact already exists in SuperOffice. If the contact does not exist yet, it is treated as a new lead and listed on the Lead Report. Sales uses this report to bring new data into SuperOffice.
-- The Timeline Report. A web panel on the contact card in SuperOffice CRM. It shows every interaction the contact had with eMarketeer marketing content, including emails, forms, SMS, and landing pages.
-- Event details. When eMarketeer creates a sale or an activity, this panel shows the event that triggered it.
+* The Lead Report. The hub for incoming new leads. For example, if an automation is set up to create a new sale, it can only be processed if the contact already exists in SuperOffice. If the contact does not exist yet, it is treated as a new lead and listed on the Lead Report. Sales uses this report to bring new data into SuperOffice.
+* The Timeline Report. A web panel on the contact card in SuperOffice CRM. It shows every interaction the contact had with eMarketeer marketing content, including emails, forms, SMS, and landing pages.
+* Event details. When eMarketeer creates a sale or an activity, this panel shows the event that triggered it.
 
-![Timeline Report on a SuperOffice contact card](../../assets/integration-features-and-flows/image-30-1024x530.png)
+![Timeline Report on a SuperOffice contact card](../../.gitbook/assets/image-30-1024x530.png)
 
 Learn more about your contacts and how they engaged with your marketing content.
 
-![Lead Report listing contacts not yet in SuperOffice](../../assets/integration-features-and-flows/image-31.png)
+![Lead Report listing contacts not yet in SuperOffice](../../.gitbook/assets/image-31.png)
 
 This is where all contacts that are not yet in SuperOffice are listed.
 

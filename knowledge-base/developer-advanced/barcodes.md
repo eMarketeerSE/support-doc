@@ -4,20 +4,19 @@ This article explains what barcodes are, where they are used, and how you can us
 
 ## What is a barcode?
 
-![barcode scanner reading a barcode](../../assets/barcodes/Barcodes2.jpg)
+![barcode scanner reading a barcode](../../.gitbook/assets/Barcodes2.jpg)
 
 A barcode scanner reading a barcode
 
 A barcode is essentially a font that computers can read visually. To read one, a computer needs a barcode reader — its "eyes." Like any font, you can encode whatever you want: numbers, text, full sentences. What you encode only matters if it means something to someone, or something, on the other end.
 
-For example, this phone number in a regular font:
-`004651410050`
+For example, this phone number in a regular font: `004651410050`
 
 Your eyes read the digits and know what to do with them.
 
 The same number as a barcode looks like this:
 
-![phone number encoded as a Code 128 barcode](../../assets/barcodes/Barcodes1.png)
+![phone number encoded as a Code 128 barcode](../../.gitbook/assets/Barcodes1.png)
 
 ## Where are barcodes used?
 
@@ -33,20 +32,20 @@ For example, you want to send coupons to your customers. You already have articl
 
 eMarketeer supports the following barcode standards. The default in eMarketeer blocks is **Code 128**. To change the standard, edit the barcode in Developer Mode.
 
-- Code 128
-- Codabar
-- Code 11
-- Code 39
-- Code 39 Extended
-- Code 93
-- EAN-8
-- EAN-13
-- ISBN-10 / ISBN-13
-- Interleaved 2 of 5
-- Standard 2 of 5
-- MSI Plessey
-- UPC-A
-- UPC-E
-- UPC Extension 2
-- UPC Extension 5
-- PostNet
+* Code 128
+* Codabar
+* Code 11
+* Code 39
+* Code 39 Extended
+* Code 93
+* EAN-8
+* EAN-13
+* ISBN-10 / ISBN-13
+* Interleaved 2 of 5
+* Standard 2 of 5
+* MSI Plessey
+* UPC-A
+* UPC-E
+* UPC Extension 2
+* UPC Extension 5
+* PostNet

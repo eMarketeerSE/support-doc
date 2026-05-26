@@ -6,10 +6,10 @@ When you advertise on LinkedIn you can add a call to action to your ads to colle
 
 By default LinkedIn lets you download submitted leads as a CSV that you must process manually. With the eMarketeer LinkedIn connector, submissions flow into eMarketeer automatically so you can:
 
-- Create and update contacts.
-- Set lead score.
-- Trigger journeys.
-- Send leads to sales.
+* Create and update contacts.
+* Set lead score.
+* Trigger journeys.
+* Send leads to sales.
 
 ### Get started with LinkedIn Lead Gen Forms
 
@@ -21,7 +21,7 @@ _Note: you connect with your personal LinkedIn profile, which gives eMarketeer a
 
 Once connected, you see the list of available Ad Accounts.
 
-![List of LinkedIn Ad Accounts available to receive leads](../../assets/signals/Skarmavbild-2023-08-04-kl.-10.39.12.png)
+![List of LinkedIn Ad Accounts available to receive leads](../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12.png)
 
 Check the Ad Accounts you want to receive leads from. Any Lead Gen Form submission on a checked account will be sent to eMarketeer.
 
@@ -39,16 +39,16 @@ _Note: make sure your account is not at its contact limit. If it is, no new cont
 
 These fields from LinkedIn (when submitted) are used to create or update contacts:
 
-- Email
-- FirstName
-- LastName
-- Phone
-- City
-- ZipCode
-- Country
-- State
-- Title
-- Company
+* Email
+* FirstName
+* LastName
+* Phone
+* City
+* ZipCode
+* Country
+* State
+* Title
+* Company
 
 Any other submitted information appears in the timeline event on the contact card.
 
@@ -60,16 +60,16 @@ LinkedIn forms can only be used in a paid, published ad — but you can test bef
 
 Once leads are in eMarketeer you can access them using the Contact Filter as an engagement.
 
-![Contact filter with LinkedIn engagement options](../../assets/signals/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png)
+![Contact filter with LinkedIn engagement options](../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png)
 
 Use the filter to retrieve all contacts who:
 
-- Submitted any LinkedIn Lead Gen Form.
-- Submitted a specific Lead Gen Form.
-- Answered the form in a specific way.
+* Submitted any LinkedIn Lead Gen Form.
+* Submitted a specific Lead Gen Form.
+* Answered the form in a specific way.
 
 Because this engagement is part of the Contact Filter, you can use the same selections in:
 
-- Contact lead score.
-- Journeys, as a starting point or as an if/else condition.
-- Qualifying leads for the Lead Board.
+* Contact lead score.
+* Journeys, as a starting point or as an if/else condition.
+* Qualifying leads for the Lead Board.

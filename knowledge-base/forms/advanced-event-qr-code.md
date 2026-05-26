@@ -4,7 +4,7 @@ This guide shows how to build a QR code that, when scanned, submits the contact'
 
 The standard QR code generator can produce a QR code from any contact field. This advanced variant points the code at a form receiver URL, so scanning the code automatically registers the contact. Some HTML and URL knowledge helps before you start.
 
-* * *
+***
 
 ### What you need to start
 
@@ -20,7 +20,7 @@ The placeholders `M_VALUE` and `NAME_VALUE` are what you will replace with value
 
 Open the report page for the form where attendance should be registered, then open the form's website integration code.
 
-![Step-by-step illustration of how to find the form integration code](../../assets/advanced-event-qr-code/formintegrationcodeguide.png)
+![Step-by-step illustration of how to find the form integration code](../../.gitbook/assets/formintegrationcodeguide.png)
 
 Guide to form integration code
 
@@ -31,16 +31,17 @@ Guide to form integration code
 
 Next, find the two values in the integration code. The M-value identifies the form. The NAME-value identifies the specific question — in this case, the question that stores the contact's email address. Look for:
 
-- `<input type="hidden" name="m" value="M-Value">`
-- `<input type="email" name="NAME-Value">`
+* `<input type="hidden" name="m" value="M-Value">`
+* `<input type="email" name="NAME-Value">`
 
-![The form integration code with the m-value and name-value highlighted](../../assets/advanced-event-qr-code/mandnamevalueforform.png)
+![The form integration code with the m-value and name-value highlighted](../../.gitbook/assets/mandnamevalueforform.png)
 
 The M-value and NAME-value
 
 Example values:
-- M-value: `353750ae84ccbd4692021cd1e93a90145287fee`
-- NAME-value: `query_2027106_16_3`
+
+* M-value: `353750ae84ccbd4692021cd1e93a90145287fee`
+* NAME-value: `query_2027106_16_3`
 
 ### Build the QR code URL
 

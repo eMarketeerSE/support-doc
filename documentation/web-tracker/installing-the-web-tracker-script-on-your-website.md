@@ -12,7 +12,7 @@ Before you start, you need your unique Tracker ID and script.
 2. Go to [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). You must be an admin to access this page.
 3. Copy your Tracker ID and script. You will need them during installation.
 
-[![Tracker Settings page showing the Tracker ID and script](../../assets/installing-the-web-tracker-script-on-your-website/Screenshot-2026-01-13-132700-1024x128.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/Screenshot-2026-01-13-132700.png)
+[![Tracker Settings page showing the Tracker ID and script](../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png)](https://support.emarketeer.com/wp-content/uploads/2025/03/Screenshot-2026-01-13-132700.png)
 
 ## Option 1: Easy install (recommended)
 
@@ -23,13 +23,13 @@ We provide a ready-made template file you can import directly into GTM.
 1. Download the template file: [Get the template file here](https://support.emarketeer.com/wp-content/uploads/2026/03/emarketeer-tracker.tpl).
 2. Open Google Tag Manager and select your website's container.
 3. Add the eMarketeer tag template:
-   - In the left menu, go to Templates, then Tag Templates, then New.
-   - Click Import, select the `.tpl` file you downloaded, and Save.
+   * In the left menu, go to Templates, then Tag Templates, then New.
+   * Click Import, select the `.tpl` file you downloaded, and Save.
 4. Create the tag using the template:
-   - Go to Tags, then New.
-   - Click Tag Configuration and choose "eMarketeers Tracker Helper" (the template you just added).
-   - Enter your Tracker ID when prompted.
-   - Approve any requested permissions.
+   * Go to Tags, then New.
+   * Click Tag Configuration and choose "eMarketeers Tracker Helper" (the template you just added).
+   * Enter your Tracker ID when prompted.
+   * Approve any requested permissions.
 5. Publish your container in GTM.
 
 The tracker is now running and respects your cookie banner.

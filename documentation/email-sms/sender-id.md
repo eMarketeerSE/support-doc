@@ -2,7 +2,7 @@
 
 The Sender ID is the name or number a contact sees when they receive your SMS. This article explains what Sender ID is, how to request your own, and where the feature has limitations.
 
-![SMS Sender ID shown on a mobile device](../../assets/sender-id/Sms_sender_id.png)
+![SMS Sender ID shown on a mobile device](<../../.gitbook/assets/Sms_sender_id (1).png>)
 
 When you receive an SMS from another mobile phone, you see the sender's number. When you send SMS through a service like eMarketeer, the sender information can instead be a text — typically your company name.
 
@@ -10,9 +10,9 @@ When you receive an SMS from another mobile phone, you see the sender's number. 
 
 To use your company name as the sender, the Sender ID must meet these requirements:
 
-- Between 3 and 11 characters long.
-- Only `A-Z`, `a-z`, and `0-9` characters.
-- Cannot start with a number or be a phone number.
+* Between 3 and 11 characters long.
+* Only `A-Z`, `a-z`, and `0-9` characters.
+* Cannot start with a number or be a phone number.
 
 Requests are processed manually. If we receive your request during office hours, it is usually ready the same day unless we need more information.
 

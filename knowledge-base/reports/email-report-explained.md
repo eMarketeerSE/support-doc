@@ -2,7 +2,7 @@
 
 This article explains the event tags in the eMarketeer email report, the numbers next to them, and how the widget percentages are calculated.
 
-![Example of an email report page](../../assets/email-report-explained/Email-Report-Page.png)
+![Example of an email report page](../../.gitbook/assets/Email-Report-Page.png)
 
 Example of an email report page.
 
@@ -18,7 +18,7 @@ Each event tag shows two numbers, like "Event **10 (20)**." The number before th
 
 **Bounced:** the recipient's email service accepted the message but could not deliver it. Common reasons include an address that no longer exists, a misspelled address, a spam filter, or a security policy at the receiving end. For more on bounces and bounce rates, read [About email bounces](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
 
-**Complaints:** the recipient clicked "Report this email and Unsubscribe" in their email client and the client reported it back to eMarketeer. This also unsubscribes the contact from future sendouts by setting the Marketing Sendouts legal basis to *Withdrawn*, visible on the Legal Basis tab of the contact card. Your eMarketeer account is allowed an average complaint rate of up to 0.3% before we must pause it for audit.
+**Complaints:** the recipient clicked "Report this email and Unsubscribe" in their email client and the client reported it back to eMarketeer. This also unsubscribes the contact from future sendouts by setting the Marketing Sendouts legal basis to _Withdrawn_, visible on the Legal Basis tab of the contact card. Your eMarketeer account is allowed an average complaint rate of up to 0.3% before we must pause it for audit.
 
 **Delivered:** the recipient's email service confirmed it received the email, that the address exists, and that it will deliver the message to the inbox. A delivered email can still be filtered as spam before reaching the inbox, and that is usually not reported back.
 
@@ -32,7 +32,7 @@ Each event tag shows two numbers, like "Event **10 (20)**." The number before th
 
 The widget values are based on how many delivered contacts interacted in a given way. In the example below, the email component was sent and delivered to 25 contacts. 10 opened it, and 3 clicked a link.
 
-![Example of the email report widgets](../../assets/email-report-explained/EmailReportWidgets.png)
+![Example of the email report widgets](../../.gitbook/assets/EmailReportWidgets.png)
 
 Example of email report widget values.
 
@@ -48,7 +48,7 @@ The calculations use unique contacts, not the total number of events. If a singl
 
 ## Sendout health widget
 
-![Sendout health widget](../../assets/email-report-explained/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png)
+![Sendout health widget](<../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38 (1).png>)
 
 Sendout health widget example.
 

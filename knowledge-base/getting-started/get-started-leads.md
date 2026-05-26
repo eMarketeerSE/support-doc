@@ -8,21 +8,15 @@ The lead board gives sales an intuitive way to qualify and progress leads. This 
 2. Working with leads as a sales user.
 3. Using eMarketeer Leads inside your CRM.
 
-![eMarketeer lead board with qualified leads](../../assets/get-started-leads/theboardclean-1024x576.png)
+![eMarketeer lead board with qualified leads](../../.gitbook/assets/theboardclean-1024x576.png)
 
 ## Generate and deliver leads to a sales team
 
 Qualifying and delivering leads requires three pieces:
 
-- **Sales teams**
-  Leads can only be delivered to sales teams. You can have one team or many.
-  [Create a sales team](https://support.emarketeer.com/knowledgebase/sales-teams/)
-- **Lead streams**
-  A lead stream is a set of qualification rules (a filter). Any contact that matches the filter is qualified as a lead and delivered to the selected sales team or teams.
-  [Create lead streams](https://support.emarketeer.com/knowledgebase/lead-streams/)
-- **Sales users**
-  A sales user has access to the lead board for processing leads, and always belongs to a team that receives leads.
-  [Create sales users](https://support.emarketeer.com/knowledgebase/sales-users/)
+* **Sales teams** Leads can only be delivered to sales teams. You can have one team or many. [Create a sales team](https://support.emarketeer.com/knowledgebase/sales-teams/)
+* **Lead streams** A lead stream is a set of qualification rules (a filter). Any contact that matches the filter is qualified as a lead and delivered to the selected sales team or teams. [Create lead streams](https://support.emarketeer.com/knowledgebase/lead-streams/)
+* **Sales users** A sales user has access to the lead board for processing leads, and always belongs to a team that receives leads. [Create sales users](https://support.emarketeer.com/knowledgebase/sales-users/)
 
 ## Working with the lead board
 

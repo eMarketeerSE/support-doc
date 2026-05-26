@@ -8,7 +8,7 @@ This article references different types of eMarketeer URLs. For background, see 
 
 ## The form cannot be displayed at this time
 
-![The form cannot be displayed at this time](../../assets/form-unavailable/form_closed_limit.png)
+![The form cannot be displayed at this time](../../.gitbook/assets/form_closed_limit.png)
 
 The form cannot be displayed at this time error message
 
@@ -18,7 +18,7 @@ To raise the contact limit, send a request to [customerservice@emarketeer.com](m
 
 ## White webpage
 
-![Image of a blank page](../../assets/form-unavailable/blank-page.png)
+![Image of a blank page](../../.gitbook/assets/blank-page.png)
 
 An empty webpage
 
@@ -28,7 +28,7 @@ It can also happen when a form has been moved to another campaign. This only occ
 
 ## No such session
 
-![Webpage that shows a message saying "No such session"](../../assets/form-unavailable/no-such-session.png)
+![Webpage that shows a message saying "No such session"](../../.gitbook/assets/no-such-session.png)
 
 A webpage showing the message "No such session"
 
@@ -38,7 +38,7 @@ Use the Direct URL to the form instead.
 
 ## Answer already registered
 
-![Picture of screen showing a message saying that an answer already has been registrerd](../../assets/form-unavailable/already-answered-on-this-session.png)
+![Picture of screen showing a message saying that an answer already has been registrerd](../../.gitbook/assets/already-answered-on-this-session.png)
 
 Answer has already been registered
 
@@ -48,11 +48,11 @@ If you see this in error, confirm you used the correct link and that the form's 
 
 ## Form component has been deleted
 
-![Picture of message saying that the Form URL is Incorrect](../../assets/form-unavailable/form-component-deleted.png)
+![Picture of message saying that the Form URL is Incorrect](../../.gitbook/assets/form-component-deleted.png)
 
 Direct URL message for a deleted form component
 
-![Picture showing message stating that the form is no longer available](../../assets/form-unavailable/form-deleted-session.png)
+![Picture showing message stating that the form is no longer available](../../.gitbook/assets/form-deleted-session.png)
 
 Session URL message for a deleted form component
 
@@ -60,7 +60,7 @@ These messages usually mean the form component has been deleted in eMarketeer. I
 
 ## Form component is closed
 
-![Picture of message saying that the form is closed](../../assets/form-unavailable/survey-closed.png)
+![Picture of message saying that the form is closed](../../.gitbook/assets/survey-closed.png)
 
 The default message for a closed form
 
@@ -70,7 +70,7 @@ Change the form's Open/Close setting to Open so it accepts new answers.
 
 ## Anonymous not allowed
 
-![Picture of message saying that anonymous is not allowed](../../assets/form-unavailable/formanon.png)
+![Picture of message saying that anonymous is not allowed](../../.gitbook/assets/formanon.png)
 
 Message for a missing form
 

@@ -2,7 +2,7 @@
 
 This is the final step of the SuperOffice on-premise integration. Your NetServer must already be reachable from eMarketeer and you need a SuperOffice user dedicated to the integration.
 
-If you have not completed these prerequisites, [follow these instructions](/documentation/on-premise-netserver-url-and-user-creation/).
+If you have not completed these prerequisites, [follow these instructions](../on-premise-netserver-url-and-user-creation/).
 
 ## Enable the integration
 
@@ -11,7 +11,7 @@ Once SuperOffice is ready, complete the rest of the setup in eMarketeer.
 1. Sign in to eMarketeer and go to **Account** > **Plugins and integrations**.
 2. Click **Super Office** to open the integration settings page.
 
-![SuperOffice on-premise integration settings](../../assets/on-premise-enabling-the-integration/onpremisesettings.png)
+![SuperOffice on-premise integration settings](../../.gitbook/assets/onpremisesettings.png)
 
 3. Select the **On premise** radio button.
 4. Fill out the form with the username, password, and WSDL base URL pointing to your NetServer SVC-file directory.

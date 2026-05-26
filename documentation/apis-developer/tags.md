@@ -8,10 +8,10 @@ A tag is a piece of information that describes the data or content it is assigne
 
 Tagging serves many purposes, including:
 
-- Classification
-- Marking ownership
-- Describing content type
-- Online identity
+* Classification
+* Marking ownership
+* Describing content type
+* Online identity
 
 ## How tags are used in eMarketeer
 
@@ -31,9 +31,9 @@ Tagging contacts lets you segment them more precisely. You can set tags manually
 
 You find the tag widget in a campaign (top right corner) or on the contact card. To add a tag, click the plus icon next to the tag. This opens the tag widget.
 
-![Tag widget with the plus icon highlighted](../../assets/tags/Skarmavbild-2023-06-21-kl.-10.28.40.png)
+![Tag widget with the plus icon highlighted](../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.28.40.png)
 
-![Tag widget showing the list of available tags](../../assets/tags/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png)
+![Tag widget showing the list of available tags](../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png)
 
 ### Tag categories
 
@@ -43,7 +43,7 @@ Each tag belongs to a category. This is a way to group different types of tags. 
 
 If the tag you want does not exist, click "Create new tag".
 
-![Form for creating a new tag with title, category, and color](../../assets/tags/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png)
+![Form for creating a new tag with title, category, and color](../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png)
 
 Give your new tag a title. In the drop-list, choose which category it belongs to. If no category fits, type a new category name and it is created. Finish by selecting a color for the tag, then click "Create tag".
 
@@ -59,7 +59,7 @@ In the list of tags, check the box in front of the tag you want to assign to the
 
 There are two ways to remove a tag.
 
-1. In the campaign or on the contact card, hover over a tag and click the "x" to remove it.
+1.  In the campaign or on the contact card, hover over a tag and click the "x" to remove it.
 
-   ![Tag with the remove "x" icon visible on hover](../../assets/tags/Skarmavbild-2023-06-21-kl.-11.10.57.png)
+    ![Tag with the remove "x" icon visible on hover](../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-11.10.57.png)
 2. Open the tag widget and uncheck the box in front of the tag.

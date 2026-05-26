@@ -1,4 +1,4 @@
-# Journeys overview
+# Journeys
 
 A journey is a sequential list of actions (steps) that runs on every contact who matches the criteria set as its starting point.
 
@@ -6,7 +6,7 @@ Journeys are the automation engine in eMarketeer. They let you nurture contacts,
 
 ## Introduction to journeys
 
-![Journey illustration](../../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png)
+![Journey illustration](../../.gitbook/assets/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png)
 
 When a new contact matches the criteria (filter) for a journey, the contact enters the journey and moves through the steps in order.
 
@@ -14,10 +14,10 @@ When a new contact matches the criteria (filter) for a journey, the contact ente
 
 Journeys can be used to:
 
-- Nurture leads from your website
-- Automate tasks in eMarketeer
-- Create and update tasks in your CRM
-- Automate your lead board
+* Nurture leads from your website
+* Automate tasks in eMarketeer
+* Create and update tasks in your CRM
+* Automate your lead board
 
 And more. Using the filter as a starting point, combined with the logic and steps available, gives you a powerful tool for automating any process.
 

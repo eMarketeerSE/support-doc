@@ -4,7 +4,7 @@ Create a new contact list to use in a campaign in a few steps.
 
 A contact list groups contacts together so you can target them in campaigns and journeys.
 
-![The four steps to create a new contact list, shown in sequence in the eMarketeer interface](../../assets/new-contact-list/pn_21-08-18_14-57-33.png)
+![The four steps to create a new contact list, shown in sequence in the eMarketeer interface](../../.gitbook/assets/pn_21-08-18_14-57-33.png)
 
 The steps to create a new contact list.
 

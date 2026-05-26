@@ -14,7 +14,7 @@ The Checklist also runs a second, live check at send time: it verifies whether e
 
 Start from the Checklist page where you see the undeliverable count. The steps below assume you already have a contact list for the intended recipients.
 
-![Undeliverable count shown on the Checklist page](../../assets/undeliverable-contacts-email-checklist/chun1.png)
+![Undeliverable count shown on the Checklist page](../../.gitbook/assets/chun1.png)
 
 #### 1. Navigate to the Contacts page
 
@@ -24,18 +24,18 @@ Open the Contacts section for the account.
 
 Use the menu on the left to open Contact Lists.
 
-- If you don't have a contact list with the recipients, choose Import instead, create the list, then return to Contact Lists.
-- If you want to check every undeliverable contact on the account rather than only the recipients from a specific send, skip to step 4.
+* If you don't have a contact list with the recipients, choose Import instead, create the list, then return to Contact Lists.
+* If you want to check every undeliverable contact on the account rather than only the recipients from a specific send, skip to step 4.
 
 #### 3. Open the contact list with the recipients
 
-![Steps to navigate to the contact list from the checklist](../../assets/undeliverable-contacts-email-checklist/chun2.png)
+![Steps to navigate to the contact list from the checklist](../../.gitbook/assets/chun2.png)
 
 #### 4. Open the Filter feature
 
 Click the Filter button on the right side of the Contacts page.
 
-![Filter button location on the Contacts page](../../assets/undeliverable-contacts-email-checklist/chun3.png)
+![Filter button location on the Contacts page](../../.gitbook/assets/chun3.png)
 
 #### 5. Apply this filter
 
@@ -43,7 +43,7 @@ Use these parameters to show only contacts with undeliverable email addresses:
 
 `[Delivery: E-mail > Equals > Undeliverable]`
 
-![Filter parameters: Delivery plus E-mail, Equals, Undeliverable](../../assets/undeliverable-contacts-email-checklist/chun4.png)
+![Filter parameters: Delivery plus E-mail, Equals, Undeliverable](../../.gitbook/assets/chun4.png)
 
 #### 6. Apply the filter
 
@@ -51,10 +51,10 @@ The resulting list contains the recipients with undeliverable addresses you saw 
 
 ## What you can do with the list
 
-- Open an individual contact card and check the engagement log for the last email sent. The specific delivery error that marked the contact undeliverable appears there.
-- Export a spreadsheet of the contacts.
-  - To request that the undeliverable status be lifted, export their email addresses (comma-separated) and send the file to support@emarketeer.com.
-  - If you have a CRM integration such as SuperOffice, you can export the contacts to a list on that CRM.
-- Use the [Bulk Actions tool](https://support.emarketeer.com/knowledgebase/bulk-actions-tool/) to manage the contacts. For example, "Add to Contact List" creates a permanent list you can refer back to later.
+* Open an individual contact card and check the engagement log for the last email sent. The specific delivery error that marked the contact undeliverable appears there.
+* Export a spreadsheet of the contacts.
+  * To request that the undeliverable status be lifted, export their email addresses (comma-separated) and send the file to support@emarketeer.com.
+  * If you have a CRM integration such as SuperOffice, you can export the contacts to a list on that CRM.
+* Use the [Bulk Actions tool](https://support.emarketeer.com/knowledgebase/bulk-actions-tool/) to manage the contacts. For example, "Add to Contact List" creates a permanent list you can refer back to later.
 
 If you still have questions, contact support through the channels listed on [this page](https://app.emarketeer.com/corporate/gui/help/contact.php) when logged in.

@@ -4,8 +4,8 @@ This article walks through connecting SuperOffice Online to eMarketeer.
 
 ## Requirements
 
-- A SuperOffice Online account (Sales and Complete CRM versions are supported)
-- An eMarketeer account
+* A SuperOffice Online account (Sales and Complete CRM versions are supported)
+* An eMarketeer account
 
 ## Actions performed during setup
 
@@ -15,7 +15,7 @@ For the integration to work properly, eMarketeer installs new items in SuperOffi
 
 To start the integration, log in to eMarketeer and click "Account" then "Plugins and Integrations". From there you find the SuperOffice settings page.
 
-![SuperOffice Online settings page in eMarketeer](../../assets/superoffice-online-integration/so-online-1.png)
+![SuperOffice Online settings page in eMarketeer](../../.gitbook/assets/so-online-1.png)
 
 1. Select the Online radio button and click "Apply changes".
 2. A popup with the SuperOffice login screen appears. Fill out your login and click "Log in" to authenticate.

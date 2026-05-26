@@ -14,9 +14,9 @@ Lead scoring identifies marketing qualified leads (MQLs) and shows how ready a c
 
 ### Why use lead scoring?
 
-- **Sales and marketing alignment.** Lead scoring is a joint activity. When the model reflects insights from both teams, fewer contacts fall through the cracks and both teams agree on what qualifies a lead.
-- **Focus on the most relevant contacts.** Lead scoring identifies MQLs so the sales team can spend time on contacts most likely to buy.
-- **Find the right timing for sales.** A contact who just visited your site or liked a social post is not ready to be sold to. A scoring model aligned with the buyer's journey helps sales reach out at the right moment.
+* **Sales and marketing alignment.** Lead scoring is a joint activity. When the model reflects insights from both teams, fewer contacts fall through the cracks and both teams agree on what qualifies a lead.
+* **Focus on the most relevant contacts.** Lead scoring identifies MQLs so the sales team can spend time on contacts most likely to buy.
+* **Find the right timing for sales.** A contact who just visited your site or liked a social post is not ready to be sold to. A scoring model aligned with the buyer's journey helps sales reach out at the right moment.
 
 ## 3 steps to build your lead scoring model
 
@@ -26,8 +26,8 @@ A lead scoring model defines what to score on, how many points qualify a contact
 
 First, decide which rules to score on — the actions and attributes that matter for qualifying a contact. There are two types of rules:
 
-- **Explicit scoring** is based on how well the contact matches your buyer persona — demographics and company profile.
-- **Implicit scoring** is based on marketing engagement and behavior.
+* **Explicit scoring** is based on how well the contact matches your buyer persona — demographics and company profile.
+* **Implicit scoring** is based on marketing engagement and behavior.
 
 Explicit scoring is based on profile, implicit on behavior. Both matter.
 
@@ -37,13 +37,13 @@ Look at sales conversions for each data point too. Some are closer to a sale tha
 
 To sum up, look at:
 
-- Customer company profile and demographics
-- Previous marketing engagement
-- Sales conversions for the actions and attributes
+* Customer company profile and demographics
+* Previous marketing engagement
+* Sales conversions for the actions and attributes
 
 Use this data to build your buyer personas. Your personas might look like this:
 
-![Examples of buyer personas.](../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Examples-of-buyer-personas-1024x554.png)
+![Examples of buyer personas.](../../.gitbook/assets/Examples-of-buyer-personas-1024x554.png)
 
 The data points in your personas become the basis for your score rules. The more a future contact matches your personas, the more points they earn. This step takes analysis, but the better you understand your customers, the better you score future contacts.
 
@@ -53,21 +53,21 @@ Many lead scoring models use a 1–100 range, which is the range the default sco
 
 Marketing and sales should agree on this threshold. To make a contact's "hotness" easier to read, set thresholds across the full range:
 
-![A diagram showing lead score thresholds from cold to hot.](../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Lead-score-thresholds-212x300.png)
+![A diagram showing lead score thresholds from cold to hot.](../../.gitbook/assets/Lead-score-thresholds-212x300.png)
 
 ### 3. Set points for each rule
 
 Now decide how many points each rule is worth. A few things to keep in mind:
 
-- **Set different points for different rules.** Rules closer to a sale should be worth more. Use the sales conversion data you gathered earlier as a guide.
-- **Combine several rules into one.** An email open on its own may not be worth much. Combined with a click and several landing page visits, it shows real interest. Combine criteria so the contact must fulfill all of them to earn the points.
-- **Don't be afraid of negative scores.** Lead scoring can also surface contacts that are not a fit. Use negative rules for behavior that is unlikely to lead to a sale — for example, "student" as job title or a country you cannot ship to. When a contact fulfills a negative rule, points are removed.
-- **Consider time frame and occurrence for engagement rules.** A click from three months ago is less meaningful than one from yesterday. Set a time frame so points only apply within a recent window. You can also set how many times a contact must do an action before they earn the points — for example, three landing page visits instead of one.
-- **You can score just for having information on the contact.** The more you know about a contact, the more qualified they may be. A contact with a phone number on their card may be closer to a sale than one with only an email address. You can award points for the presence of a field.
+* **Set different points for different rules.** Rules closer to a sale should be worth more. Use the sales conversion data you gathered earlier as a guide.
+* **Combine several rules into one.** An email open on its own may not be worth much. Combined with a click and several landing page visits, it shows real interest. Combine criteria so the contact must fulfill all of them to earn the points.
+* **Don't be afraid of negative scores.** Lead scoring can also surface contacts that are not a fit. Use negative rules for behavior that is unlikely to lead to a sale — for example, "student" as job title or a country you cannot ship to. When a contact fulfills a negative rule, points are removed.
+* **Consider time frame and occurrence for engagement rules.** A click from three months ago is less meaningful than one from yesterday. Set a time frame so points only apply within a recent window. You can also set how many times a contact must do an action before they earn the points — for example, three landing page visits instead of one.
+* **You can score just for having information on the contact.** The more you know about a contact, the more qualified they may be. A contact with a phone number on their card may be closer to a sale than one with only an email address. You can award points for the presence of a field.
 
 List your rules, how many points each is worth, and when they expire. The list might look like this:
 
-![A list of lead score rules with points and expiry settings.](../../assets/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/Screenshot-2021-06-17-at-10.16.23.png)
+![A list of lead score rules with points and expiry settings.](../../.gitbook/assets/Screenshot-2021-06-17-at-10.16.23.png)
 
 ### 4. Put your lead score into action
 
@@ -75,9 +75,9 @@ It is now time to put your rules into action. [Follow this guide on how to set u
 
 ## Common lead scoring mistakes
 
-- **Leaving your model untouched.** A lead scoring model needs constant tweaking as you learn more about your customers. Watch whether your MQLs convert to customers. If conversion drops, the model probably needs an update. Sync with sales regularly and accept that the model is never finished.
-- **Forgetting negative scores.** Lead scoring finds the contacts most likely to buy — and filters out the ones who are not. Add rules for undesired behavior, such as "student" as job title, the wrong company size, or visits to your job listings.
-- **Awarding the same points to every rule.** Some engagement is closer to a sale than others. A product demo request beats a newsletter sign-up. Reflect that in the points.
-- **Not considering a time frame.** A visit to your pricing page yesterday is meaningful. The same visit a year ago, with no activity since, is not. Without a time frame, scores stop reflecting current intent. Treat the time frame as an expiry date on the points.
+* **Leaving your model untouched.** A lead scoring model needs constant tweaking as you learn more about your customers. Watch whether your MQLs convert to customers. If conversion drops, the model probably needs an update. Sync with sales regularly and accept that the model is never finished.
+* **Forgetting negative scores.** Lead scoring finds the contacts most likely to buy — and filters out the ones who are not. Add rules for undesired behavior, such as "student" as job title, the wrong company size, or visits to your job listings.
+* **Awarding the same points to every rule.** Some engagement is closer to a sale than others. A product demo request beats a newsletter sign-up. Reflect that in the points.
+* **Not considering a time frame.** A visit to your pricing page yesterday is meaningful. The same visit a year ago, with no activity since, is not. Without a time frame, scores stop reflecting current intent. Treat the time frame as an expiry date on the points.
 
 Good luck building your model. [You can also use this guide for help implementing it in eMarketeer.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)

@@ -2,7 +2,7 @@
 
 An email is registered as opened when images load in the recipient's email client, or when the recipient clicks a link in the message.
 
-![Email report graph with the number of opened emails highlighted](../../assets/email-open/2021-04-27_11-57-42.png)
+![Email report graph with the number of opened emails highlighted](../../.gitbook/assets/2021-04-27_11-57-42.png)
 
 Email report graph, number of opened emails highlighted.
 

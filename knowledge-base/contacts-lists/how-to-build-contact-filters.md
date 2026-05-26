@@ -8,19 +8,19 @@ This article walks through the filter builder, shows a few example filters, and 
 
 In eMarketeer, click the "contacts" tab. This is where you work with and get to know your contacts. To segment or build a selection, click the "filter" tab on the right-hand side, just above the contact list. A web panel opens — this is where you build filters and find the ones you have saved.
 
-![The filter panel in eMarketeer.](../../assets/how-to-build-contact-filters/filter_panel.png)
+![The filter panel in eMarketeer.](../../.gitbook/assets/filter_panel.png)
 
 The first drop-down lists every category you can filter on:
 
-- Contact fields (any information on the contact card)
-- Marketing engagement
-- Delivery
-- Dates
-- Consent
-- Subscription categories
-- Contact lists
+* Contact fields (any information on the contact card)
+* Marketing engagement
+* Delivery
+* Dates
+* Consent
+* Subscription categories
+* Contact lists
 
-![The filter category drop-down.](../../assets/how-to-build-contact-filters/categories.png)
+![The filter category drop-down.](../../.gitbook/assets/categories.png)
 
 ## Build a filter
 
@@ -30,15 +30,15 @@ For a simple example, segment contacts by country:
 
 1. In the first drop-down, choose Contact fields -> country.
 
-![Adding the country field to a filter.](../../assets/how-to-build-contact-filters/add_country.png)
+![Adding the country field to a filter.](../../.gitbook/assets/add_country.png)
 
 2. In the operator drop-down, choose "equals."
 
-![Setting the equals operator on the country filter.](../../assets/how-to-build-contact-filters/country_operator.png)
+![Setting the equals operator on the country filter.](../../.gitbook/assets/country_operator.png)
 
 3. In the third field, type the country.
 
-![Typing the country value.](../../assets/how-to-build-contact-filters/country.png)
+![Typing the country value.](../../.gitbook/assets/country.png)
 
 4. Click "apply." You now see all contacts that match the filter.
 
@@ -46,13 +46,13 @@ For a simple example, segment contacts by country:
 
 To narrow a filter, add more criteria. After the first one, click "and" or "or" to add another.
 
-- AND: the contact must match both criteria.
+* AND: the contact must match both criteria.
 
-![A filter using the AND operator.](../../assets/how-to-build-contact-filters/and_operator.png)
+![A filter using the AND operator.](../../.gitbook/assets/and_operator.png)
 
-- OR: the contact must match one of the criteria.
+* OR: the contact must match one of the criteria.
 
-![A filter using the OR operator.](../../assets/how-to-build-contact-filters/or_operator2.png)
+![A filter using the OR operator.](../../.gitbook/assets/or_operator2.png)
 
 You can add as many criteria as you like and mix AND and OR in the same filter.
 

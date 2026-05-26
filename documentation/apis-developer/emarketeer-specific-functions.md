@@ -10,9 +10,9 @@ To track a link in eMarketeer, use the `link` function. A normal `<a href="url">
 <% link url="url-to-link" caption="Label to link" [attrib="htmlattributes"] [html="true"] %>
 ```
 
-- `url`: the URL to link to. It must be URL-encoded; eMarketeer does not encode it for you.
-- `caption`: the label of the link, as plain text or HTML. If it is HTML, pass `html="true"`.
-- `attrib`: attributes added to the resulting `<a>` tag in the rendered HTML.
+* `url`: the URL to link to. It must be URL-encoded; eMarketeer does not encode it for you.
+* `caption`: the label of the link, as plain text or HTML. If it is HTML, pass `html="true"`.
+* `attrib`: attributes added to the resulting `<a>` tag in the rendered HTML.
 
 ## Contact
 
@@ -24,7 +24,7 @@ The `contact` function fetches or prints values from the contact card the form i
 
 `fieldname` is one of these:
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td valign="top">firstname</td><td valign="top">Firstname of contact</td></tr><tr><td valign="top">lastname</td><td valign="top">Lastname of contact</td></tr><tr><td valign="top">salutation</td><td valign="top">How to salute this contact. For example "Mr", "Mrs"</td></tr><tr><td valign="top">company</td><td valign="top">This contacts work company</td></tr><tr><td valign="top">email</td><td valign="top">Email address of contact</td></tr><tr><td valign="top">title</td><td valign="top">Work title</td></tr><tr><td valign="top">telephone</td><td valign="top">Contacts telephone number</td></tr><tr><td valign="top">fax</td><td valign="top">Contacts fax number</td></tr><tr><td valign="top">mobile</td><td valign="top">Contact mobile telephone number</td></tr><tr><td valign="top">address1</td><td valign="top">First line in contacts address</td></tr><tr><td valign="top">address2</td><td valign="top">Second line in contacts address</td></tr><tr><td valign="top">city</td><td valign="top">City of contact</td></tr><tr><td valign="top">state</td><td valign="top">State of contact</td></tr><tr><td valign="top">zip</td><td valign="top">Zip or postal code of contact</td></tr><tr><td valign="top">country</td><td valign="top">Country of contact</td></tr><tr><td valign="top">external_id</td><td valign="top">Id in users CMS</td></tr><tr><td valign="top">note</td><td valign="top">Your note of this contact</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">firstname</td><td>Firstname of contact</td></tr><tr><td valign="top">lastname</td><td>Lastname of contact</td></tr><tr><td valign="top">salutation</td><td>How to salute this contact. For example "Mr", "Mrs"</td></tr><tr><td valign="top">company</td><td>This contacts work company</td></tr><tr><td valign="top">email</td><td>Email address of contact</td></tr><tr><td valign="top">title</td><td>Work title</td></tr><tr><td valign="top">telephone</td><td>Contacts telephone number</td></tr><tr><td valign="top">fax</td><td>Contacts fax number</td></tr><tr><td valign="top">mobile</td><td>Contact mobile telephone number</td></tr><tr><td valign="top">address1</td><td>First line in contacts address</td></tr><tr><td valign="top">address2</td><td>Second line in contacts address</td></tr><tr><td valign="top">city</td><td>City of contact</td></tr><tr><td valign="top">state</td><td>State of contact</td></tr><tr><td valign="top">zip</td><td>Zip or postal code of contact</td></tr><tr><td valign="top">country</td><td>Country of contact</td></tr><tr><td valign="top">external_id</td><td>Id in users CMS</td></tr><tr><td valign="top">note</td><td>Your note of this contact</td></tr></tbody></table>
 
 Custom contact fields use this syntax:
 
@@ -38,12 +38,11 @@ If you are unsure of the right field code, open an email and use the built-in pe
 
 The `user` function fetches or prints information about your user account.
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td valign="top">logo</td><td valign="top">The url to your companys logo in emarketeer takes a second argument "version" which can be "light" or "dark". The light background logo is the default</td></tr><tr><td valign="top">company</td><td valign="top">Company name</td></tr><tr><td valign="top">address1</td><td valign="top">First address line of company</td></tr><tr><td valign="top">address2</td><td valign="top">Second address line of company</td></tr><tr><td valign="top">city</td><td valign="top">City of company</td></tr><tr><td valign="top">zip</td><td valign="top">Zip or postal code of company</td></tr><tr><td valign="top">state</td><td valign="top">State of company</td></tr><tr><td valign="top">country</td><td valign="top">Country of company</td></tr><tr><td valign="top">webpage</td><td valign="top">Homepage of company, optional argument "protocol" may be set to true to include protocol in adress (Normaly <a class="external free" href="http:" rel="nofollow">https://</a>)</td></tr><tr><td valign="top">url</td><td valign="top">Url this user uses to access emarkeeter.</td></tr><tr><td valign="top">telephone</td><td valign="top">Tehephone number of company</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">logo</td><td>The url to your companys logo in emarketeer takes a second argument "version" which can be "light" or "dark". The light background logo is the default</td></tr><tr><td valign="top">company</td><td>Company name</td></tr><tr><td valign="top">address1</td><td>First address line of company</td></tr><tr><td valign="top">address2</td><td>Second address line of company</td></tr><tr><td valign="top">city</td><td>City of company</td></tr><tr><td valign="top">zip</td><td>Zip or postal code of company</td></tr><tr><td valign="top">state</td><td>State of company</td></tr><tr><td valign="top">country</td><td>Country of company</td></tr><tr><td valign="top">webpage</td><td>Homepage of company, optional argument "protocol" may be set to true to include protocol in adress (Normaly <a href="../http:/">https://</a>)</td></tr><tr><td valign="top">url</td><td>Url this user uses to access emarkeeter.</td></tr><tr><td valign="top">telephone</td><td>Tehephone number of company</td></tr></tbody></table>
 
 ## Scramble
 
-> TODO: verify
-The scramble code is generated when sending an email. eMarketeer uses it internally to identify which contact is clicking the email.
+> TODO: verify The scramble code is generated when sending an email. eMarketeer uses it internally to identify which contact is clicking the email.
 
 ## Block
 
@@ -71,20 +70,20 @@ This path always resolves from the root, regardless of where you start.
 
 **Text Block**
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td>text</td><td>The text entered into the text block</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">text</td><td>The text entered into the text block</td></tr></tbody></table>
 
 **Image Block**
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td>url</td><td>the url of the image</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">url</td><td>the url of the image</td></tr></tbody></table>
 
 **Link Block**
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td>url</td><td>the url of the link</td></tr><tr><td>caption</td><td>the link caption</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">url</td><td>the url of the link</td></tr><tr><td valign="top">caption</td><td>the link caption</td></tr></tbody></table>
 
 **Container Block**
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td>text</td><td>Returns the HTML source code of the block</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">text</td><td>Returns the HTML source code of the block</td></tr></tbody></table>
 
 **Option Block**
 
-<table cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" width="130">Fieldname</td><td>Explaination</td></tr><tr><td>value</td><td>Current value of the option block</td></tr></tbody></table>
+<table><thead><tr><th width="130" valign="top">Fieldname</th><th>Explaination</th></tr></thead><tbody><tr><td valign="top">value</td><td>Current value of the option block</td></tr></tbody></table>

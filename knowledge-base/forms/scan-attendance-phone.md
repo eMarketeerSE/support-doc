@@ -6,20 +6,20 @@ Attendance is registered by submitting an email address through an eMarketeer fo
 
 The example below uses these event components.
 
-![Event component overview](../../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png)
+![Event component overview](../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png)
 
-- **Invitation email.** Send your invitation to the audience you want at your event.
-- **Registration form.** Where your audience registers for the event. Ask for mobile phone number.
-- **App delivery and mobile app.** Create an app for your event to keep all event information in attendees' pockets. Enable the QR code. The "App Delivery" is an SMS with a link to the app; send it to everyone who registered.
-- **Scan form.** The form used to register attendees. It is built to accept an email address and return to the register page after submit. Create it by adding a "New Form" and choosing the "Event Barcode Scan" template.
+* **Invitation email.** Send your invitation to the audience you want at your event.
+* **Registration form.** Where your audience registers for the event. Ask for mobile phone number.
+* **App delivery and mobile app.** Create an app for your event to keep all event information in attendees' pockets. Enable the QR code. The "App Delivery" is an SMS with a link to the app; send it to everyone who registered.
+* **Scan form.** The form used to register attendees. It is built to accept an email address and return to the register page after submit. Create it by adding a "New Form" and choosing the "Event Barcode Scan" template.
 
-![Form list with the Event Barcode Scan template](../../assets/scan-attendance-phone/2022-12-16_13-27-56-1024x636.png)
+![Form list with the Event Barcode Scan template](../../.gitbook/assets/2022-12-16_13-27-56-1024x636.png)
 
 ### Register attendance
 
 On the day of the event, your visitors arrive with their mobile event app showing a barcode to be scanned.
 
-![Mobile event app showing a barcode](../../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png)
+![Mobile event app showing a barcode](../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png)
 
 #### Preparations
 
@@ -27,7 +27,7 @@ Before you can scan QR codes you need a keyboard app on your phone.
 
 [You find the app here](https://www.socketmobile.com/readers-accessories/product-families/socketcam/get-started)
 
-_Note: this app is not an eMarketeer product. Other "QR code keyboard" apps are available. For example, [this app](https://play.google.com/store/apps/details?id=com.nikosoft.nikokeyboard) for Android and [this app](https://apps.apple.com/us/app/scankey-qr-ocr-nfc-keyboard/id1356206918) for iPhone._
+_Note: this app is not an eMarketeer product. Other "QR code keyboard" apps are available. For example,_ [_this app_](https://play.google.com/store/apps/details?id=com.nikosoft.nikokeyboard) _for Android and_ [_this app_](https://apps.apple.com/us/app/scankey-qr-ocr-nfc-keyboard/id1356206918) _for iPhone._
 
 Installing the app adds a new keyboard to your phone. It works like a normal keyboard but can also scan barcodes.
 
@@ -35,7 +35,7 @@ Installing the app adds a new keyboard to your phone. It works like a normal key
 
 Get the web URL for the "Event Barcode Scan" form in your eMarketeer campaign and open it on your phone.
 
-![Scan form open on a mobile phone](../../assets/scan-attendance-phone/IMG_1824-473x1024.png)
+![Scan form open on a mobile phone](../../.gitbook/assets/IMG_1824-473x1024.png)
 
 To scan a badge:
 
@@ -48,9 +48,9 @@ Each scanned badge becomes a form submission from a known contact in eMarketeer.
 
 Once attendees are scanned you can also:
 
-- Send evaluations only to attended registrants.
-- Create journeys based on being scanned — for example, an SMS welcome with tips.
-- Reach out during the event using SMS with relevant information, such as "Don't forget your goodie bag."
+* Send evaluations only to attended registrants.
+* Create journeys based on being scanned — for example, an SMS welcome with tips.
+* Reach out during the event using SMS with relevant information, such as "Don't forget your goodie bag."
 
 ### Alternative scanning setup (advanced)
 

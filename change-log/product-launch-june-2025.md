@@ -6,27 +6,27 @@ Together they change how you capture leads and how you attribute the traffic tha
 
 ## The new form editor
 
-![New forms editor](../assets/product-launch-june-2025/new-forms-editor-1024x576.png)
+![New forms editor](../.gitbook/assets/new-forms-editor-1024x576.png)
 
 Forms are where relationships with contacts begin. This new editor lets you create modern, flexible forms and surveys that convert.
 
 Key features:
 
-- Flexible designs to match your brand
-- A user-friendly interface for form building
-- New question types (20+ input types)
-- Quizzes, scored surveys, timers, and calculators
-- Improved respondent experience
-- Mobile friendly (auto-complete, responsive)
-- Website integration with automatic update
-- Multi-language forms with translations
-- GDPR-friendly reCAPTCHA
-- Built-in UTM tracking for conversion performance
+* Flexible designs to match your brand
+* A user-friendly interface for form building
+* New question types (20+ input types)
+* Quizzes, scored surveys, timers, and calculators
+* Improved respondent experience
+* Mobile friendly (auto-complete, responsive)
+* Website integration with automatic update
+* Multi-language forms with translations
+* GDPR-friendly reCAPTCHA
+* Built-in UTM tracking for conversion performance
 
 ### What you need to know
 
-- Your current forms are kept and renamed "Forms Legacy".
-- You can still build forms using the old editor for now, but the new editor is the future.
+* Your current forms are kept and renamed "Forms Legacy".
+* You can still build forms using the old editor for now, but the new editor is the future.
 
 ### Getting started
 
@@ -42,10 +42,10 @@ The new tracking picks up as soon as a visitor enters your site for the first ti
 
 Features:
 
-- Cookieless tracking
-- Detailed traffic source tracking
-- Full contact web history logged on form submission
-- Tracking initiated from email clicks and form submissions
+* Cookieless tracking
+* Detailed traffic source tracking
+* Full contact web history logged on form submission
+* Tracking initiated from email clicks and form submissions
 
 ### What you need to know
 

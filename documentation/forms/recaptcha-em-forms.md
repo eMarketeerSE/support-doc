@@ -2,7 +2,7 @@
 
 reCAPTCHA is Google's CAPTCHA system that distinguishes human visitors from bots. Every eMarketeer form published after 25 April 2022 is protected by reCAPTCHA, shown by a grey and blue arrow icon at the bottom of the hosted form page.
 
-![reCAPTCHA icon shown on hosted form pages](../../assets/recaptcha-em-forms/recaptchaicon.png)
+![reCAPTCHA icon shown on hosted form pages](<../../.gitbook/assets/recaptchaicon (1).png>)
 
 reCAPTCHA prevents bots from submitting fake answers that would otherwise clutter your reports and create junk contacts. It works for both eMarketeer-hosted forms and forms embedded on your site. The system is enabled automatically when you publish a form.
 

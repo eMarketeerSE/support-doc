@@ -10,9 +10,8 @@ Creating a sales team requires admin privileges.
 
 1. Open Settings from the top menu and click User accounts.
 2. Open the Sales teams tab.
-3. Click Create new team.
+3.  Click Create new team.
 
-   ![Sales teams tab with the Create new team button visible](../../assets/sales-teams/Ska_CC_88rmavbild-2022-06-09-kl.-14.02.44.png)
-
+    ![Sales teams tab with the Create new team button visible](../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-09-kl.-14.02.44.png)
 4. Give the team a name. If you already have sales users, tick the ones who should be members.
 5. Click Save changes.

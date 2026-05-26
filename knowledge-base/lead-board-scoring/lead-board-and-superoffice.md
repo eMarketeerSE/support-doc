@@ -8,10 +8,10 @@ New leads are automatically matched with SuperOffice contacts and auto-assigned 
 
 When you integrate with SuperOffice Online, you get four main panels:
 
-- The Lead Board — the main web panel where leads are delivered and managed.
-- Company Summary — side panel on a company view that shows a summary of the company from eMarketeer.
-- Contact Summary — side panel on a contact view that shows data on the contact from eMarketeer.
-- Automation Queue — shows all automations waiting for the corresponding contact to be matched or created in SuperOffice.
+* The Lead Board — the main web panel where leads are delivered and managed.
+* Company Summary — side panel on a company view that shows a summary of the company from eMarketeer.
+* Contact Summary — side panel on a contact view that shows data on the contact from eMarketeer.
+* Automation Queue — shows all automations waiting for the corresponding contact to be matched or created in SuperOffice.
 
 ## Integration
 
@@ -25,7 +25,7 @@ If the SuperOffice user's email is not found in eMarketeer, they see an option t
 
 ## The Lead Board
 
-![SuperOffice web panel showing the Lead Board](../../assets/lead-board-and-superoffice/soboard-1024x517.png)
+![SuperOffice web panel showing the Lead Board](../../.gitbook/assets/soboard-1024x517.png)
 
 You will find the Lead Board on the main web panel under the SuperOffice logo. There is also a shortcut in the navigation.
 
@@ -41,13 +41,13 @@ eMarketeer then assigns the new lead to the correct sales user in eMarketeer. Th
 
 ## The contact summary web panel
 
-![Contact summary panel inside SuperOffice](../../assets/lead-board-and-superoffice/socontact-1024x646.png)
+![Contact summary panel inside SuperOffice](../../.gitbook/assets/socontact-1024x646.png)
 
 On the contact view in SuperOffice you can show the eMarketeer contact summary panel. It shows enriched data from eMarketeer for the contact. Matching is done on email address, and data is shown only if the contact exists in eMarketeer.
 
 ## The company summary web panel
 
-![Company summary panel inside SuperOffice](../../assets/lead-board-and-superoffice/socompany-1024x646.png)
+![Company summary panel inside SuperOffice](../../.gitbook/assets/socompany-1024x646.png)
 
 On the company view in SuperOffice you can use the eMarketeer Company Summary, which shows enriched data and an overview of all known contacts and their interactions in eMarketeer. The company is identified by the domain from its web address.
 

@@ -6,8 +6,8 @@ When you advertise on Facebook, you can attach a Call to Action to your ads to c
 
 ## Requirements
 
-- A Facebook business entity with access to one or more pages.
-- A Facebook personal profile with access to that business.
+* A Facebook business entity with access to one or more pages.
+* A Facebook personal profile with access to that business.
 
 [Read more about creating Lead Forms on Facebook here](https://www.facebook.com/business/help/397336587121938?id=735435806665862).
 
@@ -15,10 +15,10 @@ When you advertise on Facebook, you can attach a Call to Action to your ads to c
 
 Once connected, submissions can:
 
-- Create and update contacts.
-- Set lead score.
-- Trigger journeys.
-- Send leads to sales.
+* Create and update contacts.
+* Set lead score.
+* Trigger journeys.
+* Send leads to sales.
 
 ## Get started with Facebook Lead Forms
 
@@ -30,15 +30,15 @@ In the Facebook popup, log in with your personal profile to identify yourself.
 
 Next, choose which businesses you want to receive leads from. You can pick any business you have access to.
 
-![Facebook business selection screen](../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.21.png)
+![Facebook business selection screen](../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.21.png)
 
 Click "Continue". From the selected businesses, pick the pages you want to connect. You can choose all pages or specific ones.
 
-![Facebook page selection screen](../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.31.png)
+![Facebook page selection screen](../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.31.png)
 
 Finally, agree to the eMarketeer permissions and save the connection.
 
-![Facebook permissions confirmation](../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.09.24.png)
+![Facebook permissions confirmation](../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.09.24.png)
 
 You are now connected.
 
@@ -52,15 +52,15 @@ Once your lead ads are live, [use this tool](https://developers.facebook.com/too
 
 When any submission arrives, real or test, it is sent to eMarketeer automatically. You will find these contacts under Contacts in the Engagement filter.
 
-![Engagement filter showing Facebook lead submissions](../../assets/facebook-lead-forms/Skarmavbild-2023-12-15-kl.-08.55.45.png)
+![Engagement filter showing Facebook lead submissions](../../.gitbook/assets/Skarmavbild-2023-12-15-kl.-08.55.45.png)
 
 ## Process incoming leads from Facebook
 
 Once leads start arriving and you see your test in the Engagement filter, you can process them. You can:
 
-- Set lead score.
-- Start journeys.
-- Create leads on the Lead Board.
+* Set lead score.
+* Start journeys.
+* Create leads on the Lead Board.
 
 ## Troubleshooting
 
@@ -68,7 +68,7 @@ Once leads start arriving and you see your test in the Engagement filter, you ca
 
 When you create a [test lead](https://developers.facebook.com/tools/lead-ads-testing/), the status column should show "Success". If it shows "Failed" with the "CRM access" error below, you need to give eMarketeer access to your leads.
 
-![CRM access error from the Meta Lead Ads Testing tool](../../assets/facebook-lead-forms/image.png)
+![CRM access error from the Meta Lead Ads Testing tool](<../../.gitbook/assets/image (1).png>)
 
 To fix it:
 

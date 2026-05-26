@@ -6,14 +6,14 @@ In SuperOffice CRM, each contact has a "master switch" for e-marketing on the in
 
 If the contact has no legal basis for e-marketing emails, the switch is off (gray). If the contact has a legal basis that allows e-marketing, the switch is on (green).
 
-![SuperOffice e-marketing consent switch on a contact card](../../assets/import-contacts-from-superoffice-crm/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png)
+![SuperOffice e-marketing consent switch on a contact card](../../.gitbook/assets/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png)
 
 ## Choose which contacts to import
 
 When you import SuperOffice CRM contacts into eMarketeer, you can skip or include contacts whose e-marketing switch is off.
 
-- If the checkbox is selected, only contacts with the e-marketing switch on are imported.
-- If the checkbox is not selected, all contacts in the selection or project are imported.
+* If the checkbox is selected, only contacts with the e-marketing switch on are imported.
+* If the checkbox is not selected, all contacts in the selection or project are imported.
 
 ## How contacts are identified
 

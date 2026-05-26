@@ -8,8 +8,7 @@ Set up the Microsoft Dynamics 365 Sales integration. A few manual steps are requ
 
 As a **System Administrator**, follow these steps:
 
-1. Navigate to a consent URL and add the app:
-   `https://login.microsoftonline.com/<your tenant id>/adminconsent?client_id=a2a5e177-5102-4792-b0eb-52f4539f3cf7`
+1. Navigate to a consent URL and add the app: `https://login.microsoftonline.com/<your tenant id>/adminconsent?client_id=a2a5e177-5102-4792-b0eb-52f4539f3cf7`
 2. Open the **Power Platform Admin Center** at `https://admin.powerplatform.microsoft.com`.
 3. Go to **Manage > Environments** and select the environment you are configuring.
 4. Open **Settings → Users + permissions → Application users**.
@@ -28,7 +27,7 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 4. Check **Audit changes to its data**.
 5. Click **Save**.
 
-![Advanced options for the Contact table with audit changes enabled](../../assets/dynamics-installation/audit.png)
+![Advanced options for the Contact table with audit changes enabled](../../.gitbook/assets/audit.png)
 
 ## Step 3: Enable the integration in eMarketeer
 
@@ -38,10 +37,10 @@ In eMarketeer, go to [Account → Plugins & Integration → Microsoft Dynamics 3
 
 Click **Connect to Dynamics 365**.
 
-[![Microsoft Dynamics 365 integration page in eMarketeer with the Connect button](../../assets/dynamics-installation/dynamics_1-1024x388.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_1.png)
+[![Microsoft Dynamics 365 integration page in eMarketeer with the Connect button](../../.gitbook/assets/dynamics_1-1024x388.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_1.png)
 
 Log in with a Microsoft account that has access to the Dynamics environment you want to integrate.
 
-[![Microsoft sign-in prompt for connecting Dynamics](../../assets/dynamics-installation/dynamics_2-1024x442.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_2.png)
+[![Microsoft sign-in prompt for connecting Dynamics](../../.gitbook/assets/dynamics_2-1024x442.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_2.png)
 
 Choose the organization (environment) you want to integrate with and click **Continue**.

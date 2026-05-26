@@ -6,7 +6,7 @@ The left side of the screen holds the Add components menu and quick links for co
 
 Components make up the content of your campaign. There are four component types: [Emails](https://support.emarketeer.com/knowledgebase/basics-creating-email/), [Forms](https://support.emarketeer.com/knowledgebase/basics-creating-form/), [SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/), and [Webpages](https://support.emarketeer.com/knowledgebase/creating-first-webpage/), plus one sub-component, Mobile apps.
 
-[![Campaign UI](../../assets/campaign-interface-explained/campaign-UI-numbers.png)](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
+[![Campaign UI](../../.gitbook/assets/campaign-UI-numbers.png)](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
 
 The campaign user interface
 
@@ -14,18 +14,12 @@ The campaign user interface
 
 Below the campaign path, name, and description sit several tabs. Each tab is a separate view of the campaign:
 
-- Dashboard
-  Build campaign-specific reports using reporting widgets. See [campaign reports](https://support.emarketeer.com/knowledgebase/how-to-use-emarketeer-campaign-reports/).
-- Components
-  The default view. Organize and view the campaign's components. The number in parentheses shows how many components the campaign has.
-- Contacts
-  Lists contacts added to the campaign, either imported directly or added automatically through interaction. The number in parentheses shows how many contacts are currently related to the campaign. [Read more](https://support.emarketeer.com/knowledgebase/campaign-contacts/).
-- Event history
-  Shows events for sent emails or SMS. Review when a component was sent, and review or abort upcoming scheduled sends. The number in parentheses shows scheduled sendouts currently waiting in this campaign.
-- Automation
-  Add automated actions to the campaign. Automations trigger from a contact interacting with a component, so the campaign must contain at least one component. The number in parentheses shows how many automations exist in the campaign.
-- Fields
-  Define fields unique to this campaign that can be merged into component content as variables. Editing a field value replaces the variable in every component that uses it. [Read more about campaign fields](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
+* Dashboard Build campaign-specific reports using reporting widgets. See [campaign reports](https://support.emarketeer.com/knowledgebase/how-to-use-emarketeer-campaign-reports/).
+* Components The default view. Organize and view the campaign's components. The number in parentheses shows how many components the campaign has.
+* Contacts Lists contacts added to the campaign, either imported directly or added automatically through interaction. The number in parentheses shows how many contacts are currently related to the campaign. [Read more](https://support.emarketeer.com/knowledgebase/campaign-contacts/).
+* Event history Shows events for sent emails or SMS. Review when a component was sent, and review or abort upcoming scheduled sends. The number in parentheses shows scheduled sendouts currently waiting in this campaign.
+* Automation Add automated actions to the campaign. Automations trigger from a contact interacting with a component, so the campaign must contain at least one component. The number in parentheses shows how many automations exist in the campaign.
+* Fields Define fields unique to this campaign that can be merged into component content as variables. Editing a field value replaces the variable in every component that uses it. [Read more about campaign fields](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
 
 ## 2. View-specific area
 
@@ -39,14 +33,10 @@ Thumbnails are not displayed in a particular order, but you can rearrange them b
 
 Under each thumbnail is a menu with Edit, Send/Publish, and Reports. These are the main sections of each component:
 
-- Edit
-  Opens the component editor where you change the content of the component.
-- Send
-  Opens the Send options page. Send or schedule a component. Available for email and SMS only.
-- Publish
-  Opens the Publish options page. Shows the direct URL of the component and other publishing options. Available for forms and webpages only.
-- Reports
-  Opens the component report. Each component type has its own report with different metrics.
+* Edit Opens the component editor where you change the content of the component.
+* Send Opens the Send options page. Send or schedule a component. Available for email and SMS only.
+* Publish Opens the Publish options page. Shows the direct URL of the component and other publishing options. Available for forms and webpages only.
+* Reports Opens the component report. Each component type has its own report with different metrics.
 
 Below the main component menu is an area with extra information about the component, such as its type and usage metrics. Below that is the More actions menu.
 
@@ -54,13 +44,8 @@ Below the main component menu is an area with extra information about the compon
 
 This menu provides options for managing the component:
 
-- Delete
-  Deletes the component from the campaign. Deleting a component removes its report and connected statistics. Contact interactions with the component are removed from the contact's Engagement timeline.
-- Rename
-  Renames the component. The name is visible only to eMarketeer users, not to contacts.
-- Copy
-  Creates a copy in the campaign named "Copy of [component name]". The copy has a clean report but is otherwise identical to the original.
-- Move
-  Moves the component to another campaign. Internal links to components in the source campaign may break in the new campaign.
-- Make template
-  Creates a copy of the component as a template, available in the Add components menu under My templates. My templates lists all saved templates on your account.
+* Delete Deletes the component from the campaign. Deleting a component removes its report and connected statistics. Contact interactions with the component are removed from the contact's Engagement timeline.
+* Rename Renames the component. The name is visible only to eMarketeer users, not to contacts.
+* Copy Creates a copy in the campaign named "Copy of \[component name]". The copy has a clean report but is otherwise identical to the original.
+* Move Moves the component to another campaign. Internal links to components in the source campaign may break in the new campaign.
+* Make template Creates a copy of the component as a template, available in the Add components menu under My templates. My templates lists all saved templates on your account.
