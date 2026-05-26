@@ -2,11 +2,12 @@
 
 * [Välkommen](README.md)
 
-## Knowledge Base
+## Översikt
 
-* [Översikt](knowledge-base/README.md)
+* [Knowledge Base](knowledge-base/README.md)
+* [Dokumentation](documentation/README.md)
 
-### Kom igång
+## Kom igång
 
 * [Skapa din första e-post](knowledge-base/getting-started/basics-creating-email.md)
 * [Skapa ditt första formulär (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
@@ -15,6 +16,9 @@
 * [Så här skapar du en ny kampanj](knowledge-base/getting-started/create-new-campaign.md)
 * [Kom igång med leads](knowledge-base/getting-started/get-started-leads.md)
 * [Så här skapar du en ny kontaktlista](knowledge-base/getting-started/new-contact-list.md)
+* [Introduktion](documentation/getting-started/introduction.md)
+
+## Guider
 
 ### E-postinnehåll
 
@@ -45,6 +49,15 @@
 * [Så hittar du ej levererbara e-postadresser från checklistan](knowledge-base/email-deliverability/undeliverable-contacts-email-checklist.md)
 * [Snabbare utskick och bättre leveransbarhet — eMarketeers nya e-posttjänst](knowledge-base/email-deliverability/why-authorize-email-domain.md)
 
+### E-post & SMS-utskick
+
+* [Automatisk pausning av utskick](documentation/email-sms/automatic-send-pause.md)
+* [Exkludera inaktiva mottagare](documentation/email-sms/exclude-inactive-recipients.md)
+* [SMS Sender ID](documentation/email-sms/sender-id.md)
+* [Transaktionella utskick](documentation/email-sms/transactional-sendouts.md)
+* [Whitelist över länder som stödjer SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
+* [Whitelista e-postservrar](documentation/email-sms/whitelisting-email-servers.md)
+
 ### Formulär
 
 * [Formulärspecifik QR-kodgenerering för att skanna närvaro på event (avancerat)](knowledge-base/forms/advanced-event-qr-code.md)
@@ -61,6 +74,9 @@
 * [Hur tar jag bort ett formulärsvar?](knowledge-base/forms/removing-a-form-answer.md)
 * [Så här scannar du närvaro på event med en mobiltelefon](knowledge-base/forms/scan-attendance-phone.md)
 * [Formulär: krav för webbintegration](knowledge-base/forms/website-integration-requirements.md)
+* [Bädda in formulär på din webbplats](documentation/forms/publish-a-form.md)
+* [reCAPTCHA för eMarketeer-formulär](documentation/forms/recaptcha-em-forms.md)
+* [Formulärkomponenten](documentation/forms/the-form-component.md)
 
 ### Kampanjer
 
@@ -74,6 +90,9 @@
 ### Journeys
 
 * [Översikt över Journeys](knowledge-base/journeys/journeys.md)
+* [Skapa din första Journey](documentation/journeys/creating-your-first-journey.md)
+* [Utlösande händelser för Journeys](documentation/journeys/journeys-triggering-events.md)
+* [Journeys – översikt](documentation/journeys/journeys.md)
 
 ### Rapporter & analys
 
@@ -104,28 +123,6 @@
 * [Sales users](knowledge-base/lead-board-scoring/sales-users.md)
 * [Lead Board](knowledge-base/lead-board-scoring/the-lead-board.md)
 
-### Integrationer
-
-* [Varför misslyckades SuperOffice-automatiseringen?](knowledge-base/integrations/integration-queue-failed-automations.md)
-* [Microsoft Dynamics 365 Sales-integration](knowledge-base/integrations/microsoft-dynamics-integration.md)
-* [Skicka en Webhook från Zapier till eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
-* [LinkedIn Lead Gen Forms](knowledge-base/integrations/signals.md)
-* [SuperOffice-automatiseringar (PRO)](knowledge-base/integrations/superoffice-automations-pro.md)
-* [SuperOffice-integration](knowledge-base/integrations/superofficeintegration.md)
-
-### GDPR & samtycke
-
-* [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
-* [eMarketeer GDPR-översikt](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
-* [[Video] GDPR och vad det innebär för eMarketeer-användare](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)
-* [GDPR – General Data Protection Regulation](knowledge-base/gdpr-consent/gdpr-general-data-protection-regulation.md)
-* [Andra releasen i GDPR-färdplanen](knowledge-base/gdpr-consent/gdpr-release.md)
-* [Hur fungerar samtycke?](knowledge-base/gdpr-consent/how-does-consent-work.md)
-* [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
-* [eMarketeers GDPR-färdplan](knowledge-base/gdpr-consent/is-there-an-emarketeer-gdpr-roadmap.md)
-* [Vad bör jag göra innan GDPR?](knowledge-base/gdpr-consent/what-should-i-do-before-gdpr.md)
-* [Vilka nya funktioner kommer eMarketeer att introducera för att hjälpa till med GDPR?](knowledge-base/gdpr-consent/which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
-
 ### Konto & administration
 
 * [Ändra navigeringsikoner i mobilappen (Developer)](knowledge-base/account-admin/app-navigation-icons.md)
@@ -140,22 +137,7 @@
 * [Automatiska UTM-länkar](knowledge-base/account-admin/webtracker.md)
 * [Var lagras eMarketeer-data geografiskt?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
 
-### Utvecklare & avancerat
-
-* [Streckkoder](knowledge-base/developer-advanced/barcodes.md)
-* [Skapa din första webbsida](knowledge-base/developer-advanced/creating-first-webpage.md)
-* [Villkor](knowledge-base/developer-advanced/dcl-dynamic-content-language.md)
-* [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
-* [Webinar: Så bygger du mobilappar i eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
-* [Varför eMarketeer inte stöder SRI för embed-skript](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
-
-## Dokumentation
-
-* [Översikt](documentation/README.md)
-
-### Kom igång
-
-* [Introduktion](documentation/getting-started/introduction.md)
+## Referens
 
 ### API & utvecklarreferens
 
@@ -171,27 +153,6 @@
 * [Prenumerationer](documentation/apis-developer/subscriptions.md)
 * [Taggar](documentation/apis-developer/tags.md)
 * [Mallfunktioner](documentation/apis-developer/template-functions.md)
-
-### Formulär
-
-* [Bädda in formulär på din webbplats](documentation/forms/publish-a-form.md)
-* [reCAPTCHA för eMarketeer-formulär](documentation/forms/recaptcha-em-forms.md)
-* [Formulärkomponenten](documentation/forms/the-form-component.md)
-
-### Journeys
-
-* [Skapa din första Journey](documentation/journeys/creating-your-first-journey.md)
-* [Utlösande händelser för Journeys](documentation/journeys/journeys-triggering-events.md)
-* [Journeys – översikt](documentation/journeys/journeys.md)
-
-### E-post & SMS-utskick
-
-* [Automatisk pausning av utskick](documentation/email-sms/automatic-send-pause.md)
-* [Exkludera inaktiva mottagare](documentation/email-sms/exclude-inactive-recipients.md)
-* [SMS Sender ID](documentation/email-sms/sender-id.md)
-* [Transaktionella utskick](documentation/email-sms/transactional-sendouts.md)
-* [Whitelist över länder som stödjer SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
-* [Whitelista e-postservrar](documentation/email-sms/whitelisting-email-servers.md)
 
 ### Egna domäner
 
@@ -211,44 +172,81 @@
 * [Användarkonton](documentation/accounts-auth/user-accounts.md)
 * [Användarguide: Aktivera Multi-Factor-inloggning](documentation/accounts-auth/user-guide-enable-multi-factor-login.md)
 
+### Utvecklare & avancerat
+
+* [Streckkoder](knowledge-base/developer-advanced/barcodes.md)
+* [Skapa din första webbsida](knowledge-base/developer-advanced/creating-first-webpage.md)
+* [Villkor](knowledge-base/developer-advanced/dcl-dynamic-content-language.md)
+* [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
+* [Webinar: Så bygger du mobilappar i eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
+* [Varför eMarketeer inte stöder SRI för embed-skript](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
+
+## Integrationer
+
+### SuperOffice
+
+* [SuperOffice-integration](documentation/superoffice/superoffice.md)
+* [Om SuperOffice-integrationen](documentation/superoffice/about-the-superoffice-integration.md)
+* [SuperOffice Online-integration](documentation/superoffice/superoffice-online-integration.md)
+* [Åtgärder som utförs vid uppsättning av SuperOffice-integrationen](documentation/superoffice/actions-performed-during-set-up.md)
+* [SuperOffice-integrationen – funktioner och flöden](documentation/superoffice/integration-features-and-flows.md)
+* [Importera kontakter från SuperOffice CRM](documentation/superoffice/import-contacts-from-superoffice-crm.md)
+* [SuperOffice-automatiseringar (PRO)](knowledge-base/integrations/superoffice-automations-pro.md)
+* [SuperOffice-integration](knowledge-base/integrations/superofficeintegration.md)
+* [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
+* [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)
+* [On premise: aktivera integrationen](documentation/superoffice/on-premise-enabling-the-integration.md)
+* [On premise: installationsprocess](documentation/superoffice/on-premise-installation-process.md)
+* [On premise: NetServer-URL och användarkonto](documentation/superoffice/on-premise-netserver-url-and-user-creation.md)
+* [Återställ en SuperOffice-integration](documentation/superoffice/resetting-a-superoffice-online-integration.md)
+* [Felsökning av SuperOffice-integrationsuppsättning](documentation/superoffice/troubleshooting-so-setup.md)
+* [Varför misslyckades SuperOffice-automatiseringen?](knowledge-base/integrations/integration-queue-failed-automations.md)
+
 ### Microsoft Dynamics 365
 
+* [Microsoft Dynamics 365 Sales-integration](documentation/dynamics-365/dynamics.md)
+* [Microsoft Dynamics 365 Sales-integration](documentation/dynamics-365/microsoft-dynamics-integration.md)
+* [Microsoft Dynamics 365 Sales-integration](knowledge-base/integrations/microsoft-dynamics-integration.md)
 * [Installera Dynamics Contact Panel](documentation/dynamics-365/5355-2.md)
+* [Dynamics - Funktioner](documentation/dynamics-365/dynamics-features.md)
+* [Dynamics - Installationsprocess](documentation/dynamics-365/dynamics-installation.md)
+* [Dynamics - Import](documentation/dynamics-365/dynamics-import.md)
+* [Dynamics - Journey-steg](documentation/dynamics-365/dynamics-journey-steps.md)
+* [Dynamics - Synkronisering av rättslig grund och prenumerationer](documentation/dynamics-365/dynamics-legal-basis-sync.md)
 * [Dynamics - Create/Update Lead](documentation/dynamics-365/create-update-lead.md)
 * [Dynamics - Add activity](documentation/dynamics-365/dynamics-add-activity.md)
 * [Dynamics - Add contact activity](documentation/dynamics-365/dynamics-add-contact-activity.md)
 * [Dynamics - Add Contact to Marketing List](documentation/dynamics-365/dynamics-add-contact-to-marketing-list.md)
 * [Dynamics - Add Lead activity](documentation/dynamics-365/dynamics-add-lead-activity.md)
 * [Dynamics - Add Lead to Marketing List](documentation/dynamics-365/dynamics-add-lead-to-marketing-list.md)
-* [Dynamics - Funktioner](documentation/dynamics-365/dynamics-features.md)
-* [Dynamics - Import](documentation/dynamics-365/dynamics-import.md)
-* [Dynamics - Installationsprocess](documentation/dynamics-365/dynamics-installation.md)
-* [Dynamics - Journey-steg](documentation/dynamics-365/dynamics-journey-steps.md)
-* [Dynamics - Synkronisering av rättslig grund och prenumerationer](documentation/dynamics-365/dynamics-legal-basis-sync.md)
-* [Microsoft Dynamics 365 Sales-integration](documentation/dynamics-365/dynamics.md)
 * [Dynamics - Add contact activity](documentation/dynamics-365/journey-add-contact-activity.md)
-* [Microsoft Dynamics 365 Sales-integration](documentation/dynamics-365/microsoft-dynamics-integration.md)
-
-### SuperOffice
-
-* [Om SuperOffice-integrationen](documentation/superoffice/about-the-superoffice-integration.md)
-* [Åtgärder som utförs vid uppsättning av SuperOffice-integrationen](documentation/superoffice/actions-performed-during-set-up.md)
-* [Importera kontakter från SuperOffice CRM](documentation/superoffice/import-contacts-from-superoffice-crm.md)
-* [SuperOffice-integrationen – funktioner och flöden](documentation/superoffice/integration-features-and-flows.md)
-* [On premise: aktivera integrationen](documentation/superoffice/on-premise-enabling-the-integration.md)
-* [On premise: installationsprocess](documentation/superoffice/on-premise-installation-process.md)
-* [On premise: NetServer-URL och användarkonto](documentation/superoffice/on-premise-netserver-url-and-user-creation.md)
-* [Återställ en SuperOffice-integration](documentation/superoffice/resetting-a-superoffice-online-integration.md)
-* [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)
-* [SuperOffice Online-integration](documentation/superoffice/superoffice-online-integration.md)
-* [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
-* [SuperOffice-integration](documentation/superoffice/superoffice.md)
-* [Felsökning av SuperOffice-integrationsuppsättning](documentation/superoffice/troubleshooting-so-setup.md)
 
 ### Lead-integrationer
 
 * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
 * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
+* [LinkedIn Lead Gen Forms](knowledge-base/integrations/signals.md)
+
+### Övriga integrationer
+
+* [Skicka en Webhook från Zapier till eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
+
+## Koncept
+
+### GDPR & samtycke
+
+* [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
+* [eMarketeer GDPR-översikt](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
+* [[Video] GDPR och vad det innebär för eMarketeer-användare](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)
+* [GDPR – General Data Protection Regulation](knowledge-base/gdpr-consent/gdpr-general-data-protection-regulation.md)
+* [Andra releasen i GDPR-färdplanen](knowledge-base/gdpr-consent/gdpr-release.md)
+* [Hur fungerar samtycke?](knowledge-base/gdpr-consent/how-does-consent-work.md)
+* [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+* [eMarketeers GDPR-färdplan](knowledge-base/gdpr-consent/is-there-an-emarketeer-gdpr-roadmap.md)
+* [Vad bör jag göra innan GDPR?](knowledge-base/gdpr-consent/what-should-i-do-before-gdpr.md)
+* [Vilka nya funktioner kommer eMarketeer att introducera för att hjälpa till med GDPR?](knowledge-base/gdpr-consent/which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
+
+## Felsökning
 
 ## Ändringslogg
 
