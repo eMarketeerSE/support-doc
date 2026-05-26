@@ -1,9 +1,8 @@
 # Table of contents
 
-* [Welcome](README.md)
-
 ## Getting started
 
+* [Overview](overview.md)
 * [Campaign basics](knowledge-base/getting-started/campaign-basics.md)
   * [Creating your first email](knowledge-base/getting-started/basics-creating-email.md)
   * [Creating your first form (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
