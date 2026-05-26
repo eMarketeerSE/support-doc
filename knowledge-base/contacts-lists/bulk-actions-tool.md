@@ -4,13 +4,21 @@ Bulk Actions lets you update or manage groups of contacts in a single operation.
 
 The Bulk Actions button is available alongside Selections, Lists, and contact pages, typically next to the Export button. Use it when you need to apply the same change to many contacts at once.
 
+<div data-with-frame="true">
+
 ![Bulk Actions button on the contact list page](../../assets/bulk-actions-tool/pn_21-07-26_11-01-00.png)
+
+</div>
 
 Image showing the location of the Bulk Actions button on the Contacts Page of a Contact List
 
 ## Bulk action options
 
+<div data-with-frame="true">
+
 ![Bulk Actions menu listing the nine available operations](../../assets/bulk-actions-tool/bulkactions2501.png)
+
+</div>
 
 The Bulk Actions tool offers nine main functions:
 

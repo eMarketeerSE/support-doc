@@ -4,13 +4,21 @@ Bulk Actions (Massåtgärder) låter dig uppdatera eller hantera grupper av kont
 
 Knappen Bulk Actions finns tillgänglig vid sidan om urval, listor och kontaktsidor, vanligtvis bredvid Export-knappen. Använd den när du behöver tillämpa samma ändring på många kontakter samtidigt.
 
+<div data-with-frame="true">
+
 ![Knappen Bulk Actions på kontaktlistans sida](../../../assets/bulk-actions-tool/pn_21-07-26_11-01-00.png)
+
+</div>
 
 Bild som visar platsen för Bulk Actions-knappen på kontaktsidan i en kontaktlista
 
 ## Alternativ för Bulk Actions
 
+<div data-with-frame="true">
+
 ![Bulk Actions-menyn som listar de nio tillgängliga operationerna](../../../assets/bulk-actions-tool/bulkactions2501.png)
+
+</div>
 
 Bulk Actions-verktyget erbjuder nio huvudfunktioner:
 
