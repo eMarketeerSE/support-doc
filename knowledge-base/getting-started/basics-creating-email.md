@@ -23,16 +23,12 @@ From the campaign page, click **Add Email**.
 * If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce1.png" alt="Add Email button on the campaign page"></div>
-
-Add Email button
 {% endstep %}
 
 {% step %}
 #### Fill in settings, choose a template, create the email
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce2.png" alt="Email settings and template selection dialog"></div>
-
-Email settings
 
 **Settings**
 
@@ -62,8 +58,6 @@ After you click **Create Email**, the editor opens with the new email. The left-
 The content is made up of content blocks, which you edit individually in the following steps.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce3.png" alt="Email editor with content blocks and left-side menu"></div>
-
-Email editor view
 {% endstep %}
 
 {% step %}
@@ -72,8 +66,6 @@ Email editor view
 Each content block is made up of several parts you can update. Click the block's edit button to open its settings.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce-edit-block-1.png" alt="Edit button on a content block"></div>
-
-Editing a content block
 
 A settings menu opens on the right with two tabs: **Content** and **Styles**. Content is where you change the block's settings and content. Styles is where you change colors and fonts.
 
@@ -90,8 +82,6 @@ In the image below, we are not using the text paragraph and two of the link butt
 Click **Save** after each change to save your work.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce5.png" alt="Editing a block&#x27;s headline text in the content menu"></div>
-
-Update content block text
 {% endstep %}
 
 {% step %}
@@ -113,13 +103,9 @@ To upload and use an image:
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2.png" alt="Upload File, Choose files, and Use Selected steps"></div>
 
-Steps for uploading and using a new image file
-
 If the image does not match the recommended dimensions for the block, an option to auto-scale it appears. Click the link in the notice to accept.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_3.png" alt="Auto Scale notice for resizing the uploaded image"></div>
-
-Auto Scale option
 {% endstep %}
 
 {% step %}
@@ -133,8 +119,6 @@ Use buttons to link to a webpage, file, or another eMarketeer component. For a w
 4. Click **Select**, then **Apply**, then **Save** to add the link and save the block.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce6.png" alt="Setting a button link via Browse to an eMarketeer form"></div>
-
-Update content block button link
 {% endstep %}
 
 {% step %}
@@ -145,8 +129,6 @@ To add a new content block, click **Add Content Block** in the left-side menu. I
 If the button is grey, first click an existing block to tell the editor where the new one should go.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12.png" alt="Add Content Block menu with block type options"></div>
-
-Add a content block, then add the specific block you want
 {% endstep %}
 
 {% step %}
@@ -155,8 +137,6 @@ Add a content block, then add the specific block you want
 To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce-move.png" alt="Reposition icon used to drag a content block"></div>
-
-Reposition a block by dragging it into place
 {% endstep %}
 
 {% step %}
@@ -165,8 +145,6 @@ Reposition a block by dragging it into place
 To remove a block from the template, click the delete button on its context bar.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Delete button on a content block&#x27;s context bar"></div>
-
-Delete content block button
 {% endstep %}
 
 {% step %}
@@ -179,8 +157,6 @@ You configure the calendar event in the block's content menu — date, time, tit
 Keep the **Description** field to plain text and limit it to two or three short paragraphs.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce7.png" alt="Add to Calendar block settings with date, time, and location"></div>
-
-Update Add to Calendar block
 {% endstep %}
 
 {% step %}
@@ -193,8 +169,6 @@ The preheader is the short summary that recipient email clients show next to the
 Once your preheader is saved, click **Done Editing** to exit the editor.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce8.png" alt="Preheader field in Email Settings block with Done Editing button"></div>
-
-Write a preheader and exit the editor
 {% endstep %}
 {% endstepper %}
 
