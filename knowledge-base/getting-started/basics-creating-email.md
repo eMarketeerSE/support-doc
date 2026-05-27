@@ -1,6 +1,10 @@
-# Creating your first email
+---
+description: >-
+  This guide walks you through creating an email in eMarketeer, from setting it
+  up to editing content blocks and adding the final touches.
+---
 
-This guide walks you through creating an email in eMarketeer, from setting it up to editing content blocks and adding the final touches.
+# Creating your first email
 
 The example builds an event invitation email, but the process is the same for any email type. By the end, you will have an email ready to send.
 
@@ -71,7 +75,7 @@ In the image below, we are not using the text paragraph and two of the link butt
 
 Click **Save** after each change to save your work.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/ce5.png" alt="Editing a block's headline text in the content menu"></div>
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce5.png" alt="Editing a block&#x27;s headline text in the content menu"></div>
 
 Update content block text
 
@@ -136,7 +140,7 @@ Reposition a block by dragging it into place
 
 To remove a block from the template, click the delete button on its context bar.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Delete button on a content block's context bar"></div>
+<div data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Delete button on a content block&#x27;s context bar"></div>
 
 Delete content block button
 
