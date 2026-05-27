@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # \[Video] GDPR and what it means for eMarketeer users
 
 This video walks through eMarketeer's GDPR roadmap and the new features you can expect before GDPR takes full effect on May 25th.

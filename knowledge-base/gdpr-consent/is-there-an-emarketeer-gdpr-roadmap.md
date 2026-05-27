@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # The eMarketeer GDPR roadmap
 
 Before 25 May, eMarketeer will deliver the features you need to manage consent and keep it in sync with SuperOffice if you have that integration.

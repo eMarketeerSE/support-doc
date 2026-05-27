@@ -30,7 +30,7 @@ In eMarketeer, create a form with a contact registration and any other questions
 
 Click "publish" on the form.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/form_publish (1" alt="The publish button on a form."></div>.png>)
+.png>)
 
 Then click "Website integration."
 

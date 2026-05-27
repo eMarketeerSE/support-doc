@@ -68,7 +68,7 @@ Once leads start arriving and you see your test in the Engagement filter, you ca
 
 When you create a [test lead](https://developers.facebook.com/tools/lead-ads-testing/), the status column should show "Success". If it shows "Failed" with the "CRM access" error below, you need to give eMarketeer access to your leads.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/image (1" alt="CRM access error from the Meta Lead Ads Testing tool"></div>.png>)
+.png>)
 
 To fix it:
 

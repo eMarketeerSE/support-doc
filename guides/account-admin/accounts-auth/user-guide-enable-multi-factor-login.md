@@ -10,11 +10,19 @@ Before you start, install an authentication app on your mobile device if you don
 
 ### Google Authenticator
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34 (1" alt="Google Authenticator app icon"></div>.png>) [<div data-with-frame="true"><img src="<../../.gitbook/assets/5a902dbf7f96951c82922875-1 (1" alt="Get it on Google Play"></div>.png>)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) [<div data-with-frame="true"><img src="<../../.gitbook/assets/5a902db97f96951c82922874 (1" alt="Download on the App Store"></div>.png>)](https://apps.apple.com/se/app/google-authenticator/id388497605)
+.png>) \[
+
+.png>)]\(https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) \[
+
+.png>)]\(https://apps.apple.com/se/app/google-authenticator/id388497605)
 
 ### Twilio Authy 2-Factor Authentication
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54 (1" alt="Twilio Authy app icon"></div>.png>) [<div data-with-frame="true"><img src="<../../.gitbook/assets/5a902dbf7f96951c82922875-1 (1" alt="Get it on Google Play"></div>.png>)](https://play.google.com/store/apps/details?id=com.authy.authy) [<div data-with-frame="true"><img src="<../../.gitbook/assets/5a902db97f96951c82922874 (1" alt="Download on the App Store"></div>.png>)](https://apps.apple.com/us/app/twilio-authy/id494168017)
+.png>) \[
+
+.png>)]\(https://play.google.com/store/apps/details?id=com.authy.authy) \[
+
+.png>)]\(https://apps.apple.com/us/app/twilio-authy/id494168017)
 
 ## Set up MFA
 
@@ -24,19 +32,19 @@ Follow these steps after you or your administrator enables MFA on your account. 
 
 Type your username and password. If you or your account administrator requested MFA, an "Activate MFA" button appears. Click it.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1 (1" alt="eMarketeer login screen with Activate MFA button"></div>.png>)
+.png>)
 
 ### 2. Set up the app
 
 A QR code appears on the screen. Open the authenticator app on your mobile phone and tap "Scan QR code." Use the app to scan the code on your computer screen. The app then displays a six-digit code. Type this code into eMarketeer and click "Continue."
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit (1" alt="QR code displayed during MFA setup"></div>.png>)
+.png>)
 
 ### 3. Save the recovery code
 
 You are now authenticated, but before you can proceed, eMarketeer shows you a recovery code. Use this code as a backup if you don't have your phone with the authenticator app. Save it and keep it in a secure place. Check the box to confirm you saved it, then click "Continue."
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09 (1" alt="Recovery code displayed during MFA setup"></div>.png>)
+.png>)
 
 Setup is complete.
 
@@ -44,6 +52,6 @@ Setup is complete.
 
 The next time you log in, eMarketeer shows a "Verify your identity" message. Open your authentication app, read the six-digit code, and type it into the login screen. If you check the box, eMarketeer remembers your identity on this device for 30 days, and you don't need the authenticator app for that period.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14 (1" alt="Verify your identity prompt during login"></div>.png>)
+.png>)
 
 If you run into problems logging in, contact support through the chat box on the login page.
