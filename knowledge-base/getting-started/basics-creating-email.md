@@ -8,9 +8,10 @@ description: >-
 
 The example builds an event invitation email, but the process is the same for any email type. By the end, you will have an email ready to send.
 
-***
+{% stepper %}
+{% step %}
 
-### 1. Add the email from the campaign page
+#### Add the email from the campaign page
 
 From the campaign page, click **Add Email**.
 
@@ -20,13 +21,16 @@ From the campaign page, click **Add Email**.
 
 Add Email button
 
-### 2. Fill in settings, choose a template, create the email
+{% endstep %}
+{% step %}
+
+#### Fill in settings, choose a template, create the email
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce2.png" alt="Email settings and template selection dialog"></div>
 
 Email settings
 
-#### Settings
+**Settings**
 
 * **Name your email:** Give the email a unique name so you can find it later. Describe the email's purpose in the context of the campaign — for example, "Invitation" for an invitation email. Only you see this name; it is not shown to your contacts.
 * **Subject:** The subject line recipients see in their email clients.
@@ -37,15 +41,18 @@ Email settings
 * **Reply-to Address (optional):** An address that receives any replies, useful if the From Address cannot receive email. Rarely used; usually safe to skip.
 * **Subscription Category (optional):** If your account uses subscription lists, you can categorize this email here. Rarely used; usually safe to skip.
 
-#### Template
+**Template**
 
 Pick a template from one of the tabs as a starting point for the design. This guide uses **Hero Event** from the **Events** tab. Custom templates saved on your account appear under **My Templates**.
 
-#### Create email component
+**Create email component**
 
 Once settings and template are set, click **Create Email** to create the component.
 
-### 3. The email editor
+{% endstep %}
+{% step %}
+
+#### The email editor
 
 After you click **Create Email**, the editor opens with the new email. The left-side menu lets you add content blocks, access tools, and update the settings from step 2. The rest of the page shows the email content, imported from the template you chose.
 
@@ -55,7 +62,10 @@ The content is made up of content blocks, which you edit individually in the fol
 
 Email editor view
 
-### 4. Edit a content block
+{% endstep %}
+{% step %}
+
+#### Edit a content block
 
 Each content block is made up of several parts you can update. Click the block's edit button to open its settings.
 
@@ -67,7 +77,10 @@ A settings menu opens on the right with two tabs: **Content** and **Styles**. Co
 
 On the Content tab, the first section controls how the block displays — leave those defaults for now. The second section is what appears in the block: images, headlines, text paragraphs, and buttons.
 
-### 5. Change a block's headline
+{% endstep %}
+{% step %}
+
+#### Change a block's headline
 
 To change a headline or text paragraph, click the title bar for that part and edit the text in the text box. If you leave the text box empty, that part of the block is hidden.
 
@@ -79,7 +92,10 @@ Click **Save** after each change to save your work.
 
 Update content block text
 
-### 6. Upload an image
+{% endstep %}
+{% step %}
+
+#### Upload an image
 
 To upload your own image, open the content block for editing, go to the Image section in the right-side menu, and click **Choose Image**.
 
@@ -105,7 +121,10 @@ If the image does not match the recommended dimensions for the block, an option 
 
 Auto Scale option
 
-### 7. Add a button with a link
+{% endstep %}
+{% step %}
+
+#### Add a button with a link
 
 Use buttons to link to a webpage, file, or another eMarketeer component. For a web link, type the URL in the Link settings (include the `http://` or `https://` protocol) and write a button caption. To link to another eMarketeer component, follow these steps:
 
@@ -118,7 +137,10 @@ Use buttons to link to a webpage, file, or another eMarketeer component. For a w
 
 Update content block button link
 
-### 8. Add a new content block
+{% endstep %}
+{% step %}
+
+#### Add a new content block
 
 To add a new content block, click **Add Content Block** in the left-side menu. In the Add Content menu on the right, click **Add Block** next to the type you want.
 
@@ -128,7 +150,10 @@ If the button is grey, first click an existing block to tell the editor where th
 
 Add a content block, then add the specific block you want
 
-### 9. Reposition a content block
+{% endstep %}
+{% step %}
+
+#### Reposition a content block
 
 To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
@@ -136,7 +161,10 @@ To move a block, click and hold the reposition icon on the left side of the bloc
 
 Reposition a block by dragging it into place
 
-### 10. Delete a content block
+{% endstep %}
+{% step %}
+
+#### Delete a content block
 
 To remove a block from the template, click the delete button on its context bar.
 
@@ -144,7 +172,10 @@ To remove a block from the template, click the delete button on its context bar.
 
 Delete content block button
 
-### 11. Use a block with a calendar link
+{% endstep %}
+{% step %}
+
+#### Use a block with a calendar link
 
 Some content blocks support a calendar link feature, which is useful for events. When a recipient clicks the link, eMarketeer generates a calendar file that adds the event to their calendar using the settings you chose.
 
@@ -156,7 +187,10 @@ Keep the **Description** field to plain text and limit it to two or three short 
 
 Update Add to Calendar block
 
-### 12. Add a preheader and finish the email
+{% endstep %}
+{% step %}
+
+#### Add a preheader and finish the email
 
 The Email Settings block at the top of most emails is optional. Most of its settings are for special use cases involving shared links to the email content, but the **Preheader** is worth using.
 
@@ -168,7 +202,8 @@ Once your preheader is saved, click **Done Editing** to exit the editor.
 
 Write a preheader and exit the editor
 
-***
+{% endstep %}
+{% endstepper %}
 
 ### What to do next
 

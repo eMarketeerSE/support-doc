@@ -4,44 +4,51 @@ Den här guiden tar dig genom hur du skapar en e-post i eMarketeer, från grundi
 
 Exemplet bygger ett inbjudningsmejl till ett event, men processen är densamma för alla typer av e-post. När du är klar har du en e-post som är redo att skickas.
 
-* * *
+{% stepper %}
+{% step %}
 
-### 1. Lägg till e-posten från kampanjsidan
+#### Lägg till e-posten från kampanjsidan
 
 Klicka på **Add Email** på kampanjsidan.
 
-- Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+* Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
 
 <div data-with-frame="true"><img src="../../../assets/basics-creating-email/ce1.png" alt="Knappen Add Email på kampanjsidan"></div>
 
 Knappen Add Email
 
-### 2. Fyll i inställningar, välj en mall och skapa e-posten
+{% endstep %}
+{% step %}
+
+#### Fyll i inställningar, välj en mall och skapa e-posten
 
 <div data-with-frame="true"><img src="../../../assets/basics-creating-email/ce2.png" alt="Dialog för e-postinställningar och val av mall"></div>
 
 E-postinställningar
 
-#### Inställningar
+**Inställningar**
 
-- **Name your email:** Ge e-posten ett unikt namn så att du hittar den senare. Beskriv e-postens syfte i kampanjens sammanhang — till exempel "Inbjudan" för ett inbjudningsmejl. Bara du ser det här namnet; det visas inte för dina kontakter.
-- **Subject:** Ämnesraden som mottagarna ser i sin e-postklient.
-- **From Name:** Avsändarnamnet som visas i mottagarnas e-postklient.
-- **From Address:** Den här består av två delar som tillsammans bildar avsändaradressen.
-   1. Delen före `@` kan vara nästan vad som helst. Om du är osäker fungerar `noreply` i de flesta fall, men en riktig inkorg som kan ta emot svar är att föredra.
-   2. Delen efter `@` är din e-postdomän. Du måste lägga till din egen domän innan du kan skicka. Se [den här artikeln](https://support.emarketeer.com/documentation/custom-email-domain/) för hur.
-- **Reply-to Address (optional):** En adress som tar emot eventuella svar, användbart om From Address inte kan ta emot e-post. Används sällan; ofta tryggt att hoppa över.
-- **Subscription Category (optional):** Om ditt konto använder prenumerationslistor kan du kategorisera den här e-posten här. Används sällan; ofta tryggt att hoppa över.
+* **Name your email:** Ge e-posten ett unikt namn så att du hittar den senare. Beskriv e-postens syfte i kampanjens sammanhang — till exempel "Inbjudan" för ett inbjudningsmejl. Bara du ser det här namnet; det visas inte för dina kontakter.
+* **Subject:** Ämnesraden som mottagarna ser i sin e-postklient.
+* **From Name:** Avsändarnamnet som visas i mottagarnas e-postklient.
+* **From Address:** Den här består av två delar som tillsammans bildar avsändaradressen.
+  1. Delen före `@` kan vara nästan vad som helst. Om du är osäker fungerar `noreply` i de flesta fall, men en riktig inkorg som kan ta emot svar är att föredra.
+  2. Delen efter `@` är din e-postdomän. Du måste lägga till din egen domän innan du kan skicka. Se [den här artikeln](https://support.emarketeer.com/documentation/custom-email-domain/) för hur.
+* **Reply-to Address (optional):** En adress som tar emot eventuella svar, användbart om From Address inte kan ta emot e-post. Används sällan; ofta tryggt att hoppa över.
+* **Subscription Category (optional):** Om ditt konto använder prenumerationslistor kan du kategorisera den här e-posten här. Används sällan; ofta tryggt att hoppa över.
 
-#### Mall
+**Mall**
 
 Välj en mall från någon av flikarna som utgångspunkt för designen. Den här guiden använder **Hero Event** från fliken **Events**. Egna mallar som sparats på ditt konto visas under **My Templates**.
 
-#### Skapa e-postkomponent
+**Skapa e-postkomponent**
 
 När inställningar och mall är klara klickar du på **Create Email** för att skapa komponenten.
 
-### 3. E-postredigeraren
+{% endstep %}
+{% step %}
+
+#### E-postredigeraren
 
 När du klickat på **Create Email** öppnas redigeraren med den nya e-posten. Menyn till vänster låter dig lägga till innehållsblock, nå verktyg och uppdatera inställningarna från steg 2. Resten av sidan visar e-postens innehåll, importerat från mallen du valde.
 
@@ -51,7 +58,10 @@ Innehållet består av innehållsblock som du redigerar var för sig i följande
 
 Vy över e-postredigeraren
 
-### 4. Redigera ett innehållsblock
+{% endstep %}
+{% step %}
+
+#### Redigera ett innehållsblock
 
 Varje innehållsblock består av flera delar som du kan uppdatera. Klicka på blockets redigeringsknapp för att öppna dess inställningar.
 
@@ -63,7 +73,10 @@ En inställningsmeny öppnas till höger med två flikar: **Content** och **Styl
 
 På fliken Content styr första sektionen hur blocket visas — låt standardvärdena vara tills vidare. Andra sektionen är det som syns i blocket: bilder, rubriker, textstycken och knappar.
 
-### 5. Ändra ett blocks rubrik
+{% endstep %}
+{% step %}
+
+#### Ändra ett blocks rubrik
 
 För att ändra en rubrik eller ett textstycke klickar du på titellisten för den delen och redigerar texten i textrutan. Om du lämnar textrutan tom döljs den delen av blocket.
 
@@ -75,7 +88,10 @@ Klicka på **Save** efter varje ändring för att spara ditt arbete.
 
 Uppdatera textinnehåll i ett block
 
-### 6. Ladda upp en bild
+{% endstep %}
+{% step %}
+
+#### Ladda upp en bild
 
 För att ladda upp en egen bild öppnar du innehållsblocket för redigering, går till Image-sektionen i högermenyn och klickar på **Choose Image**.
 
@@ -101,7 +117,10 @@ Om bilden inte matchar rekommenderade mått för blocket visas ett alternativ at
 
 Alternativet Auto Scale
 
-### 7. Lägg till en knapp med en länk
+{% endstep %}
+{% step %}
+
+#### Lägg till en knapp med en länk
 
 Använd knappar för att länka till en webbsida, en fil eller en annan eMarketeer-komponent. För en webblänk skriver du in URL:en i Link-inställningarna (inklusive `http://` eller `https://`-protokollet) och skriver en knappetikett. Så här länkar du till en annan eMarketeer-komponent:
 
@@ -114,7 +133,10 @@ Använd knappar för att länka till en webbsida, en fil eller en annan eMarkete
 
 Uppdatera knapplänk i ett innehållsblock
 
-### 8. Lägg till ett nytt innehållsblock
+{% endstep %}
+{% step %}
+
+#### Lägg till ett nytt innehållsblock
 
 För att lägga till ett nytt innehållsblock klickar du på **Add Content Block** i vänstermenyn. I Add Content-menyn till höger klickar du på **Add Block** intill den typ du vill ha.
 
@@ -124,7 +146,10 @@ Om knappen är grå klickar du först på ett befintligt block för att tala om 
 
 Lägg till ett innehållsblock och välj sedan det specifika blocket du vill ha
 
-### 9. Flytta ett innehållsblock
+{% endstep %}
+{% step %}
+
+#### Flytta ett innehållsblock
 
 För att flytta ett block klickar du och håller in flyttikonen till vänster på blockets kontextlist och drar det till den nya positionen.
 
@@ -132,7 +157,10 @@ För att flytta ett block klickar du och håller in flyttikonen till vänster p�
 
 Flytta ett block genom att dra det på plats
 
-### 10. Ta bort ett innehållsblock
+{% endstep %}
+{% step %}
+
+#### Ta bort ett innehållsblock
 
 För att ta bort ett block från mallen klickar du på borttagningsknappen på blockets kontextlist.
 
@@ -140,7 +168,10 @@ För att ta bort ett block från mallen klickar du på borttagningsknappen på b
 
 Knappen för att ta bort ett innehållsblock
 
-### 11. Använd ett block med kalenderlänk
+{% endstep %}
+{% step %}
+
+#### Använd ett block med kalenderlänk
 
 Vissa innehållsblock har stöd för kalenderlänk, vilket är användbart för event. När en mottagare klickar på länken genererar eMarketeer en kalenderfil som lägger till eventet i mottagarens kalender med de inställningar du valt.
 
@@ -152,7 +183,10 @@ Håll fältet **Description** i ren text och begränsa det till två eller tre k
 
 Uppdatera Add to Calendar-blocket
 
-### 12. Lägg till en preheader och slutför e-posten
+{% endstep %}
+{% step %}
+
+#### Lägg till en preheader och slutför e-posten
 
 Email Settings-blocket högst upp i de flesta e-postmeddelanden är valfritt. De flesta av dess inställningar är för speciella användningsfall som rör delade länkar till e-postinnehållet, men **Preheader** är värd att använda.
 
@@ -164,7 +198,8 @@ När din preheader är sparad klickar du på **Done Editing** för att lämna re
 
 Skriv en preheader och lämna redigeraren
 
-* * *
+{% endstep %}
+{% endstepper %}
 
 ### Vad du gör härnäst
 
