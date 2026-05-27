@@ -110,7 +110,6 @@
   * [API docs](documentation/apis-developer/api-consent-subscription.md)
   * [Custom Signals API](documentation/apis-developer/custom-signals-api.md)
   * [Legacy API 1.0 docs (Deprecated)](documentation/apis-developer/api.md)
-  * [Legacy API 1.0 docs (Deprecated)](documentation/apis-developer/apiv1.md)
 * [Developer](knowledge-base/developer-advanced/README.md)
   * [Barcodes](knowledge-base/developer-advanced/barcodes.md)
   * [Contact field character limit](references/developer-advanced/contact-field-character-limit.md)
