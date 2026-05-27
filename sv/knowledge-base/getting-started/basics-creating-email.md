@@ -7,7 +7,7 @@ Exemplet bygger ett inbjudningsmejl till ett event, men processen är densamma f
 {% stepper %}
 {% step %}
 
-#### Lägg till e-posten från kampanjsidan
+### Lägg till e-posten från kampanjsidan
 
 Klicka på **Add Email** på kampanjsidan.
 
@@ -20,7 +20,7 @@ Knappen Add Email
 {% endstep %}
 {% step %}
 
-#### Fyll i inställningar, välj en mall och skapa e-posten
+### Fyll i inställningar, välj en mall och skapa e-posten
 
 <div data-with-frame="true"><img src="../../../assets/basics-creating-email/ce2.png" alt="Dialog för e-postinställningar och val av mall"></div>
 
@@ -48,7 +48,7 @@ När inställningar och mall är klara klickar du på **Create Email** för att 
 {% endstep %}
 {% step %}
 
-#### E-postredigeraren
+### E-postredigeraren
 
 När du klickat på **Create Email** öppnas redigeraren med den nya e-posten. Menyn till vänster låter dig lägga till innehållsblock, nå verktyg och uppdatera inställningarna från steg 2. Resten av sidan visar e-postens innehåll, importerat från mallen du valde.
 
@@ -61,7 +61,7 @@ Vy över e-postredigeraren
 {% endstep %}
 {% step %}
 
-#### Redigera ett innehållsblock
+### Redigera ett innehållsblock
 
 Varje innehållsblock består av flera delar som du kan uppdatera. Klicka på blockets redigeringsknapp för att öppna dess inställningar.
 
@@ -76,7 +76,7 @@ På fliken Content styr första sektionen hur blocket visas — låt standardvä
 {% endstep %}
 {% step %}
 
-#### Ändra ett blocks rubrik
+### Ändra ett blocks rubrik
 
 För att ändra en rubrik eller ett textstycke klickar du på titellisten för den delen och redigerar texten i textrutan. Om du lämnar textrutan tom döljs den delen av blocket.
 
@@ -91,7 +91,7 @@ Uppdatera textinnehåll i ett block
 {% endstep %}
 {% step %}
 
-#### Ladda upp en bild
+### Ladda upp en bild
 
 För att ladda upp en egen bild öppnar du innehållsblocket för redigering, går till Image-sektionen i högermenyn och klickar på **Choose Image**.
 
@@ -120,7 +120,7 @@ Alternativet Auto Scale
 {% endstep %}
 {% step %}
 
-#### Lägg till en knapp med en länk
+### Lägg till en knapp med en länk
 
 Använd knappar för att länka till en webbsida, en fil eller en annan eMarketeer-komponent. För en webblänk skriver du in URL:en i Link-inställningarna (inklusive `http://` eller `https://`-protokollet) och skriver en knappetikett. Så här länkar du till en annan eMarketeer-komponent:
 
@@ -136,7 +136,7 @@ Uppdatera knapplänk i ett innehållsblock
 {% endstep %}
 {% step %}
 
-#### Lägg till ett nytt innehållsblock
+### Lägg till ett nytt innehållsblock
 
 För att lägga till ett nytt innehållsblock klickar du på **Add Content Block** i vänstermenyn. I Add Content-menyn till höger klickar du på **Add Block** intill den typ du vill ha.
 
@@ -149,7 +149,7 @@ Lägg till ett innehållsblock och välj sedan det specifika blocket du vill ha
 {% endstep %}
 {% step %}
 
-#### Flytta ett innehållsblock
+### Flytta ett innehållsblock
 
 För att flytta ett block klickar du och håller in flyttikonen till vänster på blockets kontextlist och drar det till den nya positionen.
 
@@ -160,7 +160,7 @@ Flytta ett block genom att dra det på plats
 {% endstep %}
 {% step %}
 
-#### Ta bort ett innehållsblock
+### Ta bort ett innehållsblock
 
 För att ta bort ett block från mallen klickar du på borttagningsknappen på blockets kontextlist.
 
@@ -171,7 +171,7 @@ Knappen för att ta bort ett innehållsblock
 {% endstep %}
 {% step %}
 
-#### Använd ett block med kalenderlänk
+### Använd ett block med kalenderlänk
 
 Vissa innehållsblock har stöd för kalenderlänk, vilket är användbart för event. När en mottagare klickar på länken genererar eMarketeer en kalenderfil som lägger till eventet i mottagarens kalender med de inställningar du valt.
 
@@ -186,7 +186,7 @@ Uppdatera Add to Calendar-blocket
 {% endstep %}
 {% step %}
 
-#### Lägg till en preheader och slutför e-posten
+### Lägg till en preheader och slutför e-posten
 
 Email Settings-blocket högst upp i de flesta e-postmeddelanden är valfritt. De flesta av dess inställningar är för speciella användningsfall som rör delade länkar till e-postinnehållet, men **Preheader** är värd att använda.
 

@@ -16,7 +16,7 @@ The example builds an event invitation email, but the process is the same for an
 
 {% stepper %}
 {% step %}
-#### Add the email from the campaign page
+### Add the email from the campaign page
 
 From the campaign page, click **Add Email**.
 
@@ -26,7 +26,7 @@ From the campaign page, click **Add Email**.
 {% endstep %}
 
 {% step %}
-#### Fill in settings, choose a template, create the email
+### Fill in settings, choose a template, create the email
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce2.png" alt="Email settings and template selection dialog"></div>
 
@@ -51,7 +51,7 @@ Once settings and template are set, click **Create Email** to create the compone
 {% endstep %}
 
 {% step %}
-#### The email editor
+### The email editor
 
 After you click **Create Email**, the editor opens with the new email. The left-side menu lets you add content blocks, access tools, and update the settings from step 2. The rest of the page shows the email content, imported from the template you chose.
 
@@ -61,7 +61,7 @@ The content is made up of content blocks, which you edit individually in the fol
 {% endstep %}
 
 {% step %}
-#### Edit a content block
+### Edit a content block
 
 Each content block is made up of several parts you can update. Click the block's edit button to open its settings.
 
@@ -73,7 +73,7 @@ On the Content tab, the first section controls how the block displays — leave 
 {% endstep %}
 
 {% step %}
-#### Change a block's headline
+### Change a block's headline
 
 To change a headline or text paragraph, click the title bar for that part and edit the text in the text box. If you leave the text box empty, that part of the block is hidden.
 
@@ -85,7 +85,7 @@ Click **Save** after each change to save your work.
 {% endstep %}
 
 {% step %}
-#### Upload an image
+### Upload an image
 
 To upload your own image, open the content block for editing, go to the Image section in the right-side menu, and click **Choose Image**.
 
@@ -109,7 +109,7 @@ If the image does not match the recommended dimensions for the block, an option 
 {% endstep %}
 
 {% step %}
-#### Add a button with a link
+### Add a button with a link
 
 Use buttons to link to a webpage, file, or another eMarketeer component. For a web link, type the URL in the Link settings (include the `http://` or `https://` protocol) and write a button caption. To link to another eMarketeer component, follow these steps:
 
@@ -122,7 +122,7 @@ Use buttons to link to a webpage, file, or another eMarketeer component. For a w
 {% endstep %}
 
 {% step %}
-#### Add a new content block
+### Add a new content block
 
 To add a new content block, click **Add Content Block** in the left-side menu. In the Add Content menu on the right, click **Add Block** next to the type you want.
 
@@ -132,7 +132,7 @@ If the button is grey, first click an existing block to tell the editor where th
 {% endstep %}
 
 {% step %}
-#### Reposition a content block
+### Reposition a content block
 
 To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
@@ -140,7 +140,7 @@ To move a block, click and hold the reposition icon on the left side of the bloc
 {% endstep %}
 
 {% step %}
-#### Delete a content block
+### Delete a content block
 
 To remove a block from the template, click the delete button on its context bar.
 
@@ -148,7 +148,7 @@ To remove a block from the template, click the delete button on its context bar.
 {% endstep %}
 
 {% step %}
-#### Use a block with a calendar link
+### Use a block with a calendar link
 
 Some content blocks support a calendar link feature, which is useful for events. When a recipient clicks the link, eMarketeer generates a calendar file that adds the event to their calendar using the settings you chose.
 
@@ -160,7 +160,7 @@ Keep the **Description** field to plain text and limit it to two or three short 
 {% endstep %}
 
 {% step %}
-#### Add a preheader and finish the email
+### Add a preheader and finish the email
 
 The Email Settings block at the top of most emails is optional. Most of its settings are for special use cases involving shared links to the email content, but the **Preheader** is worth using.
 
