@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Which new features will eMarketeer introduce to help with GDPR?
 
 eMarketeer introduces Consent Management and Subscription Categories to support GDPR compliance.
@@ -8,16 +12,16 @@ Consent Management is the primary GDPR feature. Subscription Categories let your
 
 Consent needs to be tied to a purpose. From the start, consent contains three purposes:
 
-- Store data — to store a contact's information in the database.
-- E-marketing — to send marketing material.
-- Profiling — to store information such as behaviour, interests, and location.
+* Store data — to store a contact's information in the database.
+* E-marketing — to send marketing material.
+* Profiling — to store information such as behaviour, interests, and location.
 
 The features in eMarketeer to manage consent include:
 
-- Set consent (purpose, legal base, and source) when creating new contacts through SuperOffice import, file import, and manual creation.
-- Bulk-update consent on selections of contacts.
-- A new consent block in forms for visitors to give consent.
-- Complete and enhanced logging of changes made to contacts and consent.
+* Set consent (purpose, legal base, and source) when creating new contacts through SuperOffice import, file import, and manual creation.
+* Bulk-update consent on selections of contacts.
+* A new consent block in forms for visitors to give consent.
+* Complete and enhanced logging of changes made to contacts and consent.
 
 ## Overview and mockups of new features
 
