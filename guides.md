@@ -1,5 +1,5 @@
 ---
-icon: book-open-lines
+icon: bullhorn
 ---
 
 # Campaign guides

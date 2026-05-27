@@ -1,5 +1,5 @@
 ---
-icon: list
+icon: wrench-simple
 ---
 
 # Configuration
