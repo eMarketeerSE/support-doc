@@ -1,6 +1,5 @@
 ---
 description: New updates and improvements
-icon: clock-rotate-left
 layout:
   width: wide
   title:
@@ -21,10 +20,9 @@ layout:
     visible: true
 ---
 
-# 2026
+# Product updates
 
 {% updates format="full" %}
-
 {% update date="2026-04-14" tags="feature,improvement,fix" %}
 ## Forms, Journeys, and Dynamics 365
 
@@ -154,5 +152,4 @@ A new Dashboard report gives you a full account-wide view of campaign activity.
 
 </details>
 {% endupdate %}
-
 {% endupdates %}
