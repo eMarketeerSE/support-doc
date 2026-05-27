@@ -24,7 +24,7 @@ Hitta guider, referensmaterial och versionsanteckningar för eMarketeer-plattfor
     <tr>
       <td><strong>Ändringslogg</strong></td>
       <td>Senaste releaser, produktuppdateringar och viktiga meddelanden.</td>
-      <td><a href="change-log/README.md">Ändringslogg</a></td>
+      <td><a href="https://emarketeer.gitbook.io/support/changelog">Ändringslogg</a></td>
     </tr>
   </tbody>
 </table>
