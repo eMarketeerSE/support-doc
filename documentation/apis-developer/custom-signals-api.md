@@ -1,6 +1,10 @@
-# Custom Signals API
+---
+description: >-
+  This Guide explains how to use the Signals API to send contact events into
+  eMarketeer.
+---
 
-This tutorial explains how to use the Signals API to send contact events into eMarketeer.
+# Custom Signals API
 
 API reference: [https://api-doc.emarketeer.com/?urls.primaryName=Engagement](https://api-doc.emarketeer.com/?urls.primaryName=Engagement)
 
