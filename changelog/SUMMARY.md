@@ -2,12 +2,7 @@
 
 * [Changelog](README.md)
 
-## 2026
-
-* [Product update](2026/product-update.md)
-* [Product update](2026/product-update-1.md)
-
 ## 2025
 
-* [Product update](2025/product-update.md)
-* [Product update](2025/product-update-1.md)
+* [Product launch — June 2025](2025/product-launch-june.md)
+* [Product launch — October 2025](2025/product-launch-october.md)
