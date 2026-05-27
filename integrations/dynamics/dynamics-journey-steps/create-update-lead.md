@@ -2,7 +2,7 @@
 
 The Create/Update Lead step pushes contacts from eMarketeer into your Microsoft Dynamics CRM as Leads. It includes built-in logic to update existing records and prevent duplicates.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/create-update-lead-1024x695.png" alt="Create/Update Lead step configuration with Always create a lead checkbox"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/create-update-lead.png)
+[![Create/Update Lead step configuration with Always create a lead checkbox](../../../.gitbook/assets/create-update-lead-1024x695.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/create-update-lead.png)
 
 ### Step configuration
 

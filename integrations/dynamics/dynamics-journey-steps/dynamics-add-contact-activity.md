@@ -2,7 +2,7 @@
 
 The Add Contact Activity step creates a Task or Phone Call strictly on a **Contact** record in your Microsoft Dynamics CRM. Unlike the generic Add Activity step, this action does not fall back to a Lead if no Contact is found.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/add_contact_activity-1024x912.png" alt="Add Contact Activity step configuration in Dynamics"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/add_contact_activity.png)
+[![Add Contact Activity step configuration in Dynamics](../../../.gitbook/assets/add_contact_activity-1024x912.png)](https://support.emarketeer.com/wp-content/uploads/2026/02/add_contact_activity.png)
 
 ### Step configuration
 

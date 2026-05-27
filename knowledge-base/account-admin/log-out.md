@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Log out of eMarketeer
 
 This article explains how to log out of your eMarketeer account.

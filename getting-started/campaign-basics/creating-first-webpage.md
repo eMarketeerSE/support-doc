@@ -63,7 +63,7 @@ Editing the headline text of a block
 
 Open the block for editing, go to the Image section on the right, and click \[Choose Image].
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce_upload_image_1 (1" alt="The Choose Image button"></div>.png>)
+.png>)
 
 The \[Choose Image] button
 
@@ -75,13 +75,13 @@ To upload your own image:
 4. Select the uploaded file from the file browser.
 5. Click \[Use Selected] to add it to the content block.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce_image_upload_2 (1" alt="Steps for uploading and using a new image file"></div>.png>)
+.png>)
 
 Steps for uploading and using a new image file
 
 If the image does not match the recommended dimensions, an auto-scale option appears. Click the link in the notice to scale the image automatically.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce_upload_image_3 (1" alt="Auto Scale option"></div>.png>)
+.png>)
 
 Auto Scale option
 
@@ -96,7 +96,7 @@ To link to a form:
 3. Pick the campaign that holds your form, then pick the form itself.
 4. Click \[Select], then \[Apply], then \[Save] to attach the link and save the block.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce6 (1" alt="Update content block button link"></div>.png>)
+.png>)
 
 Update content block button link
 
@@ -104,7 +104,7 @@ Update content block button link
 
 Click \[Add Content Block] in the left menu, then click \[Add Block] next to the block type you want. If the button is greyed out, click an existing block in the page first so the editor knows where to insert the new one.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce-add-12 (1" alt="Add Content Block to open the menu and then Add the specific block you want"></div>.png>)
+.png>)
 
 Add Content Block to open the menu and then Add the specific block you want
 
@@ -112,7 +112,7 @@ Add Content Block to open the menu and then Add the specific block you want
 
 Click and hold the reposition icon on the left side of the block's context bar, then drag the block to the new position.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce-move (1" alt="Reposition block in content by dragging it into position"></div>.png>)
+.png>)
 
 Reposition block by dragging it into position
 
@@ -120,7 +120,7 @@ Reposition block by dragging it into position
 
 If the template includes a block you do not need, click the delete button on that block's context bar.
 
-<div data-with-frame="true"><img src="<../../.gitbook/assets/ce-delete (1" alt="Delete content block button"></div>.png>)
+.png>)
 
 Delete content block button
 
