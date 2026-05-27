@@ -12,16 +12,18 @@ If DMARC is missing from your DNS, receiving servers may not properly evaluate m
 2. Click **Authorize** on the domain you are checking.
 3. The domain setup dialog lists every required DNS record, including the DMARC policy settings you should publish.
 4. In your DNS provider's control panel, verify that a DMARC TXT record exists — typically at `_dmarc.yourdomain.com` — and matches the value eMarketeer recommends.
-   - A DMARC record is a DNS TXT entry that tells mail servers how to handle messages that fail authentication.
-   - Common policy options:
-     - `p=none` — monitor only
-     - `p=quarantine` — send failed mail to spam/junk
-     - `p=reject` — block failed mail entirely
+   * A DMARC record is a DNS TXT entry that tells mail servers how to handle messages that fail authentication.
+   * Common policy options:
+     * `p=none` — monitor only
+     * `p=quarantine` — send failed mail to spam/junk
+     * `p=reject` — block failed mail entirely
 5. Save the changes and wait for them to propagate. This can take up to 48 hours.
 
-## Helpful tip
 
+
+{% hint style="info" %}
 If you do not manage DNS yourself, use the email feature in the dialog to send the required DNS information to whoever does.
+{% endhint %}
 
 For the full email domain setup, see the [custom email domain guide](https://support.emarketeer.com/documentation/custom-email-domain/).
 

@@ -11,9 +11,11 @@ If eMarketeer reports that DKIM is not working for your domain, the required rec
 3. The dialog shows every record your DNS must contain for the domain.
 4. In your DNS, confirm the same records are present.
 
-## Helpful tip
 
+
+{% hint style="info" %}
 If you do not manage DNS yourself, use the email feature in the dialog to send the required DNS information to whoever does.
+{% endhint %}
 
 For the full email domain setup, see the [custom email domain guide](https://support.emarketeer.com/documentation/custom-email-domain/).
 
