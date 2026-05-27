@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Changelog](README.md)
-* [2026](2026.md)
+* [2026](README.md)
 * [2025](2025.md)
   * [Product launch — June 2025](2025/product-launch-june.md)
   * [Product launch — October 2025](2025/product-launch-october.md)
