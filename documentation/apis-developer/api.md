@@ -361,7 +361,7 @@ Response:
 
 ### Unsubscribe contacts from campaign
 
-eMarketeer no longer offers unsubscribe on the campaign level. Use [unsubscribe on category level](https://support.emarketeer.com/documentation/subscriptions/) instead. Automations to remove contacts from lists and campaigns can also be used from forms to achieve the same result.
+eMarketeer no longer offers unsubscribe on the campaign level. Use [unsubscribe on category level](../../knowledge-base/account-admin/subscriptions.md) instead. Automations to remove contacts from lists and campaigns can also be used from forms to achieve the same result.
 
 ~~Contacts can be flagged as unsubscribed per campaign or globally for all emails and SMSs.~~
 

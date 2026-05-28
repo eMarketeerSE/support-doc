@@ -493,7 +493,7 @@ Response:
 
 ### Avregistrera kontakter från kampanj
 
-eMarketeer erbjuder inte längre avregistrering på kampanjnivå. Använd [avregistrering på kategorinivå](https://support.emarketeer.com/documentation/subscriptions/) istället. Automationer för att ta bort kontakter från listor och kampanjer kan också användas från formulär för att uppnå samma resultat.
+eMarketeer erbjuder inte längre avregistrering på kampanjnivå. Använd [avregistrering på kategorinivå](../../../knowledge-base/account-admin/subscriptions.md) istället. Automationer för att ta bort kontakter från listor och kampanjer kan också användas från formulär för att uppnå samma resultat.
 
 ~Contacts can be flagged as unsubscribed per campaign or globally for all emails and SMSs.~
 

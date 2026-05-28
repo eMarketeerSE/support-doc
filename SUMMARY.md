@@ -79,6 +79,7 @@
   * [Using your own email domain with eMarketeer](documentation/custom-domain/custom-email-domain.md)
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
+  * [Subscriptions](knowledge-base/account-admin/subscriptions.md)
 
 ## References
 

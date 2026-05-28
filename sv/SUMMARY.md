@@ -79,6 +79,7 @@
   * [Använda din egen e-postdomän med eMarketeer](documentation/custom-domain/custom-email-domain.md)
   * [Logga ut ur eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
+  * [Prenumerationer](knowledge-base/account-admin/subscriptions.md)
 
 ## Referens
 

@@ -16,7 +16,7 @@ Om en användare sätter Dynamics Bulk Email-växeln till "Do not allow" uppdate
 
 ## 2. Så synkroniseras prenumerationer
 
-Dynamics har inget inbyggt prenumerationscenter för marknadsföring, så eMarketeer-integrationen bygger ett för att hantera specifika kategorier som Nyhetsbrev, Eventinbjudningar eller Erbjudanden. [Läs mer om eMarketeer-prenumerationer](https://support.emarketeer.com/documentation/subscriptions/).
+Dynamics har inget inbyggt prenumerationscenter för marknadsföring, så eMarketeer-integrationen bygger ett för att hantera specifika kategorier som Nyhetsbrev, Eventinbjudningar eller Erbjudanden. [Läs mer om eMarketeer-prenumerationer](../../../knowledge-base/account-admin/subscriptions.md).
 
 - **Var de finns i Dynamics:** prenumerationer visas på Details-fliken på en Contact-post som Yes/No-växlar.
 - **Skapa prenumerationer:** prenumerationskategorier kan endast skapas i eMarketeer. När de väl är skapade lägger integrationen automatiskt till den nya kategorin i din Dynamics-tabell.

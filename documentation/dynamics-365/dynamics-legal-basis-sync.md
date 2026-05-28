@@ -16,7 +16,7 @@ If a user sets the Dynamics Bulk Email toggle to "Do not allow", eMarketeer upda
 
 ## 2. How subscriptions sync
 
-Dynamics does not have a native marketing subscription center, so the eMarketeer integration builds one to handle specific categories such as Newsletters, Event Invitations, or Promotions. [Read more about eMarketeer subscriptions](https://support.emarketeer.com/documentation/subscriptions/).
+Dynamics does not have a native marketing subscription center, so the eMarketeer integration builds one to handle specific categories such as Newsletters, Event Invitations, or Promotions. [Read more about eMarketeer subscriptions](../../knowledge-base/account-admin/subscriptions.md).
 
 - **Where they live in Dynamics:** subscriptions appear on the Details tab of a Contact record as Yes/No toggles.
 - **Creating subscriptions:** subscription categories can only be created in eMarketeer. Once created, the integration adds the new category to your Dynamics table automatically.
