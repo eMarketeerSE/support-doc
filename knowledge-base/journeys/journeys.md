@@ -1,3 +1,7 @@
+---
+icon: diagram-project
+---
+
 # Journeys
 
 A journey is a sequential list of actions (steps) that runs on every contact who matches the criteria set as its starting point.

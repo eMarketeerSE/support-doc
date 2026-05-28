@@ -1,3 +1,7 @@
+---
+icon: diagram-project
+---
+
 # Översikt över Journeys
 
 En Journey är en sekventiell lista med åtgärder (steg) som körs på varje kontakt som matchar kriterierna i utgångspunkten.
