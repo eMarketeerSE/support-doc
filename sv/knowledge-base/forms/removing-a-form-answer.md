@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du tar bort enskilda svar, valda rader eller hela uppsättningen svar från en formulärrapport.
+---
+
 # Hur tar jag bort ett formulärsvar?
 
 Ta bort testsvar, felaktiga svar eller hela uppsättningen svar från en formulärrapport.

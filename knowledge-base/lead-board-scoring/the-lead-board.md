@@ -1,3 +1,9 @@
+---
+description: >-
+  An overview of the lead board: how marketing-qualified leads appear and how
+  sales works them down the funnel toward a sale.
+---
+
 # The lead board
 
 The lead board is where contacts qualified by marketing as leads are delivered to your sales team.

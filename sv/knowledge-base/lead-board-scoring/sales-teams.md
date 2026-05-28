@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skapar och konfigurerar sales-team så att varje team tar emot de kvalificerade leads som är mest relevanta för det.
+---
+
 # Sales-team
 
 Leads i eMarketeer levereras till ett sales-team. Sales users i samma team delar inkommande kvalificerade leads.

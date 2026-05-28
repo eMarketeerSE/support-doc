@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Vad Kampanjkontakter är, hur kontakter läggs till och hur du granskar eller tar bort kontakter från en kampanj.
+---
+
 # Kampanjkontakter
 
 Kampanjkontakter är en flik i varje kampanj som listar de kontakter som tillhör den kampanjen.

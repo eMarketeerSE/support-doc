@@ -1,3 +1,9 @@
+---
+description: >-
+  How to copy a campaign's components from one eMarketeer account to another,
+  leaving the original in place.
+---
+
 # Transfer a campaign to a different account
 
 You can transfer a copy of a campaign from one eMarketeer account to another. This helps when your organisation runs several separate accounts and wants to share work between them.

@@ -1,3 +1,9 @@
+---
+description: >-
+  Steg-för-steg-instruktioner för att lägga till DNS-poster som autentiserar
+  din avsändardomän och aktiverar eMarketeers e-posttjänst.
+---
+
 # Så autentiserar du din domän (administratör)
 
 Den här guiden tar dig igenom autentiseringen av din domän så att du kan skicka e-post från din egen adress med bästa möjliga leveransbarhet.

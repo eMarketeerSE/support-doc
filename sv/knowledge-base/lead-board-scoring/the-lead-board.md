@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  En översikt av Lead Board: hur marknadsföringskvalificerade leads visas och hur sälj arbetar dem nedåt i tratten.
+---
+
 # Lead Board
 
 Lead Board är där kontakter som marknad kvalificerat som leads levereras till ditt sales-team.

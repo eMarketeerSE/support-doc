@@ -1,3 +1,9 @@
+---
+description: >-
+  How to delete individual answers, selected rows, or the full set of answers
+  from a form report.
+---
+
 # How do I remove a form answer?
 
 Remove test answers, faulty answers, or the entire set of answers from a form report.

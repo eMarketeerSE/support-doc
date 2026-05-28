@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du lägger till en preheader-text i ett e-postmeddelande så att mottagarna
+  ser en anpassad sammanfattningsrad bredvid ämnesraden i inkorgen.
+---
+
 # Guide: Så här använder du e-postpreheaders
 
 Den här guiden visar hur du lägger till en preheader i ett e-postmeddelande i eMarketeer.

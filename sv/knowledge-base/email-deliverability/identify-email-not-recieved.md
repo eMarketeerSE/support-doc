@@ -1,3 +1,9 @@
+---
+description: >-
+  En felsökningsguide som täcker de vanligaste orsakerna till att en kontakt
+  inte fick ett e-postmeddelande och vad du kan göra i varje fall.
+---
+
 # Identifiera varför ett e-postmeddelande inte togs emot
 
 Den här artikeln förklarar hur du identifierar de vanligaste anledningarna till att en kontakt inte tog emot ett e-postmeddelande och vad du kan göra åt varje orsak.

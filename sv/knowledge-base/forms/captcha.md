@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur reCAPTCHA skyddar eMarketeer-formulär mot botinskick och vad ikonen på
+  de värdade formulärsidorna innebär.
+---
+
 # reCAPTCHA för eMarketeer-formulär
 
 reCAPTCHA skyddar dina formulär från botinskick med hjälp av Googles CAPTCHA-system.

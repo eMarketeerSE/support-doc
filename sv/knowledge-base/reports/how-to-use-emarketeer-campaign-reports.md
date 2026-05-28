@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du bygger realtidsrapporter för kampanjer med drag-och-släpp-widgetar på kampanjinstrumentpanelen.
+---
+
 # Så använder du eMarketeers kampanjrapporter
 
 Kampanjpanelen låter dig bygga realtidsrapporter för vilken kampanj som helst med hjälp av dra-och-släpp-widgetar.

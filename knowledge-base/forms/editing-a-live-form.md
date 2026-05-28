@@ -1,3 +1,9 @@
+---
+description: >-
+  Which edits are safe on a form that already has answers, and which changes can
+  affect existing reports.
+---
+
 # Editing a live form
 
 Editing a form that already has answers can change what those answers mean, so it pays to know which edits are safe and which are not.

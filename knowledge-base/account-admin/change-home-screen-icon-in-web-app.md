@@ -1,3 +1,9 @@
+---
+description: >-
+  How to replace the default eMarketeer icon with your own when saving a Web
+  App to a mobile home screen.
+---
+
 # Change home screen icon in Web App
 
 Replace the default eMarketeer icon with your own when saving a Web App to a mobile home screen.

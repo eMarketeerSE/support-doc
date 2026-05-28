@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du skapar klickbara mailto-länkar och knappar i ett e-postkomponent så
+  att mottagarna kan starta ett svar med ett klick.
+---
+
 # Skapa klickbara länkar och knappar med e-postadresser
 
 En klickbar e-postadress öppnar ett nytt meddelande i mottagarens e-postklient med adressen redan ifylld.

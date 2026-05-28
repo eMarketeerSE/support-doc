@@ -1,3 +1,9 @@
+---
+description: >-
+  How to set up lead score rules step by step, where to view each contact's
+  score, and how to filter contacts by score.
+---
+
 # How lead scoring works in eMarketeer and tutorial
 
 Lead scoring shows how sales-ready your contacts are by awarding points based on persona fit and engagement.

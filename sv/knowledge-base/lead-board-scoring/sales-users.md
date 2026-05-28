@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du ger en användare åtkomst till säljfunktioner så att de kan arbeta på Lead Board som del av ett sales-team.
+---
+
 # Sales users
 
 En användare i eMarketeer kan ha åtkomst till både marknadsförings- och säljfunktioner. Med säljåtkomst kan användaren arbeta i ett sales-team på Lead Board.

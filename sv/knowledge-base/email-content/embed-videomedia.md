@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du använder Video/Media-blocket i Page Builder för att bädda in
+  YouTube-videor och annat rikt media i e-postmeddelanden och webbsidor.
+---
+
 # Bädda in video/media
 
 Använd blocket Video/Media i Page Builder för att bädda in video, bildspel och annat rikt innehåll från externa tjänster.

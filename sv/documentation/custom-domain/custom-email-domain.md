@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Steg-för-steg-instruktioner för att autentisera din e-postdomän i eMarketeer genom att lägga till DNS-poster för SPF, DKIM och DMARC.
+---
+
 # Använda din egen e-postdomän med eMarketeer
 
 Den här artikeln går igenom hur du autentiserar din egen e-postdomän i eMarketeer i tre steg.

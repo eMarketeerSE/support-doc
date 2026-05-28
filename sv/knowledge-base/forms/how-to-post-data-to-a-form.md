@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skickar svar till ett eMarketeer-formulär programmatiskt från din egen webbplats eller ett externt system.
+---
+
 # Så här postar du data till ett formulär
 
 Den här guiden visar hur du postar svar till ett eMarketeer-formulär från din egen webbplats eller från ett annat system.

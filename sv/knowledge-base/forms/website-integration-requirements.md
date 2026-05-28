@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  De tekniska krav en webbsida måste uppfylla för att vara värd för ett inbäddat eMarketeer-formulär.
+---
+
 # Formulär: krav för webbintegration
 
 Du kan bädda in ett eMarketeer-formulär på din egen webbplats genom att klistra in den genererade HTML-koden i sidans källkod. Den här artikeln listar miljökraven sidan måste uppfylla för att formuläret ska fungera.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How to build real-time campaign reports using drag-and-drop widgets on the
+  campaign dashboard.
+---
+
 # How to use eMarketeer campaign reports
 
 The campaign dashboard lets you build real-time reports for any campaign using drag-and-drop widgets.

@@ -1,3 +1,9 @@
+---
+description: >-
+  En steg-för-steg-guide för att skapa en e-post i eMarketeer, från
+  grundinställningar till innehållsblock och slutliga detaljer.
+---
+
 # Skapa din första e-post
 
 Den här guiden tar dig genom hur du skapar en e-post i eMarketeer, från grundinställningar till redigering av innehållsblock och de sista detaljerna.

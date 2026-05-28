@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du använder filterbyggaren för att segmentera kontakter efter valfri kombination av kriterier och vidta åtgärder på det resulterande urvalet.
+---
+
 # Så bygger och använder du kontaktfilter
 
 Filter låter dig segmentera kontakter efter vilka kriterier du än ställer in, från breda grupper till mycket specifika urval.

@@ -1,3 +1,9 @@
+---
+description: >-
+  A reference listing the contact events that cause eMarketeer to evaluate
+  whether a journey's starting point is matched.
+---
+
 # Journeys Triggering Events
 
 Journey starting points are evaluated only when specific events happen to a contact. Knowing which events trigger evaluation helps you start a journey at the right moment.

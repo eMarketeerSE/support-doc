@@ -1,3 +1,9 @@
+---
+description: >-
+  How to use a mobile phone to scan attendee QR codes and register event
+  attendance by submitting email addresses through an eMarketeer form.
+---
+
 # How to scan event attendance with a mobile phone
 
 Use a mobile phone to register attendance on site at physical events by scanning attendee QR codes.

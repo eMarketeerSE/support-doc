@@ -1,3 +1,9 @@
+---
+description: >-
+  Step-by-step instructions for adding DNS records to authenticate your sending
+  domain and enable eMarketeer's email service.
+---
+
 # How to authenticate your domain (Administrator)
 
 This guide walks you through authenticating your domain so you can send email from your own address with the best possible deliverability.

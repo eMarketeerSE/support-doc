@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du skapar ett påminnelsemejl som automatiskt omriktas mot kontakter som
+  inte öppnade eller svarade på ett tidigare utskick.
+---
+
 # Så här ställer du in och skickar ett påminnelse-mejl
 
 Skapa en uppföljningskampanj som automatiskt hoppar över kontakter som redan engagerat sig i det ursprungliga utskicket.

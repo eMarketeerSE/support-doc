@@ -1,3 +1,9 @@
+---
+description: >-
+  How to use the Video/Media block in the Page Builder to embed YouTube videos
+  and other rich media into emails and webpages.
+---
+
 # Embed Video/Media
 
 Use the Video/Media block in the Page Builder to embed video, slides, and other rich content from external services.

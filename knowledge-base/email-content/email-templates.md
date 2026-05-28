@@ -1,3 +1,10 @@
+---
+hidden: true
+description: >-
+  An overview of eMarketeer's free, mobile-friendly email templates and what
+  changed in the updated generation.
+---
+
 # New email templates — what you need to know
 
 The free email templates in eMarketeer give you a head start when building emails, with dozens of mobile-friendly designs you can customize to fit your brand.

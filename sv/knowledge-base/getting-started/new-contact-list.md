@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skapar en ny kontaktlista för att gruppera kontakter för användning i kampanjer och Journeys.
+---
+
 # Så här skapar du en ny kontaktlista
 
 Skapa en ny kontaktlista att använda i en kampanj på några få steg.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How to diagnose an eMarketeer form that shows as unavailable or returns an
+  error when accessed from a link.
+---
+
 # Identifying why a Form is Unavailable (Legacy)
 
 This guide helps you diagnose unusual behavior or broken links when accessing an eMarketeer form.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How to use Bulk Actions to update or manage large groups of contacts in a
+  single operation.
+---
+
 # Bulk Actions: A Tool for Managing Lists of Contacts
 
 Bulk Actions lets you update or manage groups of contacts in a single operation.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How to branch form questions to different pages or show and hide questions on
+  the same page based on a respondent's previous answer.
+---
+
 # Creating Branching Question Paths and using Question Display Rules in Forms
 
 Branch form questions or hide them until they are relevant by using rules on form questions.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How to prepare an Excel file and import contacts — including consent
+  information — into the eMarketeer contact database.
+---
+
 # Import contacts from Excel
 
 This guide describes how to import contacts to your eMarketeer contact database from Excel documents.

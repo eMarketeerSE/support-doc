@@ -1,3 +1,9 @@
+---
+description: >-
+  How to configure a form to stop accepting answers after a set date or a
+  maximum number of submissions.
+---
+
 # Forms: Close a form
 
 Set criteria for when a form should stop accepting answers.

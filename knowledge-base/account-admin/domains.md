@@ -1,3 +1,9 @@
+---
+description: >-
+  How to set up a custom domain to replace the default eMarketeer hostname in
+  the links your account generates.
+---
+
 # Custom domain
 
 A custom domain replaces the default eMarketeer hostname in the links your account generates.

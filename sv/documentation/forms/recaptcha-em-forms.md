@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur reCAPTCHA fungerar i eMarketeer-formulär, inklusive v3 osynligt skydd och beteende på värdade och inbäddade formulär.
+---
+
 # reCAPTCHA för eMarketeer-formulär
 
 reCAPTCHA är Googles CAPTCHA-system som skiljer mänskliga besökare från botar. Alla eMarketeer-formulär som publicerats efter den 25 april 2022 skyddas av reCAPTCHA, vilket visas med en grå och blå pilikon längst ner på den värdbaserade formulärsidan.

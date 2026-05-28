@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  En genomgång av kampanjgränssnittet, med fokus på komponentvyn, menyn Lägg till komponent och snabblänkarna för kontakthantering och automatisering.
+---
+
 # Kampanjgränssnittet förklarat
 
 Den här artikeln beskriver kampanjgränssnittet, med fokus på vyn Components.

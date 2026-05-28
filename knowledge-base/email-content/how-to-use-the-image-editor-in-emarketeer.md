@@ -1,3 +1,9 @@
+---
+description: >-
+  How to edit images and access the built-in stock library of over two million
+  photos, fonts, and icons directly inside eMarketeer.
+---
+
 # How to use the image editor in eMarketeer
 
 The image editor lets you edit your own images and gives you a built-in stock library to draw from.

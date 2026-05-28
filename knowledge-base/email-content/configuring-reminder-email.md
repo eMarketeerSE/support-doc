@@ -1,3 +1,9 @@
+---
+description: >-
+  How to set up a reminder email that re-targets contacts who did not open or
+  respond to an earlier send.
+---
+
 # How to set up and send a reminder email
 
 Set up a follow-up campaign that automatically skips contacts who already engaged with the original send.

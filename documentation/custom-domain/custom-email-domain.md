@@ -1,3 +1,9 @@
+---
+description: >-
+  Step-by-step instructions for authenticating your own email domain in
+  eMarketeer by adding SPF, DKIM, and DMARC DNS records.
+---
+
 # Using your own email domain with eMarketeer
 
 This article walks through authenticating your own email domain in eMarketeer in three steps.

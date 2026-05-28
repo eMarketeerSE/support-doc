@@ -1,3 +1,9 @@
+---
+description: >-
+  How to submit answers to an eMarketeer form programmatically from your own
+  website or an external system.
+---
+
 # How to post data to a form
 
 This guide shows how to post answers to an eMarketeer form from your own website or from another system.

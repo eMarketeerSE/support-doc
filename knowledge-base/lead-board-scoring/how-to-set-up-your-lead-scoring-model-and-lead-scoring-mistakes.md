@@ -1,3 +1,9 @@
+---
+description: >-
+  How to design a lead scoring model that reflects your sales process, including
+  the most common mistakes to avoid.
+---
+
 # How to set up your lead scoring model and lead scoring mistakes
 
 This article shows how to build a lead scoring model that fits your business and lists the mistakes to avoid.

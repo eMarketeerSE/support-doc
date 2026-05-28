@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skapar och använder kampanjfält för att lagra återanvändbar information — som eventnamn eller datum — i alla komponenter i en kampanj.
+---
+
 # Så använder du kampanjfält i eMarketeer
 
 Med kampanjfält kan du lagra anpassad information en gång och återanvända den i allt kampanjinnehåll.

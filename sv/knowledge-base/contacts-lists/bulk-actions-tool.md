@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du använder Bulk Actions för att uppdatera eller hantera stora grupper av kontakter i en enda operation.
+---
+
 # Bulk Actions: ett verktyg för att hantera listor med kontakter
 
 Bulk Actions (Massåtgärder) låter dig uppdatera eller hantera grupper av kontakter i en enda operation.

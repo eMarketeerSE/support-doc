@@ -1,3 +1,9 @@
+---
+description: >-
+  A step-by-step guide to creating an SMS in eMarketeer and getting it ready to
+  send.
+---
+
 # Creating your first SMS
 
 This guide walks you through creating an SMS in eMarketeer — for publishing an app, notifying about an event, or any other use.

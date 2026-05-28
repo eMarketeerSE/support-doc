@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Avancerad guide för att begränsa antalet valbara alternativ i en checkbox-fråga i ett formulär med ett anpassat JavaScript-kodavsnitt.
+---
+
 # Sätt maxantal svar för en checkbox-fråga i ett formulär (legacy, avancerat)
 
 Den här avancerade guiden visar hur du begränsar hur många alternativ en respondent kan välja för en checkbox-fråga i ett formulär.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How administrators invite a new user to an eMarketeer account from the User
+  Accounts settings page.
+---
+
 # How to invite users to your account (administrator)
 
 This guide shows administrators how to invite a new user to your eMarketeer account.

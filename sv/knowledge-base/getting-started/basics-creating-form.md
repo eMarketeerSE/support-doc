@@ -1,3 +1,9 @@
+---
+description: >-
+  En steg-för-steg-guide för att skapa ett formulär i eMarketeer, från
+  grundinställningar till tacksida och valfritt bekräftelsemejl.
+---
+
 # Skapa ditt första formulär (Legacy)
 
 Den här guiden tar dig genom hur du skapar ett formulär i eMarketeer — för eventanmälan, nyhetsbrevsregistrering eller någon annan användning.

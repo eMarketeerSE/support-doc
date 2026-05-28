@@ -1,3 +1,9 @@
+---
+description: >-
+  A step-by-step guide to creating a form in eMarketeer, from setup through the
+  thank-you page and optional confirmation email.
+---
+
 # Creating your first form (Legacy)
 
 This guide walks you through creating a form in eMarketeer — for an event signup, newsletter signup, or any other use.

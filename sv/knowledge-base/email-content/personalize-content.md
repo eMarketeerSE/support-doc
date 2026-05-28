@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du använder kontaktfältsdata för att visa personaliserat innehåll för
+  varje enskild mottagare i e-post, SMS, formulär och webbsidor.
+---
+
 # Personalisera innehåll
 
 Personaliserat innehåll visas olika för varje kontakt baserat på data som lagras på kontaktkortet.

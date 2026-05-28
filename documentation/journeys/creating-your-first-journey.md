@@ -1,3 +1,9 @@
+---
+description: >-
+  A walkthrough for building your first Journey in eMarketeer, from setting the
+  starting point to activating the automation.
+---
+
 # Creating your first Journey
 
 This article walks through building your first Journey, from starting point to activation.

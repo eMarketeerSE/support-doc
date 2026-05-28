@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skapar en anpassad domän för att ersätta standardadressen från eMarketeer i de länkar ditt konto genererar.
+---
+
 # Egen domän
 
 En egen domän ersätter eMarketeers standardvärdnamn i de länkar som ditt konto genererar.

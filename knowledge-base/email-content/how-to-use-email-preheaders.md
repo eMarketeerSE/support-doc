@@ -1,3 +1,9 @@
+---
+description: >-
+  How to add a preheader text to an email so recipients see a custom summary
+  line next to the subject in the inbox.
+---
+
 # Tutorial: How to use email preheaders
 
 This tutorial shows how to add a preheader to an email in eMarketeer.

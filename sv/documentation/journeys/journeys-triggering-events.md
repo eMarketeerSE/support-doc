@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  En referens som listar de kontakthändelser som får eMarketeer att utvärdera om en Journeys startpunkt är uppfylld.
+---
+
 # Utlösande händelser för Journeys
 
 Startpunkter i en Journey utvärderas endast när specifika händelser inträffar för en kontakt. Att veta vilka händelser som utlöser utvärderingen hjälper dig att starta en Journey vid rätt tillfälle.

@@ -1,3 +1,9 @@
+---
+description: >-
+  How to embed an eMarketeer form on your website by installing the Form Base
+  Script and pasting the generated snippet.
+---
+
 # Embed Forms on your Website
 
 Embed an eMarketeer form on your website by installing the Form Base Script and pasting the form's snippet where you want it to appear.

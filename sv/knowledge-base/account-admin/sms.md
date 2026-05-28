@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skapar och konfigurerar ett anpassat SMS Sender ID så att ditt företagsnamn visas som avsändare av dina SMS.
+---
+
 # SMS Sender ID
 
 Sender ID är den text eller det nummer som visas för mottagaren som avsändare av ett SMS.

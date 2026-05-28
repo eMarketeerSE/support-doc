@@ -1,3 +1,9 @@
+---
+description: >-
+  Advanced guide to requiring a country code in a form's phone number field
+  when reCAPTCHA is enabled.
+---
+
 # Form Phone Number Validation when using reCAPTCHA (Advanced)
 
 This guide shows how to require a country code in the mobile number field of a form when reCAPTCHA is active.

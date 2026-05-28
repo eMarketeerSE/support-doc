@@ -1,3 +1,9 @@
+---
+description: >-
+  What Campaign Contacts is, how contacts are added to it, and how to review
+  or remove contacts from a campaign.
+---
+
 # Campaign Contacts
 
 Campaign Contacts is a tab in each campaign that lists the contacts belonging to that campaign.

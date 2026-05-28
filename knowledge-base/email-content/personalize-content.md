@@ -1,3 +1,9 @@
+---
+description: >-
+  How to use contact field data to display personalized content for each
+  individual recipient in emails, SMS, forms, and webpages.
+---
+
 # Personalize content
 
 Personalized content displays differently for each contact based on data stored on the contact card.

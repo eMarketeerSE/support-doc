@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du bäddar in ett eMarketeer-formulär på din webbplats genom att installera Form Base Script och klistra in det genererade kodavsnittet.
+---
+
 # Bädda in formulär på din webbplats
 
 Bädda in ett eMarketeer-formulär på din webbplats genom att installera Form Base Script och klistra in formulärets snippet där du vill att det ska visas.

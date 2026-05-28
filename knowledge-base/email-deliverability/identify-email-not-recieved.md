@@ -1,3 +1,9 @@
+---
+description: >-
+  A troubleshooting guide covering the most common reasons a contact did not
+  receive an email and what you can do in each case.
+---
+
 # Identifying why an email was not received
 
 This article explains how to identify the most common reasons a contact did not receive an email and what you can do about each one.

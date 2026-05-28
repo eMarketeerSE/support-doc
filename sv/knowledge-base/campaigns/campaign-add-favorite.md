@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du fäster en kampanj i Mina favoriter för snabb åtkomst från valfri kampanjnavigationssida.
+---
+
 # Skapa en genväg till en kampanj med Mina favoriter
 
 Mina favoriter är en sektion i kampanjnavigeringen som innehåller genvägar till kampanjer du vill nå snabbt.

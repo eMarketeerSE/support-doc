@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  En översikt av Journeys: vad de är, vad de används till och hur kontakter rör sig genom de automatiserade stegen.
+---
+
 # Journeys – översikt
 
 En Journey är en sekvens av automatiserade steg som körs för varje kontakt som matchar startpunktens kriterier.

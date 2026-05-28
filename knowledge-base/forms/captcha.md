@@ -1,3 +1,9 @@
+---
+description: >-
+  How reCAPTCHA protects eMarketeer forms from bot submissions and what the
+  icon on hosted form pages means.
+---
+
 # reCAPTCHA for eMarketeer Forms
 
 reCAPTCHA protects your forms from bot submissions using Google's CAPTCHA system.

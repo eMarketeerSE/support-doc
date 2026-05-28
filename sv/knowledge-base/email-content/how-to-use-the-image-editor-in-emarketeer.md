@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du redigerar bilder och får tillgång till det inbyggda stockbiblioteket
+  med över två miljoner foton, typsnitt och ikoner direkt i eMarketeer.
+---
+
 # Så här använder du bildredigeraren i eMarketeer
 
 Bildredigeraren låter dig redigera dina egna bilder och ger dig ett inbyggt stockbibliotek att hämta från.

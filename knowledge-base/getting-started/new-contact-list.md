@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create a new contact list to group contacts for use in campaigns and
+  journeys.
+---
+
 # How to Create a New Contact List
 
 Create a new contact list to use in a campaign in a few steps.

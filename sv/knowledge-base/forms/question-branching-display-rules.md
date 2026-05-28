@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du förgrenar formulärfrågor till olika sidor eller visar och döljer frågor på samma sida baserat på en respondents tidigare svar.
+---
+
 # Skapa förgrenade frågevägar och använd visningsregler för frågor i formulär
 
 Förgrena frågor i formulär eller dölj dem tills de är relevanta genom att använda regler på formulärfrågor.

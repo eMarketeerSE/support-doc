@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du konfigurerar lead scoring-regler steg för steg, var du ser varje kontakts score och hur du filtrerar kontakter på score.
+---
+
 # Så fungerar lead scoring i eMarketeer och steg-för-steg-guide
 
 Lead scoring visar hur säljklara dina kontakter är genom att tilldela poäng baserat på persona-matchning och engagemang.

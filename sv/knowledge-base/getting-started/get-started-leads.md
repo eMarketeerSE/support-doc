@@ -1,3 +1,9 @@
+---
+description: >-
+  En översikt av eMarketeer Leads: hur du sätter upp sales-team, kvalificerar
+  kontakter och levererar leads till säljarna i realtid.
+---
+
 # Kom igång med leads
 
 eMarketeer Leads låter marknadsföring kvalificera kontakter utifrån engagemang och persona och sedan leverera dem till säljteam i realtid.

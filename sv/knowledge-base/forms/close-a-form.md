@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du konfigurerar ett formulär för att sluta ta emot svar efter ett angivet
+  datum eller ett maximalt antal inlämningar.
+---
+
 # Formulär: Stäng ett formulär
 
 Sätt villkor för när ett formulär ska sluta ta emot svar.

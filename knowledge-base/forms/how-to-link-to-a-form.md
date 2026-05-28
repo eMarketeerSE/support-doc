@@ -1,3 +1,9 @@
+---
+description: >-
+  How to add a link to an eMarketeer form from a button, text, or image inside
+  an email or webpage component.
+---
+
 # How to link to a form
 
 This guide shows how to link to a form from an eMarketeer email or web page component.

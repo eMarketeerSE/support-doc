@@ -1,3 +1,9 @@
+---
+description: >-
+  Advanced guide to capping the number of selectable options on a checkbox
+  question in a form using a custom JavaScript snippet.
+---
+
 # Set max number of answers for a form checkbox question (legacy, advanced)
 
 This advanced guide shows how to cap the number of options a respondent can select for a checkbox question in a form.

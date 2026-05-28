@@ -1,3 +1,9 @@
+---
+description: >-
+  How to use the filter builder to segment contacts by any combination of
+  criteria and take actions on the resulting selection.
+---
+
 # How to build and use Contact Filters
 
 Filters let you segment contacts by any criteria you set up, from broad groups to highly specific selections.

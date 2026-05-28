@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create a campaign in eMarketeer to act as the container for your
+  emails, forms, and webpages.
+---
+
 # How to create a new campaign
 
 Create a campaign as the container for the emails, forms, and webpages you want to send and publish.

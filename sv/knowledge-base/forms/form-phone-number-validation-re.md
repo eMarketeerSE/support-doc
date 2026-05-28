@@ -1,3 +1,9 @@
+---
+description: >-
+  Avancerad guide för att kräva landskod i ett formulärs telefonnummerfält när
+  reCAPTCHA är aktiverat.
+---
+
 # Validering av telefonnummer i formulär när reCAPTCHA används (avancerat)
 
 Den här guiden visar hur du kräver en landskod i fältet för mobilnummer i ett formulär när reCAPTCHA är aktivt.

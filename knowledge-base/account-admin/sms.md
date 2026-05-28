@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create and configure a custom SMS Sender ID so your company name
+  appears as the sender of your SMS messages.
+---
+
 # SMS Sender ID
 
 The Sender ID is the text or number shown to recipients as the source of an SMS.

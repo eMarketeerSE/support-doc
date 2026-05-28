@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create and use campaign fields to store reusable information — such as
+  event names or dates — across all components in a campaign.
+---
+
 # How to use campaign fields in eMarketeer
 
 Campaign fields let you store custom information once and reuse it across every piece of campaign content.

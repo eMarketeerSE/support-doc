@@ -1,3 +1,9 @@
+---
+description: >-
+  Vilka redigeringar som är säkra på ett formulär som redan har svar och vilka
+  ändringar som kan påverka befintliga rapporter.
+---
+
 # Redigera ett aktivt formulär
 
 Att redigera ett formulär som redan har svar kan ändra vad svaren betyder, så det lönar sig att veta vilka redigeringar som är säkra och vilka som inte är det.

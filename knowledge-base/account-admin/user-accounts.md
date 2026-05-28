@@ -1,3 +1,9 @@
+---
+description: >-
+  How to set up Multi-Factor Authentication on your eMarketeer account using an
+  authenticator app.
+---
+
 # User guide: Enable Multi Factor Login
 
 Set up Multi-Factor Authentication (MFA) for your eMarketeer login in three steps using an authenticator app. For background on MFA, see [this article](https://support.emarketeer.com/documentation/multi-factor-authentication/).

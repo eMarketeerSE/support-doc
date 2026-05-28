@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du lägger till en länk till ett eMarketeer-formulär från en knapp, text eller bild i ett e-post- eller webbsideskomponent.
+---
+
 # Så här länkar du till ett formulär
 
 Den här guiden visar hur du länkar till ett formulär från ett e-postmeddelande eller en webbsideskomponent i eMarketeer.

@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du kopierar en kampanjs komponenter från ett eMarketeer-konto till ett annat, med originalkampanjen kvar på plats.
+---
+
 # Överför en kampanj till ett annat konto
 
 Du kan överföra en kopia av en kampanj från ett eMarketeer-konto till ett annat. Det är användbart när din organisation driver flera separata konton och vill dela arbete mellan dem.

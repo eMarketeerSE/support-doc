@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du redigerar ett innehållsblocks HTML och sparar det som ett återanvändbart
+  anpassat block i e-postredigeraren (kräver Developer-behörighet).
+---
+
 # Så här skapar du ett anpassat innehållsblock (Developer)
 
 Spara ett redigerat innehållsblock så att det blir återanvändbart i komponenter och mallar.

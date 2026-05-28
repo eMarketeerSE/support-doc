@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  En genomgång för att bygga din första Journey i eMarketeer, från att ange startpunkten till att aktivera automatiseringen.
+---
+
 # Skapa din första Journey
 
 Den här artikeln går igenom hur du bygger din första Journey, från startpunkt till aktivering.

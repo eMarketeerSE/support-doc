@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du skapar lead streams — regeluppsättningar som automatiskt levererar MQL-leads till ett sales-team när kontakter uppfyller kriterierna.
+---
+
 # Lead Streams
 
 En lead stream är en uppsättning regler som genererar Marketing Qualified Leads (MQL) för sälj att bearbeta.

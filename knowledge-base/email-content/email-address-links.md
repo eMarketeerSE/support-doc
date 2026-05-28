@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create clickable mailto links and buttons in an email component so
+  recipients can start a reply with one click.
+---
+
 # Creating clickable email address links and buttons
 
 A clickable email address opens a new message in the recipient's email client with the address already filled in.

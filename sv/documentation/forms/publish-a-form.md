@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du bäddar in ett eMarketeer-formulär på din webbplats med Form Base Script och konfigurerar dess beteende efter inlämning.
+---
+
 # Bädda in formulär på din webbplats
 
 Den här artikeln visar hur du bäddar in ett eMarketeer-formulär på din webbplats och hur du anpassar dess beteende.

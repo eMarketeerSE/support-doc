@@ -1,3 +1,9 @@
+---
+description: >-
+  How to embed an eMarketeer form on your website using the Form Base Script
+  and configure its behavior after submission.
+---
+
 # Embed forms on your website
 
 This article shows you how to embed an eMarketeer form on your website and customise how it behaves.

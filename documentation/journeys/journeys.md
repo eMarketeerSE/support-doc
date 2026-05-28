@@ -1,3 +1,9 @@
+---
+description: >-
+  An overview of Journeys: what they are, what they are used for, and how
+  contacts move through the automated steps.
+---
+
 # Journeys - Overview
 
 A journey is a sequence of automated steps that runs on every contact who matches the journey's starting-point criteria.

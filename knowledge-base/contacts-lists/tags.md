@@ -1,3 +1,9 @@
+---
+description: >-
+  How tags work in eMarketeer: assigning keywords to contacts and campaigns to
+  classify and filter them.
+---
+
 # Tags
 
 Tags are keywords you assign to contacts and campaigns to classify them.

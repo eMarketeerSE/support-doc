@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur taggar fungerar i eMarketeer: att tilldela nyckelord till kontakter och kampanjer för att klassificera och filtrera dem.
+---
+
 # Taggar
 
 Taggar är nyckelord som du tilldelar kontakter och kampanjer för att klassificera dem.

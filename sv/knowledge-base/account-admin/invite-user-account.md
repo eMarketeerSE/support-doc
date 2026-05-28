@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur administratörer bjuder in en ny användare till ett eMarketeer-konto från sidan Användarkonton under Inställningar.
+---
+
 # Så bjuder du in användare till ditt konto (administratör)
 
 Den här guiden visar administratörer hur de bjuder in en ny användare till sitt eMarketeer-konto.

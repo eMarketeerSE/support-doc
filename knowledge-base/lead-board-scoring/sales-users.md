@@ -1,3 +1,9 @@
+---
+description: >-
+  How to grant a user access to sales features so they can work on the lead
+  board as part of a sales team.
+---
+
 # Sales users
 
 A user in eMarketeer can have access to both marketing and sales features. With sales access, the user can work in a sales team on the lead board.

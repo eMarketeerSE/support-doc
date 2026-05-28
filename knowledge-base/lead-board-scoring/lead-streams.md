@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create lead streams — rule sets that automatically deliver Marketing
+  Qualified Leads to a sales team when contacts match the criteria.
+---
+
 # Lead streams
 
 A lead stream is a set of rules that generates Marketing Qualified Leads (MQL) for Sales to process.

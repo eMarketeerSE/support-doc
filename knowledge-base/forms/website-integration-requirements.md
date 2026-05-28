@@ -1,3 +1,9 @@
+---
+description: >-
+  The technical requirements a web page must meet to host an embedded
+  eMarketeer form.
+---
+
 # Form: Website integration requirements
 
 You can embed an eMarketeer form on your own site by pasting generated HTML into the page source. This article lists the environment requirements the page must meet for the form to work.

@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du ersätter standardikonen i eMarketeer med en egen bild när du sparar en Web App på en mobiltelefons hemskärm.
+---
+
 # Byt ikon för hemskärm i Web App
 
 Ersätt eMarketeers standardikon med din egen när du sparar en Web App på en mobil hemskärm.

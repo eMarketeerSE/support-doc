@@ -1,3 +1,9 @@
+---
+description: >-
+  How to create and configure sales teams so each team receives only the
+  qualified leads most relevant to it.
+---
+
 # Sales teams
 
 Leads in eMarketeer are delivered to a sales team. Sales users in the same team share incoming qualified leads.

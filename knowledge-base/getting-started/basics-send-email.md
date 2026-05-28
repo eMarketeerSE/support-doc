@@ -1,3 +1,9 @@
+---
+description: >-
+  The simplest path to sending an email in eMarketeer, from a finished email
+  component to a delivered send-out.
+---
+
 # How to send an email
 
 This article walks through the simplest path to send an email in eMarketeer — from a finished email component to a list of contacts.

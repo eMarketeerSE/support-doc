@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du utformar en lead scoring-modell som speglar din säljprocess, inklusive de vanligaste misstagen att undvika.
+---
+
 # Så bygger du din lead scoring-modell och vanliga misstag
 
 Den här artikeln visar hur du bygger en lead scoring-modell som passar din verksamhet och listar misstag att undvika.

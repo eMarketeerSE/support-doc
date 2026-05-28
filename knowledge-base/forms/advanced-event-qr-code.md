@@ -1,3 +1,9 @@
+---
+description: >-
+  How to generate a contact-specific QR code that submits an email address to a
+  form, enabling automatic attendance registration when scanned at an event.
+---
+
 # Form-specific QR code generation for scanning event attendance (advanced)
 
 This guide shows how to build a QR code that, when scanned, submits the contact's email to a specific eMarketeer form to register event attendance.

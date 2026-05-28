@@ -1,3 +1,9 @@
+---
+description: >-
+  Den enklaste vägen att skicka en e-post i eMarketeer, från ett färdigt
+  e-postkomponent till ett genomfört utskick.
+---
+
 # Så här skickar du en e-post
 
 Den här artikeln går igenom den enklaste vägen för att skicka en e-post i eMarketeer — från en färdig e-postkomponent till en lista med kontakter.

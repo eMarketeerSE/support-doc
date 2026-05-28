@@ -1,3 +1,9 @@
+---
+description: >-
+  Hur du diagnostiserar ett eMarketeer-formulär som visas som otillgängligt
+  eller returnerar ett fel vid åtkomst via en länk.
+---
+
 # Identifiera varför ett formulär är otillgängligt (Legacy)
 
 Den här guiden hjälper dig att diagnostisera ovanligt beteende eller trasiga länkar när du försöker nå ett eMarketeer-formulär.

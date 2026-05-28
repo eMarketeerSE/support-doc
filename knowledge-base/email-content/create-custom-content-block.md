@@ -1,3 +1,9 @@
+---
+description: >-
+  How to edit a content block's HTML and save it as a reusable custom block in
+  the email editor (requires Developer permission).
+---
+
 # How to create a custom content block (Developer)
 
 Save an edited content block so it becomes reusable across components and templates.

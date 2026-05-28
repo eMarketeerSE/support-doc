@@ -1,3 +1,9 @@
+---
+description: >-
+  A tour of the campaign interface, covering the components view, the
+  add-component menu, and links for contact management and automations.
+---
+
 # Campaign Interface explained
 
 This article describes the campaign interface, with a focus on the Components view.

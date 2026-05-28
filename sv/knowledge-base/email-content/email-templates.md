@@ -1,3 +1,10 @@
+---
+hidden: true
+description: >-
+  En översikt av eMarketeers kostnadsfria, mobilanpassade e-postmallar och vad
+  som förändrades i den uppdaterade generationen.
+---
+
 # Nya e-postmallar — det här behöver du veta
 
 De kostnadsfria e-postmallarna i eMarketeer ger dig ett försprång när du bygger e-postmeddelanden, med dussintals mobilanpassade designer som du kan anpassa till ditt varumärke.

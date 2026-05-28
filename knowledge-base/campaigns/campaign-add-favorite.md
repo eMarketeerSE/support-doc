@@ -1,3 +1,9 @@
+---
+description: >-
+  How to pin a campaign to My Favorites for quick access from any campaign
+  navigation page.
+---
+
 # Creating a shortcut to a Campaign using My Favorites
 
 My Favorites is a section in the campaign navigation that holds shortcuts to campaigns you want quick access to.

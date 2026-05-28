@@ -1,3 +1,8 @@
+﻿---
+description: >-
+  Hur du förbereder en Excel-fil och importerar kontakter — inklusive samtyckesuppgifter — till eMarketeers kontaktdatabas.
+---
+
 # Importera kontakter från Excel
 
 Den här guiden beskriver hur du importerar kontakter till din eMarketeer-kontaktdatabas från Excel-dokument.
