@@ -37,7 +37,7 @@ You can see the bounce rate in the email report. Keep your average bounce rate u
 
 ### What happens if my bounce rate is too high?
 
-eMarketeer runs the send-out for you and applies email security measures such as your [authenticated domain](https://support.emarketeer.com/knowledgebase/why-authorize-email-domain/). We also rely on you to handle addresses and send-outs with care. If your bounce rate exceeds 5%, your account may be paused to maintain our security standards.
+eMarketeer runs the send-out for you and applies email security measures such as your [authenticated domain](why-authorize-email-domain.md). We also rely on you to handle addresses and send-outs with care. If your bounce rate exceeds 5%, your account may be paused to maintain our security standards.
 
 ### How do I keep a low bounce rate?
 
@@ -51,6 +51,6 @@ If you want to learn more, this blog post covers [5 ways to reduce email bounce 
 
 A complaint is when a contact receives the email in their inbox, then clicks the "This is spam" button. Complaints are only registered from large web-based email providers such as Gmail, Yahoo, and Hotmail.
 
-When a contact marks an email as spam and the event is reported to eMarketeer, that contact is automatically unsubscribed from future sends. Not all complaints are reported back to eMarketeer — some only register at the provider level. You can monitor complaint rates by domain in the [email health dashboard](https://support.emarketeer.com/knowledgebase/email_health_dashboard/).
+When a contact marks an email as spam and the event is reported to eMarketeer, that contact is automatically unsubscribed from future sends. Not all complaints are reported back to eMarketeer — some only register at the provider level. You can monitor complaint rates by domain in the [email health dashboard](emailhealthdashboard.md).
 
 Your account is allowed an average complaint rate of 0.3% before we have to pause it for audit.

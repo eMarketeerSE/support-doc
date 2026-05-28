@@ -23,4 +23,4 @@ The steps to create a new contact list.
 
 ## What to do next
 
-To import contacts from Excel into the new list, see [Import contacts from Excel](https://support.emarketeer.com/knowledgebase/import-contacts-from-excel/).
+To import contacts from Excel into the new list, see [Import contacts from Excel](../contacts-lists/import-contacts-from-excel.md).

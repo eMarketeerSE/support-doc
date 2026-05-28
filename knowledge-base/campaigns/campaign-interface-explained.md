@@ -10,9 +10,9 @@ This article describes the campaign interface, with a focus on the Components vi
 
 The left side of the screen holds the Add components menu and quick links for contact management and automations. The right side holds the different views of the campaign.
 
-Components make up the content of your campaign. There are four component types: [Emails](https://support.emarketeer.com/knowledgebase/basics-creating-email/), [Forms](https://support.emarketeer.com/knowledgebase/basics-creating-form/), [SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/), and [Webpages](https://support.emarketeer.com/knowledgebase/creating-first-webpage/), plus one sub-component, Mobile apps.
+Components make up the content of your campaign. There are four component types: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form.md), [SMS](../getting-started/basics-creating-sms.md), and [Webpages](../developer-advanced/creating-first-webpage.md), plus one sub-component, Mobile apps.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/campaign-UI-numbers.png" alt="Campaign UI"></div>](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/campaign-UI-numbers.png" alt="Campaign UI"></div>
 
 The campaign user interface
 
@@ -20,12 +20,12 @@ The campaign user interface
 
 Below the campaign path, name, and description sit several tabs. Each tab is a separate view of the campaign:
 
-* Dashboard Build campaign-specific reports using reporting widgets. See [campaign reports](https://support.emarketeer.com/knowledgebase/how-to-use-emarketeer-campaign-reports/).
+* Dashboard Build campaign-specific reports using reporting widgets. See [campaign reports](../reports/how-to-use-emarketeer-campaign-reports.md).
 * Components The default view. Organize and view the campaign's components. The number in parentheses shows how many components the campaign has.
-* Contacts Lists contacts added to the campaign, either imported directly or added automatically through interaction. The number in parentheses shows how many contacts are currently related to the campaign. [Read more](https://support.emarketeer.com/knowledgebase/campaign-contacts/).
+* Contacts Lists contacts added to the campaign, either imported directly or added automatically through interaction. The number in parentheses shows how many contacts are currently related to the campaign. [Read more](campaign-contacts.md).
 * Event history Shows events for sent emails or SMS. Review when a component was sent, and review or abort upcoming scheduled sends. The number in parentheses shows scheduled sendouts currently waiting in this campaign.
 * Automation Add automated actions to the campaign. Automations trigger from a contact interacting with a component, so the campaign must contain at least one component. The number in parentheses shows how many automations exist in the campaign.
-* Fields Define fields unique to this campaign that can be merged into component content as variables. Editing a field value replaces the variable in every component that uses it. [Read more about campaign fields](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
+* Fields Define fields unique to this campaign that can be merged into component content as variables. Editing a field value replaces the variable in every component that uses it. [Read more about campaign fields](how-to-use-campaign-fields-in-emarketeer.md).
 
 ## 2. View-specific area
 

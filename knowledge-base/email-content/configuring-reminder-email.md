@@ -18,7 +18,7 @@ This guide covers two common scenarios: reminding contacts to read an email they
 
 ### 1. Create an email component to use as the reminder
 
-If you have not built the reminder email yet, see the guide on [creating an email](https://support.emarketeer.com/knowledgebase/basics-send-email/).
+If you have not built the reminder email yet, see the guide on [creating an email](../getting-started/basics-send-email.md).
 
 ### 2. Start the send process and add the original recipients
 

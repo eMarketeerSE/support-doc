@@ -30,7 +30,7 @@ Key features:
 
 ### Getting started
 
-Watch the [Forms editor video tutorial](https://www.youtube.com/watch?v=VKRJyNYDmbg) to get to know the new editor. When you are ready to put a new form on your website, follow the [embed instructions](https://support.emarketeer.com/documentation/publish-a-form/).
+Watch the [Forms editor video tutorial](https://www.youtube.com/watch?v=VKRJyNYDmbg) to get to know the new editor. When you are ready to put a new form on your website, follow the [embed instructions](../documentation/forms/publish-a-form.md).
 
 ## Cookieless web tracker
 

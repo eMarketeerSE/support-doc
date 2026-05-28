@@ -45,7 +45,7 @@ Email information on contact card showing delivery
 
 ### The email was never addressed or sent
 
-This usually means the contact was removed from the recipient list during the checklist stage of the sendout process. You can read more about this stage in [this article](https://support.emarketeer.com/knowledgebase/checklist-explained/).
+This usually means the contact was removed from the recipient list during the checklist stage of the sendout process. You can read more about this stage in [this article](../reports/checklist-explained.md).
 
 If the email was never addressed to the contact, you can usually find the reason on their contact card. Start with the Lead Status widget at the top right of the contact card. If it displays "Bounced", the contact's email address is marked as undeliverable from a previous bounce message that eMarketeer received from their email service.
 

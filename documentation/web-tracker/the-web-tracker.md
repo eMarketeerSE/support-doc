@@ -9,7 +9,7 @@ With the tracker installed you can:
 - Integrate with your website consent banner
 - Track the origin of your contacts
 
-Ready to install the script on your website? [See the installation instructions](https://support.emarketeer.com/documentation/installing-the-web-tracker-script-on-your-website/). You get the best results when you also [install eMarketeer forms](https://support.emarketeer.com/documentation/publish-a-form/) on your website for conversions.
+Ready to install the script on your website? [See the installation instructions](installing-the-web-tracker-script-on-your-website.md). You get the best results when you also [install eMarketeer forms](../forms/publish-a-form.md) on your website for conversions.
 
 ## How the tracker works
 
@@ -35,7 +35,7 @@ When an identified contact enters your site, we store:
 There are two ways to identify a contact on your website.
 
 - Clicking a link in an eMarketeer email. If the link goes to your website where the tracker is installed, the contact is identified.
-- Submitting an embedded [eMarketeer form](https://support.emarketeer.com/documentation/publish-a-form/) on your website. When the form is submitted with contact details, an identifier is stored in the visitor's browser.
+- Submitting an embedded [eMarketeer form](../forms/publish-a-form.md) on your website. When the form is submitted with contact details, an identifier is stored in the visitor's browser.
 
 ### Retrospective tracking
 

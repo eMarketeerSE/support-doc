@@ -15,7 +15,7 @@ Alla kontakter som triggar någon av följande automatiseringar läggs till i le
 
 Om kontakten är känd för SuperOffice — den har ett External ID eller en matchande e-postadress — läggs den till i avsnittet "Assigned leads". Om kontakten är okänd för SuperOffice (inget External ID och ingen matchande e-postadress) läggs den till i avsnittet "Leads without owners".
 
-Leadrapporten är åtkomlig inifrån SuperOffice — klicka på leads-knappen så öppnas en webbpanel. Om din leads-knapp och webbpanel saknas, [så här](https://support.emarketeer.com/documentation/actions-performed-during-set-up/) får du dem.
+Leadrapporten är åtkomlig inifrån SuperOffice — klicka på leads-knappen så öppnas en webbpanel. Om din leads-knapp och webbpanel saknas, [så här](../../documentation/superoffice/actions-performed-during-set-up.md) får du dem.
 
 ### Leads without owners
 

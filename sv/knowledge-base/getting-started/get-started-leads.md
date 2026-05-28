@@ -22,22 +22,22 @@ För att kvalificera och leverera leads krävs tre delar:
 
 - **Säljteam**
   Leads kan bara levereras till säljteam. Du kan ha ett team eller flera.
-  [Skapa ett säljteam](https://support.emarketeer.com/knowledgebase/sales-teams/)
+  [Skapa ett säljteam](../lead-board-scoring/sales-teams.md)
 - **Lead Streams**
   En Lead Stream är en uppsättning kvalificeringsregler (ett filter). Varje kontakt som matchar filtret kvalificeras som ett lead och levereras till det valda säljteamet eller -teamen.
-  [Skapa Lead Streams](https://support.emarketeer.com/knowledgebase/lead-streams/)
+  [Skapa Lead Streams](../lead-board-scoring/lead-streams.md)
 - **Säljanvändare**
   En säljanvändare har tillgång till Lead Board för att hantera leads och tillhör alltid ett team som tar emot leads.
-  [Skapa säljanvändare](https://support.emarketeer.com/knowledgebase/sales-users/)
+  [Skapa säljanvändare](../lead-board-scoring/sales-users.md)
 
 ## Arbeta med Lead Board
 
 När leads kommer in öppnar säljanvändarna Lead Board för att granska berikade leads och föra dem nedåt i tratten.
 
-[Öppna guiden för Lead Board](https://support.emarketeer.com/knowledgebase/the-lead-board/)
+[Öppna guiden för Lead Board](../lead-board-scoring/the-lead-board.md)
 
 ## Lead Board och SuperOffice
 
 eMarketeer Lead Board fungerar fullt ut inuti SuperOffice. Lär dig hur Lead Board och SuperOffice fungerar tillsammans.
 
-[Lead Board och SuperOffice](https://support.emarketeer.com/knowledgebase/lead-board-and-superoffice/)
+[Lead Board och SuperOffice](../lead-board-scoring/lead-board-and-superoffice.md)

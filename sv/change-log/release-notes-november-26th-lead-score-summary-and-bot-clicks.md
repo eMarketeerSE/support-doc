@@ -10,20 +10,20 @@ De nya e-postmallarna inkluderar helgmallar och kommer med mer än bara ett frä
 
 Dessa mallar ersätter de gamla, men dina sparade mallar behålls som de är. Vi rekommenderar att du bygger om dem på någon av de nya mallarna för att dra nytta av de extra designalternativen och bättre visning i fler e-postklienter.
 
-Se [artikeln om e-postmallar](https://support.emarketeer.com/knowledgebase/email-templates/).
+Se [artikeln om e-postmallar](../knowledge-base/email-content/email-templates.md).
 
 ### Lead score-sammanfattning
 
 Med lead score-sammanfattningen kan du se hur varje kontakt fick sin nuvarande poäng. Sammanfattningen listar de lead score-regler som kontakten uppfyller. Det finns också en tidslinje som visar hur kontaktens poäng har sett ut över tid. Du hittar poängsammanfattningen när du öppnar ett kontaktkort och klickar på den nya fliken "Score summary".
 
-- [Videohandledning: så fungerar lead scoring i eMarketeer](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
-- [Video: så vet du vad du ska poängsätta och vanliga misstag i lead scoring](https://support.emarketeer.com/knowledgebase/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/)
+- [Videohandledning: så fungerar lead scoring i eMarketeer](../knowledge-base/lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)
+- [Video: så vet du vad du ska poängsätta och vanliga misstag i lead scoring](../knowledge-base/lead-board-scoring/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
 
 ### Rich text-redigerare i kampanjfält
 
 Kampanjfält låter dig sätta upp anpassade fält för din kampanj, inklusive bilder, rubriker och datum. En rich text-redigerare ansluter nu till kampanjfält-familjen. Du kan anpassa texten du använder som kampanjfält med typsnittsalternativ, hyperlänkar och annan formatering.
 
-Se [så använder du kampanjfält](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
+Se [så använder du kampanjfält](../knowledge-base/campaigns/how-to-use-campaign-fields-in-emarketeer.md).
 
 ### Förbättringar av filtrering av falska positiva e-postklick
 

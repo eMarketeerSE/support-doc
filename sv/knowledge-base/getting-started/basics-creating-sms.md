@@ -16,7 +16,7 @@ Att skicka SMS är bara några få steg när meddelandet är uppsatt. När du ä
 
 Klicka på **Add SMS** på kampanjsidan.
 
-- Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+- Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../../assets/basics-creating-sms/cs1.png" alt="Knappen Add SMS på kampanjsidan"></div>
 
@@ -44,7 +44,7 @@ När inställningar och mall är klara klickar du på **Create SMS** för att sk
 
 När du klickat på **Create SMS** öppnas redigeraren. Du ser en textruta där du redigerar meddelandet och ett Sender ID-alternativ nedanför.
 
-Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard är `eMarketeer`. Du kan begära ett eget Sender ID — se [den här artikeln](https://support.emarketeer.com/documentation/sender-id/).
+Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard är `eMarketeer`. Du kan begära ett eget Sender ID — se [den här artikeln](../../documentation/email-sms/sender-id.md).
 
 Nedanför hittar du SMS-testfunktionen, som låter dig skicka SMS:et till dig själv för att se hur det ser ut när det kommer fram. Länkar i test-SMS fungerar inte — skicka SMS:et på vanligt sätt om du behöver testa länkar.
 
@@ -62,7 +62,7 @@ Klicka på **Save Message** efter varje ändring för att spara ditt arbete.
 
 ### 5. Skicka ditt SMS
 
-Att skicka en SMS fungerar i stort sett som att skicka en e-post och har många av samma alternativ. Se [Så här skickar du en e-post](https://support.emarketeer.com/knowledgebase/basics-send-email/) för en fullständig genomgång.
+Att skicka en SMS fungerar i stort sett som att skicka en e-post och har många av samma alternativ. Se [Så här skickar du en e-post](basics-send-email.md) för en fullständig genomgång.
 
 Telefonnummer måste innehålla landskod och följa standardformat innan du skickar. Till exempel: `+46701231231`.
 

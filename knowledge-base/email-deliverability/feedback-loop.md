@@ -32,4 +32,4 @@ If you receive feedback loop warnings or guidance, act immediately:
 - Review recent campaigns for relevance, expectations, and opt-in quality.
 - Keep complaint and bounce rates low.
 
-For detailed guidance, see [Maximizing email marketing success – best practices and pitfalls to avoid](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+For detailed guidance, see [Maximizing email marketing success – best practices and pitfalls to avoid](../reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

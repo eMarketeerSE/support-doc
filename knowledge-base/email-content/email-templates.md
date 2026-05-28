@@ -24,15 +24,15 @@ The new templates replace the previous ones. Saved templates still appear in you
 
 If you need help moving a saved template to the new root, email sales@emarketeer.com.
 
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Email-template-example-1.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Email-template-example-2.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Email-template-example-4.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Email-template-example-5-1024x785.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Email-template-example-6-1024x859.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Screenshot-2021-11-25-at-15.29.55-773x1024.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Screenshot-2021-11-25-at-15.30.32-629x1024.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/image-1-934x1024.png)
-* [<div data-with-frame="true"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/image-896x1024.png)
+* <div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>
+* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>
+* <div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>
+* [<div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>
+* <div data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>
+* [<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>
+* <div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>
+* [<div data-with-frame="true"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>
+* <div data-with-frame="true"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>
 
 ## Three tips about the email templates
 
@@ -44,11 +44,11 @@ When you share the link to your email on social media, the post can use a custom
 
 This is not where you set the subject line for the email itself — the subject line and sender information live in the left-hand side menu.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Link sharing settings in the editor"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Link_sharing_in_editor-1024x443.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Link sharing settings in the editor"></div>
 
 Where to update link sharing information in the editor.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-02-at-15.48.03.png" alt="Email link preview on social media"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/Screenshot-2021-11-02-at-15.48.03.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-02-at-15.48.03.png" alt="Email link preview on social media"></div>
 
 How the email link looks when posted on social media.
 
@@ -62,7 +62,7 @@ The exact length that displays depends on the recipient's email client.
 
 > TODO: verify recommended character counts for subject line and preheader (source said "XXX characters").
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/preheader-1024x563.png" alt="Preheader examples in the inbox"></div>](https://support.emarketeer.com/wp-content/uploads/2021/11/preheader-1024x563.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/preheader-1024x563.png" alt="Preheader examples in the inbox"></div>
 
 Examples of emails with and without a preheader.
 
@@ -76,4 +76,4 @@ If the recipient's email client does not support web fonts, the font set under S
 
 Create images for your email with the image editor in eMarketeer. You can add filters, text, and graphical elements, and the built-in stock image library includes two million photos, 900 fonts, and 700 icons that are free to use.
 
-For a walkthrough, see [How to use the image editor in eMarketeer](https://support.emarketeer.com/knowledgebase/how-to-use-the-image-editor-in-emarketeer/).
+For a walkthrough, see [How to use the image editor in eMarketeer](how-to-use-the-image-editor-in-emarketeer.md).

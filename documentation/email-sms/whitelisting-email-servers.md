@@ -2,7 +2,7 @@
 
 This article explains when and how to whitelist eMarketeer's email servers to keep internal emails from being filtered as spam.
 
-If your sending domain is correctly [authenticated](https://support.emarketeer.com/knowledgebase/authorize-email-domain/) but emails to internal recipients that share the same domain are still filtered as spam, whitelisting eMarketeer's email servers helps ensure delivery. Company spam filters often flag emails that use an internal From address but originate from an external IP, such as eMarketeer or other email service providers, because of the higher risk of fraud.
+If your sending domain is correctly [authenticated](../../knowledge-base/email-deliverability/authorize-email-domain.md) but emails to internal recipients that share the same domain are still filtered as spam, whitelisting eMarketeer's email servers helps ensure delivery. Company spam filters often flag emails that use an internal From address but originate from an external IP, such as eMarketeer or other email service providers, because of the higher risk of fraud.
 
 ## eMarketeer email servers
 

@@ -16,15 +16,15 @@ Duplicates The number of duplicate email addresses found. Usually only relevant 
 
 Unsubscribed The number of intended recipients unsubscribed from the subscription list used to categorize this email. Only relevant when you use such a list.
 
-Consent Withdrawn The number of contacts who have revoked their consent to receive sendouts from you. The specific consent setting is the contact's Marketing Consent. [This article](https://support.emarketeer.com/knowledgebase/how-does-consent-work/) explains consent in more detail.
+Consent Withdrawn The number of contacts who have revoked their consent to receive sendouts from you. The specific consent setting is the contact's Marketing Consent. [This article](../gdpr-consent/how-does-consent-work.md) explains consent in more detail.
 
-Undeliverable Email Addresses The number of contacts whose email addresses have previously reported they cannot receive email. [This guide](https://support.emarketeer.com/knowledgebase/undeliverable-contacts-email-checklist/) shows how to find undeliverable contacts in your contact database.
+Undeliverable Email Addresses The number of contacts whose email addresses have previously reported they cannot receive email. [This guide](../email-deliverability/undeliverable-contacts-email-checklist.md) shows how to find undeliverable contacts in your contact database.
 
-Deliverable but Unengaged The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting. [This article](https://support.emarketeer.com/documentation/exclude-inactive-recipients/) explains Exclude Inactive Recipients.
+Deliverable but Unengaged The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting. [This article](../../documentation/email-sms/exclude-inactive-recipients.md) explains Exclude Inactive Recipients.
 
 Emails with Blocked Domains If your account blocks specific domains for sendouts, any contacts on those domains in your recipient lists are counted here.
 
-Blocked Contacts If a setting on your sendout dynamically blocks some contacts, they are counted here. Examples include "Exclude contacts that have already been sent this email" or actively blocking a recipient source, such as when sending reminder emails as described in [this guide](https://support.emarketeer.com/knowledgebase/configuring-reminder-email/).
+Blocked Contacts If a setting on your sendout dynamically blocks some contacts, they are counted here. Examples include "Exclude contacts that have already been sent this email" or actively blocking a recipient source, such as when sending reminder emails as described in [this guide](../email-content/configuring-reminder-email.md).
 
 Invalid Sender Email Address Recipients fall under this category when the sender email address for this email component is invalid. This can be because of an invalid email domain or an incorrectly formatted address. Fix it on the email's editing page by updating the sender email in the left-side menu.
 

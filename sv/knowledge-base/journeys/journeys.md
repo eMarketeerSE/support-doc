@@ -31,4 +31,4 @@ Du kan använda Journeys även utan att köpa tillägget. I provläge kan du ska
 
 ## Vad du gör härnäst
 
-[Lär dig att skapa din första Journey.](https://support.emarketeer.com/documentation/journeys/creating-your-first-journey/)
+[Lär dig att skapa din första Journey.](../../documentation/journeys/creating-your-first-journey.md)

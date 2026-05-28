@@ -10,7 +10,7 @@ This guide helps you diagnose unusual behavior or broken links when accessing an
 
 Before you start, open a private or incognito window and try the form there. If the form loads in private mode, the cause is most likely stale data in your browser. Clear that data from your browser's settings and the issue should be gone.
 
-This article references different types of eMarketeer URLs. For background, see [Understanding eMarketeer URLs](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
+This article references different types of eMarketeer URLs. For background, see [Understanding eMarketeer URLs](../account-admin/understanding-em-urls.md).
 
 ## The form cannot be displayed at this time
 
@@ -28,9 +28,9 @@ To raise the contact limit, send a request to [customerservice@emarketeer.com](m
 
 An empty webpage
 
-This usually means the URL is faulty, for example a few characters changed in a dynamic part of the URL. Go back and confirm the link is correct, preferably the [Direct URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
+This usually means the URL is faulty, for example a few characters changed in a dynamic part of the URL. Go back and confirm the link is correct, preferably the [Direct URL](../account-admin/understanding-em-urls.md).
 
-It can also happen when a form has been moved to another campaign. This only occurs with an eMarketeer [Internal URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/), because internal URLs depend on the target component's location relative to the source. For example, an email that links to a form inside the same campaign breaks if you move the form to a different campaign. Move the components back to their original layout, or redo the linking.
+It can also happen when a form has been moved to another campaign. This only occurs with an eMarketeer [Internal URL](../account-admin/understanding-em-urls.md), because internal URLs depend on the target component's location relative to the source. For example, an email that links to a form inside the same campaign breaks if you move the form to a different campaign. Move the components back to their original layout, or redo the linking.
 
 ## No such session
 
@@ -38,7 +38,7 @@ It can also happen when a form has been moved to another campaign. This only occ
 
 A webpage showing the message "No such session"
 
-This usually means the [Session URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) has expired. Session URLs live for 24 hours and allow only one answer before they expire. It can also happen when an answer has been deleted from the Form Components Report, since that deletes the session the URL points to.
+This usually means the [Session URL](../account-admin/understanding-em-urls.md) has expired. Session URLs live for 24 hours and allow only one answer before they expire. It can also happen when an answer has been deleted from the Form Components Report, since that deletes the session the URL points to.
 
 Use the Direct URL to the form instead.
 
@@ -48,7 +48,7 @@ Use the Direct URL to the form instead.
 
 Answer has already been registered
 
-You see this message when a form is set to allow one answer per person and someone has already answered using the Session or [Personalised URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) you are trying to use, or when the original respondent revisits the form through a Direct URL. It can surprise people who forwarded or received a forwarded email with a Personalised URL, since only one person can answer.
+You see this message when a form is set to allow one answer per person and someone has already answered using the Session or [Personalised URL](../account-admin/understanding-em-urls.md) you are trying to use, or when the original respondent revisits the form through a Direct URL. It can surprise people who forwarded or received a forwarded email with a Personalised URL, since only one person can answer.
 
 If you see this in error, confirm you used the correct link and that the form's visitor settings allow more than one answer.
 

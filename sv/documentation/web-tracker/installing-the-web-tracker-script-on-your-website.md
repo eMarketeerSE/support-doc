@@ -2,7 +2,7 @@
 
 Installera eMarketeer Web Tracker på din webbplats så att du kan se vilka sidor dina kontakter besöker.
 
-Den här guiden går igenom både den rekommenderade mallen för Google Tag Manager och en manuell installation. Du behöver inte vara teknisk — följ stegen i ordning. När du är klar, [installera även formulärets basskript på din webbplats](https://support.emarketeer.com/documentation/publish-a-form/).
+Den här guiden går igenom både den rekommenderade mallen för Google Tag Manager och en manuell installation. Du behöver inte vara teknisk — följ stegen i ordning. När du är klar, [installera även formulärets basskript på din webbplats](../forms/publish-a-form.md).
 
 ## Hämta ditt Tracker ID och skript
 
@@ -12,7 +12,7 @@ Innan du börjar behöver du ditt unika Tracker ID och skript.
 2. Gå till [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). Du måste vara administratör för att komma åt den här sidan.
 3. Kopiera ditt Tracker ID och skript. Du behöver dem under installationen.
 
-[<div data-with-frame="true"><img src="../../../assets/installing-the-web-tracker-script-on-your-website/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>](https://support.emarketeer.com/wp-content/uploads/2025/03/Screenshot-2026-01-13-132700.png)
+<div data-with-frame="true"><img src="../../../assets/installing-the-web-tracker-script-on-your-website/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>
 
 ## Alternativ 1: Enkel installation (rekommenderas)
 

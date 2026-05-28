@@ -10,7 +10,7 @@ Personalized content displays differently for each contact based on data stored 
 
 The most common example is a personalized email greeting that addresses the contact by name. Personalization works in emails, SMS, forms, and webpages.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-30-58.png" alt="An email greeting reading "Hi Sebastian," personalized with the contact's first name"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_10-30-58.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-30-58.png" alt="An email greeting reading "Hi Sebastian," personalized with the contact's first name"></div>
 
 A personalized greeting in an email.
 
@@ -18,7 +18,7 @@ A personalized greeting in an email.
 
 When a contact is identified in an eMarketeer component, that component can pull data from the contact card. Emails and SMS always identify the contact, since they are targeted to specific contacts at send time. Forms and webpages can also personalize when the contact is identified — for example via a personal link.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-40-28-1024x546.png" alt="Contact card showing fields populated for a sample contact"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_10-40-28.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-40-28-1024x546.png" alt="Contact card showing fields populated for a sample contact"></div>
 
 eMarketeer contact card with data.
 
@@ -34,7 +34,7 @@ The most common ways to gather contact data are CRM sync, Excel import, and form
 
 Importing via Excel lets you set the data on each contact by preparing the sheet before upload. In this example, First name, Last name, Email, Company, and Personal Code are imported for two contacts.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-10-16.png" alt="Excel sheet with five columns prepared for import"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_11-10-16.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-10-16.png" alt="Excel sheet with five columns prepared for import"></div>
 
 Excel file ready for import.
 
@@ -42,7 +42,7 @@ You can import an Excel file as part of sending an email or SMS, or beforehand i
 
 In this example, Personal Code is a custom field. Custom fields are non-standard contact card fields. Add custom fields in Account Settings, Customize eMarketeer, Customize Contact Card (administrator role required).
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-33-09.png" alt="Column mapping screen during Excel import showing source columns matched to contact card fields"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_11-33-09.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-33-09.png" alt="Column mapping screen during Excel import showing source columns matched to contact card fields"></div>
 
 Importing contacts with Excel, matching data with available fields.
 
@@ -50,13 +50,13 @@ Importing contacts with Excel, matching data with available fields.
 
 Add personalized data to any text field using the Personalize option in the toolbar.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_14-39-08.png" alt="Personalize icon in the editor toolbar"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_14-39-08.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_14-39-08.png" alt="Personalize icon in the editor toolbar"></div>
 
 The Personalize icon in the toolbar.
 
-The menu lists all available contact card fields, company account fields, and [campaign fields](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
+The menu lists all available contact card fields, company account fields, and [campaign fields](../campaigns/how-to-use-campaign-fields-in-emarketeer.md).
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_14-44-42.png" alt="Personalize menu open with the list of available fields"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_14-44-42.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_14-44-42.png" alt="Personalize menu open with the list of available fields"></div>
 
 Personalize menu, showing all available fields.
 
@@ -87,25 +87,25 @@ When writing snippets by hand, forgetting this attribute is a common mistake —
 
 ### Email sender info
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-08-07.png" alt="Email sender info fields with personalization placeholders inserted"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-08-07.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-08-07.png" alt="Email sender info fields with personalization placeholders inserted"></div>
 
 Email sender info fields can be personalized.
 
 ### Text content
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-09-54.png" alt="Text content showing a personalization placeholder inline"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-09-54.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-09-54.png" alt="Text content showing a personalization placeholder inline"></div>
 
 Personalization in text content.
 
 ### Links and URLs
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-11-34.png" alt="A link URL with a personal code embedded as a personalization placeholder"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-11-34.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-11-34.png" alt="A link URL with a personal code embedded as a personalization placeholder"></div>
 
 A link URL with a personal code. Image URLs work the same way.
 
 ### HTML
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-17-02.png" alt="HTML editor showing a conditional personalization block"></div>](https://support.emarketeer.com/wp-content/uploads/2021/05/2021-05-19_15-17-02.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-17-02.png" alt="HTML editor showing a conditional personalization block"></div>
 
 Personalization in HTML with a conditional statement. The block is visible only to contacts with the value "prospect" for the contact category field.
 

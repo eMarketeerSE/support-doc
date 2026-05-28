@@ -9,7 +9,7 @@ Med trackern installerad kan du:
 - Integrera med din webbplats samtyckesbanner
 - Spåra varifrån dina kontakter kommer
 
-Redo att installera skriptet på din webbplats? [Se installationsanvisningarna](https://support.emarketeer.com/documentation/installing-the-web-tracker-script-on-your-website/). Du får bäst resultat när du också [installerar eMarketeers Formulär](https://support.emarketeer.com/documentation/publish-a-form/) på din webbplats för konverteringar.
+Redo att installera skriptet på din webbplats? [Se installationsanvisningarna](installing-the-web-tracker-script-on-your-website.md). Du får bäst resultat när du också [installerar eMarketeers Formulär](../forms/publish-a-form.md) på din webbplats för konverteringar.
 
 ## Så fungerar trackern
 
@@ -35,7 +35,7 @@ När en identifierad kontakt besöker din webbplats lagrar vi:
 Det finns två sätt att identifiera en kontakt på din webbplats.
 
 - Klick på en länk i ett eMarketeer-e-postmeddelande. Om länken går till din webbplats där trackern är installerad identifieras kontakten.
-- Inskick av ett inbäddat [eMarketeer-formulär](https://support.emarketeer.com/documentation/publish-a-form/) på din webbplats. När formuläret skickas in med kontaktuppgifter lagras en identifierare i besökarens webbläsare.
+- Inskick av ett inbäddat [eMarketeer-formulär](../forms/publish-a-form.md) på din webbplats. När formuläret skickas in med kontaktuppgifter lagras en identifierare i besökarens webbläsare.
 
 ### Retroaktiv spårning
 

@@ -38,10 +38,10 @@ I eMarketeer, gå till [Account → Plugins & Integration → Microsoft Dynamics
 
 Klicka på **Connect to Dynamics 365**.
 
-[<div data-with-frame="true"><img src="../../../assets/dynamics-installation/dynamics_1-1024x388.png" alt="Integrationssidan för Microsoft Dynamics 365 i eMarketeer med Connect-knappen"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_1.png)
+<div data-with-frame="true"><img src="../../../assets/dynamics-installation/dynamics_1-1024x388.png" alt="Integrationssidan för Microsoft Dynamics 365 i eMarketeer med Connect-knappen"></div>
 
 Logga in med ett Microsoft-konto som har åtkomst till den Dynamics-miljö du vill integrera.
 
-[<div data-with-frame="true"><img src="../../../assets/dynamics-installation/dynamics_2-1024x442.png" alt="Microsoft-inloggningsdialog för att ansluta Dynamics"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/dynamics_2.png)
+[<div data-with-frame="true"><img src="../../../assets/dynamics-installation/dynamics_2-1024x442.png" alt="Microsoft-inloggningsdialog för att ansluta Dynamics"></div>
 
 Välj den organisation (miljö) du vill integrera med och klicka på **Continue**.

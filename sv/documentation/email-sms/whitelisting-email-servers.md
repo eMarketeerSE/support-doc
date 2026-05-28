@@ -2,7 +2,7 @@
 
 Den här artikeln förklarar när och hur du ska whitelista eMarketeers e-postservrar för att undvika att interna meddelanden filtreras som spam.
 
-Om din avsändardomän är korrekt [autentiserad](https://support.emarketeer.com/knowledgebase/authorize-email-domain/) men e-post till interna mottagare som delar samma domän ändå filtreras som spam, hjälper det att whitelista eMarketeers e-postservrar för att säkerställa leverans. Företagsspamfilter flaggar ofta meddelanden som använder en intern Från-adress men kommer från en extern IP, som eMarketeer eller andra e-postleverantörer, på grund av den högre risken för bedrägeri.
+Om din avsändardomän är korrekt [autentiserad](../../knowledge-base/email-deliverability/authorize-email-domain.md) men e-post till interna mottagare som delar samma domän ändå filtreras som spam, hjälper det att whitelista eMarketeers e-postservrar för att säkerställa leverans. Företagsspamfilter flaggar ofta meddelanden som använder en intern Från-adress men kommer från en extern IP, som eMarketeer eller andra e-postleverantörer, på grund av den högre risken för bedrägeri.
 
 ## eMarketeers e-postservrar
 

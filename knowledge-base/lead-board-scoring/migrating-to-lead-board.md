@@ -36,4 +36,4 @@ After restarting the integration, the following panels are added. They require e
 
 ## What to do next
 
-For more on Lead Board, see [Get started with leads](https://support.emarketeer.com/knowledgebase/get-started-leads/).
+For more on Lead Board, see [Get started with leads](../getting-started/get-started-leads.md).

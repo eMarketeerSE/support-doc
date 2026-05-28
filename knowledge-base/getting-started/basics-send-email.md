@@ -10,7 +10,7 @@ This article walks through the simplest path to send an email in eMarketeer — 
 
 We skip the more advanced features here and focus on a straight-up send.
 
-Before you start, you need a finished email component. See [How to create a new email](https://support.emarketeer.com/knowledgebase/basics-creating-email/) if you do not have one yet.
+Before you start, you need a finished email component. See [How to create a new email](basics-creating-email.md) if you do not have one yet.
 
 ***
 
@@ -44,8 +44,8 @@ This step has three pages.
 
 If you do not have a contact list yet, see:
 
-* [How to create a new contact list](https://support.emarketeer.com/knowledgebase/new-contact-list/)
-* [Importing contacts from Excel or a spreadsheet](https://support.emarketeer.com/knowledgebase/import-contacts-from-excel/)
+* [How to create a new contact list](new-contact-list.md)
+* [Importing contacts from Excel or a spreadsheet](../contacts-lists/import-contacts-from-excel.md)
 
 First, select **eMarketeer Contact Database**.
 
@@ -79,7 +79,7 @@ Proceed to the checklist
 
 The checklist shows whether any contacts from your list will be excluded from the send. eMarketeer automatically blocks contacts who are unsubscribed or otherwise should not receive the email. You do not usually need to worry about the numbers here — they are handled for you.
 
-If you want the details, see [Understanding the email checklist](https://support.emarketeer.com/knowledgebase/checklist-explained/).
+If you want the details, see [Understanding the email checklist](../reports/checklist-explained.md).
 
 Click **Launch Email** to address and send the email to the contacts in the list.
 
@@ -97,4 +97,4 @@ The email send-out has been launched and the system starts sending
 
 ### What to do next
 
-You can track the send-out and see detailed stats in the email report. See [Email report explained](https://support.emarketeer.com/knowledgebase/email-report-explained/).
+You can track the send-out and see detailed stats in the email report. See [Email report explained](../reports/email-report-explained.md).

@@ -15,13 +15,13 @@ För bakgrund, besök den officiella sidan för [GDPR-direktiven](https://www.eu
 
 ### Läs mer
 
-- [eMarketeers GDPR-översikt](https://support.emarketeer.com/knowledgebase/emarketeer-gdpr-overview/)
-- [eMarketeers GDPR-funktionsfärdplan](https://support.emarketeer.com/knowledgebase/is-there-an-emarketeer-gdpr-roadmap/)
+- [eMarketeers GDPR-översikt](emarketeer-gdpr-overview.md)
+- [eMarketeers GDPR-funktionsfärdplan](is-there-an-emarketeer-gdpr-roadmap.md)
 
 ### Frågor och svar (uppdateras)
 
-- [Hur fungerar samtycke?](https://support.emarketeer.com/knowledgebase/how-does-consent-work/)
-- [Vilka nya funktioner kommer eMarketeer att introducera för att hjälpa till med GDPR?](https://support.emarketeer.com/knowledgebase/which-new-features-will-emarketeer-introduce-to-help-with-gdpr/)
-- [Vad bör jag göra innan GDPR?](https://support.emarketeer.com/knowledgebase/what-should-i-do-before-gdpr/)
-- [Hur kommer eMarketeer att fungera med SuperOffice under GDPR?](https://support.emarketeer.com/knowledgebase/how-will-emarketeer-work-with-superoffice-under-gdpr/)
-- [Var lagras eMarketeer-data geografiskt?](https://support.emarketeer.com/knowledgebase/where-is-emarketeer-data-stored-geographically/)
+- [Hur fungerar samtycke?](how-does-consent-work.md)
+- [Vilka nya funktioner kommer eMarketeer att introducera för att hjälpa till med GDPR?](which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
+- [Vad bör jag göra innan GDPR?](what-should-i-do-before-gdpr.md)
+- [Hur kommer eMarketeer att fungera med SuperOffice under GDPR?](how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+- [Var lagras eMarketeer-data geografiskt?](../account-admin/where-is-emarketeer-data-stored-geographically.md)

@@ -32,4 +32,4 @@ Om du får varningar eller vägledning från feedback loop, agera direkt:
 - Granska senaste kampanjer med avseende på relevans, förväntningar och kvalitet på opt-in.
 - Håll klagomåls- och studsfrekvensen låg.
 
-För detaljerad vägledning, se [Maximizing email marketing success – best practices and pitfalls to avoid](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+För detaljerad vägledning, se [Maximizing email marketing success – best practices and pitfalls to avoid](../reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

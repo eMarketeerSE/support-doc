@@ -9,7 +9,7 @@ Den här artikeln går igenom hur du ansluter SuperOffice Online till eMarketeer
 
 ## Åtgärder som utförs vid uppsättning
 
-För att integrationen ska fungera korrekt installerar eMarketeer nya objekt i SuperOffice, inklusive webbpaneler, fält och typer. [Läs mer om dessa åtgärder](https://support.emarketeer.com/documentation/actions-performed-during-set-up/).
+För att integrationen ska fungera korrekt installerar eMarketeer nya objekt i SuperOffice, inklusive webbpaneler, fält och typer. [Läs mer om dessa åtgärder](actions-performed-during-set-up.md).
 
 ## Starta integrationen
 

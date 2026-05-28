@@ -37,7 +37,7 @@ With lead scoring today you can:
 
 Before you head into eMarketeer, decide on your lead scoring model. eMarketeer ships with some default score rules to give you a head start, but no model fits every business. Tailor the rules to your sales process, and build the model together with your sales team.
 
-[Guide: how to build a lead scoring model and common lead scoring mistakes](https://support.emarketeer.com/knowledgebase/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/)
+[Guide: how to build a lead scoring model and common lead scoring mistakes](how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
 
 ### You can score on the following in eMarketeer
 

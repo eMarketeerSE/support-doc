@@ -29,4 +29,4 @@ You can use journeys without purchasing the add-on. In Trial mode, you can creat
 
 ## What to do next
 
-[Learn how to create your first journey.](https://support.emarketeer.com/documentation/journeys/creating-your-first-journey/)
+[Learn how to create your first journey.](creating-your-first-journey.md)

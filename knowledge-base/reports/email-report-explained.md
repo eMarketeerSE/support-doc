@@ -16,13 +16,13 @@ Each event tag shows two numbers, like "Event **10 (20)**." The number before th
 
 **Rejected:** the email service found a problem with the sender or recipient address during the final check before sendout. A rejection usually points to a known issue with that specific recipient address or domain, such as a domain that does not exist. If every recipient is rejected, the cause is almost always an invalid sender or reply-to address on the email component.
 
-**Bounced:** the recipient's email service accepted the message but could not deliver it. Common reasons include an address that no longer exists, a misspelled address, a spam filter, or a security policy at the receiving end. For more on bounces and bounce rates, read [About email bounces](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+**Bounced:** the recipient's email service accepted the message but could not deliver it. Common reasons include an address that no longer exists, a misspelled address, a spam filter, or a security policy at the receiving end. For more on bounces and bounce rates, read [About email bounces](../email-deliverability/about-email-bounces.md).
 
 **Complaints:** the recipient clicked "Report this email and Unsubscribe" in their email client and the client reported it back to eMarketeer. This also unsubscribes the contact from future sendouts by setting the Marketing Sendouts legal basis to _Withdrawn_, visible on the Legal Basis tab of the contact card. Your eMarketeer account is allowed an average complaint rate of up to 0.3% before we must pause it for audit.
 
 **Delivered:** the recipient's email service confirmed it received the email, that the address exists, and that it will deliver the message to the inbox. A delivered email can still be filtered as spam before reaching the inbox, and that is usually not reported back.
 
-**Opened / Not opened:** the number of recipients who opened the email, or did not open it. For more on how an open is registered, read [When is an email registered as opened?](https://support.emarketeer.com/knowledgebase/email-open/).
+**Opened / Not opened:** the number of recipients who opened the email, or did not open it. For more on how an open is registered, read [When is an email registered as opened?](email-open.md).
 
 **Unsubscribed:** the recipient clicked the unsubscribe link in the email and then completed the unsubscribe on the eMarketeer Subscription Center page. A contact who clicks the link but does not finish the unsubscribe is not counted here.
 
@@ -54,4 +54,4 @@ Sendout health widget example.
 
 This widget gives you a quick view of the bounce rate and complaint rate for the email component. The limits indicate the percentage of bounces or complaints that service providers may accept before flagging your sendouts as fraudulent. To uphold our security standards, your account may be paused for audit if a limit is reached.
 
-For more on bounce rate, complaint rate, and keeping your bounce rate low, read [About email bounces](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+For more on bounce rate, complaint rate, and keeping your bounce rate low, read [About email bounces](../email-deliverability/about-email-bounces.md).

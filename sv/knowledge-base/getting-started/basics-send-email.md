@@ -10,7 +10,7 @@ Den här artikeln går igenom den enklaste vägen för att skicka en e-post i eM
 
 Vi hoppar över de mer avancerade funktionerna här och fokuserar på ett rakt utskick.
 
-Innan du börjar behöver du en färdig e-postkomponent. Se [Så här skapar du en ny e-post](https://support.emarketeer.com/knowledgebase/basics-creating-email/) om du inte har en än.
+Innan du börjar behöver du en färdig e-postkomponent. Se [Så här skapar du en ny e-post](basics-creating-email.md) om du inte har en än.
 
 * * *
 
@@ -44,8 +44,8 @@ Det här steget har tre sidor.
 
 Om du inte har en kontaktlista än, se:
 
-- [Så här skapar du en ny kontaktlista](https://support.emarketeer.com/knowledgebase/new-contact-list/)
-- [Importera kontakter från Excel eller ett kalkylark](https://support.emarketeer.com/knowledgebase/import-contacts-from-excel/)
+- [Så här skapar du en ny kontaktlista](new-contact-list.md)
+- [Importera kontakter från Excel eller ett kalkylark](../contacts-lists/import-contacts-from-excel.md)
 
 Välj först **eMarketeer Contact Database**.
 
@@ -79,7 +79,7 @@ Gå vidare till checklistan
 
 Checklistan visar om några kontakter från din lista kommer att exkluderas från utskicket. eMarketeer blockerar automatiskt kontakter som har avregistrerat sig eller av andra skäl inte ska få e-posten. Du behöver oftast inte oroa dig för siffrorna här — de hanteras åt dig.
 
-Om du vill se detaljerna, se [Förstå e-postchecklistan](https://support.emarketeer.com/knowledgebase/checklist-explained/).
+Om du vill se detaljerna, se [Förstå e-postchecklistan](../reports/checklist-explained.md).
 
 Klicka på **Launch Email** för att adressera och skicka e-posten till kontakterna i listan.
 
@@ -97,4 +97,4 @@ E-postutskicket har startat och systemet börjar skicka
 
 ### Vad du gör härnäst
 
-Du kan följa utskicket och se detaljerad statistik i e-postrapporten. Se [E-postrapporten förklarad](https://support.emarketeer.com/knowledgebase/email-report-explained/).
+Du kan följa utskicket och se detaljerad statistik i e-postrapporten. Se [E-postrapporten förklarad](../reports/email-report-explained.md).

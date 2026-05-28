@@ -15,7 +15,7 @@ The new service improves delivery, gives you more detailed bounce reports, and r
 
 You must authenticate a domain in order to send emails with eMarketeer. This requirement exists to ensure email security and strong deliverability.
 
-When you authenticate your domain, you let eMarketeer use your domain name to send emails, and your from-address uses your company domain. To do this, you make a couple of changes to your DNS. [Follow this guide on how to authenticate your domain when the email service is available](https://support.emarketeer.com/knowledgebase/authorize-email-domain/).
+When you authenticate your domain, you let eMarketeer use your domain name to send emails, and your from-address uses your company domain. To do this, you make a couple of changes to your DNS. [Follow this guide on how to authenticate your domain when the email service is available](authorize-email-domain.md).
 
 You can do this for multiple domains.
 
@@ -25,4 +25,4 @@ This is what the email settings look like when you build an email and have authe
 
 ## Important dates and roll-out routine
 
-The new email service is available now. Go ahead and [authenticate your domain](https://support.emarketeer.com/knowledgebase/authorize-email-domain/), then let us know and we will activate the new email service for you. Reach us at [support@emarketeer.com](mailto:support@emarketeer.com) or in the chat when you're logged in to eMarketeer.
+The new email service is available now. Go ahead and [authenticate your domain](authorize-email-domain.md), then let us know and we will activate the new email service for you. Reach us at [support@emarketeer.com](mailto:support@emarketeer.com) or in the chat when you're logged in to eMarketeer.

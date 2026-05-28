@@ -16,7 +16,7 @@ By the end you will have a working form with a thank-you page and an optional co
 
 From the campaign where you want to create the form, click **Add Form**.
 
-* If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+* If you need to create the campaign first, see [How to create a new campaign](create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/cf1.png" alt="Add Form button on the campaign page"></div>
 
@@ -132,4 +132,4 @@ The Publishing page for a form
 
 * **Direct URL:** A direct link to the form. Share it with colleagues, post it on social media, or link it from your website. When you click this option, a popup shows the link — copy it from the popup. Do not visit the link and copy from your browser address bar: each visitor gets a unique URL meant only for them.
 * **Website Integration:** HTML code and scripts to embed the form on your own website. Our support cannot always help with issues here because it is implemented outside eMarketeer. Skip this option unless you are comfortable with this kind of integration.
-* **E-mail:** Link to the form from an email. See the linking section in [Creating your first email](https://support.emarketeer.com/knowledgebase/basics-creating-email/).
+* **E-mail:** Link to the form from an email. See the linking section in [Creating your first email](basics-creating-email.md).

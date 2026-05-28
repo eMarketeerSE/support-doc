@@ -18,12 +18,12 @@ General Data Protection Regulation (GDPR) ger äganderätten och kontrollen öve
 - Prenumerationskategorier: kontakter kan välja vilken information de vill ta emot.
 - Nya automationer: till exempel möjlighet att uppdatera samtycke och prenumerationskategorier.
 
-### [GDPR-färdplanen](https://support.emarketeer.com/knowledgebase/is-there-an-emarketeer-gdpr-roadmap/)
+### [GDPR-färdplanen](is-there-an-emarketeer-gdpr-roadmap.md)
 
 GDPR-funktioner levereras i tre faser, två releaser per fas. Bilden nedan sammanfattar vad varje release täcker.
 
 <div data-with-frame="true"><img src="../../../assets/gdpr-and-what-it-means-for-emarketeer-users/GDPR-eMarketeer-Master-Presentation-1.jpg" alt="eMarketeers GDPR-färdplan med tre releasfaser"></div>
 
-För mer, besök [eMarketeer GDPR Center](https://support.emarketeer.com/kb/gdpr/) eller ladda ner [GDPR-guiden](https://www.emarketeer.com/portfolio/gdpr-guide-businesses-prepare/) för en snabbreferens.
+För mer, besök [eMarketeer GDPR Center](emarketeer-gdpr-overview.md) eller ladda ner [GDPR-guiden](https://www.emarketeer.com/portfolio/gdpr-guide-businesses-prepare/) för en snabbreferens.
 
 För andra frågor om GDPR, mejla support@emarketeer.com.

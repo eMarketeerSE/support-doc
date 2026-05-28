@@ -30,7 +30,7 @@ Nyckelfunktioner:
 
 ### Kom igång
 
-Titta på [videohandledningen för formulärredigeraren](https://www.youtube.com/watch?v=VKRJyNYDmbg) för att lära känna den nya redigeraren. När du är redo att lägga ett nytt formulär på din webbplats, följ [instruktionerna för inbäddning](https://support.emarketeer.com/documentation/publish-a-form/).
+Titta på [videohandledningen för formulärredigeraren](https://www.youtube.com/watch?v=VKRJyNYDmbg) för att lära känna den nya redigeraren. När du är redo att lägga ett nytt formulär på din webbplats, följ [instruktionerna för inbäddning](../documentation/forms/publish-a-form.md).
 
 ## Cookielös webbspårare
 

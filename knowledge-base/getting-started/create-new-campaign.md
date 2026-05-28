@@ -40,7 +40,7 @@ Add new component buttons
 
 The following articles cover each component type from start to finish:
 
-* [Creating your first email](https://support.emarketeer.com/knowledgebase/basics-creating-email/)
-* [Creating your first form (Legacy)](https://support.emarketeer.com/knowledgebase/basics-creating-form/)
-* [Creating your first SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/)
-* [Creating your first webpage](https://support.emarketeer.com/knowledgebase/creating-first-webpage/)
+* [Creating your first email](basics-creating-email.md)
+* [Creating your first form (Legacy)](basics-creating-form.md)
+* [Creating your first SMS](basics-creating-sms.md)
+* [Creating your first webpage](../developer-advanced/creating-first-webpage.md)

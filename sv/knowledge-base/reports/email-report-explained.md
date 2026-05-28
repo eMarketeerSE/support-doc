@@ -16,13 +16,13 @@ Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran fö
 
 **Rejected:** e-posttjänsten hittade ett problem med avsändar- eller mottagaradressen under den sista kontrollen före utskicket. Ett avvisande pekar oftast på ett känt problem med just den mottagaradressen eller domänen, till exempel en domän som inte finns. Om varje mottagare avvisas är orsaken nästan alltid en ogiltig avsändar- eller svarsadress på e-postkomponenten.
 
-**Bounced:** mottagarens e-posttjänst accepterade meddelandet men kunde inte leverera det. Vanliga orsaker är en adress som inte längre finns, en felstavad adress, ett skräppostfilter eller en säkerhetspolicy hos mottagaren. För mer om studsar och studsfrekvens, läs [Om e-poststudsar](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+**Bounced:** mottagarens e-posttjänst accepterade meddelandet men kunde inte leverera det. Vanliga orsaker är en adress som inte längre finns, en felstavad adress, ett skräppostfilter eller en säkerhetspolicy hos mottagaren. För mer om studsar och studsfrekvens, läs [Om e-poststudsar](../email-deliverability/about-email-bounces.md).
 
 **Complaints:** mottagaren klickade på "Report this email and Unsubscribe" i sin e-postklient och klienten rapporterade det tillbaka till eMarketeer. Det avregistrerar också kontakten från framtida utskick genom att sätta den rättsliga grunden för Marketing Sendouts till *Withdrawn*, vilket syns på fliken Legal Basis på kontaktkortet. Ditt eMarketeer-konto tillåts en genomsnittlig klagomålsfrekvens på upp till 0,3 % innan vi måste pausa det för granskning.
 
 **Delivered:** mottagarens e-posttjänst bekräftade att den tog emot e-posten, att adressen finns och att den kommer att leverera meddelandet till inkorgen. En levererad e-post kan fortfarande filtreras som skräppost innan den når inkorgen, och det rapporteras vanligtvis inte tillbaka.
 
-**Opened / Not opened:** antalet mottagare som öppnade e-posten, eller inte öppnade den. För mer om hur en öppning registreras, läs [När registreras en e-post som öppnad?](https://support.emarketeer.com/knowledgebase/email-open/).
+**Opened / Not opened:** antalet mottagare som öppnade e-posten, eller inte öppnade den. För mer om hur en öppning registreras, läs [När registreras en e-post som öppnad?](email-open.md).
 
 **Unsubscribed:** mottagaren klickade på avregistreringslänken i e-posten och slutförde sedan avregistreringen på eMarketeers Subscription Center-sida. En kontakt som klickar på länken men inte slutför avregistreringen räknas inte här.
 
@@ -54,4 +54,4 @@ Exempel på widget för utskickets hälsa.
 
 Den här widgeten ger dig en snabb överblick av studsfrekvens och klagomålsfrekvens för e-postkomponenten. Gränserna anger hur stor andel studsar eller klagomål som tjänsteleverantörer kan acceptera innan de flaggar dina utskick som bedrägliga. För att upprätthålla våra säkerhetsstandarder kan ditt konto pausas för granskning om en gräns nås.
 
-För mer om studsfrekvens, klagomålsfrekvens och hur du håller studsfrekvensen låg, läs [Om e-poststudsar](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+För mer om studsfrekvens, klagomålsfrekvens och hur du håller studsfrekvensen låg, läs [Om e-poststudsar](../email-deliverability/about-email-bounces.md).

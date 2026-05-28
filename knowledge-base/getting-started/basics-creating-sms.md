@@ -16,7 +16,7 @@ Sending SMS is only a few steps once the message is set up. By the end of this g
 
 From the campaign page, click **Add SMS**.
 
-* If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+* If you need to create the campaign first, see [How to create a new campaign](create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/cs1.png" alt="Add SMS button on the campaign page"></div>
 
@@ -44,7 +44,7 @@ Once settings and template are set, click **Create SMS** to create the component
 
 After you click **Create SMS**, the editor opens. You see a text box where you edit the message and a Sender ID option below it.
 
-The Sender ID is the name of the sender as shown on the recipient's phone. The default is `eMarketeer`. You can request a custom Sender ID — see [this article](https://support.emarketeer.com/documentation/sender-id/).
+The Sender ID is the name of the sender as shown on the recipient's phone. The default is `eMarketeer`. You can request a custom Sender ID — see [this article](../../documentation/email-sms/sender-id.md).
 
 Below that you find the SMS testing feature, which lets you send the SMS to yourself to see how it looks on arrival. Links in test SMS messages do not work — send the SMS the normal way if you need to test links.
 
@@ -62,7 +62,7 @@ Click **Save Message** after each change to save your work.
 
 ### 5. Send your SMS
 
-Sending an SMS works much like sending an email and has many of the same options. See [How to send an email](https://support.emarketeer.com/knowledgebase/basics-send-email/) for the full walkthrough.
+Sending an SMS works much like sending an email and has many of the same options. See [How to send an email](basics-send-email.md) for the full walkthrough.
 
 Phone numbers must include the country code and follow standard formatting before you send. For example: `+46701231231`.
 

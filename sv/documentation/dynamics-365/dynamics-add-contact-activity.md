@@ -2,7 +2,7 @@
 
 Steget Add Contact Activity skapar en Task eller ett Phone Call strikt på en **Contact**-post i din Microsoft Dynamics CRM. Till skillnad från det generiska steget Add Activity faller denna åtgärd inte tillbaka till en Lead om ingen Contact hittas.
 
-[<div data-with-frame="true"><img src="../../../assets/dynamics-add-contact-activity/add_contact_activity-1024x912.png" alt="Konfiguration av steget Add Contact Activity i Dynamics"></div>](https://support.emarketeer.com/wp-content/uploads/2026/02/add_contact_activity.png)
+<div data-with-frame="true"><img src="../../../assets/dynamics-add-contact-activity/add_contact_activity-1024x912.png" alt="Konfiguration av steget Add Contact Activity i Dynamics"></div>
 
 ### Stegkonfiguration
 

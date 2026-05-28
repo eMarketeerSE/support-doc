@@ -30,4 +30,4 @@ Rules based on data on the contact card, such as demographics.
 - Country is set — 2 points
 - Phone number is set — 2 points
 
-You can edit, deactivate, or remove the default score sets at any time. [See this tutorial to set up your own score rules.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+You can edit, deactivate, or remove the default score sets at any time. [See this tutorial to set up your own score rules.](how-lead-scoring-works-in-emarketeer.md)

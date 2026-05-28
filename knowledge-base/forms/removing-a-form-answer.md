@@ -14,7 +14,7 @@ There are three ways to remove undesired form answers, depending on where you st
 
 Open the form report and go to the Spreadsheet tab. Each row contains contact data and the answers from one contact. Select one or more rows — the Delete Answer button activates, with the selected count shown in parentheses.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_16-24-29.png" alt="Spreadsheet report with two rows selected and the Delete Answer button active"></div>](https://support.emarketeer.com/wp-content/uploads/2021/04/2021-04-27_16-24-29.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_16-24-29.png" alt="Spreadsheet report with two rows selected and the Delete Answer button active"></div>
 
 Spreadsheet report with two rows selected.
 
@@ -22,7 +22,7 @@ Spreadsheet report with two rows selected.
 
 Find the contact however you prefer — the contacts search box, a filter, or by drilling into a component report. Open the contact card and go to the Engagement tab. Locate the form report you want to remove the contact from, click Show answers, then click Delete answers.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_15-14-08-1024x523.png" alt="Contact card Engagement tab with a form report expanded and the Show answers link visible"></div>](https://support.emarketeer.com/wp-content/uploads/2021/04/2021-04-27_15-14-08.png)
+[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_15-14-08-1024x523.png" alt="Contact card Engagement tab with a form report expanded and the Show answers link visible"></div>
 
 Navigate to the form component and click Show answers.
 
@@ -34,6 +34,6 @@ Delete answers to remove the contact from the report.
 
 Use this option when you want to remove a contact from multiple component reports at once. Go to the Contacts tab in the campaign, browse or search for the contact, tick the checkbox next to one or more contacts, and click Remove selected from campaign.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_15-34-00.png" alt="Campaign Contacts tab with contacts selected and the Remove selected from campaign button visible"></div>](https://support.emarketeer.com/wp-content/uploads/2021/04/2021-04-27_15-34-00.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_15-34-00.png" alt="Campaign Contacts tab with contacts selected and the Remove selected from campaign button visible"></div>
 
 Removing a contact from campaign contacts removes the contact from all campaign reports.

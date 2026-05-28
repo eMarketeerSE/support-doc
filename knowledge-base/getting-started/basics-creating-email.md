@@ -20,7 +20,7 @@ The example builds an event invitation email, but the process is the same for an
 
 From the campaign page, click **Add Email**.
 
-* If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+* If you need to create the campaign first, see [How to create a new campaign](create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/ce1.png" alt="Add Email button on the campaign page"></div>
 {% endstep %}
@@ -37,7 +37,7 @@ From the campaign page, click **Add Email**.
 * **From Name:** The sender name shown in recipients' email clients.
 * **From Address:** This has two parts that make up the sending address.
   1. The part before the `@` can be almost anything. If you are not sure, `noreply` works for most cases, though a real inbox that can receive replies is preferred.
-  2. The part after the `@` is your email domain. You must add your own domain before you can send. See [this article](https://support.emarketeer.com/documentation/custom-email-domain/) for how.
+  2. The part after the `@` is your email domain. You must add your own domain before you can send. See [this article](../../documentation/custom-domain/custom-email-domain.md) for how.
 * **Reply-to Address (optional):** An address that receives any replies, useful if the From Address cannot receive email. Rarely used; usually safe to skip.
 * **Subscription Category (optional):** If your account uses subscription lists, you can categorize this email here. Rarely used; usually safe to skip.
 
@@ -174,4 +174,4 @@ Once your preheader is saved, click **Done Editing** to exit the editor.
 
 ### What to do next
 
-The email is ready to send. See [How to send an email](https://support.emarketeer.com/knowledgebase/basics-send-email/).
+The email is ready to send. See [How to send an email](basics-send-email.md).

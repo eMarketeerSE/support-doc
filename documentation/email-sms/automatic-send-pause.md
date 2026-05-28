@@ -22,7 +22,7 @@ If you send emails to large and old email lists where many of those email addres
 
 If an email address bounces, eMarketeer marks the contact as undeliverable and prevents emails from being sent to it the next time you address it.
 
-[More about how bounces work in eMarketeer.](https://support.emarketeer.com/knowledgebase/about-email-bounces/)
+[More about how bounces work in eMarketeer.](../../knowledge-base/email-deliverability/about-email-bounces.md)
 
 ## eMarketeer automatic protection
 

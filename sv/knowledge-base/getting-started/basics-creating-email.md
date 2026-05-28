@@ -17,7 +17,7 @@ Exemplet bygger ett inbjudningsmejl till ett event, men processen är densamma f
 
 Klicka på **Add Email** på kampanjsidan.
 
-* Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+* Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../../assets/basics-creating-email/ce1.png" alt="Knappen Add Email på kampanjsidan"></div>
 
@@ -39,7 +39,7 @@ E-postinställningar
 * **From Name:** Avsändarnamnet som visas i mottagarnas e-postklient.
 * **From Address:** Den här består av två delar som tillsammans bildar avsändaradressen.
   1. Delen före `@` kan vara nästan vad som helst. Om du är osäker fungerar `noreply` i de flesta fall, men en riktig inkorg som kan ta emot svar är att föredra.
-  2. Delen efter `@` är din e-postdomän. Du måste lägga till din egen domän innan du kan skicka. Se [den här artikeln](https://support.emarketeer.com/documentation/custom-email-domain/) för hur.
+  2. Delen efter `@` är din e-postdomän. Du måste lägga till din egen domän innan du kan skicka. Se [den här artikeln](../../documentation/custom-domain/custom-email-domain.md) för hur.
 * **Reply-to Address (optional):** En adress som tar emot eventuella svar, användbart om From Address inte kan ta emot e-post. Används sällan; ofta tryggt att hoppa över.
 * **Subscription Category (optional):** Om ditt konto använder prenumerationslistor kan du kategorisera den här e-posten här. Används sällan; ofta tryggt att hoppa över.
 
@@ -209,4 +209,4 @@ Skriv en preheader och lämna redigeraren
 
 ### Vad du gör härnäst
 
-E-posten är redo att skickas. Se [Så här skickar du en e-post](https://support.emarketeer.com/knowledgebase/basics-send-email/).
+E-posten är redo att skickas. Se [Så här skickar du en e-post](basics-send-email.md).

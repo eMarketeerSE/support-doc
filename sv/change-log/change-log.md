@@ -242,7 +242,7 @@ Större funktioner:
   - GDPR-vänlig reCAPTCHA
   - Inbyggd UTM-spårning för konverteringsprestanda
 
-- **Ny webbspårare.** Vi har byggt om vår webbplatsspårning från grunden med många förbättringar. Allra viktigast: den nya spårningen är helt cookielös, så du spårar mycket mer trafik än tidigare eftersom fler webbläsare blockerar cookiebaserad spårning. Den nya spårningen startar så snart en besökare kommer in på din sida för första gången. Varje gång besökaren kommer tillbaka fortsätter spårningen. När besökaren konverterar till en lead via ditt webbformulär lagras hela spårningshistoriken på den nya leaden. Detta talar om för dig var leaden kom ifrån ursprungligen och hjälper dig att förstå vilka av dina trafikgenereringsinitiativ som presterar bäst. Se [The web tracker](https://support.emarketeer.com/documentation/the-web-tracker/).
+- **Ny webbspårare.** Vi har byggt om vår webbplatsspårning från grunden med många förbättringar. Allra viktigast: den nya spårningen är helt cookielös, så du spårar mycket mer trafik än tidigare eftersom fler webbläsare blockerar cookiebaserad spårning. Den nya spårningen startar så snart en besökare kommer in på din sida för första gången. Varje gång besökaren kommer tillbaka fortsätter spårningen. När besökaren konverterar till en lead via ditt webbformulär lagras hela spårningshistoriken på den nya leaden. Detta talar om för dig var leaden kom ifrån ursprungligen och hjälper dig att förstå vilka av dina trafikgenereringsinitiativ som presterar bäst. Se [The web tracker](../documentation/web-tracker/the-web-tracker.md).
 
 ## Utgåva april 2025
 
@@ -351,7 +351,7 @@ Lösta buggar:
 
 ### Utgåva 2024-04-18
 
-Förbättringar för att hjälpa kunder att följa bättre e-postpraxis. Läs mer om [best practices här](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+Förbättringar för att hjälpa kunder att följa bättre e-postpraxis. Läs mer om [best practices här](../knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).
 
 - E-postdomäner via-em.com har tagits bort för nya kunder som använder en anpassad domän.
   - Att använda din egen företagsdomän ökar leveranskvaliteten.
@@ -359,12 +359,12 @@ Förbättringar för att hjälpa kunder att följa bättre e-postpraxis. Läs me
 - Förbättrad validering före utskick för att minska studsar.
 - Redundans för e-posttjänsten implementerad.
 - Ny status för kontakt-e-post "Inactive email".
-  - Nytt utskicksalternativ — "Exclude inactive contacts". [Läs mer](https://support.emarketeer.com/documentation/exclude-inactive-recipients/).
+  - Nytt utskicksalternativ — "Exclude inactive contacts". [Läs mer](../documentation/email-sms/exclude-inactive-recipients.md).
   - Nytt kontaktfilter på "Deliverable but unengaged" i leveransfiltret.
 
 Övriga nya funktioner och ändringar:
 
-- Microsoft Dynamics CRM-integration fas ett. ([Dokumentation](https://support.emarketeer.com/documentation/microsoft-dynamics-integration/))
+- Microsoft Dynamics CRM-integration fas ett. ([Dokumentation](../documentation/dynamics-365/microsoft-dynamics-integration.md))
   - Koppla, importera från CRM och consent sync tillgängligt.
 
 ### Utgåva 2024-03-23
@@ -393,7 +393,7 @@ Förbättringar för att hjälpa kunder att följa bättre e-postpraxis. Läs me
   - Du kan välja bland ett antal kategoriserade, färdigbyggda journeys att anpassa efter dina behov.
 - Journey-steg: Wait for trigger
   - Detta steg väntar tills en kontakt utför en definierad uppgift innan journeyn fortsätter.
-- [SuperOffice Signals: Sale Closed](https://support.emarketeer.com/documentation/superoffice-signals/)
+- [SuperOffice Signals: Sale Closed](../documentation/superoffice/superoffice-signals.md)
   - SuperOffice kan tala om när en försäljning är avslutad (såld eller förlorad) och skicka försäljningsdatan till eMarketeer. Detta kan användas till att:
     - Flytta en lead till sold/lost automatiskt.
     - Skicka ett välkomstmejl till nya kunder.
@@ -401,18 +401,18 @@ Förbättringar för att hjälpa kunder att följa bättre e-postpraxis. Läs me
 
 ### Utgåva 2023-12-04
 
-- [Facebook-connector](https://support.emarketeer.com/documentation/facebook-lead-forms/)
+- [Facebook-connector](../documentation/lead-forms/facebook-lead-forms.md)
   - Du kan nu ta emot Lead Form-inskickningar från Facebook Ads direkt in i eMarketeer för poängsättning, nurturing och leadgenerering. Anslut från din inställningssida.
-- [Transaktionella e-postutskick](https://support.emarketeer.com/documentation/transactional-sendouts/)
+- [Transaktionella e-postutskick](../documentation/email-sms/transactional-sendouts.md)
   - När du skickar ett e-postmeddelande kan du nu välja att åsidosätta samtycke och skicka till hela listan. Använd med försiktighet, endast för icke-marknadsförings-e-post.
-- [Custom Signals](https://support.emarketeer.com/documentation/custom-signals-api/)
+- [Custom Signals](../documentation/apis-developer/custom-signals-api.md)
   - Med hjälp av API:et kan du nu skicka anpassade signaler från andra system, vilka visas på dina kontakters tidslinje. Dessa kan poängsättas, trigga journeys och trigga leads.
 
 ### Utgåva 2023-11-08
 
-- [SuperOffice Consent Sync helt ombyggd](https://support.emarketeer.com/upcoming-changes-to-emarketeer-superoffice-consent-sync/)
+- [SuperOffice Consent Sync helt ombyggd](upcoming-changes-to-emarketeer-superoffice-consent-sync.md)
   - Fungerar nu på Online och onPremise.
-  - Synkar samtycke vid sändning av e-post och SMS. [Läs mer](https://support.emarketeer.com/upcoming-changes-to-emarketeer-superoffice-consent-sync/).
+  - Synkar samtycke vid sändning av e-post och SMS. [Läs mer](upcoming-changes-to-emarketeer-superoffice-consent-sync.md).
 - Journey-förbättringar
   - Send email: transaktionellt alternativ (ignorera samtycke).
   - IF/Else-logik

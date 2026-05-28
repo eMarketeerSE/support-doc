@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   En genomgång av kampanjgränssnittet, med fokus på komponentvyn, menyn Lägg till komponent och snabblänkarna för kontakthantering och automatisering.
 ---
@@ -9,9 +9,9 @@ Den här artikeln beskriver kampanjgränssnittet, med fokus på vyn Components.
 
 Vänstra sidan av skärmen innehåller menyn Add components och snabblänkar för kontakthantering och automationer. Högra sidan visar kampanjens olika vyer.
 
-Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](https://support.emarketeer.com/knowledgebase/basics-creating-email/), [Forms](https://support.emarketeer.com/knowledgebase/basics-creating-form/), [SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/) och [Webpages](https://support.emarketeer.com/knowledgebase/creating-first-webpage/), plus en underkomponent, Mobile apps.
+Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form.md), [SMS](../getting-started/basics-creating-sms.md) och [Webpages](../developer-advanced/creating-first-webpage.md), plus en underkomponent, Mobile apps.
 
-[<div data-with-frame="true"><img src="../../../assets/campaign-interface-explained/campaign-UI-numbers.png" alt="Kampanjens gränssnitt"></div>](https://support.emarketeer.com/wp-content/uploads/2022/08/campaign-UI-numbers.png)
+<div data-with-frame="true"><img src="../../../assets/campaign-interface-explained/campaign-UI-numbers.png" alt="Kampanjens gränssnitt"></div>
 
 Kampanjens användargränssnitt
 
@@ -20,17 +20,17 @@ Kampanjens användargränssnitt
 Under kampanjens sökväg, namn och beskrivning ligger flera flikar. Varje flik är en separat vy av kampanjen:
 
 - Dashboard
-  Bygg kampanjspecifika rapporter med rapportwidgets. Se [campaign reports](https://support.emarketeer.com/knowledgebase/how-to-use-emarketeer-campaign-reports/).
+  Bygg kampanjspecifika rapporter med rapportwidgets. Se [campaign reports](../reports/how-to-use-emarketeer-campaign-reports.md).
 - Components
   Standardvyn. Organisera och visa kampanjens komponenter. Siffran inom parentes visar hur många komponenter kampanjen har.
 - Contacts
-  Listar kontakter som lagts till i kampanjen, antingen importerade direkt eller automatiskt tillagda genom interaktion. Siffran inom parentes visar hur många kontakter som för närvarande är kopplade till kampanjen. [Läs mer](https://support.emarketeer.com/knowledgebase/campaign-contacts/).
+  Listar kontakter som lagts till i kampanjen, antingen importerade direkt eller automatiskt tillagda genom interaktion. Siffran inom parentes visar hur många kontakter som för närvarande är kopplade till kampanjen. [Läs mer](campaign-contacts.md).
 - Event history
   Visar händelser för utskickade e-post eller SMS. Granska när en komponent skickades, samt granska eller avbryt kommande schemalagda utskick. Siffran inom parentes visar schemalagda utskick som väntar i kampanjen.
 - Automation
   Lägg till automatiserade åtgärder i kampanjen. Automationer triggas av att en kontakt interagerar med en komponent, så kampanjen måste innehålla minst en komponent. Siffran inom parentes visar hur många automationer som finns i kampanjen.
 - Fields
-  Definiera fält som är unika för kampanjen och som kan flätas in i komponentinnehåll som variabler. Att redigera ett fältvärde ersätter variabeln i varje komponent som använder det. [Läs mer om kampanjfält](https://support.emarketeer.com/knowledgebase/how-to-use-campaign-fields-in-emarketeer/).
+  Definiera fält som är unika för kampanjen och som kan flätas in i komponentinnehåll som variabler. Att redigera ett fältvärde ersätter variabeln i varje komponent som använder det. [Läs mer om kampanjfält](how-to-use-campaign-fields-in-emarketeer.md).
 
 ## 2. Vyspecifikt område
 

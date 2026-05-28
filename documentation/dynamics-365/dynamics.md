@@ -10,11 +10,11 @@ With Dynamics connected to eMarketeer, you can sync contact preferences, enforce
 
 ## In this section
 
-* [Setup & Configuration](https://support.emarketeer.com/documentation/dynamics/dynamics-installation/): step-by-step instructions for connecting your Dynamics 365 instance to eMarketeer and provisioning the initial data tables.
-* [Consent & Subscription Sync](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-legal-basis-sync/): how the automated, multi-tiered sync engine handles Legal Basis and granular email subscriptions to keep both systems aligned and compliant.
-* [Importing Contacts & Lists](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-import/): how to pull Dynamics Contact Marketing Lists into eMarketeer, either as a standard import or on the fly before a send-out.
-* [Journey Steps & Automations](https://support.emarketeer.com/documentation/dynamics/dynamics-features/dynamics-journey-steps/): how to use eMarketeer's visual automations to trigger actions, sync engagement, and update data in Dynamics based on how contacts interact with your marketing.
+* [Setup & Configuration](dynamics-installation.md): step-by-step instructions for connecting your Dynamics 365 instance to eMarketeer and provisioning the initial data tables.
+* [Consent & Subscription Sync](dynamics-legal-basis-sync.md): how the automated, multi-tiered sync engine handles Legal Basis and granular email subscriptions to keep both systems aligned and compliant.
+* [Importing Contacts & Lists](dynamics-import.md): how to pull Dynamics Contact Marketing Lists into eMarketeer, either as a standard import or on the fly before a send-out.
+* [Journey Steps & Automations](../../integrations/dynamics/dynamics-journey-steps/README.md): how to use eMarketeer's visual automations to trigger actions, sync engagement, and update data in Dynamics based on how contacts interact with your marketing.
 
 ## What to do next
 
-If you are setting this up for the first time, start with the [Setup & Configuration](https://support.emarketeer.com/documentation/dynamics/dynamics-installation/) guide to connect the two systems.
+If you are setting this up for the first time, start with the [Setup & Configuration](dynamics-installation.md) guide to connect the two systems.

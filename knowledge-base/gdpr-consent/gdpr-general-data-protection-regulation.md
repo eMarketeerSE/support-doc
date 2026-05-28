@@ -15,13 +15,13 @@ For background, visit the official site for the [GDPR directives](https://www.eu
 
 ### Read more
 
-* [The eMarketeer GDPR overview](https://support.emarketeer.com/knowledgebase/emarketeer-gdpr-overview/)
-* [The eMarketeer GDPR feature roadmap](https://support.emarketeer.com/knowledgebase/is-there-an-emarketeer-gdpr-roadmap/)
+* [The eMarketeer GDPR overview](emarketeer-gdpr-overview.md)
+* [The eMarketeer GDPR feature roadmap](is-there-an-emarketeer-gdpr-roadmap.md)
 
 ### Questions and answers (updating)
 
-* [How does consent work?](https://support.emarketeer.com/knowledgebase/how-does-consent-work/)
-* [Which new features will eMarketeer introduce to help with GDPR?](https://support.emarketeer.com/knowledgebase/which-new-features-will-emarketeer-introduce-to-help-with-gdpr/)
-* [What should I do before GDPR?](https://support.emarketeer.com/knowledgebase/what-should-i-do-before-gdpr/)
-* [How will eMarketeer work with SuperOffice under GDPR?](https://support.emarketeer.com/knowledgebase/how-will-emarketeer-work-with-superoffice-under-gdpr/)
-* [Where is eMarketeer data stored geographically?](https://support.emarketeer.com/knowledgebase/where-is-emarketeer-data-stored-geographically/)
+* [How does consent work?](how-does-consent-work.md)
+* [Which new features will eMarketeer introduce to help with GDPR?](which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
+* [What should I do before GDPR?](what-should-i-do-before-gdpr.md)
+* [How will eMarketeer work with SuperOffice under GDPR?](how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+* [Where is eMarketeer data stored geographically?](../account-admin/where-is-emarketeer-data-stored-geographically.md)

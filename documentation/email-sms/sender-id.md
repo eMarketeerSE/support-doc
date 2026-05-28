@@ -28,7 +28,7 @@ To prevent abuse while still offering customisation, every Sender ID must be reg
 
 ## Limitations
 
-Most Belgian, US, and Mexican mobile operators do not support alphanumeric sender information. If you send to a recipient on one of those networks, your Sender ID is replaced with a randomly generated number. The same constraint applies to some other features such as multi-part SMS and Unicode. See the [whitelist of countries supporting SMS Sender ID](https://support.emarketeer.com/documentation/sender-id/whitelist-of-countries-supporting-sms-sender-id/) for the full list.
+Most Belgian, US, and Mexican mobile operators do not support alphanumeric sender information. If you send to a recipient on one of those networks, your Sender ID is replaced with a randomly generated number. The same constraint applies to some other features such as multi-part SMS and Unicode. See the [whitelist of countries supporting SMS Sender ID](whitelist-of-countries-supporting-sms-sender-id.md) for the full list.
 
 Our SMS service provider (46elks) cannot always guarantee that the Sender ID is displayed. 46elks and their upstream supplier disable the feature on certain routes because some mobile operators filter messages, which would otherwise cause non-delivery. Delivery is prioritised over presentation.
 

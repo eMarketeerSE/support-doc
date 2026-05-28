@@ -28,4 +28,4 @@ För att minimera klagomål och undvika begränsningar i utskick, följ best pra
 - Undvik plötsliga eller stora ökningar i utskicksvolym.
 - Identifiera dig tydligt som avsändare.
 
-För detaljerad vägledning, se [Maximera framgång med e-postmarknadsföring – best practices och fallgropar att undvika](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+För detaljerad vägledning, se [Maximera framgång med e-postmarknadsföring – best practices och fallgropar att undvika](../reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

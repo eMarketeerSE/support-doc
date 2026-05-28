@@ -29,4 +29,4 @@ For these contacts, consider:
 
 ## What to do next
 
-Read more about [best practices for email marketing](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+Read more about [best practices for email marketing](../../knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

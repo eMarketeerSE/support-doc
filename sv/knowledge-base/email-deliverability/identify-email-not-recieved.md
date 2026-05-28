@@ -45,7 +45,7 @@ E-postinformation på kontaktkortet som visar leverans
 
 ### E-postmeddelandet adresserades eller skickades aldrig
 
-Detta betyder oftast att kontakten togs bort från mottagarlistan i checklistesteget i utskicksprocessen. Du kan läsa mer om det steget i [den här artikeln](https://support.emarketeer.com/knowledgebase/checklist-explained/).
+Detta betyder oftast att kontakten togs bort från mottagarlistan i checklistesteget i utskicksprocessen. Du kan läsa mer om det steget i [den här artikeln](../reports/checklist-explained.md).
 
 Om e-postmeddelandet aldrig adresserades till kontakten hittar du vanligen orsaken på deras kontaktkort. Börja med Lead Status-widgeten uppe till höger på kontaktkortet. Om den visar "Bounced" är kontaktens e-postadress markerad som ej levererbar utifrån ett tidigare studsmeddelande som eMarketeer fick från deras e-posttjänst.
 

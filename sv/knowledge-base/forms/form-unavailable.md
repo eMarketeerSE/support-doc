@@ -10,7 +10,7 @@ Den här guiden hjälper dig att diagnostisera ovanligt beteende eller trasiga l
 
 Innan du börjar, öppna ett privat fönster eller inkognitofönster och pröva formuläret där. Om formuläret laddas i privat läge är orsaken troligen gammal data i din webbläsare. Rensa den datan från webbläsarens inställningar så bör problemet vara borta.
 
-Den här artikeln hänvisar till olika typer av eMarketeer-URL:er. För bakgrund, se [Understanding eMarketeer URLs](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
+Den här artikeln hänvisar till olika typer av eMarketeer-URL:er. För bakgrund, se [Understanding eMarketeer URLs](../account-admin/understanding-em-urls.md).
 
 ## The form cannot be displayed at this time
 
@@ -28,9 +28,9 @@ För att höja kontaktgränsen, skicka en förfrågan till [customerservice@emar
 
 En tom webbsida
 
-Det här betyder vanligtvis att URL:en är felaktig, till exempel om några tecken har ändrats i en dynamisk del av URL:en. Gå tillbaka och bekräfta att länken är korrekt, helst [Direct URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/).
+Det här betyder vanligtvis att URL:en är felaktig, till exempel om några tecken har ändrats i en dynamisk del av URL:en. Gå tillbaka och bekräfta att länken är korrekt, helst [Direct URL](../account-admin/understanding-em-urls.md).
 
-Det kan också hända när ett formulär har flyttats till en annan kampanj. Det inträffar bara med en eMarketeer [Internal URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/), eftersom interna URL:er är beroende av målkomponentens placering i förhållande till källan. Till exempel slutar ett mejl som länkar till ett formulär i samma kampanj att fungera om du flyttar formuläret till en annan kampanj. Flytta tillbaka komponenterna till deras ursprungliga layout, eller gör om länkningen.
+Det kan också hända när ett formulär har flyttats till en annan kampanj. Det inträffar bara med en eMarketeer [Internal URL](../account-admin/understanding-em-urls.md), eftersom interna URL:er är beroende av målkomponentens placering i förhållande till källan. Till exempel slutar ett mejl som länkar till ett formulär i samma kampanj att fungera om du flyttar formuläret till en annan kampanj. Flytta tillbaka komponenterna till deras ursprungliga layout, eller gör om länkningen.
 
 ## No such session
 
@@ -38,7 +38,7 @@ Det kan också hända när ett formulär har flyttats till en annan kampanj. Det
 
 En webbsida som visar meddelandet "No such session"
 
-Det här betyder vanligtvis att [Session URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) har gått ut. Session-URL:er lever i 24 timmar och tillåter endast ett svar innan de upphör att gälla. Det kan också hända när ett svar har raderats från Form Components Report, eftersom det raderar den session som URL:en pekar mot.
+Det här betyder vanligtvis att [Session URL](../account-admin/understanding-em-urls.md) har gått ut. Session-URL:er lever i 24 timmar och tillåter endast ett svar innan de upphör att gälla. Det kan också hända när ett svar har raderats från Form Components Report, eftersom det raderar den session som URL:en pekar mot.
 
 Använd formulärets Direct URL istället.
 
@@ -48,7 +48,7 @@ Använd formulärets Direct URL istället.
 
 Svaret har redan registrerats
 
-Du ser det här meddelandet när ett formulär är inställt på att tillåta ett svar per person och någon redan har svarat via Session- eller [Personalised URL](https://support.emarketeer.com/knowledgebase/understanding-em-urls/) du försöker använda, eller när den ursprungliga respondenten besöker formuläret igen via en Direct URL. Det kan överraska personer som vidarebefordrat eller mottagit ett vidarebefordrat mejl med en Personalised URL, eftersom bara en person kan svara.
+Du ser det här meddelandet när ett formulär är inställt på att tillåta ett svar per person och någon redan har svarat via Session- eller [Personalised URL](../account-admin/understanding-em-urls.md) du försöker använda, eller när den ursprungliga respondenten besöker formuläret igen via en Direct URL. Det kan överraska personer som vidarebefordrat eller mottagit ett vidarebefordrat mejl med en Personalised URL, eftersom bara en person kan svara.
 
 Om du ser det här av misstag, bekräfta att du använt rätt länk och att formulärets besökarinställningar tillåter mer än ett svar.
 

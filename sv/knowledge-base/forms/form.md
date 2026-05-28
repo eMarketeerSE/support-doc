@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du bäddar in ett eMarketeer-formulär på din webbplats genom att installera Form Base Script och klistra in det genererade kodavsnittet.
 ---
@@ -80,4 +80,4 @@ För att köra din egen kod när en besökare svarar på formuläret, använd de
 
 ## Formulär och webbspårning
 
-Om [eMarketeer Web Tracker](https://support.emarketeer.com/documentation/the-web-tracker/) är installerad på din sajt och samtycke har getts, identifierar inskickning av ett formulär kontakten för framtida spårning och registrerar historisk besökshistorik.
+Om [eMarketeer Web Tracker](../../documentation/web-tracker/the-web-tracker.md) är installerad på din sajt och samtycke har getts, identifierar inskickning av ett formulär kontakten för framtida spårning och registrerar historisk besökshistorik.

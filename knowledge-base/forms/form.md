@@ -77,4 +77,4 @@ To run your own code when a visitor answers the form, use this snippet.
 
 ## Forms and web tracking
 
-If the [eMarketeer Web Tracker](https://support.emarketeer.com/documentation/the-web-tracker/) is installed on your site and consent is given, submitting a form identifies the contact for future tracking and records the historic visit history.
+If the [eMarketeer Web Tracker](../../documentation/web-tracker/the-web-tracker.md) is installed on your site and consent is given, submitting a form identifies the contact for future tracking and records the historic visit history.

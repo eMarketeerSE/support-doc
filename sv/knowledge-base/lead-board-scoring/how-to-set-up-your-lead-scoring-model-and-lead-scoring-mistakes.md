@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du utformar en lead scoring-modell som speglar din säljprocess, inklusive de vanligaste misstagen att undvika.
 ---
@@ -7,9 +7,9 @@ description: >-
 
 Den här artikeln visar hur du bygger en lead scoring-modell som passar din verksamhet och listar misstag att undvika.
 
-För att komma igång med lead scoring, bestäm vad du ska score:a dina kontakter på. eMarketeer levereras med [standardregler för score](https://support.emarketeer.com/knowledgebase/default-score-rules-in-emarketeer/) som ger dig en startpunkt, men lead scoring fungerar bäst när det är anpassat efter din verksamhet och säljprocess. Bygg modellen tillsammans med ditt säljteam – deras insikter spelar roll här.
+För att komma igång med lead scoring, bestäm vad du ska score:a dina kontakter på. eMarketeer levereras med [standardregler för score](default-score-rules-in-emarketeer.md) som ger dig en startpunkt, men lead scoring fungerar bäst när det är anpassat efter din verksamhet och säljprocess. Bygg modellen tillsammans med ditt säljteam – deras insikter spelar roll här.
 
-Om du redan vet vad du vill score:a på, använd [guiden för att skapa score-regler i eMarketeer](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/).
+Om du redan vet vad du vill score:a på, använd [guiden för att skapa score-regler i eMarketeer](how-lead-scoring-works-in-emarketeer.md).
 
 ## Några anteckningar om lead scoring
 
@@ -76,7 +76,7 @@ Lista dina regler, hur många poäng var och en är värd och när de går ut. L
 
 ### 4. Sätt din lead score i verket
 
-Det är nu dags att sätta dina regler i verket. [Följ den här guiden för att skapa score-regler i eMarketeer.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+Det är nu dags att sätta dina regler i verket. [Följ den här guiden för att skapa score-regler i eMarketeer.](how-lead-scoring-works-in-emarketeer.md)
 
 ## Vanliga misstag med lead scoring
 
@@ -85,4 +85,4 @@ Det är nu dags att sätta dina regler i verket. [Följ den här guiden för att
 - **Att tilldela samma poäng till varje regel.** Vissa engagemang är närmare en försäljning än andra. En begäran om produktdemo slår en nyhetsbrevsanmälan. Spegla det i poängen.
 - **Att inte tänka på tidsram.** Ett besök på din prissida igår är meningsfullt. Samma besök för ett år sedan, utan aktivitet sedan dess, är det inte. Utan en tidsram speglar score:n inte längre aktuellt intresse. Behandla tidsramen som ett utgångsdatum på poängen.
 
-Lycka till med att bygga din modell. [Du kan också använda den här guiden för hjälp att implementera den i eMarketeer.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+Lycka till med att bygga din modell. [Du kan också använda den här guiden för hjälp att implementera den i eMarketeer.](how-lead-scoring-works-in-emarketeer.md)

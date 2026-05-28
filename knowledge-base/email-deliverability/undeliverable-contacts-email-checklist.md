@@ -6,7 +6,7 @@ When you send an email, recipients are verified at the Checklist step, and some 
 
 An undeliverable address is one that cannot receive email due to a delivery issue. eMarketeer blocks sends to these addresses to protect your sender reputation — a metric most email services use to separate spam from legitimate mail.
 
-An address is marked undeliverable when a previous send returned a permanent bounce. You can see this in [the email report](https://support.emarketeer.com/knowledgebase/email-report-explained/) and on the contact card. For more on bounces and sender reputation, see [this article](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+An address is marked undeliverable when a previous send returned a permanent bounce. You can see this in [the email report](../reports/email-report-explained.md) and on the contact card. For more on bounces and sender reputation, see [this article](about-email-bounces.md).
 
 The Checklist also runs a second, live check at send time: it verifies whether each recipient's mail service is currently able to receive email. If a recipient's mail service is temporarily down, that contact is counted as undeliverable for the current send but is not permanently marked on the contact card. The contact will probably receive your next send, but you can't include them in the list this guide builds.
 
@@ -55,6 +55,6 @@ The resulting list contains the recipients with undeliverable addresses you saw 
 * Export a spreadsheet of the contacts.
   * To request that the undeliverable status be lifted, export their email addresses (comma-separated) and send the file to support@emarketeer.com.
   * If you have a CRM integration such as SuperOffice, you can export the contacts to a list on that CRM.
-* Use the [Bulk Actions tool](https://support.emarketeer.com/knowledgebase/bulk-actions-tool/) to manage the contacts. For example, "Add to Contact List" creates a permanent list you can refer back to later.
+* Use the [Bulk Actions tool](../contacts-lists/bulk-actions-tool.md) to manage the contacts. For example, "Add to Contact List" creates a permanent list you can refer back to later.
 
 If you still have questions, contact support through the channels listed on [this page](https://app.emarketeer.com/corporate/gui/help/contact.php) when logged in.

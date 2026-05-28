@@ -60,4 +60,4 @@ Once attendees are scanned you can also:
 
 ### Alternative scanning setup (advanced)
 
-You can generate form-specific QR codes for registering attendees that can be scanned with any smartphone camera app. This requires more planning and configuration. See [this article](https://support.emarketeer.com/knowledgebase/advanced-event-qr-code/) for the setup guide.
+You can generate form-specific QR codes for registering attendees that can be scanned with any smartphone camera app. This requires more planning and configuration. See [this article](advanced-event-qr-code.md) for the setup guide.

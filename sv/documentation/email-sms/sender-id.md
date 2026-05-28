@@ -28,7 +28,7 @@ För att förhindra missbruk samtidigt som vi erbjuder anpassning måste varje S
 
 ## Begränsningar
 
-De flesta belgiska, amerikanska och mexikanska mobiloperatörer stödjer inte alfanumerisk avsändarinformation. Om du skickar till en mottagare i ett av dessa nät ersätts ditt Sender ID med ett slumpmässigt genererat nummer. Samma begränsning gäller för vissa andra funktioner som flerdelade SMS och Unicode. Se [whitelist över länder som stödjer SMS Sender ID](https://support.emarketeer.com/documentation/sender-id/whitelist-of-countries-supporting-sms-sender-id/) för hela listan.
+De flesta belgiska, amerikanska och mexikanska mobiloperatörer stödjer inte alfanumerisk avsändarinformation. Om du skickar till en mottagare i ett av dessa nät ersätts ditt Sender ID med ett slumpmässigt genererat nummer. Samma begränsning gäller för vissa andra funktioner som flerdelade SMS och Unicode. Se [whitelist över länder som stödjer SMS Sender ID](whitelist-of-countries-supporting-sms-sender-id.md) för hela listan.
 
 Vår SMS-leverantör (46elks) kan inte alltid garantera att Sender ID visas. 46elks och deras uppströmsleverantör inaktiverar funktionen på vissa rutter eftersom vissa mobiloperatörer filtrerar meddelanden, vilket annars skulle orsaka utebliven leverans. Leverans prioriteras framför presentation.
 

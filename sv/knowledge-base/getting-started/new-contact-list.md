@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du skapar en ny kontaktlista för att gruppera kontakter för användning i kampanjer och Journeys.
 ---
@@ -22,4 +22,4 @@ Stegen för att skapa en ny kontaktlista.
 
 ## Vad du gör härnäst
 
-För att importera kontakter från Excel till den nya listan, se [Importera kontakter från Excel](https://support.emarketeer.com/knowledgebase/import-contacts-from-excel/).
+För att importera kontakter från Excel till den nya listan, se [Importera kontakter från Excel](../contacts-lists/import-contacts-from-excel.md).

@@ -6,7 +6,7 @@ När du skickar ett e-postmeddelande verifieras mottagare i checklistesteget, oc
 
 En ej levererbar adress är en adress som inte kan ta emot e-post på grund av ett leveransproblem. eMarketeer blockerar utskick till dessa adresser för att skydda ditt avsändarrykte — ett mått som de flesta e-posttjänster använder för att skilja spam från legitim post.
 
-En adress markeras som ej levererbar när ett tidigare utskick returnerade en permanent studs. Du ser det i [e-postrapporten](https://support.emarketeer.com/knowledgebase/email-report-explained/) och på kontaktkortet. För mer om studsar och avsändarrykte, se [den här artikeln](https://support.emarketeer.com/knowledgebase/about-email-bounces/).
+En adress markeras som ej levererbar när ett tidigare utskick returnerade en permanent studs. Du ser det i [e-postrapporten](../reports/email-report-explained.md) och på kontaktkortet. För mer om studsar och avsändarrykte, se [den här artikeln](about-email-bounces.md).
 
 Checklistan kör också en andra, live-kontroll vid utskickstillfället: den verifierar om varje mottagares e-posttjänst för tillfället kan ta emot e-post. Om en mottagares e-posttjänst är tillfälligt nere räknas den kontakten som ej levererbar för det aktuella utskicket, men markeras inte permanent på kontaktkortet. Kontakten kommer sannolikt att ta emot ditt nästa utskick, men du kan inte inkludera dem i listan den här guiden bygger.
 
@@ -55,6 +55,6 @@ Listan som visas innehåller mottagarna med ej levererbara adresser som du såg 
 - Exportera ett kalkylblad med kontakterna.
   - För att begära att den ej levererbara statusen tas bort, exportera deras e-postadresser (kommaseparerade) och skicka filen till support@emarketeer.com.
   - Om du har en CRM-integration som SuperOffice kan du exportera kontakterna till en lista i det CRM:et.
-- Använd [Bulk Actions-verktyget](https://support.emarketeer.com/knowledgebase/bulk-actions-tool/) för att hantera kontakterna. Till exempel skapar "Add to Contact List" en permanent lista som du kan återkomma till senare.
+- Använd [Bulk Actions-verktyget](../contacts-lists/bulk-actions-tool.md) för att hantera kontakterna. Till exempel skapar "Add to Contact List" en permanent lista som du kan återkomma till senare.
 
 Om du fortfarande har frågor, kontakta supporten via kanalerna som listas på [den här sidan](https://app.emarketeer.com/corporate/gui/help/contact.php) när du är inloggad.

@@ -30,7 +30,7 @@ Key features:
 
 ### Getting started
 
-Watch the [Forms editor video tutorial](https://www.youtube.com/watch?v=VKRJyNYDmbg) to get to know the new editor. When you are ready to put a new form on your website, follow the [embed instructions](https://support.emarketeer.com/documentation/publish-a-form/).
+Watch the [Forms editor video tutorial](https://www.youtube.com/watch?v=VKRJyNYDmbg) to get to know the new editor. When you are ready to put a new form on your website, follow the [embed instructions](../../documentation/forms/publish-a-form.md).
 
 ## Cookieless web tracker
 
@@ -55,4 +55,4 @@ The existing tracking will continue to work temporarily but should be upgraded a
 
 ### Getting started
 
-See [The web tracker](https://support.emarketeer.com/documentation/the-web-tracker/) and the [installation instructions](https://support.emarketeer.com/documentation/installing-the-web-tracker-script-on-your-website/).
+See [The web tracker](../../documentation/web-tracker/the-web-tracker.md) and the [installation instructions](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).

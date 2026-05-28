@@ -37,7 +37,7 @@ Du ser studsfrekvensen i e-postrapporten. Håll din genomsnittliga studsfrekvens
 
 ### Vad händer om min studsfrekvens är för hög?
 
-eMarketeer kör utskicket åt dig och tillämpar säkerhetsåtgärder för e-post som din [autentiserade domän](https://support.emarketeer.com/knowledgebase/why-authorize-email-domain/). Vi förlitar oss också på att du hanterar adresser och utskick varsamt. Om din studsfrekvens överstiger 5 % kan ditt konto pausas för att upprätthålla våra säkerhetsstandarder.
+eMarketeer kör utskicket åt dig och tillämpar säkerhetsåtgärder för e-post som din [autentiserade domän](why-authorize-email-domain.md). Vi förlitar oss också på att du hanterar adresser och utskick varsamt. Om din studsfrekvens överstiger 5 % kan ditt konto pausas för att upprätthålla våra säkerhetsstandarder.
 
 ### Hur håller jag en låg studsfrekvens?
 
@@ -51,6 +51,6 @@ Om du vill lära dig mer tar det här blogginlägget upp [5 sätt att minska stu
 
 Ett klagomål är när en kontakt får e-postmeddelandet i inkorgen och sedan klickar på knappen "Det här är skräppost". Klagomål registreras endast från stora webbaserade e-postleverantörer som Gmail, Yahoo och Hotmail.
 
-När en kontakt markerar ett e-postmeddelande som skräppost och händelsen rapporteras till eMarketeer avregistreras kontakten automatiskt från framtida utskick. Alla klagomål rapporteras inte tillbaka till eMarketeer — vissa registreras bara hos leverantören. Du kan följa klagomålsfrekvenser per domän i [Email Health Dashboard](https://support.emarketeer.com/knowledgebase/email_health_dashboard/).
+När en kontakt markerar ett e-postmeddelande som skräppost och händelsen rapporteras till eMarketeer avregistreras kontakten automatiskt från framtida utskick. Alla klagomål rapporteras inte tillbaka till eMarketeer — vissa registreras bara hos leverantören. Du kan följa klagomålsfrekvenser per domän i [Email Health Dashboard](emailhealthdashboard.md).
 
 Ditt konto tillåts en genomsnittlig klagomålsfrekvens på 0,3 % innan vi måste pausa det för granskning.

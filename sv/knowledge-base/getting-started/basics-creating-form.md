@@ -16,7 +16,7 @@ När du är klar har du ett fungerande formulär med en tacksida och ett valfrit
 
 Klicka på **Add Form** från kampanjen där du vill skapa formuläret.
 
-- Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+- Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf1.png" alt="Knappen Add Form på kampanjsidan"></div>
 
@@ -132,4 +132,4 @@ Publiceringssidan för ett formulär
 
 - **Direct URL:** En direktlänk till formuläret. Dela den med kollegor, publicera på sociala medier eller länka från din webbplats. När du klickar på alternativet visas länken i en popup — kopiera den därifrån. Besök inte länken och kopiera från webbläsarens adressfält: varje besökare får en unik URL avsedd bara för dem.
 - **Website Integration:** HTML-kod och skript för att bädda in formuläret på din egen webbplats. Vår support kan inte alltid hjälpa till med problem här eftersom det implementeras utanför eMarketeer. Hoppa över det här alternativet om du inte är van vid den här typen av integration.
-- **E-mail:** Länka till formuläret från ett mejl. Se länkningsavsnittet i [Skapa din första e-post](https://support.emarketeer.com/knowledgebase/basics-creating-email/).
+- **E-mail:** Länka till formuläret från ett mejl. Se länkningsavsnittet i [Skapa din första e-post](basics-creating-email.md).

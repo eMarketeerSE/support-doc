@@ -29,4 +29,4 @@ För dessa kontakter, överväg:
 
 ## Vad du gör härnäst
 
-Läs mer om [bästa praxis för e-postmarknadsföring](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+Läs mer om [bästa praxis för e-postmarknadsföring](../../knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

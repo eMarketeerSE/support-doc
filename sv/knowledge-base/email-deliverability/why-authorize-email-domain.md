@@ -15,7 +15,7 @@ Den nya tjänsten förbättrar leveransen, ger dig mer detaljerade studsrapporte
 
 Du måste autentisera en domän för att kunna skicka e-post med eMarketeer. Kravet finns för att säkerställa e-postsäkerhet och stark leveransbarhet.
 
-När du autentiserar din domän låter du eMarketeer använda ditt domännamn för att skicka e-post, och din från-adress använder din företagsdomän. För att göra det gör du ett par ändringar i din DNS. [Följ den här guiden för hur du autentiserar din domän när e-posttjänsten är tillgänglig](https://support.emarketeer.com/knowledgebase/authorize-email-domain/).
+När du autentiserar din domän låter du eMarketeer använda ditt domännamn för att skicka e-post, och din från-adress använder din företagsdomän. För att göra det gör du ett par ändringar i din DNS. [Följ den här guiden för hur du autentiserar din domän när e-posttjänsten är tillgänglig](authorize-email-domain.md).
 
 Du kan göra detta för flera domäner.
 
@@ -25,4 +25,4 @@ Så här ser e-postinställningarna ut när du bygger ett e-postmeddelande och h
 
 ## Viktiga datum och utrullningsrutin
 
-Den nya e-posttjänsten är tillgänglig nu. Sätt igång och [autentisera din domän](https://support.emarketeer.com/knowledgebase/authorize-email-domain/), och hör sedan av dig så aktiverar vi den nya e-posttjänsten för dig. Nå oss på [support@emarketeer.com](mailto:support@emarketeer.com) eller i chatten när du är inloggad i eMarketeer.
+Den nya e-posttjänsten är tillgänglig nu. Sätt igång och [autentisera din domän](authorize-email-domain.md), och hör sedan av dig så aktiverar vi den nya e-posttjänsten för dig. Nå oss på [support@emarketeer.com](mailto:support@emarketeer.com) eller i chatten när du är inloggad i eMarketeer.

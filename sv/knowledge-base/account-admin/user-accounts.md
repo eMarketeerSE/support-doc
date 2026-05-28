@@ -1,11 +1,11 @@
-﻿---
+---
 description: >-
   Hur du aktiverar Multi-Factor Authentication på ditt eMarketeer-konto med hjälp av en autentiseringsapp.
 ---
 
 # Användarguide: Aktivera Multi-Factor-inloggning
 
-Konfigurera Multi-Factor Authentication (MFA) för din eMarketeer-inloggning i tre steg med en authenticator-app. För bakgrund om MFA, se [den här artikeln](https://support.emarketeer.com/documentation/multi-factor-authentication/).
+Konfigurera Multi-Factor Authentication (MFA) för din eMarketeer-inloggning i tre steg med en authenticator-app. För bakgrund om MFA, se [den här artikeln](../../documentation/accounts-auth/multi-factor-authentication.md).
 
 ### Ladda ner en authenticator-app
 

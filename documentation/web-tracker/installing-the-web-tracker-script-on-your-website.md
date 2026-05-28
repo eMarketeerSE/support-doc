@@ -2,7 +2,7 @@
 
 Install the eMarketeer Web Tracker on your website so you can see which pages your contacts visit.
 
-This guide walks through both the recommended Google Tag Manager template and a manual install. You do not need to be technical — follow the steps in order. When you are done, also [install the form base script on your site](https://support.emarketeer.com/documentation/publish-a-form/).
+This guide walks through both the recommended Google Tag Manager template and a manual install. You do not need to be technical — follow the steps in order. When you are done, also [install the form base script on your site](../forms/publish-a-form.md).
 
 ## Get your Tracker ID and script
 
@@ -12,7 +12,7 @@ Before you start, you need your unique Tracker ID and script.
 2. Go to [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). You must be an admin to access this page.
 3. Copy your Tracker ID and script. You will need them during installation.
 
-[<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Tracker Settings page showing the Tracker ID and script"></div>](https://support.emarketeer.com/wp-content/uploads/2025/03/Screenshot-2026-01-13-132700.png)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Tracker Settings page showing the Tracker ID and script"></div>
 
 ## Option 1: Easy install (recommended)
 

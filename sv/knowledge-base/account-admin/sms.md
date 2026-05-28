@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du skapar och konfigurerar ett anpassat SMS Sender ID så att ditt företagsnamn visas som avsändare av dina SMS.
 ---
@@ -27,7 +27,7 @@ Ett Sender ID skulle till exempel kunna sättas till någon annans nummer för a
 
 ## Begränsningar
 
-De flesta belgiska, amerikanska och mexikanska mobiloperatörer stöder inte alfanumerisk avsändarinformation. Om du skickar ett SMS till en mottagare hos någon av dessa operatörer ersätts Sender ID med ett slumpmässigt utseende nummer. Samma sak gäller vissa andra funktioner, till exempel SMS i flera delar och Unicode. Se [Whitelist of countries supporting SMS Sender ID](https://support.emarketeer.com/documentation/sender-id/whitelist-of-countries-supporting-sms-sender-id/) för en fullständig lista.
+De flesta belgiska, amerikanska och mexikanska mobiloperatörer stöder inte alfanumerisk avsändarinformation. Om du skickar ett SMS till en mottagare hos någon av dessa operatörer ersätts Sender ID med ett slumpmässigt utseende nummer. Samma sak gäller vissa andra funktioner, till exempel SMS i flera delar och Unicode. Se [Whitelist of countries supporting SMS Sender ID](../../documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md) för en fullständig lista.
 
 Vår SMS-leverantör (46elks) kan inte alltid garantera att Sender ID visas.
 

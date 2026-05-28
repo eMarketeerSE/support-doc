@@ -36,4 +36,4 @@ Efter att integrationen startats om läggs följande paneler till. De kräver eM
 
 ## Vad du gör härnäst
 
-För mer om Lead Board, se [Kom igång med leads](https://support.emarketeer.com/knowledgebase/get-started-leads/).
+För mer om Lead Board, se [Kom igång med leads](../getting-started/get-started-leads.md).

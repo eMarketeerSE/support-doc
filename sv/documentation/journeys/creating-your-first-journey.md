@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   En genomgång för att bygga din första Journey i eMarketeer, från att ange startpunkten till att aktivera automatiseringen.
 ---
@@ -27,7 +27,7 @@ När din startpunkt är inställd klickar du på "Apply" för att gå vidare til
 
 Din Journey startar inte förrän du aktiverar den.
 
-För närvarande är detta allt du behöver veta om startpunkter. För en djupare genomgång, se [denna detaljerade översikt över Journeys utlösande händelser](https://support.emarketeer.com/documentation/journeys/journeys-triggering-events/), som förklarar exakt när startpunkter utvärderas.
+För närvarande är detta allt du behöver veta om startpunkter. För en djupare genomgång, se [denna detaljerade översikt över Journeys utlösande händelser](journeys-triggering-events.md), som förklarar exakt när startpunkter utvärderas.
 
 ### Bygg din Journey
 

@@ -242,7 +242,7 @@ Major features:
   - GDPR-friendly reCAPTCHA
   - Built-in UTM tracking for conversion performance
 
-- **New web tracker.** We have rebuilt our website tracking from the ground up with many improvements. Most importantly, the new tracking is completely cookieless, so you will track much more traffic than before as more browsers block cookie-based tracking. The new tracking picks up as soon as a visitor enters your site for the first time. Every time the visitor comes back, the tracking continues. When the visitor converts to a lead via your website form, all the tracking history is stored on the new lead. This tells you where the lead came from initially and helps you understand which of your traffic generation initiatives perform best. See [The web tracker](https://support.emarketeer.com/documentation/the-web-tracker/).
+- **New web tracker.** We have rebuilt our website tracking from the ground up with many improvements. Most importantly, the new tracking is completely cookieless, so you will track much more traffic than before as more browsers block cookie-based tracking. The new tracking picks up as soon as a visitor enters your site for the first time. Every time the visitor comes back, the tracking continues. When the visitor converts to a lead via your website form, all the tracking history is stored on the new lead. This tells you where the lead came from initially and helps you understand which of your traffic generation initiatives perform best. See [The web tracker](../documentation/web-tracker/the-web-tracker.md).
 
 ## Release April 2025
 
@@ -351,7 +351,7 @@ Bugs solved:
 
 ### Release 2024-04-18
 
-Improvements to help customers follow better email practice. Read more about [best practices here](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+Improvements to help customers follow better email practice. Read more about [best practices here](../knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).
 
 - Email domains via-em.com removed for new customers using a custom domain.
   - Using your own company domain increases delivery quality.
@@ -359,12 +359,12 @@ Improvements to help customers follow better email practice. Read more about [be
 - Improved pre-sendout email validation to reduce bounces.
 - Email service redundancy implemented.
 - New contact email status "Inactive email".
-  - New sendout option — "Exclude inactive contacts". [Read more](https://support.emarketeer.com/documentation/exclude-inactive-recipients/).
+  - New sendout option — "Exclude inactive contacts". [Read more](../documentation/email-sms/exclude-inactive-recipients.md).
   - New contact filter on "Deliverable but unengaged" in the delivery filter.
 
 Other new features and changes:
 
-- Microsoft Dynamics CRM integration phase one. ([Documentation](https://support.emarketeer.com/documentation/microsoft-dynamics-integration/))
+- Microsoft Dynamics CRM integration phase one. ([Documentation](../documentation/dynamics-365/microsoft-dynamics-integration.md))
   - Connect, import from CRM, and consent sync available.
 
 ### Release 2024-03-23
@@ -393,7 +393,7 @@ Other new features and changes:
   - You can choose from a number of categorized, pre-built journeys to adapt to your needs.
 - Journey step: Wait for trigger
   - This step waits until a contact performs a defined task before the journey continues.
-- [SuperOffice Signals: Sale Closed](https://support.emarketeer.com/documentation/superoffice-signals/)
+- [SuperOffice Signals: Sale Closed](../documentation/superoffice/superoffice-signals.md)
   - SuperOffice can tell when a sale is closed (sold or lost) and send the sale data to eMarketeer. This can be used to:
     - Move a lead to sold/lost automatically.
     - Send a welcome email to new customers.
@@ -401,18 +401,18 @@ Other new features and changes:
 
 ### Release 2023-12-04
 
-- [Facebook connector](https://support.emarketeer.com/documentation/facebook-lead-forms/)
+- [Facebook connector](../documentation/lead-forms/facebook-lead-forms.md)
   - You can now receive Lead Form submits from Facebook Ads directly into eMarketeer for scoring, nurturing, and lead generation. Connect from your settings page.
-- [Transactional email sendouts](https://support.emarketeer.com/documentation/transactional-sendouts/)
+- [Transactional email sendouts](../documentation/email-sms/transactional-sendouts.md)
   - When sending an email, you can now opt to override consent and send to the whole list. Use with caution, only for non-marketing emails.
-- [Custom Signals](https://support.emarketeer.com/documentation/custom-signals-api/)
+- [Custom Signals](../documentation/apis-developer/custom-signals-api.md)
   - Using the API, you can now send custom signals from other systems, which will show on your contacts' timeline. These can be scored, trigger journeys, and trigger leads.
 
 ### Release 2023-11-08
 
-- [SuperOffice Consent Sync complete rebuild](https://support.emarketeer.com/upcoming-changes-to-emarketeer-superoffice-consent-sync/)
+- [SuperOffice Consent Sync complete rebuild](../change-log/upcoming-changes-to-emarketeer-superoffice-consent-sync.md)
   - Now works on Online and onPremise.
-  - Syncs consent when sending emails and SMS. [Read more](https://support.emarketeer.com/upcoming-changes-to-emarketeer-superoffice-consent-sync/).
+  - Syncs consent when sending emails and SMS. [Read more](../change-log/upcoming-changes-to-emarketeer-superoffice-consent-sync.md).
 - Journey improvements
   - Send email: transactional option (ignore consent).
   - IF/Else logic

@@ -15,7 +15,7 @@ All contacts that trigger any of the following automations are added to the lead
 
 If the contact is known to SuperOffice — it has an external ID or a matching email address — it is added to the "Assigned leads" section. If the contact is unknown to SuperOffice (no external ID and no matching email), it is added to the "Leads without owners" section.
 
-The leads report is accessible from within SuperOffice — click the leads button and a web panel opens. If your leads button and web panel are missing, [here](https://support.emarketeer.com/documentation/actions-performed-during-set-up/) is how to get them.
+The leads report is accessible from within SuperOffice — click the leads button and a web panel opens. If your leads button and web panel are missing, [here](../../documentation/superoffice/actions-performed-during-set-up.md) is how to get them.
 
 ### Leads without owners
 

@@ -9,7 +9,7 @@ This article walks through connecting SuperOffice Online to eMarketeer.
 
 ## Actions performed during setup
 
-For the integration to work properly, eMarketeer installs new items in SuperOffice, including web panels, fields, and types. [Read more about these actions](https://support.emarketeer.com/documentation/actions-performed-during-set-up/).
+For the integration to work properly, eMarketeer installs new items in SuperOffice, including web panels, fields, and types. [Read more about these actions](actions-performed-during-set-up.md).
 
 ## Start the integration
 

@@ -1,6 +1,6 @@
 # Vad bör jag göra innan GDPR?
 
-GDPR trädde i kraft den 25 maj 2018, och från det datumet behöver du samtycke för att skicka marknadsförings-e-post om du inte kan åberopa [berättigat intresse](https://support.emarketeer.com/knowledgebase/how-does-consent-work/). Praxisen nedan hjälper dig att förbereda dig och förbli efterlevande.
+GDPR trädde i kraft den 25 maj 2018, och från det datumet behöver du samtycke för att skicka marknadsförings-e-post om du inte kan åberopa [berättigat intresse](how-does-consent-work.md). Praxisen nedan hjälper dig att förbereda dig och förbli efterlevande.
 
 > TODO: verify — this article was written ahead of the 2018 effective date and refers to an upcoming eMarketeer consent system that may now be in place.
 

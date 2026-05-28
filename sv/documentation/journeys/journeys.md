@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   En översikt av Journeys: vad de är, vad de används till och hur kontakter rör sig genom de automatiserade stegen.
 ---
@@ -28,4 +28,4 @@ Du kan använda Journeys utan att köpa till tillägget. I Trial-läge kan du sk
 
 ## Vad du gör härnäst
 
-[Lär dig hur du skapar din första Journey.](https://support.emarketeer.com/documentation/journeys/creating-your-first-journey/)
+[Lär dig hur du skapar din första Journey.](creating-your-first-journey.md)

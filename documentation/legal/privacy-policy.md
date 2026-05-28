@@ -68,7 +68,7 @@ We do not collect information from individuals under 13 years of age. Our websit
 
 #### Terms of Service
 
-For more details on using our website, please review our [Terms of Service](https://support.emarketeer.com/documentation/legal/terms-of-service/).
+For more details on using our website, please review our [Terms of Service](terms-of-service.md).
 
 #### Your Consent
 

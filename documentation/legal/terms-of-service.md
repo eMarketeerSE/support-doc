@@ -26,7 +26,7 @@ Storage of customer data\
 Data is stored within EU.\
 Backup and restore.\
 The database is backed up daily, and old backups are kept for 30 days. This backup is intended to be used to restore services in case of a catastrophic event, e.g. server crash.\
-More details about security and data protection can be found in [eMarketeer Information Security Policy](https://support.emarketeer.com/documentation/legal/infromation-secirity-policy/).
+More details about security and data protection can be found in [eMarketeer Information Security Policy](infromation-secirity-policy.md).
 
 ### 3.Definitions
 
@@ -191,7 +191,7 @@ eMarketeer is not liable for indirect damage caused by downtime, including loss 
 
 #### 10.1
 
-eMarketeer will process personal data on behalf of the Customer for the purposes outlined in this agreement. The parties will automatically enter into a separate Data Processing Agreement (DPA) incorporating the Standard Contractual Clauses (SCC), where the Customer acts as the Controller and eMarketeer as the Processor. The SCC is available on our website at [eMarketeer Standard Contractual Clauses (SCC),](https://support.emarketeer.com/documentation/legal/scc/) and by entering into this agreement, the parties agree to the SCC without requiring a separate signature. Any updates to the SCC will be published on the same webpage.\
+eMarketeer will process personal data on behalf of the Customer for the purposes outlined in this agreement. The parties will automatically enter into a separate Data Processing Agreement (DPA) incorporating the Standard Contractual Clauses (SCC), where the Customer acts as the Controller and eMarketeer as the Processor. The SCC is available on our website at [eMarketeer Standard Contractual Clauses (SCC),](scc.md) and by entering into this agreement, the parties agree to the SCC without requiring a separate signature. Any updates to the SCC will be published on the same webpage.\
 The Customer owns the rights to its data as data controller, and eMarketeer acts as a data processor on the Customer’s behalf. All processing by eMarketeer of the personal data and other data provided by the Customer shall be in accordance with the applicable laws. eMarketeer ’s processing of personal data on behalf of the Customer shall therefore only be done in order to provide the service and shall be subject to the Customer’s written instructions.\
 eMarketeer shall comply with the relevant provisions regarding data privacy and information security of EU Regulation 2016/679 (the General Data Protection Regulation) on the protection of individuals regarding the processing of personal data.
 

@@ -28,7 +28,7 @@ Once your starting point is set, click "Apply" to enter the Journey editor.
 
 The Journey does not start until you activate it.
 
-For now this is all you need to know about starting points. For a deeper dive, see [this detailed overview on Journey triggering events](https://support.emarketeer.com/documentation/journeys/journeys-triggering-events/), which explains exactly when starting points are evaluated.
+For now this is all you need to know about starting points. For a deeper dive, see [this detailed overview on Journey triggering events](journeys-triggering-events.md), which explains exactly when starting points are evaluated.
 
 ### Build your Journey
 

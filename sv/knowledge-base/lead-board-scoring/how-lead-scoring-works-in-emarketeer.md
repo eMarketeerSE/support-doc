@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du konfigurerar lead scoring-regler steg för steg, var du ser varje kontakts score och hur du filtrerar kontakter på score.
 ---
@@ -36,7 +36,7 @@ Med lead scoring idag kan du:
 
 Innan du går in i eMarketeer, bestäm din lead scoring-modell. eMarketeer levereras med några standardregler för score som ger dig en startpunkt, men ingen modell passar alla verksamheter. Anpassa reglerna efter din säljprocess och bygg modellen tillsammans med ditt säljteam.
 
-[Guide: så bygger du en lead scoring-modell och vanliga misstag att undvika](https://support.emarketeer.com/knowledgebase/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes/)
+[Guide: så bygger du en lead scoring-modell och vanliga misstag att undvika](how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
 
 ### Du kan score:a på följande i eMarketeer
 

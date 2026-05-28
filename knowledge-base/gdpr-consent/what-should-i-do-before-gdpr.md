@@ -4,7 +4,7 @@ hidden: true
 
 # What should I do before GDPR?
 
-GDPR took effect on 25 May 2018, and from that date you need consent to send marketing emails unless you can claim [legitimate interest](https://support.emarketeer.com/knowledgebase/how-does-consent-work/). The practices below help you prepare and stay compliant.
+GDPR took effect on 25 May 2018, and from that date you need consent to send marketing emails unless you can claim [legitimate interest](how-does-consent-work.md). The practices below help you prepare and stay compliant.
 
 > TODO: verify — this article was written ahead of the 2018 effective date and refers to an upcoming eMarketeer consent system that may now be in place.
 

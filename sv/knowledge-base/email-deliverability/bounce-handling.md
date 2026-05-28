@@ -30,4 +30,4 @@ För att hålla studsfrekvenser låga och dina utskick friska:
 
 ### Vad du gör härnäst
 
-För bredare vägledning, se [Maximera framgång med e-postmarknadsföring — best practices och fallgropar att undvika](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+För bredare vägledning, se [Maximera framgång med e-postmarknadsföring — best practices och fallgropar att undvika](../reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

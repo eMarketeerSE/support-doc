@@ -8,7 +8,7 @@ This guide walks through creating a webpage component, editing its content block
 
 ### 1. Click \[Add Webpage] from the campaign page
 
-If you need to create the campaign first, see [How to create a new campaign](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+If you need to create the campaign first, see [How to create a new campaign](../getting-started/create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/cw1.png" alt="The Add Webpage button"></div>
 

@@ -40,7 +40,7 @@ Knappar för att lägga till nya komponenter
 
 Följande artiklar går igenom varje komponenttyp från början till slut:
 
-- [Skapa din första e-post](https://support.emarketeer.com/knowledgebase/basics-creating-email/)
-- [Skapa ditt första formulär (Legacy)](https://support.emarketeer.com/knowledgebase/basics-creating-form/)
-- [Skapa din första SMS](https://support.emarketeer.com/knowledgebase/basics-creating-sms/)
-- [Skapa din första webbsida](https://support.emarketeer.com/knowledgebase/creating-first-webpage/)
+- [Skapa din första e-post](basics-creating-email.md)
+- [Skapa ditt första formulär (Legacy)](basics-creating-form.md)
+- [Skapa din första SMS](basics-creating-sms.md)
+- [Skapa din första webbsida](../developer-advanced/creating-first-webpage.md)

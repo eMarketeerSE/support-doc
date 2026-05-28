@@ -28,7 +28,7 @@ For example, a Sender ID could be set to another person's number to defraud, har
 
 ## Limitations
 
-Most Belgian, US, and Mexican mobile operators do not support alphanumeric sender information. If you send an SMS to a recipient on one of these operators, the Sender ID is replaced with a random-looking number. The same applies to some other features such as multi-part SMS and Unicode. See the [Whitelist of countries supporting SMS Sender ID](https://support.emarketeer.com/documentation/sender-id/whitelist-of-countries-supporting-sms-sender-id/) for the full list.
+Most Belgian, US, and Mexican mobile operators do not support alphanumeric sender information. If you send an SMS to a recipient on one of these operators, the Sender ID is replaced with a random-looking number. The same applies to some other features such as multi-part SMS and Unicode. See the [Whitelist of countries supporting SMS Sender ID](../../documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md) for the full list.
 
 Our SMS service provider (46elks) cannot always guarantee that the Sender ID will be displayed.
 

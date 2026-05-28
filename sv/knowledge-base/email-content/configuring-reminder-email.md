@@ -18,7 +18,7 @@ Den här guiden täcker två vanliga scenarier: påminna kontakter att läsa ett
 
 ### 1. Skapa en e-postkomponent att använda som påminnelse
 
-Om du inte har byggt påminnelse-mejlet ännu, se guiden om att [skapa ett e-postmeddelande](https://support.emarketeer.com/knowledgebase/basics-send-email/).
+Om du inte har byggt påminnelse-mejlet ännu, se guiden om att [skapa ett e-postmeddelande](../getting-started/basics-send-email.md).
 
 ### 2. Starta skickaprocessen och lägg till de ursprungliga mottagarna
 

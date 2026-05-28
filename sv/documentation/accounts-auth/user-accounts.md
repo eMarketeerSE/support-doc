@@ -73,4 +73,4 @@ Om användaren redan betalas av ett annat konto debiteras inte den inbjudna anv�
 
 Alla användare loggar in på eMarketeer med sitt användarnamn (e-post) och lösenord. eMarketeer erbjuder även Multi-Factor Authentication (MFA) för ett extra lager av säkerhet. MFA är valfritt per användare, men en administratör kan framtvinga det för alla användare på kontot.
 
-Läs mer om [Multi-Factor Authentication](https://support.emarketeer.com/documentation/multi-factor-authentication/).
+Läs mer om [Multi-Factor Authentication](multi-factor-authentication.md).

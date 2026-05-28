@@ -73,4 +73,4 @@ If the user is already paid for by another account, the invited user is not char
 
 All users log in to eMarketeer with their username (email) and password. eMarketeer also offers Multi-Factor Authentication (MFA) for an additional layer of security. MFA is optional per user, but an administrator can enforce it for all users in the account.
 
-Read more about [Multi-Factor Authentication](https://support.emarketeer.com/documentation/multi-factor-authentication/).
+Read more about [Multi-Factor Authentication](multi-factor-authentication.md).

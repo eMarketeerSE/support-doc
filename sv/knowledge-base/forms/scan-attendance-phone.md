@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du använder en mobiltelefon för att skanna deltagarnas QR-koder och registrera event-närvaro via ett eMarketeer-formulär.
 ---
@@ -59,4 +59,4 @@ När deltagarna är scannade kan du också:
 
 ### Alternativ scanninguppsättning (avancerat)
 
-Du kan generera formulärspecifika QR-koder för att registrera deltagare som kan scannas med vilken smartphone-kameraapp som helst. Detta kräver mer planering och konfiguration. Se [den här artikeln](https://support.emarketeer.com/knowledgebase/advanced-event-qr-code/) för installationsguiden.
+Du kan generera formulärspecifika QR-koder för att registrera deltagare som kan scannas med vilken smartphone-kameraapp som helst. Detta kräver mer planering och konfiguration. Se [den här artikeln](advanced-event-qr-code.md) för installationsguiden.

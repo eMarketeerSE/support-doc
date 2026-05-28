@@ -2,7 +2,7 @@
 
 Den här guiden visar hur du konfigurerar Multi-Factor Authentication (MFA) för din inloggning till eMarketeer med en autentiseringsapp.
 
-MFA lägger till ett extra lager av säkerhet på ditt konto. För att läsa mer om funktionen, se artikeln [Multi-Factor Authentication](https://support.emarketeer.com/documentation/multi-factor-authentication/).
+MFA lägger till ett extra lager av säkerhet på ditt konto. För att läsa mer om funktionen, se artikeln [Multi-Factor Authentication](multi-factor-authentication.md).
 
 ## Ladda ner en autentiseringsapp
 

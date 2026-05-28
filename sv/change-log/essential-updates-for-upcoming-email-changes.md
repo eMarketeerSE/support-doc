@@ -36,7 +36,7 @@ eMarketeer kommer att kräva dessa DNS-poster för att aktivera e-postsändning 
 
 Övervaka din skräppostfrekvens regelbundet för att säkerställa att den ligger inom acceptabla gränser. Google och Yahoo tillämpar strikta skräppostfilter för avsändare med hög skräppostfrekvens.
 
-Du kan övervaka detta i [e-postrapporten](https://support.emarketeer.com/knowledgebase/email-report-explained/) i eMarketeer.
+Du kan övervaka detta i [e-postrapporten](../knowledge-base/reports/email-report-explained.md) i eMarketeer.
 
 ### 3. Aktivera one-click unsubscribe
 

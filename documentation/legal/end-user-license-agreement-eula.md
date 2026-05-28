@@ -22,7 +22,7 @@ eMarketeer grants you a revocable, non-exclusive, non-transferable, limited lice
 
 ## 4\. Acceptable Use
 
-You agree to use the Service in compliance with our [Acceptable Use Policy](https://support.emarketeer.com/documentation/legal/acceptable-use-policy/). Prohibited activities include, but are not limited to:
+You agree to use the Service in compliance with our [Acceptable Use Policy](acceptable-use-policy.md). Prohibited activities include, but are not limited to:
 
 -   Sending unsolicited communications or spam.
 -   Misrepresenting your identity or impersonating others.
@@ -40,7 +40,7 @@ Violations may result in suspension or termination of your account.
 
 ## 6\. Data Protection and Privacy
 
-Our handling of personal data is governed by our [Privacy Policy](https://support.emarketeer.com/documentation/legal/privacy-policy/). Key points include:
+Our handling of personal data is governed by our [Privacy Policy](privacy-policy.md). Key points include:
 
 -   **Data Processing**: We process personal data in accordance with the General Data Protection Regulation (GDPR) and other applicable laws.
 -   **Confidentiality**: We implement measures to protect the confidentiality and integrity of Customer Data.

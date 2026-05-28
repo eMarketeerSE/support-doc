@@ -4,8 +4,6 @@ The Add Contact Activity step creates a Task or Phone Call on a Contact record i
 
 Unlike the generic Add Activity step, this action does not fall back to a Lead when a Contact is missing. Use it when the activity must be tied to a Dynamics Contact specifically.
 
-[.png>)](https://support.emarketeer.com/wp-content/uploads/2026/02/add_contact_activity.png)
-
 ## Step configuration
 
 When you add this step to your journey, you configure the following fields:

@@ -8,7 +8,7 @@ Den här guiden går igenom hur du skapar en webbsidekomponent, redigerar dess i
 
 ### 1. Klicka på [Add Webpage] från kampanjsidan
 
-Om du först behöver skapa kampanjen, se [Skapa en ny kampanj](https://support.emarketeer.com/knowledgebase/create-new-campaign/).
+Om du först behöver skapa kampanjen, se [Skapa en ny kampanj](../getting-started/create-new-campaign.md).
 
 <div data-with-frame="true"><img src="../../../assets/creating-first-webpage/cw1.png" alt="Knappen Add Webpage"></div>
 

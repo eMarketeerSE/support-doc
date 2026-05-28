@@ -28,4 +28,4 @@ To minimize complaints and avoid sending restrictions, follow email marketing be
 - Avoid sudden or large increases in sending volume.
 - Clearly identify yourself as the sender.
 
-For detailed guidance, see [Maximizing email marketing success – best practices and pitfalls to avoid](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+For detailed guidance, see [Maximizing email marketing success – best practices and pitfalls to avoid](../reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

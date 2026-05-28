@@ -36,7 +36,7 @@ eMarketeer will require these DNS entries to enable email sending from custom do
 
 Monitor your spam rates regularly to ensure they stay within acceptable limits. Google and Yahoo will apply strict spam filtering measures for senders with high spam rates.
 
-You can monitor this on the [email report](https://support.emarketeer.com/knowledgebase/email-report-explained/) in eMarketeer.
+You can monitor this on the [email report](../knowledge-base/reports/email-report-explained.md) in eMarketeer.
 
 ### 3. Enable one-click unsubscribe
 

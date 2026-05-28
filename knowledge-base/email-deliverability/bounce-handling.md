@@ -30,4 +30,4 @@ To keep bounce rates low and your sending healthy:
 
 ### What to do next
 
-For broader guidance, see [Maximizing email marketing success — best practices and pitfalls to avoid](https://support.emarketeer.com/knowledgebase/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid/).
+For broader guidance, see [Maximizing email marketing success — best practices and pitfalls to avoid](../reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md).

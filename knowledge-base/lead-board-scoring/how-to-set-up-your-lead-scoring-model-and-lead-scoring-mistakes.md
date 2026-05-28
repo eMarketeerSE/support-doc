@@ -8,9 +8,9 @@ description: >-
 
 This article shows how to build a lead scoring model that fits your business and lists the mistakes to avoid.
 
-To get started with lead scoring, decide what to score your contacts on. eMarketeer ships with [default score rules](https://support.emarketeer.com/knowledgebase/default-score-rules-in-emarketeer/) to give you a head start, but lead scoring works best when it is tailored to your business and sales process. Build the model together with your sales team — their insights matter here.
+To get started with lead scoring, decide what to score your contacts on. eMarketeer ships with [default score rules](default-score-rules-in-emarketeer.md) to give you a head start, but lead scoring works best when it is tailored to your business and sales process. Build the model together with your sales team — their insights matter here.
 
-If you already know what you want to score on, use the [tutorial on how to set up score rules in eMarketeer](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/).
+If you already know what you want to score on, use the [tutorial on how to set up score rules in eMarketeer](how-lead-scoring-works-in-emarketeer.md).
 
 ## A few notes about lead scoring
 
@@ -77,7 +77,7 @@ List your rules, how many points each is worth, and when they expire. The list m
 
 ### 4. Put your lead score into action
 
-It is now time to put your rules into action. [Follow this guide on how to set up score rules in eMarketeer.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+It is now time to put your rules into action. [Follow this guide on how to set up score rules in eMarketeer.](how-lead-scoring-works-in-emarketeer.md)
 
 ## Common lead scoring mistakes
 
@@ -86,4 +86,4 @@ It is now time to put your rules into action. [Follow this guide on how to set u
 * **Awarding the same points to every rule.** Some engagement is closer to a sale than others. A product demo request beats a newsletter sign-up. Reflect that in the points.
 * **Not considering a time frame.** A visit to your pricing page yesterday is meaningful. The same visit a year ago, with no activity since, is not. Without a time frame, scores stop reflecting current intent. Treat the time frame as an expiry date on the points.
 
-Good luck building your model. [You can also use this guide for help implementing it in eMarketeer.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+Good luck building your model. [You can also use this guide for help implementing it in eMarketeer.](how-lead-scoring-works-in-emarketeer.md)

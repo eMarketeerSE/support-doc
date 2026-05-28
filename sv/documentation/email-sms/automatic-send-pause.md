@@ -22,7 +22,7 @@ Om du skickar e-post till stora och gamla e-postlistor där många av adresserna
 
 Om en e-postadress studsar markerar eMarketeer kontakten som oleveransbar och förhindrar att fler meddelanden skickas till den nästa gång du adresserar den.
 
-[Mer om hur studsar fungerar i eMarketeer.](https://support.emarketeer.com/knowledgebase/about-email-bounces/)
+[Mer om hur studsar fungerar i eMarketeer.](../../knowledge-base/email-deliverability/about-email-bounces.md)
 
 ## Automatiskt skydd i eMarketeer
 

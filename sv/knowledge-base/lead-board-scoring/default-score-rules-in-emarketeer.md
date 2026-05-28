@@ -30,4 +30,4 @@ Regler baserade på data på kontaktkortet, till exempel demografi.
 - Land är ifyllt – 2 poäng
 - Telefonnummer är ifyllt – 2 poäng
 
-Du kan redigera, avaktivera eller ta bort standarduppsättningarna när som helst. [Se den här guiden för att skapa dina egna score-regler.](https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/)
+Du kan redigera, avaktivera eller ta bort standarduppsättningarna när som helst. [Se den här guiden för att skapa dina egna score-regler.](how-lead-scoring-works-in-emarketeer.md)
