@@ -2,6 +2,24 @@
 description: >-
   A step-by-step guide to creating an SMS in eMarketeer and getting it ready to
   send.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 tags:
   - sms
 ---

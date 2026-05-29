@@ -3,7 +3,6 @@ description: >-
   A step-by-step guide to creating a form in eMarketeer, from setup through the
   thank-you page and optional confirmation email.
 tags:
-  - form
   - legacy
 ---
 

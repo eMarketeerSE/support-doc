@@ -2,6 +2,24 @@
 description: >-
   Step-by-step instructions for adding DNS records to authenticate your sending
   domain and enable eMarketeer's email service.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 tags:
   - email
   - account-settings

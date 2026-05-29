@@ -2,6 +2,24 @@
 description: >-
   The simplest path to sending an email in eMarketeer, from a finished email
   component to a delivered send-out.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 tags:
   - email
 ---

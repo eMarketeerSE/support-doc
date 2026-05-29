@@ -2,6 +2,24 @@
 description: >-
   This guide walks you through creating an email in eMarketeer, from setting it
   up to editing content blocks and adding the final touches.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 tags:
   - email
 ---

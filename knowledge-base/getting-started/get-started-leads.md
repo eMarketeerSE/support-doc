@@ -2,6 +2,24 @@
 description: >-
   An overview of eMarketeer Leads: how to set up sales teams, qualify contacts
   by score and persona, and deliver leads to sales in real time.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 tags:
   - leads
 ---
