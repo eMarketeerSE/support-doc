@@ -18,7 +18,7 @@ Sending marketing emails without consent is illegal. Use this setting only if th
 
 You see this setting when addressing your email in the standard send-out screen.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Send-out screen with the transactional email setting highlighted"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Send-out screen with the transactional email setting highlighted"></div>
 
 ## Sending an email in a Journey
 

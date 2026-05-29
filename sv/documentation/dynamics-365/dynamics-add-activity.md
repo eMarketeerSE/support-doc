@@ -2,7 +2,7 @@
 
 Steget Add Activity skapar en Task eller ett Phone Call i din Microsoft Dynamics CRM. Eftersom en person kan finnas som antingen Lead eller Contact i Dynamics frågar steget efter din preferens och använder en inbyggd fallback för att säkerställa att aktiviteten loggas.
 
-<div data-with-frame="true"><img src="../../../assets/dynamics-add-activity/add_activity-982x1024.png" alt="Konfiguration av steget Add Activity med inställningen Prefer Contact eller Lead"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/dynamics-add-activity/add_activity-982x1024.png" alt="Konfiguration av steget Add Activity med inställningen Prefer Contact eller Lead"></div>
 
 ### Stegkonfiguration
 

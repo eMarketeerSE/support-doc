@@ -14,7 +14,7 @@ Den här artikeln hänvisar till olika typer av eMarketeer-URL:er. För bakgrund
 
 ## The form cannot be displayed at this time
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/form_closed_limit.png" alt="The form cannot be displayed at this time"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/form_closed_limit.png" alt="The form cannot be displayed at this time"></div>
 
 Felmeddelandet "The form cannot be displayed at this time"
 
@@ -24,7 +24,7 @@ För att höja kontaktgränsen, skicka en förfrågan till [customerservice@emar
 
 ## Vit webbsida
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/blank-page.png" alt="Bild av en tom sida"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/blank-page.png" alt="Bild av en tom sida"></div>
 
 En tom webbsida
 
@@ -34,7 +34,7 @@ Det kan också hända när ett formulär har flyttats till en annan kampanj. Det
 
 ## No such session
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/no-such-session.png" alt="Webbsida som visar meddelandet "No such session""></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/no-such-session.png" alt="Webbsida som visar meddelandet "No such session""></div>
 
 En webbsida som visar meddelandet "No such session"
 
@@ -44,7 +44,7 @@ Använd formulärets Direct URL istället.
 
 ## Answer already registered
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/already-answered-on-this-session.png" alt="Bild av skärm som visar ett meddelande om att ett svar redan har registrerats"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/already-answered-on-this-session.png" alt="Bild av skärm som visar ett meddelande om att ett svar redan har registrerats"></div>
 
 Svaret har redan registrerats
 
@@ -54,11 +54,11 @@ Om du ser det här av misstag, bekräfta att du använt rätt länk och att form
 
 ## Formulärkomponenten har raderats
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/form-component-deleted.png" alt="Bild av meddelande om att Form URL är felaktig"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/form-component-deleted.png" alt="Bild av meddelande om att Form URL är felaktig"></div>
 
 Direct URL-meddelande för en raderad formulärkomponent
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/form-deleted-session.png" alt="Bild som visar meddelande om att formuläret inte längre är tillgängligt"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/form-deleted-session.png" alt="Bild som visar meddelande om att formuläret inte längre är tillgängligt"></div>
 
 Session URL-meddelande för en raderad formulärkomponent
 
@@ -66,7 +66,7 @@ De här meddelandena betyder vanligtvis att formulärkomponenten har raderats i 
 
 ## Formulärkomponenten är stängd
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/survey-closed.png" alt="Bild av meddelande om att formuläret är stängt"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/survey-closed.png" alt="Bild av meddelande om att formuläret är stängt"></div>
 
 Standardmeddelandet för ett stängt formulär
 
@@ -76,7 +76,7 @@ Du ser det här när formulärets Open/Close-inställning är satt till stängd,
 
 ## Anonymous not allowed
 
-<div data-with-frame="true"><img src="../../../assets/form-unavailable/formanon.png" alt="Bild av meddelande om att anonyma svar inte är tillåtna"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/form-unavailable/formanon.png" alt="Bild av meddelande om att anonyma svar inte är tillåtna"></div>
 
 Meddelande för ett saknat formulär
 

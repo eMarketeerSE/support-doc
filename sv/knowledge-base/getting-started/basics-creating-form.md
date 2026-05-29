@@ -46,13 +46,13 @@ Klicka på **Add Form** från kampanjen där du vill skapa formuläret.
 
 * Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf1.png" alt="Knappen Add Form på kampanjsidan"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf1.png" alt="Knappen Add Form på kampanjsidan"></div>
 {% endstep %}
 
 {% step %}
 ### Fyll i inställningar, välj en mall och skapa formuläret
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf2.png" alt="Dialog för formulärinställningar och val av mall"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf2.png" alt="Dialog för formulärinställningar och val av mall"></div>
 
 **Inställningar**
 
@@ -74,7 +74,7 @@ När du klickat på **Create Form** öppnas redigeraren. Menyn till vänster lå
 
 Innehållet består av innehållsblock som kallas formulärobjekt, som du redigerar var för sig i följande steg.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_edit_view.png" alt="Formulärredigeraren med formulärobjekt och vänstermeny"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_edit_view.png" alt="Formulärredigeraren med formulärobjekt och vänstermeny"></div>
 {% endstep %}
 
 {% step %}
@@ -84,7 +84,7 @@ Det första formulärobjektet i de flesta mallar är ett Rich Text-block där du
 
 För att redigera ett formulärobjekt klickar du antingen på dess **Edit**-knapp eller dubbelklickar på själva blocket. En popup öppnas där du kan ändra text, frågor eller svar.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_edit_richtext.png" alt="Popup för redigering av Rich Text-block"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_edit_richtext.png" alt="Popup för redigering av Rich Text-block"></div>
 {% endstep %}
 
 {% step %}
@@ -92,7 +92,7 @@ För att redigera ett formulärobjekt klickar du antingen på dess **Edit**-knap
 
 Registration-blocket är det viktigaste blocket i alla formulär som inte samlar anonyma svar. Det sparar besökarens kontaktinformation tillsammans med deras inlämning och matchar mot din eMarketeer-kontaktdatabas — uppdaterar ett befintligt kontaktkort eller skapar en ny kontakt om ingen finns.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_registration.png" alt="Registration-blockets alternativ med fältväljare för kontaktuppgifter"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_registration.png" alt="Registration-blockets alternativ med fältväljare för kontaktuppgifter"></div>
 
 Vad du kan fråga efter i Registration-blocket är kopplat till fälten på ett kontaktkort. Du väljer vilka fält som ska efterfrågas och vilka som är obligatoriska. Registration-blocket frågar alltid efter besökarens e-postadress, eftersom det är ett obligatoriskt fält på ett kontaktkort.
 {% endstep %}
@@ -116,7 +116,7 @@ Du hittar dessa frågetyper i menyn Add Form Item uppe till vänster i formulär
 
 Efter att en besökare skickat in formuläret omdirigeras de till tacksidan som bekräftar att deras svar sparats. Standardtacksidan innehåller ett enda textblock som du kan redigera så det passar ditt formulär. Öppna inställningarna för tacksidan genom att klicka på **Thank You Page** i vänstermenyn.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_thank_you_page.png" alt="Inställningar för tacksida med alternativ för hostad sida och anpassad URL"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_thank_you_page.png" alt="Inställningar för tacksida med alternativ för hostad sida och anpassad URL"></div>
 
 Du har två alternativ: en hostad tacksida eller en anpassad URL. Den hostade sidan är standard — ändra texten så är du klar. Använd en anpassad URL om du vill omdirigera besökare till en specifik sida, till exempel en på din egen webbplats.
 
@@ -128,7 +128,7 @@ För att redigera texten som visas på den hostade sidan klickar du på **Edit**
 
 Vi rekommenderar inte att du använder funktionen om du inte behöver den, men för längre enkäter kan du vilja låta besökare granska sina svar innan de skickar in. Bekräftelsesidan visar deras svar och ger dem två val: **Edit** för att ändra svaren eller **Finish** för att skicka in.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_confirmation_page.png" alt="Inställningar för bekräftelsesida med alternativen Edit och Finish"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_confirmation_page.png" alt="Inställningar för bekräftelsesida med alternativen Edit och Finish"></div>
 
 När den är aktiv visas bekräftelsesidan efter att besökaren gått vidare från formuläret. Besökaren måste klicka på **Finish** för att bekräfta. De omdirigeras sedan till tacksidan och, om det är inställt, skickas ett bekräftelsemejl.
 {% endstep %}
@@ -138,7 +138,7 @@ När den är aktiv visas bekräftelsesidan efter att besökaren gått vidare fr�
 
 Inställningarna för bekräftelsemejl låter dig skicka en kopia av varje inlämning till en angiven e-postadress, och skicka en kopia av svaren tillbaka till personen som lämnade in dem.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_confirmation_email.png" alt="Inställningar för bekräftelsemejl med fält för avsändare och ämne"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_confirmation_email.png" alt="Inställningar för bekräftelsemejl med fält för avsändare och ämne"></div>
 
 Alternativ:
 
@@ -156,7 +156,7 @@ Alternativ:
 
 När formuläret är klart har du några alternativ för att dela det.
 
-<div data-with-frame="true"><img src="../../../assets/basics-creating-form/cf_publish_page.png" alt="Publiceringssida med alternativ för Direct URL, Website Integration och E-mail"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-creating-form/cf_publish_page.png" alt="Publiceringssida med alternativ för Direct URL, Website Integration och E-mail"></div>
 
 Publiceringssidan för ett formulär
 

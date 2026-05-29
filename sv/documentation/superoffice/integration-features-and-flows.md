@@ -69,7 +69,7 @@ När en automation körs kan eMarketeer utföra följande åtgärder i SuperOffi
 - Lägga till eller ta bort en kontakt från en Selection eller ett projekt.
 - Lägga till eller ta bort ett intresse från en kontakt.
 
-<div data-with-frame="true"><img src="../../../assets/integration-features-and-flows/image-29.png" alt="SuperOffice Person-kort med Activity tillagda av eMarketeer-automationer"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/integration-features-and-flows/image-29.png" alt="SuperOffice Person-kort med Activity tillagda av eMarketeer-automationer"></div>
 
 Dessa Activity har lagts till i SuperOffice av automationer från eMarketeer.
 
@@ -81,11 +81,11 @@ Webbpaneler visar ytterligare information eller utökar eMarketeer-funktioner in
 - Timeline Report. En webbpanel på Person-kortet i SuperOffice CRM. Den visar alla interaktioner kontakten har haft med eMarketeers marknadsinnehåll, inklusive e-post, formulär, SMS och landningssidor.
 - Event details. När eMarketeer skapar en Sale eller en Activity visar denna panel den händelse som triggade den.
 
-<div data-with-frame="true"><img src="../../../assets/integration-features-and-flows/image-30-1024x530.png" alt="Timeline Report på ett SuperOffice Person-kort"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/integration-features-and-flows/image-30-1024x530.png" alt="Timeline Report på ett SuperOffice Person-kort"></div>
 
 Lär dig mer om dina kontakter och hur de har engagerat sig i ditt marknadsinnehåll.
 
-<div data-with-frame="true"><img src="../../../assets/integration-features-and-flows/image-31.png" alt="Lead Report som listar kontakter som ännu inte finns i SuperOffice"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/integration-features-and-flows/image-31.png" alt="Lead Report som listar kontakter som ännu inte finns i SuperOffice"></div>
 
 Det är här alla kontakter som ännu inte finns i SuperOffice listas.
 

@@ -93,6 +93,8 @@ genuinely doesn't apply):
   raw HTML (`<span class="s1">`, empty `<b></b>`).
 - Preserve all images, code blocks, and links as-is. Image alt text
   should describe what the image shows, not "image" or "screenshot."
+- Framed images: the wrapper div must include `data-align="left"`. Correct form:
+  `<div data-with-frame="true" data-align="left"><img ...></div>`.
 
 ### What NOT to change
 - Do not invent facts, version numbers, API endpoints, or pricing.

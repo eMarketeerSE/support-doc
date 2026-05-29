@@ -2,7 +2,7 @@
 
 En e-post registreras som öppnad när bilder laddas i mottagarens e-postklient, eller när mottagaren klickar på en länk i meddelandet.
 
-<div data-with-frame="true"><img src="../../../assets/email-open/2021-04-27_11-57-42.png" alt="E-postrapportens graf med antalet öppnade e-postmeddelanden markerat"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/email-open/2021-04-27_11-57-42.png" alt="E-postrapportens graf med antalet öppnade e-postmeddelanden markerat"></div>
 
 E-postrapportens graf, antalet öppnade e-postmeddelanden markerat.
 

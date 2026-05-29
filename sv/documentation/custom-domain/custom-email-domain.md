@@ -21,13 +21,13 @@ Gå till dina [inställningar för e-postdomän](https://app.emarketeer.com/corp
 
 Klicka på "Add a domain" och skriv den domän du vill använda, till exempel `yourcompany.com`. Klicka på "Add". Du behöver inte lägga till `www` före domännamnet.
 
-<div data-with-frame="true"><img src="../../../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.27.png" alt="Dialog för att lägga till en domän"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.27.png" alt="Dialog för att lägga till en domän"></div>
 
 ### 3. Uppdatera dina DNS-poster
 
 eMarketeer visar en lista över poster som måste läggas till i din DNS. När posterna är tillagda klickar du på "Authenticate".
 
-<div data-with-frame="true"><img src="../../../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.42.png" alt="DNS-poster att lägga till för den nya domänen"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-email-domain/Skarmavbild-2024-03-21-kl.-09.58.42.png" alt="DNS-poster att lägga till för den nya domänen"></div>
 
 ### Fråga din IT-avdelning
 
@@ -35,7 +35,7 @@ Om du inte har åtkomst till din DNS klickar du på länken "Generate email" lä
 
 När posterna har lagts till korrekt markeras de gröna efter att du klickat på "Authenticate". DNS-ändringar sprids ofta snabbt, men kan ta upp till 48 timmar. Efter autentisering kan du skicka e-post från din domän.
 
-<div data-with-frame="true"><img src="../../../assets/custom-email-domain/SCR-20240321-jgsz.png" alt="Autentiserad domän med grönmarkerade DNS-poster"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-email-domain/SCR-20240321-jgsz.png" alt="Autentiserad domän med grönmarkerade DNS-poster"></div>
 
 ### Obligatoriska och valfria fält
 

@@ -39,16 +39,16 @@ I eMarketeer går du till **Account** → **Email domains** och klickar på **Ad
 
 Ange den domän du vill autentisera (till exempel `yourdomain.com`) och klicka för att lägga till.
 
-<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png" alt="Dialog för att lägga till en domän med fält för domännamn"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png" alt="Dialog för att lägga till en domän med fält för domännamn"></div>
 {% endstep %}
 {% step %}
 ### Lägg till DNS-poster
 
 eMarketeer visar en lista med DNS-poster. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på länken i autentiseringsdialogen för att skicka posterna till ansvarig person.
 
-<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.16.png" alt="DNS-poster listade i autentiseringsdialogen"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.16.png" alt="DNS-poster listade i autentiseringsdialogen"></div>
 
-<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="länk för att skicka DNS-poster till IT-avdelningen"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="länk för att skicka DNS-poster till IT-avdelningen"></div>
 {% endstep %}
 {% step %}
 ### Klicka på Authorize
@@ -60,9 +60,9 @@ När posterna är på plats återvänder du till autentiseringsdialogen och klic
 
 Om posterna är korrekta validerar dialogen och godkänner autentiseringen. Om något är fel markeras posten som misslyckas i rött.
 
-<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.00.png" alt="felaktig DNS-post markerad i rött"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.00.png" alt="felaktig DNS-post markerad i rött"></div>
 
-<div data-with-frame="true"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.06.02.png" alt="bekräftelse på lyckad domänautentisering"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/authorize-email-domain/Ska_CC_88rmavbild-2019-12-11-kl.-14.06.02.png" alt="bekräftelse på lyckad domänautentisering"></div>
 {% endstep %}
 {% endstepper %}
 

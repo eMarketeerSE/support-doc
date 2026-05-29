@@ -15,7 +15,7 @@ För att integrationen ska fungera korrekt installerar eMarketeer nya objekt i S
 
 För att starta integrationen, logga in i eMarketeer och klicka på "Account" och sedan "Plugins and Integrations". Därifrån hittar du inställningssidan för SuperOffice.
 
-<div data-with-frame="true"><img src="../../../assets/superoffice-online-integration/so-online-1.png" alt="Inställningssida för SuperOffice Online i eMarketeer"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/superoffice-online-integration/so-online-1.png" alt="Inställningssida för SuperOffice Online i eMarketeer"></div>
 
 1. Välj radioknappen Online och klicka på "Apply changes".
 2. En popup med SuperOffice inloggningsskärm visas. Fyll i din inloggning och klicka på "Log in" för att autentisera.

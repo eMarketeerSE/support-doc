@@ -22,7 +22,7 @@ General Data Protection Regulation (GDPR) ger äganderätten och kontrollen öve
 
 GDPR-funktioner levereras i tre faser, två releaser per fas. Bilden nedan sammanfattar vad varje release täcker.
 
-<div data-with-frame="true"><img src="../../../assets/gdpr-and-what-it-means-for-emarketeer-users/GDPR-eMarketeer-Master-Presentation-1.jpg" alt="eMarketeers GDPR-färdplan med tre releasfaser"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-and-what-it-means-for-emarketeer-users/GDPR-eMarketeer-Master-Presentation-1.jpg" alt="eMarketeers GDPR-färdplan med tre releasfaser"></div>
 
 För mer, besök [eMarketeer GDPR Center](emarketeer-gdpr-overview.md) eller ladda ner [GDPR-guiden](https://www.emarketeer.com/portfolio/gdpr-guide-businesses-prepare/) för en snabbreferens.
 

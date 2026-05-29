@@ -2,7 +2,7 @@
 
 Steget **Add Lead Activity** skapar en Task eller ett Phone Call på en Lead-post i Microsoft Dynamics 365 Sales. Till skillnad från det generiska steget Add Activity faller detta inte tillbaka till en Contact om ingen Lead hittas.
 
-<div data-with-frame="true"><img src="../../../assets/dynamics-add-lead-activity/add_lead_activity-1024x907.png" alt="Konfiguration av steget Add Lead Activity i Dynamics"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/dynamics-add-lead-activity/add_lead_activity-1024x907.png" alt="Konfiguration av steget Add Lead Activity i Dynamics"></div>
 
 ## Stegkonfiguration
 

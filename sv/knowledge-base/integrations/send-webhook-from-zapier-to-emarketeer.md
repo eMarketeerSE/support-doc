@@ -11,7 +11,7 @@ Det här är användbart när du vill fånga formulärsvar, CRM-uppdateringar el
 
 ### Steg 2: Konfigurera triggern
 
-<div data-with-frame="true"><img src="../../../assets/send-webhook-from-zapier-to-emarketeer/zap.png" alt="Vy över Zap-konfiguration"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/send-webhook-from-zapier-to-emarketeer/zap.png" alt="Vy över Zap-konfiguration"></div>
 
 1. Välj en trigger-app som innehåller kontaktdatan du vill skicka. I det här exemplet ett Sleeknote-formulär.
 2. Välj den specifika händelse som triggar din Zap, till exempel "New Form Submission".

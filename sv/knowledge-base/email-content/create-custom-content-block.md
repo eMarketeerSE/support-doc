@@ -18,7 +18,7 @@ Kontakta ditt kontos Account Administrator om du behöver Developer-behörighet 
 
 ## Så här sparar du ett anpassat innehållsblock
 
-<div data-with-frame="true"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-30-58.png" alt="Steg 1 av att spara ett block"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-30-58.png" alt="Steg 1 av att spara ett block"></div>
 
 Spara ett block
 
@@ -42,7 +42,7 @@ Label är namnet som visas i sektionen Component Content när blocket används. 
 
 [Save as Block] öppnar dialogen där du kan spara det anpassade blocket till komponenten.
 
-<div data-with-frame="true"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-35-19.png" alt="Steg 2 av att spara ett block"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-35-19.png" alt="Steg 2 av att spara ett block"></div>
 
 Fönstret Save as block
 
@@ -58,7 +58,7 @@ Den här etiketten är namnet som varje användare ser när de arbetar med det a
 
 Klick på [Create] sparar det anpassade blocket och lägger till det i menyn "Add Content Block" så att alla användare kan släppa in det.
 
-<div data-with-frame="true"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-37-10.png" alt="Det nya blocket i listan Add Content"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-37-10.png" alt="Det nya blocket i listan Add Content"></div>
 
 Blocket som det visas i listan Add Content
 
@@ -68,7 +68,7 @@ Blocket som det visas i listan Add Content
 
 För att göra blocket tillgängligt i nya komponenter byggda från en mall kan du antingen redigera en befintlig mall för att lägga till blocket, eller skapa en ny mall från en komponent som redan innehåller det, som visas nedan.
 
-<div data-with-frame="true"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-38-45.png" alt="Skapa en mall från en komponent"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-38-45.png" alt="Skapa en mall från en komponent"></div>
 
 Skapa en mall från en komponent med ett anpassat block
 

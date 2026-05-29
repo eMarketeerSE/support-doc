@@ -9,7 +9,7 @@ description: >-
 
 De kostnadsfria e-postmallarna i eMarketeer ger dig ett försprång när du bygger e-postmeddelanden, med dussintals mobilanpassade designer som du kan anpassa till ditt varumärke.
 
-<div data-with-frame="true"><img src="../../../assets/email-templates/emailtemplates1-1024x576.jpg" alt="Kollage med exempel på e-postmallar"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/emailtemplates1-1024x576.jpg" alt="Kollage med exempel på e-postmallar"></div>
 
 ## Vad är nytt i mallarna
 
@@ -24,15 +24,15 @@ De nya mallarna ersätter de tidigare. Sparade mallar visas fortfarande på ditt
 
 Om du behöver hjälp att flytta en sparad mall till den nya grunden, mejla sales@emarketeer.com.
 
-- <div data-with-frame="true"><img src="../../../assets/email-templates/Email-template-example-1.png" alt="Exempel på e-postmall 1"></div>
-- [<div data-with-frame="true"><img src="../../../assets/email-templates/Email-template-example-2.png" alt="Exempel på e-postmall 2"></div>
-- <div data-with-frame="true"><img src="../../../assets/email-templates/Email-template-example-4.png" alt="Exempel på e-postmall 4"></div>
-- [<div data-with-frame="true"><img src="../../../assets/email-templates/Email-template-example-5-1024x785.png" alt="Exempel på e-postmall 5"></div>
-- <div data-with-frame="true"><img src="../../../assets/email-templates/Email-template-example-6-1024x859.png" alt="Exempel på e-postmall 6"></div>
-- [<div data-with-frame="true"><img src="../../../assets/email-templates/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Exempel på e-postmall"></div>
-- <div data-with-frame="true"><img src="../../../assets/email-templates/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Exempel på e-postmall"></div>
-- [<div data-with-frame="true"><img src="../../../assets/email-templates/image-1-934x1024.png" alt="Exempel på e-postmall"></div>
-- <div data-with-frame="true"><img src="../../../assets/email-templates/image-896x1024.png" alt="Exempel på e-postmall"></div>
+- <div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Email-template-example-1.png" alt="Exempel på e-postmall 1"></div>
+- [<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Email-template-example-2.png" alt="Exempel på e-postmall 2"></div>
+- <div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Email-template-example-4.png" alt="Exempel på e-postmall 4"></div>
+- [<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Email-template-example-5-1024x785.png" alt="Exempel på e-postmall 5"></div>
+- <div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Email-template-example-6-1024x859.png" alt="Exempel på e-postmall 6"></div>
+- [<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Exempel på e-postmall"></div>
+- <div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Exempel på e-postmall"></div>
+- [<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/image-1-934x1024.png" alt="Exempel på e-postmall"></div>
+- <div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/image-896x1024.png" alt="Exempel på e-postmall"></div>
 
 ## Tre tips om e-postmallarna
 
@@ -44,11 +44,11 @@ När du delar länken till ditt e-postmeddelande på sociala medier kan inlägge
 
 Det här är inte där du sätter ämnesraden för själva e-postmeddelandet — ämnesraden och avsändarinformationen finns i menyn till vänster.
 
-[<div data-with-frame="true"><img src="../../../assets/email-templates/Link_sharing_in_editor-1024x443.png" alt="Inställningar för länkdelning i redigeraren"></div>
+[<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Link_sharing_in_editor-1024x443.png" alt="Inställningar för länkdelning i redigeraren"></div>
 
 Var du uppdaterar information om länkdelning i redigeraren.
 
-<div data-with-frame="true"><img src="../../../assets/email-templates/Screenshot-2021-11-02-at-15.48.03.png" alt="Förhandsvisning av e-postlänk på sociala medier"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/Screenshot-2021-11-02-at-15.48.03.png" alt="Förhandsvisning av e-postlänk på sociala medier"></div>
 
 Hur e-postlänken ser ut när den postas på sociala medier.
 
@@ -62,7 +62,7 @@ Den exakta längd som visas beror på mottagarens e-postklient.
 
 > TODO: verify recommended character counts for subject line and preheader (source said "XXX characters").
 
-[<div data-with-frame="true"><img src="../../../assets/email-templates/preheader-1024x563.png" alt="Exempel på preheaders i inkorgen"></div>
+[<div data-with-frame="true" data-align="left"><img src="../../../assets/email-templates/preheader-1024x563.png" alt="Exempel på preheaders i inkorgen"></div>
 
 Exempel på e-postmeddelanden med och utan preheader.
 

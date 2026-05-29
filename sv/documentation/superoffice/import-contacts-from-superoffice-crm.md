@@ -6,7 +6,7 @@ I SuperOffice CRM har varje Person en "huvudströmbrytare" för e-marknadsförin
 
 Om kontakten saknar laglig grund för e-postutskick i marknadsföring är brytaren av (grå). Om kontakten har en laglig grund som tillåter e-marknadsföring är brytaren på (grön).
 
-<div data-with-frame="true"><img src="../../../assets/import-contacts-from-superoffice-crm/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png" alt="SuperOffice samtyckesbrytare för e-marknadsföring på ett Person-kort"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/import-contacts-from-superoffice-crm/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png" alt="SuperOffice samtyckesbrytare för e-marknadsföring på ett Person-kort"></div>
 
 ## Välj vilka kontakter som ska importeras
 

@@ -8,7 +8,7 @@ Denna utgåva lägger till ett klonblock i e-postredigeraren och utökar de type
 
 Du kan nu kopiera vilken typ av innehållsblock som helst när du bygger ett e-postmeddelande. Hovra över blocket du vill kopiera, klicka på dupliceringsikonen, och en exakt kopia av blocket klistras in i din e-post.
 
-<div data-with-frame="true"><img src="../../assets/release-notes-march-28th-2022/clone_block_email_editor-1.png" alt="Klonblock i e-postredigeraren"></div>
+<div data-with-frame="true" data-align="left"><img src="../../assets/release-notes-march-28th-2022/clone_block_email_editor-1.png" alt="Klonblock i e-postredigeraren"></div>
 
 ### Fler typer av kampanjfält
 

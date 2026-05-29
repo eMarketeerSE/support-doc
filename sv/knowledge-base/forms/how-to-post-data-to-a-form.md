@@ -29,25 +29,25 @@ Om du POST:ar (eller GET:ar) svaren till den URL:en med rätt name/value-par spa
 
 Skapa ett formulär i eMarketeer med en kontaktregistrering och eventuella andra frågor du behöver.
 
-<div data-with-frame="true"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png" alt="Ett formulär som skapas i eMarketeer."></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png" alt="Ett formulär som skapas i eMarketeer."></div>
 
 ## 2. Hämta HTML-koden för formuläret
 
 Klicka på "publish" på formuläret.
 
-<div data-with-frame="true"><img src="../../../assets/how-to-post-data-to-a-form/form_publish.png" alt="Publiceringsknappen på ett formulär."></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-post-data-to-a-form/form_publish.png" alt="Publiceringsknappen på ett formulär."></div>
 
 Klicka sedan på "Website integration."
 
-<div data-with-frame="true"><img src="../../../assets/how-to-post-data-to-a-form/form_websiteintegration.png" alt="Alternativet för webbintegration."></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-post-data-to-a-form/form_websiteintegration.png" alt="Alternativet för webbintegration."></div>
 
 Klicka på "GET CODE" under `<FORM>`-sektionen för att öppna formulärkoden. Om reCAPTCHA är aktivt på ditt konto behöver du lägga till en domän i domänfältet innan du kan komma åt koden.
 
-<div data-with-frame="true"><img src="../../../assets/how-to-post-data-to-a-form/form_formcode.png" alt="GET CODE-knappen under FORM-sektionen."></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-post-data-to-a-form/form_formcode.png" alt="GET CODE-knappen under FORM-sektionen."></div>
 
 Formulärkoden visas.
 
-<div data-with-frame="true"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png" alt="Den genererade HTML-koden för formuläret."></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png" alt="Den genererade HTML-koden för formuläret."></div>
 
 Du kan klistra in den här koden direkt på din webbplats. Den postar svaren till eMarketeer och visar sedan tacksidan.
 
@@ -61,4 +61,4 @@ När du har URL:en och inmatningsfälten fungerar varje metod som postar till de
 
 Om du bäddar in formuläret på din webbplats kanske du vill skicka besökare till din egen tacksida i stället för den eMarketeer-hostade. För att ändra omdirigeringen redigerar du formuläret i eMarketeer och klickar på "Thank you page." Välj "Use custom URL" och ange URL:en att omdirigera till.
 
-<div data-with-frame="true"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png" alt="Inställningen för egen tacksida på ett formulär."></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png" alt="Inställningen för egen tacksida på ett formulär."></div>

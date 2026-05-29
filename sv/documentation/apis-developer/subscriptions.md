@@ -28,11 +28,11 @@ Om du inte konfigurerar prenumerationer fungerar eMarketeer som tidigare och erb
 
 1. I eMarketeer, gå till **Account** och hitta **Subscription and send outs**.
 
-   <div data-with-frame="true"><img src="../../../assets/subscriptions/2018-05-22_08-52-07.png" alt="Subscription and send outs-sektionen i kontoinställningarna"></div>
+   <div data-with-frame="true" data-align="left"><img src="../../../assets/subscriptions/2018-05-22_08-52-07.png" alt="Subscription and send outs-sektionen i kontoinställningarna"></div>
 
 2. På prenumerationssidan, skapa eller hantera dina kategorier.
 
-   <div data-with-frame="true"><img src="../../../assets/subscriptions/2018-05-22_08-54-54.png" alt="Hantera prenumerationskategorier"></div>
+   <div data-with-frame="true" data-align="left"><img src="../../../assets/subscriptions/2018-05-22_08-54-54.png" alt="Hantera prenumerationskategorier"></div>
 
 När du skapar prenumerationer, tänk på dessa riktlinjer:
 
@@ -51,7 +51,7 @@ Du kan också använda bulkuppdatering för att sätta prenumerationer på eller
 
 När du skapar ett nytt e-postmeddelande från en mall ser du en ny inställning: prenumerationsdroplistan.
 
-<div data-with-frame="true"><img src="../../../assets/subscriptions/2018-05-22_09-10-14.png" alt="Prenumerationsdroplista vid skapande av e-post"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/subscriptions/2018-05-22_09-10-14.png" alt="Prenumerationsdroplista vid skapande av e-post"></div>
 
 Välj den kategori som matchar typen av e-post du skickar.
 
@@ -59,13 +59,13 @@ Om du skickar ett e-postmeddelande som inte passar någon befintlig kategori, s�
 
 När du kopierar ett befintligt e-postmeddelande ärver kopian originalets prenumeration. Du kan ändra den medan du redigerar.
 
-<div data-with-frame="true"><img src="../../../assets/subscriptions/2018-05-22_09-11-03.png" alt="Prenumerationsinställning på ett kopierat e-postmeddelande"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/subscriptions/2018-05-22_09-11-03.png" alt="Prenumerationsinställning på ett kopierat e-postmeddelande"></div>
 
 ## Prenumerationscenter
 
 Du behöver inte ändra något i dina mallar för att använda det nya prenumerationscentret. Det är den befintliga avregistreringssidan med tillagda alternativ för att hantera prenumerationer. För att avregistrera sig helt markerar kontakten **Unsubscribe from all future sendouts**, vilket återkallar marknadsföringssamtycke och stoppar all e-post.
 
-<div data-with-frame="true"><img src="../../../assets/subscriptions/2018-05-22_09-05-44.png" alt="Prenumerationscenter med kategorialternativ"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/subscriptions/2018-05-22_09-05-44.png" alt="Prenumerationscenter med kategorialternativ"></div>
 
 ## Automationer
 

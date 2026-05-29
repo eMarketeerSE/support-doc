@@ -25,7 +25,7 @@ If the SuperOffice user's email is not found in eMarketeer, they see an option t
 
 ## The Lead Board
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/soboard-1024x517.png" alt="SuperOffice web panel showing the Lead Board"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/soboard-1024x517.png" alt="SuperOffice web panel showing the Lead Board"></div>
 
 You will find the Lead Board on the main web panel under the SuperOffice logo. There is also a shortcut in the navigation.
 
@@ -41,13 +41,13 @@ eMarketeer then assigns the new lead to the correct sales user in eMarketeer. Th
 
 ## The contact summary web panel
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/socontact-1024x646.png" alt="Contact summary panel inside SuperOffice"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/socontact-1024x646.png" alt="Contact summary panel inside SuperOffice"></div>
 
 On the contact view in SuperOffice you can show the eMarketeer contact summary panel. It shows enriched data from eMarketeer for the contact. Matching is done on email address, and data is shown only if the contact exists in eMarketeer.
 
 ## The company summary web panel
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/socompany-1024x646.png" alt="Company summary panel inside SuperOffice"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/socompany-1024x646.png" alt="Company summary panel inside SuperOffice"></div>
 
 On the company view in SuperOffice you can use the eMarketeer Company Summary, which shows enriched data and an overview of all known contacts and their interactions in eMarketeer. The company is identified by the domain from its web address.
 

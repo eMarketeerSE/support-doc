@@ -24,7 +24,7 @@ Det valda intervallet gäller för översiktskorten, tidsseriediagrammen och tab
 
 ## Översiktskort
 
-<div data-with-frame="true"><img src="../../../assets/emailhealthdashboard/email_health_1-1024x404.png" alt="Översiktskort på Email Health Dashboard"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/emailhealthdashboard/email_health_1-1024x404.png" alt="Översiktskort på Email Health Dashboard"></div>
 
 Översiktskorten ger dig en snabb ögonblicksbild av dina viktigaste mätvärden för e-posthälsa:
 
@@ -39,7 +39,7 @@ Varje kort visar också förändringen jämfört med föregående datumintervall
 
 ## Mätvärdesdiagram
 
-[<div data-with-frame="true"><img src="../../../assets/emailhealthdashboard/email_health_2-1024x295.png" alt="Tidsseriediagram för mätvärden på Email Health Dashboard"></div>
+[<div data-with-frame="true" data-align="left"><img src="../../../assets/emailhealthdashboard/email_health_2-1024x295.png" alt="Tidsseriediagram för mätvärden på Email Health Dashboard"></div>
 
 Avsnittet Metrics visualiserar hur din e-posthälsa utvecklas över tid. Två tidsseriediagram visas:
 
@@ -56,7 +56,7 @@ Dessa diagram är användbara för att fånga gradvisa förändringar som kan si
 
 ## Tabellen Domains
 
-<div data-with-frame="true"><img src="../../../assets/emailhealthdashboard/email_health_3-1024x408.png" alt="Domains-tabellen på Email Health Dashboard"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/emailhealthdashboard/email_health_3-1024x408.png" alt="Domains-tabellen på Email Health Dashboard"></div>
 
 Tabellen Domains visar hur dina e-postmeddelanden presterar för varje mottagande domän under det valda datumintervallet. För varje domän ser du:
 
@@ -77,7 +77,7 @@ Endast domäner med minst 10 skickade e-postmeddelanden under det valda datumint
 
 ## Tabellen Account
 
-[<div data-with-frame="true"><img src="../../../assets/emailhealthdashboard/email_health_4-1024x433.png" alt="Account-tabellen på Email Health Dashboard"></div>
+[<div data-with-frame="true" data-align="left"><img src="../../../assets/emailhealthdashboard/email_health_4-1024x433.png" alt="Account-tabellen på Email Health Dashboard"></div>
 
 Växla till fliken Account för att se e-posthälsostatistik för hela kontot. Tabellen visar volym och frekvens för:
 

@@ -43,7 +43,7 @@ In eMarketeer, go to **Account** → **Email domains** and click **Add a domain*
 
 Enter the domain you want to authorize (for example, `yourdomain.com`) and click to add.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png" alt="Add a domain dialog with domain name field"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png" alt="Add a domain dialog with domain name field"></div>
 {% endstep %}
 
 {% step %}
@@ -51,9 +51,9 @@ Enter the domain you want to authorize (for example, `yourdomain.com`) and click
 
 eMarketeer shows a list of DNS records. Add them to your DNS. If you do not have access to your company's DNS — often the IT department owns it — click the link in the authorize dialog to send the records to the person in charge.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.16.png" alt="DNS records list shown in the authorize dialog"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.16.png" alt="DNS records list shown in the authorize dialog"></div>
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="link to send DNS records to the IT department"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="link to send DNS records to the IT department"></div>
 {% endstep %}
 
 {% step %}
@@ -67,9 +67,9 @@ Once the records are in place, return to the authorize dialog and click **Author
 
 If the records are correct, the dialog validates and accepts the authentication. If something is wrong, the failing record is marked in red.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.00.png" alt="failing DNS record highlighted in red"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.00.png" alt="failing DNS record highlighted in red"></div>
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.06.02.png" alt="successful domain authentication confirmation"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.06.02.png" alt="successful domain authentication confirmation"></div>
 {% endstep %}
 {% endstepper %}
 

@@ -10,11 +10,11 @@ Använd blocket Video/Media i Page Builder för att bädda in video, bildspel oc
 
 Blocket är tillgängligt i Page Builder för e-postmeddelanden och webbsidor. eMarketeer hämtar media från tjänster som YouTube och renderar det inuti ditt innehåll.
 
-<div data-with-frame="true"><img src="../../../assets/embed-videomedia/embed_mediablock.png" alt="Blocket Video/Media i Page Builder"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/embed-videomedia/embed_mediablock.png" alt="Blocket Video/Media i Page Builder"></div>
 
 ### Så här lägger du till video och media
 
-<div data-with-frame="true"><img src="../../../assets/embed-videomedia/embed_mediasettings.png" alt="Inställningsdialogen för Video/Media med URL-fält och förhandsvisning"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../assets/embed-videomedia/embed_mediasettings.png" alt="Inställningsdialogen för Video/Media med URL-fält och förhandsvisning"></div>
 
 Lägg till ett block med Video/Media i och dubbelklicka för att redigera. Dialogen ovan visas. Klistra in URL:en för din media i textrutan (till exempel [https://www.youtube.com/watch?v=ueMNqdB1QIE](https://www.youtube.com/watch?v=ueMNqdB1QIE)).
 

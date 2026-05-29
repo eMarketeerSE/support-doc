@@ -12,7 +12,7 @@ Before you start, you need your unique Tracker ID and script.
 2. Go to [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). You must be an admin to access this page.
 3. Copy your Tracker ID and script. You will need them during installation.
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Tracker Settings page showing the Tracker ID and script"></div>
+<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Tracker Settings page showing the Tracker ID and script"></div>
 
 ## Option 1: Easy install (recommended)
 

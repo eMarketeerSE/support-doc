@@ -8,7 +8,7 @@ This release adds a clone block in the email editor and expands the types of cam
 
 You can now copy any type of content block when building an email. Hover over the block you want to copy, click the duplicate icon, and an exact copy of the block is pasted in your email.
 
-<div data-with-frame="true"><img src="../.gitbook/assets/clone_block_email_editor-1.png" alt="Clone block in the email editor"></div>
+<div data-with-frame="true" data-align="left"><img src="../.gitbook/assets/clone_block_email_editor-1.png" alt="Clone block in the email editor"></div>
 
 ### More types of campaign fields
 

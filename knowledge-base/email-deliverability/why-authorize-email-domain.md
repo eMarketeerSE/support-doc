@@ -25,7 +25,7 @@ You can do this for multiple domains.
 
 This is what the email settings look like when you build an email and have authenticated a domain. The drop-down menu lets you choose from the list of domains you've authenticated.
 
-<div data-with-frame="true"><img src="../../../.gitbook/assets/Screenshot-2019-12-09-at-17.37.39.png" alt="email settings with authenticated domain dropdown"></div>
+<div data-with-frame="true" data-align="left"><img src="../../../.gitbook/assets/Screenshot-2019-12-09-at-17.37.39.png" alt="email settings with authenticated domain dropdown"></div>
 
 ## Important dates and roll-out routine
 
