@@ -127,6 +127,7 @@
   * [SMS](platform/sms.md)
     * [SMS Sender ID](documentation/email-sms/sender-id.md)
     * [Whitelist of countries supporting SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
+    * [Mobile number validation](documentation/email-sms/mobile-number-validation.md)
   * [Web Tracker](documentation/web-tracker/README.md)
     * [The Web tracker](documentation/web-tracker/the-web-tracker.md)
     * [Installing the web tracker script on your website](documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md)

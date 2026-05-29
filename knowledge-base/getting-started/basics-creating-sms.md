@@ -88,6 +88,6 @@ Click **Save Message** after each change to save your work.
 
 Sending an SMS works much like sending an email and has many of the same options. See [How to send an email](basics-send-email.md) for the full walkthrough.
 
-Phone numbers must include the country code and follow standard formatting before you send. For example: `+46701231231`.
+Phone numbers must include the country code and follow [standard formatting](../../documentation/email-sms/mobile-number-validation.md) before you send. For example: `+46701231231`.
 
 For more advanced sending options, see our email sending guides.

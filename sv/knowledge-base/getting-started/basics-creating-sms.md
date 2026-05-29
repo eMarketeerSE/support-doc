@@ -64,6 +64,6 @@ Klicka på **Save Message** efter varje ändring för att spara ditt arbete.
 
 Att skicka en SMS fungerar i stort sett som att skicka en e-post och har många av samma alternativ. Se [Så här skickar du en e-post](basics-send-email.md) för en fullständig genomgång.
 
-Telefonnummer måste innehålla landskod och följa standardformat innan du skickar. Till exempel: `+46701231231`.
+Telefonnummer måste innehålla landskod och följa [standardformat](../../../documentation/email-sms/mobile-number-validation.md) innan du skickar. Till exempel: `+46701231231`.
 
 För mer avancerade alternativ vid utskick, se våra e-postutskicksguider.
