@@ -22,7 +22,9 @@ When you create a new Journey, the first task is to set the starting point.
 
 A starting point is a set of filter rules. Any contact that matches the filter starts the Journey.
 
+{% hint style="info" %}
 **Note:** The starting point only triggers for contacts that match the filter from the time of activation. It does not include contacts that matched the filter historically.
+{% endhint %}
 
 Once your starting point is set, click "Apply" to enter the Journey editor.
 
@@ -138,4 +140,6 @@ The contact-creation setting applies to all SuperOffice steps in the Journey.
 
 For a flow chart describing the logic, [click here](https://support.emarketeer.com/wp-content/uploads/2023/05/Skarmavbild-2023-05-25-kl.-12.31.12.png).
 
+{% hint style="info" %}
 **Tip:** When you enable automatic contact creation, it is good practice to also add the new contacts to a selection in SuperOffice. That way you can easily find them later.
+{% endhint %}
