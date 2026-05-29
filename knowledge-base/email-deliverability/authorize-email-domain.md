@@ -29,7 +29,7 @@ tags:
 
 This guide walks you through authenticating your domain so you can send email from your own address with the best possible deliverability.
 
-Once you finish, let us know and we will activate the new email service for your account. For background on why domain authentication matters, see [this article](why-authorize-email-domain.md).
+Once you finish, let us know and we will activate the new email service for your account.
 
 ## Authenticate your domain
 

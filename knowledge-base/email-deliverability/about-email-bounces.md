@@ -37,7 +37,7 @@ You can see the bounce rate in the email report. Keep your average bounce rate u
 
 ### What happens if my bounce rate is too high?
 
-eMarketeer runs the send-out for you and applies email security measures such as your [authenticated domain](why-authorize-email-domain.md). We also rely on you to handle addresses and send-outs with care. If your bounce rate exceeds 5%, your account may be paused to maintain our security standards.
+eMarketeer runs the send-out for you and applies email security measures such as your authenticated domain. We also rely on you to handle addresses and send-outs with care. If your bounce rate exceeds 5%, your account may be paused to maintain our security standards.
 
 ### How do I keep a low bounce rate?
 

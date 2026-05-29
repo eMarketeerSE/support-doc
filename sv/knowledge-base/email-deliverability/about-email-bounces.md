@@ -37,7 +37,7 @@ Du ser studsfrekvensen i e-postrapporten. Håll din genomsnittliga studsfrekvens
 
 ### Vad händer om min studsfrekvens är för hög?
 
-eMarketeer kör utskicket åt dig och tillämpar säkerhetsåtgärder för e-post som din [autentiserade domän](why-authorize-email-domain.md). Vi förlitar oss också på att du hanterar adresser och utskick varsamt. Om din studsfrekvens överstiger 5 % kan ditt konto pausas för att upprätthålla våra säkerhetsstandarder.
+eMarketeer kör utskicket åt dig och tillämpar säkerhetsåtgärder för e-post som din autentiserade domän. Vi förlitar oss också på att du hanterar adresser och utskick varsamt. Om din studsfrekvens överstiger 5 % kan ditt konto pausas för att upprätthålla våra säkerhetsstandarder.
 
 ### Hur håller jag en låg studsfrekvens?
 

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Introduction
 
 DCL is a template language used to personalize content in eMarketeer.

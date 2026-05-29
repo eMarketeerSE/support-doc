@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Snabbare utskick och bättre leveransbarhet — eMarketeers nya e-posttjänst
 
 eMarketeer byter teknik för att skicka dina e-postmeddelanden, vilket ger snabbare utskick, bättre leveransbarhet och ett nytt flöde för domänautentisering.

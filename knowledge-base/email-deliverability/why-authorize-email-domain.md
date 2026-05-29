@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Faster send-out and better deliverability — eMarketeer's new email service
 
 eMarketeer is switching the technology used to send your emails, bringing faster send-out, better deliverability, and a new domain authentication flow.

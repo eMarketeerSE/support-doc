@@ -8,7 +8,7 @@ description: >-
 
 Den här guiden tar dig igenom autentiseringen av din domän så att du kan skicka e-post från din egen adress med bästa möjliga leveransbarhet.
 
-När du är klar, hör av dig till oss så aktiverar vi den nya e-posttjänsten för ditt konto. Bakgrund till varför domänautentisering är viktigt finns i [den här artikeln](why-authorize-email-domain.md).
+När du är klar, hör av dig till oss så aktiverar vi den nya e-posttjänsten för ditt konto.
 
 ## Autentisera din domän
 
