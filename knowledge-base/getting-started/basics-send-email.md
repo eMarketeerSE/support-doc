@@ -2,6 +2,8 @@
 description: >-
   The simplest path to sending an email in eMarketeer, from a finished email
   component to a delivered send-out.
+tags:
+  - email
 ---
 
 # How to send an email

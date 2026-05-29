@@ -2,6 +2,8 @@
 description: >-
   An overview of eMarketeer Leads: how to set up sales teams, qualify contacts
   by score and persona, and deliver leads to sales in real time.
+tags:
+  - leads
 ---
 
 # Get started with leads

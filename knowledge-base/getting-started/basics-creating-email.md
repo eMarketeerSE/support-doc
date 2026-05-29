@@ -2,6 +2,8 @@
 description: >-
   This guide walks you through creating an email in eMarketeer, from setting it
   up to editing content blocks and adding the final touches.
+tags:
+  - email
 ---
 
 # Creating your first email

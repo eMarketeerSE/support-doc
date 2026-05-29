@@ -1,0 +1,23 @@
+- tag: email
+  label: Email
+  icon: envelope
+  color: cyan
+- tag: form
+  label: Form
+  icon: wpforms
+  color: orange
+- tag: legacy
+  label: Legacy
+  icon: triangle-exclamation
+  color: $danger
+- tag: sms
+  label: sms
+  icon: message-dots
+  color: blue
+- tag: leads
+  label: Leads
+  icon: chart-user
+  color: $success
+- tag: account-settings
+  label: Account settings
+  icon: gear
