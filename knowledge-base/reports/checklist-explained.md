@@ -6,30 +6,40 @@ You see this page when sending an email. Review it to confirm your sendout reach
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/email.checklist.25.png" alt="Screenshot of the email checklist content"></div>
 
-Example of the Checklist
-
 ## Checklist categories
 
-Addressed email by you This is the total number of contacts included in the recipient lists used for this sendout.
+**Addressed email by you**\
+This is the total number of contacts included in the recipient lists used for this sendout.
 
-Duplicates The number of duplicate email addresses found. Usually only relevant when you use more than one recipient list.
+**Duplicates** \
+The number of duplicate email addresses found. Usually only relevant when you use more than one recipient list.
 
-Unsubscribed The number of intended recipients unsubscribed from the subscription list used to categorize this email. Only relevant when you use such a list.
+**Unsubscribed**\
+The number of intended recipients unsubscribed from the subscription list used to categorize this email. Only relevant when you use such a list.
 
-Consent Withdrawn The number of contacts who have revoked their consent to receive sendouts from you. The specific consent setting is the contact's Marketing Consent. [This article](../gdpr-consent/how-does-consent-work.md) explains consent in more detail.
+**Consent Withdrawn**\
+The number of contacts who have revoked their consent to receive sendouts from you. The specific consent setting is the contact's Marketing Consent. [This article](../gdpr-consent/how-does-consent-work.md) explains consent in more detail.
 
-Undeliverable Email Addresses The number of contacts whose email addresses have previously reported they cannot receive email. [This guide](../email-deliverability/undeliverable-contacts-email-checklist.md) shows how to find undeliverable contacts in your contact database.
+**Undeliverable Email Addresses**\
+The number of contacts whose email addresses have previously reported they cannot receive email. [This guide](../email-deliverability/undeliverable-contacts-email-checklist.md) shows how to find undeliverable contacts in your contact database.
 
-Deliverable but Unengaged The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting. [This article](../../documentation/email-sms/exclude-inactive-recipients.md) explains Exclude Inactive Recipients.
+**Deliverable but Unengaged**\
+The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting. [This article](../../documentation/email-sms/exclude-inactive-recipients.md) explains Exclude Inactive Recipients.
 
-Emails with Blocked Domains If your account blocks specific domains for sendouts, any contacts on those domains in your recipient lists are counted here.
+**Emails with Blocked Domains**\
+If your account blocks specific domains for sendouts, any contacts on those domains in your recipient lists are counted here.
 
-Blocked Contacts If a setting on your sendout dynamically blocks some contacts, they are counted here. Examples include "Exclude contacts that have already been sent this email" or actively blocking a recipient source, such as when sending reminder emails as described in [this guide](../email-content/configuring-reminder-email.md).
+**Blocked Contacts**\
+If a setting on your sendout dynamically blocks some contacts, they are counted here. Examples include "Exclude contacts that have already been sent this email" or actively blocking a recipient source, such as when sending reminder emails as described in [this guide](../email-content/configuring-reminder-email.md).
 
-Invalid Sender Email Address Recipients fall under this category when the sender email address for this email component is invalid. This can be because of an invalid email domain or an incorrectly formatted address. Fix it on the email's editing page by updating the sender email in the left-side menu.
+**Invalid Sender Email Address**\
+Recipients fall under this category when the sender email address for this email component is invalid. This can be because of an invalid email domain or an incorrectly formatted address. Fix it on the email's editing page by updating the sender email in the left-side menu.
 
-Missing Required Double Opt-In The number of contacts in the recipient list that have not completed the double opt-in process, in cases where double opt-in is required before a contact can receive email from your account.
+**Missing Required Double Opt-In**\
+The number of contacts in the recipient list that have not completed the double opt-in process, in cases where double opt-in is required before a contact can receive email from your account.
 
-Emails that will be addressed The number of contacts that will be addressed by this sendout after exclusions.
+**Emails that will be addressed**\
+The number of contacts that will be addressed by this sendout after exclusions.
 
-Email that will not be addressed The total number of contacts that will not be addressed by this sendout.
+**Email that will not be addressed**\
+The total number of contacts that will not be addressed by this sendout.
