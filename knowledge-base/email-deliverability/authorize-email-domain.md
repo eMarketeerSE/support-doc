@@ -37,6 +37,7 @@ Once you finish, let us know and we will activate the new email service for your
 
 In eMarketeer, go to **Account** → **Email domains** and click **Add a domain**.
 {% endstep %}
+
 {% step %}
 ### Enter your domain
 
@@ -44,6 +45,7 @@ Enter the domain you want to authorize (for example, `yourdomain.com`) and click
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.31.57.png" alt="Add a domain dialog with domain name field"></div>
 {% endstep %}
+
 {% step %}
 ### Add DNS records
 
@@ -53,11 +55,13 @@ eMarketeer shows a list of DNS records. Add them to your DNS. If you do not have
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="link to send DNS records to the IT department"></div>
 {% endstep %}
+
 {% step %}
 ### Click Authorize
 
 Once the records are in place, return to the authorize dialog and click **Authorize**.
 {% endstep %}
+
 {% step %}
 ### Confirm authentication
 
@@ -69,6 +73,8 @@ If the records are correct, the dialog validates and accepts the authentication.
 {% endstep %}
 {% endstepper %}
 
+{% hint style="info" %}
 DNS changes usually propagate quickly, but allow up to 48 hours.
+{% endhint %}
 
 Once the domain is authenticated, you can send from eMarketeer using your domain as the From address with the best possible deliverability. You can repeat this process for as many domains as you need. If you run into questions, email [support@emarketeer.com](mailto:support@emarketeer.com).
