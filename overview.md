@@ -1,15 +1,40 @@
 ---
+description: >-
+  The complete eMarketeer support site — how-to guides, technical references,
+  integration docs, and release notes.
 icon: book-open
 ---
 
 # Overview
 
-Find guides, references, and release notes for the eMarketeer platform.
+Find everything you need to get the most out of eMarketeer.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Knowledge Base</strong></td><td>Feature guides and how-tos. Start here if you're learning eMarketeer or solving an everyday task.</td><td><a href="knowledge-base/">knowledge-base</a></td></tr><tr><td><strong>Documentation</strong></td><td>Technical reference for integrations, APIs, web tracker, and admin settings.</td><td><a href="documentation/">documentation</a></td></tr><tr><td><strong>Change Log</strong></td><td>Recent releases, product updates, and important notices.</td><td><a href="https://emarketeer.gitbook.io/support/changelog">https://emarketeer.gitbook.io/support/changelog</a></td></tr></tbody></table>
+## Getting started
 
-## Quick Start
+New to eMarketeer? These guides cover the basics — your first email, first campaign, and initial account setup.
 
-Common tasks to get you moving fast.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Campaign basics</strong></td><td>Your first steps — creating emails, forms, campaigns, and managing contacts.</td><td><a href="knowledge-base/getting-started/campaign-basics.md">campaign-basics.md</a></td></tr><tr><td><strong>Account setup</strong></td><td>Configure your account, authenticate your domain, and set up user access.</td><td><a href="getting-started/account-setup.md">account-setup.md</a></td></tr></tbody></table>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Create your first email</strong></td><td>Build and send an email campaign from scratch.</td><td><a href="knowledge-base/getting-started/basics-creating-email.md">basics-creating-email.md</a></td></tr><tr><td><strong>Import contacts</strong></td><td>Upload a contact list from an Excel file.</td><td><a href="knowledge-base/contacts-lists/import-contacts-from-excel.md">import-contacts-from-excel.md</a></td></tr><tr><td><strong>Authenticate your domain</strong></td><td>Set up DKIM and SPF to protect deliverability.</td><td><a href="references/references/email-deliverability/authorize-email-domain.md">authorize-email-domain.md</a></td></tr><tr><td><strong>Invite a user</strong></td><td>Add a colleague to your eMarketeer account.</td><td><a href="knowledge-base/account-admin/invite-user-account.md">invite-user-account.md</a></td></tr></tbody></table>
+## Guides
+
+In-depth guides for every feature — from building emails to automating contact workflows.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Campaign guides</strong></td><td>Guides for email content, forms, campaigns, and webpages.</td><td><a href="guides.md">guides.md</a></td></tr><tr><td><strong>Journeys</strong></td><td>Build automated sequences that nurture contacts and update your CRM.</td><td><a href="knowledge-base/journeys/journeys.md">journeys.md</a></td></tr><tr><td><strong>Contacts</strong></td><td>Import, filter, tag, and manage contacts and lists.</td><td><a href="knowledge-base/contacts-lists/README.md">README.md</a></td></tr><tr><td><strong>Lead management</strong></td><td>Set up lead scoring, the Lead Board, and sales user workflows.</td><td><a href="knowledge-base/lead-board-scoring/README.md">README.md</a></td></tr><tr><td><strong>Account settings</strong></td><td>Manage users, domains, subscriptions, and account preferences.</td><td><a href="knowledge-base/account-admin/README.md">README.md</a></td></tr></tbody></table>
+
+## References
+
+Technical documentation for the API, developer tools, and platform mechanics.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API</strong></td><td>REST API docs for consent, subscriptions, and custom signals.</td><td><a href="documentation/apis-developer/README.md">README.md</a></td></tr><tr><td><strong>Developer</strong></td><td>Advanced tools: DCL template language, barcodes, and mobile app guides.</td><td><a href="knowledge-base/developer-advanced/README.md">README.md</a></td></tr><tr><td><strong>Platform</strong></td><td>Email sending rules, web tracking, user accounts, and platform mechanics.</td><td><a href="references.md">references.md</a></td></tr></tbody></table>
+
+## Integrations
+
+Connect eMarketeer to your CRM and other tools.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>SuperOffice</strong></td><td>Connect eMarketeer to SuperOffice CRM to sync leads and consent.</td><td><a href="documentation/superoffice/superoffice.md">superoffice.md</a></td></tr><tr><td><strong>Microsoft Dynamics 365</strong></td><td>Sync contacts, subscriptions, and legal basis with Dynamics 365 Sales.</td><td><a href="documentation/dynamics-365/dynamics.md">dynamics.md</a></td></tr><tr><td><strong>Other integrations</strong></td><td>Facebook and LinkedIn lead forms, and Zapier webhooks.</td><td><a href="integrations.md">integrations.md</a></td></tr></tbody></table>
+
+## Concepts
+
+Background reading on compliance and email marketing strategy.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>GDPR & consent</strong></td><td>How GDPR applies to eMarketeer and what you can do as a customer.</td><td><a href="knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md">emarketeer-gdpr-overview.md</a></td></tr><tr><td><strong>Email marketing best practices</strong></td><td>Ten best practices and common pitfalls for email marketing success.</td><td><a href="knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md">maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md</a></td></tr></tbody></table>
