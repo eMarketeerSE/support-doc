@@ -10,13 +10,13 @@
   * [How to send an email](knowledge-base/getting-started/basics-send-email.md)
   * [How to create a new campaign](knowledge-base/getting-started/create-new-campaign.md)
 * [Account setup](getting-started/account-setup.md)
-  * [How to authenticate your domain (Administrator)](knowledge-base/email-deliverability/authorize-email-domain.md)
+  * [Add Email domain](knowledge-base/email-deliverability/authorize-email-domain.md)
 
 ## Guides
 
 * [Campaign guides](guides.md)
   * [Emails](knowledge-base/email-content/README.md)
-    * [How to set up and send a reminder email](knowledge-base/email-content/configuring-reminder-email.md)
+    * [How to send reminders](knowledge-base/email-content/configuring-reminder-email.md)
     * [How to create a custom content block (Developer)](knowledge-base/email-content/create-custom-content-block.md)
     * [Creating clickable email address links and buttons](knowledge-base/email-content/email-address-links.md)
     * [New email templates — what you need to know](knowledge-base/email-content/email-templates.md)
@@ -28,12 +28,9 @@
     * [Identifying why an email was not received](knowledge-base/email-deliverability/identify-email-not-recieved.md)
   * [Forms](knowledge-base/forms/README.md)
     * [Form-specific QR code generation for scanning event attendance (advanced)](knowledge-base/forms/advanced-event-qr-code.md)
-    * [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
     * [Forms: Close a form](knowledge-base/forms/close-a-form.md)
     * [Editing a live form](knowledge-base/forms/editing-a-live-form.md)
     * [Form Phone Number Validation when using reCAPTCHA (Advanced)](knowledge-base/forms/form-phone-number-validation-re.md)
-    * [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)
-    * [Embed Forms on your Website](knowledge-base/forms/form.md)
     * [How to link to a form](knowledge-base/forms/how-to-link-to-a-form.md)
     * [How to post data to a form](knowledge-base/forms/how-to-post-data-to-a-form.md)
     * [Set max number of answers for a form checkbox question (legacy, advanced)](knowledge-base/forms/max-answers-form-checkbox.md)
@@ -42,7 +39,6 @@
     * [How to scan event attendance with a mobile phone](knowledge-base/forms/scan-attendance-phone.md)
     * [Form: Website integration requirements](knowledge-base/forms/website-integration-requirements.md)
     * [Embed forms on your website](documentation/forms/publish-a-form.md)
-    * [reCAPTCHA for eMarketeer Forms](documentation/forms/recaptcha-em-forms.md)
     * [The Form component](documentation/forms/the-form-component.md)
   * [Campaigns](knowledge-base/campaigns/README.md)
     * [Creating a shortcut to a Campaign using My Favorites](knowledge-base/campaigns/campaign-add-favorite.md)
@@ -137,6 +133,8 @@
   * [Default score rules in eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)
   * [Understanding eMarketeer URLs](knowledge-base/account-admin/understanding-em-urls.md)
   * [Where is eMarketeer data stored geographically?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
+  * [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
+  * [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)
 
 ## Integrations
 

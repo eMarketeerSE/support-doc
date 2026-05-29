@@ -10,13 +10,13 @@
   * [Så här skickar du en e-post](knowledge-base/getting-started/basics-send-email.md)
   * [Så här skapar du en ny kampanj](knowledge-base/getting-started/create-new-campaign.md)
 * [Kontoinställning](getting-started/account-setup.md)
-  * [Så autentiserar du din domän (administratör)](knowledge-base/email-deliverability/authorize-email-domain.md)
+  * [Lägg till e-postdomän](knowledge-base/email-deliverability/authorize-email-domain.md)
 
 ## Guider
 
 * [Kampanjguider](guides.md)
   * [E-post](knowledge-base/email-content/README.md)
-    * [Så här ställer du in och skickar ett påminnelse-mejl](knowledge-base/email-content/configuring-reminder-email.md)
+    * [Så skickar du påminnelsemejl](knowledge-base/email-content/configuring-reminder-email.md)
     * [Så här skapar du ett anpassat innehållsblock (Developer)](knowledge-base/email-content/create-custom-content-block.md)
     * [Skapa klickbara länkar och knappar med e-postadresser](knowledge-base/email-content/email-address-links.md)
     * [Nya e-postmallar — det här behöver du veta](knowledge-base/email-content/email-templates.md)
@@ -28,12 +28,9 @@
     * [Identifiera varför ett e-postmeddelande inte togs emot](knowledge-base/email-deliverability/identify-email-not-recieved.md)
   * [Formulär](knowledge-base/forms/README.md)
     * [Formulärspecifik QR-kodgenerering för att skanna närvaro på event (avancerat)](knowledge-base/forms/advanced-event-qr-code.md)
-    * [reCAPTCHA för eMarketeer-formulär](knowledge-base/forms/captcha.md)
     * [Formulär: Stäng ett formulär](knowledge-base/forms/close-a-form.md)
     * [Redigera ett aktivt formulär](knowledge-base/forms/editing-a-live-form.md)
     * [Validering av telefonnummer i formulär när reCAPTCHA används (avancerat)](knowledge-base/forms/form-phone-number-validation-re.md)
-    * [Identifiera varför ett formulär är otillgängligt (Legacy)](knowledge-base/forms/form-unavailable.md)
-    * [Bädda in formulär på din webbplats](knowledge-base/forms/form.md)
     * [Så här länkar du till ett formulär](knowledge-base/forms/how-to-link-to-a-form.md)
     * [Så här postar du data till ett formulär](knowledge-base/forms/how-to-post-data-to-a-form.md)
     * [Sätt maxantal svar för en checkbox-fråga i ett formulär (legacy, avancerat)](knowledge-base/forms/max-answers-form-checkbox.md)
@@ -42,7 +39,6 @@
     * [Så här scannar du närvaro på event med en mobiltelefon](knowledge-base/forms/scan-attendance-phone.md)
     * [Formulär: krav för webbintegration](knowledge-base/forms/website-integration-requirements.md)
     * [Bädda in formulär på din webbplats](documentation/forms/publish-a-form.md)
-    * [reCAPTCHA för eMarketeer-formulär](documentation/forms/recaptcha-em-forms.md)
     * [Formulärkomponenten](documentation/forms/the-form-component.md)
   * [Kampanjer](knowledge-base/campaigns/README.md)
     * [Skapa en genväg till en kampanj med Mina favoriter](knowledge-base/campaigns/campaign-add-favorite.md)
@@ -140,6 +136,8 @@
   * [Standardregler för score i eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)
   * [Förstå eMarketeer-URL:er](knowledge-base/account-admin/understanding-em-urls.md)
   * [Var lagras eMarketeer-data geografiskt?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
+  * [reCAPTCHA för eMarketeer-formulär](knowledge-base/forms/captcha.md)
+  * [Identifiera varför ett formulär är otillgängligt (Legacy)](knowledge-base/forms/form-unavailable.md)
 
 ## Integrationer
 
