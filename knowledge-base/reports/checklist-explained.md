@@ -21,7 +21,7 @@ The number of intended recipients unsubscribed from the subscription list used t
 The number of contacts who have revoked their consent to receive sendouts from you. The specific consent setting is the contact's Marketing Consent. [This article](../gdpr-consent/how-does-consent-work.md) explains consent in more detail.
 
 **Undeliverable Email Addresses**\
-The number of contacts whose email addresses have previously reported they cannot receive email. [This guide](../email-deliverability/undeliverable-contacts-email-checklist.md) shows how to find undeliverable contacts in your contact database.
+The number of contacts whose email addresses have previously reported they cannot receive email. [This article](../email-deliverability/bounce-handling.md) explains how eMarketeer handles bounces.
 
 **Deliverable but Unengaged**\
 The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting. [This article](../../documentation/email-sms/exclude-inactive-recipients.md) explains Exclude Inactive Recipients.
