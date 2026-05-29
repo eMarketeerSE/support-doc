@@ -11,7 +11,7 @@ This is useful when you want to capture form submissions, CRM updates, or other 
 
 ### Step 2: Set up the trigger
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/zap.png" alt="Zap setup view"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/zap.png" alt="Zap setup view"></div>
 
 1. Choose a trigger app that holds the contact data you want to send. In this example, a Sleeknote form submission.
 2. Select the specific event that triggers the Zap, for example "New Form Submission".

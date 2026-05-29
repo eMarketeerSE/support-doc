@@ -14,7 +14,7 @@ This article walks through the filter builder, shows a few example filters, and 
 
 In eMarketeer, click the "contacts" tab. This is where you work with and get to know your contacts. To segment or build a selection, click the "filter" tab on the right-hand side, just above the contact list. A web panel opens — this is where you build filters and find the ones you have saved.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/filter_panel.png" alt="The filter panel in eMarketeer."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/filter_panel.png" alt="The filter panel in eMarketeer."></div>
 
 The first drop-down lists every category you can filter on:
 
@@ -26,7 +26,7 @@ The first drop-down lists every category you can filter on:
 * Subscription categories
 * Contact lists
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/categories.png" alt="The filter category drop-down."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/categories.png" alt="The filter category drop-down."></div>
 
 ## Build a filter
 
@@ -36,15 +36,15 @@ For a simple example, segment contacts by country:
 
 1. In the first drop-down, choose Contact fields -> country.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/add_country.png" alt="Adding the country field to a filter."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/add_country.png" alt="Adding the country field to a filter."></div>
 
 2. In the operator drop-down, choose "equals."
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/country_operator.png" alt="Setting the equals operator on the country filter."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/country_operator.png" alt="Setting the equals operator on the country filter."></div>
 
 3. In the third field, type the country.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/country.png" alt="Typing the country value."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/country.png" alt="Typing the country value."></div>
 
 4. Click "apply." You now see all contacts that match the filter.
 
@@ -54,11 +54,11 @@ To narrow a filter, add more criteria. After the first one, click "and" or "or" 
 
 * AND: the contact must match both criteria.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/and_operator.png" alt="A filter using the AND operator."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/and_operator.png" alt="A filter using the AND operator."></div>
 
 * OR: the contact must match one of the criteria.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/or_operator2.png" alt="A filter using the OR operator."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/or_operator2.png" alt="A filter using the OR operator."></div>
 
 You can add as many criteria as you like and mix AND and OR in the same filter.
 

@@ -16,7 +16,7 @@ Click "Journeys" in the top navigation bar. Then click "Create new Journey" to c
 
 ### Adding a starting point or trigger
 
-<div align="left" data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-08.03.25-300x282.png" alt="Journey starting point filter dialog"></div>
+<div align="left" data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-08.03.25-300x282.png" alt="Journey starting point filter dialog"></div>
 
 When you create a new Journey, the first task is to set the starting point.
 
@@ -34,7 +34,7 @@ For now this is all you need to know about starting points. For a deeper dive, s
 
 ### Build your Journey
 
-<div align="left" data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2023-05-25_08-38-56-300x209.png" alt="Journey builder canvas with step nodes"></div>
+<div align="left" data-with-frame="true" align="left"><img src="../../.gitbook/assets/2023-05-25_08-38-56-300x209.png" alt="Journey builder canvas with step nodes"></div>
 
 After you set the starting point, you enter the Journey builder. This is where you add the steps (actions) you want to execute for each contact that enters the Journey.
 
@@ -42,7 +42,7 @@ Click the black dots to add steps in sequence.
 
 ### Setting up wait conditions
 
-<div align="left" data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-08.58.56-300x239.png" alt="wait step followed by an If/Else branch split"></div>
+<div align="left" data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-08.58.56-300x239.png" alt="wait step followed by an If/Else branch split"></div>
 
 The Journey builder lets you split the Journey into branches based on criteria you choose.
 
@@ -72,11 +72,11 @@ Any changes to a Journey must be saved before they take effect. Press the "Save"
 
 When your first Journey is created (by clicking "Save"), it is paused. While paused, the Journey is inactive and no contacts enter it.
 
-<div align="left" data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-09.28.11.png" alt="paused Journey with activation toggle off"></div>
+<div align="left" data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-09.28.11.png" alt="paused Journey with activation toggle off"></div>
 
 When you are ready to activate your Journey, click the toggle button in the top right corner.
 
-<div align="left" data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-09.28.41.png" alt="active Journey with activation toggle on"></div>
+<div align="left" data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-09.28.41.png" alt="active Journey with activation toggle on"></div>
 
 When the Journey is active, any new contacts matching the starting point filter enter the Journey.
 
@@ -126,7 +126,7 @@ If no matching contact is found, the Journey step is skipped by default.
 
 ### Creating missing contacts in SuperOffice
 
-<div align="left" data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-12.27.46.png" alt="SuperOffice step settings panel in the sidebar"></div>
+<div align="left" data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-12.27.46.png" alt="SuperOffice step settings panel in the sidebar"></div>
 
 When you add a Journey step involving SuperOffice, a settings panel appears in the left sidebar.
 

@@ -13,7 +13,7 @@ Alla Signals som skickas till eMarketeer kan användas för att:
 
 För att prenumerera på SuperOffice-händelser, öppna SuperOffice-integrationssidan i eMarketeer. Längst ned på inställningssidan hittar du de händelser du kan prenumerera på.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/superoffice-signals/Skarmavbild-2024-01-16-kl.-10.15.13.png" alt="Reglage för prenumeration på SuperOffice-händelser i eMarketeer"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/superoffice-signals/Skarmavbild-2024-01-16-kl.-10.15.13.png" alt="Reglage för prenumeration på SuperOffice-händelser i eMarketeer"></div>
 
 Slå på reglagen för de händelser du vill att SuperOffice ska skicka till eMarketeer.
 

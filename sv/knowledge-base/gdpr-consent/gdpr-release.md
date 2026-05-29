@@ -46,24 +46,24 @@ Tänk på följande:
 - Kontakter som avregistrerades från en specifik kampanj förblir avregistrerade från den kampanjen. Om de avregistrerar sig igen efter denna release återkallas samtycket från alla marknadsföringsutskick.
 - Från och med nu sätter varje avregistreringsåtgärd kontaktens samtycke till återkallat från alla marknadsföringsutskick, och e-post skickas inte till den kontakten.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-release/Screen-Shot-2018-03-27-at-14.24.34.png" alt="Tidigare avregistreringslänk på kontaktkortet"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-release/Screen-Shot-2018-03-27-at-14.24.34.png" alt="Tidigare avregistreringslänk på kontaktkortet"></div>
 
-[<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-release/Screen-Shot-2018-03-27-at-14.24.17.png" alt="Tidigare avregistrerat tillstånd visat på kontaktkortet"></div>
+[<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-release/Screen-Shot-2018-03-27-at-14.24.17.png" alt="Tidigare avregistrerat tillstånd visat på kontaktkortet"></div>
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-release/Screen-Shot-2018-03-27-at-14.48.19.png" alt="Nytt samtyckesreglage i grönt som visar att samtycke har getts"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-release/Screen-Shot-2018-03-27-at-14.48.19.png" alt="Nytt samtyckesreglage i grönt som visar att samtycke har getts"></div>
 
 ### Massuppdatering av samtycke och avregistreringar
 
 Beroende på antalet kontakter du uppdaterar kan åtgärden ta några minuter. Dialogen för massåtgärder visar uppskattad tid.
 
-[<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-release/gdpr_consent2.png" alt="Dialog för massuppdatering av samtycke"></div>
+[<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-release/gdpr_consent2.png" alt="Dialog för massuppdatering av samtycke"></div>
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-release/gdpr_consent3.png" alt="Förlopp för massuppdatering med uppskattad tid"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-release/gdpr_consent3.png" alt="Förlopp för massuppdatering med uppskattad tid"></div>
 
 ### Utskick och massuppdatering
 
 Utskick kontrollerar nu varje kontakts samtycke vid den tidpunkt då utskicket körs. Om du massuppdaterar samtycke och startar ett utskick omedelbart kan massprocessen vara ofullbordad och utskicket kanske inte återspeglar dina ändringar. Utskicksalternativen varnar dig om detta. Vänta tills massuppdateringen är klar innan du skickar.
 
-[<div data-with-frame="true" data-align="left"><img src="../../../assets/gdpr-release/gdpr_sendout_bulkupdate.png" alt="Utskickvarning som visas när en massuppdatering av samtycke pågår"></div>
+[<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-release/gdpr_sendout_bulkupdate.png" alt="Utskickvarning som visas när en massuppdatering av samtycke pågår"></div>
 
 För mer om kommande funktioner, se [GDPR-färdplanen](gdpr-and-what-it-means-for-emarketeer-users.md) eller besök [GDPR-centret](gdpr-general-data-protection-regulation.md). För andra frågor, mejla support@emarketeer.com.

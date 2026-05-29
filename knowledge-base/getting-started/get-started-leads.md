@@ -34,7 +34,7 @@ The lead board gives sales an intuitive way to qualify and progress leads. This 
 2. Working with leads as a sales user.
 3. Using eMarketeer Leads inside your CRM.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/theboardclean-1024x576.png" alt="eMarketeer lead board with qualified leads"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/theboardclean-1024x576.png" alt="eMarketeer lead board with qualified leads"></div>
 
 ## Generate and deliver leads to a sales team
 

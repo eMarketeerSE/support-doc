@@ -15,13 +15,13 @@ När en kontakt matchar reglerna för en lead stream blir kontakten ett lead och
 
 För att skapa en ny lead stream, klicka på kugghjulet i rutan för lead streams.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/lead-streams/editstream.png" alt="Kugghjul för lead streams på Lead Board"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/lead-streams/editstream.png" alt="Kugghjul för lead streams på Lead Board"></div>
 
 Det öppnar sidan för lead streams, där du kan skapa eller hantera lead streams.
 
 Klicka på Add lead stream för att skapa en ny.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/lead-streams/2022-06-09_15-04-03.png" alt="Knappen Add lead stream"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/lead-streams/2022-06-09_15-04-03.png" alt="Knappen Add lead stream"></div>
 
 En lead stream behöver tre saker:
 
@@ -35,7 +35,7 @@ Klicka på Add new rule för att lägga till det första kriteriet för att bli 
 
 I det här scenariot vill vi hitta kontakter med hög lead score.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/lead-streams/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png" alt="Lägger till en regel för lead score"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/lead-streams/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png" alt="Lägger till en regel för lead score"></div>
 
 Klicka på Apply för att lägga till regeln. Lägg till fler regler för att vidga eller smalna av vilka kontakter som kvalificeras som leads.
 
@@ -55,4 +55,4 @@ Du har följande alternativ för en ny lead stream:
 
 Gå tillbaka till Lead Board för att se de nya leads:en.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/lead-streams/streamsleads-1024x593.png" alt="Nya leads synliga på Lead Board"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/lead-streams/streamsleads-1024x593.png" alt="Nya leads synliga på Lead Board"></div>

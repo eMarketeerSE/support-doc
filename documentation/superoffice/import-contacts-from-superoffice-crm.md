@@ -6,7 +6,7 @@ In SuperOffice CRM, each contact has a "master switch" for e-marketing on the in
 
 If the contact has no legal basis for e-marketing emails, the switch is off (gray). If the contact has a legal basis that allows e-marketing, the switch is on (green).
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png" alt="SuperOffice e-marketing consent switch on a contact card"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png" alt="SuperOffice e-marketing consent switch on a contact card"></div>
 
 ## Choose which contacts to import
 

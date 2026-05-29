@@ -40,7 +40,7 @@ eMarketeer behöver en URL som pekar mot katalogen där NetServers webbtjänstfu
 5. Högerklicka på **Contact.svc** och välj **Browse** för att öppna den i din webbläsare.
 6. Webbläsaren visar den fullständiga sökvägen till katalogen.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/on-premise-netserver-url-and-user-creation/IIS.png" alt="IIS NetServer-tjänstekatalog"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/on-premise-netserver-url-and-user-creation/IIS.png" alt="IIS NetServer-tjänstekatalog"></div>
 
 Sökvägen (exklusive filnamnet) är den WSDL-URL du ska använda i eMarketeer.
 

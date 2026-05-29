@@ -4,7 +4,7 @@ Checklistan för e-post visar hur många kontakter som kommer att nås av ett ut
 
 Du ser den här sidan när du skickar en e-post. Granska den för att bekräfta att utskicket når rätt målgrupp och för att förstå eventuella undantag.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/checklist-explained/email.checklist.25.png" alt="Skärmbild av innehållet i checklistan för e-post"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/checklist-explained/email.checklist.25.png" alt="Skärmbild av innehållet i checklistan för e-post"></div>
 
 Exempel på checklistan
 

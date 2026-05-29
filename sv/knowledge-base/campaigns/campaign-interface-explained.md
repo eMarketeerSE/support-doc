@@ -11,7 +11,7 @@ Vänstra sidan av skärmen innehåller menyn Add components och snabblänkar fö
 
 Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form.md), [SMS](../getting-started/basics-creating-sms.md) och [Webpages](../developer-advanced/creating-first-webpage.md), plus en underkomponent, Mobile apps.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/campaign-interface-explained/campaign-UI-numbers.png" alt="Kampanjens gränssnitt"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/campaign-interface-explained/campaign-UI-numbers.png" alt="Kampanjens gränssnitt"></div>
 
 Kampanjens användargränssnitt
 

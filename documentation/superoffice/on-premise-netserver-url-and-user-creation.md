@@ -40,7 +40,7 @@ eMarketeer needs a URL pointing to the directory where the NetServer web service
 5. Right-click **Contact.svc** and select **Browse** to open it in your browser.
 6. The browser shows the complete path to the directory.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/IIS.png" alt="IIS NetServer services directory"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/IIS.png" alt="IIS NetServer services directory"></div>
 
 The path (excluding the filename) is the WSDL URL to use in eMarketeer.
 

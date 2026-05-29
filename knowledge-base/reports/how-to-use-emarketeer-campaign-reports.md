@@ -20,19 +20,19 @@ The campaign dashboard builds reports from a set of widgets you choose. Reports 
 
 Go to the campaign you want to report on. Click the "dashboard" tab and then "add reporting widget." Pick any widgets you want to track the campaign with. Rearrange them by dragging.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/campaign_dashboard.png" alt="The campaign dashboard with reporting widgets."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign_dashboard.png" alt="The campaign dashboard with reporting widgets."></div>
 
 ## Reporting widgets
 
 The available widgets are email top list, email performance, funnel chart, KPI counter, and goal gauge.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png" alt="The list of reporting widgets you can add."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-02-22-at-13.56.30-1-1024x637.png" alt="The list of reporting widgets you can add."></div>
 
 ### Email top list
 
 Find out which of your campaigns performs best.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/email_toplist-1-300x122.png" alt="The email top list widget."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email_toplist-1-300x122.png" alt="The email top list widget."></div>
 
 The email top list widget ranks your campaigns by open rate, click-through rate, or click-to-open rate. It gives you an overview of how each campaign performed and which type your contacts prefer.
 
@@ -45,7 +45,7 @@ To add the widget:
 
 Suited for your email marketing.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2021-01-28-at-14.11.12.png" alt="The email performance widget."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-01-28-at-14.11.12.png" alt="The email performance widget."></div>
 
 See your average campaign performance — open rate, click-through rate, click-to-open rate, and unsubscribes. You can also compare averages with another campaign. After adding the widget, choose the campaign to compare against and the report generates automatically.
 
@@ -53,7 +53,7 @@ See your average campaign performance — open rate, click-through rate, click-t
 
 Works well for lead nurture campaigns and events.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2020-05-20-at-11.25.00.png" alt="A funnel chart with colored bars showing conversion between steps."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2020-05-20-at-11.25.00.png" alt="A funnel chart with colored bars showing conversion between steps."></div>
 
 Track your marketing flow step by step. The funnel chart visualizes each step you build — for example, event invitation, event sign-up, and attendee form. Each step is a bar with the conversion rate to the next, and the chart shows the overall conversion from the first step to the last.
 
@@ -74,7 +74,7 @@ You can resize the funnel chart. Open it, find the "size" drop-down, and pick a 
 
 Works well for downloads or sign-ups.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2020-05-20-at-12.24.21.png" alt="The goal gauge widget showing progress toward a target."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2020-05-20-at-12.24.21.png" alt="The goal gauge widget showing progress toward a target."></div>
 
 Set a target and watch progress toward it. The goal gauge works as a progress bar and shows the percentage to target.
 
@@ -85,7 +85,7 @@ Set a target and watch progress toward it. The goal gauge works as a progress ba
 
 ### KPI counter
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2020-05-20-at-12.26.00.png" alt="The KPI counter widget."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2020-05-20-at-12.26.00.png" alt="The KPI counter widget."></div>
 
 A quick count of form submissions, email clicks, or whatever you want to track. Like the goal gauge, but without a target.
 

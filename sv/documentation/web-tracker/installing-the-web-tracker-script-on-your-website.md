@@ -12,7 +12,7 @@ Innan du börjar behöver du ditt unika Tracker ID och skript.
 2. Gå till [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). Du måste vara administratör för att komma åt den här sidan.
 3. Kopiera ditt Tracker ID och skript. Du behöver dem under installationen.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/installing-the-web-tracker-script-on-your-website/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/installing-the-web-tracker-script-on-your-website/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>
 
 ## Alternativ 1: Enkel installation (rekommenderas)
 

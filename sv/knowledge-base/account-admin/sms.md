@@ -9,7 +9,7 @@ Sender ID är den text eller det nummer som visas för mottagaren som avsändare
 
 När du tar emot ett SMS från en annan mobiltelefon ser du avsändarens nummer. När SMS:et kommer från en tjänst som eMarketeer kan avsändaren vara en valfri text — vanligtvis ditt företagsnamn.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/sms/Sms_sender_id.png" alt="Exempel på SMS Sender ID"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/sms/Sms_sender_id.png" alt="Exempel på SMS Sender ID"></div>
 
 ## Skapa ett eget Sender ID
 

@@ -21,7 +21,7 @@ Obs: du ansluter med din personliga LinkedIn-profil, vilket ger eMarketeer åtko
 
 När anslutningen är klar ser du listan över Ad Accounts som är tillgängliga för att ta emot leads från.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="Lista över LinkedIn Ad Accounts i eMarketeer-kopplingen"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="Lista över LinkedIn Ad Accounts i eMarketeer-kopplingen"></div>
 
 Kryssa i de Ad Accounts du vill ta emot leads från. När du kryssar i ett Ad Account skickas inkommande leads från alla Lead Gen Forms på det Ad Account automatiskt till eMarketeer.
 
@@ -64,7 +64,7 @@ Skapa först formuläret och annonsen i LinkedIn. Klicka sedan på "Preview" på
 
 När leads kommer in i eMarketeer kommer du åt dem via Contact Filter som Engagement.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact Filter som visar LinkedIn-engagemangsalternativ"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact Filter som visar LinkedIn-engagemangsalternativ"></div>
 
 Med det här filtret kan du hämta alla kontakter som:
 

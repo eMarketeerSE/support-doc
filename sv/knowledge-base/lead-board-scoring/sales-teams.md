@@ -17,7 +17,7 @@ Att skapa ett sales-team kräver administratörsrättigheter.
 2. Öppna fliken Sales teams.
 3. Klicka på Create new team.
 
-   <div data-with-frame="true" data-align="left"><img src="../../../assets/sales-teams/Ska_CC_88rmavbild-2022-06-09-kl.-14.02.44.png" alt="Fliken Sales teams med knappen Create new team synlig"></div>
+   <div data-with-frame="true" align="left"><img src="../../../assets/sales-teams/Ska_CC_88rmavbild-2022-06-09-kl.-14.02.44.png" alt="Fliken Sales teams med knappen Create new team synlig"></div>
 
 4. Ge teamet ett namn. Om du redan har sales users, bocka i de som ska vara medlemmar.
 5. Klicka på Save changes.

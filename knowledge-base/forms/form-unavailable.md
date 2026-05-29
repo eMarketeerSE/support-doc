@@ -14,7 +14,7 @@ This article references different types of eMarketeer URLs. For background, see 
 
 ## The form cannot be displayed at this time
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/form_closed_limit.png" alt="The form cannot be displayed at this time"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/form_closed_limit.png" alt="The form cannot be displayed at this time"></div>
 
 The form cannot be displayed at this time error message
 
@@ -24,7 +24,7 @@ To raise the contact limit, send a request to [customerservice@emarketeer.com](m
 
 ## White webpage
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/blank-page.png" alt="Image of a blank page"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/blank-page.png" alt="Image of a blank page"></div>
 
 An empty webpage
 
@@ -34,7 +34,7 @@ It can also happen when a form has been moved to another campaign. This only occ
 
 ## No such session
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/no-such-session.png" alt="Webpage that shows a message saying "No such session""></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/no-such-session.png" alt="Webpage that shows a message saying "No such session""></div>
 
 A webpage showing the message "No such session"
 
@@ -44,7 +44,7 @@ Use the Direct URL to the form instead.
 
 ## Answer already registered
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/already-answered-on-this-session.png" alt="Picture of screen showing a message saying that an answer already has been registrerd"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/already-answered-on-this-session.png" alt="Picture of screen showing a message saying that an answer already has been registrerd"></div>
 
 Answer has already been registered
 
@@ -54,11 +54,11 @@ If you see this in error, confirm you used the correct link and that the form's 
 
 ## Form component has been deleted
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/form-component-deleted.png" alt="Picture of message saying that the Form URL is Incorrect"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/form-component-deleted.png" alt="Picture of message saying that the Form URL is Incorrect"></div>
 
 Direct URL message for a deleted form component
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/form-deleted-session.png" alt="Picture showing message stating that the form is no longer available"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/form-deleted-session.png" alt="Picture showing message stating that the form is no longer available"></div>
 
 Session URL message for a deleted form component
 
@@ -66,7 +66,7 @@ These messages usually mean the form component has been deleted in eMarketeer. I
 
 ## Form component is closed
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/survey-closed.png" alt="Picture of message saying that the form is closed"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/survey-closed.png" alt="Picture of message saying that the form is closed"></div>
 
 The default message for a closed form
 
@@ -76,7 +76,7 @@ Change the form's Open/Close setting to Open so it accepts new answers.
 
 ## Anonymous not allowed
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/formanon.png" alt="Picture of message saying that anonymous is not allowed"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/formanon.png" alt="Picture of message saying that anonymous is not allowed"></div>
 
 Message for a missing form
 

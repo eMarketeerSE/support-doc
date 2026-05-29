@@ -12,7 +12,7 @@ The left side of the screen holds the Add components menu and quick links for co
 
 Components make up the content of your campaign. There are four component types: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form.md), [SMS](../getting-started/basics-creating-sms.md), and [Webpages](../developer-advanced/creating-first-webpage.md), plus one sub-component, Mobile apps.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/campaign-UI-numbers.png" alt="Campaign UI"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-UI-numbers.png" alt="Campaign UI"></div>
 
 The campaign user interface
 

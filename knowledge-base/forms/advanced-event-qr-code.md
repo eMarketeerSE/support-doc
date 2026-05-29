@@ -26,7 +26,7 @@ The placeholders `M_VALUE` and `NAME_VALUE` are what you will replace with value
 
 Open the report page for the form where attendance should be registered, then open the form's website integration code.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/formintegrationcodeguide.png" alt="Step-by-step illustration of how to find the form integration code"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/formintegrationcodeguide.png" alt="Step-by-step illustration of how to find the form integration code"></div>
 
 Guide to form integration code
 
@@ -40,7 +40,7 @@ Next, find the two values in the integration code. The M-value identifies the fo
 * `<input type="hidden" name="m" value="M-Value">`
 * `<input type="email" name="NAME-Value">`
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/mandnamevalueforform.png" alt="The form integration code with the m-value and name-value highlighted"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/mandnamevalueforform.png" alt="The form integration code with the m-value and name-value highlighted"></div>
 
 The M-value and NAME-value
 

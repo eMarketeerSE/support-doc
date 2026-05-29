@@ -6,7 +6,7 @@ eMarketeer uses several URL types, and knowing them helps you pick the right lin
 
 This is the URL eMarketeer gives you when you publish a form. Anyone with the link can reach the form at any time, as long as the Form component is live and open for answers. You can usually identify it by the `&Origin` parameter, which defaults to `&Origin=Direct`.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/direct-URL.png" alt="Example of a direct publishing URL"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/direct-URL.png" alt="Example of a direct publishing URL"></div>
 
 Use the Publishing URL in almost all situations — for example, a link in a social media post or on your website — where many different people should be able to open the form.
 
@@ -16,7 +16,7 @@ When someone opens a form through a Publishing URL, they are redirected to a uni
 
 A Session URL is temporary and unique to each visitor. It's generated when someone opens a form and acts as an anonymous identifier if they submit it. The URL accepts a single answer and expires after 24 hours, whichever comes first. You can identify it by the `&sessid=` parameter.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Session-URL.png" alt="Example of a session URL"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Session-URL.png" alt="Example of a session URL"></div>
 
 Don't share a Session URL as a link to the form — the 24-hour lifetime and one-answer limit make it unsuitable.
 
@@ -24,13 +24,13 @@ Don't share a Session URL as a link to the form — the 24-hour lifetime and one
 
 Internal URLs are dynamic links between components and files inside eMarketeer. They use ID numbers rather than file paths or permanent URLs. This lets you move components without breaking links, and when you copy a campaign, the duplicated components' URLs update to point at the new copies.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2021-04-01-09_40_14-Window.png" alt="An internal eMarketeer URL"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-04-01-09_40_14-Window.png" alt="An internal eMarketeer URL"></div>
 
 ### Personalised URL
 
 Personalised URLs are used when you send a form link to known contacts through an eMarketeer Email component. Answers from a Personalised URL are linked to the contact automatically, so the visitor doesn't need to identify themselves in the form. Personalised URLs look similar to other eMarketeer email links, so they're not always easy to spot by sight.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/scramble-URL.png" alt="Example of a personalised URL"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/scramble-URL.png" alt="Example of a personalised URL"></div>
 
 Use a Personalised URL when the form is meant for known recipients and you want submissions identified automatically — for example, an invitation to a meeting or event. Be aware that any answer submitted through the link is recorded under the original recipient's name, so forwarded emails can produce unexpected results.
 

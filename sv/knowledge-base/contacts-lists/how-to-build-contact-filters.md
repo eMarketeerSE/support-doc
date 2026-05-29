@@ -13,7 +13,7 @@ Den här artikeln går igenom filterbyggaren, visar några exempelfilter och tä
 
 I eMarketeer, klicka på fliken "contacts". Det är här du arbetar med och lär känna dina kontakter. För att segmentera eller bygga ett urval, klicka på fliken "filter" till höger, precis ovanför kontaktlistan. En webbpanel öppnas — det är här du bygger filter och hittar dem du har sparat.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/filter_panel.png" alt="Filterpanelen i eMarketeer."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/filter_panel.png" alt="Filterpanelen i eMarketeer."></div>
 
 Den första rullgardinsmenyn listar varje kategori du kan filtrera på:
 
@@ -25,7 +25,7 @@ Den första rullgardinsmenyn listar varje kategori du kan filtrera på:
 - Subscription categories
 - Contact lists
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/categories.png" alt="Rullgardinsmenyn för filterkategorier."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/categories.png" alt="Rullgardinsmenyn för filterkategorier."></div>
 
 ## Bygg ett filter
 
@@ -35,15 +35,15 @@ För ett enkelt exempel, segmentera kontakter efter land:
 
 1. I första rullgardinsmenyn, välj Contact fields -> country.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/add_country.png" alt="Lägger till country-fältet i ett filter."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/add_country.png" alt="Lägger till country-fältet i ett filter."></div>
 
 2. I operator-rullgardinen, välj "equals".
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/country_operator.png" alt="Sätter operatorn equals på country-filtret."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/country_operator.png" alt="Sätter operatorn equals på country-filtret."></div>
 
 3. I det tredje fältet, skriv landet.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/country.png" alt="Skriver in värdet för land."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/country.png" alt="Skriver in värdet för land."></div>
 
 4. Klicka på "apply". Du ser nu alla kontakter som matchar filtret.
 
@@ -53,11 +53,11 @@ För att avgränsa ett filter, lägg till fler kriterier. Efter det första, kli
 
 - AND: kontakten måste matcha båda kriterierna.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/and_operator.png" alt="Ett filter som använder AND-operatorn."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/and_operator.png" alt="Ett filter som använder AND-operatorn."></div>
 
 - OR: kontakten måste matcha ett av kriterierna.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/how-to-build-contact-filters/or_operator2.png" alt="Ett filter som använder OR-operatorn."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/how-to-build-contact-filters/or_operator2.png" alt="Ett filter som använder OR-operatorn."></div>
 
 Du kan lägga till så många kriterier du vill och blanda AND och OR i samma filter.
 

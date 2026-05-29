@@ -11,7 +11,7 @@ När SuperOffice är klart slutför du resten av uppsättningen i eMarketeer.
 1. Logga in i eMarketeer och gå till **Account** > **Plugins and integrations**.
 2. Klicka på **Super Office** för att öppna sidan med integrationsinställningar.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/on-premise-enabling-the-integration/onpremisesettings.png" alt="Inställningar för SuperOffice on-premise-integration"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/on-premise-enabling-the-integration/onpremisesettings.png" alt="Inställningar för SuperOffice on-premise-integration"></div>
 
 3. Välj alternativknappen **On premise**.
 4. Fyll i formuläret med användarnamn, lösenord och WSDL-bas-URL som pekar mot katalogen med SVC-filer för din NetServer.

@@ -9,7 +9,7 @@ Lead Board är där kontakter som marknad kvalificerat som leads levereras till 
 
 Syftet med boarden är att låta sälj utvärdera leads och flytta dem nedåt i tratten mot en försäljning.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/the-lead-board/theboard.png" alt="Lead Board"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/the-lead-board/theboard.png" alt="Lead Board"></div>
 
 ### Processen
 
@@ -31,7 +31,7 @@ För att begränsa leads på din board, använd dessa filter:
 
 ### Kontaktkortet
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/the-lead-board/contactcard-241x300.png" alt="Kontaktkort med lead-fliken öppen"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/the-lead-board/contactcard-241x300.png" alt="Kontaktkort med lead-fliken öppen"></div>
 
 Klicka på ett lead på boarden för att öppna kontaktkortet. Den första fliken är lead-fliken, som visar allt som är relevant för att hantera leadet.
 
@@ -57,4 +57,4 @@ Det finns också en länk till företagskortet.
 
 Från Lead Board eller kontaktkortet, öppna företagskortet för att se en sammanfattning av företaget. Företaget identifieras av domänen i leadets e-postadress.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/the-lead-board/company_card-225x300.png" alt="Företagskort"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/the-lead-board/company_card-225x300.png" alt="Företagskort"></div>

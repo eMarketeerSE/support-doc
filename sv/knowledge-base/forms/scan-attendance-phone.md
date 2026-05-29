@@ -11,20 +11,20 @@ Närvaron registreras genom att skicka in en e-postadress via ett eMarketeer-for
 
 Exemplet nedan använder dessa eventkomponenter.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png" alt="Översikt över eventkomponenter"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png" alt="Översikt över eventkomponenter"></div>
 
 - **Invitation email.** Skicka din inbjudan till den publik du vill ha på ditt event.
 - **Registration form.** Där publiken anmäler sig till eventet. Be om mobilnummer.
 - **App delivery and mobile app.** Skapa en app för ditt event för att hålla all eventinformation i deltagarnas fickor. Aktivera QR-koden. "App Delivery" är ett SMS med en länk till appen; skicka det till alla som anmält sig.
 - **Scan form.** Formuläret som används för att registrera deltagare. Det är byggt för att ta emot en e-postadress och återgå till registreringssidan efter inskickning. Skapa det genom att lägga till ett "New Form" och välja mallen "Event Barcode Scan".
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/scan-attendance-phone/2022-12-16_13-27-56-1024x636.png" alt="Formulärlista med mallen Event Barcode Scan"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/scan-attendance-phone/2022-12-16_13-27-56-1024x636.png" alt="Formulärlista med mallen Event Barcode Scan"></div>
 
 ### Registrera närvaro
 
 På eventdagen anländer dina besökare med sin mobila event-app som visar en streckkod som ska scannas.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png" alt="Mobil event-app som visar en streckkod"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/scan-attendance-phone/Ska_CC_88rmavbild-2022-12-16-kl.-13.26.19.png" alt="Mobil event-app som visar en streckkod"></div>
 
 #### Förberedelser
 
@@ -40,7 +40,7 @@ När du installerar appen läggs ett nytt tangentbord till på din telefon. Det 
 
 Hämta webb-URL:en för formuläret "Event Barcode Scan" i din eMarketeer-kampanj och öppna den på din telefon.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/scan-attendance-phone/IMG_1824-473x1024.png" alt="Scan-formulär öppet på en mobiltelefon"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/scan-attendance-phone/IMG_1824-473x1024.png" alt="Scan-formulär öppet på en mobiltelefon"></div>
 
 För att scanna en bricka:
 

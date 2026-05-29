@@ -26,7 +26,7 @@ Platshållarna `M_VALUE` och `NAME_VALUE` är det du ersätter med värden från
 
 Öppna rapportsidan för det formulär där närvaron ska registreras och öppna sedan formulärets integrationskod för webbplats.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/advanced-event-qr-code/formintegrationcodeguide.png" alt="Steg-för-steg-illustration av hur du hittar formulärets integrationskod"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/advanced-event-qr-code/formintegrationcodeguide.png" alt="Steg-för-steg-illustration av hur du hittar formulärets integrationskod"></div>
 
 Guide till formulärets integrationskod
 
@@ -40,7 +40,7 @@ Hitta sedan de två värdena i integrationskoden. M-värdet identifierar formul�
 - `<input type="hidden" name="m" value="M-Value">`
 - `<input type="email" name="NAME-Value">`
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/advanced-event-qr-code/mandnamevalueforform.png" alt="Formulärets integrationskod med m-värdet och name-värdet markerade"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/advanced-event-qr-code/mandnamevalueforform.png" alt="Formulärets integrationskod med m-värdet och name-värdet markerade"></div>
 
 M-värdet och NAME-värdet
 

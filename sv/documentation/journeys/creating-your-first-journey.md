@@ -15,7 +15,7 @@ Klicka på "Journeys" i den övre navigationsraden. Klicka sedan på "Create new
 
 ### Lägg till en startpunkt eller trigger
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-08.03.25-300x282.png" alt="Filterdialog för Journey-startpunkt"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-08.03.25-300x282.png" alt="Filterdialog för Journey-startpunkt"></div>
 
 När du skapar en ny Journey är första uppgiften att ange startpunkten.
 
@@ -31,7 +31,7 @@ För närvarande är detta allt du behöver veta om startpunkter. För en djupar
 
 ### Bygg din Journey
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/creating-your-first-journey/2023-05-25_08-38-56-300x209.png" alt="Journey-byggarens arbetsyta med stegnoder"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-your-first-journey/2023-05-25_08-38-56-300x209.png" alt="Journey-byggarens arbetsyta med stegnoder"></div>
 
 När du har angett startpunkten kommer du in i Journey-byggaren. Det är här du lägger till de steg (åtgärder) du vill köra för varje kontakt som går in i din Journey.
 
@@ -39,7 +39,7 @@ Klicka på de svarta prickarna för att lägga till steg i sekvens.
 
 ### Ställ in väntevillkor
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-08.58.56-300x239.png" alt="väntesteg följt av en If/Else-förgrening"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-08.58.56-300x239.png" alt="väntesteg följt av en If/Else-förgrening"></div>
 
 Med Journey-byggaren kan du dela upp din Journey i förgreningar baserat på kriterier som du väljer.
 
@@ -67,11 +67,11 @@ Alla ändringar i en Journey måste sparas innan de träder i kraft. Tryck på "
 
 När din första Journey har skapats (genom att klicka på "Save") är den pausad. När den är pausad är din Journey inaktiv och inga kontakter går in i den.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-09.28.11.png" alt="pausad Journey med aktiveringsreglaget av"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-09.28.11.png" alt="pausad Journey med aktiveringsreglaget av"></div>
 
 När du är redo att aktivera din Journey klickar du på reglaget i det övre högra hörnet.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-09.28.41.png" alt="aktiv Journey med aktiveringsreglaget på"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-09.28.41.png" alt="aktiv Journey med aktiveringsreglaget på"></div>
 
 När din Journey är aktiv går alla nya kontakter som matchar startpunktsfiltret in i den.
 
@@ -121,7 +121,7 @@ Om ingen matchande kontakt hittas hoppas Journey-steget över som standard.
 
 ### Skapa saknade kontakter i SuperOffice
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-12.27.46.png" alt="Inställningspanel för SuperOffice-steg i sidofältet"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-your-first-journey/Skarmavbild-2023-05-25-kl.-12.27.46.png" alt="Inställningspanel för SuperOffice-steg i sidofältet"></div>
 
 När du lägger till ett Journey-steg som involverar SuperOffice visas en inställningspanel i det vänstra sidofältet.
 

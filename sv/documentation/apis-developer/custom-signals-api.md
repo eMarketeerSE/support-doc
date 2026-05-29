@@ -14,7 +14,7 @@ Kontakter i eMarketeer består av tre huvuddelar:
 
 Engagemang registrerar varje interaktion en kontakt gör med kampanjkomponenter som e-postmeddelanden, formulär och landningssidor. Dessa interaktioner visas i kontaktens tidslinje och kan användas för att sätta lead score, trigga Journeys och mer. De ger en 360-graders bild av vad kontakten har interagerat med över tid.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.07.08.png" alt="kontaktens tidslinje med engagemangshändelser"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.07.08.png" alt="kontaktens tidslinje med engagemangshändelser"></div>
 
 ### Custom Signals
 
@@ -22,9 +22,9 @@ Med Custom Signals API kan du skicka kontakthändelser från vilket annat system
 
 I följande scenario har du ett arkadspel som heter "Space Invaders". Varje gång någon spelar spelet vill du registrera händelsen i eMarketeer. Du kan sedan trigga Journeys baserat på olika kriterier — till exempel skicka ett e-postmeddelande till alla som får över 100 poäng.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.14.03.png" alt="Space Invaders spelhändelse på kontaktens tidslinje"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.14.03.png" alt="Space Invaders spelhändelse på kontaktens tidslinje"></div>
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png" alt="händelsedatafält visade i kontaktfiltret"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png" alt="händelsedatafält visade i kontaktfiltret"></div>
 
 ### Strukturen för custom signals
 
@@ -61,7 +61,7 @@ En custom signal har följande huvuddelar.
 
 Toppnivånamnet för signalen. Det listas direkt under "Engagement" i filtret.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.46.43.png" alt="adapternamn listat under Engagement i filtret"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.46.43.png" alt="adapternamn listat under Engagement i filtret"></div>
 
 Håll antalet distinkta adapternamn till ett minimum, eftersom alla distinkta adapternamn visas direkt under Engagement. En bra praxis är att använda tjänstens namn för de signaler du skickar. En adapter kan sedan skicka flera typer av händelser.
 
@@ -75,7 +75,7 @@ I det här exemplet är adapternamnet "Space Invaders".
 - Inserted coins
 - Got high score
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.58.48.png" alt="signalkategorier visade under den valda adaptern"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-09.58.48.png" alt="signalkategorier visade under den valda adaptern"></div>
 
 I filtret, när du väljer adapternamnet "Space Invaders", ser du kategorierna av signaler du har skickat för den adaptern.
 
@@ -83,7 +83,7 @@ I filtret, när du väljer adapternamnet "Space Invaders", ser du kategorierna a
 
 Du kan skicka all information du behöver med signalen. I det här fallet bär "Game played"-signalen Player Name, Reached Level och Score. Alla dessa kan användas i kontaktfiltret för att hitta kontakter som spelade spelet och nådde en viss poäng eller nivå.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png" alt="händelsedatafält som används i kontaktfiltret"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/custom-signals-api/Skarmavbild-2023-12-15-kl.-11.13.04.png" alt="händelsedatafält som används i kontaktfiltret"></div>
 
 **Contact data**
 

@@ -9,7 +9,7 @@ hidden: true
 
 The free email templates in eMarketeer give you a head start when building emails, with dozens of mobile-friendly designs you can customize to fit your brand.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/emailtemplates1-1024x576.jpg" alt="Collage of email template examples"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailtemplates1-1024x576.jpg" alt="Collage of email template examples"></div>
 
 ## What is new in the templates
 
@@ -26,31 +26,31 @@ If you need help moving a saved template to the new root, email sales@emarketeer
 
 *
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>
 *   \[
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>
 *
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>
 *   \[
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>
 *
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>
 *   \[
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>
 *
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>
 *   \[
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>
 *
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>
 
 ## Three tips about the email templates
 
@@ -64,11 +64,11 @@ This is not where you set the subject line for the email itself — the subject 
 
 \[
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Link sharing settings in the editor"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Link sharing settings in the editor"></div>
 
 Where to update link sharing information in the editor.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-02-at-15.48.03.png" alt="Email link preview on social media"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-02-at-15.48.03.png" alt="Email link preview on social media"></div>
 
 How the email link looks when posted on social media.
 
@@ -84,7 +84,7 @@ The exact length that displays depends on the recipient's email client.
 
 \[
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/preheader-1024x563.png" alt="Preheader examples in the inbox"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/preheader-1024x563.png" alt="Preheader examples in the inbox"></div>
 
 Examples of emails with and without a preheader.
 

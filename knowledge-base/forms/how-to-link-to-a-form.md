@@ -14,13 +14,13 @@ You can add links to text, images, or link elements such as buttons. The steps b
 
 Open the button settings and click the browse button next to the URL field.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2025-03-06_12-32-51.png" alt="The link configuration panel for a button."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-32-51.png" alt="The link configuration panel for a button."></div>
 
-[<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2025-03-06_12-33-19.png" alt="The browse dialog opened from the URL field."></div>
+[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-33-19.png" alt="The browse dialog opened from the URL field."></div>
 
 Click "link to eMarketeer form."
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="The form link options dialog."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="The form link options dialog."></div>
 
 ## Choose the link options
 

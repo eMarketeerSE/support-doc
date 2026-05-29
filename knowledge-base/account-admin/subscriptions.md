@@ -18,10 +18,10 @@ You need administrator access to create and manage subscription categories.
 1. In the top navigation, click **Account**.
 2.  Click **Subscription and send outs**.
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2018-05-22_08-52-07 (1).png" alt="Account menu with the Subscription and send outs option highlighted"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2018-05-22_08-52-07 (1).png" alt="Account menu with the Subscription and send outs option highlighted"></div>
 3.  Create your categories. Keep names short and clear — contacts see them in the subscription center. Focus on broad communication types rather than very specific ones.
 
-    <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2018-05-22_08-54-54 (1).png" alt="Subscription categories management page listing category names"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2018-05-22_08-54-54 (1).png" alt="Subscription categories management page listing category names"></div>
 
 ## Your contacts
 
@@ -31,17 +31,17 @@ All contacts — new and existing — start with every subscription category tur
 
 When you create a new email, a subscription category dropdown appears in the email settings. Select the category that best matches the email's content.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2018-05-22_09-10-14 (1).png" alt="Email creation form showing the subscription category dropdown"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2018-05-22_09-10-14 (1).png" alt="Email creation form showing the subscription category dropdown"></div>
 
 If the email does not belong to any category — for example, a one-time notification — set it to **None**. Emails set to None are only filtered for contacts who have fully unsubscribed.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2018-05-22_09-11-03 (1).png" alt="Email settings panel with the subscription category field set to None"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2018-05-22_09-11-03 (1).png" alt="Email settings panel with the subscription category field set to None"></div>
 
 ## Subscription center
 
 The subscription center is a public page where contacts manage their email preferences. It lists all active categories, each with a toggle. Contacts can also check a box to fully opt out and withdraw all marketing consent.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/2018-05-22_09-05-44 (1).png" alt="Subscription center page showing category toggles and a full opt-out checkbox"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2018-05-22_09-05-44 (1).png" alt="Subscription center page showing category toggles and a full opt-out checkbox"></div>
 
 The standard unsubscribe link in email footers automatically links to the subscription center.
 

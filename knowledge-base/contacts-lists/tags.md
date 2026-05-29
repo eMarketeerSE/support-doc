@@ -35,9 +35,9 @@ Tags on contacts help you segment in a more nuanced way. Set tags manually on a 
 
 You find the tag widget in a campaign (top right corner) or on the contact card. To add a tag, click the plus icon next to the tag widget to open it.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.28.40.png" alt="Tag widget with the add icon"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.28.40.png" alt="Tag widget with the add icon"></div>
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png" alt="Tag widget expanded"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png" alt="Tag widget expanded"></div>
 
 #### Tag categories
 
@@ -47,7 +47,7 @@ Each tag belongs to a category. Categories group related tags — for example, "
 
 If the tag you want doesn't exist, create it by clicking "Create new tag".
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png" alt="Create new tag dialog"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png" alt="Create new tag dialog"></div>
 
 Give the tag a title. In the droplist, choose the category it belongs to. If no category fits, type a new category name and it will be created. Pick a color for the tag and click "Create tag".
 
@@ -63,5 +63,5 @@ In the list of tags, check the checkbox in front of the tag you want to assign.
 
 There are two ways to remove a tag:
 
-1. In the campaign or on the contact card, hover over a tag and click the "x" to remove it. <div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-11.10.57.png" alt="Tag with remove icon shown on hover"></div>
+1. In the campaign or on the contact card, hover over a tag and click the "x" to remove it. <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-11.10.57.png" alt="Tag with remove icon shown on hover"></div>
 2. Open the tag widget and uncheck the checkbox in front of the tag.

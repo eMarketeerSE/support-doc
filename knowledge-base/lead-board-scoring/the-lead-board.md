@@ -10,7 +10,7 @@ The lead board is where contacts qualified by marketing as leads are delivered t
 
 The purpose of the board is to let sales evaluate leads and move them down the funnel to a sale.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/theboard.png" alt="The lead board"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/theboard.png" alt="The lead board"></div>
 
 ### The process
 
@@ -32,7 +32,7 @@ To narrow the leads on your board, use these filters:
 
 ### The contact card
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/contactcard-241x300.png" alt="Contact card with the lead tab open"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contactcard-241x300.png" alt="Contact card with the lead tab open"></div>
 
 Click a lead on the board to open the contact card. The first tab is the lead tab, which shows everything relevant for managing the lead.
 
@@ -58,4 +58,4 @@ There is also a link to the company card.
 
 From the lead board or the contact card, open the company card to see a summary of the company. The company is identified by the domain in the lead's email address.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/company_card-225x300.png" alt="Company card"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/company_card-225x300.png" alt="Company card"></div>

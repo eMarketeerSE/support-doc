@@ -40,7 +40,7 @@ Before you start, you need a finished email component. See [Creating your first 
 
 Go to the campaign that contains the email and click **Send**.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/se1-2.png" alt="Send button on the campaign page"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/se1-2.png" alt="Send button on the campaign page"></div>
 {% endstep %}
 
 {% step %}
@@ -48,7 +48,7 @@ Go to the campaign that contains the email and click **Send**.
 
 This guide covers sending immediately. You also have the option to schedule the email for a later time.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.05.07.png" alt="Send Now option in the send-out dialog"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.05.07.png" alt="Send Now option in the send-out dialog"></div>
 {% endstep %}
 
 {% step %}
@@ -58,7 +58,7 @@ This guide covers sending immediately. You also have the option to schedule the 
 
 To preview the email in your own email client, send yourself a quick test. Type your email address in the address field and click **Quick Send**.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-28-at-13.37.12.png" alt="Quick Send field for sending a test email to yourself"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-28-at-13.37.12.png" alt="Quick Send field for sending a test email to yourself"></div>
 
 **Option B — Send the email to your contact list**
 
@@ -71,15 +71,15 @@ If you do not have a contact list yet, see:
 
 First, select **eMarketeer Contact Database**.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.06.57.png" alt="Selecting eMarketeer Contact Database as the recipient source"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.06.57.png" alt="Selecting eMarketeer Contact Database as the recipient source"></div>
 
 Second, select **Contact List**.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.07.43.png" alt="Selecting Contact List as the recipient type"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.07.43.png" alt="Selecting Contact List as the recipient type"></div>
 
 Third, choose your contact list in the dropdown and click **Add This List**. The example below uses a list called "Example List" with 15 contacts.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.08.20.png" alt="Contact list dropdown with Add This List button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.08.20.png" alt="Contact list dropdown with Add This List button"></div>
 {% endstep %}
 
 {% step %}
@@ -89,7 +89,7 @@ The next page, **2. Send Options**, shows the chosen list of recipients and offe
 
 Click **Continue To Checklist** to proceed.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.09.42.png" alt="Send Options page with Continue To Checklist button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.09.42.png" alt="Send Options page with Continue To Checklist button"></div>
 {% endstep %}
 
 {% step %}
@@ -101,7 +101,7 @@ If you want the details, see [Understanding the email checklist](../reports/chec
 
 Click **Launch Email** to address and send the email to the contacts in the list.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-28-at-11.46.51.png" alt="Checklist page showing excluded contacts and Launch Email button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-28-at-11.46.51.png" alt="Checklist page showing excluded contacts and Launch Email button"></div>
 {% endstep %}
 
 {% step %}
@@ -109,7 +109,7 @@ Click **Launch Email** to address and send the email to the contacts in the list
 
 After launch, the email is handed to the email servers, which usually finish addressing and sending within a few minutes.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.16.52.png" alt="Send-out confirmation screen after launch"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.16.52.png" alt="Send-out confirmation screen after launch"></div>
 {% endstep %}
 {% endstepper %}
 

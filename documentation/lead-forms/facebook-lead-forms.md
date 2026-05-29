@@ -30,15 +30,15 @@ In the Facebook popup, log in with your personal profile to identify yourself.
 
 Next, choose which businesses you want to receive leads from. You can pick any business you have access to.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.21.png" alt="Facebook business selection screen"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.21.png" alt="Facebook business selection screen"></div>
 
 Click "Continue". From the selected businesses, pick the pages you want to connect. You can choose all pages or specific ones.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.31.png" alt="Facebook page selection screen"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.31.png" alt="Facebook page selection screen"></div>
 
 Finally, agree to the eMarketeer permissions and save the connection.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Facebook permissions confirmation"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Facebook permissions confirmation"></div>
 
 You are now connected.
 
@@ -52,7 +52,7 @@ Once your lead ads are live, [use this tool](https://developers.facebook.com/too
 
 When any submission arrives, real or test, it is sent to eMarketeer automatically. You will find these contacts under Contacts in the Engagement filter.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement filter showing Facebook lead submissions"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement filter showing Facebook lead submissions"></div>
 
 ## Process incoming leads from Facebook
 

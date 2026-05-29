@@ -10,13 +10,13 @@ This guide walks through creating a webpage component, editing its content block
 
 If you need to create the campaign first, see [How to create a new campaign](../getting-started/create-new-campaign.md).
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/cw1.png" alt="The Add Webpage button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cw1.png" alt="The Add Webpage button"></div>
 
 The \[Add Webpage] button
 
 ### 2. Fill in the settings and choose a template
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/cw2.png" alt="Webpage settings"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cw2.png" alt="Webpage settings"></div>
 
 Webpage settings
 
@@ -37,7 +37,7 @@ Click \[Create Web Page] to create the component.
 
 After creation, the editor opens with the template's content already in place. The left menu lets you add content blocks, open tools, and adjust the settings from step 2. The rest of the page shows the current content, made up of blocks you can edit one at a time.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/cw_editor.png" alt="The webpage editing view"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cw_editor.png" alt="The webpage editing view"></div>
 
 The webpage editing view
 
@@ -45,7 +45,7 @@ The webpage editing view
 
 Each content block has several parts. Click the Edit button on the block to open its editor.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/cw_edit_content_block.png" alt="Editing of a webpage content block"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cw_edit_content_block.png" alt="Editing of a webpage content block"></div>
 
 Editing a webpage content block
 
@@ -55,7 +55,7 @@ The settings panel opens on the right with two tabs: Content and Styles. Content
 
 Click the title bar of the part you want to change, then edit the text in the text box. An empty text box hides that part of the block. In the example below, the text paragraph and two link buttons are empty, so they do not appear on the page. Click \[Save] to keep your changes.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/cw_edit_text.png" alt="Editing the headline text of a block"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cw_edit_text.png" alt="Editing the headline text of a block"></div>
 
 Editing the headline text of a block
 
@@ -128,6 +128,6 @@ Delete content block button
 
 Click \[Done Editing] to leave the editor.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/cw_done.png" alt="The Done Editing button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cw_done.png" alt="The Done Editing button"></div>
 
 The \[Done Editing] button

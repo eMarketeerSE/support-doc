@@ -13,7 +13,7 @@ Any Signal sent to eMarketeer can be used to:
 
 To subscribe to SuperOffice events, open the SuperOffice integration page in eMarketeer. At the bottom of the settings page you find the events you can subscribe to.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2024-01-16-kl.-10.15.13.png" alt="SuperOffice event subscription toggles in eMarketeer"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2024-01-16-kl.-10.15.13.png" alt="SuperOffice event subscription toggles in eMarketeer"></div>
 
 Enable the toggle switches for the events you want SuperOffice to send to eMarketeer.
 

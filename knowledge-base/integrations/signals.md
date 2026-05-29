@@ -21,7 +21,7 @@ _Note: you connect with your personal LinkedIn profile, which gives eMarketeer a
 
 Once connected, you see the list of available Ad Accounts.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="List of LinkedIn Ad Accounts available to receive leads"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="List of LinkedIn Ad Accounts available to receive leads"></div>
 
 Check the Ad Accounts you want to receive leads from. Any Lead Gen Form submission on a checked account will be sent to eMarketeer.
 
@@ -60,7 +60,7 @@ LinkedIn forms can only be used in a paid, published ad — but you can test bef
 
 Once leads are in eMarketeer you can access them using the Contact Filter as an engagement.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact filter with LinkedIn engagement options"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact filter with LinkedIn engagement options"></div>
 
 Use the filter to retrieve all contacts who:
 

@@ -40,7 +40,7 @@ Innan du börjar behöver du en färdig e-postkomponent. Se [Skapa din första e
 
 Gå till kampanjen som innehåller e-posten och klicka på **Send**.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/se1-2.png" alt="Knappen Send på kampanjsidan"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/se1-2.png" alt="Knappen Send på kampanjsidan"></div>
 {% endstep %}
 
 {% step %}
@@ -48,7 +48,7 @@ Gå till kampanjen som innehåller e-posten och klicka på **Send**.
 
 Den här guiden går igenom hur du skickar direkt. Du har också möjlighet att schemalägga e-posten till en senare tidpunkt.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.05.07.png" alt="Alternativet Send Now i utskicksdialogen"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.05.07.png" alt="Alternativet Send Now i utskicksdialogen"></div>
 {% endstep %}
 
 {% step %}
@@ -58,7 +58,7 @@ Den här guiden går igenom hur du skickar direkt. Du har också möjlighet att 
 
 För att förhandsgranska e-posten i din egen e-postklient skickar du ett snabbt test till dig själv. Skriv in din e-postadress i adressfältet och klicka på **Quick Send**.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-28-at-13.37.12.png" alt="Quick Send-fältet för att skicka ett testmejl till dig själv"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-28-at-13.37.12.png" alt="Quick Send-fältet för att skicka ett testmejl till dig själv"></div>
 
 **Alternativ B — Skicka e-posten till din kontaktlista**
 
@@ -71,15 +71,15 @@ Om du inte har en kontaktlista än, se:
 
 Välj först **eMarketeer Contact Database**.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.06.57.png" alt="Att välja eMarketeer Contact Database som mottagarkälla"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.06.57.png" alt="Att välja eMarketeer Contact Database som mottagarkälla"></div>
 
 Välj sedan **Contact List**.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.07.43.png" alt="Att välja Contact List som mottagartyp"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.07.43.png" alt="Att välja Contact List som mottagartyp"></div>
 
 Välj till sist din kontaktlista i rullgardinsmenyn och klicka på **Add This List**. Exemplet nedan använder en lista som heter "Example List" med 15 kontakter.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.08.20.png" alt="Rullgardinsmeny för kontaktlista med knappen Add This List"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.08.20.png" alt="Rullgardinsmeny för kontaktlista med knappen Add This List"></div>
 {% endstep %}
 
 {% step %}
@@ -89,7 +89,7 @@ Nästa sida, **2. Send Options**, visar den valda mottagarlistan och erbjuder al
 
 Klicka på **Continue To Checklist** för att fortsätta.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.09.42.png" alt="Send Options-sidan med knappen Continue To Checklist"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.09.42.png" alt="Send Options-sidan med knappen Continue To Checklist"></div>
 {% endstep %}
 
 {% step %}
@@ -101,7 +101,7 @@ Om du vill se detaljerna, se [Förstå e-postchecklistan](../reports/checklist-e
 
 Klicka på **Launch Email** för att adressera och skicka e-posten till kontakterna i listan.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-28-at-11.46.51.png" alt="Checklistsidan som visar exkluderade kontakter och knappen Launch Email"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-28-at-11.46.51.png" alt="Checklistsidan som visar exkluderade kontakter och knappen Launch Email"></div>
 {% endstep %}
 
 {% step %}
@@ -109,7 +109,7 @@ Klicka på **Launch Email** för att adressera och skicka e-posten till kontakte
 
 Efter starten lämnas e-posten över till e-postservrarna, som vanligtvis hinner adressera och skicka inom några minuter.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.16.52.png" alt="Bekräftelseskärm för utskicket efter start"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/basics-send-email/CleanShot-2022-04-27-at-13.16.52.png" alt="Bekräftelseskärm för utskicket efter start"></div>
 {% endstep %}
 {% endstepper %}
 

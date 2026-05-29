@@ -49,7 +49,7 @@ To sum up, look at:
 
 Use this data to build your buyer personas. Your personas might look like this:
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Examples-of-buyer-personas-1024x554.png" alt="Examples of buyer personas."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Examples-of-buyer-personas-1024x554.png" alt="Examples of buyer personas."></div>
 
 The data points in your personas become the basis for your score rules. The more a future contact matches your personas, the more points they earn. This step takes analysis, but the better you understand your customers, the better you score future contacts.
 
@@ -59,7 +59,7 @@ Many lead scoring models use a 1–100 range, which is the range the default sco
 
 Marketing and sales should agree on this threshold. To make a contact's "hotness" easier to read, set thresholds across the full range:
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Lead-score-thresholds-212x300.png" alt="A diagram showing lead score thresholds from cold to hot."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Lead-score-thresholds-212x300.png" alt="A diagram showing lead score thresholds from cold to hot."></div>
 
 ### 3. Set points for each rule
 
@@ -73,7 +73,7 @@ Now decide how many points each rule is worth. A few things to keep in mind:
 
 List your rules, how many points each is worth, and when they expire. The list might look like this:
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/Screenshot-2021-06-17-at-10.16.23.png" alt="A list of lead score rules with points and expiry settings."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-06-17-at-10.16.23.png" alt="A list of lead score rules with points and expiry settings."></div>
 
 ### 4. Put your lead score into action
 

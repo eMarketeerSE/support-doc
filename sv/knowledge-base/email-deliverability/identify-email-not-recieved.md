@@ -23,7 +23,7 @@ Tänk på att vissa orsaker ligger utanför din kontroll som avsändare, särski
 
 Du hittar det på e-postkomponentens Report-sida. Öppna motsvarande Selections i e-postrapporten och kontrollera om kontakten finns i någon av listorna.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/identify-email-not-recieved/email_report_rejected_bounced.png" alt="Taggar för avvisade och studsade på Report-sidan"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/identify-email-not-recieved/email_report_rejected_bounced.png" alt="Taggar för avvisade och studsade på Report-sidan"></div>
 
 Event Selections i rapporten
 
@@ -31,7 +31,7 @@ Ett avvisat e-postmeddelande betyder att e-posttjänsten hittade ett problem med
 
 Om en kontakt har studsat, öppna deras kontaktkort från Selection-listan. Under e-postinformationen i Engagement History kan du läsa det studsmeddelande som returnerats av mottagarens e-posttjänst. Exemplet nedan visar ett e-postmeddelande som studsats av en organisations strikta policy som inte tillåter den här typen av meddelande.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/identify-email-not-recieved/contact_bounce_message.png" alt="Felmeddelande för studs på en kontakts kontaktkort"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/identify-email-not-recieved/contact_bounce_message.png" alt="Felmeddelande för studs på en kontakts kontaktkort"></div>
 
 Felmeddelande för studs på en kontakts kontaktkort
 
@@ -39,7 +39,7 @@ Felmeddelande för studs på en kontakts kontaktkort
 
 Om kontakten finns i e-postrapportens Delivered-urval har mottagarens e-posttjänst accepterat meddelandet utan leveransproblem. Samma sak gäller om både deras kontaktkort och Details-sidan för e-postmeddelandet i Engagement History visar levererat. När e-postmeddelandet väl är levererat till mottagarens e-posttjänst beror eventuella skäl till att meddelandet inte når inkorgen på en åtgärd som tjänsten vidtagit efter eMarketeers lyckade leverans.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/identify-email-not-recieved/contact_email_delivered.png" alt="Leveransstatus för e-post på kontaktkortet"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/identify-email-not-recieved/contact_email_delivered.png" alt="Leveransstatus för e-post på kontaktkortet"></div>
 
 E-postinformation på kontaktkortet som visar leverans
 
@@ -49,7 +49,7 @@ Detta betyder oftast att kontakten togs bort från mottagarlistan i checklistest
 
 Om e-postmeddelandet aldrig adresserades till kontakten hittar du vanligen orsaken på deras kontaktkort. Börja med Lead Status-widgeten uppe till höger på kontaktkortet. Om den visar "Bounced" är kontaktens e-postadress markerad som ej levererbar utifrån ett tidigare studsmeddelande som eMarketeer fick från deras e-posttjänst.
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/identify-email-not-recieved/contact_bounced_status.png" alt="Studsstatus på ett kontaktkort"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/identify-email-not-recieved/contact_bounced_status.png" alt="Studsstatus på ett kontaktkort"></div>
 
 Studsstatus på ett kontaktkort
 

@@ -16,7 +16,7 @@ The library includes more than two million photos, 900 fonts, and 700 icons. All
 
 In the eMarketeer editor — where you build emails or landing pages — add an image block. In the right-hand panel for the image block, click "open image editor."
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/edited1607595459.png" alt="The open image editor button in the image block panel."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/edited1607595459.png" alt="The open image editor button in the image block panel."></div>
 
 ### The four main features
 

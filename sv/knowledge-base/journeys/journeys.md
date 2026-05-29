@@ -10,7 +10,7 @@ Journeys är automationsmotorn i eMarketeer. De låter dig bearbeta kontakter, u
 
 ## Introduktion till Journeys
 
-<div data-with-frame="true" data-align="left"><img src="../../../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Illustration av Journey"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Illustration av Journey"></div>
 
 När en ny kontakt matchar kriterierna (filtret) för en Journey går kontakten in i den Journeyn och rör sig genom stegen i ordning.
 

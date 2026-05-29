@@ -10,11 +10,11 @@ Use the Video/Media block in the Page Builder to embed video, slides, and other 
 
 The block is available in the Page Builder for emails and webpages. eMarketeer pulls media from services such as YouTube and renders it inside your content.
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/embed_mediablock.png" alt="Video/Media block in the Page Builder"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/embed_mediablock.png" alt="Video/Media block in the Page Builder"></div>
 
 ### How to add video and media
 
-<div data-with-frame="true" data-align="left"><img src="../../.gitbook/assets/embed_mediasettings.png" alt="Video/Media settings dialog with URL field and preview"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/embed_mediasettings.png" alt="Video/Media settings dialog with URL field and preview"></div>
 
 Add a block with Video/Media in it and double-click to edit. The dialog above appears. Paste the URL of your media into the text box (for example, [https://www.youtube.com/watch?v=ueMNqdB1QIE](https://www.youtube.com/watch?v=ueMNqdB1QIE)).
 

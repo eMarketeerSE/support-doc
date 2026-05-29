@@ -21,7 +21,7 @@ The new dashboard replaces the old Home section in eMarketeer.
 
 ## What you need to install
 
-<div data-with-frame="true" data-align="left"><img src="../.gitbook/assets/26a0.svg" alt="Warning"></div>
+<div data-with-frame="true" align="left"><img src="../.gitbook/assets/26a0.svg" alt="Warning"></div>
 
 The dashboard requires the new web tracker script to be installed on your website. Without it, no website traffic data will show. \[Read how to install the tracker here.]\(../../documentation/web-tracker/the-web-tracker.md)
 
