@@ -1,133 +1,163 @@
-# Skapa din första webbsida
-
-Bygg en webbsida i eMarketeer som du kan använda som event-landningssida, nyhetsartikel eller annan fristående sida.
-
-Den här guiden går igenom hur du skapar en webbsidekomponent, redigerar dess innehållsblock och färdigställer sidan.
-
+---
+description: >-
+  Den här guiden tar dig igenom hur du skapar en webbsida i eMarketeer, från
+  mallval till redigering av innehållsblock och färdigställning av sidan.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 ---
 
-### 1. Klicka på [Add Webpage] från kampanjsidan
+# Skapa din första webbsida
 
-Om du först behöver skapa kampanjen, se [Skapa en ny kampanj](../getting-started/create-new-campaign.md).
+{% hint style="warning" %}
+Du behöver en kampanj innan du kan lägga till en webbsida. Se [Skapa en ny kampanj](../getting-started/create-new-campaign.md) om du inte har skapat en ännu.
+{% endhint %}
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw1.png" alt="Knappen Add Webpage"></div>
+{% hint style="info" %}
+Exemplet bygger en event-landningssida, men processen är densamma för alla typer av webbsidor. I slutet av guiden har du en webbsida redo att publicera.
+{% endhint %}
 
-Knappen [Add Webpage]
+{% stepper %}
+{% step %}
+### Lägg till en webbsida från kampanjsidan
 
-### 2. Fyll i inställningarna och välj en mall
+Klicka på **Add Webpage** från kampanjsidan.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw2.png" alt="Inställningar för webbsidan"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw1.png" alt="Knappen Add Webpage på kampanjsidan"></div>
+{% endstep %}
 
-Inställningar för webbsidan
+{% step %}
+### Fyll i inställningar och välj en mall
 
-#### Inställningar
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw2.png" alt="Inställningar och mallval för webbsidan"></div>
 
-- **Name your webpage**: Ett unikt namn så att du hittar sidan senare. Använd något som beskriver sidans roll i kampanjen. Besökarna ser inte detta namn.
-- **Page title**: Titeln som besökarna ser i webbläsarens flik.
+**Inställningar**
 
-#### Mall
+* **Name your webpage:** Ett unikt namn så att du hittar sidan senare. Välj något som beskriver sidans roll i kampanjen. Besökarna ser inte detta namn.
+* **Page title:** Titeln som besökarna ser i webbläsarens flik.
 
-Välj en mall från en av flikarna som utgångspunkt för designen. Den här guiden använder *Simple Landing (R)* från fliken Landing Pages. Mallar som sparats på ditt konto visas under fliken My Templates.
+**Mall**
 
-#### Skapa webbsidekomponenten
+Välj en mall från en av flikarna som utgångspunkt för designen. Den här guiden använder **Simple Landing (R)** från fliken **Landing Pages**. Mallar som sparats på ditt konto visas under **My Templates**.
 
-Klicka på [Create Web Page] för att skapa komponenten.
+**Skapa webbsidekomponenten**
 
-### 3. Webbsideredigeraren
+När inställningar och mall är valda klickar du på **Create Web Page** för att skapa komponenten.
+{% endstep %}
 
-Efter att komponenten skapats öppnas redigeraren med mallens innehåll på plats. Vänstermenyn låter dig lägga till innehållsblock, öppna verktyg och justera inställningarna från steg 2. Resten av sidan visar det nuvarande innehållet, uppbyggt av block som du kan redigera ett i taget.
+{% step %}
+### Webbsideredigeraren
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_editor.png" alt="Webbsidans redigeringsvy"></div>
+När du klickar på **Create Web Page** öppnas redigeraren med mallens innehåll på plats. Vänstermenyn låter dig lägga till innehållsblock, öppna verktyg och justera inställningarna från föregående steg. Resten av sidan visar det nuvarande innehållet, uppbyggt av block som du redigerar ett i taget.
 
-Webbsidans redigeringsvy
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_editor.png" alt="Webbsideredigeraren med innehållsblock och vänstermeny"></div>
+{% endstep %}
 
-## 4. Redigera ett innehållsblock
+{% step %}
+### Redigera ett innehållsblock
 
-Varje innehållsblock består av flera delar. Klicka på Edit-knappen på blocket för att öppna dess redigerare.
+Varje innehållsblock består av flera delar som du kan uppdatera. Klicka på blockets **Edit**-knapp för att öppna dess inställningar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_edit_content_block.png" alt="Redigering av ett innehållsblock på webbsidan"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_edit_content_block.png" alt="Edit-knappen på ett innehållsblock"></div>
 
-Redigering av ett innehållsblock på webbsidan
+En inställningspanel öppnas till höger med två flikar: **Content** och **Styles**. Content är där du ändrar blockets text, bilder och länkar. Styles är där du ändrar färger och typsnitt.
 
-Inställningspanelen öppnas till höger med två flikar: Content och Styles. Content innehåller blockets text, bilder och länkar. Styles innehåller färger och typsnitt. På fliken Content styr den övre delen hur blocket visas — oftast lämnar du standardvärdena — och den nedre delen är där du redigerar själva innehållet.
+På fliken Content styr den övre delen hur blocket visas — lämna dessa standardvärden för nu. Den nedre delen är där du redigerar det faktiska innehållet.
+{% endstep %}
 
-### 5. Ändra en rubrik
+{% step %}
+### Ändra en rubrik
 
-Klicka på titelraden för den del du vill ändra och redigera sedan texten i textrutan. En tom textruta döljer den delen av blocket. I exemplet nedan är textstycket och de två länkknapparna tomma, så de visas inte på sidan. Klicka på [Save] för att behålla dina ändringar.
+För att ändra en rubrik eller ett textstycke klickar du på dess titelrad och redigerar texten i textrutan. En tom textruta döljer den delen av blocket.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_edit_text.png" alt="Redigering av rubriktexten i ett block"></div>
+I exemplet nedan är textstycket och de två länkknapparna tomma, så de visas inte på sidan.
 
-Redigering av rubriktexten i ett block
+Klicka på **Save** efter varje ändring.
 
-### 6. Ändra bilden i ett block
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_edit_text.png" alt="Redigering av rubriktexten i ett innehållsblock"></div>
+{% endstep %}
 
-Öppna blocket för redigering, gå till Image-sektionen till höger och klicka på [Choose Image].
+{% step %}
+### Ändra bilden i ett block
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce_upload_image_1.png" alt="Knappen Choose Image"></div>
+Öppna blocket för redigering, gå till Image-sektionen i den högra panelen och klicka på **Choose Image**.
 
-Knappen [Choose Image]
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce_upload_image_1.png" alt="Knappen Choose Image i bildsektionen"></div>
 
-För att ladda upp en egen bild:
+Gör så här för att ladda upp och använda en egen bild:
 
-1. Klicka på [Upload File].
-2. Klicka på [Choose files] och välj bilden från din dator.
+1. Klicka på **Upload File**.
+2. Klicka på **Choose files** och välj bilden på din dator.
 3. Ladda upp filen till ditt eMarketeer-konto.
-4. Markera den uppladdade filen i filbläddraren.
-5. Klicka på [Use Selected] för att lägga till den i innehållsblocket.
+4. Klicka på filen i webbläsarfönstret för att markera den.
+5. Klicka på **Use Selected** för att lägga till den i innehållsblocket.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce_image_upload_2.png" alt="Steg för att ladda upp och använda en ny bildfil"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce_image_upload_2.png" alt="Stegen Upload File, Choose files och Use Selected"></div>
 
-Steg för att ladda upp och använda en ny bildfil
+Om bilden inte matchar de rekommenderade måtten för blocket visas ett alternativ för automatisk skalning. Klicka på länken i meddelandet för att godkänna.
 
-Om bilden inte matchar de rekommenderade måtten visas ett alternativ för automatisk skalning. Klicka på länken i meddelandet för att skala bilden automatiskt.
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce_upload_image_3.png" alt="Meddelande om Auto Scale för att ändra storlek på bilden"></div>
+{% endstep %}
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce_upload_image_3.png" alt="Alternativet Auto Scale"></div>
+{% step %}
+### Lägg till en knapp med en länk
 
-Alternativet Auto Scale
+Använd knappar för att länka till en webbsida, en fil eller en annan eMarketeer-komponent. För en webblänk skriver du URL:en i länkinställningarna (inkludera `http://` eller `https://`) och skriver en knapptext. Gör så här för att länka till ett formulär:
 
-### 7. Lägga till en knapp med en länk
+1. Öppna innehållsinställningarna för Link 1 och klicka på **Browse**.
+2. Klicka på **Link to eMarketeer Form**.
+3. Välj kampanjen som innehåller ditt formulär och välj sedan formuläret.
+4. Klicka på **Select**, sedan **Apply** och sedan **Save** för att lägga till länken och spara blocket.
 
-Knappar kan länka till en webbsida, en fil eller en annan eMarketeer-komponent. För en extern webbplats klistrar du in hela URL:en — inklusive `http://` eller `https://` — i URL-fältet och skriver en text för knappen.
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce6.png" alt="Ange en knapplänk via Browse till ett eMarketeer-formulär"></div>
+{% endstep %}
 
-För att länka till ett formulär:
+{% step %}
+### Lägg till ett nytt innehållsblock
 
-1. Öppna innehållsinställningarna för Link 1 och klicka på [Browse].
-2. Klicka på [Link to eMarketeer Form].
-3. Välj kampanjen som innehåller ditt formulär och välj sedan själva formuläret.
-4. Klicka på [Select], sedan [Apply] och sedan [Save] för att koppla länken och spara blocket.
+Klicka på **Add Content Block** i vänstermenyn och klicka sedan på **Add Block** bredvid den blocktyp du vill ha.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce6.png" alt="Uppdatera knapplänk i innehållsblock"></div>
+Om knappen är grå klickar du först på ett befintligt block för att tala om för redigeraren var det nya blocket ska placeras.
 
-Uppdatera knapplänk i innehållsblock
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce-add-12.png" alt="Menyn Add Content Block med olika blocktyper"></div>
+{% endstep %}
 
-### 8. Lägga till ytterligare ett innehållsblock
+{% step %}
+### Flytta ett innehållsblock
 
-Klicka på [Add Content Block] i vänstermenyn och klicka sedan på [Add Block] bredvid den blocktyp du vill ha. Om knappen är grå klickar du först på ett befintligt block på sidan så att redigeraren vet var det nya blocket ska placeras.
+För att flytta ett block klickar du på och håller ned flytt-ikonen till vänster om blockets kontextfält och drar det sedan till den nya positionen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce-add-12.png" alt="Add Content Block för att öppna menyn och sedan Add för det specifika blocket du vill ha"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce-move.png" alt="Flytt-ikonen som används för att dra ett innehållsblock"></div>
+{% endstep %}
 
-Add Content Block för att öppna menyn och sedan Add för det specifika blocket du vill ha
+{% step %}
+### Ta bort ett innehållsblock
 
-### 9. Flytta ett innehållsblock
+För att ta bort ett block du inte behöver klickar du på ta bort-knappen på dess kontextfält.
 
-Klicka och håll ned flyttikonen till vänster om blockets kontextfält och dra sedan blocket till den nya positionen.
+<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce-delete.png" alt="Ta bort-knappen på ett innehållsblocks kontextfält"></div>
+{% endstep %}
 
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce-move.png" alt="Flytta block i innehållet genom att dra det på plats"></div>
+{% step %}
+### Färdigställ webbsidan
 
-Flytta blocket genom att dra det på plats
-
-### 10. Ta bort ett innehållsblock
-
-Om mallen innehåller ett block som du inte behöver klickar du på ta bort-knappen på blockets kontextfält.
-
-<div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/ce-delete.png" alt="Knappen för att ta bort innehållsblock"></div>
-
-Knappen för att ta bort innehållsblock
-
-### 11. Färdigställ webbsidan
-
-Klicka på [Done Editing] för att lämna redigeraren.
+Klicka på **Done Editing** för att lämna redigeraren.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/creating-first-webpage/cw_done.png" alt="Knappen Done Editing"></div>
-
-Knappen [Done Editing]
+{% endstep %}
+{% endstepper %}
