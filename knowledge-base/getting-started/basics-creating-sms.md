@@ -27,7 +27,7 @@ tags:
 # Creating your first SMS
 
 {% hint style="warning" %}
-To create a new SMS it is required that you create a campaign first.
+To create a new SMS it is required that you create a campaign first. If you don't have a campaign ready, see [How to create a new campaign](create-new-campaign.md).
 {% endhint %}
 
 This guide walks you through creating an SMS in eMarketeer — for publishing an app, notifying about an event, or any other use.
@@ -40,15 +40,13 @@ Sending SMS is only a few steps once the message is set up. By the end of this g
 
 From the campaign page, click **Add SMS**.
 
-* If you need to create the campaign first, see [How to create a new campaign](create-new-campaign.md).
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cs1.png" alt="Add SMS button on the campaign page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs1.png" alt="Add SMS button on the campaign page"></div>
 {% endstep %}
 
 {% step %}
 ### Fill in settings, choose a template, create the SMS
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cs2.png" alt="SMS settings with name field and template selector"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs2.png" alt="SMS settings with name field and template selector"></div>
 
 **Settings**
 
@@ -72,7 +70,7 @@ The Sender ID is the name of the sender as shown on the recipient's phone. The d
 
 Below that you find the SMS testing feature, which lets you send the SMS to yourself to see how it looks on arrival. Links in test SMS messages do not work — send the SMS the normal way if you need to test links.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/cs_edit_view.png" alt="SMS editor with message box, Sender ID and test send"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs_edit_view.png" alt="SMS editor with message box, Sender ID and test send"></div>
 {% endstep %}
 
 {% step %}
