@@ -12,6 +12,10 @@ Many email clients add this behavior automatically when they detect an address i
 
 > mailto:support@emarketeer.com
 
+{% hint style="warning" %}
+Avoid using the email address itself as the link caption. Use descriptive text instead — for example, "Contact us" or "Email John Doe" — to avoid triggering phishing filters.
+{% endhint %}
+
 ## Clickable address in text
 
 To turn text inside a component into an email link, follow the same steps as for a regular web link.

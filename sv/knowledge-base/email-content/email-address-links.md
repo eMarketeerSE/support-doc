@@ -12,6 +12,10 @@ Många e-postklienter lägger till det här beteendet automatiskt när de hittar
 
 > mailto:support@emarketeer.com
 
+{% hint style="warning" %}
+Undvik att använda e-postadressen som länktext. Använd en beskrivande text istället — till exempel "Kontakta oss" eller "Mejla Johan Eriksson" — för att undvika att trigga phishing-filter.
+{% endhint %}
+
 ## Klickbar adress i text
 
 För att göra en text inuti en komponent till en e-postlänk, följ samma steg som för en vanlig webblänk.

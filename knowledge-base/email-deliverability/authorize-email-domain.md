@@ -27,6 +27,10 @@ tags:
 
 # Add Email domain
 
+{% hint style="info" %}
+An authorized email domain is required to send emails from eMarketeer. Without one, outgoing email is not available on your account.
+{% endhint %}
+
 This guide walks you through authenticating your domain so you can send email from your own address with the best possible deliverability.
 
 Once you finish, let us know and we will activate the new email service for your account.

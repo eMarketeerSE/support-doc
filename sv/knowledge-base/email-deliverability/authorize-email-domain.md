@@ -24,6 +24,10 @@ layout:
 
 # Lägg till e-postdomän
 
+{% hint style="info" %}
+En autentiserad e-postdomän krävs för att skicka e-post från eMarketeer. Utan den är utskick av e-post inte tillgängligt på ditt konto.
+{% endhint %}
+
 Den här guiden tar dig igenom autentiseringen av din domän så att du kan skicka e-post från din egen adress med bästa möjliga leveransbarhet.
 
 När du är klar, hör av dig till oss så aktiverar vi den nya e-posttjänsten för ditt konto.
