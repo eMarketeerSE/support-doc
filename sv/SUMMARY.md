@@ -92,13 +92,14 @@
   * [Prenumerationer](documentation/apis-developer/subscriptions.md)
   * [Taggar](documentation/apis-developer/tags.md)
   * [Mallfunktioner](documentation/apis-developer/template-functions.md)
+  * [Skicka en Webhook från Zapier till eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 * [Utvecklare](knowledge-base/developer-advanced/README.md)
-  * [Streckkoder](knowledge-base/developer-advanced/barcodes.md)
   * [Villkor](knowledge-base/developer-advanced/dcl-dynamic-content-language.md)
   * [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
   * [Webinar: Så bygger du mobilappar i eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
   * [Varför eMarketeer inte stöder SRI för embed-skript](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
   * [Ändra navigeringsikoner i mobilappen (Developer)](knowledge-base/account-admin/app-navigation-icons.md)
+  * [Streckkoder](knowledge-base/developer-advanced/barcodes.md)
 * [Plattform](references.md)
   * [E-post](platform/email.md)
     * [Leveransbarhet](platform/deliverability.md)
@@ -124,7 +125,6 @@
     * [Whitelist över länder som stödjer SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
     * [Mobilnummervalidering](documentation/email-sms/mobile-number-validation.md)
   * [Web Tracker](documentation/web-tracker/README.md)
-    * [Web Tracker](documentation/web-tracker/the-web-tracker.md)
     * [Installera Web Tracker-skriptet på din webbplats](documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md)
     * [Automatiska UTM-länkar](documentation/web-tracker/automatic-utm-links.md)
     * [Cloudflare och eMarketeers spårningsparametrar](documentation/web-tracker/cloudflare-emarketeer-tracking-parameters.md)
@@ -177,7 +177,6 @@
 * [Övriga integrationer](integrations.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
-  * [Skicka en Webhook från Zapier till eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 
 ## Koncept
 

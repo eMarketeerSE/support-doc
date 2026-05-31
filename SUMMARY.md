@@ -83,9 +83,9 @@
   * [API docs](documentation/apis-developer/api-consent-subscription.md)
   * [Custom Signals API](documentation/apis-developer/custom-signals-api.md)
   * [Legacy API 1.0 docs (Deprecated)](documentation/apis-developer/api.md)
+  * [Send a webhook from Zapier to eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 * [Developer](knowledge-base/developer-advanced/README.md)
-  * [Barcodes](knowledge-base/developer-advanced/barcodes.md)
-  * [Contact field character limit](references/developer-advanced/contact-field-character-limit.md)
+  * [Contact field character limit](documentation/apis-developer/contact-field-character-limit.md)
   * [DCL introduction](references/developer-advanced/dcl-introduction/README.md)
     * [Conventions](documentation/apis-developer/conventions.md)
     * [Language Syntax](documentation/apis-developer/language-syntax.md)
@@ -96,6 +96,7 @@
   * [Webinar: How to Build Mobile Apps in eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
   * [Why eMarketeer doesn't support SRI for embed scripts](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
   * [Changing the mobile app navigation icons](knowledge-base/account-admin/app-navigation-icons.md)
+  * [Barcodes](knowledge-base/developer-advanced/barcodes.md)
 * [Platform](references.md)
   * [Email](platform/email.md)
     * [Deliverability](platform/deliverability.md)
@@ -121,7 +122,6 @@
     * [Whitelist of countries supporting SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
     * [Mobile number validation](documentation/email-sms/mobile-number-validation.md)
   * [Web Tracker](documentation/web-tracker/README.md)
-    * [The Web tracker](documentation/web-tracker/the-web-tracker.md)
     * [Installing the web tracker script on your website](documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md)
     * [Automatic UTM links](documentation/web-tracker/automatic-utm-links.md)
     * [Cloudflare & eMarketeer Tracking Parameters](documentation/web-tracker/cloudflare-emarketeer-tracking-parameters.md)
@@ -174,7 +174,6 @@
 * [Other integrations](integrations.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
-  * [Send a webhook from Zapier to eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 
 ## Concepts
 
