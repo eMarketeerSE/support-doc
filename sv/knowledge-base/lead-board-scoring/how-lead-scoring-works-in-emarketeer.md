@@ -77,23 +77,37 @@ Kontaktlistor:
 
 ## Så skapar du score-regler i eMarketeer
 
-{% stepper %}
-{% step %}
 ### Konfigurera poängregler steg för steg
 
-1. Klicka på "contacts" i toppnavigeringen och sedan på "lead scoring" i vänstermenyn. Den här vyn visar alla dina score-uppsättningar och deras aktiva status.
+{% stepper %}
+{% step %}
+### Öppna lead scoring
+
+Klicka på "contacts" i toppnavigeringen och sedan på "lead scoring" i vänstermenyn. Den här vyn visar alla dina score-uppsättningar och deras aktiva status.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/1.-lead-scoring-view-1024x591.png" alt="Vyn för lead scoring i eMarketeer."></div>
+{% endstep %}
 
-2. För att lägga till egna regler, klicka på "add score set." Namnge score-uppsättningen efter den typ av regler den innehåller – till exempel en uppsättning per produkt eller en uppsättning för engagemangsregler.
+{% step %}
+### Lägg till en score-uppsättning
+
+För att lägga till egna regler, klicka på "add score set." Namnge score-uppsättningen efter den typ av regler den innehåller – till exempel en uppsättning per produkt eller en uppsättning för engagemangsregler.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/2.-Name-score-set.gif" alt="Namnger en score-uppsättning."></div>
+{% endstep %}
 
-3. Klicka på "add a new rule" och ge den ett tydligt namn.
+{% step %}
+### Lägg till en regel
+
+Klicka på "add a new rule" och ge den ett tydligt namn.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/3.-Name-rule.gif" alt="Namnger en regel."></div>
+{% endstep %}
 
-4. Regler byggs på samma sätt som filter i eMarketeer. Den första rullgardinen väljer kategori: engagemang, fält på kontaktkortet eller medlemskap i kontaktlista.
+{% step %}
+### Bygg regelkriterierna
+
+Regler byggs på samma sätt som filter i eMarketeer. Den första rullgardinen väljer kategori: engagemang, fält på kontaktkortet eller medlemskap i kontaktlista.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/4.-Choose-rule-category-1024x592.png" alt="Välja en regelkategori."></div>
 
@@ -108,29 +122,37 @@ Tänk sedan på förekomst – hur många gånger kontakten måste utföra handl
 För att begränsa en regel ytterligare, lägg till ett kriterium till. Till exempel: kontakten anmälde sig till webbinariet OCH besökte en landningssida tre gånger. Klicka på "AND" och upprepa stegen för det andra kriteriet.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/7.-Combine-criteria.gif" alt="Kombinerar kriterier med AND."></div>
-
-5. Klicka på "Apply."
-
-6. Bestäm hur många poäng regeln är värd. Du kan också dra bort poäng istället för att lägga till. Använd negativa poäng för beteenden som sannolikt inte leder till en försäljning – till exempel "student" som jobbtitel, ett besök på din karriärsida eller ett land du inte kan leverera till.
-
-<div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/8.-Add-points.gif" alt="Lägger till poäng till en regel."></div>
-
-7. När score-uppsättningen har alla regler du vill ha, sätt den till aktiv och klicka på spara. Score:n beräknas för varje kontakt. Efter att du lagt till eller redigerat en regel kan det dröja en stund innan poängen uppdateras – vanligtvis några minuter, beroende på databasens storlek.
-
-<div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/9.-Activate-score-set.gif" alt="Aktiverar en score-uppsättning."></div>
-
 {% endstep %}
 
 {% step %}
+### Tillämpa regeln
+
+Klicka på "Apply."
+{% endstep %}
+
+{% step %}
+### Ange poängvärdet
+
+Bestäm hur många poäng regeln är värd. Du kan också dra bort poäng istället för att lägga till. Använd negativa poäng för beteenden som sannolikt inte leder till en försäljning – till exempel "student" som jobbtitel, ett besök på din karriärsida eller ett land du inte kan leverera till.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/8.-Add-points.gif" alt="Lägger till poäng till en regel."></div>
+{% endstep %}
+
+{% step %}
+### Aktivera score-uppsättningen
+
+När score-uppsättningen har alla regler du vill ha, sätt den till aktiv och klicka på spara. Score:n beräknas för varje kontakt. Efter att du lagt till eller redigerat en regel kan det dröja en stund innan poängen uppdateras – vanligtvis några minuter, beroende på databasens storlek.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/9.-Activate-score-set.gif" alt="Aktiverar en score-uppsättning."></div>
+{% endstep %}
+{% endstepper %}
+
 ### Se varje kontakts lead score och poängsammanfattning
 
 Kontakter score:as när de uppfyller någon av dina regler. Du ser score:n på varje kontaktlista och på kontaktkortet. På kontaktkortet visar fliken "score summary" hur kontakten tjänat sina poäng. Grafen visar score:n över tid. Under grafen listar en uppdelning varje uppfylld regel och när poängen går ut.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/image-10.png" alt="En kontaktprofil som visar en lista över lead score-regler kontakten uppfyllt tillsammans med kontaktens aktuella lead score."></div>
 
-{% endstep %}
-
-{% step %}
 ### Filtrera ut dina MQL:er och lämna dem till sälj
 
 För att hitta kontakter som nått en specifik score – säg 80 eller högre – använd filter. Gå till contacts -> filter och välj "score" i rullgardinen. Du kan sedan lista kontakter över eller under din säljtröskel.
@@ -140,5 +162,3 @@ För att hitta kontakter som nått en specifik score – säg 80 eller högre �
 Med ett urval har du två knappar till höger: massåtgärder och exportera kontakter. Använd massåtgärder för att uppdatera urvalet – till exempel lägga till kontakterna i en lista. Använd export för att ladda ner kontakterna som en textfil eller skicka dem till ett urval eller projekt i SuperOffice. För SuperOffice-export måste kontakterna redan vara kända i SuperOffice.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/Lead-scores-in-contact-lists-buttons.png" alt="Knappar för massåtgärder och export på en kontaktlista."></div>
-{% endstep %}
-{% endstepper %}

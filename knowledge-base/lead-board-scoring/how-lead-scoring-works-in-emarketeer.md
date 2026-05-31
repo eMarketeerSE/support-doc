@@ -78,23 +78,37 @@ Contact lists:
 
 ## How to set up score rules in eMarketeer
 
-{% stepper %}
-{% step %}
 ### Set up score rules step by step
 
-1. Click "contacts" in the top navigation and then "lead scoring" in the left-hand menu. This view shows all your score sets and their active status.
+{% stepper %}
+{% step %}
+### Open lead scoring
+
+Click "contacts" in the top navigation and then "lead scoring" in the left-hand menu. This view shows all your score sets and their active status.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/1.-lead-scoring-view-1024x591.png" alt="Lead scoring view in eMarketeer."></div>
+{% endstep %}
 
-2. To add your own rules, click "add score set." Name the score set after the kind of rules it contains — for example one set per product, or a set for engagement rules.
+{% step %}
+### Add a score set
+
+To add your own rules, click "add score set." Name the score set after the kind of rules it contains — for example one set per product, or a set for engagement rules.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2.-Name-score-set.gif" alt="Naming a score set."></div>
+{% endstep %}
 
-3. Click "add a new rule" and give it a clear name.
+{% step %}
+### Add a rule
+
+Click "add a new rule" and give it a clear name.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/3.-Name-rule.gif" alt="Naming a rule."></div>
+{% endstep %}
 
-4. Rules are built the same way as filters in eMarketeer. The first drop-down chooses the category: engagement, contact card fields, or contact list membership.
+{% step %}
+### Build the rule criteria
+
+Rules are built the same way as filters in eMarketeer. The first drop-down chooses the category: engagement, contact card fields, or contact list membership.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/4.-Choose-rule-category-1024x592.png" alt="Choosing a rule category."></div>
 
@@ -109,28 +123,37 @@ Next, consider occurrence — how many times the contact must do the action to g
 To narrow a rule further, add another criterion. For example, the contact signed up for the webinar AND visited a landing page three times. Click "AND" and repeat the steps for the second criterion.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/7.-Combine-criteria.gif" alt="Combining criteria with AND."></div>
-
-5. Click "Apply."
-6. Set how many points the rule is worth. You can also remove points instead of adding them. Use negative points for behavior that is unlikely to lead to a sale — for example, "student" as job title, a visit to your careers page, or a country you cannot ship to.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/8.-Add-points.gif" alt="Adding points to a rule."></div>
-
-7. When the score set has all the rules you want, set it to active and click save. Scores are calculated for each contact. After adding or editing a rule, there can be a short delay before scores update — usually a few minutes, depending on database size.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/9.-Activate-score-set.gif" alt="Activating a score set."></div>
-
 {% endstep %}
 
 {% step %}
+### Apply the rule
+
+Click "Apply."
+{% endstep %}
+
+{% step %}
+### Set the point value
+
+Set how many points the rule is worth. You can also remove points instead of adding them. Use negative points for behavior that is unlikely to lead to a sale — for example, "student" as job title, a visit to your careers page, or a country you cannot ship to.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/8.-Add-points.gif" alt="Adding points to a rule."></div>
+{% endstep %}
+
+{% step %}
+### Activate the score set
+
+When the score set has all the rules you want, set it to active and click save. Scores are calculated for each contact. After adding or editing a rule, there can be a short delay before scores update — usually a few minutes, depending on database size.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/9.-Activate-score-set.gif" alt="Activating a score set."></div>
+{% endstep %}
+{% endstepper %}
+
 ### See each contact's lead score and score summary
 
 Contacts are scored when they fulfill any of your rules. You see the score on every contact list and on the contact card. On the contact card, the "score summary" tab shows how the contact earned their points. The graph shows the score over time. Below the graph, a breakdown lists every fulfilled rule and when those points expire.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-10.png" alt="A contact profile showing a list of lead score rules that the contact fulfilled along with the current lead score the contact has."></div>
 
-{% endstep %}
-
-{% step %}
 ### Filter out your MQLs and hand them to sales
 
 To find contacts that reached a specific score — say 80 or higher — use filters. Go to contacts -> filter and choose "score" in the drop-down. You can then list contacts above or below your sales threshold.
@@ -140,5 +163,3 @@ To find contacts that reached a specific score — say 80 or higher — use filt
 With a selection, you have two buttons on the right: bulk actions and export contacts. Use bulk actions to update the selection — for example, add the contacts to a list. Use export to download the contacts as a text file or send them to a selection or project in SuperOffice. For SuperOffice export, the contacts must already be known in SuperOffice.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Lead-scores-in-contact-lists-buttons.png" alt="Bulk actions and export buttons on a contact list."></div>
-{% endstep %}
-{% endstepper %}
