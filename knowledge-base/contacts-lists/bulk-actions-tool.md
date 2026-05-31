@@ -26,7 +26,7 @@ The Bulk Actions tool offers nine main functions:
 
 3. **Remove from Contact List** — Removes the contacts from a contact list specified in the next step.
 
-4. **Unsubscribe** — Unsubscribes the contacts from all future email and SMS sendouts by setting their Legal Basis for Marketing Sendouts to "Withdrawn."
+4. **Update Subscriptions** — Changes the opt-in/opt-out status of subscription lists for the contacts. You can update any or all subscription lists in one go.
 
 5. **Update Legal Basis** — Updates the Legal Basis of all the contacts. You can update both "Store and Process" and "Marketing Sendouts" at the same time, and to different options if needed.
 
@@ -36,4 +36,4 @@ The Bulk Actions tool offers nine main functions:
 
 8. **Remove Tags** — Removes the selected tags from all the contacts.
 
-9. **Update Subscriptions** — Changes the opt-in/opt-out status of subscription lists for the contacts. You can update any or all subscription lists in one go.
+9. **Unsubscribe** — Unsubscribes the contacts from all future email and SMS sendouts by setting their Legal Basis for Marketing Sendouts to "Withdrawn."

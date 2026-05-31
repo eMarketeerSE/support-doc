@@ -25,7 +25,7 @@ Bulk Actions-verktyget erbjuder nio huvudfunktioner:
 
 3. **Remove from Contact List** — Tar bort kontakterna från en kontaktlista som du anger i nästa steg.
 
-4. **Unsubscribe** — Avregistrerar kontakterna från alla framtida e-post- och SMS-utskick genom att sätta deras Legal Basis för Marketing Sendouts till "Withdrawn."
+4. **Update Subscriptions** — Ändrar opt-in/opt-out-status för prenumerationslistor för kontakterna. Du kan uppdatera vilken som helst eller alla prenumerationslistor i en operation.
 
 5. **Update Legal Basis** — Uppdaterar Legal Basis för alla kontakter. Du kan uppdatera både "Store and Process" och "Marketing Sendouts" samtidigt, och till olika alternativ om det behövs.
 
@@ -35,4 +35,4 @@ Bulk Actions-verktyget erbjuder nio huvudfunktioner:
 
 8. **Remove Tags** — Tar bort de valda taggarna från alla kontakter.
 
-9. **Update Subscriptions** — Ändrar opt-in/opt-out-status för prenumerationslistor för kontakterna. Du kan uppdatera vilken som helst eller alla prenumerationslistor i en operation.
+9. **Unsubscribe** — Avregistrerar kontakterna från alla framtida e-post- och SMS-utskick genom att sätta deras Legal Basis för Marketing Sendouts till "Withdrawn."
