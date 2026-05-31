@@ -2,6 +2,26 @@
 description: >-
   Vilka redigeringar som är säkra på ett formulär som redan har svar och vilka
   ändringar som kan påverka befintliga rapporter.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Redigera ett aktivt formulär

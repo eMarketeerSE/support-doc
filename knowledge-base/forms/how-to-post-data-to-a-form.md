@@ -2,6 +2,26 @@
 description: >-
   How to submit answers to an eMarketeer form programmatically from your own
   website or an external system.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # How to post data to a form

@@ -2,6 +2,26 @@
 description: >-
   Advanced guide to capping the number of selectable options on a checkbox
   question in a form using a custom JavaScript snippet.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Set max number of answers for a form checkbox question (legacy, advanced)

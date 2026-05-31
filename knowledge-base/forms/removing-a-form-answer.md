@@ -2,6 +2,26 @@
 description: >-
   How to delete individual answers, selected rows, or the full set of answers
   from a form report.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # How do I remove a form answer?

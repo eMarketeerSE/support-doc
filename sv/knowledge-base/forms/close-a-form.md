@@ -2,6 +2,26 @@
 description: >-
   Hur du konfigurerar ett formulär för att sluta ta emot svar efter ett angivet
   datum eller ett maximalt antal inlämningar.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Formulär: Stäng ett formulär

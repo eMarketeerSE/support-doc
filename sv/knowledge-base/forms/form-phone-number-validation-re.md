@@ -2,6 +2,26 @@
 description: >-
   Avancerad guide för att kräva landskod i ett formulärs telefonnummerfält när
   reCAPTCHA är aktiverat.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Validering av telefonnummer i formulär när reCAPTCHA används (avancerat)

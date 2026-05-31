@@ -2,9 +2,31 @@
 description: >-
   Hur du hittar och tar bort dolda tomma bildblock som orsakar brutna bildfält
   i Outlook (kräver Developer-behörighet).
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 ---
 
-# Saknat bildblock i e-postkomponent (Developer)
+# Saknat bildblock i e-postkomponent
+
+{% hint style="warning" %}
+Den här åtgärden kräver Developer-behörighet på ditt användarkonto.
+{% endhint %}
 
 Om en röd-x-ruta eller en blå frågetecken-ruta visas i dina skickade e-postmeddelanden när de visas i Outlook, gömmer sig sannolikt ett saknat bildblock i e-postkomponenten eller mallen.
 

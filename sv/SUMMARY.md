@@ -23,7 +23,7 @@
     * [Bädda in video/media](knowledge-base/email-content/embed-videomedia.md)
     * [Guide: Så här använder du e-postpreheaders](knowledge-base/email-content/how-to-use-email-preheaders.md)
     * [Så här använder du bildredigeraren i eMarketeer](knowledge-base/email-content/how-to-use-the-image-editor-in-emarketeer.md)
-    * [Saknat bildblock i e-postkomponent (Developer)](knowledge-base/email-content/missing-image-block.md)
+    * [Saknat bildblock i e-postkomponent](knowledge-base/email-content/missing-image-block.md)
     * [Personalisera innehåll](knowledge-base/email-content/personalize-content.md)
     * [Identifiera varför ett e-postmeddelande inte togs emot](knowledge-base/email-deliverability/identify-email-not-recieved.md)
   * [Formulär](knowledge-base/forms/README.md)
@@ -61,7 +61,7 @@
   * [Taggar](knowledge-base/contacts-lists/tags.md)
   * [Så här skapar du en ny kontaktlista](knowledge-base/getting-started/new-contact-list.md)
 * [Leadhantering](knowledge-base/lead-board-scoring/README.md)
-  * [Kom igång med leads](knowledge-base/getting-started/get-started-leads.md)
+
   * [Så bygger du din lead scoring-modell och vanliga misstag](knowledge-base/lead-board-scoring/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
   * [Lead Streams](knowledge-base/lead-board-scoring/lead-streams.md)
   * [Sales-team](knowledge-base/lead-board-scoring/sales-teams.md)
@@ -72,7 +72,7 @@
   * [Så bjuder du in användare till ditt konto (administratör)](knowledge-base/account-admin/invite-user-account.md)
   * [Användarguide: Aktivera Multi-Factor-inloggning](knowledge-base/account-admin/user-accounts.md)
   * [Egen domän](knowledge-base/account-admin/domains.md)
-  * [Använda din egen e-postdomän med eMarketeer](documentation/custom-domain/custom-email-domain.md)
+
   * [Logga ut ur eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Prenumerationer](knowledge-base/account-admin/subscriptions.md)

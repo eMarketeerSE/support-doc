@@ -1,6 +1,26 @@
 ﻿---
 description: >-
   Hur du skickar svar till ett eMarketeer-formulär programmatiskt från din egen webbplats eller ett externt system.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Så här postar du data till ett formulär

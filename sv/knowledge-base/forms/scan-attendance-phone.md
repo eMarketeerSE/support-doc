@@ -1,6 +1,26 @@
 ---
 description: >-
   Hur du använder en mobiltelefon för att skanna deltagarnas QR-koder och registrera event-närvaro via ett eMarketeer-formulär.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Så här scannar du närvaro på event med en mobiltelefon

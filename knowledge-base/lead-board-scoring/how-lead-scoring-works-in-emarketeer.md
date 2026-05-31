@@ -2,6 +2,24 @@
 description: >-
   How to set up lead score rules step by step, where to view each contact's
   score, and how to filter contacts by score.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 ---
 
 # How lead scoring works in eMarketeer and tutorial
@@ -60,7 +78,9 @@ Contact lists:
 
 ## How to set up score rules in eMarketeer
 
-### 1. Set up score rules step by step
+{% stepper %}
+{% step %}
+### Set up score rules step by step
 
 1. Click "contacts" in the top navigation and then "lead scoring" in the left-hand menu. This view shows all your score sets and their active status.
 
@@ -99,13 +119,19 @@ To narrow a rule further, add another criterion. For example, the contact signed
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/9.-Activate-score-set.gif" alt="Activating a score set."></div>
 
-### 2. See each contact's lead score and score summary
+{% endstep %}
+
+{% step %}
+### See each contact's lead score and score summary
 
 Contacts are scored when they fulfill any of your rules. You see the score on every contact list and on the contact card. On the contact card, the "score summary" tab shows how the contact earned their points. The graph shows the score over time. Below the graph, a breakdown lists every fulfilled rule and when those points expire.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-10.png" alt="A contact profile showing a list of lead score rules that the contact fulfilled along with the current lead score the contact has."></div>
 
-### 3. Filter out your MQLs and hand them to sales
+{% endstep %}
+
+{% step %}
+### Filter out your MQLs and hand them to sales
 
 To find contacts that reached a specific score — say 80 or higher — use filters. Go to contacts -> filter and choose "score" in the drop-down. You can then list contacts above or below your sales threshold.
 
@@ -114,3 +140,5 @@ To find contacts that reached a specific score — say 80 or higher — use filt
 With a selection, you have two buttons on the right: bulk actions and export contacts. Use bulk actions to update the selection — for example, add the contacts to a list. Use export to download the contacts as a text file or send them to a selection or project in SuperOffice. For SuperOffice export, the contacts must already be known in SuperOffice.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Lead-scores-in-contact-lists-buttons.png" alt="Bulk actions and export buttons on a contact list."></div>
+{% endstep %}
+{% endstepper %}

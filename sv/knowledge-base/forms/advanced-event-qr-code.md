@@ -2,6 +2,26 @@
 description: >-
   Hur du genererar en kontaktspecifik QR-kod som skickar en e-postadress till
   ett formulär och möjliggör automatisk event-närvaro-registrering vid scanning.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Formulärspecifik QR-kodgenerering för att skanna närvaro på event (avancerat)

@@ -1,6 +1,26 @@
 ﻿---
 description: >-
   De tekniska krav en webbsida måste uppfylla för att vara värd för ett inbäddat eMarketeer-formulär.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Formulär: krav för webbintegration

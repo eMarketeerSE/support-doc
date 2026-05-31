@@ -2,6 +2,26 @@
 description: >-
   How to branch form questions to different pages or show and hide questions on
   the same page based on a respondent's previous answer.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Creating Branching Question Paths and using Question Display Rules in Forms

@@ -1,6 +1,26 @@
 ---
 description: >-
   Hur du tar bort enskilda svar, valda rader eller hela uppsättningen svar från en formulärrapport.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Hur tar jag bort ett formulärsvar?

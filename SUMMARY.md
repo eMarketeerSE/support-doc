@@ -23,7 +23,7 @@
     * [Embed Video/Media](knowledge-base/email-content/embed-videomedia.md)
     * [Tutorial: How to use email preheaders](knowledge-base/email-content/how-to-use-email-preheaders.md)
     * [How to use the image editor in eMarketeer](knowledge-base/email-content/how-to-use-the-image-editor-in-emarketeer.md)
-    * [Missing Image Block in Email Component (Developer)](knowledge-base/email-content/missing-image-block.md)
+    * [Missing Image Block in Email Component](knowledge-base/email-content/missing-image-block.md)
     * [Personalize content](knowledge-base/email-content/personalize-content.md)
     * [Identifying why an email was not received](knowledge-base/email-deliverability/identify-email-not-recieved.md)
   * [Forms](knowledge-base/forms/README.md)
@@ -61,7 +61,7 @@
   * [Tags](knowledge-base/contacts-lists/tags.md)
   * [How to Create a New Contact List](knowledge-base/getting-started/new-contact-list.md)
 * [Lead management](knowledge-base/lead-board-scoring/README.md)
-  * [Get started with leads](knowledge-base/getting-started/get-started-leads.md)
+
   * [How to set up your lead scoring model and lead scoring mistakes](knowledge-base/lead-board-scoring/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
   * [Lead streams](knowledge-base/lead-board-scoring/lead-streams.md)
   * [Sales teams](knowledge-base/lead-board-scoring/sales-teams.md)
@@ -72,7 +72,7 @@
   * [How to invite users to your account (administrator)](knowledge-base/account-admin/invite-user-account.md)
   * [User guide: Enable Multi Factor Login](knowledge-base/account-admin/user-accounts.md)
   * [Custom domain](knowledge-base/account-admin/domains.md)
-  * [Using your own email domain with eMarketeer](documentation/custom-domain/custom-email-domain.md)
+
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Subscriptions](knowledge-base/account-admin/subscriptions.md)

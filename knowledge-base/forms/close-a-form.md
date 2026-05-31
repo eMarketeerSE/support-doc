@@ -2,6 +2,26 @@
 description: >-
   How to configure a form to stop accepting answers after a set date or a
   maximum number of submissions.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Forms: Close a form

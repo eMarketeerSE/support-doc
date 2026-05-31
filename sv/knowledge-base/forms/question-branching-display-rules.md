@@ -1,6 +1,26 @@
 ﻿---
 description: >-
   Hur du förgrenar formulärfrågor till olika sidor eller visar och döljer frågor på samma sida baserat på en respondents tidigare svar.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Skapa förgrenade frågevägar och använd visningsregler för frågor i formulär

@@ -1,6 +1,24 @@
 ---
 description: >-
   Hur du konfigurerar lead scoring-regler steg för steg, var du ser varje kontakts score och hur du filtrerar kontakter på score.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 ---
 
 # Så fungerar lead scoring i eMarketeer och steg-för-steg-guide
@@ -59,7 +77,9 @@ Kontaktlistor:
 
 ## Så skapar du score-regler i eMarketeer
 
-### 1. Skapa score-regler steg för steg
+{% stepper %}
+{% step %}
+### Konfigurera poängregler steg för steg
 
 1. Klicka på "contacts" i toppnavigeringen och sedan på "lead scoring" i vänstermenyn. Den här vyn visar alla dina score-uppsättningar och deras aktiva status.
 
@@ -99,13 +119,19 @@ För att begränsa en regel ytterligare, lägg till ett kriterium till. Till exe
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/9.-Activate-score-set.gif" alt="Aktiverar en score-uppsättning."></div>
 
-### 2. Se varje kontakts lead score och score-sammanfattning
+{% endstep %}
+
+{% step %}
+### Se varje kontakts lead score och poängsammanfattning
 
 Kontakter score:as när de uppfyller någon av dina regler. Du ser score:n på varje kontaktlista och på kontaktkortet. På kontaktkortet visar fliken "score summary" hur kontakten tjänat sina poäng. Grafen visar score:n över tid. Under grafen listar en uppdelning varje uppfylld regel och när poängen går ut.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/image-10.png" alt="En kontaktprofil som visar en lista över lead score-regler kontakten uppfyllt tillsammans med kontaktens aktuella lead score."></div>
 
-### 3. Filtrera fram dina MQL och lämna över till sälj
+{% endstep %}
+
+{% step %}
+### Filtrera ut dina MQL:er och lämna dem till sälj
 
 För att hitta kontakter som nått en specifik score – säg 80 eller högre – använd filter. Gå till contacts -> filter och välj "score" i rullgardinen. Du kan sedan lista kontakter över eller under din säljtröskel.
 
@@ -114,3 +140,5 @@ För att hitta kontakter som nått en specifik score – säg 80 eller högre �
 Med ett urval har du två knappar till höger: massåtgärder och exportera kontakter. Använd massåtgärder för att uppdatera urvalet – till exempel lägga till kontakterna i en lista. Använd export för att ladda ner kontakterna som en textfil eller skicka dem till ett urval eller projekt i SuperOffice. För SuperOffice-export måste kontakterna redan vara kända i SuperOffice.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/how-lead-scoring-works-in-emarketeer/Lead-scores-in-contact-lists-buttons.png" alt="Knappar för massåtgärder och export på en kontaktlista."></div>
+{% endstep %}
+{% endstepper %}

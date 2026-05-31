@@ -2,6 +2,26 @@
 description: >-
   How to generate a contact-specific QR code that submits an email address to a
   form, enabling automatic attendance registration when scanned at an event.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Form-specific QR code generation for scanning event attendance (advanced)

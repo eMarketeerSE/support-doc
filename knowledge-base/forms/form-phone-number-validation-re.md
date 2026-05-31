@@ -2,6 +2,26 @@
 description: >-
   Advanced guide to requiring a country code in a form's phone number field
   when reCAPTCHA is enabled.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Form Phone Number Validation when using reCAPTCHA (Advanced)

@@ -1,6 +1,26 @@
 ﻿---
 description: >-
   Avancerad guide för att begränsa antalet valbara alternativ i en checkbox-fråga i ett formulär med ett anpassat JavaScript-kodavsnitt.
+tags:
+  - legacy
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Sätt maxantal svar för en checkbox-fråga i ett formulär (legacy, avancerat)

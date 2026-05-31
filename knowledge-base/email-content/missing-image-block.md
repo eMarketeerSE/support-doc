@@ -2,9 +2,31 @@
 description: >-
   How to find and remove hidden empty image blocks that cause broken-image boxes
   in Outlook (requires Developer permission).
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 ---
 
-# Missing Image Block in Email Component (Developer)
+# Missing Image Block in Email Component
+
+{% hint style="warning" %}
+Fixing this issue requires Developer permission on your user account.
+{% endhint %}
 
 If a red-x box or a blue question-mark box appears in your sent emails when viewed in Outlook, a missing image block is probably hiding in the email component or template.
 
