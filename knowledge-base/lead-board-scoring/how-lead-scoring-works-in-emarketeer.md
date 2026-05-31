@@ -32,17 +32,6 @@ In this article, you learn how to set up lead score rules step by step, where to
 
 With lead scoring, you see how sales-ready your contacts are and identify marketing qualified leads (MQLs). You award points based on how well a contact fits your buyer persona and how engaged they are with your marketing. You decide which criteria matter and set up score rules around them. The higher the score, the more sales-ready the contact, and the more confidently you can hand them to sales.
 
-## Lead scoring 1.0 in eMarketeer
-
-This first version of lead scoring helps you identify MQLs and bring sales and marketing together. More capabilities — such as automations — are planned for future releases.
-
-With lead scoring today you can:
-
-* Set up your own rules based on marketing engagement, contact card fields, and contact lists. You also choose when points expire.
-* See each contact's lead score on every contact list and on the contact card.
-* Filter contacts by score, for example all contacts above 50.
-* Export contacts as a text file and share them with sales.
-
 ## Key terminology
 
 * **Lead score:** the number of points a contact has.
@@ -66,7 +55,7 @@ Marketing engagement:
 * Form — visited, submitted, or answered in a specific way
 * Landing page — visited or clicked a link
 * SMS — clicked
-* Website — visits. To score web visits, [add the tracking code to your website](https://support.emarketeer.com/knowledgebase/web-monitor/).
+* Website — visits. To score web visits, [install the web tracker script on your website](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
 Information on the contact card:
 

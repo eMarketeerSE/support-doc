@@ -31,17 +31,6 @@ I den här artikeln lär du dig hur du skapar score-regler steg för steg, var d
 
 Med lead scoring ser du hur säljklara dina kontakter är och identifierar marketing qualified leads (MQL). Du tilldelar poäng baserat på hur väl en kontakt matchar din köpar-persona och hur engagerad personen är i din marknadsföring. Du bestämmer vilka kriterier som spelar roll och skapar score-regler kring dem. Ju högre score, desto mer säljklar är kontakten, och desto tryggare kan du lämna över till sälj.
 
-## Lead scoring 1.0 i eMarketeer
-
-Den här första versionen av lead scoring hjälper dig identifiera MQL och föra samman sälj och marknad. Fler funktioner – som automatiseringar – är planerade för kommande releaser.
-
-Med lead scoring idag kan du:
-
-- Skapa dina egna regler baserade på marknadsföringsengagemang, fält på kontaktkortet och kontaktlistor. Du väljer också när poäng går ut.
-- Se varje kontakts lead score på alla kontaktlistor och på kontaktkortet.
-- Filtrera kontakter efter score, till exempel alla kontakter över 50.
-- Exportera kontakter som en textfil och dela dem med sälj.
-
 ## Viktiga begrepp
 
 - **Lead score:** antalet poäng en kontakt har.
@@ -65,7 +54,7 @@ Marknadsföringsengagemang:
 - Formulär – besökte, skickade in eller svarade på ett specifikt sätt
 - Landningssida – besökte eller klickade på en länk
 - SMS – klickade
-- Webbplats – besök. För att score:a webbesök, [lägg till spårningskoden på din webbplats](https://support.emarketeer.com/knowledgebase/web-monitor/).
+- Webbplats – besök. För att score:a webbesök, [installera Web Tracker-skriptet på din webbplats](../../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
 Information på kontaktkortet:
 
