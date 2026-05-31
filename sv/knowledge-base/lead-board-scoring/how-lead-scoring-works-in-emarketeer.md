@@ -31,6 +31,13 @@ I den här artikeln lär du dig hur du skapar score-regler steg för steg, var d
 
 Med lead scoring ser du hur säljklara dina kontakter är och identifierar marketing qualified leads (MQL). Du tilldelar poäng baserat på hur väl en kontakt matchar din köpar-persona och hur engagerad personen är i din marknadsföring. Du bestämmer vilka kriterier som spelar roll och skapar score-regler kring dem. Ju högre score, desto mer säljklar är kontakten, och desto tryggare kan du lämna över till sälj.
 
+Med lead scoring kan du:
+
+- Skapa regler baserade på marknadsföringsengagemang, fält på kontaktkortet och kontaktlistor – inklusive när poäng ska gå ut.
+- Se varje kontakts lead score på alla kontaktlistor och på kontaktkortet.
+- Filtrera kontakter efter score – till exempel alla kontakter över 50.
+- Exportera kontakter som en fil och lämna dem till sälj.
+
 ## Viktiga begrepp
 
 - **Lead score:** antalet poäng en kontakt har.

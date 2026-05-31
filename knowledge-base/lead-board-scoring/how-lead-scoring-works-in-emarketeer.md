@@ -32,6 +32,13 @@ In this article, you learn how to set up lead score rules step by step, where to
 
 With lead scoring, you see how sales-ready your contacts are and identify marketing qualified leads (MQLs). You award points based on how well a contact fits your buyer persona and how engaged they are with your marketing. You decide which criteria matter and set up score rules around them. The higher the score, the more sales-ready the contact, and the more confidently you can hand them to sales.
 
+With lead scoring you can:
+
+* Set up rules based on marketing engagement, contact card fields, and contact lists — including when points expire.
+* See each contact's lead score on every contact list and on the contact card.
+* Filter contacts by score — for example, all contacts above 50.
+* Export contacts as a file and hand them off to sales.
+
 ## Key terminology
 
 * **Lead score:** the number of points a contact has.
