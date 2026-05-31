@@ -4,15 +4,15 @@ description: >-
   whether a journey's starting point is matched.
 ---
 
-# Journeys Triggering Events
+# Journey triggering events
 
-Journey starting points are evaluated only when specific events happen to a contact. Knowing which events trigger evaluation helps you start a journey at the right moment.
+A journey's starting point is not evaluated continuously. It is only evaluated when a specific event occurs for a contact. This page lists every event that triggers evaluation.
 
-## Events that evaluate journey starting points
+## Triggering events
 
-When any of the events below happens for a contact, eMarketeer checks whether a journey should start for that contact.
+When any of the events below occurs for a contact, eMarketeer checks whether that contact matches a journey's starting point and should enter the journey.
 
-### All engagement
+### Engagement
 
 - Email engagement
 - Form engagement
@@ -34,14 +34,12 @@ When any of the events below happens for a contact, eMarketeer checks whether a 
 
 - Lead state change
 
-## What this means for starting points
+## How evaluation works
 
-For a starting point to fire immediately, it must either be one of the events listed above or be paired with a criterion based on one of these events. Otherwise, the journey waits until one of these events occurs for the contact, even if the contact already matches the journey condition.
+eMarketeer evaluates starting points only when a triggering event fires — not on a schedule, and not when a journey is first activated. A contact that already matches the starting point condition when you activate the journey will not enter it until a triggering event occurs for them.
 
-## Example: a contact-list starting point
+## Example: contact list starting point
 
-A common misconception: if you base a starting point on a contact list, the journey will start for every contact in that list when the journey is activated.
+If your starting point filters on a contact list, contacts already in that list when you activate the journey will not enter immediately. eMarketeer waits for a triggering event to fire for each contact individually. It does not have to be "Added to contact list" — any of the events listed above will do.
 
-That is not the case. Because no triggering event has occurred, the journey stays idle. It waits for any triggering event to happen for each individual contact in the list. The event does not have to be "Added to contact list" — any event that evaluates starting points works.
-
-The result is that contacts do not start the journey at the same moment. To avoid this, populate the contact list only after the journey is activated.
+To get contacts into the journey as soon as possible, populate the list after you activate the journey rather than before.

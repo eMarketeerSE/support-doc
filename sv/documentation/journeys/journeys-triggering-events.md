@@ -1,17 +1,17 @@
-﻿---
+---
 description: >-
   En referens som listar de kontakthändelser som får eMarketeer att utvärdera om en Journeys startpunkt är uppfylld.
 ---
 
 # Utlösande händelser för Journeys
 
-Startpunkter i en Journey utvärderas endast när specifika händelser inträffar för en kontakt. Att veta vilka händelser som utlöser utvärderingen hjälper dig att starta en Journey vid rätt tillfälle.
+En Journeys startpunkt utvärderas inte kontinuerligt. Den utvärderas bara när en specifik händelse inträffar för en kontakt. Den här sidan listar alla händelser som utlöser en utvärdering.
 
-## Händelser som utvärderar Journey-startpunkter
+## Utlösande händelser
 
-När någon av händelserna nedan inträffar för en kontakt kontrollerar eMarketeer om en Journey ska starta för den kontakten.
+När någon av händelserna nedan inträffar för en kontakt kontrollerar eMarketeer om kontakten matchar en Journeys startpunkt och ska gå in i Journey.
 
-### All engagemang
+### Engagemang
 
 - Engagemang via e-post
 - Engagemang via formulär
@@ -33,14 +33,12 @@ När någon av händelserna nedan inträffar för en kontakt kontrollerar eMarke
 
 - Ändring av lead-status
 
-## Vad det här betyder för startpunkter
+## Så fungerar utvärderingen
 
-För att en startpunkt ska utlösas omedelbart måste den antingen vara en av händelserna ovan eller kombineras med ett kriterium som baseras på någon av dessa händelser. Annars väntar din Journey tills någon av dessa händelser inträffar för kontakten, även om kontakten redan matchar Journey-villkoret.
+eMarketeer utvärderar startpunkter bara när en utlösande händelse inträffar — inte enligt ett schema och inte när en Journey aktiveras. En kontakt som redan matchar startpunktens villkor när du aktiverar Journey går inte in i den förrän en utlösande händelse inträffar för dem.
 
-## Exempel: en startpunkt baserad på kontaktlista
+## Exempel: startpunkt baserad på kontaktlista
 
-En vanlig missuppfattning: om du baserar en startpunkt på en kontaktlista kommer din Journey att starta för varje kontakt i listan när din Journey aktiveras.
+Om din startpunkt filtrerar på en kontaktlista kommer kontakter som redan finns i listan när du aktiverar Journey inte att gå in direkt. eMarketeer väntar på att en utlösande händelse ska inträffa för varje kontakt individuellt. Det behöver inte vara "Tillagd i kontaktlista" — vilken händelse i listan ovan som helst fungerar.
 
-Så är inte fallet. Eftersom ingen utlösande händelse har inträffat ligger din Journey vilande. Den väntar på att någon utlösande händelse ska inträffa för varje enskild kontakt i listan. Händelsen behöver inte vara "Tillagd i kontaktlista" – vilken händelse som helst som utvärderar startpunkter fungerar.
-
-Resultatet blir att kontakter inte startar din Journey vid samma tidpunkt. För att undvika det fyller du på kontaktlistan först efter att din Journey har aktiverats.
+För att kontakter ska komma in i Journey så snart som möjligt fyller du på listan efter att du har aktiverat Journey, inte innan.
