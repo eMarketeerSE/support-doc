@@ -1,9 +1,5 @@
 # Terms of Service (TOS)
 
-## Terms of Service (TOS)
-
-## Terms of Service
-
 **eMarketeer AB**
 
 _Version 2.0 – Effective Date: March 30, 2025_
@@ -21,7 +17,7 @@ In the terms of service set out in this agreement with appendices (the ‘agreem
 #### Hosting
 
 The operating environment of the Service provided by eMarketeer is being hosted by Amazon Web Services (AWS). AWS handles hosting in a manner certified by external parties, including FBI’s Criminal Justice Information Service, Cloud Security Alliance, Cyber Essentials Plus, The Department of Defence (DoD) Cloud Security Model (SRG), Federal Risk and Authorization Management Program, The Family Educational Rights and Privacy Act (FERPA), The Federal Information Processing Standard (FIPS) Publication 140-2, ISO 9001. AWS maintains certification with robust security standards, such as ISO 27001, SOC 1/2/3 and PCI DSS Level 1. Their commitment to providing a secure hosting covers physical access to used hardware as well as handling catastrophic events like power outage and internet outage.\
-More details on all aspect of our hosting can be found here: [AWS Risk and Compliance](https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-risk-and-compliance/aws-risk-and-compliance.pdf) \
+More details on all aspect of our hosting can be found here: [AWS Risk and Compliance](https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-risk-and-compliance/aws-risk-and-compliance.pdf)\
 Storage of customer data\
 Data is stored within EU.\
 Backup and restore.\
@@ -175,11 +171,10 @@ Compensation applies only if a Customer submits a claim within 5 working days of
 To be eligible for compensation under the SLA, Customers must:
 
 * Notify eMarketeer Support within 5 working days of an incident.
-* Submit a support request including:
-  *
-    * A detailed incident description.
-    * The number of affected users and their locations.
-    * Steps the Customer has taken to resolve the issue.
+* Submit a support request including: \*
+  * A detailed incident description.
+  * The number of affected users and their locations.
+  * Steps the Customer has taken to resolve the issue.
 
 The calculation of unavailability starts once eMarketeer is notified or becomes aware of the incident. eMarketeer will use its best efforts to process compensation claims within 30 days.
 

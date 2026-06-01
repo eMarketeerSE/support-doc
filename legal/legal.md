@@ -1,5 +1,3 @@
-# Legal
-
 # Let’s Talk Legal
 
 At eMarketeer, we value clarity and transparency. This page brings together all the key legal documents that define how we work with you — whether you’re a customer, partner, prospect, or simply exploring our platform.

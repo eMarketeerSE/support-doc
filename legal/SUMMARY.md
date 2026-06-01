@@ -1,9 +1,10 @@
 # Table of contents
 
-* [Terms of Service](terms-of-service.md)
+* [Let’s Talk Legal](legal.md "Legal")
+* [Terms of Service (TOS)](terms-of-service.md)
 * [Data Processing Agreement (SCC)](scc.md)
 * [End User License Agreement (EULA)](end-user-license-agreement-eula.md)
-* [Acceptable Use Policy](acceptable-use-policy.md)
+* [Acceptable Use Policy (AUP)](acceptable-use-policy.md)
 * [Governance, Risk and Compliance](covernance-risk-and-compliance.md)
 * [Cloud Security Measures](cloud-security-measures.md)
 * [Information Security Policy](infromation-secirity-policy.md)

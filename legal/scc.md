@@ -1,14 +1,12 @@
 # Data Processing Agreement (SCC)
 
-## Data Processing Agreement (SCC)
-
 ## Standard Contractual Clauses
 
 **eMarketeer AB**
 
 _Version: 2.0 Effective Date: 2024-01-20_
 
-For the purposes of Article 28(3) of Regulation 2016/679 (the GDPR)  between the Customer (the data controller) and eMarketeer (the data processor) each a ‘party’; together ‘the parties’
+For the purposes of Article 28(3) of Regulation 2016/679 (the GDPR) between the Customer (the data controller) and eMarketeer (the data processor) each a ‘party’; together ‘the parties’
 
 HAVE AGREED on the following Contractual Clauses (the Clauses) in order to meet the requirements of the GDPR and to ensure the protection of the rights of the data subject
 
@@ -113,7 +111,7 @@ According to Article 32 GDPR, the data processor shall also – independently fr
 
 Furthermore, the data processor shall assist the data controller in ensuring compliance with the data controller’s obligations pursuant to Articles 32 GDPR, by _inter alia_ providing the data controller with information concerning the technical and organisational measures already implemented by the data processor pursuant to Article 32 GDPR along with all other information necessary for the data controller to comply with the data controller’s obligation under Article 32 GDPR.
 
-If subsequently – in the assessment of the data controller – mitigation of the identified risks require further measures to be implemented by the data processor, than those already implemented by the data processor pursuant to Article 32 GDPR, the data controller shall specify these additional  measures to be implemented in Appendix C.
+If subsequently – in the assessment of the data controller – mitigation of the identified risks require further measures to be implemented by the data processor, than those already implemented by the data processor pursuant to Article 32 GDPR, the data controller shall specify these additional measures to be implemented in Appendix C.
 
 ### 6. Use of sub-processors
 
@@ -137,7 +135,7 @@ The data processor shall therefore be responsible for requiring that the sub-pro
 
 #### 6.5
 
-A copy of such a sub-processor agreement and subsequent amendments shall – at the data controller’s request – be submitted to the data controller, thereby giving the data controller the opportunity to ensure that the same data protection obligations as set out in the Clauses are imposed on the sub-processor. Clauses on business related issues that do not affect the legal data protection content of the sub-processor agreement, shall not require submission to the data controller.&#x20;
+A copy of such a sub-processor agreement and subsequent amendments shall – at the data controller’s request – be submitted to the data controller, thereby giving the data controller the opportunity to ensure that the same data protection obligations as set out in the Clauses are imposed on the sub-processor. Clauses on business related issues that do not affect the legal data protection content of the sub-processor agreement, shall not require submission to the data controller.
 
 #### 6.6
 
@@ -217,7 +215,7 @@ The data processor’s notification to the data controller shall, if possible, t
 
 #### 9.3
 
-In accordance with Clause 9(2)(a), the data processor shall assist the data controller in notifying the personal data breach to the competent supervisory authority, meaning that the data processor is required to assist in obtaining the information listed below which, pursuant to Article 33(3)GDPR, shall be stated in the data controller’s notification to the competent supervisory authority:&#x20;
+In accordance with Clause 9(2)(a), the data processor shall assist the data controller in notifying the personal data breach to the competent supervisory authority, meaning that the data processor is required to assist in obtaining the information listed below which, pursuant to Article 33(3)GDPR, shall be stated in the data controller’s notification to the competent supervisory authority:
 
 1. The nature of the personal data including where possible, the categories and approximate number of data subjects concerned and the categories and approximate number of personal data records concerned;
 2. the likely consequences of the personal data breach;
@@ -241,7 +239,7 @@ The data processor shall make available to the data controller all information n
 
 #### 11.2
 
-Procedures applicable to the data controller’s audits, including inspections, of the data processor and sub-processors are specified in appendices C.7. and C.8.  &#x20;
+Procedures applicable to the data controller’s audits, including inspections, of the data processor and sub-processors are specified in appendices C.7. and C.8.
 
 #### 11.3
 
@@ -271,7 +269,7 @@ The Clauses shall apply for the duration of the provision of personal data proce
 
 If the provision of personal data processing services is terminated, and the personal data is deleted or returned to the data controller pursuant to Clause 11.1. and Appendix C.4., the Clauses may be terminated by written notice by either party.
 
-### Appendix A Information about the processing&#x20;
+### Appendix A Information about the processing
 
 #### A.1. The purpose of the data processor’s processing of personal data on behalf of the data controller is:
 
@@ -304,7 +302,7 @@ The categories of data subjects whose personal data is processed include
 
 Continuous and as determined by the Customer. When a contact is removed, all corresponding data is also removed.
 
-### Appendix B Authorised sub-processors&#x20;
+### Appendix B Authorised sub-processors
 
 #### B.1. Approved sub-processors
 
@@ -316,9 +314,9 @@ The data controller shall on the commencement of the Clauses authorise the use o
 
 #### B.2. Sub-processors without agreement
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><strong>NAME</strong></td><td valign="top"><strong>Processing Country</strong></td><td valign="top"><strong>ADDRESS</strong></td><td valign="top"><strong>DESCRIPTION OF PROCESSING</strong></td></tr><tr><td valign="top">Full Contact Inc</td><td valign="top">USA</td><td valign="top"><p>624 Market St Ste 226</p><p>PMB 45057</p><p>Denver, Colorado 80202-2523</p></td><td valign="top"><p>Enrichment of profile data, like title and picture</p><p>Disabled by default. Can be enabled under integration settings</p><p> </p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><strong>NAME</strong></td><td valign="top"><strong>Processing Country</strong></td><td valign="top"><strong>ADDRESS</strong></td><td valign="top"><strong>DESCRIPTION OF PROCESSING</strong></td></tr><tr><td valign="top">Full Contact Inc</td><td valign="top">USA</td><td valign="top"><p>624 Market St Ste 226</p><p>PMB 45057</p><p>Denver, Colorado 80202-2523</p></td><td valign="top"><p>Enrichment of profile data, like title and picture</p><p>Disabled by default. Can be enabled under integration settings</p></td></tr></tbody></table>
 
-### Appendix C Instruction pertaining to the use of personal data&#x20;
+### Appendix C Instruction pertaining to the use of personal data
 
 #### C.1. The subject of/instruction for the processing
 
@@ -409,12 +407,12 @@ Measures capable of rapidly restoring the availability of and access to personal
 
 The data processor shall insofar as this is possible – within the scope and the extent of the assistance specified below – assist the data controller in accordance with Clause 9.1. and 9.2. by implementing the following technical and organisational measures:
 
-* &#x20;Complying with duty of notification to supervisory authorities and data subjects in case of a personal data breach;
-* &#x20;Conduct data privacy impact assessments;
+* Complying with duty of notification to supervisory authorities and data subjects in case of a personal data breach;
+* Conduct data privacy impact assessments;
 * Conduct prior consultations with supervisory authorities when a privacy impact assessment makes it necessary;
 * Notice to the Controller if the Processor is of the opinion that an instruction from the Controller is non-compliant with applicable data protection regulations.
 
-#### C.4. Storage period/erasure procedures&#x20;
+#### C.4. Storage period/erasure procedures
 
 Personal data is stored until a contact is deleted, or 1 month after termination of contract after which all the personal data for the account is automatically erased by the data processor.
 
@@ -426,7 +424,7 @@ All processing takes place in EU
 
 #### C.6. Instruction on the transfer of personal data to third countries
 
-If the data controller does not in the Clauses or subsequently provide documented instructions pertaining to the transfer of personal data to a third country, the data processor shall not be entitled within the framework of the Clauses to perform such transfer.&#x20;
+If the data controller does not in the Clauses or subsequently provide documented instructions pertaining to the transfer of personal data to a third country, the data processor shall not be entitled within the framework of the Clauses to perform such transfer.
 
 #### C.7. Procedures for the data controller’s audits, including inspections, of the processing of personal data being performed by the data processor
 
