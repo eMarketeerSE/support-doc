@@ -20,7 +20,7 @@ Köpta listor är också den främsta källan till spam-fällor — gamla e-post
 
 Förtroende börjar med avsändaradressen. Om e-posten visar din företagslogotyp och ditt innehåll men kommer från en orelaterad domän så märker mottagarna det. Med bedräglig e-post överallt är avsändardomänen en av de första sakerna folk kollar.
 
-En egen domän (dittforetag.se) bygger avsändarens rykte över tid och förbättrar chansen att landa i inkorgen. I eMarketeer kan du [konfigurera din egen e-postdomän](../../documentation/custom-domain/custom-email-domain.md) för utskick.
+En egen domän (dittforetag.se) bygger avsändarens rykte över tid och förbättrar chansen att landa i inkorgen. I eMarketeer kan du [konfigurera din egen e-postdomän](/broken/pages/55KHLqA5szGB4OXFO9Ed) för utskick.
 
 ## 3. Rensa din kontaktlista regelbundet
 
@@ -30,12 +30,12 @@ Mottagarleverantörer som Gmail, Yahoo och Microsoft övervakar engagemang. Låg
 
 eMarketeer exkluderar oengagerade kontakter från utskick som standard (valfritt).
 
-- Oengagerade kontakter är de som började ta emot e-post för sex månader sedan eller längre, fick sex eller fler e-postmeddelanden under den perioden, och aldrig öppnade eller klickade.
+* Oengagerade kontakter är de som började ta emot e-post för sex månader sedan eller längre, fick sex eller fler e-postmeddelanden under den perioden, och aldrig öppnade eller klickade.
 
 Några sätt att hantera oengagerade kontakter:
 
-- Använd en Journey för att fånga upp oengagerade kontakter och skicka ett återengagemangsmejl. Om de inte engagerar sig kan Journeyn ta bort eller avregistrera dem.
-- Använd kontaktfiltret för att hitta oengagerade kontakter och lägga dem på en lista med mindre frekventa mejl — eller ta bort dem.
+* Använd en Journey för att fånga upp oengagerade kontakter och skicka ett återengagemangsmejl. Om de inte engagerar sig kan Journeyn ta bort eller avregistrera dem.
+* Använd kontaktfiltret för att hitta oengagerade kontakter och lägga dem på en lista med mindre frekventa mejl — eller ta bort dem.
 
 ## 4. Skicka bara med rättslig grund
 
@@ -71,11 +71,11 @@ eMarketeer skickar inte autosvar till avsändaradressen, så en personlig avsän
 
 Att personalisera e-post med kontaktens namn eller andra specifika data förbättrar engagemanget.
 
-- Högre öppningsfrekvens — namnet i ämnesraden gör att e-posten känns relevant.
-- Högre engagemang — personaliserat innehåll känns skräddarsytt, inte generiskt.
-- Högre konvertering — att adressera kontaktens intressen lyfter resultaten.
-- Starkare relationer — personalisering signalerar att kontakten är viktig.
-- Bättre upplevelse — skräddarsydda meddelanden känns mer positiva och minnesvärda.
+* Högre öppningsfrekvens — namnet i ämnesraden gör att e-posten känns relevant.
+* Högre engagemang — personaliserat innehåll känns skräddarsytt, inte generiskt.
+* Högre konvertering — att adressera kontaktens intressen lyfter resultaten.
+* Starkare relationer — personalisering signalerar att kontakten är viktig.
+* Bättre upplevelse — skräddarsydda meddelanden känns mer positiva och minnesvärda.
 
 Använd personaliseringsfunktionerna i eMarketeer för att infoga fält från kontaktkortet i ämnesraden eller texten.
 
@@ -89,9 +89,9 @@ Ju mer relevant e-posten är för segmentet, desto mer engagemang och konverteri
 
 Den mest uppmärksamhetsgivande delen av en e-post är förhandsvisningen, särskilt på mobilen. Tre element visas i förhandsvisningen:
 
-- Avsändarnamnet — vem e-posten är från.
-- Ämnesraden.
-- Preheadern.
+* Avsändarnamnet — vem e-posten är från.
+* Ämnesraden.
+* Preheadern.
 
 Preheadern är ett utdrag av den första texten i e-posten. En standardpreheader som "Click here to open this email in your web browser" slösar bort möjligheten.
 

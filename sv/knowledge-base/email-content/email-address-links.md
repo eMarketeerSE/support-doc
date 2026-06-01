@@ -1,7 +1,7 @@
 ---
 description: >-
-  Hur du skapar klickbara mailto-länkar och knappar i ett e-postkomponent så
-  att mottagarna kan starta ett svar med ett klick.
+  Hur du skapar klickbara mailto-länkar och knappar i ett e-postkomponent så att
+  mottagarna kan starta ett svar med ett klick.
 ---
 
 # Skapa klickbara länkar och knappar med e-postadresser
@@ -27,7 +27,7 @@ För att göra en text inuti en komponent till en e-postlänk, följ samma steg 
 
 Bästa praxis är att undvika den här typen av länk i brödtexten i en e-postkomponent. De flesta e-postklienter gör redan om vanliga e-postadresser till klickbara länkar, så avsändaren behöver inte lägga till länken manuellt.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/email-address-links/image.png" alt="E-postlänk tillämpad på text i redigeraren"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image.png" alt="E-postlänk tillämpad på text i redigeraren"></div>
 
 Exempel på en e-postlänk tillämpad på text.
 
@@ -39,6 +39,6 @@ Tillvägagångssättet är detsamma — `mailto:`-URL:en läggs i fältet Link U
 2. I fältet Link URL, skriv e-postadressen med prefixet `mailto:`.
 3. Tillämpa länken.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/email-address-links/image.png" alt="E-postlänk tillämpad på en knapp"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image.png" alt="E-postlänk tillämpad på en knapp"></div>
 
 Exempel på en e-postlänk på en knapp.

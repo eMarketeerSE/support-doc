@@ -25,7 +25,7 @@ tags:
   - leads
 ---
 
-# Kom igång med leads
+# Leadhantering
 
 eMarketeer Leads låter marknadsföring kvalificera kontakter utifrån engagemang och persona och sedan leverera dem till säljteam i realtid.
 
@@ -35,7 +35,7 @@ Lead Board ger sälj ett intuitivt sätt att kvalificera och föra leads framåt
 2. Arbeta med leads som säljanvändare.
 3. Använda eMarketeer Leads inuti ditt CRM.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/get-started-leads/theboardclean-1024x576.png" alt="eMarketeer Lead Board med kvalificerade leads"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/theboardclean-1024x576.png" alt="eMarketeer Lead Board med kvalificerade leads"></div>
 
 ## Generera och leverera leads till ett säljteam
 

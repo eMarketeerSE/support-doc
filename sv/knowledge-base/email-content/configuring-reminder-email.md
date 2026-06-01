@@ -36,27 +36,31 @@ Den här guiden täcker två vanliga scenarier: påminna kontakter att läsa ett
 
 Om du inte har byggt påminnelse-mejlet ännu, se guiden om att [skapa ett e-postmeddelande](../getting-started/basics-send-email.md).
 {% endstep %}
+
 {% step %}
 ### Starta skickaprocessen och lägg till de ursprungliga mottagarna
 
 Välj samma kontaktgrupp som du använde för den ursprungliga kampanjen som din första Recipient Source. Om du vill skicka påminnelsen senare, välj "Scheduled Email" som utskickstyp i första steget.
 {% endstep %}
+
 {% step %}
 ### På Steg 2, Send Options, klicka på \[Add More Recipients]
 
 Använd den här knappen för att lägga till det urval av kontakter du vill blockera från påminnelsen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/configuring-reminder-email/rem-add-more.png" alt="På sidan för det andra utskickssteget, klicka på knappen Add More Recipients för att lägga till det urval av kontakter som ska blockeras senare"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-add-more.png" alt="På sidan för det andra utskickssteget, klicka på knappen Add More Recipients för att lägga till det urval av kontakter som ska blockeras senare"></div>
 
 Knappen \[Add More Recipients] på sidan Send Options
 {% endstep %}
+
 {% step %}
 ### Välj "Selection" som andra Recipient Source
 
-<div data-with-frame="true" align="left"><img src="../../../assets/configuring-reminder-email/rem-selection.png" alt="Mottagarlistan av typen Selection är det sista alternativet på sidan för första Recipient Source"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-selection.png" alt="Mottagarlistan av typen Selection är det sista alternativet på sidan för första Recipient Source"></div>
 
 Selection är ett av alternativen på första Recipient Source-sidan
 {% endstep %}
+
 {% step %}
 ### Välj det urval som matchar din påminnelse
 
@@ -64,22 +68,23 @@ Vilket urval du väljer beror på vad påminnelsen handlar om. De två exemplen 
 
 * För att påminna kontakter att läsa ett tidigare e-postmeddelande, bygg ett urval av kontakter som har öppnat det e-postmeddelandet. Det är de kontakterna du kommer att blockera.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/configuring-reminder-email/rem-sel-email-open.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt tidigare e-postmeddelande, och därefter händelsetypen Opened E-mail för att blockera utskicket av påminnelse-mejlet till de kontakter som redan har läst det tidigare e-postmeddelandet"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-sel-email-open.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt tidigare e-postmeddelande, och därefter händelsetypen Opened E-mail för att blockera utskicket av påminnelse-mejlet till de kontakter som redan har läst det tidigare e-postmeddelandet"></div>
 
 Välj kontakter som har öppnat det tidigare e-postmeddelandet som en Recipient Source att blockera i nästa steg
 
 * För att påminna kontakter att registrera sig via ett formulär, bygg ett urval av kontakter som har skickat in det formuläret. Det är de kontakterna du kommer att blockera.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/configuring-reminder-email/rem-sel-event-reg.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt formulär, och därefter händelsetypen Submitted för att blockera e-postutskicket till registrerade på ett formulär i nästa steg"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-sel-event-reg.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt formulär, och därefter händelsetypen Submitted för att blockera e-postutskicket till registrerade på ett formulär i nästa steg"></div>
 
 Välj formulärregistrerade som en Recipient Source att blockera i nästa steg
 {% endstep %}
+
 {% step %}
 ### Sätt urvalets Type till "Block"
 
 Listan Recipients visar nu både din ursprungliga grupp och det nya urvalet. Ändra Type-rullgardinen för urvalet från "Send to" till "Block".
 
-<div data-with-frame="true" align="left"><img src="../../../assets/configuring-reminder-email/rem-type-block.png" alt="Block Recipients-alternativet finns som ett rullgardinsalternativ på raden för Recipient Source"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-type-block.png" alt="Block Recipients-alternativet finns som ett rullgardinsalternativ på raden för Recipient Source"></div>
 
 Blockera utskicket genom att sätta Recipient Source till Block
 
@@ -87,6 +92,7 @@ En kontakt i en blockerad mottagarlista exkluderas från utskicket, även om en 
 
 För ett schemalagt e-postmeddelande omvärderas urvalet över tid. Även om det innehåller noll kontakter när du sätter upp utskicket, kommer det att blockera rätt personer i det ögonblick e-postmeddelandet går ut.
 {% endstep %}
+
 {% step %}
 ### Fortsätt till Checklist och skicka eller schemalägg
 

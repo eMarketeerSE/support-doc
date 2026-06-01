@@ -2,7 +2,7 @@
 
 Sender ID är namnet eller numret som en kontakt ser när de tar emot ditt SMS. Den här artikeln förklarar vad Sender ID är, hur du begär ett eget och var funktionen har begränsningar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/sender-id/Sms_sender_id.png" alt="SMS Sender ID visat på en mobiltelefon"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Sms_sender_id (1).png" alt="SMS Sender ID visat på en mobiltelefon"></div>
 
 När du tar emot ett SMS från en annan mobiltelefon ser du avsändarens nummer. När du skickar SMS via en tjänst som eMarketeer kan avsändarinformationen istället vara en text — vanligtvis ditt företagsnamn.
 
@@ -10,9 +10,9 @@ När du tar emot ett SMS från en annan mobiltelefon ser du avsändarens nummer.
 
 För att använda ditt företagsnamn som avsändare måste Sender ID uppfylla dessa krav:
 
-- Mellan 3 och 11 tecken långt.
-- Endast tecken `A-Z`, `a-z` och `0-9`.
-- Får inte börja med en siffra eller vara ett telefonnummer.
+* Mellan 3 och 11 tecken långt.
+* Endast tecken `A-Z`, `a-z` och `0-9`.
+* Får inte börja med en siffra eller vara ett telefonnummer.
 
 Förfrågningar hanteras manuellt. Om vi tar emot din förfrågan under kontorstid är den vanligtvis klar samma dag, såvida vi inte behöver mer information.
 

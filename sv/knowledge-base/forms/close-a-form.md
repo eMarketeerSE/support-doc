@@ -2,8 +2,6 @@
 description: >-
   Hur du konfigurerar ett formulär för att sluta ta emot svar efter ett angivet
   datum eller ett maximalt antal inlämningar.
-tags:
-  - legacy
 layout:
   width: default
   title:
@@ -22,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+tags:
+  - legacy
 ---
 
 # Formulär: Stäng ett formulär
@@ -32,14 +32,12 @@ Använd det här när ett formulär bara ska vara öppet under en begränsad tid
 
 ## Öppna formulärets publiceringsinställningar
 
-1. I kampanjvyn, klicka på Publish på formuläret.
+1.  I kampanjvyn, klicka på Publish på formuläret.
 
-   <div data-with-frame="true" align="left"><img src="../../../assets/close-a-form/form_publish.png" alt="formpub1"></div>
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_publish.png" alt="formpub1"></div>
+2.  I vänstermenyn, klicka på Open/Close form.
 
-2. I vänstermenyn, klicka på Open/Close form.
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_openclose.png" alt="formpub2"></div>
+3.  Välj de inställningar du behöver för ditt formulär.
 
-   <div data-with-frame="true" align="left"><img src="../../../assets/close-a-form/form_openclose.png" alt="formpub2"></div>
-
-3. Välj de inställningar du behöver för ditt formulär.
-
-   <div data-with-frame="true" align="left"><img src="../../../assets/close-a-form/form_openclosesettings.png" alt="formpub3"></div>
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_openclosesettings.png" alt="formpub3"></div>

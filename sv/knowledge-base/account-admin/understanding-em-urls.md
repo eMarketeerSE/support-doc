@@ -6,7 +6,7 @@ eMarketeer använder flera typer av URL:er, och om du känner till dem kan du v�
 
 Det här är den URL eMarketeer ger dig när du publicerar ett formulär. Alla med länken kan nå formuläret när som helst, så länge formulärkomponenten är aktiv och öppen för svar. Du känner vanligtvis igen den på parametern `&Origin`, som har standardvärdet `&Origin=Direct`.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/understanding-em-urls/direct-URL.png" alt="Exempel på en direkt publishing URL"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/direct-URL.png" alt="Exempel på en direkt publishing URL"></div>
 
 Använd Publishing URL i nästan alla situationer — till exempel en länk i ett inlägg i sociala medier eller på din webbplats — där många olika personer ska kunna öppna formuläret.
 
@@ -16,7 +16,7 @@ När någon öppnar ett formulär via en Publishing URL omdirigeras de till en u
 
 En Session URL är tillfällig och unik för varje besökare. Den skapas när någon öppnar ett formulär och fungerar som en anonym identifierare om de skickar in det. URL:en accepterar ett enda svar och löper ut efter 24 timmar, vad som än sker först. Du känner igen den på parametern `&sessid=`.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/understanding-em-urls/Session-URL.png" alt="Exempel på en session URL"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Session-URL.png" alt="Exempel på en session URL"></div>
 
 Dela inte en Session URL som länk till formuläret — 24-timmarsgränsen och svarsbegränsningen gör den olämplig.
 
@@ -24,13 +24,13 @@ Dela inte en Session URL som länk till formuläret — 24-timmarsgränsen och s
 
 Interna URL:er är dynamiska länkar mellan komponenter och filer inuti eMarketeer. De använder ID-nummer i stället för filsökvägar eller permanenta URL:er. Det gör att du kan flytta komponenter utan att länkar går sönder, och när du kopierar en kampanj uppdateras de duplicerade komponenternas URL:er så att de pekar på de nya kopiorna.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/understanding-em-urls/2021-04-01-09_40_14-Window.png" alt="En intern eMarketeer-URL"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-04-01-09_40_14-Window.png" alt="En intern eMarketeer-URL"></div>
 
 ### Personalised URL
 
 Personalised URLs används när du skickar en formulärlänk till kända kontakter via en eMarketeer Email-komponent. Svar från en Personalised URL kopplas automatiskt till kontakten, så besökaren behöver inte identifiera sig i formuläret. Personalised URLs ser ut ungefär som andra länkar i eMarketeer-mejl, så de är inte alltid lätta att se med blotta ögat.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/understanding-em-urls/scramble-URL.png" alt="Exempel på en Personalised URL"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/scramble-URL.png" alt="Exempel på en Personalised URL"></div>
 
 Använd en Personalised URL när formuläret är avsett för kända mottagare och du vill att svaren ska identifieras automatiskt — till exempel en inbjudan till ett möte eller event. Tänk på att alla svar som lämnas via länken registreras under den ursprungliga mottagarens namn, så vidarebefordrade mejl kan ge oväntade resultat.
 

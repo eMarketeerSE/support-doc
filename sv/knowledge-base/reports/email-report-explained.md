@@ -2,7 +2,7 @@
 
 Den här artikeln förklarar händelsetaggarna i eMarketeers e-postrapport, siffrorna bredvid dem och hur procentvärdena i widgetarna beräknas.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/email-report-explained/Email-Report-Page.png" alt="Exempel på en e-postrapportsida"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-Report-Page.png" alt="Exempel på en e-postrapportsida"></div>
 
 Exempel på en e-postrapportsida.
 
@@ -18,7 +18,7 @@ Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran fö
 
 **Bounced:** mottagarens e-posttjänst accepterade meddelandet men kunde inte leverera det. Vanliga orsaker är en adress som inte längre finns, en felstavad adress, ett skräppostfilter eller en säkerhetspolicy hos mottagaren. För mer om studsar och studsfrekvens, läs [Om e-poststudsar](../email-deliverability/about-email-bounces.md).
 
-**Complaints:** mottagaren klickade på "Report this email and Unsubscribe" i sin e-postklient och klienten rapporterade det tillbaka till eMarketeer. Det avregistrerar också kontakten från framtida utskick genom att sätta den rättsliga grunden för Marketing Sendouts till *Withdrawn*, vilket syns på fliken Legal Basis på kontaktkortet. Ditt eMarketeer-konto tillåts en genomsnittlig klagomålsfrekvens på upp till 0,3 % innan vi måste pausa det för granskning.
+**Complaints:** mottagaren klickade på "Report this email and Unsubscribe" i sin e-postklient och klienten rapporterade det tillbaka till eMarketeer. Det avregistrerar också kontakten från framtida utskick genom att sätta den rättsliga grunden för Marketing Sendouts till _Withdrawn_, vilket syns på fliken Legal Basis på kontaktkortet. Ditt eMarketeer-konto tillåts en genomsnittlig klagomålsfrekvens på upp till 0,3 % innan vi måste pausa det för granskning.
 
 **Delivered:** mottagarens e-posttjänst bekräftade att den tog emot e-posten, att adressen finns och att den kommer att leverera meddelandet till inkorgen. En levererad e-post kan fortfarande filtreras som skräppost innan den når inkorgen, och det rapporteras vanligtvis inte tillbaka.
 
@@ -32,7 +32,7 @@ Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran fö
 
 Värdena i widgetarna baseras på hur många levererade kontakter som interagerade på ett visst sätt. I exemplet nedan skickades och levererades e-postkomponenten till 25 kontakter. 10 öppnade den, och 3 klickade på en länk.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/email-report-explained/EmailReportWidgets.png" alt="Exempel på e-postrapportens widgetar"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/EmailReportWidgets.png" alt="Exempel på e-postrapportens widgetar"></div>
 
 Exempel på värden i e-postrapportens widgetar.
 
@@ -48,7 +48,7 @@ Beräkningarna använder unika kontakter, inte det totala antalet händelser. Om
 
 ## Widget för utskickets hälsa
 
-<div data-with-frame="true" align="left"><img src="../../../assets/email-report-explained/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="Widget för utskickets hälsa"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38 (1).png" alt="Widget för utskickets hälsa"></div>
 
 Exempel på widget för utskickets hälsa.
 

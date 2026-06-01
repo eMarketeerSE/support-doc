@@ -6,10 +6,10 @@ Den här artikeln går igenom förutsättningarna för SuperOffice on-premise-in
 
 För att integrationen ska fungera måste följande gälla:
 
-- NetServer är installerad på din server och nåbar från eMarketeer över HTTP (port 80, 8080 eller 443).
-- Den exponerade NetServer-versionen är `/services84`.
-- Det finns en SuperOffice-användare för integrationen, antingen en licensierad användare med Sales- eller Complete-licens eller en "Other user".
-- SuperOffice REST API tillåter operationerna GET, POST, PATCH och DELETE.
+* NetServer är installerad på din server och nåbar från eMarketeer över HTTP (port 80, 8080 eller 443).
+* Den exponerade NetServer-versionen är `/services84`.
+* Det finns en SuperOffice-användare för integrationen, antingen en licensierad användare med Sales- eller Complete-licens eller en "Other user".
+* SuperOffice REST API tillåter operationerna GET, POST, PATCH och DELETE.
 
 ## REST- och SOAP-API
 
@@ -23,9 +23,9 @@ Om din NetServer inte är publikt exponerad måste du säkerställa att eMarkete
 
 All trafik kommer från en enda eMarketeer-server, så du kan sätta brandväggsregler därefter.
 
-| IP-adress | Värdnamn | Portar |
-| --- | --- | --- |
-| 54.155.30.167 | n/a | 80, 8080, 443 |
+| IP-adress     | Värdnamn | Portar        |
+| ------------- | -------- | ------------- |
+| 54.155.30.167 | n/a      | 80, 8080, 443 |
 
 IP-adressen svarar inte på ping.
 
@@ -40,7 +40,7 @@ eMarketeer behöver en URL som pekar mot katalogen där NetServers webbtjänstfu
 5. Högerklicka på **Contact.svc** och välj **Browse** för att öppna den i din webbläsare.
 6. Webbläsaren visar den fullständiga sökvägen till katalogen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/on-premise-netserver-url-and-user-creation/IIS.png" alt="IIS NetServer-tjänstekatalog"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/IIS.png" alt="IIS NetServer-tjänstekatalog"></div>
 
 Sökvägen (exklusive filnamnet) är den WSDL-URL du ska använda i eMarketeer.
 
@@ -54,8 +54,8 @@ Spara denna URL till nästa steg.
 
 eMarketeer behöver logga in på NetServer som en SuperOffice-användare. Du har två alternativ:
 
-- Skapa en "Other"-användare.
-- Använda en licensierad användare.
+* Skapa en "Other"-användare.
+* Använda en licensierad användare.
 
 Det rekommenderade alternativet är en "Other"-användare eftersom den inte förbrukar någon användarlicens. Observera att "Other"-användare endast kan skapas från desktop-administratören, inte från webb-administratören.
 

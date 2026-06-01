@@ -1,6 +1,7 @@
-﻿---
+---
 description: >-
-  Hur du skapar och konfigurerar sales-team så att varje team tar emot de kvalificerade leads som är mest relevanta för det.
+  Hur du skapar och konfigurerar sales-team så att varje team tar emot de
+  kvalificerade leads som är mest relevanta för det.
 ---
 
 # Sales-team
@@ -15,9 +16,8 @@ Att skapa ett sales-team kräver administratörsrättigheter.
 
 1. Öppna Settings från toppmenyn och klicka på User accounts.
 2. Öppna fliken Sales teams.
-3. Klicka på Create new team.
+3.  Klicka på Create new team.
 
-   <div data-with-frame="true" align="left"><img src="../../../assets/sales-teams/Ska_CC_88rmavbild-2022-06-09-kl.-14.02.44.png" alt="Fliken Sales teams med knappen Create new team synlig"></div>
-
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-09-kl.-14.02.44.png" alt="Fliken Sales teams med knappen Create new team synlig"></div>
 4. Ge teamet ett namn. Om du redan har sales users, bocka i de som ska vara medlemmar.
 5. Klicka på Save changes.

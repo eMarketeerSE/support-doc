@@ -6,14 +6,14 @@ I SuperOffice CRM har varje Person en "huvudströmbrytare" för e-marknadsförin
 
 Om kontakten saknar laglig grund för e-postutskick i marknadsföring är brytaren av (grå). Om kontakten har en laglig grund som tillåter e-marknadsföring är brytaren på (grön).
 
-<div data-with-frame="true" align="left"><img src="../../../assets/import-contacts-from-superoffice-crm/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png" alt="SuperOffice samtyckesbrytare för e-marknadsföring på ett Person-kort"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-11-01-kl.-11.54.25.png" alt="SuperOffice samtyckesbrytare för e-marknadsföring på ett Person-kort"></div>
 
 ## Välj vilka kontakter som ska importeras
 
 När du importerar kontakter från SuperOffice CRM till eMarketeer kan du hoppa över eller inkludera kontakter vars e-marknadsföringsbrytare är av.
 
-- Om kryssrutan är markerad importeras endast kontakter med e-marknadsföringsbrytaren på.
-- Om kryssrutan inte är markerad importeras alla kontakter i Selection eller projektet.
+* Om kryssrutan är markerad importeras endast kontakter med e-marknadsföringsbrytaren på.
+* Om kryssrutan inte är markerad importeras alla kontakter i Selection eller projektet.
 
 ## Hur kontakter identifieras
 

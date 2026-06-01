@@ -8,10 +8,10 @@ En tagg är en informationsbit som beskriver datan eller innehållet den är til
 
 Taggning fyller många syften, inklusive:
 
-- Klassificering
-- Markering av ägarskap
-- Beskrivning av innehållstyp
-- Online-identitet
+* Klassificering
+* Markering av ägarskap
+* Beskrivning av innehållstyp
+* Online-identitet
 
 ## Hur taggar används i eMarketeer
 
@@ -31,9 +31,9 @@ Att tagga kontakter låter dig segmentera dem mer exakt. Du kan sätta taggar ma
 
 Du hittar taggwidgeten i en kampanj (övre högra hörnet) eller på kontaktkortet. För att lägga till en tagg, klicka på plus-ikonen bredvid taggen. Detta öppnar taggwidgeten.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/tags/Skarmavbild-2023-06-21-kl.-10.28.40.png" alt="Taggwidget med plus-ikonen markerad"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.28.40.png" alt="Taggwidget med plus-ikonen markerad"></div>
 
-<div data-with-frame="true" align="left"><img src="../../../assets/tags/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png" alt="Taggwidget som visar listan över tillgängliga taggar"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png" alt="Taggwidget som visar listan över tillgängliga taggar"></div>
 
 ### Taggkategorier
 
@@ -43,7 +43,7 @@ Varje tagg tillhör en kategori. Detta är ett sätt att gruppera olika typer av
 
 Om taggen du vill ha inte finns, klicka på "Create new tag".
 
-<div data-with-frame="true" align="left"><img src="../../../assets/tags/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png" alt="Formulär för att skapa en ny tagg med titel, kategori och färg"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png" alt="Formulär för att skapa en ny tagg med titel, kategori och färg"></div>
 
 Ge din nya tagg en titel. I droplistan väljer du vilken kategori den tillhör. Om ingen kategori passar, skriv ett nytt kategorinamn så skapas det. Avsluta med att välja en färg för taggen och klicka sedan på "Create tag".
 
@@ -59,7 +59,7 @@ I listan med taggar, markera kryssrutan framför taggen du vill tilldela kontakt
 
 Det finns två sätt att ta bort en tagg.
 
-1. I kampanjen eller på kontaktkortet, hovra över en tagg och klicka på "x" för att ta bort den.
+1.  I kampanjen eller på kontaktkortet, hovra över en tagg och klicka på "x" för att ta bort den.
 
-   <div data-with-frame="true" align="left"><img src="../../../assets/tags/Skarmavbild-2023-06-21-kl.-11.10.57.png" alt="Tagg med "x"-ikonen synlig vid hover"></div>
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-11.10.57.png" alt="Tagg med"></div>
 2. Öppna taggwidgeten och avmarkera kryssrutan framför taggen.

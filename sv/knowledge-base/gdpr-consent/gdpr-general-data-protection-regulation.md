@@ -2,7 +2,7 @@
 
 Den här sidan är huvudresursen om General Data Protection Regulation (GDPR) för eMarketeer-användare.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/gdpr-general-data-protection-regulation/600x315xgdpr-flag.png.pagespeed.ic.FWbONW9d6s.png" alt="GDPR-text över en EU-flagga"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/600x315xgdpr-flag.png.pagespeed.ic.FWbONW9d6s.png" alt="GDPR-text över en EU-flagga"></div>
 
 Sidan uppdateras kontinuerligt fram tills GDPR är i full kraft den 25 maj 2018. eMarketeer har planerade ändringar och uppdateringar som levereras löpande fram till det datumet. Efterlevnadsprojektet fokuserar på två områden:
 
@@ -15,13 +15,13 @@ För bakgrund, besök den officiella sidan för [GDPR-direktiven](https://www.eu
 
 ### Läs mer
 
-- [eMarketeers GDPR-översikt](emarketeer-gdpr-overview.md)
-- [eMarketeers GDPR-funktionsfärdplan](is-there-an-emarketeer-gdpr-roadmap.md)
+* [eMarketeers GDPR-översikt](emarketeer-gdpr-overview.md)
+* [eMarketeers GDPR-funktionsfärdplan](is-there-an-emarketeer-gdpr-roadmap.md)
 
 ### Frågor och svar (uppdateras)
 
-- [Hur fungerar samtycke?](how-does-consent-work.md)
-- [Vilka nya funktioner kommer eMarketeer att introducera för att hjälpa till med GDPR?](which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
-- [Vad bör jag göra innan GDPR?](what-should-i-do-before-gdpr.md)
-- [Hur kommer eMarketeer att fungera med SuperOffice under GDPR?](how-will-emarketeer-work-with-superoffice-under-gdpr.md)
-- [Var lagras eMarketeer-data geografiskt?](../account-admin/where-is-emarketeer-data-stored-geographically.md)
+* [Hur fungerar samtycke?](how-does-consent-work.md)
+* [Vilka nya funktioner kommer eMarketeer att introducera för att hjälpa till med GDPR?](which-new-features-will-emarketeer-introduce-to-help-with-gdpr.md)
+* [Vad bör jag göra innan GDPR?](what-should-i-do-before-gdpr.md)
+* [Hur kommer eMarketeer att fungera med SuperOffice under GDPR?](how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+* [Var lagras eMarketeer-data geografiskt?](../account-admin/where-is-emarketeer-data-stored-geographically.md)

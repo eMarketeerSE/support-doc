@@ -1,4 +1,4 @@
-# Lead Board och SuperOffice
+# Lead Board för SuperOffice
 
 eMarketeer Lead Board kan användas helt och hållet via SuperOffice, så sälj kan hantera leads från SuperOffice samtidigt som de använder eMarketeer-webbpanelerna för insikter om kontakter och företag.
 
@@ -8,10 +8,10 @@ Nya leads matchas automatiskt mot kontakter i SuperOffice och tilldelas automati
 
 När du integrerar med SuperOffice Online får du fyra huvudpaneler:
 
-- Lead Board – huvudwebbpanelen där leads levereras och hanteras.
-- Company Summary – sidopanel på företagsvyn som visar en sammanfattning av företaget från eMarketeer.
-- Contact Summary – sidopanel på kontaktvyn som visar data om kontakten från eMarketeer.
-- Automation Queue – visar alla automatiseringar som väntar på att motsvarande kontakt ska matchas eller skapas i SuperOffice.
+* Lead Board – huvudwebbpanelen där leads levereras och hanteras.
+* Company Summary – sidopanel på företagsvyn som visar en sammanfattning av företaget från eMarketeer.
+* Contact Summary – sidopanel på kontaktvyn som visar data om kontakten från eMarketeer.
+* Automation Queue – visar alla automatiseringar som väntar på att motsvarande kontakt ska matchas eller skapas i SuperOffice.
 
 ## Integration
 
@@ -25,7 +25,7 @@ Om SuperOffice-användarens e-post inte hittas i eMarketeer ser personen ett alt
 
 ## Lead Board
 
-<div data-with-frame="true" align="left"><img src="../../../assets/lead-board-and-superoffice/soboard-1024x517.png" alt="SuperOffice-webbpanel som visar Lead Board"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/soboard-1024x517.png" alt="SuperOffice-webbpanel som visar Lead Board"></div>
 
 Du hittar Lead Board på huvudwebbpanelen under SuperOffice-logotypen. Det finns också en genväg i navigeringen.
 
@@ -41,13 +41,13 @@ eMarketeer tilldelar sedan det nya leadet till rätt sales user i eMarketeer. Ti
 
 ## Webbpanelen för contact summary
 
-<div data-with-frame="true" align="left"><img src="../../../assets/lead-board-and-superoffice/socontact-1024x646.png" alt="Contact summary-panel inuti SuperOffice"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/socontact-1024x646.png" alt="Contact summary-panel inuti SuperOffice"></div>
 
 På kontaktvyn i SuperOffice kan du visa eMarketeer-panelen Contact Summary. Den visar berikad data från eMarketeer för kontakten. Matchning görs på e-postadress, och data visas endast om kontakten finns i eMarketeer.
 
 ## Webbpanelen för company summary
 
-<div data-with-frame="true" align="left"><img src="../../../assets/lead-board-and-superoffice/socompany-1024x646.png" alt="Company summary-panel inuti SuperOffice"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/socompany-1024x646.png" alt="Company summary-panel inuti SuperOffice"></div>
 
 På företagsvyn i SuperOffice kan du använda eMarketeer Company Summary, som visar berikad data och en översikt över alla kända kontakter och deras interaktioner i eMarketeer. Företaget identifieras av domänen från dess webbadress.
 

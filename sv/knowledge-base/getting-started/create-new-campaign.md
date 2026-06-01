@@ -10,7 +10,7 @@ Skapa en kampanj som behållare för de e-postmeddelanden, formulär och webbsid
 
 En kampanj samlar relaterade komponenter, så att skapa en är oftast första steget för ett nytt arbete i eMarketeer.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/create-new-campaign/cc1.png" alt="Skapa en kampanj"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cc1.png" alt="Skapa en kampanj"></div>
 
 Skapa en kampanj
 
@@ -18,29 +18,29 @@ Skapa en kampanj
 
 Om du vill att den nya kampanjen ska ligga i en befintlig mapp, navigera till den mappen först.
 
-### 2. Klicka på [Create Campaign] uppe till vänster
+### 2. Klicka på \[Create Campaign] uppe till vänster
 
 ### 3. Ge kampanjen ett unikt namn
 
 Namnet identifierar kampanjen inom eMarketeer och visas aldrig för dina kontakter. Du kan också lägga till en valfri beskrivning, som också bara är intern.
 
-### 4. Klicka på [Create Campaign] längst ned på sidan
+### 4. Klicka på \[Create Campaign] längst ned på sidan
 
 Detta skapar kampanjen och öppnar dess tomma komponentsida.
 
----
+***
 
 ## Vad du gör härnäst
 
 Lägg till din första komponent i kampanjen. Det kan vara en e-postinbjudan, ett anmälningsformulär eller en landningssida.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/create-new-campaign/cc2.png" alt="Knappar för att lägga till nya komponenter"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cc2.png" alt="Knappar för att lägga till nya komponenter"></div>
 
 Knappar för att lägga till nya komponenter
 
 Följande artiklar går igenom varje komponenttyp från början till slut:
 
-- [Skapa din första e-post](basics-creating-email.md)
-- [Skapa ditt första formulär (Legacy)](basics-creating-form.md)
-- [Skapa din första SMS](basics-creating-sms.md)
-- [Skapa din första webbsida](../developer-advanced/creating-first-webpage.md)
+* [Skapa din första e-post](basics-creating-email.md)
+* [Skapa ditt första formulär (Legacy)](basics-creating-form.md)
+* [Skapa din första SMS](basics-creating-sms.md)
+* [Skapa din första webbsida](../developer-advanced/creating-first-webpage.md)

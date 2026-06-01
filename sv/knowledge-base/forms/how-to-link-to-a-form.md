@@ -1,6 +1,7 @@
 ---
 description: >-
-  Hur du lägger till en länk till ett eMarketeer-formulär från en knapp, text eller bild i ett e-post- eller webbsideskomponent.
+  Hur du lägger till en länk till ett eMarketeer-formulär från en knapp, text
+  eller bild i ett e-post- eller webbsideskomponent.
 ---
 
 # Så här länkar du till ett formulär
@@ -13,13 +14,15 @@ Du kan lägga till länkar i text, bilder eller länkelement som knappar. Stegen
 
 Öppna knappens inställningar och klicka på bläddra-knappen bredvid URL-fältet.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-link-to-a-form/2025-03-06_12-32-51.png" alt="Länkkonfigurationspanelen för en knapp."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-32-51.png" alt="Länkkonfigurationspanelen för en knapp."></div>
 
-[<div data-with-frame="true" align="left"><img src="../../../assets/how-to-link-to-a-form/2025-03-06_12-33-19.png" alt="Bläddra-dialogen öppnad från URL-fältet."></div>
+\[
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-33-19.png" alt="Bläddra-dialogen öppnad från URL-fältet."></div>
 
 Klicka på "link to eMarketeer form."
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-link-to-a-form/2025-03-06_12-34-00.png" alt="Dialogen med länkalternativ för formulär."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="Dialogen med länkalternativ för formulär."></div>
 
 ## Välj länkalternativen
 

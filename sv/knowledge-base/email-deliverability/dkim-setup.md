@@ -15,6 +15,6 @@ Om eMarketeer rapporterar att DKIM inte fungerar för din domän kan de obligato
 
 Om du inte hanterar DNS själv kan du använda e-postfunktionen i dialogen för att skicka nödvändig DNS-information till den som gör det.
 
-För hela uppsättningen av e-postdomän, se [guiden för anpassad e-postdomän](../../documentation/custom-domain/custom-email-domain.md).
+För hela uppsättningen av e-postdomän, se [guiden för anpassad e-postdomän](/broken/pages/55KHLqA5szGB4OXFO9Ed).
 
 Om du behöver hjälp, kontakta [support@emarketeer.com](mailto:support@emarketeer.com).

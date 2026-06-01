@@ -2,7 +2,7 @@
 icon: arrow-progress
 ---
 
-# Översikt över Journeys
+# Journeys
 
 En Journey är en sekventiell lista med åtgärder (steg) som körs på varje kontakt som matchar kriterierna i utgångspunkten.
 
@@ -10,7 +10,7 @@ Journeys är automationsmotorn i eMarketeer. De låter dig bearbeta kontakter, u
 
 ## Introduktion till Journeys
 
-<div data-with-frame="true" align="left"><img src="../../../assets/journeys/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Illustration av Journey"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Illustration av Journey"></div>
 
 När en ny kontakt matchar kriterierna (filtret) för en Journey går kontakten in i den Journeyn och rör sig genom stegen i ordning.
 
@@ -18,10 +18,10 @@ När en ny kontakt matchar kriterierna (filtret) för en Journey går kontakten 
 
 Journeys kan användas för att:
 
-- Bearbeta leads från din webbplats
-- Automatisera uppgifter i eMarketeer
-- Skapa och uppdatera uppgifter i ditt CRM
-- Automatisera ditt Lead Board
+* Bearbeta leads från din webbplats
+* Automatisera uppgifter i eMarketeer
+* Skapa och uppdatera uppgifter i ditt CRM
+* Automatisera ditt Lead Board
 
 Med mera. Filtret som utgångspunkt, kombinerat med tillgänglig logik och steg, ger dig ett kraftfullt verktyg för att automatisera vilken process som helst.
 

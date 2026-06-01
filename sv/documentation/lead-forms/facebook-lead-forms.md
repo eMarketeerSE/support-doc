@@ -6,8 +6,8 @@ När du annonserar på Facebook kan du koppla en Call to Action till dina annons
 
 ## Krav
 
-- En Facebook-affärsenhet med åtkomst till en eller flera sidor.
-- En personlig Facebook-profil med åtkomst till den affärsenheten.
+* En Facebook-affärsenhet med åtkomst till en eller flera sidor.
+* En personlig Facebook-profil med åtkomst till den affärsenheten.
 
 [Läs mer om att skapa Lead Forms på Facebook här](https://www.facebook.com/business/help/397336587121938?id=735435806665862).
 
@@ -15,10 +15,10 @@ När du annonserar på Facebook kan du koppla en Call to Action till dina annons
 
 När kopplingen är aktiv kan inskick:
 
-- Skapa och uppdatera kontakter.
-- Sätta lead score.
-- Trigga Journeys.
-- Skicka leads till sälj.
+* Skapa och uppdatera kontakter.
+* Sätta lead score.
+* Trigga Journeys.
+* Skicka leads till sälj.
 
 ## Kom igång med Facebook Lead Forms
 
@@ -30,15 +30,15 @@ I Facebook-popupen, logga in med din personliga profil för att identifiera dig.
 
 Välj sedan vilka businesses du vill ta emot leads från. Du kan välja vilken business du har åtkomst till.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.21.png" alt="Skärm för val av Facebook-business"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.21.png" alt="Skärm för val av Facebook-business"></div>
 
 Klicka på "Continue". Från de valda businesses väljer du de sidor du vill ansluta. Du kan välja alla sidor eller specifika.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.06.31.png" alt="Skärm för val av Facebook-sidor"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.06.31.png" alt="Skärm för val av Facebook-sidor"></div>
 
 Slutligen, godkänn eMarketeers behörigheter och spara anslutningen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Bekräftelse av Facebook-behörigheter"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Bekräftelse av Facebook-behörigheter"></div>
 
 Du är nu ansluten.
 
@@ -52,15 +52,15 @@ När dina leadannonser är publicerade, [använd det här verktyget](https://dev
 
 När något inskick anländer, riktigt eller test, skickas det automatiskt till eMarketeer. Du hittar dessa kontakter under Contacts i Engagement-filtret.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/facebook-lead-forms/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement-filter som visar Facebook-leadsinskick"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement-filter som visar Facebook-leadsinskick"></div>
 
 ## Bearbeta inkommande leads från Facebook
 
 När leads börjar komma in och du ser ditt test i Engagement-filtret kan du bearbeta dem. Du kan:
 
-- Sätta lead score.
-- Starta Journeys.
-- Skapa leads på Lead Board.
+* Sätta lead score.
+* Starta Journeys.
+* Skapa leads på Lead Board.
 
 ## Felsökning
 
@@ -68,7 +68,7 @@ När leads börjar komma in och du ser ditt test i Engagement-filtret kan du bea
 
 När du skapar ett [test-lead](https://developers.facebook.com/tools/lead-ads-testing/) ska statuskolumnen visa "Success". Om den visar "Failed" med "CRM access"-felet nedan behöver du ge eMarketeer åtkomst till dina leads.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/facebook-lead-forms/image.png" alt="CRM access-fel från Meta Lead Ads Testing-verktyget"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image (1).png" alt="CRM access-fel från Meta Lead Ads Testing-verktyget"></div>
 
 Så här löser du det:
 

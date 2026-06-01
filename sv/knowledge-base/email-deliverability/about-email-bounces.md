@@ -8,8 +8,8 @@ Studsar och klagomål påverkar om dina e-postmeddelanden når inkorgen. Att hå
 
 En studs innebär att ett e-postmeddelande inte kunde nå mottagarens brevlåda. Studsar delas in i två typer: mjuka och hårda.
 
-- **Mjuk studs:** e-postmeddelandet levererades inte på grund av ett tillfälligt problem, till exempel en full brevlåda eller en e-postserver som inte svarar.
-- **Hård studs:** e-postmeddelandet kommer aldrig att nå den här adressen. Adressen eller dess domän finns inte.
+* **Mjuk studs:** e-postmeddelandet levererades inte på grund av ett tillfälligt problem, till exempel en full brevlåda eller en e-postserver som inte svarar.
+* **Hård studs:** e-postmeddelandet kommer aldrig att nå den här adressen. Adressen eller dess domän finns inte.
 
 Studsfrekvensen är antalet ej levererade adresser dividerat med det totala antalet adresserade e-postmeddelanden.
 
@@ -23,9 +23,9 @@ En acceptabel studsfrekvens ligger runt 1–3 %. Om din är högre bör du se ö
 
 Om eMarketeer vet att en adress är dålig filtreras den bort från utskicket. En adress räknas som dålig när:
 
-- Den har felaktig syntax — till exempel saknas `@` i adressen.
-- Den hårdstudsade i ett tidigare utskick.
-- Den mjukstudsade i tre tidigare utskick.
+* Den har felaktig syntax — till exempel saknas `@` i adressen.
+* Den hårdstudsade i ett tidigare utskick.
+* Den mjukstudsade i tre tidigare utskick.
 
 Filtreringen hjälper, men eMarketeer är inget verktyg för att rensa listor. Om du importerar adresser som tidigare har studsat eller är ogiltiga på annat sätt blockeras de inte vid importen. Resultatet blir en hög studsfrekvens, spamklagomål eller avregistreringar.
 
@@ -33,7 +33,7 @@ Filtreringen hjälper, men eMarketeer är inget verktyg för att rensa listor. O
 
 Du ser studsfrekvensen i e-postrapporten. Håll din genomsnittliga studsfrekvens under 5 %, annars pausas dina utskick för granskning.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/about-email-bounces/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="studsfrekvens som visas i e-postrapporten"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="studsfrekvens som visas i e-postrapporten"></div>
 
 ### Vad händer om min studsfrekvens är för hög?
 
@@ -41,9 +41,9 @@ eMarketeer kör utskicket åt dig och tillämpar säkerhetsåtgärder för e-pos
 
 ### Hur håller jag en låg studsfrekvens?
 
-- **Använd opt-in-formulär.** Det bästa sättet att säkerställa att din kontaktlista innehåller giltiga adresser är att samla in dem via opt-in-formulär, där kontakter uttryckligen ger sitt tillstånd att få e-post från dig. Du kan använda ett eMarketeer-formulär på din webbplats. Double opt-in är ännu bättre — kontakter måste bekräfta sin adress genom att klicka på en länk i ett bekräftelsemejl innan de läggs till.
-- **Arbeta med din kontaktlista löpande.** Håll koll på dina kontakters engagemang. Om en kontakt har studsat eller inte öppnat dina senaste utskick kan du överväga en återengageringskampanj för att se vilka som fortfarande vill höra från dig.
-- **Var relevant.** Engagerade kontakter är grunden för ett bra avsändarrykte. Skicka innehåll som kontakter vill läsa så får du fler öppningar och klick och färre studsar och klagomål. ISP:er märker skillnaden och belönar den.
+* **Använd opt-in-formulär.** Det bästa sättet att säkerställa att din kontaktlista innehåller giltiga adresser är att samla in dem via opt-in-formulär, där kontakter uttryckligen ger sitt tillstånd att få e-post från dig. Du kan använda ett eMarketeer-formulär på din webbplats. Double opt-in är ännu bättre — kontakter måste bekräfta sin adress genom att klicka på en länk i ett bekräftelsemejl innan de läggs till.
+* **Arbeta med din kontaktlista löpande.** Håll koll på dina kontakters engagemang. Om en kontakt har studsat eller inte öppnat dina senaste utskick kan du överväga en återengageringskampanj för att se vilka som fortfarande vill höra från dig.
+* **Var relevant.** Engagerade kontakter är grunden för ett bra avsändarrykte. Skicka innehåll som kontakter vill läsa så får du fler öppningar och klick och färre studsar och klagomål. ISP:er märker skillnaden och belönar den.
 
 Om du vill lära dig mer tar det här blogginlägget upp [5 sätt att minska studsfrekvensen för e-post](https://www.emarketeer.com/blog/reduce-email-bounce-rate/).
 

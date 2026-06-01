@@ -48,7 +48,7 @@ Klicka på ⋮-menyn och välj More Tools > Developer Tools.
 
 I panelen som öppnas väljer du fliken Network. Håll panelen öppen medan du återskapar problemet.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/generate-har-file/SCR-20240522-jbvs.png" alt="Chrome DevTools med Network-fliken öppen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20240522-jbvs.png" alt="Chrome DevTools med Network-fliken öppen"></div>
 {% endstep %}
 
 {% step %}
@@ -56,7 +56,7 @@ I panelen som öppnas väljer du fliken Network. Håll panelen öppen medan du �
 
 Rensa loggarna innan du återskapar problemet genom att klicka på rensa-knappen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/generate-har-file/SCR-20240522-jcfi.png" alt="knappen för att rensa nätverksloggar i DevTools"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20240522-jcfi.png" alt="knappen för att rensa nätverksloggar i DevTools"></div>
 {% endstep %}
 
 {% step %}
@@ -64,7 +64,7 @@ Rensa loggarna innan du återskapar problemet genom att klicka på rensa-knappen
 
 Leta efter den runda inspelningsknappen längst upp till vänster på fliken. Se till att den är röd. Om den är grå klickar du på den en gång för att starta inspelningen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/generate-har-file/SCR-20240522-jcqt.png" alt="röd inspelningsknapp aktiv på Network-fliken"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20240522-jcqt.png" alt="röd inspelningsknapp aktiv på Network-fliken"></div>
 {% endstep %}
 
 {% step %}
@@ -72,7 +72,7 @@ Leta efter den runda inspelningsknappen längst upp till vänster på fliken. Se
 
 Om den inte redan spelar in, kryssa i rutan Preserve log.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/generate-har-file/SCR-20240522-jupc.png" alt="kryssrutan Preserve log på Network-fliken"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20240522-jupc.png" alt="kryssrutan Preserve log på Network-fliken"></div>
 {% endstep %}
 
 {% step %}
@@ -86,7 +86,7 @@ Om den inte redan spelar in, kryssa i rutan Preserve log.
 
 Klicka på nedladdningsknappen, Export HAR, och spara filen till din dator som HAR with Content.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/generate-har-file/SCR-20240522-jdas.png" alt="alternativet Export HAR i nedladdningsmenyn"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SCR-20240522-jdas.png" alt="alternativet Export HAR i nedladdningsmenyn"></div>
 {% endstep %}
 
 {% step %}

@@ -1,8 +1,7 @@
-﻿---
+---
 description: >-
-  Hur du förgrenar formulärfrågor till olika sidor eller visar och döljer frågor på samma sida baserat på en respondents tidigare svar.
-tags:
-  - legacy
+  Hur du förgrenar formulärfrågor till olika sidor eller visar och döljer frågor
+  på samma sida baserat på en respondents tidigare svar.
 layout:
   width: default
   title:
@@ -21,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+tags:
+  - legacy
 ---
 
 # Skapa förgrenade frågevägar och använd visningsregler för frågor i formulär
@@ -40,11 +41,11 @@ Regeln ändrar vilken sida besökaren landar på när hen klickar på Next Page.
 
 För att sätta upp detta använder du en radioknappsfråga där varje svar har en Skip to Page-regel. Frågor om Meeting A finns på sida 2, frågor om Meeting B på sida 3.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/question-branching-display-rules/pn_21-07-12_11-42-16.png" alt="Radioknappsfråga med Skip to Page-regler som dirigerar varje svar till en annan sida"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-12_11-42-16.png" alt="Radioknappsfråga med Skip to Page-regler som dirigerar varje svar till en annan sida"></div>
 
 Det valda svaret flyttar besökaren till den matchande sidan. För att hindra en besökare som skickats till sida 2 från att fortsätta in i Meeting B-frågorna på sida 3, dubbelklickar du på Next Page-knappen på sida 2 och sätter den att hoppa fram till sida 4.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/question-branching-display-rules/pn_21-07-12_11-45-47.png" alt="Next Page-knapp konfigurerad att hoppa från sida 2 direkt till sida 4"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-12_11-45-47.png" alt="Next Page-knapp konfigurerad att hoppa från sida 2 direkt till sida 4"></div>
 
 ## Visningsregler för frågor
 
@@ -56,6 +57,6 @@ Använd en checkbox-fråga där besökaren väljer Meeting A, Meeting B eller b�
 
 Visningsregler konfigureras per fråga och stöder flera svar — eller kombinationer av svar — i den föregående frågan. Checkbox-svar är inte ömsesidigt uteslutande, så med fler än två alternativ kan du visa en fråga endast för specifika kombinationer.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/question-branching-display-rules/pn_21-07-12_11-51-15.png" alt="Visningsregel konfigurerad på en fråga, inställd att visas endast när ett specifikt checkbox-svar är valt i den föregående frågan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-12_11-51-15.png" alt="Visningsregel konfigurerad på en fråga, inställd att visas endast när ett specifikt checkbox-svar är valt i den föregående frågan"></div>
 
 En fråga kan inte både vara obligatorisk och dold. Om en fråga har aktiva visningsregler ignoreras inställningen för obligatorisk.

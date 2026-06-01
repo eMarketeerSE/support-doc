@@ -6,9 +6,9 @@ eMarketeer har ett inbyggt system för samtyckeshantering som spårar vilka du f
 
 I vissa fall är meddelandet du vill skicka inte ett marknadsföringsmeddelande, och du behöver att kontakten tar emot det oavsett samtyckesinställningar. Exempel:
 
-- Viktig serviceinformation till kunder
-- Bekräftelsemeddelanden
-- Leverans av efterfrågad information
+* Viktig serviceinformation till kunder
+* Bekräftelsemeddelanden
+* Leverans av efterfrågad information
 
 För att skicka ett meddelande som åsidosätter samtyckesinställningarna, markera utskicket som ett "transaktionellt meddelande".
 
@@ -18,7 +18,7 @@ Att skicka marknadsföringsmeddelanden utan samtycke är olagligt. Använd endas
 
 Du ser den här inställningen när du adresserar ditt meddelande på standardskärmen för utskick.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/transactional-sendouts/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Utskicksskärm med inställningen för transaktionellt meddelande markerad"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Utskicksskärm med inställningen för transaktionellt meddelande markerad"></div>
 
 ## Skicka ett meddelande i en Journey
 
@@ -28,12 +28,12 @@ För att avgöra om du ska använda transaktionellt meddelande i en Journey, fr�
 
 Vanliga scenarier:
 
-- Leverans av efterfrågat material, till exempel en e-boksnedladdning
-- Bekräftelse av en prenumeration eller registrering
-- Tack-meddelanden
+* Leverans av efterfrågat material, till exempel en e-boksnedladdning
+* Bekräftelse av en prenumeration eller registrering
+* Tack-meddelanden
 
 När du inte ska använda ett transaktionellt meddelande:
 
-- Drip-kampanjer som skickar flera meddelanden över tid
-- Nurture-kampanjer
-- Typiska marknadsföringsmeddelanden som är oönskade
+* Drip-kampanjer som skickar flera meddelanden över tid
+* Nurture-kampanjer
+* Typiska marknadsföringsmeddelanden som är oönskade

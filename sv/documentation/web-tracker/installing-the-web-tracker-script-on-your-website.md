@@ -12,7 +12,7 @@ Innan du börjar behöver du ditt unika Tracker ID och skript.
 2. Gå till [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). Du måste vara administratör för att komma åt den här sidan.
 3. Kopiera ditt Tracker ID och skript. Du behöver dem under installationen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/installing-the-web-tracker-script-on-your-website/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>
 
 ## Alternativ 1: Enkel installation (rekommenderas)
 
@@ -23,13 +23,13 @@ Vi tillhandahåller en färdig mallfil som du kan importera direkt till GTM.
 1. Ladda ner mallfilen: [Hämta mallfilen här](https://support.emarketeer.com/wp-content/uploads/2026/03/emarketeer-tracker.tpl).
 2. Öppna Google Tag Manager och välj din webbplats container.
 3. Lägg till eMarketeer-taggmallen:
-   - I vänstermenyn, gå till Templates, sedan Tag Templates, sedan New.
-   - Klicka på Import, välj `.tpl`-filen du laddade ner och klicka på Save.
+   * I vänstermenyn, gå till Templates, sedan Tag Templates, sedan New.
+   * Klicka på Import, välj `.tpl`-filen du laddade ner och klicka på Save.
 4. Skapa taggen med mallen:
-   - Gå till Tags, sedan New.
-   - Klicka på Tag Configuration och välj "eMarketeers Tracker Helper" (mallen du just lade till).
-   - Ange ditt Tracker ID när du ombeds.
-   - Godkänn eventuella efterfrågade behörigheter.
+   * Gå till Tags, sedan New.
+   * Klicka på Tag Configuration och välj "eMarketeers Tracker Helper" (mallen du just lade till).
+   * Ange ditt Tracker ID när du ombeds.
+   * Godkänn eventuella efterfrågade behörigheter.
 5. Publicera din container i GTM.
 
 Trackern är nu igång och respekterar din cookie-banner.

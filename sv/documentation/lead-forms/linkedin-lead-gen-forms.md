@@ -6,10 +6,10 @@ När du annonserar på LinkedIn kan du koppla en Call to Action till dina annons
 
 Som standard låter LinkedIn dig ladda ner inskickade leads som en CSV-fil som du bearbetar manuellt. Med eMarketeers LinkedIn-kopplare skickas varje inskick från Lead Gen Forms direkt in i eMarketeer där det kan:
 
-- Skapa och uppdatera kontakter.
-- Sätta lead score.
-- Trigga Journeys.
-- Skicka leads till sälj.
+* Skapa och uppdatera kontakter.
+* Sätta lead score.
+* Trigga Journeys.
+* Skicka leads till sälj.
 
 ## Kom igång med LinkedIn Lead Gen Forms
 
@@ -21,7 +21,7 @@ Obs: du ansluter med din personliga LinkedIn-profil, vilket ger eMarketeer åtko
 
 När anslutningen är klar ser du listan över Ad Accounts som är tillgängliga för att ta emot leads från.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="Lista över LinkedIn Ad Accounts i eMarketeer-kopplingen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12 (1).png" alt="Lista över LinkedIn Ad Accounts i eMarketeer-kopplingen"></div>
 
 Kryssa i de Ad Accounts du vill ta emot leads från. När du kryssar i ett Ad Account skickas inkommande leads från alla Lead Gen Forms på det Ad Account automatiskt till eMarketeer.
 
@@ -39,16 +39,16 @@ Obs: se till att du inte når kontogränsen för antal kontakter. Om gränsen ä
 
 Detta är de fält eMarketeer använder från LinkedIn (när de skickas in) för att skapa eller uppdatera kontakter:
 
-- Email
-- FirstName
-- LastName
-- Phone
-- City
-- ZipCode
-- Country
-- State
-- Title
-- Company
+* Email
+* FirstName
+* LastName
+* Phone
+* City
+* ZipCode
+* Country
+* State
+* Title
+* Company
 
 All annan inskickad information visas i tidslinjehändelsen på kontaktkortet.
 
@@ -64,16 +64,16 @@ Skapa först formuläret och annonsen i LinkedIn. Klicka sedan på "Preview" på
 
 När leads kommer in i eMarketeer kommer du åt dem via Contact Filter som Engagement.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact Filter som visar LinkedIn-engagemangsalternativ"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233 (1).png" alt="Contact Filter som visar LinkedIn-engagemangsalternativ"></div>
 
 Med det här filtret kan du hämta alla kontakter som:
 
-- Skickat in någon LinkedIn Lead Gen Form.
-- Skickat in en specifik Lead Gen Form.
-- Svarat på formuläret på ett specifikt sätt.
+* Skickat in någon LinkedIn Lead Gen Form.
+* Skickat in en specifik Lead Gen Form.
+* Svarat på formuläret på ett specifikt sätt.
 
 Eftersom detta engagemang är en del av Contact Filter kan du använda samma urval i:
 
-- Contact Lead Score.
-- Journeys, som startpunkt eller som if/else-villkor.
-- Kvalificering av leads för Lead Board.
+* Contact Lead Score.
+* Journeys, som startpunkt eller som if/else-villkor.
+* Kvalificering av leads för Lead Board.

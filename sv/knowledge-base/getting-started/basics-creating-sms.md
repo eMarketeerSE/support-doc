@@ -42,13 +42,13 @@ Klicka på **Add SMS** på kampanjsidan.
 
 * Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
-<div data-with-frame="true" align="left"><img src="../../../assets/basics-creating-sms/cs1.png" alt="Knappen Add SMS på kampanjsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs1.png" alt="Knappen Add SMS på kampanjsidan"></div>
 {% endstep %}
 
 {% step %}
 ### Fyll i inställningar, välj en mall och skapa SMS:et
 
-<div data-with-frame="true" align="left"><img src="../../../assets/basics-creating-sms/cs2.png" alt="SMS-inställningar med namnfält och mallval"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs2.png" alt="SMS-inställningar med namnfält och mallval"></div>
 
 **Inställningar**
 
@@ -72,7 +72,7 @@ Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard
 
 Nedanför hittar du SMS-testfunktionen, som låter dig skicka SMS:et till dig själv för att se hur det ser ut när det kommer fram. Länkar i test-SMS fungerar inte — skicka SMS:et på vanligt sätt om du behöver testa länkar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/basics-creating-sms/cs_edit_view.png" alt="SMS-redigeraren med meddelandefält, Sender ID och testskick"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs_edit_view.png" alt="SMS-redigeraren med meddelandefält, Sender ID och testskick"></div>
 {% endstep %}
 
 {% step %}

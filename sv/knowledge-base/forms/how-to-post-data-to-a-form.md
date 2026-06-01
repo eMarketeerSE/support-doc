@@ -1,8 +1,7 @@
-﻿---
+---
 description: >-
-  Hur du skickar svar till ett eMarketeer-formulär programmatiskt från din egen webbplats eller ett externt system.
-tags:
-  - legacy
+  Hur du skickar svar till ett eMarketeer-formulär programmatiskt från din egen
+  webbplats eller ett externt system.
 layout:
   width: default
   title:
@@ -21,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+tags:
+  - legacy
 ---
 
 # Så här postar du data till ett formulär
@@ -33,15 +34,15 @@ Den hostade versionen av ett formulär täcker många fall, men ibland behöver 
 
 Du måste alltid skapa formuläret i eMarketeer först. Formuläret definierar vilka frågor du vill ha svar på. När det väl finns kan du posta svar till det på flera sätt:
 
-- Hämta den direkta URL:en och låt besökare svara på det hostade formuläret (täcks inte här).
-- Lägg in det hostade formuläret som iframe på din webbplats (täcks inte här).
-- Lägg HTML-koden för formuläret på din webbplats.
-- Använd ett skript för att posta data till formuläret programmatiskt.
+* Hämta den direkta URL:en och låt besökare svara på det hostade formuläret (täcks inte här).
+* Lägg in det hostade formuläret som iframe på din webbplats (täcks inte här).
+* Lägg HTML-koden för formuläret på din webbplats.
+* Använd ett skript för att posta data till formuläret programmatiskt.
 
 Varje formulär har två viktiga egenskaper:
 
-- En URL att posta datan till.
-- Inmatningsfält med ett namn och ett värde.
+* En URL att posta datan till.
+* Inmatningsfält med ett namn och ett värde.
 
 Om du POST:ar (eller GET:ar) svaren till den URL:en med rätt name/value-par sparas dina svar i eMarketeer.
 
@@ -49,25 +50,25 @@ Om du POST:ar (eller GET:ar) svaren till den URL:en med rätt name/value-par spa
 
 Skapa ett formulär i eMarketeer med en kontaktregistrering och eventuella andra frågor du behöver.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png" alt="Ett formulär som skapas i eMarketeer."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png" alt="Ett formulär som skapas i eMarketeer."></div>
 
 ## 2. Hämta HTML-koden för formuläret
 
 Klicka på "publish" på formuläret.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-post-data-to-a-form/form_publish.png" alt="Publiceringsknappen på ett formulär."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_publish (1).png" alt="Publiceringsknappen på ett formulär."></div>
 
 Klicka sedan på "Website integration."
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-post-data-to-a-form/form_websiteintegration.png" alt="Alternativet för webbintegration."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_websiteintegration.png" alt="Alternativet för webbintegration."></div>
 
 Klicka på "GET CODE" under `<FORM>`-sektionen för att öppna formulärkoden. Om reCAPTCHA är aktivt på ditt konto behöver du lägga till en domän i domänfältet innan du kan komma åt koden.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-post-data-to-a-form/form_formcode.png" alt="GET CODE-knappen under FORM-sektionen."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_formcode.png" alt="GET CODE-knappen under FORM-sektionen."></div>
 
 Formulärkoden visas.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png" alt="Den genererade HTML-koden för formuläret."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png" alt="Den genererade HTML-koden för formuläret."></div>
 
 Du kan klistra in den här koden direkt på din webbplats. Den postar svaren till eMarketeer och visar sedan tacksidan.
 
@@ -81,4 +82,4 @@ När du har URL:en och inmatningsfälten fungerar varje metod som postar till de
 
 Om du bäddar in formuläret på din webbplats kanske du vill skicka besökare till din egen tacksida i stället för den eMarketeer-hostade. För att ändra omdirigeringen redigerar du formuläret i eMarketeer och klickar på "Thank you page." Välj "Use custom URL" och ange URL:en att omdirigera till.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/how-to-post-data-to-a-form/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png" alt="Inställningen för egen tacksida på ett formulär."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png" alt="Inställningen för egen tacksida på ett formulär."></div>

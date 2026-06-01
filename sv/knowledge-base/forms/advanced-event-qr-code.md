@@ -2,8 +2,6 @@
 description: >-
   Hur du genererar en kontaktspecifik QR-kod som skickar en e-postadress till
   ett formulär och möjliggör automatisk event-närvaro-registrering vid scanning.
-tags:
-  - legacy
 layout:
   width: default
   title:
@@ -22,6 +20,8 @@ layout:
     visible: true
   actions:
     visible: true
+tags:
+  - legacy
 ---
 
 # Formulärspecifik QR-kodgenerering för att skanna närvaro på event (avancerat)
@@ -30,7 +30,7 @@ Den här guiden visar hur du bygger en QR-kod som, när den skannas, skickar kon
 
 Standardgeneratorn för QR-koder kan skapa en QR-kod från valfritt kontaktfält. Den här avancerade varianten pekar koden mot en URL för formulärmottagare, så att skanning av koden automatiskt registrerar kontakten. Lite kunskap om HTML och URL:er hjälper innan du börjar.
 
-* * *
+***
 
 ### Det här behöver du för att börja
 
@@ -46,7 +46,7 @@ Platshållarna `M_VALUE` och `NAME_VALUE` är det du ersätter med värden från
 
 Öppna rapportsidan för det formulär där närvaron ska registreras och öppna sedan formulärets integrationskod för webbplats.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/advanced-event-qr-code/formintegrationcodeguide.png" alt="Steg-för-steg-illustration av hur du hittar formulärets integrationskod"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/formintegrationcodeguide.png" alt="Steg-för-steg-illustration av hur du hittar formulärets integrationskod"></div>
 
 Guide till formulärets integrationskod
 
@@ -57,16 +57,17 @@ Guide till formulärets integrationskod
 
 Hitta sedan de två värdena i integrationskoden. M-värdet identifierar formuläret. NAME-värdet identifierar den specifika frågan — i det här fallet den fråga som lagrar kontaktens e-postadress. Leta efter:
 
-- `<input type="hidden" name="m" value="M-Value">`
-- `<input type="email" name="NAME-Value">`
+* `<input type="hidden" name="m" value="M-Value">`
+* `<input type="email" name="NAME-Value">`
 
-<div data-with-frame="true" align="left"><img src="../../../assets/advanced-event-qr-code/mandnamevalueforform.png" alt="Formulärets integrationskod med m-värdet och name-värdet markerade"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/mandnamevalueforform.png" alt="Formulärets integrationskod med m-värdet och name-värdet markerade"></div>
 
 M-värdet och NAME-värdet
 
 Exempelvärden:
-- M-värde: `353750ae84ccbd4692021cd1e93a90145287fee`
-- NAME-värde: `query_2027106_16_3`
+
+* M-värde: `353750ae84ccbd4692021cd1e93a90145287fee`
+* NAME-värde: `query_2027106_16_3`
 
 ### Bygg QR-kodens URL
 

@@ -1,6 +1,7 @@
 ---
 description: >-
-  Hur du skapar och konfigurerar ett anpassat SMS Sender ID så att ditt företagsnamn visas som avsändare av dina SMS.
+  Hur du skapar och konfigurerar ett anpassat SMS Sender ID så att ditt
+  företagsnamn visas som avsändare av dina SMS.
 ---
 
 # SMS Sender ID
@@ -9,15 +10,15 @@ Sender ID är den text eller det nummer som visas för mottagaren som avsändare
 
 När du tar emot ett SMS från en annan mobiltelefon ser du avsändarens nummer. När SMS:et kommer från en tjänst som eMarketeer kan avsändaren vara en valfri text — vanligtvis ditt företagsnamn.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/sms/Sms_sender_id.png" alt="Exempel på SMS Sender ID"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Sms_sender_id.png" alt="Exempel på SMS Sender ID"></div>
 
 ## Skapa ett eget Sender ID
 
 Kontakta supporten för att få ditt företagsnamn visat som avsändare, så ställer vi in det åt dig.
 
-- Sender ID måste vara 3–11 tecken långt, endast innehålla A–Z, a–z eller 0–9, och får inte börja med en siffra eller vara ett telefonnummer.
-- Förfrågningar hanteras manuellt. Under kontorstid hinner vi vanligtvis bli klara samma dag, om vi inte behöver mer information.
-- Skicka det Sender ID du vill ha och namnet på kontot där det ska användas till support@emarketeer.com.
+* Sender ID måste vara 3–11 tecken långt, endast innehålla A–Z, a–z eller 0–9, och får inte börja med en siffra eller vara ett telefonnummer.
+* Förfrågningar hanteras manuellt. Under kontorstid hinner vi vanligtvis bli klara samma dag, om vi inte behöver mer information.
+* Skicka det Sender ID du vill ha och namnet på kontot där det ska användas till support@emarketeer.com.
 
 ## Varför måste jag ansöka om ett Sender ID?
 

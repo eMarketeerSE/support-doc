@@ -1,6 +1,7 @@
-﻿---
+---
 description: >-
-  Hur du fäster en kampanj i Mina favoriter för snabb åtkomst från valfri kampanjnavigationssida.
+  Hur du fäster en kampanj i Mina favoriter för snabb åtkomst från valfri
+  kampanjnavigationssida.
 ---
 
 # Skapa en genväg till en kampanj med Mina favoriter
@@ -9,7 +10,7 @@ Mina favoriter är en sektion i kampanjnavigeringen som innehåller genvägar ti
 
 Använd den för att fästa kampanjer du besöker ofta eller som är aktiva just nu, så att de är ett klick bort från varje kampanjnavigeringssida.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/campaign-add-favorite/fav1.png" alt=""Mina favoriter" finns i vänstermenyn på kampanjnavigeringssidorna"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/fav1.png" alt=""></div>
 
 Plats för Mina favoriter på kampanjnavigeringssidorna
 
@@ -19,6 +20,6 @@ Plats för Mina favoriter på kampanjnavigeringssidorna
 2. Klicka på kugghjulsikonen till höger om kampanjens rad.
 3. Klicka på Add Favorite i kontextmenyn.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/campaign-add-favorite/fav2.png" alt="Kugghjulet ligger till höger om kampanjens rad och den första menyposten är "Add Favorite""></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/fav2.png" alt="Kugghjulet ligger till höger om kampanjens rad och den första menyposten är"></div>
 
 Lägga till en kampanj i Favoriter
