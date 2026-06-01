@@ -1,3 +1,7 @@
+---
+icon: link
+---
+
 # Microsoft Dynamics 365 Sales-integration
 
 eMarketeer-integrationen för Microsoft Dynamics 365 Sales broar samman dina marknads- och säljteam så att ditt CRM och din plattform för marknadsföringsautomation delar en enda, tillförlitlig källa till sanning.

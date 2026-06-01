@@ -1,3 +1,7 @@
+---
+icon: file-certificate
+---
+
 # eMarketeer GDPR-översikt
 
 Den här artikeln förklarar vad General Data Protection Regulation (GDPR) är, vad eMarketeer gör åt det och vad du som kund kan göra.

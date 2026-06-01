@@ -1,3 +1,7 @@
+---
+icon: link
+---
+
 # SuperOffice-integration
 
 eMarketeer–SuperOffice-integrationen låter marknadsteam skicka affärsmöjligheter, leads och insikter till sälj.
