@@ -80,9 +80,6 @@
 ## Referens
 
 * [API](documentation/apis-developer/README.md)
-  * [API (nytt)](documentation/apis-developer/api-consent-subscription.md)
-  * [Legacy API 1.0-dokumentation (Föråldrad)](documentation/apis-developer/api.md)
-  * [Legacy API 1.0-dokumentation (Föråldrad)](documentation/apis-developer/apiv1.md)
   * [Villkor](documentation/apis-developer/conditionals.md)
   * [Teckengräns för kontaktfält](documentation/apis-developer/contact-field-character-limit.md)
   * [Konventioner](documentation/apis-developer/conventions.md)

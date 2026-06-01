@@ -80,9 +80,7 @@
 ## References
 
 * [API](documentation/apis-developer/README.md)
-  * [API docs](documentation/apis-developer/api-consent-subscription.md)
   * [Custom Signals API](documentation/apis-developer/custom-signals-api.md)
-  * [Legacy API 1.0 docs (Deprecated)](documentation/apis-developer/api.md)
   * [Send a webhook from Zapier to eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 * [Developer](knowledge-base/developer-advanced/README.md)
   * [Contact field character limit](documentation/apis-developer/contact-field-character-limit.md)
