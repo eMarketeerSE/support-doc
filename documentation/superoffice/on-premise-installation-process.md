@@ -13,7 +13,7 @@ To integrate an on-premise SuperOffice installation, you need the following:
 
 ## Actions performed during setup
 
-Once eMarketeer has access to SuperOffice and the integration is enabled, eMarketeer installs new items in SuperOffice such as web panels, fields, and types. [Read more about these actions](/documentation/actions-performed-during-set-up/).
+Once eMarketeer has access to SuperOffice and the integration is enabled, eMarketeer installs new items in SuperOffice such as web panels, fields, and types. [Read more about these actions](actions-performed-during-set-up.md).
 
 ## Starting the integration
 
