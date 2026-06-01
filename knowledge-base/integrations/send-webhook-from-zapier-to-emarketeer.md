@@ -4,25 +4,30 @@ Set up a Zap that sends contact data to eMarketeer as a custom signal.
 
 This is useful when you want to capture form submissions, CRM updates, or other engagement data from any source. The signal will create or update the contact in eMarketeer and record the engagement.
 
-### Step 1: Create a new Zap
+{% stepper %}
+{% step %}
+### Create a new Zap
 
 1. Log in to Zapier and click "Create Zap".
 2. Name the Zap for easy reference.
-
-### Step 2: Set up the trigger
+{% endstep %}
+{% step %}
+### Set up the trigger
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/zap.png" alt="Zap setup view"></div>
 
 1. Choose a trigger app that holds the contact data you want to send. In this example, a Sleeknote form submission.
 2. Select the specific event that triggers the Zap, for example "New Form Submission".
 3. Connect your account and test the trigger to confirm the data is being captured.
-
-### Step 3: Add the webhook action
+{% endstep %}
+{% step %}
+### Add the webhook action
 
 1. Click "+ Add Action" and select "Webhooks by Zapier" as the action app.
 2. Choose "Custom Request" as the action event so you can send a custom API call to eMarketeer.
-
-### Step 4: Configure the webhook
+{% endstep %}
+{% step %}
+### Configure the webhook
 
 In the webhook setup dialog, enter:
 
@@ -38,16 +43,20 @@ In the **Data** section, enter the data you want to send in JSON. Example templa
 `{ "adapter": "Sleeknote", "category": "Newsletter signup", "contact": { "firstName": "{{trigger_data_first_name}}", "lastName": "{{trigger_data_last_name}}", "email": "{{trigger_data_email}}", "mobilePhone": "{{trigger_data_phone}}" }, "eventTime": "{{zap_meta_utc_iso}}", "consent": { "marketing": { "allowed": true, "text": "Consents to marketing sendouts" } } }`
 
 Replace the placeholder values (e.g. `{{trigger_data_first_name}}`) with the matching fields from your trigger data.
-
-### Step 5: Test the webhook action
+{% endstep %}
+{% step %}
+### Test the webhook action
 
 1. Click "Test & Review" to send a test payload to eMarketeer.
 2. Check eMarketeer to confirm the contact was created or updated and that the custom signal was recorded.
-
-### Step 6: Turn on your Zap
+{% endstep %}
+{% step %}
+### Turn on your Zap
 
 1. Once the test passes, click "Turn on Zap" to activate it.
 2. The Zap will now send contact data to eMarketeer whenever the trigger fires.
+{% endstep %}
+{% endstepper %}
 
 ### Additional information
 
