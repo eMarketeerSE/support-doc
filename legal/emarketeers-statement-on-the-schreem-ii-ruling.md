@@ -1,4 +1,4 @@
-# eMarketeers Statement on the Schrems II ruling
+# eMarketeer's Statement on the Schrems II Ruling
 
 eMarketeer is it as that the Schrems 2 ruling does not prohibit storing data with US-based providers like AWS, Microsoft, and Google. If it did, it would severely impact our ability to use essential services such as mobile services, Office 365, Outlook, and others. The primary concern arises from the US Cloud Act, which was enacted on March 23, 2018. This legislation stipulates that any US IT company must provide personal data to US authorities if required in connection with a criminal investigation.
 
