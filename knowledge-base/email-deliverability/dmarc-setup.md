@@ -19,12 +19,10 @@ If DMARC is missing from your DNS, receiving servers may not properly evaluate m
      * `p=reject` — block failed mail entirely
 5. Save the changes and wait for them to propagate. This can take up to 48 hours.
 
-
-
 {% hint style="info" %}
 If you do not manage DNS yourself, use the email feature in the dialog to send the required DNS information to whoever does.
 {% endhint %}
 
-For the full email domain setup, see the [custom email domain guide](../../documentation/custom-domain/custom-email-domain.md).
+For the full email domain setup, see the [custom email domain guide](/broken/pages/IC60KxnBA16qsuFPFCKb).
 
 If you need assistance, contact [support@emarketeer.com](mailto:support@emarketeer.com).

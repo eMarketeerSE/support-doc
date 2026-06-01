@@ -20,7 +20,7 @@ Purchased lists are also the main source of spam traps — old email addresses t
 
 Trust starts with the from-address. If the email shows your corporate logo and content but comes from an unrelated domain, recipients notice. With fraudulent email everywhere, the from-domain is one of the first things people check.
 
-A custom domain (yourcompany.com) builds sender reputation over time and improves the chance of landing in the inbox. In eMarketeer you can [set up your own email domain](../../documentation/custom-domain/custom-email-domain.md) for sending.
+A custom domain (yourcompany.com) builds sender reputation over time and improves the chance of landing in the inbox. In eMarketeer you can [set up your own email domain](/broken/pages/IC60KxnBA16qsuFPFCKb) for sending.
 
 ## 3. Clean your contact list regularly
 
@@ -30,12 +30,12 @@ Mailbox providers like Gmail, Yahoo, and Microsoft monitor engagement. Low engag
 
 eMarketeer excludes non-engaged contacts from send-outs by default (optional).
 
-- Non-engaged contacts are those who started receiving emails six months ago or longer, received six or more emails in that period, and never opened or clicked.
+* Non-engaged contacts are those who started receiving emails six months ago or longer, received six or more emails in that period, and never opened or clicked.
 
 A few ways to handle non-engaged contacts:
 
-- Use a journey to capture non-engaged contacts and send a re-engage email. If they don't engage, the journey can remove or unsubscribe them.
-- Use the contact filter to find non-engaged contacts and put them on a list with less frequent emails — or remove them.
+* Use a journey to capture non-engaged contacts and send a re-engage email. If they don't engage, the journey can remove or unsubscribe them.
+* Use the contact filter to find non-engaged contacts and put them on a list with less frequent emails — or remove them.
 
 ## 4. Send only with legal basis
 
@@ -71,11 +71,11 @@ eMarketeer does not send auto-replies to the from-address, so a personal sender 
 
 Personalizing emails with the contact's name or other specific data improves engagement.
 
-- Higher open rates — the name in the subject line makes the email feel relevant.
-- Higher engagement — personalized content feels tailored, not generic.
-- Higher conversion — addressing the contact's interests lifts results.
-- Stronger relationships — personalization signals that the contact matters.
-- Better experience — tailored messages feel more positive and memorable.
+* Higher open rates — the name in the subject line makes the email feel relevant.
+* Higher engagement — personalized content feels tailored, not generic.
+* Higher conversion — addressing the contact's interests lifts results.
+* Stronger relationships — personalization signals that the contact matters.
+* Better experience — tailored messages feel more positive and memorable.
 
 Use the personalization features in eMarketeer to insert contact card fields into the subject or body.
 
@@ -89,9 +89,9 @@ The more relevant the email is to the segment, the more engagement and conversio
 
 The most attention-grabbing part of an email is the preview, especially on mobile. Three elements show in the preview:
 
-- The from-name — who the email is from.
-- The subject line.
-- The preheader.
+* The from-name — who the email is from.
+* The subject line.
+* The preheader.
 
 The preheader is a snippet of the first text in the email. A default preheader like "Click here to open this email in your web browser" wastes the opportunity.
 

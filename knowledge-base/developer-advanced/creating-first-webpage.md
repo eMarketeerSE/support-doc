@@ -1,7 +1,7 @@
 ---
 description: >-
-  This guide walks you through creating a webpage in eMarketeer, from choosing
-  a template to editing content blocks and finishing the page.
+  This guide walks you through creating a webpage in eMarketeer, from choosing a
+  template to editing content blocks and finishing the page.
 layout:
   width: default
   title:
@@ -38,13 +38,13 @@ The example builds an event landing page, but the process is the same for any we
 
 From the campaign page, click **Add Webpage**.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/cw1.png" alt="Add Webpage button on the campaign page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw1 (1).png" alt="Add Webpage button on the campaign page"></div>
 {% endstep %}
 
 {% step %}
 ### Fill in settings and choose a template
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/cw2.png" alt="Webpage settings and template selection dialog"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw2 (1).png" alt="Webpage settings and template selection dialog"></div>
 
 **Settings**
 
@@ -65,7 +65,7 @@ Once settings and template are set, click **Create Web Page** to create the comp
 
 After you click **Create Web Page**, the editor opens with the template's content already in place. The left menu lets you add content blocks, access tools, and adjust the settings from the previous step. The rest of the page shows the current content, made up of blocks you edit individually.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/cw_editor.png" alt="Webpage editor with content blocks and left-side menu"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_editor (1).png" alt="Webpage editor with content blocks and left-side menu"></div>
 {% endstep %}
 
 {% step %}
@@ -73,7 +73,7 @@ After you click **Create Web Page**, the editor opens with the template's conten
 
 Each content block has several parts you can update. Click the block's **Edit** button to open its settings.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/cw_edit_content_block.png" alt="Edit button on a content block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_content_block (1).png" alt="Edit button on a content block"></div>
 
 A settings panel opens on the right with two tabs: **Content** and **Styles**. Content is where you change the block's text, images, and links. Styles is where you change colors and fonts.
 
@@ -89,7 +89,7 @@ In the example below, the text paragraph and two link buttons are empty, so they
 
 Click **Save** after each change.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/cw_edit_text.png" alt="Editing the headline text of a content block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_text (1).png" alt="Editing the headline text of a content block"></div>
 {% endstep %}
 
 {% step %}
@@ -97,7 +97,7 @@ Click **Save** after each change.
 
 Open the block for editing, go to the Image section in the right panel, and click **Choose Image**.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce_upload_image_1.png" alt="Choose Image button in the image section"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1 (1).png" alt="Choose Image button in the image section"></div>
 
 To upload and use your own image:
 
@@ -107,11 +107,11 @@ To upload and use your own image:
 4. Click the file in the browser window to select it.
 5. Click **Use Selected** to add it to the content block.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce_image_upload_2.png" alt="Upload File, Choose files, and Use Selected steps"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2 (1).png" alt="Upload File, Choose files, and Use Selected steps"></div>
 
 If the image does not match the recommended dimensions for the block, an option to auto-scale it appears. Click the link in the notice to accept.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce_upload_image_3.png" alt="Auto Scale notice for resizing the uploaded image"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_3 (1).png" alt="Auto Scale notice for resizing the uploaded image"></div>
 {% endstep %}
 
 {% step %}
@@ -124,7 +124,7 @@ Use buttons to link to a webpage, file, or another eMarketeer component. For a w
 3. Pick the campaign that contains your form, then pick the form itself.
 4. Click **Select**, then **Apply**, then **Save** to add the link and save the block.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce6.png" alt="Setting a button link via Browse to an eMarketeer form"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce6 (1).png" alt="Setting a button link via Browse to an eMarketeer form"></div>
 {% endstep %}
 
 {% step %}
@@ -134,7 +134,7 @@ Click **Add Content Block** in the left menu, then click **Add Block** next to t
 
 If the button is grey, click an existing block first to tell the editor where to insert the new one.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce-add-12.png" alt="Add Content Block menu with block type options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12 (1).png" alt="Add Content Block menu with block type options"></div>
 {% endstep %}
 
 {% step %}
@@ -142,7 +142,7 @@ If the button is grey, click an existing block first to tell the editor where to
 
 To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce-move.png" alt="Reposition icon used to drag a content block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-move (1).png" alt="Reposition icon used to drag a content block"></div>
 {% endstep %}
 
 {% step %}
@@ -150,7 +150,7 @@ To move a block, click and hold the reposition icon on the left side of the bloc
 
 To remove a block you don't need, click the delete button on its context bar.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/ce-delete.png" alt="Delete button on a content block's context bar"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-delete (1).png" alt="Delete button on a content block&#x27;s context bar"></div>
 {% endstep %}
 
 {% step %}
@@ -158,6 +158,6 @@ To remove a block you don't need, click the delete button on its context bar.
 
 Click **Done Editing** to leave the editor.
 
-<div data-with-frame="true" align="left"><img src="../../assets/creating-first-webpage/cw_done.png" alt="Done Editing button"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_done (1).png" alt="Done Editing button"></div>
 {% endstep %}
 {% endstepper %}

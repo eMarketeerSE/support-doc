@@ -1,5 +1,5 @@
 ---
-icon: diagram-project
+icon: arrow-progress
 ---
 
 # Journeys
@@ -10,7 +10,7 @@ Journeys are the automation engine in eMarketeer. They let you nurture contacts,
 
 ## Introduction to journeys
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Journey illustration"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-24-kl.-14.20.04-801x1024.png" alt="Journey illustration"></div>
 
 When a new contact matches the criteria (filter) for a journey, the contact enters the journey and moves through the steps in order.
 

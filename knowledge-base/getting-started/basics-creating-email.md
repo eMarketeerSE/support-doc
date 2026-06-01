@@ -55,7 +55,7 @@ From the campaign page, click **Add Email**.
 * **From Name:** The sender name shown in recipients' email clients.
 * **From Address:** This has two parts that make up the sending address.
   1. The part before the `@` can be almost anything. If you are not sure, `noreply` works for most cases, though a real inbox that can receive replies is preferred.
-  2. The part after the `@` is your email domain. You must add your own domain before you can send. See [this article](../../documentation/custom-domain/custom-email-domain.md) for how.
+  2. The part after the `@` is your email domain. You must add your own domain before you can send. See [this article](/broken/pages/IC60KxnBA16qsuFPFCKb) for how.
 * **Reply-to Address (optional):** An address that receives any replies, useful if the From Address cannot receive email. Rarely used; usually safe to skip.
 * **Subscription Category (optional):** If your account uses subscription lists, you can categorize this email here. Rarely used; usually safe to skip.
 

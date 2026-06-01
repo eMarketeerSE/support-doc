@@ -13,7 +13,7 @@ Connecting eMarketeer with Dynamics syncs contact preferences, enforces GDPR com
 * [Setup and configuration](../../documentation/dynamics-365/dynamics-installation.md) — connect your Dynamics 365 instance to eMarketeer and provision the initial data tables.
 * [Consent and subscription sync](../../documentation/dynamics-365/dynamics-legal-basis-sync.md) — how the multi-tiered sync engine handles legal basis and granular email subscriptions to keep both systems aligned and compliant.
 * [Importing contacts and lists](../../documentation/dynamics-365/dynamics-import.md) — pull Dynamics contact marketing lists into eMarketeer for a standard database import or on the fly before a send-out.
-* [Journey steps and automations](../../integrations/dynamics/dynamics-journey-steps/README.md) — trigger actions, sync engagement, and update Dynamics data based on how contacts interact with your marketing.
+* [Journey steps and automations](../../documentation/dynamics-365/dynamics-journey-steps.md) — trigger actions, sync engagement, and update Dynamics data based on how contacts interact with your marketing.
 
 ## What to do next
 

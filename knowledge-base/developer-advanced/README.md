@@ -1,5 +1,5 @@
 ---
-icon: rectangle-code
+icon: rectangle-terminal
 ---
 
 # Developer

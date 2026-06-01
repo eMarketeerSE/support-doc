@@ -1,5 +1,5 @@
 ---
-icon: gear-complex-api
+icon: brackets-curly
 ---
 
 # API

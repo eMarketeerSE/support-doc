@@ -29,7 +29,7 @@ If you want the new campaign to live inside an existing folder, navigate to that
 The name identifies the campaign inside eMarketeer and is never shown to your contacts. You can also add an optional description, which is also internal-only.
 
 {% hint style="info" %}
-**Note:** The Campaign name is also used by the [web tracker](../../documentation/web-tracker/the-web-tracker.md) to identify which campaign email traffic to your website originates from.
+**Note:** The Campaign name is also used by the [web tracker](../../documentation/web-tracker/) to identify which campaign email traffic to your website originates from.
 {% endhint %}
 {% endstep %}
 

@@ -2,7 +2,7 @@
 description: >-
   An overview of eMarketeer Leads: how to set up sales teams, qualify contacts
   by score and persona, and deliver leads to sales in real time.
-icon: temperature-high
+icon: bullseye-arrow
 layout:
   width: default
   title:
@@ -25,7 +25,7 @@ tags:
   - leads
 ---
 
-# Get started with leads
+# Lead management
 
 eMarketeer Leads lets marketing qualify contacts by engagement and persona, then deliver them to sales teams in real time.
 
@@ -35,7 +35,7 @@ The lead board gives sales an intuitive way to qualify and progress leads. This 
 2. Working with leads as a sales user.
 3. Using eMarketeer Leads inside your CRM.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/theboardclean-1024x576.png" alt="eMarketeer lead board with qualified leads"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/theboardclean-1024x576.png" alt="eMarketeer lead board with qualified leads"></div>
 
 ## Generate and deliver leads to a sales team
 
