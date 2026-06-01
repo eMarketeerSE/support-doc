@@ -36,6 +36,6 @@ Du kan använda fliken för att ta bort oönskade kontakter från kampanjen, och
 
 Du kan rikta utskick till Kampanjkontakter med alternativet "All contacts in this campaign" när du skickar ett e-post eller SMS. Se definitionen högst upp i artikeln för vad som räknas som en kampanjkontakt.
 
-[<div data-with-frame="true" align="left"><img src="../../../assets/campaign-contacts/2021-05-04_16-06-53.png" alt="Rullgardinsmenyn Recipient Source med "All contacts in this campaign" valt"></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/campaign-contacts/2021-05-04_16-06-53.png" alt="Rullgardinsmenyn Recipient Source med &quot;All contacts in this campaign&quot; valt"></div>
 
 Alternativet "All contacts in this campaign"
