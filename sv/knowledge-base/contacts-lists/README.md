@@ -1,5 +1,5 @@
 ---
-icon: people-group
+icon: address-book
 ---
 
 # Kontakter & listor

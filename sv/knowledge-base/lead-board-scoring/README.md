@@ -2,7 +2,7 @@
 description: >-
   En översikt av eMarketeer Leads: hur du sätter upp sales-team, kvalificerar
   kontakter och levererar leads till säljarna i realtid.
-icon: temperature-high
+icon: bullseye-arrow
 layout:
   width: default
   title:
