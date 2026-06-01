@@ -182,7 +182,6 @@
 * [GDPR & samtycke](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
   * [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
   * [\[Video\] GDPR och vad det innebär för eMarketeer-användare](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)
-  * [GDPR – General Data Protection Regulation](knowledge-base/gdpr-consent/gdpr-general-data-protection-regulation.md)
   * [Andra releasen i GDPR-färdplanen](knowledge-base/gdpr-consent/gdpr-release.md)
   * [Hur fungerar samtycke?](knowledge-base/gdpr-consent/how-does-consent-work.md)
   * [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)

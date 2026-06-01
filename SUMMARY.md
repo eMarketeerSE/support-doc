@@ -180,7 +180,6 @@
 * [GDPR & consent](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
   * [Double opt-in subscription](knowledge-base/gdpr-consent/double-opt-in.md)
   * [\[Video\] GDPR and what it means for eMarketeer users](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)
-  * [GDPR – General Data Protection Regulation](knowledge-base/gdpr-consent/gdpr-general-data-protection-regulation.md)
   * [Second release in GDPR roadmap](knowledge-base/gdpr-consent/gdpr-release.md)
   * [How does consent work?](knowledge-base/gdpr-consent/how-does-consent-work.md)
   * [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
