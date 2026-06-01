@@ -1,76 +1,44 @@
+---
+description: How users work in eMarketeer — the two user types, what each can do, and the additional privileges you can grant.
+---
+
 # User accounts
 
-This article explains how accounts and users work in eMarketeer, including the available roles and what each one can do.
+eMarketeer has two types of users: Marketing Users and Sales Users. Each account subscription includes a set number of licenses for each type. These limits can be raised.
 
-Understanding these concepts helps you decide who needs access and which role fits their work.
+A user can hold both a Marketing User license and a Sales User license at the same time.
 
-## Account types
+## Marketing User
 
-eMarketeer uses two types of accounts:
+A Marketing User has access to the main eMarketeer workspace — campaigns, emails, forms, contacts, journeys, and reports.
 
-- Account — your eMarketeer subscription, which holds all your contacts, emails, files, and other resources. Think of it as a house that holds your resources but is not an individual.
-- User account — an individual who logs in to the account to work in the system. Think of this as a person who has the keys to the house.
+Additional privileges that can be granted to a Marketing User:
 
-> TODO: verify — the source called the first type "Tenant account." Per voice rules, "Account" is the correct term for the eMarketeer subscription.
+- **Administrator** — access to account settings and user management.
+- **Developer** — access to the full HTML source in the email editor, webpages, apps, and the JSON editor in forms.
+- **CRM Web panels** — access to eMarketeer panels embedded within an integrated CRM system.
 
-## User privileges
+## Sales User
 
-### Administrator
+A Sales User has access to the Lead Board and can be assigned to one or more sales teams to receive and work leads.
 
-Administrators have full access to all parts of the system, including:
+Additional privileges that can be granted to a Sales User:
 
-- Account settings
-- User management (inviting and managing users)
+- **Administrator** — access to account settings and user management.
+- **CRM Web panels** — access to eMarketeer panels embedded within an integrated CRM system.
 
-### Marketing User
+## User licenses
 
-Marketing Users have access to most features in the system, except:
+Your subscription includes a defined number of Marketing User licenses and Sales User licenses. The number in use is visible on the User Accounts settings page. If you need more licenses, contact eMarketeer support.
 
-- Account settings
-- User management
-- Sales team membership
+## Inviting users
 
-This role is intended for users working with marketing content such as emails, pages, and forms.
+An administrator can invite new users from the User Accounts settings page. eMarketeer sends an invitation email to the address you enter. The user becomes active after accepting the invitation and completing registration.
 
-### Sales User
-
-Sales Users have access to the Sales Board and manage incoming leads. They are typically assigned to one or more Sales Teams, each receiving tailored lead assignments based on focus or responsibilities.
-
-This role is designed for users involved in sales activities and lead follow-up.
-
-### Developer
-
-The Developer role is a specialization of the Marketing User role. Developers have access to the full HTML code in:
-
-- Emails
-- Apps
-- Webpages
-- JSON Editor in Forms
-
-This role suits technically advanced users who need full control over the source code.
-
-### CRM Web Panel
-
-Users with this role can view eMarketeer panels directly within their integrated CRM system. This role is typically assigned to CRM users who need quick access to eMarketeer data within their workflow.
-
-## Inviting new users
-
-An administrator can invite new users to the account. When you invite someone, eMarketeer sends an invitation email to the address you provide. The user becomes active only after they accept the invitation and complete registration.
-
-### Multiple accounts on a single user
-
-If you invite someone who already has access to a different account, the new user keeps the same login and gains access to both accounts.
-
-After logging in, a user with access to multiple accounts chooses which account to use for the session. To switch accounts, the user logs out and logs back in, choosing a different account.
-
-## Related costs per user
-
-Depending on your pay plan, creating a new user may incur a fee. The fee is stated on the screen when you invite the user.
-
-If the user is already paid for by another account, the invited user is not charged to your account. This is because no new user is created — the existing user is only granted access to the additional account.
+If you invite someone who already has a user account on another eMarketeer account, no new user is created. The existing user gains access to the new account. The invite does not count toward your license usage if the user account was already being paid for by another account.
 
 ## Login security
 
-All users log in to eMarketeer with their username (email) and password. eMarketeer also offers Multi-Factor Authentication (MFA) for an additional layer of security. MFA is optional per user, but an administrator can enforce it for all users in the account.
+All users log in with their email address and password. Multi-Factor Authentication (MFA) is available for an additional layer of security. Administrators can enforce MFA for all users on the account.
 
-Read more about [Multi-Factor Authentication](multi-factor-authentication.md).
+[Multi-Factor Authentication](multi-factor-authentication.md)

@@ -1,76 +1,44 @@
+---
+description: Hur användare fungerar i eMarketeer — de två användartyperna, vad var och en kan göra och vilka ytterligare behörigheter du kan tilldela.
+---
+
 # Användarkonton
 
-Den här artikeln förklarar hur konton och användare fungerar i eMarketeer, inklusive de tillgängliga rollerna och vad var och en kan göra.
+eMarketeer har två typer av användare: Marketing Users och Sales Users. Varje kontoprenumeration inkluderar ett visst antal licenser för varje typ. Dessa gränser kan höjas.
 
-Att förstå dessa begrepp hjälper dig att avgöra vem som behöver åtkomst och vilken roll som passar deras arbete.
+En användare kan ha både en Marketing User-licens och en Sales User-licens samtidigt.
 
-## Kontotyper
+## Marketing User
 
-eMarketeer använder två typer av konton:
+En Marketing User har åtkomst till eMarketeers huvudarbetsyta — kampanjer, e-post, formulär, kontakter, Journeys och rapporter.
 
-- Konto — din eMarketeer-prenumeration som innehåller alla dina kontakter, e-postmeddelanden, filer och andra resurser. Tänk på det som ett hus som rymmer dina resurser men inte är en individ.
-- Användarkonto — en individ som loggar in på kontot för att arbeta i systemet. Tänk på detta som en person som har nycklarna till huset.
+Ytterligare behörigheter som kan beviljas en Marketing User:
 
-> TODO: verify — the source called the first type "Tenant account." Per voice rules, "Account" is the correct term for the eMarketeer subscription.
+- **Administrator** — åtkomst till kontoinställningar och användarhantering.
+- **Developer** — åtkomst till den fullständiga HTML-källkoden i e-postredigeraren, webbsidor, appar och JSON-redigeraren i formulär.
+- **CRM Web panels** — åtkomst till eMarketeer-paneler inbäddade i ett integrerat CRM-system.
 
-## Användarbehörigheter
+## Sales User
 
-### Administratör
+En Sales User har åtkomst till Lead Board och kan tilldelas ett eller flera säljteam för att ta emot och arbeta med leads.
 
-Administratörer har full åtkomst till alla delar av systemet, inklusive:
+Ytterligare behörigheter som kan beviljas en Sales User:
 
-- Kontoinställningar
-- Användarhantering (bjuda in och hantera användare)
+- **Administrator** — åtkomst till kontoinställningar och användarhantering.
+- **CRM Web panels** — åtkomst till eMarketeer-paneler inbäddade i ett integrerat CRM-system.
 
-### Marketing User
+## Användarlicenser
 
-Marketing Users har åtkomst till de flesta funktioner i systemet, förutom:
+Din prenumeration inkluderar ett definierat antal Marketing User-licenser och Sales User-licenser. Antalet som används visas på sidan User Accounts i inställningarna. Om du behöver fler licenser kontaktar du eMarketeers support.
 
-- Kontoinställningar
-- Användarhantering
-- Medlemskap i säljteam
+## Bjuda in användare
 
-Den här rollen är avsedd för användare som arbetar med marknadsföringsinnehåll som e-post, sidor och formulär.
+En administratör kan bjuda in nya användare från sidan User Accounts i inställningarna. eMarketeer skickar ett inbjudningsmejl till den adress du anger. Användaren aktiveras efter att ha accepterat inbjudan och slutfört registreringen.
 
-### Sales User
-
-Sales Users har åtkomst till Sales Board och hanterar inkommande leads. De tilldelas vanligtvis ett eller flera säljteam som var och ett får skräddarsydda leads baserat på fokus eller ansvarsområden.
-
-Den här rollen är utformad för användare som är involverade i säljaktiviteter och uppföljning av leads.
-
-### Developer
-
-Developer-rollen är en specialisering av Marketing User-rollen. Developers har åtkomst till den fullständiga HTML-koden i:
-
-- E-post
-- Appar
-- Webbsidor
-- JSON Editor i formulär
-
-Den här rollen passar tekniskt avancerade användare som behöver full kontroll över källkoden.
-
-### CRM Web Panel
-
-Användare med den här rollen kan se eMarketeer-paneler direkt i sitt integrerade CRM-system. Den här rollen tilldelas vanligtvis CRM-användare som behöver snabb åtkomst till eMarketeer-data i sitt arbetsflöde.
-
-## Bjuda in nya användare
-
-En administratör kan bjuda in nya användare till kontot. När du bjuder in någon skickar eMarketeer ett inbjudningsmejl till den angivna adressen. Användaren blir aktiv först efter att hen accepterat inbjudan och slutfört registreringen.
-
-### Flera konton på en användare
-
-Om du bjuder in någon som redan har åtkomst till ett annat konto behåller den nya användaren samma inloggning och får åtkomst till båda kontona.
-
-Efter inloggning väljer en användare med åtkomst till flera konton vilket konto som ska användas under sessionen. För att byta konto loggar användaren ut och in igen och väljer ett annat konto.
-
-## Tillhörande kostnader per användare
-
-Beroende på din prisplan kan det tillkomma en avgift för att skapa en ny användare. Avgiften visas på skärmen när du bjuder in användaren.
-
-Om användaren redan betalas av ett annat konto debiteras inte den inbjudna användaren på ditt konto. Det beror på att ingen ny användare skapas — den befintliga användaren ges bara åtkomst till ytterligare ett konto.
+Om du bjuder in någon som redan har ett användarkonto på ett annat eMarketeer-konto skapas ingen ny användare. Den befintliga användaren får åtkomst till det nya kontot. Inbjudan räknas inte mot din licensanvändning om användarkontot redan betalas av ett annat konto.
 
 ## Inloggningssäkerhet
 
-Alla användare loggar in på eMarketeer med sitt användarnamn (e-post) och lösenord. eMarketeer erbjuder även Multi-Factor Authentication (MFA) för ett extra lager av säkerhet. MFA är valfritt per användare, men en administratör kan framtvinga det för alla användare på kontot.
+Alla användare loggar in med sin e-postadress och sitt lösenord. Multi-Factor Authentication (MFA) finns tillgängligt för ett extra lager av säkerhet. Administratörer kan kräva MFA för alla användare på kontot.
 
-Läs mer om [Multi-Factor Authentication](multi-factor-authentication.md).
+[Multi-Factor Authentication](multi-factor-authentication.md)
