@@ -11,6 +11,7 @@
   * [Så här skapar du en ny kampanj](knowledge-base/getting-started/create-new-campaign.md)
 * [Kontoinställning](getting-started/account-setup.md)
   * [Lägg till e-postdomän](knowledge-base/email-deliverability/authorize-email-domain.md)
+  * [Webbplatsintegrering](getting-started/website-integration.md)
 
 ## Guider
 

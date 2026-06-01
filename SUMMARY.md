@@ -11,6 +11,7 @@
   * [How to create a new campaign](knowledge-base/getting-started/create-new-campaign.md)
 * [Account setup](getting-started/account-setup.md)
   * [Add Email domain](knowledge-base/email-deliverability/authorize-email-domain.md)
+  * [Website integration](getting-started/website-integration.md)
 
 ## Guides
 
