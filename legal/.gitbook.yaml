@@ -1,0 +1,5 @@
+root: ./
+
+structure:
+  readme: legal.md
+  summary: SUMMARY.md
