@@ -17,7 +17,7 @@
 * [Kampanjguider](guides.md)
   * [E-post](knowledge-base/email-content/README.md)
     * [Så skickar du påminnelsemejl](knowledge-base/email-content/configuring-reminder-email.md)
-    * [Så här skapar du ett anpassat innehållsblock (Developer)](knowledge-base/email-content/create-custom-content-block.md)
+    * [Så här skapar du ett anpassat innehållsblock](knowledge-base/email-content/create-custom-content-block.md)
     * [Skapa klickbara länkar och knappar med e-postadresser](knowledge-base/email-content/email-address-links.md)
     * [Nya e-postmallar — det här behöver du veta](knowledge-base/email-content/email-templates.md)
     * [Bädda in video/media](knowledge-base/email-content/embed-videomedia.md)

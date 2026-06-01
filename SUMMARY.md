@@ -17,7 +17,7 @@
 * [Campaign guides](guides.md)
   * [Emails](knowledge-base/email-content/README.md)
     * [How to send reminders](knowledge-base/email-content/configuring-reminder-email.md)
-    * [How to create a custom content block (Developer)](knowledge-base/email-content/create-custom-content-block.md)
+    * [How to create a custom content block](knowledge-base/email-content/create-custom-content-block.md)
     * [Creating clickable email address links and buttons](knowledge-base/email-content/email-address-links.md)
     * [New email templates — what you need to know](knowledge-base/email-content/email-templates.md)
     * [Embed Video/Media](knowledge-base/email-content/embed-videomedia.md)

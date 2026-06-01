@@ -1,18 +1,20 @@
 ---
 description: >-
   Hur du redigerar ett innehållsblocks HTML och sparar det som ett återanvändbart
-  anpassat block i e-postredigeraren (kräver Developer-behörighet).
+  anpassat block i e-postredigeraren.
 ---
 
-# Så här skapar du ett anpassat innehållsblock (Developer)
+# Så här skapar du ett anpassat innehållsblock
+
+{% hint style="warning" %}
+Den här funktionen kräver Developer-behörighet. Kontakta din Account Administrator om du behöver den aktiverad på ditt användarkonto.
+{% endhint %}
 
 Spara ett redigerat innehållsblock så att det blir återanvändbart i komponenter och mallar.
 
 Den här artikeln täcker avancerad användning av eMarketeer och ligger utanför ramen för vanlig support. Om du behöver hjälp med utvecklarfunktioner, kontakta din återförsäljare för att bli kopplad till en utvecklingskonsult eller tekniker.
 
 Användare med Developer-behörighet kan ändra HTML-koden för ett innehållsblock för att förändra hur det ser ut och fungerar. När du har gjort en betydande ändring kan du spara blocket för återanvändning. Ett sparat block blir då tillgängligt för alla användare som redigerar den komponenten, och om komponenten blir en mall följer det sparade blocket med till alla nya komponenter som skapas från den mallen.
-
-Kontakta ditt kontos Account Administrator om du behöver Developer-behörighet på ditt användarkonto.
 
 ---
 
@@ -22,23 +24,29 @@ Kontakta ditt kontos Account Administrator om du behöver Developer-behörighet 
 
 Spara ett block
 
-### 1. Aktivera Developer Mode
+{% stepper %}
+{% step %}
+### Aktivera Developer Mode
 
 Med Developer-behörighet ser du knappen [Enable Developer Mode] i menyn Tools.
-
-### 2. Öppna blocket du vill spara
+{% endstep %}
+{% step %}
+### Öppna blocket du vill spara
 
 Dubbelklicka på det anpassade blocket för att öppna dess konfigurationsmeny.
-
-### 3. Gå till Block Settings
+{% endstep %}
+{% step %}
+### Gå till Block Settings
 
 Öppna fliken Settings i blockets konfigurationsmeny.
-
-### 4. Ge blocket en etikett
+{% endstep %}
+{% step %}
+### Ge blocket en etikett
 
 Label är namnet som visas i sektionen Component Content när blocket används. Exempel: *1 Column: Text (1/1)*.
-
-### 5. Klicka på Save as Block
+{% endstep %}
+{% step %}
+### Klicka på Save as Block
 
 [Save as Block] öppnar dialogen där du kan spara det anpassade blocket till komponenten.
 
@@ -46,21 +54,15 @@ Label är namnet som visas i sektionen Component Content när blocket används. 
 
 Fönstret Save as block
 
-### 1. Sätt ett containernamn
-
-Containernamnet identifierar det anpassade blocket i systemet och syns i Developer Mode.
-
-### 2. Sätt en unik etikett för blocket
-
-Den här etiketten är namnet som varje användare ser när de arbetar med det anpassade blocket.
-
-### 3. Skapa det anpassade blocket
-
-Klick på [Create] sparar det anpassade blocket och lägger till det i menyn "Add Content Block" så att alla användare kan släppa in det.
+1. **Sätt ett containernamn** — Containernamnet identifierar det anpassade blocket i systemet och syns i Developer Mode.
+2. **Sätt en unik etikett för blocket** — Den här etiketten är namnet som varje användare ser när de arbetar med det anpassade blocket.
+3. **Skapa det anpassade blocket** — Klick på [Create] sparar det anpassade blocket och lägger till det i menyn "Add Content Block" så att alla användare kan släppa in det.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/create-custom-content-block/pn_21-07-08_10-37-10.png" alt="Det nya blocket i listan Add Content"></div>
 
 Blocket som det visas i listan Add Content
+{% endstep %}
+{% endstepper %}
 
 ---
 
