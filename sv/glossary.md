@@ -96,13 +96,6 @@ En registrerad interaktion mellan en kontakt och ett innehåll. Engagemang visas
 
 </details>
 
-<details>
-<summary>Explicit poängsättning</summary>
-
-Regler för leadpoängsättning som baseras på profildata som företagsstorlek, befattning eller bransch. Explicit poängsättning återspeglar vem en kontakt är. Jämför med implicit poängsättning.
-
-</details>
-
 ## F
 
 <details>
@@ -139,15 +132,6 @@ Den strukturerade data som skickas med en anpassad signal via Signals API. Händ
 <summary>Hårt studs</summary>
 
 Ett permanent e-postleveransfel, vanligtvis för att e-postadressen inte existerar eller att domänen är ogiltig. eMarketeer markerar kontakter med hårda studsar för att förhindra framtida utskick till dessa adresser.
-
-</details>
-
-## I
-
-<details>
-<summary>Implicit poängsättning</summary>
-
-Regler för leadpoängsättning som baseras på beteendedata som e-postöppningar, länkklick och webbbesök. Implicit poängsättning återspeglar hur engagerad en kontakt är. Jämför med explicit poängsättning.
 
 </details>
 
@@ -209,7 +193,7 @@ Användarens eMarketeer-prenumeration. "Konto" avser den översta organisationen
 <details>
 <summary>Lead</summary>
 
-En kontakt som har nått ett kvalificeringsgränsvärde som definieras av din leadpoängsättning. Inte alla kontakter är leads — beteckningen gäller först när en kontakts poäng uppfyller de kriterier du har definierat.
+En kontakt som uppfyller de kvalificeringskriterier du definierar. Leadkvalificering är inte begränsad till leadpoängsättning — alla kontaktfilterkriterier kan användas. Kontakter som kvalificerar sig visas på Lead Board via en Lead Stream.
 
 </details>
 
@@ -230,7 +214,7 @@ Ett numeriskt värde som tilldelas en kontakt baserat på profildata och beteend
 <details>
 <summary>Lead Stream</summary>
 
-En automatiserad regeluppsättning som övervakar kontakter och levererar kvalificerade kontakter till Lead Board. En Lead Stream definierar de kriterier en kontakt måste uppfylla för att visas som ett lead. Trots namnet är det inte en lista eller ett filter — det är en löpande kvalificeringsmotor.
+En automatiserad regeluppsättning som övervakar kontakter och levererar kvalificerade kontakter till Lead Board. Kontakter kan också läggas till i en Lead Stream direkt från en Journey via steget Create Lead.
 
 </details>
 
@@ -253,14 +237,14 @@ Webbläsarbaserad lagring som används av eMarketeers Web Tracker för att känn
 <details>
 <summary>Mall</summary>
 
-En sparad e-post- eller formulärdesign som kan återanvändas som utgångspunkt för nya utskick eller formulär. Mallar lagrar layout, stilar och platshållare. Ändringar i en mall påverkar inte komponenter som redan använder den.
+En sparad komponentdesign som kan återanvändas som utgångspunkt för nya utskick eller formulär. Mallar lagrar layout, stilar och platshållare. Ändringar i en mall påverkar inte komponenter som redan använder den.
 
 </details>
 
 <details>
 <summary>Mjukt studs</summary>
 
-Ett tillfälligt e-postleveransfel, vanligtvis för att mottagarens inkorg är full eller att e-postservern tillfälligt är otillgänglig. eMarketeer spårar antalet mjuka studsar och kan undertrycka adresser som upprepade gånger ger mjuka studsar.
+Ett tillfälligt e-postleveransfel, vanligtvis för att mottagarens inkorg är full eller att e-postservern tillfälligt är otillgänglig. eMarketeer spårar antalet mjuka studsar och undertrycker kontakter som upprepade gånger ger mjuka studsar.
 
 </details>
 
@@ -307,13 +291,6 @@ En gruppering av samtyckes- eller kommunikationspreferenser i eMarketeer. Kontak
 <summary>Recipient Source</summary>
 
 Det alternativ du väljer när du adresserar ett e-post- eller SMS-utskick. Vanliga alternativ är ett kontaktfilter, en lista, ett specifikt segment eller "All contacts in this campaign." Recipient source avgör vilka kontakter som tar emot utskicket.
-
-</details>
-
-<details>
-<summary>Retrospektiv spårning</summary>
-
-En funktion i Web Tracker som kopplar tidigare anonyma webbbesök till en kontakt som identifieras senare i samma session eller webbläsare. Om en besökare skickar in ett formulär efter att ha bläddrat på flera sidor kan eMarketeer retroaktivt länka de tidigare sidbesöken till den nu identifierade kontakten.
 
 </details>
 
@@ -373,7 +350,7 @@ Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i 
 <details>
 <summary>Tagg</summary>
 
-En etikett som appliceras på en kontakt för segmenteringsändamål. Taggar är friforma och kan läggas till eller tas bort utan att ändra strukturerade kontaktfält. Flera taggar kan appliceras på samma kontakt.
+En etikett som appliceras på en kontakt eller kampanj för segmenterings- och organisationsändamål. Taggar är friforma och kan läggas till eller tas bort när som helst. Flera taggar kan appliceras på samma kontakt eller kampanj.
 
 </details>
 

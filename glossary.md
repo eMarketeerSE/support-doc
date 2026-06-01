@@ -166,13 +166,6 @@ The structured payload sent with a custom signal via the Signals API. Event data
 
 </details>
 
-<details>
-<summary>Explicit scoring</summary>
-
-Lead scoring rules based on profile data such as company size, job title, or industry. Explicit scoring reflects who a contact is. Contrast with implicit scoring.
-
-</details>
-
 ## F
 
 <details>
@@ -205,15 +198,6 @@ A permanent email delivery failure, typically because the email address does not
 
 </details>
 
-## I
-
-<details>
-<summary>Implicit scoring</summary>
-
-Lead scoring rules based on behavioral data such as email opens, link clicks, and web visits. Implicit scoring reflects how engaged a contact is. Contrast with explicit scoring.
-
-</details>
-
 ## J
 
 <details>
@@ -228,7 +212,7 @@ eMarketeer's term for an automated sequence that sends messages or performs acti
 <details>
 <summary>Lead</summary>
 
-A contact that has reached a qualification threshold defined by your lead scoring setup. Not every contact is a lead — the label applies once a contact's score meets the criteria you have defined.
+A contact that has met the qualification criteria you define. Lead qualification is not limited to lead scoring — any contact filter criteria can be used. Contacts that qualify appear on the Lead Board via a Lead Stream.
 
 </details>
 
@@ -249,7 +233,7 @@ A numeric value assigned to a contact based on their profile data and behavior. 
 <details>
 <summary>Lead Stream</summary>
 
-An automated rule set that monitors contacts and delivers qualifying ones to the Lead Board. A Lead Stream defines the criteria a contact must meet to appear as a lead. Despite the name, it is not a list or filter — it is an ongoing qualification engine.
+An automated rule set that monitors contacts and delivers qualifying ones to the Lead Board. Contacts can also be added to a Lead Stream directly from a Journey using the Create Lead step.
 
 </details>
 
@@ -317,13 +301,6 @@ The option you select when addressing an email or SMS send. Common options inclu
 
 </details>
 
-<details>
-<summary>Retrospective tracking</summary>
-
-A Web Tracker feature that attributes earlier anonymous web visits to a contact identified later in the same session or browser. If a visitor submits a form after browsing several pages, eMarketeer can retroactively link those earlier page visits to the now-identified contact.
-
-</details>
-
 ## S
 
 <details>
@@ -357,7 +334,7 @@ eMarketeer's engagement event system. A signal is a structured interaction event
 <details>
 <summary>Soft bounce</summary>
 
-A temporary email delivery failure, typically because the recipient's mailbox is full or the mail server is temporarily unavailable. eMarketeer tracks soft bounce counts and may suppress addresses that soft-bounce repeatedly.
+A temporary email delivery failure, typically because the recipient's mailbox is full or the mail server is temporarily unavailable. eMarketeer tracks soft bounce counts and suppresses contacts that soft-bounce repeatedly.
 
 </details>
 
@@ -373,14 +350,14 @@ A grouping of consent or communication preferences in eMarketeer. Contacts can b
 <details>
 <summary>Tag</summary>
 
-A label applied to a contact for segmentation purposes. Tags are free-form and can be added or removed without changing structured contact fields. Multiple tags can be applied to the same contact.
+A label applied to a contact or campaign for segmentation and organization purposes. Tags are free-form and can be added or removed at any time. Multiple tags can be applied to the same contact or campaign.
 
 </details>
 
 <details>
 <summary>Template</summary>
 
-A saved email or form design that can be reused as the starting point for new sends or forms. Templates store layout, styles, and placeholder content. Changes to a template do not affect components that are already using it.
+A saved component design that can be reused as the starting point for new sends or forms. Templates store layout, styles, and placeholder content. Changes to a template do not affect components that are already using it.
 
 </details>
 
