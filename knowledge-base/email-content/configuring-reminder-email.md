@@ -1,7 +1,7 @@
 ---
 description: >-
-  How to target contacts who did not open or respond to a previous send-out
-  with a follow-up email.
+  How to target contacts who did not open or respond to a previous send-out with
+  a follow-up email.
 layout:
   width: default
   title:
@@ -48,17 +48,13 @@ Choose the same group of contacts you used for the original campaign as your fir
 
 Use this button to add the Selection of contacts you want to block from the reminder.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/rem-add-more.png" alt="On the page for the second sendout step, click the Add More Recipients button to add the selection of contacts to block later"></div>
-
-The \[Add More Recipients] button on the Send Options page
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-add-more.png" alt="On the page for the second sendout step, click the Add More Recipients button to add the selection of contacts to block later"></div>
 {% endstep %}
 
 {% step %}
 ### Choose "Selection" for the second Recipient Source
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/rem-selection.png" alt="Selection type recipient list is the last option on the first recipient source options page"></div>
-
-Selection is one of the options on the first Recipient Source page
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-selection.png" alt="Selection type recipient list is the last option on the first recipient source options page"></div>
 {% endstep %}
 
 {% step %}
@@ -66,17 +62,13 @@ Selection is one of the options on the first Recipient Source page
 
 The Selection you pick depends on what the reminder is about. The two examples below cover an email open and a form submission, but other event types are available.
 
-* To remind contacts to read a previous email, build a Selection of contacts who have opened that email. Those contacts are the ones you will block.
+* **Example 1:** To remind contacts to read a previous email, build a Selection of contacts who have opened that email. Those contacts are the ones you will block.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/rem-sel-email-open.png" alt="On the second recipient source selections page, select your campaign, then your previous email, then the event type Opened E-mail to block the reminder email sendout to those contacts that already have read the previous email"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-sel-email-open.png" alt="On the second recipient source selections page, select your campaign, then your previous email, then the event type Opened E-mail to block the reminder email sendout to those contacts that already have read the previous email"></div>
 
-Selecting contacts that have opened the previous email as a recipient source to block in the next step
+* **Example 2:** To remind contacts to register through a form, build a Selection of contacts who have submitted that form. Those contacts are the ones you will block.
 
-* To remind contacts to register through a form, build a Selection of contacts who have submitted that form. Those contacts are the ones you will block.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/rem-sel-event-reg.png" alt="On the second recipient source selections page, select your campaign, then your form, then the event type Submitted to block the email sendout to registrants to a form in the next step"></div>
-
-Selecting form registrants as a recipient source to block in the next step
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-sel-event-reg.png" alt="On the second recipient source selections page, select your campaign, then your form, then the event type Submitted to block the email sendout to registrants to a form in the next step"></div>
 {% endstep %}
 
 {% step %}
@@ -84,9 +76,7 @@ Selecting form registrants as a recipient source to block in the next step
 
 The Recipients list now shows both your original group and the new Selection. Change the Type dropdown for the Selection from "Send to" to "Block".
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/rem-type-block.png" alt="Block Recipients option is found as a dropdown menu option on the row for the recipient source"></div>
-
-Blocking the sendout by setting the Recipient Source to Block
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-type-block.png" alt="Block Recipients option is found as a dropdown menu option on the row for the recipient source"></div>
 
 A contact in a blocked recipient list is excluded from the send, even if another recipient list would have included them.
 
