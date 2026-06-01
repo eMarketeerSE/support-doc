@@ -113,6 +113,7 @@
     * [Transactional sendouts](documentation/email-sms/transactional-sendouts.md)
     * [When is an email registered as opened?](knowledge-base/reports/email-open.md)
     * [eMarketeer sender policy](knowledge-base/email-deliverability/emarketeer-sender-policy.md)
+    * [Why you shouldn't use a URL as link text](documentation/email-sms/url-as-link-caption.md)
     * [Understanding the Email Checklist](knowledge-base/reports/checklist-explained.md)
     * [How to use the Comparative email report](knowledge-base/reports/comparative-email-report-tutorial.md)
     * [Email report explained](knowledge-base/reports/email-report-explained.md)

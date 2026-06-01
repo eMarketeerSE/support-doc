@@ -115,6 +115,7 @@
     * [Transaktionella utskick](documentation/email-sms/transactional-sendouts.md)
     * [När registreras en e-post som öppnad?](knowledge-base/reports/email-open.md)
     * [eMarketeers avsändarpolicy](knowledge-base/email-deliverability/emarketeer-sender-policy.md)
+    * [Varför du inte bör använda URL:er som länktext](documentation/email-sms/url-as-link-caption.md)
     * [Förstå checklistan för e-post](knowledge-base/reports/checklist-explained.md)
     * [Så använder du den jämförande e-postrapporten](knowledge-base/reports/comparative-email-report-tutorial.md)
     * [E-postrapporten förklarad](knowledge-base/reports/email-report-explained.md)
