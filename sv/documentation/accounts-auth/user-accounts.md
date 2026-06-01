@@ -20,7 +20,7 @@ Ytterligare behörigheter som kan beviljas en Marketing User:
 
 ## Sales User
 
-En Sales User har åtkomst till Lead Board och kan tilldelas ett eller flera säljteam för att ta emot och arbeta med leads.
+En Sales User har åtkomst till [Lead Board](../../../knowledge-base/lead-board-scoring/the-lead-board.md) och kan tilldelas ett eller flera [säljteam](../../../knowledge-base/lead-board-scoring/sales-teams.md) för att ta emot och arbeta med leads. Se [Sales users](../../../knowledge-base/lead-board-scoring/sales-users.md) för instruktioner om hur du ger en användare säljåtkomst.
 
 Ytterligare behörigheter som kan beviljas en Sales User:
 

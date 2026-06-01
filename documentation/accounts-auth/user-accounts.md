@@ -20,7 +20,7 @@ Additional privileges that can be granted to a Marketing User:
 
 ## Sales User
 
-A Sales User has access to the Lead Board and can be assigned to one or more sales teams to receive and work leads.
+A Sales User has access to the [Lead Board](../../knowledge-base/lead-board-scoring/the-lead-board.md) and can be assigned to one or more [sales teams](../../knowledge-base/lead-board-scoring/sales-teams.md) to receive and work leads. See [Sales users](../../knowledge-base/lead-board-scoring/sales-users.md) for instructions on granting sales access to a user.
 
 Additional privileges that can be granted to a Sales User:
 
