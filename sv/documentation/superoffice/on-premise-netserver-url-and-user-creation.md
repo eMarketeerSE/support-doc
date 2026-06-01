@@ -67,4 +67,4 @@ Spara användarnamnet och lösenordet.
 
 ## Vad du gör härnäst
 
-Med URL:en och inloggningsuppgifterna klara kan du [aktivera integrationen](/documentation/on-premise-enabling-the-integration/).
+Med URL:en och inloggningsuppgifterna klara kan du [aktivera integrationen](on-premise-enabling-the-integration.md).

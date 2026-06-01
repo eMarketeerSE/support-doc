@@ -67,4 +67,4 @@ Save the username and password.
 
 ## What to do next
 
-With the URL and user credentials ready, you can [enable the integration](../on-premise-enabling-the-integration/).
+With the URL and user credentials ready, you can [enable the integration](on-premise-enabling-the-integration.md).
