@@ -174,6 +174,7 @@
 
 ## Concepts
 
+* [Glossary](glossary.md)
 * [GDPR & consent](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
   * [Double opt-in subscription](knowledge-base/gdpr-consent/double-opt-in.md)
   * [\[Video\] GDPR and what it means for eMarketeer users](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)

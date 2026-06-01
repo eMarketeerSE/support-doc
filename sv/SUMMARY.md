@@ -176,6 +176,7 @@
 
 ## Koncept
 
+* [Ordlista](glossary.md)
 * [GDPR & samtycke](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
   * [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
   * [\[Video\] GDPR och vad det innebär för eMarketeer-användare](knowledge-base/gdpr-consent/gdpr-and-what-it-means-for-emarketeer-users.md)
