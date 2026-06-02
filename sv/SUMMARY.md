@@ -1,8 +1,9 @@
 # Innehållsförteckning
 
+* [Välkommen](overview.md)
+
 ## Kom igång
 
-* [Översikt](overview.md)
 * [Kampanjgrunder](knowledge-base/getting-started/campaign-basics.md)
   * [Skapa din första e-post](knowledge-base/getting-started/basics-creating-email.md)
   * [Skapa ditt första formulär (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
