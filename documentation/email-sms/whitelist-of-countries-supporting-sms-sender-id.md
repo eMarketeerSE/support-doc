@@ -101,7 +101,7 @@ The countries below are enabled to use an alphanumeric Sender ID when sending fr
 - Italy (39)
 - Ivory Coast (Cote d'Ivoire) (225)
 - Jamaica (1876)
-- Japan (81
+- Japan (81)
 - Jordan (962)
 - Kazakhstan (7)
 - Kiribati (686)
@@ -206,5 +206,3 @@ The countries below are enabled to use an alphanumeric Sender ID when sending fr
 - Yemen (967)
 - Zambia (260)
 - Zimbabwe (263)
-
-> TODO: verify — the Japan entry "Japan (81" is missing a closing parenthesis in the source.

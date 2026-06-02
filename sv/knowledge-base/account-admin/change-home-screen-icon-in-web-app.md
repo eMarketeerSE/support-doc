@@ -24,8 +24,6 @@ Följ stegen nedan för att använda en egen ikon.
 
 Skapa en kvadratisk bild som är minst 254 pixlar bred och hög, och högst 1024. Spara bilden som PNG eller JPG.
 
-> TODO: verify — original lists "png, jpg or png format" which is a typo; confirm the supported formats.
-
 ## Ladda upp bilden till eMarketeer och hämta URL
 
 Gå till Files i eMarketeer och ladda upp bilden till valfri mapp. Klicka för att förhandsgranska bilden och kopiera den relativa URL:en (utan domännamnet), enligt nedan.

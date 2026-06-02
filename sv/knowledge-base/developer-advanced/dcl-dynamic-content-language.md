@@ -1,8 +1,6 @@
-# Villkor
+# DCL: Villkor
 
 DCL erbjuder ett enkelt `if-elseif-else-endif`-villkor för att infoga olika innehåll baserat på ett värde.
-
-> TODO: verify — the H1 is "Conditionals" but the file slug is `dcl-dynamic-content-language`. Confirm whether this page should cover all of DCL or only the conditional syntax.
 
 Du kan testa om en sträng är lika med eller skild från en annan. Villkorsfunktioner använder den vanliga funktionssyntaxen och returnerar alltid en tom sträng, men de kan inte användas som argument till andra funktioner. Det finns inga booleska operatorer, men du kan simulera AND genom att nästa villkor.
 

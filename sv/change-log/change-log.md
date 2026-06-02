@@ -268,9 +268,6 @@ Större funktioner:
 Övriga förbättringar och korrigeringar:
 
 - Åtgärdat ett problem med LinkedIn-integrationen.
-
-> TODO: verify — original entry reads "Fixed an issue where the LinkedIn integration." with no further detail.
-
 - Lagt till övervakningssystem för LinkedIn-integrationen.
 - Fortsatt förbättring av den nya matchningslogiken för SuperOffice journey-steg.
 

@@ -1,8 +1,6 @@
-# Conditionals
+# DCL: Conditionals
 
 DCL provides a simple `if-elseif-else-endif` conditional for inserting different content based on a value.
-
-> TODO: verify — the H1 is "Conditionals" but the file slug is `dcl-dynamic-content-language`. Confirm whether this page should cover all of DCL or only the conditional syntax.
 
 You can test one string for equality or non-equality against another. Conditional functions use the normal function syntax and always return an empty string, but they cannot be used as arguments to other functions. There are no boolean operators, but you can simulate AND by nesting conditionals.
 

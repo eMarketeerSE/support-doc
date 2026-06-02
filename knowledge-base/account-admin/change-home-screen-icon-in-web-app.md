@@ -24,8 +24,6 @@ To use a custom icon, follow the steps below.
 
 Create a square image at least 254 pixels wide and tall, and no more than 1024. Save the image as PNG or JPG.
 
-> TODO: verify — original lists "png, jpg or png format" which is a typo; confirm the supported formats.
-
 ## Upload the image to eMarketeer and get the URL
 
 Go to Files in eMarketeer and upload the image to a folder of your choice. Click to preview the image and copy the relative URL (without the domain name), as shown below.

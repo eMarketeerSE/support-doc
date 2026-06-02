@@ -268,9 +268,6 @@ Major features:
 Other improvements and fixes:
 
 - Fixed an issue with the LinkedIn integration.
-
-> TODO: verify — original entry reads "Fixed an issue where the LinkedIn integration." with no further detail.
-
 - Added monitor systems for the LinkedIn integration.
 - Continued to improve the new matching logic for SuperOffice journey steps.
 
