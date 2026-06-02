@@ -5,8 +5,6 @@ page-type: overview
 
 # E-post
 
-Referensmaterial för eMarketeers e-postavsändning: plattformsbeteende, leveransbarhet och hur e-post mäts.
-
 {% columns %}
 {% column %}
 {% content-ref url="deliverability.md" %}

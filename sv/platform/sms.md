@@ -5,8 +5,6 @@ page-type: overview
 
 # SMS
 
-Referensmaterial för SMS i eMarketeer: konfiguration av Sender ID och länder som stöds.
-
 {% columns %}
 {% column %}
 {% content-ref url="../documentation/email-sms/sender-id.md" %}

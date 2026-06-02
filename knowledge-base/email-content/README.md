@@ -5,8 +5,6 @@ page-type: overview
 
 # Email content
 
-Guides for building, personalizing, and troubleshooting email content in eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="configuring-reminder-email.md" %}

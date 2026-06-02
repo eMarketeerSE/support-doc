@@ -6,8 +6,6 @@ page-type: overview
 
 # Kampanjgrunder
 
-Dina första steg med eMarketeer — skapa e-post, formulär och kampanjer samt hantera kontakter.
-
 {% columns %}
 {% column %}
 {% content-ref url="basics-creating-email.md" %}

@@ -5,8 +5,6 @@ page-type: overview
 
 # User accounts & auth
 
-Reference for user account management and multi-factor authentication.
-
 {% columns %}
 {% column %}
 {% content-ref url="user-accounts.md" %}

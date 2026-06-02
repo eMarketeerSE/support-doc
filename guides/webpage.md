@@ -5,8 +5,6 @@ page-type: overview
 
 # Webpages
 
-Guides for creating webpages and customizing the eMarketeer web app.
-
 {% columns %}
 {% column %}
 {% content-ref url="../knowledge-base/developer-advanced/creating-first-webpage.md" %}

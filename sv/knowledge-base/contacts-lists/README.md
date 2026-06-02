@@ -6,8 +6,6 @@ page-type: overview
 
 # Kontakter & listor
 
-Guider för att importera, filtrera, tagga och hantera kontakter i eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../getting-started/new-contact-list.md" %}

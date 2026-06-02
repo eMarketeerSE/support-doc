@@ -5,8 +5,6 @@ page-type: overview
 
 # Forms
 
-Guides for building, publishing, and managing forms in eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../../documentation/forms/publish-a-form.md" %}

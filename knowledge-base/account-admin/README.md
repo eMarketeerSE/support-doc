@@ -6,8 +6,6 @@ page-type: overview
 
 # Account settings
 
-Guides for managing your eMarketeer account, users, domains, and settings.
-
 {% columns %}
 {% column %}
 {% content-ref url="invite-user-account.md" %}

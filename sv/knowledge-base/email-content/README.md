@@ -5,8 +5,6 @@ page-type: overview
 
 # E-postinnehåll
 
-Guider för att skapa, personalisera och felsöka e-postinnehåll i eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="configuring-reminder-email.md" %}

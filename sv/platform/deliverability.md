@@ -6,8 +6,6 @@ page-type: overview
 
 # Leveransbarhet
 
-Referensartiklar för att diagnostisera och förbättra e-postleveransbarhet i eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../knowledge-base/email-deliverability/bounce-handling.md" %}

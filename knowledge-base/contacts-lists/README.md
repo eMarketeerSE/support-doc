@@ -6,8 +6,6 @@ page-type: overview
 
 # Contacts
 
-Guides for importing, filtering, tagging, and managing contacts in eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../getting-started/new-contact-list.md" %}

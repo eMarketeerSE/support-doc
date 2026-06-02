@@ -5,8 +5,6 @@ page-type: overview
 
 # Formulär
 
-Guider för att skapa, publicera och hantera formulär i eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../../documentation/forms/publish-a-form.md" %}

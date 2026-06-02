@@ -6,8 +6,6 @@ page-type: overview
 
 # Kampanjguider
 
-Guider för e-post, formulär, kampanjer och webbsidor i eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="knowledge-base/email-content/README.md" %}

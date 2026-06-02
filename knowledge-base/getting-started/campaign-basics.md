@@ -6,8 +6,6 @@ page-type: overview
 
 # Campaign basics
 
-Your first steps with eMarketeer — creating emails, forms, and campaigns, and managing contacts.
-
 {% columns %}
 {% column %}
 {% content-ref url="basics-creating-email.md" %}

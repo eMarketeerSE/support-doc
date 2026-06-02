@@ -5,8 +5,6 @@ page-type: overview
 
 # Kampanjer
 
-Guider för att skapa, organisera och hantera kampanjer i eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="campaign-interface-explained.md" %}

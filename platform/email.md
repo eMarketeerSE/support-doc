@@ -5,8 +5,6 @@ page-type: overview
 
 # Email
 
-Reference material for eMarketeer's email sending: platform behaviour, deliverability, and how email is measured.
-
 {% columns %}
 {% column %}
 {% content-ref url="deliverability.md" %}

@@ -6,8 +6,6 @@ page-type: overview
 
 # Platform
 
-Reference documentation for eMarketeer's platform features: email, SMS, web tracking, and user accounts.
-
 {% columns %}
 {% column %}
 {% content-ref url="platform/email.md" %}

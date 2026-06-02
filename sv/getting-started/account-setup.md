@@ -6,8 +6,6 @@ page-type: overview
 
 # Kontoinställning
 
-Konfigurera ditt eMarketeer-konto — autentisera din avsändardomän och koppla din webbplats.
-
 {% columns %}
 {% column %}
 {% content-ref url="../knowledge-base/email-deliverability/authorize-email-domain.md" %}

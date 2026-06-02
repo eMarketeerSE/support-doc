@@ -6,8 +6,6 @@ page-type: overview
 
 # Developer
 
-Advanced guides for developers building on or extending eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../../references/developer-advanced/dcl-introduction/README.md" %}

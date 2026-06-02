@@ -6,8 +6,6 @@ page-type: overview
 
 # Konto & administration
 
-Guider för att hantera ditt eMarketeer-konto, användare, domäner och inställningar.
-
 {% columns %}
 {% column %}
 {% content-ref url="invite-user-account.md" %}

@@ -5,8 +5,6 @@ page-type: overview
 
 # Användarkonton & autentisering
 
-Referens för hantering av användarkonton och multi-factor-autentisering.
-
 {% columns %}
 {% column %}
 {% content-ref url="user-accounts.md" %}

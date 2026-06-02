@@ -6,8 +6,6 @@ page-type: overview
 
 # Övriga integrationer
 
-Koppla Facebook- och LinkedIn-leadformulär till ditt eMarketeer-konto.
-
 {% columns %}
 {% column %}
 {% content-ref url="documentation/lead-forms/facebook-lead-forms.md" %}

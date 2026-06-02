@@ -6,8 +6,6 @@ page-type: overview
 
 # Campaign guides
 
-How-to guides for emails, forms, campaigns, and webpages in eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="knowledge-base/email-content/README.md" %}

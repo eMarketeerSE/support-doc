@@ -5,8 +5,6 @@ page-type: overview
 
 # Deliverability
 
-Reference articles for diagnosing and improving email deliverability in eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="../knowledge-base/email-deliverability/bounce-handling.md" %}

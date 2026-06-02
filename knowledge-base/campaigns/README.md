@@ -5,8 +5,6 @@ page-type: overview
 
 # Campaigns
 
-Guides for creating, organizing, and managing campaigns in eMarketeer.
-
 {% columns %}
 {% column %}
 {% content-ref url="campaign-interface-explained.md" %}

@@ -6,8 +6,6 @@ page-type: overview
 
 # Plattform
 
-Referensdokumentation för eMarketeers plattformsfunktioner: e-post, SMS, webbspårning och användarkonton.
-
 {% columns %}
 {% column %}
 {% content-ref url="platform/email.md" %}
