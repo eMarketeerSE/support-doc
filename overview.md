@@ -2,12 +2,16 @@
 description: >-
   The complete eMarketeer support site — how-to guides, technical references,
   integration docs, and release notes.
-icon: book-open
+icon: hand-wave
 ---
 
 # Overview
 
 Find everything you need to get the most out of eMarketeer.
+
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question…</button>
+
+<button type="button" class="button secondary" data-action="ask" data-query="Why did my email bounce?" data-icon="envelope">Why did my email bounce?</button><button type="button" class="button secondary" data-action="ask" data-query="How do I install the web tracker?" data-icon="globe">How do I install the web tracker?</button><button type="button" class="button secondary" data-action="ask" data-query="How do I start a customer journey?" data-icon="chart-diagram">How do I create a journey?</button>
 
 ## Getting started
 
@@ -19,13 +23,13 @@ New to eMarketeer? These guides cover the basics — your first email, first cam
 
 In-depth guides for every feature — from building emails to automating contact workflows.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Campaign guides</strong></td><td>Guides for email content, forms, campaigns, and webpages.</td><td><a href="guides.md">guides.md</a></td></tr><tr><td><strong>Journeys</strong></td><td>Build automated sequences that nurture contacts and update your CRM.</td><td><a href="knowledge-base/journeys/journeys.md">journeys.md</a></td></tr><tr><td><strong>Contacts</strong></td><td>Import, filter, tag, and manage contacts and lists.</td><td><a href="knowledge-base/contacts-lists/README.md">README.md</a></td></tr><tr><td><strong>Lead management</strong></td><td>Set up lead scoring, the Lead Board, and sales user workflows.</td><td><a href="knowledge-base/lead-board-scoring/README.md">README.md</a></td></tr><tr><td><strong>Account settings</strong></td><td>Manage users, domains, subscriptions, and account preferences.</td><td><a href="knowledge-base/account-admin/README.md">README.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Campaign guides</strong></td><td>Guides for email content, forms, campaigns, and webpages.</td><td><a href="guides.md">guides.md</a></td></tr><tr><td><strong>Journeys</strong></td><td>Build automated sequences that nurture contacts and update your CRM.</td><td><a href="knowledge-base/journeys/journeys.md">journeys.md</a></td></tr><tr><td><strong>Contacts</strong></td><td>Import, filter, tag, and manage contacts and lists.</td><td><a href="knowledge-base/contacts-lists/">contacts-lists</a></td></tr><tr><td><strong>Lead management</strong></td><td>Set up lead scoring, the Lead Board, and sales user workflows.</td><td><a href="knowledge-base/lead-board-scoring/">lead-board-scoring</a></td></tr><tr><td><strong>Account settings</strong></td><td>Manage users, domains, subscriptions, and account preferences.</td><td><a href="knowledge-base/account-admin/">account-admin</a></td></tr></tbody></table>
 
 ## References
 
 Technical documentation for the API, developer tools, and platform mechanics.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API</strong></td><td>REST API docs for consent, subscriptions, and custom signals.</td><td><a href="documentation/apis-developer/README.md">README.md</a></td></tr><tr><td><strong>Developer</strong></td><td>Advanced tools: DCL template language, barcodes, and mobile app guides.</td><td><a href="knowledge-base/developer-advanced/README.md">README.md</a></td></tr><tr><td><strong>Platform</strong></td><td>Email sending rules, web tracking, user accounts, and platform mechanics.</td><td><a href="references.md">references.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API</strong></td><td>REST API docs for consent, subscriptions, and custom signals.</td><td><a href="documentation/apis-developer/">apis-developer</a></td></tr><tr><td><strong>Developer</strong></td><td>Advanced tools: DCL template language, barcodes, and mobile app guides.</td><td><a href="knowledge-base/developer-advanced/">developer-advanced</a></td></tr><tr><td><strong>Platform</strong></td><td>Email sending rules, web tracking, user accounts, and platform mechanics.</td><td><a href="references.md">references.md</a></td></tr></tbody></table>
 
 ## Integrations
 
@@ -37,4 +41,4 @@ Connect eMarketeer to your CRM and other tools.
 
 Background reading on compliance and email marketing strategy.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>GDPR & consent</strong></td><td>How GDPR applies to eMarketeer and what you can do as a customer.</td><td><a href="knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md">emarketeer-gdpr-overview.md</a></td></tr><tr><td><strong>Email marketing best practices</strong></td><td>Ten best practices and common pitfalls for email marketing success.</td><td><a href="knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md">maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>GDPR &#x26; consent</strong></td><td>How GDPR applies to eMarketeer and what you can do as a customer.</td><td><a href="knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md">emarketeer-gdpr-overview.md</a></td></tr><tr><td><strong>Email marketing best practices</strong></td><td>Ten best practices and common pitfalls for email marketing success.</td><td><a href="knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md">maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md</a></td></tr></tbody></table>
