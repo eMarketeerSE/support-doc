@@ -376,6 +376,22 @@ A saved component design that can be reused as the starting point for new sends 
 
 <details>
 
+<summary>Undeliverable contact</summary>
+
+A contact eMarketeer cannot deliver email to. This status is set after one hard bounce or three consecutive soft bounces. Undeliverable contacts are excluded from email sends.
+
+</details>
+
+<details>
+
+<summary>Unengaged contact</summary>
+
+A contact who has received emails from you for over a year but has not interacted with any of them. eMarketeer excludes unengaged contacts from email sends by default. You can include them on individual sends if needed.
+
+</details>
+
+<details>
+
 <summary>UTM parameter</summary>
 
 A query string tag appended to a URL to track traffic in analytics tools such as Google Analytics. eMarketeer can automatically append UTM parameters to email links. Standard parameters are utm\_source, utm\_medium, utm\_campaign, utm\_content, and utm\_term.

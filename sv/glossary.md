@@ -366,6 +366,22 @@ En etikett som appliceras på en kontakt eller kampanj för segmenterings- och o
 
 <details>
 
+<summary>Oleverbar kontakt</summary>
+
+En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett hårt studs eller tre på varandra följande mjuka studsar. Olevererbara kontakter utesluts från e-postutskick.
+
+</details>
+
+<details>
+
+<summary>Oengagerad kontakt</summary>
+
+En kontakt som har fått e-post från dig under mer än ett år utan att interagera med något av dem. eMarketeer utesluter oengagerade kontakter från e-postutskick som standard. Du kan inkludera dem i enskilda utskick vid behov.
+
+</details>
+
+<details>
+
 <summary>UTM-parameter</summary>
 
 En frågesträngs­tagg som läggs till i en URL för att spåra trafik i analysverktyg som Google Analytics. eMarketeer kan automatiskt lägga till UTM-parametrar på e-postlänkar. Standardparametrar är utm\_source, utm\_medium, utm\_campaign, utm\_content och utm\_term.
