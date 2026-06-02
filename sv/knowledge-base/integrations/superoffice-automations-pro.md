@@ -1,104 +1,62 @@
-# SuperOffice-automatiseringar (PRO)
+# SuperOffice-automatiseringar
 
-Den här artikeln beskriver de SuperOffice-automatiseringar som finns i eMarketeer och hur de visas i leadrapporten.
+SuperOffice-automatiseringar låter dig utlösa åtgärder i SuperOffice när en kontakt interagerar med en eMarketeer-kampanj — till exempel genom att klicka på en länk eller skicka in ett formulär. Varje automatisering körs på den kontakt som utlöste den och skapar motsvarande objekt — affär, uppgift, notifiering, intresseuppdatering, projektmedlemskap eller urvalmedlemskap — direkt i SuperOffice.
 
-Leadrapporten samlar kontakter som triggar SuperOffice-automatiseringar så att ditt säljteam kan agera på dem. Automatiseringarna i sig täcker försäljning, uppgifter, notifieringar, intressen, projekt och urval.
+## Konfigurera en automatisering
 
-## Leadrapporter
+1. Öppna en kampanj i eMarketeer.
+2. Gå till fliken **Automations**.
+3. Klicka på **Create new automation**.
+4. Välj typ av automatisering, konfigurera inställningarna och spara.
 
-Alla kontakter som triggar någon av följande automatiseringar läggs till i leadrapporten:
+Automatiseringen körs varje gång en kontakt utlöser den kampanjhändelse den är kopplad till.
 
-- Create Sale
-- Create Task
-- Create Notification
-- Set/unset interest(s)
+## Hur omatchade kontakter hanteras
 
-Om kontakten är känd för SuperOffice — den har ett External ID eller en matchande e-postadress — läggs den till i avsnittet "Assigned leads". Om kontakten är okänd för SuperOffice (inget External ID och ingen matchande e-postadress) läggs den till i avsnittet "Leads without owners".
+Varje automatisering kräver att kontakten har ett externt ID som kopplar den till en SuperOffice-kontakt. Om inget externt ID finns kan eMarketeer inte utföra åtgärden. Automatiseringen pausas och kontakten läggs till i Manage Automations Queue.
 
-Leadrapporten är åtkomlig inifrån SuperOffice — klicka på leads-knappen så öppnas en webbpanel. Om din leads-knapp och webbpanel saknas, [så här](../../documentation/superoffice/actions-performed-during-set-up.md) får du dem.
+Öppna kön genom att klicka på SuperOffice-logotypen i det övre vänstra hörnet i SuperOffice och sedan gå till fliken **Manage Automations Queue**. Därifrån kan en säljare matcha kontakten mot en befintlig SuperOffice-kontakt. Automatiseringen återupptas när matchningen är gjord.
 
-### Leads without owners
+{% hint style="info" %}
+SuperOffice-automatiseringar är inte samma sak som SuperOffice Journey-steg. Journey-steg använder annan matchningslogik. Den här artikeln handlar bara om automatiseringar på kampanjnivå.
+{% endhint %}
 
-I den här rapporten väljer du vilket lead du vill importera till SuperOffice. Du kan lägga till den okända kontakten i ett befintligt företag, slå ihop den med ett befintligt företag eller skapa ett nytt företag och tilldela en ägare.
+## Typer av automatiseringar
 
-När kontakten har lagts till i SuperOffice flyttas den från Leads List till Assigned leads.
-
-Om ett lead tas bort från någon av listorna tas kontakten bort från listan — inte från kampanjen, komponenten eller någon annan del av systemet.
-
-Leads without owners stannar kvar i leadrapporten i 60 dagar, varefter de förfaller från listan. Leads och kontakter finns kvar i eMarketeer.
-
-#### Mest intressanta lead just nu
-
-Det lead som har högst ackumulerat försäljningsvärde har en egen plats i rapporten.
-
-#### Aktuell ålder på leads
-
-Visar ålder och aktivitetstyp på leads i rapporten. Detta ger en snabb överblick över säljteamets svarstid på leads. Klicka på aktivitetstyperna i diagrammets förklaring för att lyfta fram specifika typer i diagrammet.
-
-#### Leads list
-
-En lista över leads och information om vilken automatisering varje okänd kontakt triggade.
-
-### Assigned leads
-
-Den här listan visar automatiseringar för försäljning, uppgift och notifiering på kontakter som redan är kända i SuperOffice (matchade på kontakt-ID eller e-postadress). Assigned leads stannar kvar i listan i 60 dagar, varefter de förfaller. Leads och kontakter finns kvar i eMarketeer.
-
-### Leads over time
-
-Graferna och statistiken visar alla leads som skapats över tid och fördelningen av leadtyper sedan integrationen mellan SuperOffice och eMarketeer aktiverades.
-
-## Automatiseringar
+För alla typer: om kontakten saknar externt ID pausas automatiseringen och kontakten läggs till i Manage Automations Queue (se ovan).
 
 ### Create new sale
 
-Ett försäljningsobjekt skapas i SuperOffice och tilldelas personen. eMarketeer sätter egenskaperna source, rating och description. Du kan valfritt lägga till personen i ett urval eller projekt när försäljningen skapas.
-
-Om den triggande kontakten är okänd för SuperOffice pausas automatiseringen och läggs till i leadrapporten.
+Skapar en affärspost i SuperOffice och tilldelar den till kontakten. eMarketeer anger källa, betyg och beskrivning. Du kan även lägga till kontakten i ett urval eller projekt när affären skapas.
 
 ### Create a task
 
-Skapar en uppgift (aktivitet) i SuperOffice av en typ som du anger när du skapar automatiseringen. Du kan lägga till en beskrivning. Uppgifter markeras alltid som ej slutförda.
-
-Om den triggande kontakten är okänd för SuperOffice pausas automatiseringen och läggs till i leadrapporten.
+Skapar en uppgift (aktivitet) i SuperOffice av den typ du anger. Du kan lägga till en beskrivning. Uppgifter markeras alltid som ej slutförda.
 
 ### Notify sales rep
 
-Skapar en aktivitet i SuperOffice av en typ som du anger när du skapar automatiseringen. Du kan lägga till en beskrivning. Notify sales rep-aktiviteter markeras alltid som slutförda.
-
-Om den triggande kontakten är okänd för SuperOffice pausas automatiseringen och läggs till i leadrapporten.
+Skapar en aktivitet i SuperOffice av den typ du anger. Du kan lägga till en beskrivning. Notify sales rep-aktiviteter markeras alltid som slutförda.
 
 ### Set interest
 
-Markera de intressen du vill sätta. Om eMarketeer-kontakten har ett SuperOffice-ID ändras SuperOffice-intresset.
-
-Om den triggande kontakten är okänd för SuperOffice pausas automatiseringen, men leadet visas inte i leadrapporten.
-
-Kontakten måste trigga en Sale-, Task- eller Notification-automatisering innan du kan ta ägarskap över kontakten.
+Markera de intressen du vill ange. Om kontakten har ett externt ID uppdateras intresset i SuperOffice.
 
 ### Unset interest
 
-Markera de intressen du vill ta bort. Om eMarketeer-kontakten har ett SuperOffice-ID ändras SuperOffice-intresset.
-
-Om den triggande kontakten är okänd för SuperOffice pausas automatiseringen, men leadet visas inte i leadrapporten.
-
-Kontakten måste trigga en Sale-, Task- eller Notification-automatisering innan du kan ta ägarskap över kontakten.
+Avmarkera de intressen du vill ta bort. Om kontakten har ett externt ID uppdateras intresset i SuperOffice.
 
 ### Add to project
 
-Lägger till den triggande kontakten i ett projekt som anges när automatiseringen skapas. Om personen är okänd för SuperOffice misslyckas automatiseringen.
+Lägger till kontakten i ett projekt du anger när du skapar automatiseringen.
 
 ### Remove from project
 
-Tar bort den triggande kontakten från ett projekt som anges när automatiseringen skapas. Om personen är okänd för SuperOffice misslyckas automatiseringen.
+Tar bort kontakten från ett projekt du anger när du skapar automatiseringen.
 
 ### Add to selection
 
-Lägger till den triggande kontakten i ett statiskt urval som anges när automatiseringen skapas. Statiska urval kan innehålla dubbletter.
-
-Om personen är okänd för SuperOffice misslyckas automatiseringen.
+Lägger till kontakten i ett statiskt urval du anger när du skapar automatiseringen. Statiska urval kan innehålla dubbletter.
 
 ### Remove from selection
 
-Tar bort den triggande kontakten från ett statiskt urval som anges när automatiseringen skapas.
-
-Om personen är okänd för SuperOffice misslyckas automatiseringen.
+Tar bort kontakten från ett statiskt urval du anger när du skapar automatiseringen.

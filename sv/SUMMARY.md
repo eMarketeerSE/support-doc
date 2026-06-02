@@ -148,7 +148,7 @@
   * [Åtgärder som utförs vid uppsättning av SuperOffice-integrationen](documentation/superoffice/actions-performed-during-set-up.md)
   * [SuperOffice-integrationen – funktioner och flöden](documentation/superoffice/integration-features-and-flows.md)
   * [Importera kontakter från SuperOffice CRM](documentation/superoffice/import-contacts-from-superoffice-crm.md)
-  * [SuperOffice-automatiseringar (PRO)](knowledge-base/integrations/superoffice-automations-pro.md)
+  * [SuperOffice-automatiseringar](knowledge-base/integrations/superoffice-automations-pro.md)
   * [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
   * [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)
   * [Återställ en SuperOffice-integration](documentation/superoffice/resetting-a-superoffice-online-integration.md)

@@ -146,7 +146,7 @@
   * [Actions performed during SuperOffice integration setup](documentation/superoffice/actions-performed-during-set-up.md)
   * [The SuperOffice Integration - features and flows](documentation/superoffice/integration-features-and-flows.md)
   * [Import contacts from SuperOffice CRM](documentation/superoffice/import-contacts-from-superoffice-crm.md)
-  * [SuperOffice automations (PRO)](knowledge-base/integrations/superoffice-automations-pro.md)
+  * [SuperOffice automations](knowledge-base/integrations/superoffice-automations-pro.md)
   * [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
   * [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)
   * [Reset a SuperOffice integration](documentation/superoffice/resetting-a-superoffice-online-integration.md)
