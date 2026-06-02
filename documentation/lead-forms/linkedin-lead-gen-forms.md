@@ -21,7 +21,7 @@ Note: you connect with your personal LinkedIn profile, which gives eMarketeer ac
 
 Once connected, you will see the list of Ad Accounts available to receive leads from.
 
-<div data-with-frame="true" align="left"><img src="../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="LinkedIn Ad Accounts list in eMarketeer connector"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12 (1).png" alt="LinkedIn Ad Accounts list in eMarketeer connector"></div>
 
 Check the Ad Accounts you want to receive leads from. Checking an Ad Account automatically sends incoming leads from any Lead Gen Form on that Ad Account to eMarketeer.
 
@@ -64,7 +64,7 @@ First, create the form and the ad in LinkedIn. Then click "Preview" on the ad. F
 
 Once leads arrive in eMarketeer, you can access them through the Contact Filter as Engagement.
 
-<div data-with-frame="true" align="left"><img src="../../assets/linkedin-lead-gen-forms/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact Filter showing LinkedIn engagement options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233 (1).png" alt="Contact Filter showing LinkedIn engagement options"></div>
 
 Using this filter, you can retrieve all contacts who:
 

@@ -21,3 +21,5 @@
 - tag: account-settings
   label: Account settings
   icon: gear
+- tag: overview
+  label: Overview
