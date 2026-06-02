@@ -24,23 +24,41 @@ De nya mallarna ersätter de tidigare. Sparade mallar visas fortfarande på ditt
 
 Om du behöver hjälp att flytta en sparad mall till den nya grunden, mejla sales@emarketeer.com.
 
+{% columns %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Exempel på e-postmall 1"></div>
-
+{% endcolumn %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Exempel på e-postmall 2"></div>
-
+{% endcolumn %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Exempel på e-postmall 4"></div>
+{% endcolumn %}
+{% endcolumns %}
 
+{% columns %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Exempel på e-postmall 5"></div>
-
+{% endcolumn %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Exempel på e-postmall 6"></div>
-
+{% endcolumn %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Exempel på e-postmall"></div>
+{% endcolumn %}
+{% endcolumns %}
 
+{% columns %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Exempel på e-postmall"></div>
-
+{% endcolumn %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Exempel på e-postmall"></div>
-
+{% endcolumn %}
+{% column %}
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-896x1024.png" alt="Exempel på e-postmall"></div>
+{% endcolumn %}
+{% endcolumns %}
 
 ## Tre tips om e-postmallarna
 

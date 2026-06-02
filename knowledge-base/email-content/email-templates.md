@@ -24,23 +24,41 @@ The new templates replace the previous ones. Saved templates still appear in you
 
 If you need help moving a saved template to the new root, email sales@emarketeer.com.
 
+{% columns %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>
-
+{% endcolumn %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>
-
+{% endcolumn %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>
+{% endcolumn %}
+{% endcolumns %}
 
+{% columns %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>
-
+{% endcolumn %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>
-
+{% endcolumn %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>
+{% endcolumn %}
+{% endcolumns %}
 
+{% columns %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>
-
+{% endcolumn %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>
-
+{% endcolumn %}
+{% column %}
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>
+{% endcolumn %}
+{% endcolumns %}
 
 ## Three tips about the email templates
 
