@@ -134,6 +134,20 @@ När kontakter och företag skapas automatiskt försöker eMarketeer hitta ett b
 
 Inställningen för att skapa kontakter gäller alla SuperOffice-steg i din Journey.
 
-För ett flödesschema som beskriver logiken, [klicka här](https://support.emarketeer.com/wp-content/uploads/2023/05/Skarmavbild-2023-05-25-kl.-12.31.12.png).
+```mermaid
+flowchart TD
+    A[Does contact have external-id?] -->|Yes| G[Create action]
+    A -->|No| B[Does contact exist in SO by email?]
+    B -->|Yes| G
+    B -->|No| C["Search for company in SO\n1. Email domain\n2. Company name"]
+    C -->|found| F[Create contact]
+    C -->|not found| D[Do we have company name?]
+    D -->|Yes| E["Create company\n(company name, or domain name if empty)"]
+    D -->|No| H[Can we create orphan contacts?]
+    H -->|Yes| F
+    H -->|No| E
+    E --> F
+    F --> G
+```
 
 **Tips:** När du aktiverar automatiskt skapande av kontakter är det bra praxis att även lägga till de nya kontakterna i ett urval i SuperOffice. På så sätt hittar du dem enkelt senare.

@@ -138,7 +138,21 @@ When creating contacts and companies automatically, eMarketeer tries to find an 
 
 The contact-creation setting applies to all SuperOffice steps in the Journey.
 
-For a flow chart describing the logic, [click here](https://support.emarketeer.com/wp-content/uploads/2023/05/Skarmavbild-2023-05-25-kl.-12.31.12.png).
+```mermaid
+flowchart TD
+    A[Does contact have external-id?] -->|Yes| G[Create action]
+    A -->|No| B[Does contact exist in SO by email?]
+    B -->|Yes| G
+    B -->|No| C["Search for company in SO\n1. Email domain\n2. Company name"]
+    C -->|found| F[Create contact]
+    C -->|not found| D[Do we have company name?]
+    D -->|Yes| E["Create company\n(company name, or domain name if empty)"]
+    D -->|No| H[Can we create orphan contacts?]
+    H -->|Yes| F
+    H -->|No| E
+    E --> F
+    F --> G
+```
 
 {% hint style="info" %}
 **Tip:** When you enable automatic contact creation, it is good practice to also add the new contacts to a selection in SuperOffice. That way you can easily find them later.
