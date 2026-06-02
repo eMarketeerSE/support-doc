@@ -16,9 +16,9 @@ Find everything you need to get the most out of eMarketeer. &#x20;
 
 
 {% hint style="success" icon="circle-plus" %}
-Please see our changelog for updates about our most recent releases.
+The latest product updates are in the changelog — new features, improvements, and fixes with every release.
 
-<a href="https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/R2AVUzAq8nYYHcGZOcNU/" class="button secondary">View changelog</a>
+<a href="https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/R2AVUzAq8nYYHcGZOcNU/" class="button secondary">View product updates</a>
 {% endhint %}
 
 ## Getting started

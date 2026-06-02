@@ -16,9 +16,9 @@ Hitta allt du behöver för att få ut det mesta av eMarketeer. &#x20;
 
 
 {% hint style="success" icon="circle-plus" %}
-Se vår ändringslogg för uppdateringar om våra senaste versioner.
+De senaste produktuppdateringarna finns i ändringsloggen — nya funktioner, förbättringar och fixar med varje version.
 
-<a href="https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/R2AVUzAq8nYYHcGZOcNU/" class="button secondary">Visa ändringslogg</a>
+<a href="https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/R2AVUzAq8nYYHcGZOcNU/" class="button secondary">Visa produktuppdateringar</a>
 {% endhint %}
 
 ## Kom igång
