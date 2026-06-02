@@ -1,6 +1,6 @@
 ---
 icon: server
-description: Reference documentation for eMarketeer's platform features: email, SMS, web tracking, and user accounts.
+description: "Reference documentation for eMarketeer's platform features: email, SMS, web tracking, and user accounts."
 page-type: overview
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: Reference material for eMarketeer's email sending: platform behaviour, deliverability, and how email is measured.
+description: "Reference material for eMarketeer's email sending: platform behaviour, deliverability, and how email is measured."
 page-type: overview
 ---
 

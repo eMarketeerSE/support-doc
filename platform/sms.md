@@ -1,5 +1,5 @@
 ---
-description: Reference material for SMS in eMarketeer: Sender ID configuration and supported countries.
+description: "Reference material for SMS in eMarketeer: Sender ID configuration and supported countries."
 page-type: overview
 ---
 
