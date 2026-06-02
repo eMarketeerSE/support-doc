@@ -24,33 +24,23 @@ De nya mallarna ersätter de tidigare. Sparade mallar visas fortfarande på ditt
 
 Om du behöver hjälp att flytta en sparad mall till den nya grunden, mejla sales@emarketeer.com.
 
-*
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Exempel på e-postmall 1"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Exempel på e-postmall 1"></div>
-*   \[
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Exempel på e-postmall 2"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Exempel på e-postmall 2"></div>
-*
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Exempel på e-postmall 4"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Exempel på e-postmall 4"></div>
-*   \[
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Exempel på e-postmall 5"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Exempel på e-postmall 5"></div>
-*
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Exempel på e-postmall 6"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Exempel på e-postmall 6"></div>
-*   \[
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Exempel på e-postmall"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Exempel på e-postmall"></div>
-*
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Exempel på e-postmall"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Exempel på e-postmall"></div>
-*   \[
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Exempel på e-postmall"></div>
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Exempel på e-postmall"></div>
-*
-
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-896x1024.png" alt="Exempel på e-postmall"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-896x1024.png" alt="Exempel på e-postmall"></div>
 
 ## Tre tips om e-postmallarna
 
@@ -61,8 +51,6 @@ Börja med att välja den mall som passar ditt budskap — evenemangsinbjudan, p
 När du delar länken till ditt e-postmeddelande på sociala medier kan inlägget använda en anpassad titel, beskrivning och bild. Längst upp i mallen i redigeraren, öppna rutan med e-postinställningar. Sätt en titel (till exempel din ämnesrad), en beskrivning och en bild. De här värdena används automatiskt i förhandsvisningen på sociala medier.
 
 Det här är inte där du sätter ämnesraden för själva e-postmeddelandet — ämnesraden och avsändarinformationen finns i menyn till vänster.
-
-\[
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Inställningar för länkdelning i redigeraren"></div>
 

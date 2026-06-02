@@ -24,33 +24,23 @@ The new templates replace the previous ones. Saved templates still appear in you
 
 If you need help moving a saved template to the new root, email sales@emarketeer.com.
 
-*
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-1.png" alt="Email template example 1"></div>
-*   \[
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-2.png" alt="Email template example 2"></div>
-*
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-4.png" alt="Email template example 4"></div>
-*   \[
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-5-1024x785.png" alt="Email template example 5"></div>
-*
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-template-example-6-1024x859.png" alt="Email template example 6"></div>
-*   \[
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.29.55-773x1024.png" alt="Email template example"></div>
-*
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-11-25-at-15.30.32-629x1024.png" alt="Email template example"></div>
-*   \[
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-1-934x1024.png" alt="Email template example"></div>
-*
-
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-896x1024.png" alt="Email template example"></div>
 
 ## Three tips about the email templates
 
@@ -61,8 +51,6 @@ Start by choosing the template that suits your message — event invitation, pro
 When you share the link to your email on social media, the post can use a custom title, description, and image. At the top of the template in the editor, open the email settings box. Set a title (for example, your subject line), a description, and an image. These values are used automatically in the social media preview.
 
 This is not where you set the subject line for the email itself — the subject line and sender information live in the left-hand side menu.
-
-\[
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Link sharing settings in the editor"></div>
 
