@@ -16,9 +16,7 @@ För att infoga ett underordnat block, använd funktionen `insert_block`.
 </div>
 ```
 
-Den valfria parametern `onlypos` är ett flödeskontrollargument som diskuteras i 5.3 och kan ignoreras tills vidare. Det underordnade blocket börjar rendera vid positionen i koden. Taggen `<div>` är inte obligatorisk; den visas för demonstration.
-
-> TODO: verify reference to section "5.3"
+Den valfria parametern `onlypos` är ett flödeskontrollargument och kan ignoreras tills vidare. Det underordnade blocket börjar rendera vid positionen i koden. Taggen `<div>` är inte obligatorisk; den visas för demonstration.
 
 ## Infoga kod
 
@@ -32,9 +30,7 @@ Det finns en funktion för att infoga HTML-kod i DCE. Det kan verka överflödig
 %>
 ```
 
-`onlypos` diskuteras i 5.3 och täcks inte vidare här. `empty` och `notempty` är villkorliga argument. De infogar koden endast om strängen i argumentet är tom eller inte tom.
-
-> TODO: verify reference to section "5.3"
+`onlypos` täcks inte vidare här. `empty` och `notempty` är villkorliga argument. De infogar koden endast om strängen i argumentet är tom eller inte tom.
 
 ## Flödeskontroll
 

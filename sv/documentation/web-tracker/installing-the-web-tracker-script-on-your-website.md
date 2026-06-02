@@ -51,8 +51,6 @@ Du kan implementera detta skript i vilket system som helst: en tag manager, din 
 
 Din uppgift är att anropa `start()` så snart du har samtycke. Om du inte har samtycke, anropa det inte. Om besökaren tidigare gav samtycke och sedan väljer bort spårning, anropa `stop()`.
 
-> TODO: verify the manual install snippet was intended as a fenced HTML code block in the source.
-
 ## Behöver du hjälp?
 
 Om du fastnar, kontakta oss på [support@emarketeer.com](mailto:support@emarketeer.com) så hjälper vi dig att slutföra installationen.

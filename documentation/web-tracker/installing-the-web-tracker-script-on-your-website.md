@@ -51,8 +51,6 @@ You can implement this script in any system: a tag manager, your website's custo
 
 Your job is to call `start()` whenever you have consent. If you do not have consent, do not call it. If the visitor previously gave consent and then opts out, call `stop()`.
 
-> TODO: verify the manual install snippet was intended as a fenced HTML code block in the source.
-
 ## Need help?
 
 If you get stuck, contact us at [support@emarketeer.com](mailto:support@emarketeer.com) and we will help you finish the setup.

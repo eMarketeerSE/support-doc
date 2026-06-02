@@ -16,9 +16,7 @@ To insert a child block, use the `insert_block` function.
 </div>
 ```
 
-The optional `onlypos` parameter is a flow-control argument discussed in 5.3 and can be ignored for now. The child block starts rendering at the position in the code. The `<div>` tag is not required; it is shown for demonstration.
-
-> TODO: verify reference to section "5.3"
+The optional `onlypos` parameter is a flow-control argument and can be ignored for now. The child block starts rendering at the position in the code. The `<div>` tag is not required; it is shown for demonstration.
 
 ## Insert code
 
@@ -32,9 +30,7 @@ There is a function for inserting HTML code into DCE. It may seem redundant sinc
 %>
 ```
 
-`onlypos` is discussed in 5.3 and not covered further here. `empty` and `notempty` are conditional arguments. They insert the code only if the string in the argument is empty or not empty.
-
-> TODO: verify reference to section "5.3"
+`onlypos` is not covered further here. `empty` and `notempty` are conditional arguments. They insert the code only if the string in the argument is empty or not empty.
 
 ## Flow control
 

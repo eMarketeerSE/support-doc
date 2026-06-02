@@ -78,11 +78,7 @@ The preheader is your second chance — after the subject line — to convince a
 
 In the email settings box, click the preheader field. Use it to extend your subject line or preview the email content. The preheader text is not shown inside the email itself, only in the inbox preview. If you leave it empty, the first text in the email is shown instead, which is often something like "read on web."
 
-The exact length that displays depends on the recipient's email client.
-
-> TODO: verify recommended character counts for subject line and preheader (source said "XXX characters").
-
-\[
+The exact length that displays depends on the recipient's email client. Aim for 40–100 characters.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/preheader-1024x563.png" alt="Preheader examples in the inbox"></div>
 

@@ -10,4 +10,5 @@ The form component lets you create, style, and publish standalone forms, as well
 
 To get started, watch the video below for an overview of the editor.
 
-> TODO: verify the referenced video is present in the source (none found in this file)
+{% embed url="https://www.youtube.com/watch?v=VKRJyNYDmbg" %}
+{% endembed %}

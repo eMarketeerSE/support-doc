@@ -42,7 +42,7 @@ The `user` function fetches or prints information about your user account.
 
 ## Scramble
 
-> TODO: verify The scramble code is generated when sending an email. eMarketeer uses it internally to identify which contact is clicking the email.
+The scramble code is a unique identifier generated when sending an email. eMarketeer uses it internally to identify which contact is clicking a link in the email.
 
 ## Block
 

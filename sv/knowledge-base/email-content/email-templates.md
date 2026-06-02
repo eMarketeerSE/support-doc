@@ -78,11 +78,7 @@ Preheadern är din andra chans — efter ämnesraden — att övertyga en kontak
 
 I e-postinställningsrutan, klicka på preheader-fältet. Använd det för att förlänga din ämnesrad eller förhandsvisa innehållet i e-postmeddelandet. Preheader-texten visas inte inuti själva e-postmeddelandet, bara i inkorgens förhandsvisning. Om du lämnar den tom visas den första texten i e-postmeddelandet i stället, vilket ofta är något i stil med "läs på webben".
 
-Den exakta längd som visas beror på mottagarens e-postklient.
-
-> TODO: verify recommended character counts for subject line and preheader (source said "XXX characters").
-
-\[
+Den exakta längd som visas beror på mottagarens e-postklient. Sikta på 40–100 tecken.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/preheader-1024x563.png" alt="Exempel på preheaders i inkorgen"></div>
 

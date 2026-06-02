@@ -18,5 +18,3 @@ When you import SuperOffice CRM contacts into eMarketeer, you can skip or includ
 ## How contacts are identified
 
 Imported contacts are identified in eMarketeer by their primary email address, not the Person ID that SuperOffice uses internally. If the email is not already in eMarketeer, a new contact card is created using that email as the identifier.
-
-> TODO: verify "contact card ill be created" was a typo for "will be created" in the source; rewrite assumes "will".

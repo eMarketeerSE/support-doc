@@ -18,5 +18,3 @@ När du importerar kontakter från SuperOffice CRM till eMarketeer kan du hoppa 
 ## Hur kontakter identifieras
 
 Importerade kontakter identifieras i eMarketeer via sin primära e-postadress, inte det Person ID som SuperOffice använder internt. Om e-postadressen inte redan finns i eMarketeer skapas ett nytt kontaktkort med den e-postadressen som identifierare.
-
-> TODO: verify "contact card ill be created" was a typo for "will be created" in the source; rewrite assumes "will".

@@ -42,8 +42,7 @@ Om du är osäker på rätt fältkod, öppna ett e-postmeddelande och använd de
 
 ## Scramble
 
-> TODO: verify
-Scramble-koden genereras när ett e-postmeddelande skickas. eMarketeer använder den internt för att identifiera vilken kontakt som klickar på e-postmeddelandet.
+Scramble-koden är en unik identifierare som genereras när ett e-postmeddelande skickas. eMarketeer använder den internt för att identifiera vilken kontakt som klickar på en länk i e-postmeddelandet.
 
 ## Block
 
