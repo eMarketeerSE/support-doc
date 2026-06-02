@@ -41,10 +41,6 @@ url-as-link-caption.md
 checklist-explained.md
 {% endcontent-ref %}
 
-{% content-ref url="../knowledge-base/reports/comparative-email-report-tutorial.md" %}
-comparative-email-report-tutorial.md
-{% endcontent-ref %}
-
 {% content-ref url="../knowledge-base/reports/email-report-explained.md" %}
 email-report-explained.md
 {% endcontent-ref %}

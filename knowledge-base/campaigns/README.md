@@ -25,10 +25,6 @@ how-to-use-emarketeer-campaign-reports.md
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="tutorial-how-to-set-up-campaign-folders.md" %}
-tutorial-how-to-set-up-campaign-folders.md
-{% endcontent-ref %}
-
 {% content-ref url="transfer-a-campaign-to-a-different-account.md" %}
 transfer-a-campaign-to-a-different-account.md
 {% endcontent-ref %}
