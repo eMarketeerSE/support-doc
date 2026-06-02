@@ -134,6 +134,10 @@ När kontakter och företag skapas automatiskt försöker eMarketeer hitta ett b
 
 Inställningen för att skapa kontakter gäller alla SuperOffice-steg i din Journey.
 
+<details>
+
+<summary>Logik för kontaktmatchning</summary>
+
 ```mermaid
 flowchart TD
     A[Does contact have external-id?] -->|Yes| G[Create action]
@@ -149,5 +153,7 @@ flowchart TD
     E --> F
     F --> G
 ```
+
+</details>
 
 **Tips:** När du aktiverar automatiskt skapande av kontakter är det bra praxis att även lägga till de nya kontakterna i ett urval i SuperOffice. På så sätt hittar du dem enkelt senare.

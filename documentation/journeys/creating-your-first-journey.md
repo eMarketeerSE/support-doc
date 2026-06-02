@@ -138,6 +138,10 @@ When creating contacts and companies automatically, eMarketeer tries to find an 
 
 The contact-creation setting applies to all SuperOffice steps in the Journey.
 
+<details>
+
+<summary>Contact matching logic</summary>
+
 ```mermaid
 flowchart TD
     A[Does contact have external-id?] -->|Yes| G[Create action]
@@ -153,6 +157,8 @@ flowchart TD
     E --> F
     F --> G
 ```
+
+</details>
 
 {% hint style="info" %}
 **Tip:** When you enable automatic contact creation, it is good practice to also add the new contacts to a selection in SuperOffice. That way you can easily find them later.
