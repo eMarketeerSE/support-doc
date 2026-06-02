@@ -94,7 +94,7 @@ By default, a contact can only enter a Journey once. If a contact matches the st
 
 To allow a contact to enter a Journey multiple times, check the option "Contact can re-enter Journey".
 
-> TODO: verify — the source ends "When checked and saved," with no continuation.
+When checked and saved, contacts can re-enter if they match the starting point filter again. They do not need to complete the Journey.
 
 ## Monitoring and analytics
 

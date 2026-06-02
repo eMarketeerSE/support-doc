@@ -101,6 +101,4 @@ If the person is unknown to SuperOffice, the automation fails.
 
 Removes the triggering contact from a static selection specified when creating the automation.
 
-> TODO: verify — the source ends "removes the triggering contact from a static selection specified when creating the" mid-sentence.
-
 If the person is unknown to SuperOffice, the automation fails.

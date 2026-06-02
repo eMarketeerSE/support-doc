@@ -101,6 +101,4 @@ Om personen är okänd för SuperOffice misslyckas automatiseringen.
 
 Tar bort den triggande kontakten från ett statiskt urval som anges när automatiseringen skapas.
 
-> TODO: verify — the source ends "removes the triggering contact from a static selection specified when creating the" mid-sentence.
-
 Om personen är okänd för SuperOffice misslyckas automatiseringen.

@@ -51,8 +51,6 @@ På kontaktvyn i SuperOffice kan du visa eMarketeer-panelen Contact Summary. Den
 
 På företagsvyn i SuperOffice kan du använda eMarketeer Company Summary, som visar berikad data och en översikt över alla kända kontakter och deras interaktioner i eMarketeer. Företaget identifieras av domänen från dess webbadress.
 
-> TODO: verify — original text ends mid-sentence ("identified on domain from their web").
-
 ## Automation Queue
 
 Automation Queue visar alla eMarketeer-kontakter med automatiseringar som väntar på att föras in i SuperOffice. De är väntande eftersom inget ContactID är definierat på eMarketeer-kontakten (External ID). Kontakten måste först skapas i SuperOffice med knappen "Share to CRM".

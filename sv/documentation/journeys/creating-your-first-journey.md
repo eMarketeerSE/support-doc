@@ -90,7 +90,7 @@ Som standard kan en kontakt endast gå in i en Journey en gång. Om en kontakt m
 
 För att tillåta att en kontakt går in i en Journey flera gånger, kryssa i alternativet "Contact can re-enter Journey".
 
-> TODO: verify — the source ends "When checked and saved," with no continuation.
+När inställningen sparas kan kontakter återinträda om de matchar startpunktsfiltret igen. De behöver inte ha slutfört sin Journey.
 
 ## Övervakning och analys
 

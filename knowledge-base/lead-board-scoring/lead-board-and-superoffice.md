@@ -51,8 +51,6 @@ On the contact view in SuperOffice you can show the eMarketeer contact summary p
 
 On the company view in SuperOffice you can use the eMarketeer Company Summary, which shows enriched data and an overview of all known contacts and their interactions in eMarketeer. The company is identified by the domain from its web address.
 
-> TODO: verify — original text ends mid-sentence ("identified on domain from their web").
-
 ## Automation Queue
 
 The Automation Queue shows all eMarketeer contacts with automations pending entry to SuperOffice. They are pending because no ContactID is defined on the eMarketeer contact (External ID). The contact first needs to be created in SuperOffice using the "Share to CRM" button.
