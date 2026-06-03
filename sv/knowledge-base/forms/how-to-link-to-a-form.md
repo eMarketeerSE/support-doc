@@ -22,6 +22,10 @@ Du kan lägga till länkar i text, bilder eller länkelement som knappar. Stegen
 
 Klicka på "link to eMarketeer form."
 
+{% hint style="info" %}
+Om du vill länka till ett Legacy-formulär, klicka på **Form (Legacy)** i stället.
+{% endhint %}
+
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="Dialogen med länkalternativ för formulär."></div>
 
 ## Välj länkalternativen

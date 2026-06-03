@@ -20,6 +20,10 @@ Open the button settings and click the browse button next to the URL field.
 
 Click "link to eMarketeer form."
 
+{% hint style="info" %}
+If you are linking to a legacy form, click **Form (Legacy)** instead.
+{% endhint %}
+
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="The form link options dialog."></div>
 
 ## Choose the link options
