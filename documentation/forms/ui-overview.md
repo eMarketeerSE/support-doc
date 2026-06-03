@@ -6,13 +6,13 @@ description: A reference guide to the form editor interface — tabs, toolbox, q
 
 The form editor has six tabs: Designer, Preview, Themes, Logic, JSON Editor, and Translation. This article explains what each tab does and what question types are available.
 
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/FormTabs.png" alt="The form editor showing the six tabs: Designer, Preview, Themes, Logic, JSON Editor, and Translation."></div>
+
 ## Designer tab
 
 The Designer tab is where you build your form. It has three main areas: the Toolbox on the left, the design surface in the center, and the Property Grid on the right.
 
-{% hint style="info" %}
-**Screenshot needed:** The Designer tab showing the Toolbox (left), design surface (center), and Property Grid (right).
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/FormDesignerTab.png" alt="The Designer tab with the Toolbox on the left, design surface in the center, and Property Grid on the right."></div>
 
 ### Toolbox
 
@@ -24,6 +24,8 @@ The Toolbox lists every question type and structural element you can add to your
 
 **Radio button group**
 Displays a list of options. Respondents select one.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/question-types-radiogroup.png" alt="A radio button group question on the design surface."></div>
 
 **Dropdown**
 A single-select dropdown list. Useful when the option list is long or you want to save space on screen.
@@ -43,6 +45,8 @@ A dropdown that allows multiple selections.
 
 **Rating scale**
 A numeric range respondents use to rate something. You can replace the numeric labels with star or emoji icons.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/question-types-rating.png" alt="A rating scale question on the design surface."></div>
 
 **Ranking**
 A drag-and-drop list that lets respondents order items by preference.
@@ -90,17 +94,13 @@ A repeating panel template. Respondents can add or remove panel instances, which
 
 To add a question, drag it from the Toolbox onto the design surface. You can also click the **Add Question** button at the bottom of a page to insert a single-line input. Click the ellipsis icon next to the button to choose a different type before inserting.
 
-{% hint style="info" %}
-**Screenshot needed:** The "Add Question" button and the ellipsis type selector at the bottom of a page.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Add-Questions-button.png" alt="The Add Question button and ellipsis type selector at the bottom of a page."></div>
 
 ### In-place editing
 
 When you click a question on the design surface, inline editing controls appear directly on it. You can edit the question text, reorder choices, duplicate the question, delete it, or mark it as required — without opening the Property Grid.
 
-{% hint style="info" %}
-**Screenshot needed:** A question on the design surface with inline editing controls visible.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/InPlaceEditing.png" alt="A question on the design surface with inline editing controls visible."></div>
 
 ### Property Grid
 
@@ -108,9 +108,7 @@ The Property Grid on the right side of the editor shows configuration options fo
 
 To set a default answer for a question, select it, open the **Data** category in the Property Grid, and click **Set Default Answer**.
 
-{% hint style="info" %}
-**Screenshot needed:** The Property Grid with a question selected, showing its categories.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/DefaultAnswer.png" alt="The Property Grid showing the Data category with the Set Default Answer option."></div>
 
 ### Page management
 
@@ -126,9 +124,7 @@ The Preview tab shows the form as a respondent sees it. Fill it in and submit to
 
 Use the device selector to preview on different screen sizes and the orientation toggle to switch between portrait and landscape.
 
-{% hint style="info" %}
-**Screenshot needed:** The Preview tab with the device selector and orientation toggle visible.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/PreviewTab.png" alt="The Preview tab with the device selector and orientation toggle."></div>
 
 ## Themes tab
 
@@ -136,9 +132,7 @@ The Themes tab lets you change the form's appearance — colors, fonts, sizes, c
 
 You can export a custom theme as a JSON file and import it on another form to reuse the same style.
 
-{% hint style="info" %}
-**Screenshot needed:** The Themes tab showing the style controls.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/ThemesTab.png" alt="The Themes tab showing the style controls panel."></div>
 
 ## Logic tab
 
@@ -164,17 +158,13 @@ Click **Add New Rule**. Each rule has a condition (if) and one or more actions (
 
 To edit a rule, click it to expand it, make changes, and click **Done**. Use the Question Filter and Action Type Filter to narrow the list when a form has many rules.
 
-{% hint style="info" %}
-**Screenshot needed:** The Logic tab with a rule expanded, showing the condition and action editors.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/AddRule.png" alt="The Logic tab with a rule expanded, showing the condition and action editors."></div>
 
 ## JSON editor tab
 
 The JSON Editor tab shows the raw JSON configuration of your form. You can edit it directly, but for most changes the Designer tab and Property Grid are easier.
 
-{% hint style="info" %}
-**Screenshot needed:** The JSON Editor tab with an example form configuration.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/JSONTab.png" alt="The JSON Editor tab showing a form's raw JSON configuration."></div>
 
 ## Translation tab
 
@@ -186,6 +176,4 @@ The Translation tab lists all translatable strings in your form. Use it to provi
 
 **Import and export** — use the toolbar buttons to import or export translations as a CSV file.
 
-{% hint style="info" %}
-**Screenshot needed:** The Translation tab showing the language settings panel and string table.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/TranslationsTab.png" alt="The Translation tab showing the language settings panel and translation string table."></div>

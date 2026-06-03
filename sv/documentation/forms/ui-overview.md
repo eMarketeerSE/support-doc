@@ -6,13 +6,13 @@ description: En referensguide till formuläreditorns gränssnitt — flikar, Too
 
 Formuläreditorn har sex flikar: Designer, Preview, Themes, Logic, JSON Editor och Translation. Den här artikeln beskriver vad varje flik gör och vilka frågetyper som finns tillgängliga.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/FormTabs.png" alt="Formuläreditorn med de sex flikarna: Designer, Preview, Themes, Logic, JSON Editor och Translation."></div>
+
 ## Designer-fliken
 
 Designer-fliken är där du bygger ditt formulär. Den har tre huvuddelar: Toolbox till vänster, designytan i mitten och Property Grid till höger.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Designer-fliken med Toolbox (vänster), designytan (mitten) och Property Grid (höger).
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/FormDesignerTab.png" alt="Designer-fliken med Toolbox till vänster, designytan i mitten och Property Grid till höger."></div>
 
 ### Toolbox
 
@@ -24,6 +24,8 @@ Toolbox listar alla frågetyper och strukturelement du kan lägga till i ditt fo
 
 **Radio button group**
 Visar en lista med alternativ. Respondenten väljer ett.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/question-types-radiogroup.png" alt="En radio button group-fråga i designytan."></div>
 
 **Dropdown**
 En listruta med ett enda val. Användbar när alternativlistan är lång eller när du vill spara utrymme på skärmen.
@@ -43,6 +45,8 @@ En listruta som tillåter flera val.
 
 **Rating scale**
 En numerisk skala som respondenten använder för att betygsätta något. Du kan ersätta de numeriska etiketterna med stjärnor eller emoji-ikoner.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/question-types-rating.png" alt="En rating scale-fråga i designytan."></div>
 
 **Ranking**
 En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i önskad prioritetsordning.
@@ -90,17 +94,13 @@ En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstans
 
 För att lägga till en fråga drar du den från Toolbox till designytan. Du kan också klicka på knappen **Add Question** längst ned på en sida för att infoga ett enkelradigt inmatningsfält. Klicka på ellips-ikonen bredvid knappen för att välja en annan typ innan du infogar.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Knappen "Add Question" och ellipsis-typväljaren längst ned på en sida.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Add-Questions-button.png" alt="Knappen Add Question och ellipsis-typväljaren längst ned på en sida."></div>
 
 ### Redigering direkt i designytan
 
 När du klickar på en fråga i designytan visas inline-redigeringskontroller direkt på frågan. Du kan redigera frågetexten, sortera om alternativ, duplicera frågan, ta bort den eller markera den som obligatorisk — utan att öppna Property Grid.
 
-{% hint style="info" %}
-**Skärmbild behövs:** En fråga i designytan med inline-redigeringskontroller synliga.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/InPlaceEditing.png" alt="En fråga i designytan med inline-redigeringskontroller synliga."></div>
 
 ### Property Grid
 
@@ -108,9 +108,7 @@ Property Grid på höger sida av editorn visar konfigurationsalternativ för den
 
 Om du vill ange ett standardsvar för en fråga markerar du den, öppnar kategorin **Data** i Property Grid och klickar på **Set Default Answer**.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Property Grid med en vald fråga som visar dess kategorier.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/DefaultAnswer.png" alt="Property Grid med kategorin Data öppen och alternativet Set Default Answer synligt."></div>
 
 ### Sidhantering
 
@@ -126,9 +124,7 @@ Preview-fliken visar formuläret som respondenten ser det. Fyll i det och skicka
 
 Använd enhetsväljaren för att förhandsgranska på olika skärmstorlekar och orienteringsknappen för att växla mellan stående och liggande format.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Preview-fliken med enhetsväljaren och orienteringsknappen synliga.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/PreviewTab.png" alt="Preview-fliken med enhetsväljaren och orienteringsknappen synliga."></div>
 
 ## Themes-fliken
 
@@ -136,9 +132,7 @@ Med Themes-fliken kan du ändra formulärets utseende — färger, typsnitt, sto
 
 Du kan exportera ett anpassat tema som en JSON-fil och importera det till ett annat formulär för att återanvända samma stil.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Themes-fliken med stilkontrollerna synliga.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/ThemesTab.png" alt="Themes-fliken med stilkontrollerna synliga."></div>
 
 ## Logic-fliken
 
@@ -164,17 +158,13 @@ Klicka på **Add New Rule**. Varje regel har ett villkor (om) och en eller flera
 
 Om du vill redigera en regel klickar du på den för att expandera den, gör dina ändringar och klickar på **Done**. Använd Question Filter och Action Type Filter för att begränsa listan när ett formulär har många regler.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Logic-fliken med en expanderad regel som visar villkors- och åtgärdseditorerna.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/AddRule.png" alt="Logic-fliken med en expanderad regel som visar villkors- och åtgärdseditorerna."></div>
 
 ## JSON Editor-fliken
 
 JSON Editor-fliken visar formulärets råa JSON-konfiguration. Du kan redigera den direkt, men för de flesta ändringar är Designer-fliken och Property Grid enklare att använda.
 
-{% hint style="info" %}
-**Skärmbild behövs:** JSON Editor-fliken med ett exempel på en formulärkonfiguration.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/JSONTab.png" alt="JSON Editor-fliken med ett exempel på en formulärkonfiguration."></div>
 
 ## Translation-fliken
 
@@ -186,6 +176,4 @@ Translation-fliken listar alla översättningsbara strängar i ditt formulär. A
 
 **Import och export** — använd verktygsfältsknapparna för att importera eller exportera översättningar som en CSV-fil.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Translation-fliken med panelen för språkinställningar och strängtabellen synliga.
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/TranslationsTab.png" alt="Translation-fliken med panelen för språkinställningar och strängtabellen synliga."></div>
