@@ -26,6 +26,10 @@ layout:
 
 # How do I remove a form answer?
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 Remove test answers, faulty answers, or the entire set of answers from a form report.
 
 There are three ways to remove undesired form answers, depending on where you start.

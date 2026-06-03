@@ -26,6 +26,10 @@ layout:
 
 # Editing a live form
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 Editing a form that already has answers can change what those answers mean, so it pays to know which edits are safe and which are not.
 
 A form is "live" once answers are registered to it and reports are tied to those answers. Reports are linked to the questions in the form, so any change in the form editor is reflected in the report.

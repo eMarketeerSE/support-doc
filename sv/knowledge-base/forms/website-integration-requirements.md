@@ -25,6 +25,10 @@ layout:
 
 # Formulär: krav för webbintegration
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Du kan bädda in ett eMarketeer-formulär på din egen webbplats genom att klistra in den genererade HTML-koden i sidans källkod. Den här artikeln listar miljökraven sidan måste uppfylla för att formuläret ska fungera.
 
 HTML-koden som eMarketeer genererar är rensad från design och validering så att du kan tillämpa dina egna stilar och valideringsskript. Formuläret skickas in via JavaScript av två skäl:

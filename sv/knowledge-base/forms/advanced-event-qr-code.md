@@ -26,6 +26,10 @@ tags:
 
 # Formulärspecifik QR-kodgenerering för att skanna närvaro på event (avancerat)
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Den här guiden visar hur du bygger en QR-kod som, när den skannas, skickar kontaktens e-post till ett specifikt eMarketeer-formulär för att registrera närvaro på ett event.
 
 Standardgeneratorn för QR-koder kan skapa en QR-kod från valfritt kontaktfält. Den här avancerade varianten pekar koden mot en URL för formulärmottagare, så att skanning av koden automatiskt registrerar kontakten. Lite kunskap om HTML och URL:er hjälper innan du börjar.

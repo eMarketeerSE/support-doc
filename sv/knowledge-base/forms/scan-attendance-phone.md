@@ -26,6 +26,10 @@ tags:
 
 # Så här scannar du närvaro på event med en mobiltelefon
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Använd en mobiltelefon för att registrera närvaro på plats på fysiska event genom att scanna deltagarnas QR-koder.
 
 Närvaron registreras genom att skicka in en e-postadress via ett eMarketeer-formulär. I stället för att skriva in varje besökares e-post använder du en telefon med en QR-kod-tangentbordsapp för att scanna deras kod från event-appen.

@@ -26,6 +26,10 @@ layout:
 
 # How to scan event attendance with a mobile phone
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 Use a mobile phone to register attendance on site at physical events by scanning attendee QR codes.
 
 Attendance is registered by submitting an email address through an eMarketeer form. Instead of typing each visitor's email, you use a phone with a QR-code keyboard app to scan their code from the event app.

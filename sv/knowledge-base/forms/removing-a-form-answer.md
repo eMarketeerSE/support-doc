@@ -26,6 +26,10 @@ tags:
 
 # Hur tar jag bort ett formulärsvar?
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Ta bort testsvar, felaktiga svar eller hela uppsättningen svar från en formulärrapport.
 
 Det finns tre sätt att ta bort oönskade formulärsvar, beroende på var du startar.

@@ -26,6 +26,10 @@ tags:
 
 # Formulär: Stäng ett formulär
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Sätt villkor för när ett formulär ska sluta ta emot svar.
 
 Använd det här när ett formulär bara ska vara öppet under en begränsad tid eller upp till ett maximalt antal inskick.

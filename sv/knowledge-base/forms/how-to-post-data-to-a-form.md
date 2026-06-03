@@ -26,6 +26,10 @@ tags:
 
 # Så här postar du data till ett formulär
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Den här guiden visar hur du postar svar till ett eMarketeer-formulär från din egen webbplats eller från ett annat system.
 
 Den hostade versionen av ett formulär täcker många fall, men ibland behöver du bädda in formuläret på din webbplats eller trigga automationer från ett annat system. Ett formulär är ett flexibelt mål för att posta data utanför eMarketeer.

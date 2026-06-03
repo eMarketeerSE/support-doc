@@ -26,6 +26,10 @@ layout:
 
 # Set max number of answers for a form checkbox question (legacy, advanced)
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 This advanced guide shows how to cap the number of options a respondent can select for a checkbox question in a form.
 
 To set the limit, add a script to the HTML Head section for the form, found under the Edit Fonts & Colors options.

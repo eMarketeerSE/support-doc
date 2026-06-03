@@ -26,6 +26,10 @@ layout:
 
 # Creating Branching Question Paths and using Question Display Rules in Forms
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 Branch form questions or hide them until they are relevant by using rules on form questions.
 
 There are two primary approaches:

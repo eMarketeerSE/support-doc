@@ -26,6 +26,10 @@ layout:
 
 # Forms: Close a form
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 Set criteria for when a form should stop accepting answers.
 
 Use this when a form should only run for a limited time or up to a maximum number of submissions.

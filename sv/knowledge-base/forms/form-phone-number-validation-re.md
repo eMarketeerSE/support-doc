@@ -26,6 +26,10 @@ tags:
 
 # Validering av telefonnummer i formulär när reCAPTCHA används (avancerat)
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Den här guiden visar hur du kräver en landskod i fältet för mobilnummer i ett formulär när reCAPTCHA är aktivt.
 
 Du lägger till kod i formulärets HTML och justerar vid behov det reguljära uttryck som validerar strängen. Om du använde validering innan du aktiverade reCAPTCHA, byt till "submit captcha"-versionen av koden i steg 2.

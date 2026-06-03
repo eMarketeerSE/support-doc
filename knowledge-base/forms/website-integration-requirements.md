@@ -26,6 +26,10 @@ layout:
 
 # Form: Website integration requirements
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 You can embed an eMarketeer form on your own site by pasting generated HTML into the page source. This article lists the environment requirements the page must meet for the form to work.
 
 The HTML eMarketeer generates is stripped of design and validation so you can apply your own styles and validation scripts. The form submits via JavaScript for two reasons:

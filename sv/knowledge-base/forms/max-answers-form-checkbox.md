@@ -25,6 +25,10 @@ layout:
 
 # Sätt maxantal svar för en checkbox-fråga i ett formulär (legacy, avancerat)
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Den här avancerade guiden visar hur du begränsar hur många alternativ en respondent kan välja för en checkbox-fråga i ett formulär.
 
 För att sätta gränsen lägger du till ett skript i HTML Head-sektionen för formuläret, som hittas under Edit Fonts & Colors-alternativen.

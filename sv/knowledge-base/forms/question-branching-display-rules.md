@@ -26,6 +26,10 @@ tags:
 
 # Skapa förgrenade frågevägar och använd visningsregler för frågor i formulär
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Förgrena frågor i formulär eller dölj dem tills de är relevanta genom att använda regler på formulärfrågor.
 
 Det finns två huvudsakliga tillvägagångssätt:

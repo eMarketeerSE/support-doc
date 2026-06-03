@@ -26,6 +26,10 @@ layout:
 
 # How to post data to a form
 
+{% hint style="warning" %}
+This article applies to **Form (Legacy)**. For the current form editor, see [Forms](README.md).
+{% endhint %}
+
 This guide shows how to post answers to an eMarketeer form from your own website or from another system.
 
 The hosted version of a form covers many cases, but sometimes you need to embed the form on your website or trigger automations from another system. A form is a flexible target for posting data from outside eMarketeer.

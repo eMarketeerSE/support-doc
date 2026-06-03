@@ -26,6 +26,10 @@ layout:
 
 # Redigera ett aktivt formulär
 
+{% hint style="warning" %}
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+{% endhint %}
+
 Att redigera ett formulär som redan har svar kan ändra vad svaren betyder, så det lönar sig att veta vilka redigeringar som är säkra och vilka som inte är det.
 
 Ett formulär är "aktivt" så snart svar registreras till det och rapporter är knutna till de svaren. Rapporter är kopplade till frågorna i formuläret, så varje ändring i formulärredigeraren återspeglas i rapporten.
