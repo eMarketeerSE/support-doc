@@ -32,6 +32,7 @@
     * [Embed forms on your website](documentation/forms/publish-a-form.md)
     * [The Form component](documentation/forms/the-form-component.md)
     * [How to link to a form](knowledge-base/forms/how-to-link-to-a-form.md)
+    * [Form editor: UI overview](documentation/forms/ui-overview.md)
   * [Forms (Legacy)](knowledge-base/forms/legacy.md)
     * [Editing a live form](knowledge-base/forms/editing-a-live-form.md)
     * [Question branching and display rules](knowledge-base/forms/question-branching-display-rules.md)

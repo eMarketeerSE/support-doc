@@ -32,6 +32,7 @@
     * [Bädda in formulär på din webbplats](documentation/forms/publish-a-form.md)
     * [Formulärkomponenten](documentation/forms/the-form-component.md)
     * [Länka till ett formulär](knowledge-base/forms/how-to-link-to-a-form.md)
+    * [Formuläreditor: UI-översikt](documentation/forms/ui-overview.md)
   * [Formulär (Legacy)](knowledge-base/forms/legacy.md)
     * [Redigera ett aktivt formulär](knowledge-base/forms/editing-a-live-form.md)
     * [Förgrenade frågor och visningsregler](knowledge-base/forms/question-branching-display-rules.md)
