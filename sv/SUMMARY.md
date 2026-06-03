@@ -118,6 +118,7 @@
     * [Varför du inte bör använda URL:er som länktext](documentation/email-sms/url-as-link-caption.md)
     * [Förstå checklistan för e-post](knowledge-base/reports/checklist-explained.md)
     * [E-postrapporten förklarad](knowledge-base/reports/email-report-explained.md)
+    * [Maximera framgången inom e-postmarknadsföring: 10 bästa metoder och fallgropar att undvika](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
   * [SMS](platform/sms.md)
     * [SMS Sender ID](documentation/email-sms/sender-id.md)
     * [Whitelist över länder som stödjer SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
@@ -129,6 +130,10 @@
   * [Användarkonton & autentisering](documentation/accounts-auth/README.md)
     * [Multi-factor authentication](documentation/accounts-auth/multi-factor-authentication.md)
     * [Användarkonton](documentation/accounts-auth/user-accounts.md)
+  * [GDPR & samtycke](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
+    * [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
+    * [Hur fungerar samtycke?](knowledge-base/gdpr-consent/how-does-consent-work.md)
+    * [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
   * [Kreditkortsbetalningar (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
   * [Vad händer när jag når min kontaktgräns?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)
   * [Standardregler för score i eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)
@@ -136,6 +141,7 @@
   * [Var lagras eMarketeer-data geografiskt?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
   * [reCAPTCHA för eMarketeer-formulär](knowledge-base/forms/captcha.md)
   * [Identifiera varför ett formulär är otillgängligt (Legacy)](knowledge-base/forms/form-unavailable.md)
+* [Ordlista](glossary.md)
 
 ## Integrationer
 
@@ -175,11 +181,3 @@
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
 
-## Koncept
-
-* [Ordlista](glossary.md)
-* [GDPR & samtycke](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
-  * [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
-  * [Hur fungerar samtycke?](knowledge-base/gdpr-consent/how-does-consent-work.md)
-  * [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
-* [Maximera framgången inom e-postmarknadsföring: 10 bästa metoder och fallgropar att undvika](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)

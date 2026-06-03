@@ -53,5 +53,9 @@ captcha.md
 {% content-ref url="knowledge-base/forms/form-unavailable.md" %}
 form-unavailable.md
 {% endcontent-ref %}
+
+{% content-ref url="knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md" %}
+emarketeer-gdpr-overview.md
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

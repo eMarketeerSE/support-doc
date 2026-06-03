@@ -44,5 +44,9 @@ checklist-explained.md
 {% content-ref url="../knowledge-base/reports/email-report-explained.md" %}
 email-report-explained.md
 {% endcontent-ref %}
+
+{% content-ref url="../knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md" %}
+maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

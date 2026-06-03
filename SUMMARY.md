@@ -116,6 +116,7 @@
     * [Why you shouldn't use a URL as link text](documentation/email-sms/url-as-link-caption.md)
     * [Understanding the Email Checklist](knowledge-base/reports/checklist-explained.md)
     * [Email report explained](knowledge-base/reports/email-report-explained.md)
+    * [Maximizing Email Marketing Success: 10 Best Practices and Pitfalls to Avoid](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
   * [SMS](platform/sms.md)
     * [SMS Sender ID](documentation/email-sms/sender-id.md)
     * [Whitelist of countries supporting SMS Sender ID](documentation/email-sms/whitelist-of-countries-supporting-sms-sender-id.md)
@@ -127,6 +128,10 @@
   * [User accounts & auth](documentation/accounts-auth/README.md)
     * [Multi-factor authentication](documentation/accounts-auth/multi-factor-authentication.md)
     * [User accounts](documentation/accounts-auth/user-accounts.md)
+  * [GDPR & consent](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
+    * [Double opt-in subscription](knowledge-base/gdpr-consent/double-opt-in.md)
+    * [How does consent work?](knowledge-base/gdpr-consent/how-does-consent-work.md)
+    * [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
   * [Credit card payments (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
   * [What happens when I reach my contact limit?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)
   * [Default score rules in eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)
@@ -134,6 +139,7 @@
   * [Where is eMarketeer data stored geographically?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
   * [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
   * [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)
+* [Glossary](glossary.md)
 
 ## Integrations
 
@@ -173,11 +179,3 @@
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
 
-## Concepts
-
-* [Glossary](glossary.md)
-* [GDPR & consent](knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md)
-  * [Double opt-in subscription](knowledge-base/gdpr-consent/double-opt-in.md)
-  * [How does consent work?](knowledge-base/gdpr-consent/how-does-consent-work.md)
-  * [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
-* [Maximizing Email Marketing Success: 10 Best Practices and Pitfalls to Avoid](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
