@@ -146,11 +146,45 @@ A repeating panel template. Respondents can add or remove panel instances, which
 
 <summary>Contact fields</summary>
 
-> TODO: verify description
+Use Contact fields when you want form responses to update the respondent's contact record in eMarketeer. Each Contact field is a single-line input mapped to a specific field on the contact card.
 
-A question type specific to eMarketeer. Links form responses directly to contact fields in your eMarketeer account.
+Data submitted through a Contact field is saved both as form answer data and as contact record data. It overwrites any existing value on the contact card.
+
+A form that includes a **Contact field: Email** will create a new contact or match against an existing one when the form is submitted.
+
+Contact fields are pre-populated from the contact database if the respondent is known — for example, when they open the form through a personalized link.
+
+<details>
+
+<summary>Available contact fields</summary>
+
+- Email
+- First Name
+- Last Name
+- Salutation
+- Company
+- Title
+- Phone number
+- Mobile phone
+- Address 1
+- Address 2
+- City
+- State
+- Zip code
+- Country
+- Note
+
+</details>
 
 <div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Contact-Fields.png" alt="The Contact fields question type on the design surface."></div>
+
+</details>
+
+<details>
+
+<summary>Custom Contact Field</summary>
+
+Works the same way as Contact fields, but maps to your account's custom contact fields instead of the default contact card fields.
 
 </details>
 

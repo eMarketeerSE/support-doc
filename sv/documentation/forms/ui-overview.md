@@ -146,11 +146,45 @@ En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstans
 
 <summary>Contact fields</summary>
 
-> TODO: verify description
+Använd Contact fields när du vill att formulärsvar ska uppdatera respondentens kontaktpost i eMarketeer. Varje Contact field är ett enkelradigt inmatningsfält kopplat till ett specifikt fält på kontaktkortet.
 
-En frågetyp som är specifik för eMarketeer. Kopplar formulärsvar direkt till kontaktfält i ditt eMarketeer-konto.
+Data som skickas in via ett Contact field sparas både som formulärsvarsdata och som kontaktpostdata. Det skriver över eventuellt befintligt värde på kontaktkortet.
+
+Ett formulär som innehåller ett **Contact field: Email** skapar en ny kontakt eller matchar mot en befintlig när formuläret skickas in.
+
+Contact fields förifyller data från kontaktdatabasen om respondenten är känd — till exempel när hen öppnar formuläret via en personlig länk.
+
+<details>
+
+<summary>Tillgängliga kontaktfält</summary>
+
+- Email
+- First Name
+- Last Name
+- Salutation
+- Company
+- Title
+- Phone number
+- Mobile phone
+- Address 1
+- Address 2
+- City
+- State
+- Zip code
+- Country
+- Note
+
+</details>
 
 <div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Contact-Fields.png" alt="Frågetypen Contact fields i designytan."></div>
+
+</details>
+
+<details>
+
+<summary>Custom Contact Field</summary>
+
+Fungerar på samma sätt som Contact fields, men är kopplat till ditt kontos anpassade kontaktfält i stället för standardfälten på kontaktkortet.
 
 </details>
 
