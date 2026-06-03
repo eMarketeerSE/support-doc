@@ -20,7 +20,9 @@ Toolbox listar alla frågetyper och strukturelement du kan lägga till i ditt fo
 
 ### Frågetyper
 
-#### Enkelsvarsfrågor
+<details>
+
+<summary>Enkelsvarsfrågor</summary>
 
 **Radio button group**
 Visar en lista med alternativ. Respondenten väljer ett.
@@ -33,7 +35,11 @@ En listruta med ett enda val. Användbar när alternativlistan är lång eller n
 **Yes/No (Boolean)**
 En växlare som returnerar sant eller falskt. Visas som en switch, ett par radioknappar eller en kryssruta beroende på temainställningarna.
 
-#### Flersvarsfrågor
+</details>
+
+<details>
+
+<summary>Flersvarsfrågor</summary>
 
 **Checkboxes**
 Visar en lista med alternativ. Respondenten kan välja mer än ett.
@@ -41,7 +47,11 @@ Visar en lista med alternativ. Respondenten kan välja mer än ett.
 **Multi-select dropdown**
 En listruta som tillåter flera val.
 
-#### Betyg och rangordning
+</details>
+
+<details>
+
+<summary>Betyg och rangordning</summary>
 
 **Rating scale**
 En numerisk skala som respondenten använder för att betygsätta något. Du kan ersätta de numeriska etiketterna med stjärnor eller emoji-ikoner.
@@ -51,7 +61,11 @@ En numerisk skala som respondenten använder för att betygsätta något. Du kan
 **Ranking**
 En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i önskad prioritetsordning.
 
-#### Textinmatning
+</details>
+
+<details>
+
+<summary>Textinmatning</summary>
 
 **Single-line input**
 Ett enkelradigt textfält. Accepterar även siffror och datum.
@@ -62,16 +76,28 @@ Ett ändringsbart textfält med flera rader för längre svar.
 **Multiple text boxes**
 Flera enkelradiga fält grupperade tillsammans. Användbart när du behöver ett antal korta svar under en fråga.
 
-#### Image picker
+</details>
+
+<details>
+
+<summary>Image picker</summary>
 
 Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konfigurerat) för att välja den. Varje alternativ har ett kopplat värde.
 
-#### Matrisfrågor
+</details>
+
+<details>
+
+<summary>Matrisfrågor</summary>
 
 **Single-select matrix**
 Ett rutnät med rader och kolumner. Varje rad är ett påstående eller ett objekt; respondenten väljer ett kolumnalternativ per rad med radioknappar.
 
-#### Presentationselement
+</details>
+
+<details>
+
+<summary>Presentationselement</summary>
 
 **HTML**
 Ett block med formaterad text som du skriver direkt i editorn. Använd det för instruktioner, rubriker mellan frågegrupper eller annat icke-interaktivt innehåll.
@@ -82,13 +108,19 @@ Bäddar in en statisk bild eller video i formuläret. Respondenten kan inte inte
 **Expression**
 Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättning av andra svar. Användbart på den sista sidan för att sammanfatta vad respondenten har skickat in.
 
-#### Strukturelement
+</details>
+
+<details>
+
+<summary>Strukturelement</summary>
 
 **Panel**
 En behållare som grupperar frågor visuellt. Paneler kan göras hopfällbara och kan ha en egen rubrik och beskrivning.
 
 **Dynamic panel**
 En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstanser, vilket gör det användbart för poster med variabel längd, till exempel flera kontakter eller orderrader.
+
+</details>
 
 ### Lägga till en fråga
 

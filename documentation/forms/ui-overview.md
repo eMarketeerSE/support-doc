@@ -20,7 +20,9 @@ The Toolbox lists every question type and structural element you can add to your
 
 ### Question types
 
-#### Single-choice questions
+<details>
+
+<summary>Single-choice questions</summary>
 
 **Radio button group**
 Displays a list of options. Respondents select one.
@@ -33,7 +35,11 @@ A single-select dropdown list. Useful when the option list is long or you want t
 **Yes/No (Boolean)**
 A toggle that returns true or false. Renders as a switch, radio button pair, or checkbox depending on your theme settings.
 
-#### Multiple-choice questions
+</details>
+
+<details>
+
+<summary>Multiple-choice questions</summary>
 
 **Checkboxes**
 Displays a list of options. Respondents can select more than one.
@@ -41,7 +47,11 @@ Displays a list of options. Respondents can select more than one.
 **Multi-select dropdown**
 A dropdown that allows multiple selections.
 
-#### Rating and ranking
+</details>
+
+<details>
+
+<summary>Rating and ranking</summary>
 
 **Rating scale**
 A numeric range respondents use to rate something. You can replace the numeric labels with star or emoji icons.
@@ -51,7 +61,11 @@ A numeric range respondents use to rate something. You can replace the numeric l
 **Ranking**
 A drag-and-drop list that lets respondents order items by preference.
 
-#### Text input
+</details>
+
+<details>
+
+<summary>Text input</summary>
 
 **Single-line input**
 A one-line text field. Also accepts numbers and dates.
@@ -62,16 +76,28 @@ A resizable multi-line text area for longer answers.
 **Multiple text boxes**
 Several single-line fields grouped together. Useful when you need a set of short answers under one question.
 
-#### Image picker
+</details>
+
+<details>
+
+<summary>Image picker</summary>
 
 Displays a series of images. Respondents click one (or more, if configured) to select it. Each choice has an associated value.
 
-#### Matrix questions
+</details>
+
+<details>
+
+<summary>Matrix questions</summary>
 
 **Single-select matrix**
 A grid with rows and columns. Each row is a statement or item; respondents select one column choice per row using radio buttons.
 
-#### Presentation elements
+</details>
+
+<details>
+
+<summary>Presentation elements</summary>
 
 **HTML**
 A block of formatted text you write directly in the editor. Use it for instructions, headings between question groups, or any non-interactive content.
@@ -82,13 +108,19 @@ Embeds a static image or video in the form. Respondents cannot interact with it.
 **Expression**
 Displays a calculated value — a sum, average, or concatenation of other answers. Useful on the final page to summarize what the respondent submitted.
 
-#### Structure elements
+</details>
+
+<details>
+
+<summary>Structure elements</summary>
 
 **Panel**
 A container that groups questions together visually. Panels can be collapsible and can have their own title and description.
 
 **Dynamic panel**
 A repeating panel template. Respondents can add or remove panel instances, which makes it useful for variable-length entries such as multiple contacts or order lines.
+
+</details>
 
 ### Adding a question
 
