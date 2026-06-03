@@ -27,13 +27,17 @@ Toolbox listar alla frågetyper och strukturelement du kan lägga till i ditt fo
 **Radio button group**
 Visar en lista med alternativ. Respondenten väljer ett.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/question-types-radiogroup.png" alt="En radio button group-fråga i designytan."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/RadioButtonGroup.png" alt="En radio button group-fråga i designytan."></div>
 
 **Dropdown**
 En listruta med ett enda val. Användbar när alternativlistan är lång eller när du vill spara utrymme på skärmen.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/dropdown question.png" alt="En dropdown-fråga i designytan."></div>
+
 **Yes/No (Boolean)**
 En växlare som returnerar sant eller falskt. Visas som en switch, ett par radioknappar eller en kryssruta beroende på temainställningarna.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Boolean.png" alt="En Yes/No (Boolean)-fråga i designytan."></div>
 
 </details>
 
@@ -44,8 +48,12 @@ En växlare som returnerar sant eller falskt. Visas som en switch, ett par radio
 **Checkboxes**
 Visar en lista med alternativ. Respondenten kan välja mer än ett.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Checkboxes.png" alt="En checkboxes-fråga i designytan."></div>
+
 **Multi-select dropdown**
 En listruta som tillåter flera val.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Multi-select-dropdown.png" alt="En multi-select dropdown-fråga i designytan."></div>
 
 </details>
 
@@ -56,10 +64,12 @@ En listruta som tillåter flera val.
 **Rating scale**
 En numerisk skala som respondenten använder för att betygsätta något. Du kan ersätta de numeriska etiketterna med stjärnor eller emoji-ikoner.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/question-types-rating.png" alt="En rating scale-fråga i designytan."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/RatingQuestions.png" alt="En rating scale-fråga i designytan."></div>
 
 **Ranking**
 En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i önskad prioritetsordning.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Ranking.gif" alt="En ranking-fråga i designytan som visar dra-och-släpp-omordning."></div>
 
 </details>
 
@@ -70,8 +80,12 @@ En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i
 **Single-line input**
 Ett enkelradigt textfält. Accepterar även siffror och datum.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/SingleLineInput.png" alt="En single-line input-fråga i designytan."></div>
+
 **Long text**
 Ett ändringsbart textfält med flera rader för längre svar.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/LongText.png" alt="En long text-fråga i designytan."></div>
 
 **Multiple text boxes**
 Flera enkelradiga fält grupperade tillsammans. Användbart när du behöver ett antal korta svar under en fråga.
@@ -93,6 +107,8 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 **Single-select matrix**
 Ett rutnät med rader och kolumner. Varje rad är ett påstående eller ett objekt; respondenten väljer ett kolumnalternativ per rad med radioknappar.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/SingleSelectMatrix.png" alt="En single-select matrix-fråga i designytan."></div>
+
 </details>
 
 <details>
@@ -108,6 +124,8 @@ Bäddar in en statisk bild eller video i formuläret. Respondenten kan inte inte
 **Expression**
 Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättning av andra svar. Användbart på den sista sidan för att sammanfatta vad respondenten har skickat in.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Expression.gif" alt="En expression-fråga i designytan som visar ett beräknat värde som uppdateras i realtid."></div>
+
 </details>
 
 <details>
@@ -119,6 +137,20 @@ En behållare som grupperar frågor visuellt. Paneler kan göras hopfällbara oc
 
 **Dynamic panel**
 En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstanser, vilket gör det användbart för poster med variabel längd, till exempel flera kontakter eller orderrader.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/DynamicPanel.png" alt="Ett dynamic panel-element i designytan med flera panelinstanser."></div>
+
+</details>
+
+<details>
+
+<summary>Contact fields</summary>
+
+> TODO: verify description
+
+En frågetyp som är specifik för eMarketeer. Kopplar formulärsvar direkt till kontaktfält i ditt eMarketeer-konto.
+
+<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Contact-Fields.png" alt="Frågetypen Contact fields i designytan."></div>
 
 </details>
 

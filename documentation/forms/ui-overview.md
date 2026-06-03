@@ -27,13 +27,17 @@ The Toolbox lists every question type and structural element you can add to your
 **Radio button group**
 Displays a list of options. Respondents select one.
 
-<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/question-types-radiogroup.png" alt="A radio button group question on the design surface."></div>
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/RadioButtonGroup.png" alt="A radio button group question on the design surface."></div>
 
 **Dropdown**
 A single-select dropdown list. Useful when the option list is long or you want to save space on screen.
 
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/dropdown question.png" alt="A dropdown question on the design surface."></div>
+
 **Yes/No (Boolean)**
 A toggle that returns true or false. Renders as a switch, radio button pair, or checkbox depending on your theme settings.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Boolean.png" alt="A Yes/No (Boolean) question on the design surface."></div>
 
 </details>
 
@@ -44,8 +48,12 @@ A toggle that returns true or false. Renders as a switch, radio button pair, or 
 **Checkboxes**
 Displays a list of options. Respondents can select more than one.
 
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Checkboxes.png" alt="A checkboxes question on the design surface."></div>
+
 **Multi-select dropdown**
 A dropdown that allows multiple selections.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Multi-select-dropdown.png" alt="A multi-select dropdown question on the design surface."></div>
 
 </details>
 
@@ -56,10 +64,12 @@ A dropdown that allows multiple selections.
 **Rating scale**
 A numeric range respondents use to rate something. You can replace the numeric labels with star or emoji icons.
 
-<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/question-types-rating.png" alt="A rating scale question on the design surface."></div>
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/RatingQuestions.png" alt="A rating scale question on the design surface."></div>
 
 **Ranking**
 A drag-and-drop list that lets respondents order items by preference.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Ranking.gif" alt="A ranking question on the design surface, showing drag-and-drop reordering."></div>
 
 </details>
 
@@ -70,8 +80,12 @@ A drag-and-drop list that lets respondents order items by preference.
 **Single-line input**
 A one-line text field. Also accepts numbers and dates.
 
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/SingleLineInput.png" alt="A single-line input question on the design surface."></div>
+
 **Long text**
 A resizable multi-line text area for longer answers.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/LongText.png" alt="A long text question on the design surface."></div>
 
 **Multiple text boxes**
 Several single-line fields grouped together. Useful when you need a set of short answers under one question.
@@ -93,6 +107,8 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 **Single-select matrix**
 A grid with rows and columns. Each row is a statement or item; respondents select one column choice per row using radio buttons.
 
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/SingleSelectMatrix.png" alt="A single-select matrix question on the design surface."></div>
+
 </details>
 
 <details>
@@ -108,6 +124,8 @@ Embeds a static image or video in the form. Respondents cannot interact with it.
 **Expression**
 Displays a calculated value — a sum, average, or concatenation of other answers. Useful on the final page to summarize what the respondent submitted.
 
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Expression.gif" alt="An expression question on the design surface, showing a calculated value updating in real time."></div>
+
 </details>
 
 <details>
@@ -119,6 +137,20 @@ A container that groups questions together visually. Panels can be collapsible a
 
 **Dynamic panel**
 A repeating panel template. Respondents can add or remove panel instances, which makes it useful for variable-length entries such as multiple contacts or order lines.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/DynamicPanel.png" alt="A dynamic panel on the design surface showing multiple panel instances."></div>
+
+</details>
+
+<details>
+
+<summary>Contact fields</summary>
+
+> TODO: verify description
+
+A question type specific to eMarketeer. Links form responses directly to contact fields in your eMarketeer account.
+
+<div data-with-frame="true" align="left"><img src="../../assets/ui-overview/Contact-Fields.png" alt="The Contact fields question type on the design surface."></div>
 
 </details>
 
