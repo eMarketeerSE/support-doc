@@ -27,7 +27,7 @@ Formulär passar för en mängd olika användningsområden:
 
 Formulär är utformade för att enkelt bäddas in på din webbplats — alla ändringar du gör i eMarketeer uppdaterar det inbäddade formuläret automatiskt. Formulär kan även hanteras direkt av eMarketeer, vilket ger dig en länk som du kan dela eller länka till från valfri plats. Se [Bädda in formulär på din webbplats](../../documentation/forms/publish-a-form.md) för installationsinstruktioner.
 
-Formulärinlämningar registreras som kontaktaktivitet och bidrar till leadpoängsättning. En kontakt som fyller i en evenemangsanmälan eller slutför en enkät genererar engagemangssignaler som räknas in i deras leadpoäng.
+Formulärinlämningar registreras som kontaktaktivitet. Som minst ger varje formulär dig en rapport över vilka kontakter som har svarat och när. Du kan också använda inlämningar för att utlösa Journeys, bygga leadpoängsregler kring formulärengagemang eller dirigera kontakter till Lead Streams.
 
 ### I det här avsnittet
 
