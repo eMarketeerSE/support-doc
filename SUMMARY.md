@@ -58,6 +58,7 @@
   * [Creating your first Journey](documentation/journeys/creating-your-first-journey.md)
   * [Journeys Triggering Events](documentation/journeys/journeys-triggering-events.md)
 * [Contacts](knowledge-base/contacts-lists/README.md)
+  * [How contacts are created](knowledge-base/contacts-lists/how-contacts-are-created.md)
   * [Bulk Actions: A Tool for Managing Lists of Contacts](knowledge-base/contacts-lists/bulk-actions-tool.md)
   * [How to build and use Contact Filters](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
   * [Import contacts from Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)

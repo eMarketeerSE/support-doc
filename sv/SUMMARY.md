@@ -58,6 +58,7 @@
   * [Skapa din första Journey](documentation/journeys/creating-your-first-journey.md)
   * [Utlösande händelser för Journeys](documentation/journeys/journeys-triggering-events.md)
 * [Kontakter](knowledge-base/contacts-lists/README.md)
+  * [Hur kontakter skapas](knowledge-base/contacts-lists/how-contacts-are-created.md)
   * [Bulk Actions: ett verktyg för att hantera listor med kontakter](knowledge-base/contacts-lists/bulk-actions-tool.md)
   * [Så bygger och använder du kontaktfilter](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
   * [Importera kontakter från Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)

@@ -8,6 +8,10 @@ page-type: overview
 
 {% columns %}
 {% column %}
+{% content-ref url="how-contacts-are-created.md" %}
+how-contacts-are-created.md
+{% endcontent-ref %}
+
 {% content-ref url="../getting-started/new-contact-list.md" %}
 new-contact-list.md
 {% endcontent-ref %}
@@ -15,13 +19,13 @@ new-contact-list.md
 {% content-ref url="import-contacts-from-excel.md" %}
 import-contacts-from-excel.md
 {% endcontent-ref %}
-
-{% content-ref url="how-to-build-contact-filters.md" %}
-how-to-build-contact-filters.md
-{% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}
+{% content-ref url="how-to-build-contact-filters.md" %}
+how-to-build-contact-filters.md
+{% endcontent-ref %}
+
 {% content-ref url="bulk-actions-tool.md" %}
 bulk-actions-tool.md
 {% endcontent-ref %}
