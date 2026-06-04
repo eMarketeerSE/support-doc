@@ -27,17 +27,17 @@ Go to **Contacts** and click **Add Contact**. Enter an email address and eMarket
 
 ### CRM web panel
 
-The Contact Summary panel embedded in your CRM can create contacts on the eMarketeer side. If a CRM contact does not have a matching eMarketeer contact record, viewing them through the panel may trigger contact creation.
+The Contact Summary panel embedded in your CRM can create contacts on the eMarketeer side. If a CRM contact does not have a matching eMarketeer contact record, the panel gives you the option to create one.
 
 ### Quick-send email
 
-If you address an email send to an email address that does not exist in eMarketeer, a new contact is created for that address at the time of sending.
+If you Quick Send an email to an address that does not exist in eMarketeer, a new contact is created for that address at the time of sending.
 
 ## Web forms
 
 A form that includes a **Contact field: Email** will create a new contact or match against an existing one when the form is submitted. Other Contact fields on the form update the matched contact record at the same time.
 
-See [Form editor: UI overview](../../documentation/forms/ui-overview.md) for more on Contact fields.
+See [Form editor: UI overview](../../documentation/forms/ui-overview.md#contact-fields) for more on Contact fields.
 
 ## API
 

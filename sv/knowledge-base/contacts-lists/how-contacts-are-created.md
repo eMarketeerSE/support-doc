@@ -27,17 +27,17 @@ Gå till **Contacts** och klicka på **Add Contact**. Ange en e-postadress så f
 
 ### CRM-webbpanel
 
-Kontaktsammanfattningspanelen som är inbäddad i ditt CRM kan skapa kontakter på eMarketeer-sidan. Om en CRM-kontakt inte har en matchande eMarketeer-kontaktpost kan det trigga ett skapande av kontakt när du visar den i panelen.
+Kontaktsammanfattningspanelen som är inbäddad i ditt CRM kan skapa kontakter på eMarketeer-sidan. Om en CRM-kontakt inte har en matchande eMarketeer-kontaktpost ger panelen dig möjligheten att skapa en.
 
 ### Snabbskicka e-post
 
-Om du adresserar ett e-postutskick till en e-postadress som inte finns i eMarketeer skapas en ny kontakt för den adressen vid tidpunkten för utskicket.
+Om du skickar ett Quick Send-e-postmeddelande till en adress som inte finns i eMarketeer skapas en ny kontakt för den adressen vid tidpunkten för utskicket.
 
 ## Webbformulär
 
 Ett formulär som innehåller ett **Contact field: Email** skapar en ny kontakt eller matchar mot en befintlig när formuläret skickas in. Övriga Contact fields på formuläret uppdaterar den matchade kontaktposten samtidigt.
 
-Se [Formuläreditor: UI-översikt](../../documentation/forms/ui-overview.md) för mer om Contact fields.
+Se [Formuläreditor: UI-översikt](../../documentation/forms/ui-overview.md#contact-fields) för mer om Contact fields.
 
 ## API
 
