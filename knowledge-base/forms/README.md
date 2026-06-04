@@ -27,7 +27,7 @@ Forms are suited for a wide range of use cases:
 
 Forms are designed to be easily embedded on your website — any changes you make in eMarketeer update the embedded form automatically. Forms can also be hosted directly by eMarketeer, in which case you get a link you can share or point to from anywhere. See [Embed forms on your website](../../documentation/forms/publish-a-form.md) for setup instructions.
 
-Form submissions are recorded as contact activity. At a minimum, every form gives you a report of which contacts responded and when. You can also use submissions to trigger Journeys, build lead scoring rules around form engagement, or route contacts into lead streams.
+Form submissions are recorded as contact activity. Every form gives you a report of which contacts responded and when. You can also use submissions to trigger [Journeys](../journeys/journeys.md), build [lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md) rules around form engagement, or route contacts into [lead streams](../lead-board-scoring/lead-streams.md). With the [Web Tracker](../../documentation/web-tracker/README.md) installed on your website, form submissions also identify the respondent and connect their site visit history to the contact record, letting you track conversions from your site.
 
 ### In this section
 
