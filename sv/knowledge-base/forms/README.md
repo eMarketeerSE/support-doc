@@ -7,15 +7,11 @@ page-type: overview
 
 Ett formulär är en kampanjkomponent som du lägger till i en kampanj tillsammans med dina e-postutskick och annat innehåll. Öppna en kampanj och klicka på **Add Form** i den vänstra panelen för att lägga till ett.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Kampanjpanelen med knappen ADD FORM markerad. (`assets/forms-overview/add-form-campaign.png`)
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/forms-overview/add-form-campaign.png" alt="Kampanjpanelen med knappen ADD FORM markerad."></div>
 
 När du lägger till ett formulär väljer du bland ett antal färdiga mallar eller börjar från grunden.
 
-{% hint style="info" %}
-**Skärmbild behövs:** Formulärens mallväljare med tillgängliga mallar. (`assets/forms-overview/form-templates.png`)
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../../assets/forms-overview/form-templates.png" alt="Mallväljaren för formulär med tillgängliga mallar."></div>
 
 Formulär passar för en mängd olika användningsområden:
 

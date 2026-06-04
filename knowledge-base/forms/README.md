@@ -7,15 +7,11 @@ page-type: overview
 
 A Form is a campaign component you add to a campaign alongside your emails and other content. To add one, open a campaign and click **Add Form** in the left panel.
 
-{% hint style="info" %}
-**Screenshot needed:** The campaign sidebar with the ADD FORM button highlighted. (`assets/forms-overview/add-form-campaign.png`)
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/forms-overview/add-form-campaign.png" alt="The campaign sidebar with the ADD FORM button highlighted."></div>
 
 When you add a form, you choose from a set of ready-made templates or start from scratch.
 
-{% hint style="info" %}
-**Screenshot needed:** The form template picker showing available templates. (`assets/forms-overview/form-templates.png`)
-{% endhint %}
+<div data-with-frame="true" align="left"><img src="../../assets/forms-overview/form-templates.png" alt="The form template picker showing available templates."></div>
 
 Forms are suited for a wide range of use cases:
 
