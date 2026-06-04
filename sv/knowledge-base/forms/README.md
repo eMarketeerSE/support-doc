@@ -5,6 +5,10 @@ page-type: overview
 
 # Formulär
 
+{% hint style="info" %}
+Det här avsnittet gäller den nuvarande **Form**-editorn. För den tidigare formuläreditorn, se [Formulär (Legacy)](legacy.md).
+{% endhint %}
+
 Ett formulär är en kampanjkomponent som du lägger till i en kampanj tillsammans med dina e-postutskick och annat innehåll. Öppna en kampanj och klicka på **Add Form** i den vänstra panelen för att lägga till ett.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/forms-overview/add-form-campaign.png" alt="Kampanjpanelen med knappen ADD FORM markerad."></div>
@@ -21,9 +25,11 @@ Formulär passar för en mängd olika användningsområden:
 - Poängsatta quiz
 - NPS-enkäter
 
-Formulär är utformade för att enkelt bäddas in direkt på din webbplats. Ett enda skript är allt du behöver, och alla ändringar du gör i eMarketeer uppdaterar det inbäddade formuläret automatiskt. Se [Bädda in formulär på din webbplats](../../documentation/forms/publish-a-form.md) för installationsinstruktioner.
+Formulär är utformade för att enkelt bäddas in på din webbplats — alla ändringar du gör i eMarketeer uppdaterar det inbäddade formuläret automatiskt. Formulär kan även hanteras direkt av eMarketeer, vilket ger dig en länk som du kan dela eller länka till från valfri plats. Se [Bädda in formulär på din webbplats](../../documentation/forms/publish-a-form.md) för installationsinstruktioner.
 
 Formulärinlämningar registreras som kontaktaktivitet och bidrar till leadpoängsättning. En kontakt som fyller i en evenemangsanmälan eller slutför en enkät genererar engagemangssignaler som räknas in i deras leadpoäng.
+
+### I det här avsnittet
 
 {% columns %}
 {% column %}
