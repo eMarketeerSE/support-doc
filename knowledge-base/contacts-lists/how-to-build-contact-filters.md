@@ -10,6 +10,10 @@ Filters let you segment contacts by any criteria you set up, from broad groups t
 
 This article walks through the filter builder, shows a few example filters, and covers the actions you can take on a selection of contacts.
 
+{% hint style="info" %}
+The filter builder is also used inside Journeys, Lead Streams, and lead scoring rules — typically with a slightly smaller set of options. Understanding it here gives you a solid foundation for working effectively with eMarketeer's automated sequences ([Journeys](../journeys/journeys.md)) and lead qualification tools ([Lead Streams](../lead-board-scoring/lead-streams.md), [Lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)).
+{% endhint %}
+
 ## Get to know the filter builder
 
 In eMarketeer, click the "contacts" tab. This is where you work with and get to know your contacts. To segment or build a selection, click the "filter" tab on the right-hand side, just above the contact list. A web panel opens — this is where you build filters and find the ones you have saved.

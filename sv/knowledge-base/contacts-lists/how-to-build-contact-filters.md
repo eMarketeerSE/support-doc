@@ -10,6 +10,10 @@ Filter låter dig segmentera kontakter efter vilka kriterier du än ställer in,
 
 Den här artikeln går igenom filterbyggaren, visar några exempelfilter och täcker de åtgärder du kan utföra på ett urval av kontakter.
 
+{% hint style="info" %}
+Filterbyggaren används även i Journeys, Lead Streams och lead scoring-regler — vanligtvis med något färre alternativ. Att förstå den ger dig en bra grund för att arbeta effektivt med eMarketeers automatiserade sekvenser ([Journeys](../journeys/journeys.md)) och leadkvalificeringssystem ([Lead Streams](../lead-board-scoring/lead-streams.md), [Lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)).
+{% endhint %}
+
 ## Lär känna filterbyggaren
 
 I eMarketeer, klicka på fliken "contacts". Det är här du arbetar med och lär känna dina kontakter. För att segmentera eller bygga ett urval, klicka på fliken "filter" till höger, precis ovanför kontaktlistan. En webbpanel öppnas — det är här du bygger filter och hittar dem du har sparat.
