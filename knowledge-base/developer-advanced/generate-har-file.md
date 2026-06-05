@@ -2,6 +2,7 @@
 description: >-
   How to record a HAR file in Chrome that captures all network requests while
   you reproduce a problem in eMarketeer.
+hidden: true
 layout:
   width: default
   title:

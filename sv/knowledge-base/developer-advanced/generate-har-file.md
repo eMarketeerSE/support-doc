@@ -2,6 +2,7 @@
 description: >-
   Hur du spelar in en HAR-fil i Chrome som fångar alla nätverksanrop medan du
   återskapar ett problem i eMarketeer.
+hidden: true
 layout:
   width: default
   title:
