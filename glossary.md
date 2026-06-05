@@ -100,6 +100,30 @@ The chronological record of a contact's interactions, visible on the contact car
 
 </details>
 
+<details>
+
+<summary>CTR</summary>
+
+Click-through rate. The percentage of delivered emails in which at least one link was clicked. Calculated as unique clicks divided by emails delivered. CTR measures how effectively an email drives recipients to take action.
+
+</details>
+
+<details>
+
+<summary>CTOR</summary>
+
+Click-to-open rate. The percentage of contacts who opened an email and then clicked at least one link. Calculated as unique clicks divided by unique opens. CTOR isolates how compelling the email content is among readers who have already engaged.
+
+</details>
+
+<details>
+
+<summary>Custom domain</summary>
+
+A domain you own that eMarketeer uses instead of the default eMarketeer subdomain for your hosted webpages and forms. Using a custom domain means your published pages and links show your brand's domain rather than an eMarketeer URL.
+
+</details>
+
 ## D
 
 <details>
@@ -135,6 +159,14 @@ Domain-based Message Authentication, Reporting and Conformance. A policy that te
 </details>
 
 ## E
+
+<details>
+
+<summary>Email domain</summary>
+
+The domain part of an email address — the portion after the @ symbol. In eMarketeer, you authenticate your email domain to prove ownership and improve deliverability. Authenticated domains allow eMarketeer to send on your behalf while passing DKIM and SPF checks.
+
+</details>
 
 <details>
 
@@ -174,11 +206,19 @@ A saved set of contact criteria used to segment contacts for reporting or sendin
 
 <summary>Form</summary>
 
-A contact data capture page built with eMarketeer's form editor. A form can collect new contacts, update existing contact fields, and record consent. Forms can be embedded on a website or linked to from an email.
+A contact data capture page built with eMarketeer's form editor. A form can collect new contacts, update existing contact fields, and record consent. Forms can be embedded on a website or linked to from an email. eMarketeer has two form editors: **Form** (the current editor) and **Form (Legacy)** (the previous version, which will be deprecated).
 
 </details>
 
 ## H
+
+<details>
+
+<summary>HAR file</summary>
+
+HTTP Archive format. A file that captures all network requests and responses made by a browser during a session. eMarketeer support may ask you to generate a HAR file to diagnose loading or connectivity issues you are experiencing.
+
+</details>
 
 <details>
 
@@ -252,6 +292,14 @@ Browser-based storage used by the eMarketeer Web Tracker to recognize returning 
 
 <details>
 
+<summary>Mobile App</summary>
+
+An eMarketeer webpage built using the mobile app template. The template provides a multi-layered page layout with navigation, sections, and features designed for app-like experiences — such as event guides, delegate handbooks, and resource hubs. Mobile apps are distributed as links, not installed from an app store.
+
+</details>
+
+<details>
+
 <summary>MQL</summary>
 
 Marketing Qualified Lead. An industry-standard term for a contact that marketing has evaluated as ready to hand off to sales. In eMarketeer, a contact typically becomes an MQL when they reach a lead score threshold and appear on the Lead Board.
@@ -265,6 +313,14 @@ Marketing Qualified Lead. An industry-standard term for a contact that marketing
 <summary>Open</summary>
 
 A recorded instance of a contact loading an email. Opens are tracked via a 1×1 pixel image embedded in the email and registered when the recipient's email client loads images. Pre-fetching or image-blocking by some email clients can affect open tracking accuracy.
+
+</details>
+
+<details>
+
+<summary>OR</summary>
+
+Open rate. The percentage of delivered emails that were opened by at least one recipient. Calculated as unique opens divided by emails delivered. Open rates can be affected by mail clients that pre-load images or block them entirely.
 
 </details>
 

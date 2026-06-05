@@ -16,6 +16,14 @@ I Signals API är adapter namnet på signalkällan. Fältet identifierar vilket 
 
 </details>
 
+<details>
+
+<summary>Anpassad domän</summary>
+
+En domän du äger som eMarketeer använder i stället för den förinställda eMarketeer-underdomänen för dina publicerade webbsidor och formulär. Med en anpassad domän visas ditt varumärkes domän i stället för en eMarketeer-URL.
+
+</details>
+
 ## C
 
 <details>
@@ -31,6 +39,22 @@ I Signals API är category ett fält som beskriver typen av engagemang som regis
 <summary>Component</summary>
 
 Ett enskilt e-post, SMS, formulär eller en webbsida i en kampanj. Varje komponent har egna inställningar, utskickskonfiguration och rapport. Termen används genomgående i eMarketeer för att beteckna dessa enskilda delar i en kampanj.
+
+</details>
+
+<details>
+
+<summary>CTR</summary>
+
+Klickfrekvens (click-through rate). Andelen levererade e-postmeddelanden där minst en länk klickades. Beräknas som unika klick dividerat med levererade e-postmeddelanden. CTR mäter hur effektivt ett e-postmeddelande driver mottagare att agera.
+
+</details>
+
+<details>
+
+<summary>CTOR</summary>
+
+Klick-per-öppning-frekvens (click-to-open rate). Andelen kontakter som öppnade ett e-postmeddelande och sedan klickade på minst en länk. Beräknas som unika klick dividerat med unika öppningar. CTOR isolerar hur engagerande e-postinnehållet är bland mottagare som redan öppnat meddelandet.
 
 </details>
 
@@ -70,6 +94,14 @@ En registrerad interaktion mellan en kontakt och ett innehåll. Engagemang visas
 
 </details>
 
+<details>
+
+<summary>E-postdomän</summary>
+
+Domändelen i en e-postadress — delen efter @-tecknet. I eMarketeer autentiserar du din e-postdomän för att bevisa ägarskap och förbättra e-postleveransen. Autentiserade domäner gör att eMarketeer kan skicka för din räkning och klara DKIM- och SPF-kontroller.
+
+</details>
+
 ## F
 
 <details>
@@ -92,11 +124,19 @@ En sparad uppsättning kontaktkriterier för att segmentera kontakter vid rappor
 
 <summary>Formulär</summary>
 
-En sida för att samla in kontaktdata, byggd med eMarketeers formulärredigerare. Ett formulär kan samla in nya kontakter, uppdatera befintliga kontaktfält och registrera samtycke. Formulär kan bäddas in på en webbplats eller länkas till från ett e-post.
+En sida för att samla in kontaktdata, byggd med eMarketeers formulärredigerare. Ett formulär kan samla in nya kontakter, uppdatera befintliga kontaktfält och registrera samtycke. Formulär kan bäddas in på en webbplats eller länkas till från ett e-post. eMarketeer har två formulärredigerare: **Form** (den nuvarande) och **Form (Legacy)** (den tidigare versionen, som kommer att fasas ut).
 
 </details>
 
 ## H
+
+<details>
+
+<summary>HAR-fil</summary>
+
+HTTP Archive-format. En fil som fångar alla nätverksförfrågningar och -svar som gjorts av en webbläsare under en session. eMarketeers support kan be dig generera en HAR-fil för att felsöka laddnings- eller anslutningsproblem du upplever.
+
+</details>
 
 <details>
 
@@ -244,9 +284,27 @@ Ett tillfälligt e-postleveransfel, vanligtvis för att mottagarens inkorg är f
 
 <details>
 
+<summary>Mobile App</summary>
+
+En eMarketeer-webbsida byggd med mallen för mobilappar. Mallen ger en flerskiktad sidlayout med navigering, sektioner och funktioner utformade för appliknande upplevelser — som eventguider, delegathandböcker och resurshubbar. Mobile Apps distribueras som länkar och installeras inte från en appbutik.
+
+</details>
+
+<details>
+
 <summary>MQL</summary>
 
 Marketing Qualified Lead. En branschstandardterm för en kontakt som marknadsavdelningen har bedömt är redo att lämnas över till säljavdelningen. I eMarketeer blir en kontakt vanligtvis ett MQL när de når ett leadpoängsgränsvärde och visas på Lead Board.
+
+</details>
+
+## O
+
+<details>
+
+<summary>OR</summary>
+
+Öppningsfrekvens (open rate). Andelen levererade e-postmeddelanden som öppnades av minst en mottagare. Beräknas som unika öppningar dividerat med levererade e-postmeddelanden. Öppningsfrekvensen kan påverkas av e-postklienter som förhämtar bilder eller blockerar dem helt.
 
 </details>
 
