@@ -29,6 +29,7 @@
     * [Personalize content](knowledge-base/email-content/personalize-content.md)
     * [Identifying why an email was not received](knowledge-base/email-deliverability/identify-email-not-recieved.md)
   * [Forms](knowledge-base/forms/README.md)
+    * [How to publish a form](knowledge-base/forms/how-to-publish-a-form.md)
     * [Embed forms on your website](documentation/forms/publish-a-form.md)
     * [The Form component](documentation/forms/the-form-component.md)
     * [How to link to a form](knowledge-base/forms/how-to-link-to-a-form.md)

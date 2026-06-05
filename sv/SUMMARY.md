@@ -29,6 +29,7 @@
     * [Personalisera innehåll](knowledge-base/email-content/personalize-content.md)
     * [Identifiera varför ett e-postmeddelande inte togs emot](knowledge-base/email-deliverability/identify-email-not-recieved.md)
   * [Formulär](knowledge-base/forms/README.md)
+    * [Så publicerar du ett formulär](knowledge-base/forms/how-to-publish-a-form.md)
     * [Bädda in formulär på din webbplats](documentation/forms/publish-a-form.md)
     * [Formulärkomponenten](documentation/forms/the-form-component.md)
     * [Länka till ett formulär](knowledge-base/forms/how-to-link-to-a-form.md)

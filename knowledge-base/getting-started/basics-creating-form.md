@@ -1,7 +1,7 @@
 ---
 description: >-
-  A step-by-step guide to creating a form in eMarketeer, from setup through the
-  thank-you page and optional confirmation email.
+  A step-by-step guide to creating a Legacy Form in eMarketeer, from setup
+  through the thank-you page and optional confirmation email.
 layout:
   width: default
   title:
@@ -34,7 +34,7 @@ This guide is for the Legacy version of Forms, which will be deprecated. Some cu
 To create a new Legacy Form it is required that you create a campaign first. If you don't have a campaign ready, see [How to create a new campaign](create-new-campaign.md).
 {% endhint %}
 
-This guide walks you through creating a form in eMarketeer — for an event signup, newsletter signup, or any other use.
+This guide walks you through creating a Legacy Form in eMarketeer — for an event signup, newsletter signup, or any other use.
 
 By the end you will have a working form with a thank-you page and an optional confirmation email.
 
@@ -150,9 +150,9 @@ Options:
 {% endstep %}
 
 {% step %}
-### Publish your form
+### Publish your Legacy Form
 
-Once your form is ready, you have a few options for sharing it.
+Once your Legacy Form is ready, you have a few options for sharing it.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_publish_page.png" alt="Publishing page with Direct URL, Website Integration, and E-mail options"></div>
 

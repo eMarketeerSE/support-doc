@@ -1,6 +1,6 @@
 ---
 description: >-
-  En steg-för-steg-guide för att skapa ett formulär i eMarketeer, från
+  En steg-för-steg-guide för att skapa ett Legacy-formulär i eMarketeer, från
   grundinställningar till tacksida och valfritt bekräftelsemejl.
 layout:
   width: default
@@ -34,7 +34,7 @@ Den här guiden gäller Legacy-versionen av Forms, som kommer att avvecklas. Vis
 För att skapa ett nytt Legacy-formulär måste du skapa en kampanj först.
 {% endhint %}
 
-Den här guiden tar dig genom hur du skapar ett formulär i eMarketeer — för eventanmälan, nyhetsbrevsregistrering eller någon annan användning.
+Den här guiden tar dig genom hur du skapar ett Legacy-formulär i eMarketeer — för eventanmälan, nyhetsbrevsregistrering eller någon annan användning.
 
 När du är klar har du ett fungerande formulär med en tacksida och ett valfritt bekräftelsemejl.
 
@@ -152,9 +152,9 @@ Alternativ:
 {% endstep %}
 
 {% step %}
-### Publicera ditt formulär
+### Publicera ditt Legacy-formulär
 
-När formuläret är klart har du några alternativ för att dela det.
+När Legacy-formuläret är klart har du några alternativ för att dela det.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_publish_page.png" alt="Publiceringssida med alternativ för Direct URL, Website Integration och E-mail"></div>
 
