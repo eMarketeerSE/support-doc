@@ -4,7 +4,7 @@ description: >-
   single operation.
 ---
 
-# Bulk Actions: A Tool for Managing Lists of Contacts
+# How to manage contacts in bulk
 
 Bulk Actions lets you update or manage groups of contacts in a single operation.
 

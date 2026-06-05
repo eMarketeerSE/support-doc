@@ -4,7 +4,7 @@ description: >-
   kontakter i en enda operation.
 ---
 
-# Bulk Actions: ett verktyg för att hantera listor med kontakter
+# Så här hanterar du kontakter i bulk
 
 Bulk Actions (Massåtgärder) låter dig uppdatera eller hantera grupper av kontakter i en enda operation.
 
