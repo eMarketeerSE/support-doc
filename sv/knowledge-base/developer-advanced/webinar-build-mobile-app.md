@@ -9,3 +9,6 @@ Webinariet täcker:
 - Hur du skapar och designar mobila webbappar i eMarketeer.
 - Hur du levererar appar till din publik.
 - Hur du använder appar för att göra ditt event mer engagerande.
+
+{% embed url="https://www.youtube.com/watch?v=43qNPscck5E" %}
+{% endembed %}
