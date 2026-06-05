@@ -12,11 +12,11 @@ eMarketeer gives you three ways to share a form with respondents: a hosted URL, 
 
 Navigate to the campaign components view and click **Publish** below the form. You can also open the form editor and click **Publish** in the toolbar.
 
-<div data-with-frame="true" align="left"><img src="../../assets/form-publish/Publish-Button.png" alt="The Publish button below a form component in the campaign view."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Button.png" alt="The Publish button below a form component in the campaign view."></div>
 
 ## Publish options
 
-<div data-with-frame="true" align="left"><img src="../../assets/form-publish/Publish-Options.png" alt="The Publish panel showing the hosted URL and embed script options."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Options.png" alt="The Publish panel showing the hosted URL and embed script options."></div>
 
 ### Hosted URL
 
@@ -34,7 +34,7 @@ To link to a form from inside an eMarketeer email, use the Insert Link method in
 2. Click **eMarketeer Form**.
 3. Select the form from the **Choose form** dropdown. If the form belongs to a different campaign, select that campaign in **Choose campaign** first.
 4. Choose an identification method:
-   - **Anonymous link** — the same URL for every recipient. The respondent is not identified when they open the form.
-   - **Personal link** — a unique URL per recipient. Identifies the contact when they open the form, enabling pre-filled fields and personalized content.
+   * **Anonymous link** — the same URL for every recipient. The respondent is not identified when they open the form.
+   * **Personal link** — a unique URL per recipient. Identifies the contact when they open the form, enabling pre-filled fields and personalized content.
 
-<div data-with-frame="true" align="left"><img src="../../assets/form-publish/Link-From-Email.png" alt="The Insert Link dialog showing the eMarketeer Form option with Choose form and identification settings."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Link-From-Email.png" alt="The Insert Link dialog showing the eMarketeer Form option with Choose form and identification settings."></div>

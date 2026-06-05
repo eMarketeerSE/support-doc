@@ -156,8 +156,6 @@ Once your Legacy Form is ready, you have a few options for sharing it.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_publish_page.png" alt="Publishing page with Direct URL, Website Integration, and E-mail options"></div>
 
-The Publishing page for a form
-
 * **Direct URL:** A direct link to the form. Share it with colleagues, post it on social media, or link it from your website. When you click this option, a popup shows the link — copy it from the popup. Do not visit the link and copy from your browser address bar: each visitor gets a unique URL meant only for them.
 * **Website Integration:** HTML code and scripts to embed the form on your own website. Our support cannot always help with issues here because it is implemented outside eMarketeer. Skip this option unless you are comfortable with this kind of integration.
 * **E-mail:** Link to the form from an email. See the linking section in [Creating your first email](basics-creating-email.md).
