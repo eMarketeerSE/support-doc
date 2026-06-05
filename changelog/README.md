@@ -23,7 +23,7 @@ layout:
 # Product updates
 
 {% updates format="full" %}
-{% update date="2026-04-14" tags="feature,improvement,fix" %}
+{% update date="2026-04-14" tags="feature,improvement,fix,form,journey,integrations" %}
 ## Forms, Journeys, and Dynamics 365
 
 ### Forms
@@ -65,7 +65,7 @@ layout:
 </details>
 {% endupdate %}
 
-{% update date="2026-03-10" tags="feature,improvement,fix" %}
+{% update date="2026-03-10" tags="feature,improvement,fix,new-release" %}
 ## Operational Report dashboard
 
 A new Dashboard report gives you a full account-wide view of campaign activity.

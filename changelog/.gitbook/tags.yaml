@@ -1,0 +1,27 @@
+- tag: new-release
+  label: New release
+  icon: rocket-launch
+  color: $success
+- tag: form
+  label: Form
+  icon: wpforms
+- tag: email
+  label: Email
+  icon: envelope
+- tag: sms
+  label: SMS
+  icon: message-lines
+- tag: journey
+  label: Journey
+- tag: leadboard
+  label: Leadboard
+  icon: chart-kanban
+- tag: api
+  label: API
+  icon: brackets-curly
+- tag: contacts
+  label: Contacts
+  icon: address-book
+- tag: integrations
+  label: Integrations
+  icon: link
