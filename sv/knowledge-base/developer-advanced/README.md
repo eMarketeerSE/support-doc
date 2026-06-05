@@ -16,10 +16,6 @@ README.md
 contact-field-character-limit.md
 {% endcontent-ref %}
 
-{% content-ref url="generate-har-file.md" %}
-generate-har-file.md
-{% endcontent-ref %}
-
 {% content-ref url="webinar-build-mobile-app.md" %}
 webinar-build-mobile-app.md
 {% endcontent-ref %}

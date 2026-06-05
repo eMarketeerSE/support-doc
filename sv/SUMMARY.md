@@ -96,7 +96,6 @@
   * [Skicka en Webhook från Zapier till eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 * [Utvecklare](knowledge-base/developer-advanced/README.md)
   * [Villkor](knowledge-base/developer-advanced/dcl-dynamic-content-language.md)
-  * [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
   * [Webinar: Så bygger du mobilappar i eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
   * [Varför eMarketeer inte stöder SRI för embed-skript](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
   * [Ändra navigeringsikoner i mobilappen (Developer)](knowledge-base/account-admin/app-navigation-icons.md)
@@ -144,6 +143,7 @@
   * [Var lagras eMarketeer-data geografiskt?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
   * [reCAPTCHA för eMarketeer-formulär](knowledge-base/forms/captcha.md)
   * [Identifiera varför ett formulär är otillgängligt (Legacy)](knowledge-base/forms/form-unavailable.md)
+* [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
 * [Ordlista](glossary.md)
 
 ## Integrationer

@@ -94,7 +94,6 @@
     * [Template Functions](documentation/apis-developer/template-functions.md)
     * [Emarketeer specific functions](documentation/apis-developer/emarketeer-specific-functions.md)
     * [Conditionals](documentation/apis-developer/conditionals.md)
-  * [Generate HAR file for support](knowledge-base/developer-advanced/generate-har-file.md)
   * [Webinar: How to Build Mobile Apps in eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
   * [Why eMarketeer doesn't support SRI for embed scripts](knowledge-base/developer-advanced/why-emarketeer-doesnt-support-sri-for-embed-scripts.md)
   * [Changing the mobile app navigation icons](knowledge-base/account-admin/app-navigation-icons.md)
@@ -142,6 +141,7 @@
   * [Where is eMarketeer data stored geographically?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
   * [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
   * [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)
+* [Generate HAR file for support](knowledge-base/developer-advanced/generate-har-file.md)
 * [Glossary](glossary.md)
 
 ## Integrations
