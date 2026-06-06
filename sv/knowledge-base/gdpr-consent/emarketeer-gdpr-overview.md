@@ -1,12 +1,14 @@
 ---
-icon: file-certificate
+description: >-
+  En översikt av GDPR — vad det är, vem det gäller och hur eMarketeer hjälper
+  dig att hantera samtycke och efterleva reglerna.
 ---
 
-# eMarketeer GDPR-översikt
+# GDPR & samtycke
 
 Den här artikeln förklarar vad General Data Protection Regulation (GDPR) är, vad eMarketeer gör åt det och vad du som kund kan göra.
 
-GDPR har varit i full kraft sedan den 25 maj 2018 och sätter en hög ribba för globala integritetsrättigheter och efterlevnad. eMarketeer har aktivt förberett sin verksamhet och sina efterlevnadsprocesser för förordningen. Den här guiden är endast informativ — den utgör inte juridisk rådgivning. Vi uppmuntrar dig att samarbeta med juridisk och annan professionell rådgivning för att avgöra hur GDPR gäller för din organisation.
+GDPR har varit i full kraft sedan den 25 maj 2018 och sätter en hög ribba för globala integritetsrättigheter och efterlevnad. eMarketeer efterlever förordningen och har uppdaterat sina verksamhets- och efterlevnadsprocesser i enlighet med detta. Den här guiden är endast informativ — den utgör inte juridisk rådgivning. Vi uppmuntrar dig att samarbeta med juridisk och annan professionell rådgivning för att avgöra hur GDPR gäller för din organisation.
 
 ## Vad är GDPR?
 
@@ -14,7 +16,7 @@ GDPR är en europeisk integritetslag som godkändes av Europeiska kommissionen 2
 
 En förordning som GDPR är en bindande rättsakt som måste följas i sin helhet i hela EU. Den stärker, harmoniserar och moderniserar EU:s dataskyddslagstiftning och förbättrar individens rättigheter, i linje med den europeiska synen på integritet som en grundläggande mänsklig rättighet. Bland annat reglerar den hur individer och organisationer får inhämta, använda, lagra och radera personuppgifter. Den har en betydande inverkan på företag runt om i världen.
 
-## När träder den i kraft?
+## När trädde den i kraft?
 
 GDPR antogs i april 2016 och blev tillämplig den 25 maj 2018. Det fanns ingen övergångsperiod.
 
@@ -92,30 +94,27 @@ GDPR har inte ändrat de grundläggande definitionerna av personuppgiftsansvarig
 
 Personuppgiftsansvariga behåller det primära ansvaret för dataskydd, inklusive att rapportera personuppgiftsincidenter till dataskyddsmyndigheter. GDPR lägger även vissa direkta ansvarsområden på personuppgiftsbiträdet. I sammanhanget av eMarketeer-applikationen och relaterade tjänster är våra kunder vanligtvis personuppgiftsansvariga — de bestämmer vilken kontaktinformation som laddas upp till deras konto och vilka e-postmeddelanden som skickas. eMarketeer fungerar som personuppgiftsbiträde.
 
-## Kommer eMarketeer att efterleva GDPR?
+## eMarketeer och GDPR-efterlevnad
 
-eMarketeer är engagerade i GDPR-efterlevnad och ser förordningen som en viktig milstolpe för dataskydd. Våra förberedelser inkluderade granskning — och uppdatering där det behövdes — av våra interna processer, rutiner, datasystem och dokumentation.
-
-> TODO: verify whether the dated preparation language below should be removed or updated, since GDPR has been in effect since 2018.
+eMarketeer efterlever GDPR och ser förordningen som en viktig milstolpe för dataskydd. Vårt efterlevnadsarbete inkluderade granskning — och uppdatering där det behövdes — av våra interna processer, rutiner, datasystem och dokumentation.
 
 Bland annat har vi:
 
-- Uppdaterat vårt personuppgiftsbiträdesavtal (DPA) för att uppfylla kraven i GDPR, så att du lagligt kan fortsätta överföra EU-personuppgifter till eMarketeer och vi lagligt kan fortsätta att ta emot och behandla dem.
-- Uppdaterat våra avtal med tredjepartsleverantörer för att uppfylla GDPR-kraven, så att vi lagligt kan fortsätta överföra EU-personuppgifter till dessa tredje parter.
-- Analyserat alla nuvarande funktioner och mallar för förbättringar som gynnar användare som omfattas av GDPR.
-- Utvärderat nya GDPR-vänliga funktioner och mallar att lägga till i applikationen.
+- Uppdaterat vårt personuppgiftsbiträdesavtal (DPA) för att uppfylla kraven i GDPR, så att du lagligt kan överföra EU-personuppgifter till eMarketeer och vi lagligt kan ta emot och behandla dem.
+- Uppdaterat våra avtal med tredjepartsleverantörer för att uppfylla GDPR-kraven, så att vi lagligt kan överföra EU-personuppgifter till dessa tredje parter.
+- Granskat alla funktioner och mallar för förbättringar som gynnar användare som omfattas av GDPR.
 
-Vi är förberedda att hantera förfrågningar relaterade till utökade individuella rättigheter enligt GDPR:
+Vi hanterar förfrågningar relaterade till utökade individuella rättigheter enligt GDPR:
 
 - **Rätten att bli glömd** — du kan avsluta ditt eMarketeer-konto när som helst, varefter vi permanent raderar ditt konto och all tillhörande data.
-- **Rätten att invända** — du kan opt-out från att din data inkluderas i våra dataforskningsprojekt genom att ändra integritetsinställningen på ditt konto. Detta förklaras under underrubriken "Data Science and Privacy" på https://kb.eMarketeer.com/accounts/login/set-account-security-options.
-- **Rätten till rättelse** — du kan när som helst komma åt och uppdatera dina eMarketeer-kontoinställningar. Du kan också kontakta eMarketeer för att komma åt, rätta, ändra eller radera information vi har om dig, vilket förklaras i avsnitt 19 i vår integritetspolicy.
+- **Rätten att invända** — du kan opt-out från att din data inkluderas i våra dataforskningsprojekt genom att ändra integritetsinställningen på ditt konto.
+- **Rätten till rättelse** — du kan när som helst komma åt och uppdatera dina eMarketeer-kontoinställningar. Du kan också kontakta eMarketeer för att komma åt, rätta, ändra eller radera information vi har om dig, vilket förklaras i vår integritetspolicy.
 - **Rätten till åtkomst** — vår integritetspolicy beskriver vilka uppgifter vi samlar in och hur vi använder dem. För specifika frågor, kontakta privacy@emarketeer.com.
 - **Rätten till dataportabilitet** — vi exporterar dina kontodata till en tredje part på begäran.
 
 ## Hur kan eMarketeer hjälpa dig med din efterlevnad?
 
-Påbörja ditt efterlevnadsarbete nu om du inte redan har gjort det. Det finns flera sätt som eMarketeer kan hjälpa till.
+Det finns flera sätt som eMarketeer kan hjälpa med din efterlevnad.
 
 - **Utökade individuella rättigheter.** eMarketeer kan hjälpa dig att svara på förfrågningar från dina kontakter under deras utökade individuella rättigheter.
 - **Rätten att bli glömd.** Du kan ta bort enskilda kontakter på begäran när som helst. Individer kan också kontakta eMarketeer direkt för att begära radering av sina uppgifter från enskilda konton eller över flera konton.
@@ -136,8 +135,19 @@ Personuppgifter samlas vanligtvis in genom inbäddade formulär som utformats i 
 - Ett avregistreringsalternativ ingår automatiskt i sidfoten på varje standardmall i eMarketeer, så att vilken mottagare som helst enkelt kan avregistrera sig. Detta hjälper dig att efterleva GDPR när en kontakt återkallar sitt samtycke.
 - Håll kontaktinformationen uppdaterad — namn, kontaktuppgifter och så vidare — när en kontakt begär ändringar.
 - För korrekta register, särskilt över samtycke. eMarketeer lagrar en notering om samtycke i ditt konto. När du använder ett eMarketeer-registreringsformulär registreras e-postadressen, IP-adressen och tidsstämpeln för varje inlämning, vilket ger dig bevis på samtycke.
-- Allt samtycke du inhämtar måste efterleva GDPR, oavsett när det inhämtades. Skäl 171 anger att tidigare inhämtat samtycke som uppfyller GDPR-standarder kan fortsätta att åberopas. Du behöver inte automatiskt begära samtycke på nytt när GDPR träder i kraft, förutsatt att det ursprungliga samtycket uppfyllde kraven. Rådfråga lokal juridisk rådgivare om du är osäker, eller kontakta dina kontakter för att begära samtycke på nytt eller förlita dig på en annan rättslig grund.
-- Granska alla eMarketeer-integrationer du använder, tillsammans med deras villkor, för att säkerställa att du har redovisat de databehandlingsaktiviteter som är förknippade med dem. Om du till exempel använder Web Monitor för att spåra kontaktbeteende på din webbplats, implementera ett lämpligt cookie-meddelande och en samtyckesmekanism för de cookies och pixlar som är inblandade.
+- Allt samtycke du inhämtar måste efterleva GDPR, oavsett när det inhämtades. Skäl 171 anger att tidigare inhämtat samtycke som uppfyller GDPR-standarder kan fortsätta att åberopas. Du behöver inte automatiskt begära samtycke på nytt, förutsatt att det ursprungliga samtycket uppfyllde kraven. Rådfråga lokal juridisk rådgivare om du är osäker, eller kontakta dina kontakter för att begära samtycke på nytt eller förlita dig på en annan rättslig grund.
+- Granska alla eMarketeer-integrationer du använder, tillsammans med deras villkor, för att säkerställa att du har redovisat de databehandlingsaktiviteter som är förknippade med dem. Om du till exempel använder Web Tracker för att spåra kontaktbeteende på din webbplats, implementera ett lämpligt cookie-meddelande och en samtyckesmekanism för de cookies och pixlar som är inblandade.
 - Granska din organisations integritetspolicy för att säkerställa att den meddelar kontakter att deras personuppgifter kommer att överföras till och behandlas av eMarketeer. Du kanske vill identifiera eMarketeer specifikt som ett av dina personuppgiftsbiträden och beskriva de behandlingsaktiviteter vi utför, som insamling via registreringsformulär och lagring i ditt eMarketeer-konto.
+
+## eMarketeers samtyckefunktioner
+
+eMarketeer har flera funktioner som hjälper dig att samla in, lagra och hantera samtycke:
+
+- **Samtyckessystem** — lagra och hantera samtyckestatus per e-postadress.
+- **Samtyckesrutor i formulär** — inbyggda samtyckefält i eMarketeer-formulär.
+- **CRM-synk** — samtycke kan synkas automatiskt med integrerade CRM-system.
+- **Granskningsloggar** — ett register över samtyckeändringar för ansvarsskyldighet.
+- **Consent API** — hantera samtycke programmatiskt via API:et.
+- **Automations och Journeys** — Journey-steg kan läsa och uppdatera samtycke som en del av automatiserade sekvenser.
 
 Om du har specifika frågor om GDPR och din användning av eMarketeer, mejla support@emarketeer.com.

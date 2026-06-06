@@ -1,12 +1,14 @@
 ---
-icon: file-certificate
+description: >-
+  An overview of the GDPR — what it is, who it affects, and how eMarketeer
+  helps you manage consent and stay compliant.
 ---
 
 # GDPR & consent
 
-This article explains what the General Data Protection Regulation (GDPR) is, what eMarketeer is doing about it, and what you can do as a customer.
+This article explains what the General Data Protection Regulation (GDPR) is, what eMarketeer does about it, and what you can do as a customer.
 
-The GDPR has been in full effect since 25 May 2018 and sets a high bar for global privacy rights and compliance. eMarketeer has actively prepared its business and compliance processes for the regulation. This guide is informational only — it is not legal advice. We encourage you to work with legal and other professional counsel to determine how the GDPR applies to your organization.
+The GDPR has been in full effect since 25 May 2018 and sets a high bar for global privacy rights and compliance. eMarketeer complies with the regulation and has updated its business and compliance processes accordingly. This guide is informational only — it is not legal advice. We encourage you to work with legal and other professional counsel to determine how the GDPR applies to your organization.
 
 ## What is GDPR?
 
@@ -14,7 +16,7 @@ GDPR is a European privacy law approved by the European Commission in 2016. It r
 
 A regulation such as the GDPR is a binding act that must be followed in its entirety throughout the EU. It strengthens, harmonizes, and modernizes EU data protection law and enhances individual rights, consistent with the European understanding of privacy as a fundamental human right. Among other things, it regulates how individuals and organizations may obtain, use, store, and erase personal data. It has a significant impact on businesses around the world.
 
-## When does it come into effect?
+## When did it take effect?
 
 GDPR was adopted in April 2016 and became enforceable on 25 May 2018. There was no grace period.
 
@@ -92,30 +94,27 @@ The GDPR has not changed the fundamental definitions of controller and processor
 
 Controllers retain primary responsibility for data protection, including reporting data breaches to data protection authorities. The GDPR also places some direct responsibilities on the processor. In the context of the eMarketeer application and related services, our customers are usually the controller — they decide which contact information is uploaded to their account and which emails are sent. eMarketeer acts as the processor.
 
-## Will eMarketeer comply with the GDPR?
+## eMarketeer and GDPR compliance
 
-eMarketeer is committed to GDPR compliance and views the regulation as an important milestone for data privacy. Our preparation included reviewing — and updating where necessary — our internal processes, procedures, data systems, and documentation.
+eMarketeer complies with GDPR and views the regulation as an important milestone for data privacy. Our compliance work included reviewing — and updating where necessary — our internal processes, procedures, data systems, and documentation.
 
-> TODO: verify whether the dated preparation language below should be removed or updated, since GDPR has been in effect since 2018.
+Among other things, we have:
 
-Among other things, we are:
-
-* Updating our Data Processing Agreement (DPA) to meet the requirements of the GDPR, so you can continue to lawfully transfer EU personal data to eMarketeer and we can continue to lawfully receive and process it.
-* Updating our third-party vendor contracts to meet GDPR requirements, so we can continue to lawfully transfer EU personal data to those third parties.
-* Analyzing all current features and templates for improvements that benefit users subject to the GDPR.
-* Evaluating new GDPR-friendly features and templates to add to the application.
+* Updated our Data Processing Agreement (DPA) to meet the requirements of the GDPR, so you can lawfully transfer EU personal data to eMarketeer and we can lawfully receive and process it.
+* Updated our third-party vendor contracts to meet GDPR requirements, so we can lawfully transfer EU personal data to those third parties.
+* Reviewed all features and templates for improvements that benefit users subject to the GDPR.
 
 We are prepared to address requests related to expanded individual rights under the GDPR:
 
 * **Right to be forgotten** — you may terminate your eMarketeer account at any time, after which we permanently delete your account and all associated data.
-* **Right to object** — you can opt out of including your data in our data science projects by changing the Privacy Setting on your account. This is explained under the "Data Science and Privacy" sub-heading at https://kb.eMarketeer.com/accounts/login/set-account-security-options.
-* **Right to rectification** — you can access and update your eMarketeer account settings at any time. You can also contact eMarketeer to access, correct, amend, or delete information we hold about you, as explained in Section 19 of our Privacy Policy.
+* **Right to object** — you can opt out of including your data in our data science projects by changing the Privacy Setting on your account.
+* **Right to rectification** — you can access and update your eMarketeer account settings at any time. You can also contact eMarketeer to access, correct, amend, or delete information we hold about you, as explained in our Privacy Policy.
 * **Right of access** — our privacy policy describes what data we collect and how we use it. For specific questions, contact privacy@emarketeer.com.
 * **Right of portability** — we will export your account data to a third party on request.
 
 ## How can eMarketeer assist with your compliance?
 
-Start your compliance work now if you have not already. There are several ways eMarketeer can help.
+There are several ways eMarketeer can help with your compliance.
 
 * **Expanded individual rights.** eMarketeer can help you respond to requests from your contacts under their expanded individual rights.
 * **Right to be forgotten.** You may delete individual contacts on request at any time. Individuals may also contact eMarketeer directly to request deletion of their data from individual accounts or across multiple accounts.
@@ -136,8 +135,19 @@ Personal data is typically collected through embedded forms designed in eMarkete
 * An unsubscribe option is automatically included in the footer of every standard template in eMarketeer, so any recipient can easily unsubscribe. This helps you comply with the GDPR when a contact withdraws consent.
 * Keep contact information up to date — names, contact details, and so on — when a contact requests changes.
 * Keep accurate records, especially of consent. eMarketeer stores a record of consent in your account. When you use an eMarketeer sign-up form, the email address, IP address, and timestamp are recorded for every submission, giving you proof of consent.
-* Any consent you obtain must comply with the GDPR, regardless of when it was obtained. Recital 171 indicates that pre-existing consent that meets GDPR standards can continue to be relied upon. You do not need to re-request consent automatically when the GDPR takes effect, provided the original consent met the requirements. Consult local counsel if you are uncertain, or contact your contacts to re-request consent or rely on a different lawful basis.
-* Review any eMarketeer integrations you use, along with their terms, to ensure you have disclosed the data processing activities associated with them. For example, if you use Web Monitor to track contact behavior on your website, implement an appropriate cookie notice and consent mechanism for the cookies and pixels involved.
+* Any consent you obtain must comply with the GDPR, regardless of when it was obtained. Recital 171 indicates that pre-existing consent that meets GDPR standards can continue to be relied upon. You do not need to re-request consent automatically, provided the original consent met the requirements. Consult local counsel if you are uncertain, or contact your contacts to re-request consent or rely on a different lawful basis.
+* Review any eMarketeer integrations you use, along with their terms, to ensure you have disclosed the data processing activities associated with them. For example, if you use the Web Tracker to monitor contact behavior on your website, implement an appropriate cookie notice and consent mechanism for the cookies and pixels involved.
 * Review your organization's privacy statement to make sure it notifies contacts that their personal data will be transferred to and processed by eMarketeer. You may want to identify eMarketeer specifically as one of your processors and describe the processing activities we perform, such as collection via sign-up forms and storage within your eMarketeer account.
+
+## eMarketeer consent features
+
+eMarketeer includes several features to help you collect, store, and manage consent:
+
+* **Consent system** — store and manage consent status per email address.
+* **Form consent checkboxes** — built-in consent fields in eMarketeer forms.
+* **CRM sync** — consent can sync automatically with integrated CRMs.
+* **Audit logs** — a record of consent changes for accountability.
+* **Consent API** — manage consent programmatically via the API.
+* **Automations and Journeys** — Journey steps can read and update consent as part of automated sequences.
 
 If you have specific questions about GDPR and your use of eMarketeer, email support@emarketeer.com.
