@@ -47,9 +47,7 @@ Dessa typer skapas för att användas av Activity som genereras av eMarketeer:
 
 En ny Sale-källa skapas som heter "eMarketeer".
 
-## Projekt
 
-Ett nytt projekt skapas som heter "Web Visits" och lagrar alla kontakter som besöker din webbplats.
 
 ## Felsökning
 
