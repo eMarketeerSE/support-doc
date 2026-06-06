@@ -30,7 +30,7 @@ In the Signals API, the name of the signal source. The adapter field identifies 
 
 <summary>Bounce</summary>
 
-An email that could not be delivered to the recipient's address. Bounces are split into hard bounces (permanent failures) and soft bounces (temporary failures). See also: Hard bounce, Soft bounce.
+An email that could not be delivered to the recipient's address. Bounces are split into [hard bounces](#hard-bounce) (permanent failures) and [soft bounces](#soft-bounce) (temporary failures). See also: [Hard bounce](#hard-bounce), [Soft bounce](#soft-bounce).
 
 </details>
 
@@ -56,7 +56,7 @@ The tab on a campaign that lists all contacts who have interacted with that camp
 
 <summary>Category (Signals)</summary>
 
-In the Signals API, a field that describes the type of engagement being recorded. Examples include "Newsletter signup" and "Sale closed". The category appears on the contact timeline alongside the adapter name.
+In the Signals API, a field that describes the type of engagement being recorded. Examples include "Newsletter signup" and "Sale closed". The category appears on the contact timeline alongside the [adapter](#adapter) name.
 
 </details>
 
@@ -154,7 +154,7 @@ DomainKeys Identified Mail. An email authentication standard that attaches a dig
 
 <summary>DMARC</summary>
 
-Domain-based Message Authentication, Reporting and Conformance. A policy that tells receiving mail servers what to do when SPF or DKIM checks fail. DMARC works alongside SPF and DKIM to protect your domain from spoofing.
+Domain-based Message Authentication, Reporting and Conformance. A policy that tells receiving mail servers what to do when SPF or [DKIM](#dkim) checks fail. DMARC works alongside SPF and DKIM to protect your domain from spoofing.
 
 </details>
 
@@ -164,7 +164,7 @@ Domain-based Message Authentication, Reporting and Conformance. A policy that te
 
 <summary>Email domain</summary>
 
-The domain part of an email address — the portion after the @ symbol. In eMarketeer, you authenticate your email domain to prove ownership and improve deliverability. Authenticated domains allow eMarketeer to send on your behalf while passing DKIM and SPF checks.
+The domain part of an email address — the portion after the @ symbol. In eMarketeer, you authenticate your email domain to prove ownership and improve deliverability. Authenticated domains allow eMarketeer to send on your behalf while passing [DKIM](#dkim) and SPF checks.
 
 </details>
 
@@ -172,7 +172,7 @@ The domain part of an email address — the portion after the @ symbol. In eMark
 
 <summary>Engagement</summary>
 
-A recorded interaction between a contact and a piece of content. Engagements appear on the contact timeline and include opens, clicks, form submissions, web visits, and custom signals. In eMarketeer, the term refers specifically to these timeline records.
+A recorded interaction between a contact and a piece of content. Engagements appear on the [contact timeline](#contact-timeline) and include opens, clicks, form submissions, web visits, and custom [signals](#signals). In eMarketeer, the term refers specifically to these timeline records.
 
 </details>
 
@@ -180,7 +180,7 @@ A recorded interaction between a contact and a piece of content. Engagements app
 
 <summary>Event data</summary>
 
-The structured payload sent with a custom signal via the Signals API. Event data can include any information about the event, such as product details or CRM values. It is stored on the engagement record and visible on the contact timeline.
+The structured payload sent with a custom signal via the Signals API. Event data can include any information about the event, such as product details or CRM values. It is stored on the engagement record and visible on the [contact timeline](#contact-timeline).
 
 </details>
 
@@ -234,7 +234,7 @@ A permanent email delivery failure, typically because the email address does not
 
 <summary>Journey</summary>
 
-eMarketeer's term for an automated sequence that sends messages or performs actions based on triggers and conditions. Journeys process contacts continuously as they meet the entry criteria. Do not confuse with Campaign — a Journey is an automated workflow, not a container for sends.
+eMarketeer's term for an automated sequence that sends messages or performs actions based on triggers and conditions. Journeys process contacts continuously as they meet the entry criteria. Do not confuse with [Campaign](#campaign) — a Journey is an automated workflow, not a container for sends.
 
 </details>
 
@@ -244,7 +244,7 @@ eMarketeer's term for an automated sequence that sends messages or performs acti
 
 <summary>Lead</summary>
 
-A contact that has met the qualification criteria you define. Lead qualification is not limited to lead scoring — any contact filter criteria can be used. Contacts that qualify appear on the Lead Board via a Lead Stream.
+A contact that has met the qualification criteria you define. Lead qualification is not limited to lead scoring — any contact filter criteria can be used. Contacts that qualify appear on the [Lead Board](#lead-board) via a [Lead Stream](#lead-stream).
 
 </details>
 
@@ -252,7 +252,7 @@ A contact that has met the qualification criteria you define. Lead qualification
 
 <summary>Lead Board</summary>
 
-The interface where qualified leads are displayed and managed. Leads appear on the Lead Board when they meet the criteria of a Lead Stream. Sales teams use the Lead Board to follow up with high-scoring contacts.
+The interface where qualified leads are displayed and managed. Leads appear on the Lead Board when they meet the criteria of a [Lead Stream](#lead-stream). Sales teams use the Lead Board to follow up with high-scoring contacts.
 
 </details>
 
@@ -260,7 +260,7 @@ The interface where qualified leads are displayed and managed. Leads appear on t
 
 <summary>Lead Score</summary>
 
-A numeric value assigned to a contact based on their profile data and behavior. Lead scores are calculated by Score Sets and their Score Rules. A higher score typically indicates greater purchase intent or profile fit.
+A numeric value assigned to a contact based on their profile data and behavior. Lead scores are calculated by [Score Sets](#score-set) and their [Score Rules](#score-rule). A higher score typically indicates greater purchase intent or profile fit.
 
 </details>
 
@@ -268,7 +268,7 @@ A numeric value assigned to a contact based on their profile data and behavior. 
 
 <summary>Lead Stream</summary>
 
-An automated rule set that monitors contacts and delivers qualifying ones to the Lead Board. Contacts can also be added to a Lead Stream directly from a Journey using the Create Lead step.
+An automated rule set that monitors contacts and delivers qualifying ones to the [Lead Board](#lead-board). Contacts can also be added to a Lead Stream directly from a [Journey](#journey) using the Create Lead step.
 
 </details>
 
@@ -302,7 +302,7 @@ An eMarketeer webpage built using the mobile app template. The template provides
 
 <summary>MQL</summary>
 
-Marketing Qualified Lead. An industry-standard term for a contact that marketing has evaluated as ready to hand off to sales. In eMarketeer, a contact typically becomes an MQL when they reach a lead score threshold and appear on the Lead Board.
+Marketing Qualified Lead. An industry-standard term for a contact that marketing has evaluated as ready to hand off to sales. In eMarketeer, a contact typically becomes an MQL when they reach a [lead score](#lead-score) threshold and appear on the [Lead Board](#lead-board).
 
 </details>
 
@@ -366,7 +366,7 @@ The option you select when addressing an email or SMS send. Common options inclu
 
 <summary>Score rule</summary>
 
-A single criterion within a Score Set that adds or subtracts points from a contact's lead score. Each rule targets a specific behavior or profile attribute, such as "email opened: +5 points."
+A single criterion within a [Score Set](#score-set) that adds or subtracts points from a contact's [lead score](#lead-score). Each rule targets a specific behavior or profile attribute, such as "email opened: +5 points."
 
 </details>
 
@@ -374,7 +374,7 @@ A single criterion within a Score Set that adds or subtracts points from a conta
 
 <summary>Score set</summary>
 
-A container that groups related Score Rules and produces a single lead score value for a contact. A contact can have scores from multiple Score Sets. The Score Set defines what is being measured and the Score Rules define how points are earned.
+A container that groups related [Score Rules](#score-rule) and produces a single [lead score](#lead-score) value for a contact. A contact can have scores from multiple Score Sets. The Score Set defines what is being measured and the Score Rules define how points are earned.
 
 </details>
 
@@ -390,7 +390,7 @@ The name or number shown as the sender of an SMS message. An alphanumeric Sender
 
 <summary>Signals</summary>
 
-eMarketeer's engagement event system. A signal is a structured interaction event pushed to a contact's timeline via the Signals API, representing activity that occurred in an external system. Signals can carry custom event data and trigger Journeys. See also: Adapter, Category (Signals).
+eMarketeer's engagement event system. A signal is a structured interaction event pushed to a contact's [timeline](#contact-timeline) via the Signals API, representing activity that occurred in an external system. Signals can carry custom event data and trigger [Journeys](#journey). See also: [Adapter](#adapter), [Category (Signals)](#category-signals).
 
 </details>
 
@@ -434,7 +434,7 @@ A saved component design that can be reused as the starting point for new sends 
 
 <summary>Undeliverable contact</summary>
 
-A contact eMarketeer cannot deliver email to. This status is set after one hard bounce or three consecutive soft bounces. Undeliverable contacts are excluded from email sends.
+A contact eMarketeer cannot deliver email to. This status is set after one [hard bounce](#hard-bounce) or three consecutive [soft bounces](#soft-bounce). Undeliverable contacts are excluded from email sends.
 
 </details>
 
@@ -460,7 +460,7 @@ A query string tag appended to a URL to track traffic in analytics tools such as
 
 <summary>Web Tracker</summary>
 
-A JavaScript snippet provided by eMarketeer for installation on your website. Once installed, it records page visits as engagement events on identified contacts' timelines and supports retrospective tracking for visitors identified later.
+A JavaScript snippet provided by eMarketeer for installation on your website. Once installed, it records page visits as [engagement](#engagement) events on identified contacts' [timelines](#contact-timeline) and supports retrospective tracking for visitors identified later.
 
 </details>
 

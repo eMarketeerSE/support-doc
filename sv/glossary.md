@@ -30,7 +30,7 @@ En domän du äger som eMarketeer använder i stället för den förinställda e
 
 <summary>Category (Signals)</summary>
 
-I Signals API är category ett fält som beskriver typen av engagemang som registreras. Exempel är "Newsletter signup" och "Sale closed". Kategorin visas på kontaktens tidslinje tillsammans med adapternamnet.
+I Signals API är category ett fält som beskriver typen av engagemang som registreras. Exempel är "Newsletter signup" och "Sale closed". Kategorin visas på kontaktens tidslinje tillsammans med [adapter](#adapter)namnet.
 
 </details>
 
@@ -80,7 +80,7 @@ DomainKeys Identified Mail. En e-postautentiseringsstandard som lägger till en 
 
 <summary>DMARC</summary>
 
-Domain-based Message Authentication, Reporting and Conformance. En policy som anger för mottagande e-postservrar vad de ska göra när SPF- eller DKIM-kontroller misslyckas. DMARC fungerar tillsammans med SPF och DKIM för att skydda din domän mot förfalskning.
+Domain-based Message Authentication, Reporting and Conformance. En policy som anger för mottagande e-postservrar vad de ska göra när SPF- eller [DKIM](#dkim)-kontroller misslyckas. DMARC fungerar tillsammans med SPF och DKIM för att skydda din domän mot förfalskning.
 
 </details>
 
@@ -90,7 +90,7 @@ Domain-based Message Authentication, Reporting and Conformance. En policy som an
 
 <summary>Engagement</summary>
 
-En registrerad interaktion mellan en kontakt och ett innehåll. Engagemang visas på kontaktens tidslinje och omfattar öppningar, klick, formulärinskickningar, webbbesök och anpassade signaler. I eMarketeer avser termen specifikt dessa tidslinjeposter.
+En registrerad interaktion mellan en kontakt och ett innehåll. Engagemang visas på [kontaktens tidslinje](#kontaktens-tidslinje) och omfattar öppningar, klick, formulärinskickningar, webbbesök och anpassade [signaler](#signals). I eMarketeer avser termen specifikt dessa tidslinjeposter.
 
 </details>
 
@@ -98,7 +98,7 @@ En registrerad interaktion mellan en kontakt och ett innehåll. Engagemang visas
 
 <summary>E-postdomän</summary>
 
-Domändelen i en e-postadress — delen efter @-tecknet. I eMarketeer autentiserar du din e-postdomän för att bevisa ägarskap och förbättra e-postleveransen. Autentiserade domäner gör att eMarketeer kan skicka för din räkning och klara DKIM- och SPF-kontroller.
+Domändelen i en e-postadress — delen efter @-tecknet. I eMarketeer autentiserar du din e-postdomän för att bevisa ägarskap och förbättra e-postleveransen. Autentiserade domäner gör att eMarketeer kan skicka för din räkning och klara [DKIM](#dkim)- och SPF-kontroller.
 
 </details>
 
@@ -142,7 +142,7 @@ HTTP Archive-format. En fil som fångar alla nätverksförfrågningar och -svar 
 
 <summary>Händelsedata</summary>
 
-Den strukturerade data som skickas med en anpassad signal via Signals API. Händelsedata kan innehålla valfri information om händelsen, till exempel produktdetaljer eller CRM-värden. Den lagras på engagemangsposten och visas på kontaktens tidslinje.
+Den strukturerade data som skickas med en anpassad signal via Signals API. Händelsedata kan innehålla valfri information om händelsen, till exempel produktdetaljer eller CRM-värden. Den lagras på engagemangsposten och visas på [kontaktens tidslinje](#kontaktens-tidslinje).
 
 </details>
 
@@ -160,7 +160,7 @@ Ett permanent e-postleveransfel, vanligtvis för att e-postadressen inte exister
 
 <summary>Journey</summary>
 
-eMarketeers term för en automatiserad sekvens som skickar meddelanden eller utför åtgärder baserat på utlösare och villkor. Journeys bearbetar kontakter löpande när de uppfyller inträdeskriteriet. Blanda inte ihop med Kampanj — en Journey är ett automatiserat arbetsflöde, inte en behållare för utskick.
+eMarketeers term för en automatiserad sekvens som skickar meddelanden eller utför åtgärder baserat på utlösare och villkor. Journeys bearbetar kontakter löpande när de uppfyller inträdeskriteriet. Blanda inte ihop med [Kampanj](#kampanj) — en Journey är ett automatiserat arbetsflöde, inte en behållare för utskick.
 
 </details>
 
@@ -220,7 +220,7 @@ Användarens eMarketeer-prenumeration. "Konto" avser den översta organisationen
 
 <summary>Lead</summary>
 
-En kontakt som uppfyller de kvalificeringskriterier du definierar. Leadkvalificering är inte begränsad till leadpoängsättning — alla kontaktfilterkriterier kan användas. Kontakter som kvalificerar sig visas på Lead Board via en Lead Stream.
+En kontakt som uppfyller de kvalificeringskriterier du definierar. Leadkvalificering är inte begränsad till leadpoängsättning — alla kontaktfilterkriterier kan användas. Kontakter som kvalificerar sig visas på [Lead Board](#lead-board) via en [Lead Stream](#lead-stream).
 
 </details>
 
@@ -228,7 +228,7 @@ En kontakt som uppfyller de kvalificeringskriterier du definierar. Leadkvalifice
 
 <summary>Lead Board</summary>
 
-Det gränssnitt där kvalificerade leads visas och hanteras. Leads dyker upp på Lead Board när de uppfyller kriterierna för en Lead Stream. Säljteam använder Lead Board för att följa upp kontakter med höga poäng.
+Det gränssnitt där kvalificerade leads visas och hanteras. Leads dyker upp på Lead Board när de uppfyller kriterierna för en [Lead Stream](#lead-stream). Säljteam använder Lead Board för att följa upp kontakter med höga poäng.
 
 </details>
 
@@ -236,7 +236,7 @@ Det gränssnitt där kvalificerade leads visas och hanteras. Leads dyker upp på
 
 <summary>Lead Score</summary>
 
-Ett numeriskt värde som tilldelas en kontakt baserat på profildata och beteende. Lead Scores beräknas av Score Sets och deras Score Rules. Ett högre poäng indikerar vanligtvis större köpintention eller profilmatchning.
+Ett numeriskt värde som tilldelas en kontakt baserat på profildata och beteende. Lead Scores beräknas av [Score Sets](#score-set) och deras [Score Rules](#score-rule). Ett högre poäng indikerar vanligtvis större köpintention eller profilmatchning.
 
 </details>
 
@@ -244,7 +244,7 @@ Ett numeriskt värde som tilldelas en kontakt baserat på profildata och beteend
 
 <summary>Lead Stream</summary>
 
-En automatiserad regeluppsättning som övervakar kontakter och levererar kvalificerade kontakter till Lead Board. Kontakter kan också läggas till i en Lead Stream direkt från en Journey via steget Create Lead.
+En automatiserad regeluppsättning som övervakar kontakter och levererar kvalificerade kontakter till [Lead Board](#lead-board). Kontakter kan också läggas till i en Lead Stream direkt från en [Journey](#journey) via steget Create Lead.
 
 </details>
 
@@ -294,7 +294,7 @@ En eMarketeer-webbsida byggd med mallen för mobilappar. Mallen ger en flerskikt
 
 <summary>MQL</summary>
 
-Marketing Qualified Lead. En branschstandardterm för en kontakt som marknadsavdelningen har bedömt är redo att lämnas över till säljavdelningen. I eMarketeer blir en kontakt vanligtvis ett MQL när de når ett leadpoängsgränsvärde och visas på Lead Board.
+Marketing Qualified Lead. En branschstandardterm för en kontakt som marknadsavdelningen har bedömt är redo att lämnas över till säljavdelningen. I eMarketeer blir en kontakt vanligtvis ett MQL när de når ett [leadpoängsgränsvärde](#lead-score) och visas på [Lead Board](#lead-board).
 
 </details>
 
@@ -374,7 +374,7 @@ En kontakts uttryckliga medgivande att ta emot kommunikation från dig. eMarkete
 
 <summary>Score rule</summary>
 
-Ett enskilt kriterium i ett Score Set som lägger till eller drar ifrån poäng från en kontakts leadspoäng. Varje regel riktar sig mot ett specifikt beteende eller profilattribut, till exempel "e-post öppnat: +5 poäng."
+Ett enskilt kriterium i ett [Score Set](#score-set) som lägger till eller drar ifrån poäng från en kontakts [leadspoäng](#lead-score). Varje regel riktar sig mot ett specifikt beteende eller profilattribut, till exempel "e-post öppnat: +5 poäng."
 
 </details>
 
@@ -382,7 +382,7 @@ Ett enskilt kriterium i ett Score Set som lägger till eller drar ifrån poäng 
 
 <summary>Score set</summary>
 
-En behållare som grupperar relaterade Score Rules och producerar ett enda leadspoängsvärde för en kontakt. En kontakt kan ha poäng från flera Score Sets. Score Set definierar vad som mäts och Score Rules definierar hur poäng tjänas.
+En behållare som grupperar relaterade [Score Rules](#score-rule) och producerar ett enda [leadspoängsvärde](#lead-score) för en kontakt. En kontakt kan ha poäng från flera Score Sets. Score Set definierar vad som mäts och Score Rules definierar hur poäng tjänas.
 
 </details>
 
@@ -398,7 +398,7 @@ Det namn eller nummer som visas som avsändare av ett SMS-meddelande. Ett alfanu
 
 <summary>Signals</summary>
 
-eMarketeers system för engagemangshändelser. En signal är en strukturerad interaktionshändelse som skickas till en kontakts tidslinje via Signals API och representerar aktivitet som skett i ett externt system. Signaler kan innehålla anpassad händelsedata och utlösa Journeys. Se även: Adapter, Category (Signals).
+eMarketeers system för engagemangshändelser. En signal är en strukturerad interaktionshändelse som skickas till en kontakts [tidslinje](#kontaktens-tidslinje) via Signals API och representerar aktivitet som skett i ett externt system. Signaler kan innehålla anpassad händelsedata och utlösa [Journeys](#journey). Se även: [Adapter](#adapter), [Category (Signals)](#category-signals).
 
 </details>
 
@@ -406,7 +406,7 @@ eMarketeers system för engagemangshändelser. En signal är en strukturerad int
 
 <summary>Studs</summary>
 
-Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i hårda studsar (permanenta fel) och mjuka studsar (tillfälliga fel). Se även: Hårt studs, Mjukt studs.
+Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i [hårda studsar](#hårt-studs) (permanenta fel) och [mjuka studsar](#mjukt-studs) (tillfälliga fel). Se även: [Hårt studs](#hårt-studs), [Mjukt studs](#mjukt-studs).
 
 </details>
 
@@ -426,7 +426,7 @@ En etikett som appliceras på en kontakt eller kampanj för segmenterings- och o
 
 <summary>Oleverbar kontakt</summary>
 
-En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett hårt studs eller tre på varandra följande mjuka studsar. Olevererbara kontakter utesluts från e-postutskick.
+En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett [hårt studs](#hårt-studs) eller tre på varandra följande [mjuka studsar](#mjukt-studs). Olevererbara kontakter utesluts från e-postutskick.
 
 </details>
 
@@ -452,7 +452,7 @@ En frågesträngs­tagg som läggs till i en URL för att spåra trafik i analys
 
 <summary>Web Tracker</summary>
 
-Ett JavaScript-kodstycke från eMarketeer för installation på din webbplats. När det väl är installerat registrerar det sidbesök som engagemangshändelser på identifierade kontakters tidslinjer och stödjer retrospektiv spårning för besökare som identifieras senare.
+Ett JavaScript-kodstycke från eMarketeer för installation på din webbplats. När det väl är installerat registrerar det sidbesök som [engagemangshändelser](#engagement) på identifierade kontakters [tidslinjer](#kontaktens-tidslinje) och stödjer retrospektiv spårning för besökare som identifieras senare.
 
 </details>
 
