@@ -97,7 +97,7 @@ Klicka på **Save** efter varje ändring.
 
 Öppna blocket för redigering, gå till Image-sektionen i den högra panelen och klicka på **Choose Image**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1 (1).png" alt="Knappen Choose Image i bildsektionen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1.png" alt="Knappen Choose Image i bildsektionen"></div>
 
 Gör så här för att ladda upp och använda en egen bild:
 
@@ -107,11 +107,11 @@ Gör så här för att ladda upp och använda en egen bild:
 4. Klicka på filen i webbläsarfönstret för att markera den.
 5. Klicka på **Use Selected** för att lägga till den i innehållsblocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2 (1).png" alt="Stegen Upload File, Choose files och Use Selected"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2.png" alt="Stegen Upload File, Choose files och Use Selected"></div>
 
 Om bilden inte matchar de rekommenderade måtten för blocket visas ett alternativ för automatisk skalning. Klicka på länken i meddelandet för att godkänna.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_3 (1).png" alt="Meddelande om Auto Scale för att ändra storlek på bilden"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_3.png" alt="Meddelande om Auto Scale för att ändra storlek på bilden"></div>
 {% endstep %}
 
 {% step %}
@@ -124,7 +124,7 @@ Använd knappar för att länka till en webbsida, en fil eller en annan eMarkete
 3. Välj kampanjen som innehåller ditt formulär och välj sedan formuläret.
 4. Klicka på **Select**, sedan **Apply** och sedan **Save** för att lägga till länken och spara blocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce6 (1).png" alt="Ange en knapplänk via Browse till ett eMarketeer-formulär"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce6.png" alt="Ange en knapplänk via Browse till ett eMarketeer-formulär"></div>
 {% endstep %}
 
 {% step %}
@@ -134,7 +134,7 @@ Klicka på **Add Content Block** i vänstermenyn och klicka sedan på **Add Bloc
 
 Om knappen är grå klickar du först på ett befintligt block för att tala om för redigeraren var det nya blocket ska placeras.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12 (1).png" alt="Menyn Add Content Block med olika blocktyper"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12.png" alt="Menyn Add Content Block med olika blocktyper"></div>
 {% endstep %}
 
 {% step %}
@@ -142,7 +142,7 @@ Om knappen är grå klickar du först på ett befintligt block för att tala om 
 
 För att flytta ett block klickar du på och håller ned flytt-ikonen till vänster om blockets kontextfält och drar det sedan till den nya positionen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-move (1).png" alt="Flytt-ikonen som används för att dra ett innehållsblock"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-move.png" alt="Flytt-ikonen som används för att dra ett innehållsblock"></div>
 {% endstep %}
 
 {% step %}
@@ -150,7 +150,7 @@ För att flytta ett block klickar du på och håller ned flytt-ikonen till väns
 
 För att ta bort ett block du inte behöver klickar du på ta bort-knappen på dess kontextfält.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-delete (1).png" alt="Ta bort-knappen på ett innehållsblocks kontextfält"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Ta bort-knappen på ett innehållsblocks kontextfält"></div>
 {% endstep %}
 
 {% step %}

@@ -48,7 +48,7 @@ Beräkningarna använder unika kontakter, inte det totala antalet händelser. Om
 
 ## Widget för utskickets hälsa
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38 (1).png" alt="Widget för utskickets hälsa"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="Widget för utskickets hälsa"></div>
 
 Exempel på widget för utskickets hälsa.
 

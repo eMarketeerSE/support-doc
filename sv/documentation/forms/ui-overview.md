@@ -1,18 +1,20 @@
 ---
-description: En referensguide till formuläreditorns gränssnitt — flikar, Toolbox, frågetyper och konfigurationsalternativ.
+description: >-
+  En referensguide till formuläreditorns gränssnitt — flikar, Toolbox,
+  frågetyper och konfigurationsalternativ.
 ---
 
 # Formuläreditor: UI-översikt
 
 Formuläreditorn har sex flikar: Designer, Preview, Themes, Logic, JSON Editor och Translation. Den här artikeln beskriver vad varje flik gör och vilka frågetyper som finns tillgängliga.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/FormTabs.png" alt="Formuläreditorn med de sex flikarna: Designer, Preview, Themes, Logic, JSON Editor och Translation."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormTabs.png" alt="Formuläreditorn med de sex flikarna: Designer, Preview, Themes, Logic, JSON Editor och Translation."></div>
 
 ## Designer-fliken
 
 Designer-fliken är där du bygger ditt formulär. Den har tre huvuddelar: Toolbox till vänster, designytan i mitten och Property Grid till höger.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/FormDesignerTab.png" alt="Designer-fliken med Toolbox till vänster, designytan i mitten och Property Grid till höger."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormDesignerTab.png" alt="Designer-fliken med Toolbox till vänster, designytan i mitten och Property Grid till höger."></div>
 
 ### Toolbox
 
@@ -24,20 +26,17 @@ Toolbox listar alla frågetyper och strukturelement du kan lägga till i ditt fo
 
 <summary>Enkelsvarsfrågor</summary>
 
-**Radio button group**
-Visar en lista med alternativ. Respondenten väljer ett.
+**Radio button group** Visar en lista med alternativ. Respondenten väljer ett.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/RadioButtonGroup.png" alt="En radio button group-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/RadioButtonGroup.png" alt="En radio button group-fråga i designytan."></div>
 
-**Dropdown**
-En listruta med ett enda val. Användbar när alternativlistan är lång eller när du vill spara utrymme på skärmen.
+**Dropdown** En listruta med ett enda val. Användbar när alternativlistan är lång eller när du vill spara utrymme på skärmen.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/dropdown question.png" alt="En dropdown-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/dropdown question.png" alt="En dropdown-fråga i designytan."></div>
 
-**Yes/No (Boolean)**
-En växlare som returnerar sant eller falskt. Visas som en switch, ett par radioknappar eller en kryssruta beroende på temainställningarna.
+**Yes/No (Boolean)** En växlare som returnerar sant eller falskt. Visas som en switch, ett par radioknappar eller en kryssruta beroende på temainställningarna.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Boolean.png" alt="En Yes/No (Boolean)-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Boolean.png" alt="En Yes/No (Boolean)-fråga i designytan."></div>
 
 </details>
 
@@ -45,15 +44,13 @@ En växlare som returnerar sant eller falskt. Visas som en switch, ett par radio
 
 <summary>Flersvarsfrågor</summary>
 
-**Checkboxes**
-Visar en lista med alternativ. Respondenten kan välja mer än ett.
+**Checkboxes** Visar en lista med alternativ. Respondenten kan välja mer än ett.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Checkboxes.png" alt="En checkboxes-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Checkboxes.png" alt="En checkboxes-fråga i designytan."></div>
 
-**Multi-select dropdown**
-En listruta som tillåter flera val.
+**Multi-select dropdown** En listruta som tillåter flera val.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Multi-select-dropdown.png" alt="En multi-select dropdown-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Multi-select-dropdown.png" alt="En multi-select dropdown-fråga i designytan."></div>
 
 </details>
 
@@ -61,15 +58,13 @@ En listruta som tillåter flera val.
 
 <summary>Betyg och rangordning</summary>
 
-**Rating scale**
-En numerisk skala som respondenten använder för att betygsätta något. Du kan ersätta de numeriska etiketterna med stjärnor eller emoji-ikoner.
+**Rating scale** En numerisk skala som respondenten använder för att betygsätta något. Du kan ersätta de numeriska etiketterna med stjärnor eller emoji-ikoner.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/RatingQuestions.png" alt="En rating scale-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/RatingQuestions.png" alt="En rating scale-fråga i designytan."></div>
 
-**Ranking**
-En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i önskad prioritetsordning.
+**Ranking** En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i önskad prioritetsordning.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Ranking.gif" alt="En ranking-fråga i designytan som visar dra-och-släpp-omordning."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ranking.gif" alt="En ranking-fråga i designytan som visar dra-och-släpp-omordning."></div>
 
 </details>
 
@@ -77,18 +72,15 @@ En lista med dra-och-släpp-funktionalitet där respondenten ordnar alternativ i
 
 <summary>Textinmatning</summary>
 
-**Single-line input**
-Ett enkelradigt textfält. Accepterar även siffror och datum.
+**Single-line input** Ett enkelradigt textfält. Accepterar även siffror och datum.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/SingleLineInput.png" alt="En single-line input-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SingleLineInput.png" alt="En single-line input-fråga i designytan."></div>
 
-**Long text**
-Ett ändringsbart textfält med flera rader för längre svar.
+**Long text** Ett ändringsbart textfält med flera rader för längre svar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/LongText.png" alt="En long text-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/LongText.png" alt="En long text-fråga i designytan."></div>
 
-**Multiple text boxes**
-Flera enkelradiga fält grupperade tillsammans. Användbart när du behöver ett antal korta svar under en fråga.
+**Multiple text boxes** Flera enkelradiga fält grupperade tillsammans. Användbart när du behöver ett antal korta svar under en fråga.
 
 </details>
 
@@ -104,10 +96,9 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 <summary>Matrisfrågor</summary>
 
-**Single-select matrix**
-Ett rutnät med rader och kolumner. Varje rad är ett påstående eller ett objekt; respondenten väljer ett kolumnalternativ per rad med radioknappar.
+**Single-select matrix** Ett rutnät med rader och kolumner. Varje rad är ett påstående eller ett objekt; respondenten väljer ett kolumnalternativ per rad med radioknappar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/SingleSelectMatrix.png" alt="En single-select matrix-fråga i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SingleSelectMatrix.png" alt="En single-select matrix-fråga i designytan."></div>
 
 </details>
 
@@ -115,16 +106,13 @@ Ett rutnät med rader och kolumner. Varje rad är ett påstående eller ett obje
 
 <summary>Presentationselement</summary>
 
-**HTML**
-Ett block med formaterad text som du skriver direkt i editorn. Använd det för instruktioner, rubriker mellan frågegrupper eller annat icke-interaktivt innehåll.
+**HTML** Ett block med formaterad text som du skriver direkt i editorn. Använd det för instruktioner, rubriker mellan frågegrupper eller annat icke-interaktivt innehåll.
 
-**Image**
-Bäddar in en statisk bild eller video i formuläret. Respondenten kan inte interagera med den.
+**Image** Bäddar in en statisk bild eller video i formuläret. Respondenten kan inte interagera med den.
 
-**Expression**
-Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättning av andra svar. Användbart på den sista sidan för att sammanfatta vad respondenten har skickat in.
+**Expression** Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättning av andra svar. Användbart på den sista sidan för att sammanfatta vad respondenten har skickat in.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Expression.gif" alt="En expression-fråga i designytan som visar ett beräknat värde som uppdateras i realtid."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Expression.gif" alt="En expression-fråga i designytan som visar ett beräknat värde som uppdateras i realtid."></div>
 
 </details>
 
@@ -132,13 +120,11 @@ Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättnin
 
 <summary>Strukturelement</summary>
 
-**Panel**
-En behållare som grupperar frågor visuellt. Paneler kan göras hopfällbara och kan ha en egen rubrik och beskrivning.
+**Panel** En behållare som grupperar frågor visuellt. Paneler kan göras hopfällbara och kan ha en egen rubrik och beskrivning.
 
-**Dynamic panel**
-En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstanser, vilket gör det användbart för poster med variabel längd, till exempel flera kontakter eller orderrader.
+**Dynamic panel** En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstanser, vilket gör det användbart för poster med variabel längd, till exempel flera kontakter eller orderrader.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/DynamicPanel.png" alt="Ett dynamic panel-element i designytan med flera panelinstanser."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/DynamicPanel.png" alt="Ett dynamic panel-element i designytan med flera panelinstanser."></div>
 
 </details>
 
@@ -146,8 +132,7 @@ En upprepande panelmall. Respondenten kan lägga till eller ta bort panelinstans
 
 <summary>Contact fields</summary>
 
-**Contact Field**
-Ett enkelradigt inmatningsfält kopplat till ett specifikt fält på kontaktkortet. Använd det när du vill att formulärsvar ska uppdatera respondentens kontaktpost i eMarketeer.
+**Contact Field** Ett enkelradigt inmatningsfält kopplat till ett specifikt fält på kontaktkortet. Använd det när du vill att formulärsvar ska uppdatera respondentens kontaktpost i eMarketeer.
 
 Data som skickas in via ett Contact field sparas både som formulärsvarsdata och som kontaktpostdata. Det skriver över eventuellt befintligt värde på kontaktkortet.
 
@@ -157,10 +142,9 @@ Contact fields förifyller data från kontaktdatabasen om respondenten är känd
 
 Tillgängliga fält: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Contact-Fields.png" alt="Frågetypen Contact fields i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Contact-Fields.png" alt="Frågetypen Contact fields i designytan."></div>
 
-**Custom Contact Field**
-Fungerar på samma sätt som Contact Field, men är kopplat till ditt kontos anpassade kontaktfält i stället för standardfälten på kontaktkortet.
+**Custom Contact Field** Fungerar på samma sätt som Contact Field, men är kopplat till ditt kontos anpassade kontaktfält i stället för standardfälten på kontaktkortet.
 
 </details>
 
@@ -168,13 +152,13 @@ Fungerar på samma sätt som Contact Field, men är kopplat till ditt kontos anp
 
 För att lägga till en fråga drar du den från Toolbox till designytan. Du kan också klicka på knappen **Add Question** längst ned på en sida för att infoga ett enkelradigt inmatningsfält. Klicka på ellips-ikonen bredvid knappen för att välja en annan typ innan du infogar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/Add-Questions-button.png" alt="Knappen Add Question och ellipsis-typväljaren längst ned på en sida."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Add-Questions-button.png" alt="Knappen Add Question och ellipsis-typväljaren längst ned på en sida."></div>
 
 ### Redigering direkt i designytan
 
 När du klickar på en fråga i designytan visas inline-redigeringskontroller direkt på frågan. Du kan redigera frågetexten, sortera om alternativ, duplicera frågan, ta bort den eller markera den som obligatorisk — utan att öppna Property Grid.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/InPlaceEditing.png" alt="En fråga i designytan med inline-redigeringskontroller synliga."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/InPlaceEditing.png" alt="En fråga i designytan med inline-redigeringskontroller synliga."></div>
 
 ### Property Grid
 
@@ -182,7 +166,7 @@ Property Grid på höger sida av editorn visar konfigurationsalternativ för den
 
 Om du vill ange ett standardsvar för en fråga markerar du den, öppnar kategorin **Data** i Property Grid och klickar på **Set Default Answer**.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/DefaultAnswer.png" alt="Property Grid med kategorin Data öppen och alternativet Set Default Answer synligt."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/DefaultAnswer.png" alt="Property Grid med kategorin Data öppen och alternativet Set Default Answer synligt."></div>
 
 ### Sidhantering
 
@@ -198,7 +182,7 @@ Preview-fliken visar formuläret som respondenten ser det. Fyll i det och skicka
 
 Använd enhetsväljaren för att förhandsgranska på olika skärmstorlekar och orienteringsknappen för att växla mellan stående och liggande format.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/PreviewTab.png" alt="Preview-fliken med enhetsväljaren och orienteringsknappen synliga."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/PreviewTab.png" alt="Preview-fliken med enhetsväljaren och orienteringsknappen synliga."></div>
 
 ## Themes-fliken
 
@@ -206,7 +190,7 @@ Med Themes-fliken kan du ändra formulärets utseende — färger, typsnitt, sto
 
 Du kan exportera ett anpassat tema som en JSON-fil och importera det till ett annat formulär för att återanvända samma stil.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/ThemesTab.png" alt="Themes-fliken med stilkontrollerna synliga."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ThemesTab.png" alt="Themes-fliken med stilkontrollerna synliga."></div>
 
 ## Logic-fliken
 
@@ -220,25 +204,25 @@ Klicka på **Add New Rule**. Varje regel har ett villkor (om) och en eller flera
 
 **Åtgärder** — vad som händer när villkoret är sant. Tillgängliga åtgärder:
 
-- Visa eller dölj en sida eller fråga
-- Aktivera eller inaktivera en sida eller fråga
-- Markera en fråga som obligatorisk
-- Slutför formuläret
-- Ange en frågas svar
-- Kopiera ett svar från en fråga till en annan
-- Hoppa till en specifik fråga
-- Kör ett anpassat uttryck
-- Ange innehållet på bekräftelsesidan
+* Visa eller dölj en sida eller fråga
+* Aktivera eller inaktivera en sida eller fråga
+* Markera en fråga som obligatorisk
+* Slutför formuläret
+* Ange en frågas svar
+* Kopiera ett svar från en fråga till en annan
+* Hoppa till en specifik fråga
+* Kör ett anpassat uttryck
+* Ange innehållet på bekräftelsesidan
 
 Om du vill redigera en regel klickar du på den för att expandera den, gör dina ändringar och klickar på **Done**. Använd Question Filter och Action Type Filter för att begränsa listan när ett formulär har många regler.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/AddRule.png" alt="Logic-fliken med en expanderad regel som visar villkors- och åtgärdseditorerna."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRule.png" alt="Logic-fliken med en expanderad regel som visar villkors- och åtgärdseditorerna."></div>
 
 ## JSON Editor-fliken
 
 JSON Editor-fliken visar formulärets råa JSON-konfiguration. Du kan redigera den direkt, men för de flesta ändringar är Designer-fliken och Property Grid enklare att använda.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/JSONTab.png" alt="JSON Editor-fliken med ett exempel på en formulärkonfiguration."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/JSONTab.png" alt="JSON Editor-fliken med ett exempel på en formulärkonfiguration."></div>
 
 ## Translation-fliken
 
@@ -250,4 +234,4 @@ Translation-fliken listar alla översättningsbara strängar i ditt formulär. A
 
 **Import och export** — använd verktygsfältsknapparna för att importera eller exportera översättningar som en CSV-fil.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/ui-overview/TranslationsTab.png" alt="Translation-fliken med panelen för språkinställningar och strängtabellen synliga."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TranslationsTab.png" alt="Translation-fliken med panelen för språkinställningar och strängtabellen synliga."></div>

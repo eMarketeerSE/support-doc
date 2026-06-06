@@ -10,13 +10,13 @@ Bulk Actions (Massåtgärder) låter dig uppdatera eller hantera grupper av kont
 
 Knappen Bulk Actions finns tillgänglig vid sidan om urval, listor och kontaktsidor, vanligtvis bredvid Export-knappen. Använd den när du behöver tillämpa samma ändring på många kontakter samtidigt.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-26_11-01-00 (1).png" alt="Knappen Bulk Actions på kontaktlistans sida"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-26_11-01-00.png" alt="Knappen Bulk Actions på kontaktlistans sida"></div>
 
 Bild som visar platsen för Bulk Actions-knappen på kontaktsidan i en kontaktlista
 
 ## Alternativ för Bulk Actions
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulkactions2501 (1).png" alt="Bulk Actions-menyn som listar de nio tillgängliga operationerna"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulkactions2501.png" alt="Bulk Actions-menyn som listar de nio tillgängliga operationerna"></div>
 
 Bulk Actions-verktyget erbjuder nio huvudfunktioner:
 

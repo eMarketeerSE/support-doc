@@ -6,11 +6,11 @@ På SuperOffice 7.3 och nyare körs dessa åtgärder automatiskt. På äldre ver
 
 Följande objekt läggs till:
 
-- Webbpaneler
-- Fält
-- Typer
-- Källor
-- Projekt
+* Webbpaneler
+* Fält
+* Typer
+* Källor
+* Projekt
 
 ## Databasfält
 
@@ -26,47 +26,22 @@ Alla fält skapas som "lång text" med längd 195.
 
 Dessa objekt finns i SuperOffice Admin under "Lists" → fliken "Items" → "GUI Web panel". Panelerna hämtar information från eMarketeer.
 
-Lead Report
-Namn: Lead Report
-URL: https://app.emarketeer.com/ext/services/leadreport/?emid=YOUR-EMID
-Window Name: Event Details
-Visible in: Panel → Web Panel
-Show: avmarkera allt
-Available: markera allt
-
-Sales info
-Namn: eMarketeer detailed sales info.
-URL: https://app.emarketeer.com/ext/services/so\_index.php?f=<ss45>&e=<ss46>
-Window Name: t.ex. Sale Event Details
-Visible in: Panel → Sales card
-Show: avmarkera allt
-Available: markera allt
-
-Activity info (Follow-up)
-Namn: eMarketeer detailed info.
-URL: https://app.emarketeer.com/ext/services/so\_index.php?f=<ts45>&e=<ts46>
-Window Name: t.ex. Event Details
-Visible in: Dialog → Dialog for follow-ups
-Show: avmarkera allt
-Available: markera allt
-
-Timeline Report
-Namn: Timeline Report
-URL: [url from eMarketeer] (Ersätt e-postadressen med SO-variabeln <amai>)
-Window Name: t.ex. Timeline Report
-Visible in: Panel → Contact Dialog (endast SuperOffice 7.5 och senare. För tidigare versioner, välj Navigator Panel.)
-Show: avmarkera allt
-Available: markera allt
+* eMarketeer Lead Board
+* eMarketeer Automation Queue
+* eMarketeer Contact Summary
+* eMarketeer Company Summary
+* eMarketeer sales info
+* eMarketeer follow-up info
 
 ## Follow-up-typer
 
 Dessa typer skapas för att användas av Activity som genereras av eMarketeer:
 
-- Web visit feed
-- Email feed
-- SMS/Text feed
-- Form feed
-- Landing page feed
+* Web visit feed
+* Email feed
+* SMS/Text feed
+* Form feed
+* Landing page feed
 
 ## Sale-källa
 
@@ -80,8 +55,8 @@ Ett nytt projekt skapas som heter "Web Visits" och lagrar alla kontakter som bes
 
 När fälten och panelerna har skapats är det inte säkert att de fungerar direkt. För att säkerställa att allt fungerar:
 
-- Töm SuperOffice-cachen (flush) så att panelerna syns i klienterna direkt.
-- Kontrollera att de skapade fälten är publicerade.
+* Töm SuperOffice-cachen (flush) så att panelerna syns i klienterna direkt.
+* Kontrollera att de skapade fälten är publicerade.
 
 ## Avinstallera eMarketeer
 

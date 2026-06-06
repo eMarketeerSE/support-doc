@@ -1,7 +1,7 @@
 ---
 description: >-
-  Hur du publicerar ett formulär i eMarketeer — dela det som en värd-URL, bädda in det
-  på din webbplats eller länka till det från ett e-postmeddelande.
+  Hur du publicerar ett formulär i eMarketeer — dela det som en värd-URL, bädda
+  in det på din webbplats eller länka till det från ett e-postmeddelande.
 ---
 
 # Så publicerar du ett formulär
@@ -12,11 +12,11 @@ eMarketeer erbjuder tre sätt att dela ett formulär med respondenter: en värd-
 
 Navigera till kampanjens komponentvy och klicka på **Publish** under formuläret. Du kan även öppna formuläreditorn och klicka på **Publish** i verktygsfältet.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/form-publish/Publish-Button.png" alt="Publish-knappen under en formulärkomponent i kampanjvyn."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Button.png" alt="Publish-knappen under en formulärkomponent i kampanjvyn."></div>
 
 ## Publish-alternativ
 
-<div align="left" data-with-frame="true"><img src="../../../assets/form-publish/Publish-Options.png" alt="Publish-panelen med alternativ för värd-URL och inbäddningsskript."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Options.png" alt="Publish-panelen med alternativ för värd-URL och inbäddningsskript."></div>
 
 ### Värd-URL
 
@@ -34,7 +34,7 @@ Vill du länka till ett formulär från ett eMarketeer-e-postmeddelande använde
 2. Klicka på **eMarketeer Form**.
 3. Välj formuläret i rullgardinsmenyn **Choose form**. Om formuläret tillhör en annan kampanj väljer du den kampanjen i **Choose campaign** först.
 4. Välj identifieringsmetod:
-   - **Anonymous link** — samma URL för varje mottagare. Respondenten identifieras inte när formuläret öppnas.
-   - **Personal link** — en unik URL per mottagare. Identifierar kontakten när de öppnar formuläret, vilket möjliggör förifyllda fält och personaliserat innehåll.
+   * **Anonymous link** — samma URL för varje mottagare. Respondenten identifieras inte när formuläret öppnas.
+   * **Personal link** — en unik URL per mottagare. Identifierar kontakten när de öppnar formuläret, vilket möjliggör förifyllda fält och personaliserat innehåll.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/form-publish/Link-From-Email.png" alt="Insert Link-dialogen med alternativet eMarketeer Form samt inställningarna Choose form och identifiering."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Link-From-Email.png" alt="Insert Link-dialogen med alternativet eMarketeer Form samt inställningarna Choose form och identifiering."></div>

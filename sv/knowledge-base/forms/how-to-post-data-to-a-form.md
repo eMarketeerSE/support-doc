@@ -24,10 +24,10 @@ tags:
   - legacy
 ---
 
-# Så här postar du data till ett formulär
+# Posta data till ett formulär
 
 {% hint style="warning" %}
-Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
+Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](./).
 {% endhint %}
 
 Den här guiden visar hur du postar svar till ett eMarketeer-formulär från din egen webbplats eller från ett annat system.
@@ -60,7 +60,7 @@ Skapa ett formulär i eMarketeer med en kontaktregistrering och eventuella andra
 
 Klicka på "publish" på formuläret.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_publish (1).png" alt="Publiceringsknappen på ett formulär."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_publish.png" alt="Publiceringsknappen på ett formulär."></div>
 
 Klicka sedan på "Website integration."
 
