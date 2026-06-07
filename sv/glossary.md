@@ -148,7 +148,7 @@ Den strukturerade data som skickas med en anpassad signal via Signals API. Händ
 
 <details>
 
-<summary>Hårt studs</summary>
+<summary>Hård studs</summary>
 
 Ett permanent e-postleveransfel, vanligtvis för att e-postadressen inte existerar eller att domänen är ogiltig. eMarketeer markerar kontakter med hårda studsar för att förhindra framtida utskick till dessa adresser.
 
@@ -276,7 +276,7 @@ En sparad komponentdesign som kan återanvändas som utgångspunkt för nya utsk
 
 <details>
 
-<summary>Mjukt studs</summary>
+<summary>Mjuk studs</summary>
 
 Ett tillfälligt e-postleveransfel, vanligtvis för att mottagarens inkorg är full eller att e-postservern tillfälligt är otillgänglig. eMarketeer spårar antalet mjuka studsar och undertrycker kontakter som upprepade gånger ger mjuka studsar.
 
@@ -406,7 +406,7 @@ eMarketeers system för engagemangshändelser. En signal är en strukturerad int
 
 <summary>Studs</summary>
 
-Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i [hårda studsar](#hårt-studs) (permanenta fel) och [mjuka studsar](#mjukt-studs) (tillfälliga fel). Se även: [Hårt studs](#hårt-studs), [Mjukt studs](#mjukt-studs).
+Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i [hårda studsar](#hård-studs) (permanenta fel) och [mjuka studsar](#mjuk-studs) (tillfälliga fel).
 
 </details>
 
@@ -426,7 +426,7 @@ En etikett som appliceras på en kontakt eller kampanj för segmenterings- och o
 
 <summary>Oleverbar kontakt</summary>
 
-En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett [hårt studs](#hårt-studs) eller tre på varandra följande [mjuka studsar](#mjukt-studs). Olevererbara kontakter utesluts från e-postutskick.
+En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett [hårt studs](#hård-studs) eller tre på varandra följande [mjuka studsar](#mjuk-studs). Olevererbara kontakter utesluts från e-postutskick.
 
 </details>
 

@@ -30,7 +30,7 @@ In the Signals API, the name of the signal source. The adapter field identifies 
 
 <summary>Bounce</summary>
 
-An email that could not be delivered to the recipient's address. Bounces are split into [hard bounces](#hard-bounce) (permanent failures) and [soft bounces](#soft-bounce) (temporary failures). See also: [Hard bounce](#hard-bounce), [Soft bounce](#soft-bounce).
+An email that could not be delivered to the recipient's address. Bounces are split into [hard bounces](#hard-bounce) (permanent failures) and [soft bounces](#soft-bounce) (temporary failures).
 
 </details>
 
