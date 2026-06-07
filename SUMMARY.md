@@ -65,6 +65,7 @@
   * [How to build and use Contact Filters](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
   * [Import contacts from Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)
   * [Tags](knowledge-base/contacts-lists/tags.md)
+  * [Tags](documentation/apis-developer/tags.md)
   * [How to Create a New Contact List](knowledge-base/getting-started/new-contact-list.md)
 * [Lead management](knowledge-base/lead-board-scoring/README.md)
 
@@ -82,6 +83,7 @@
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Subscriptions](knowledge-base/account-admin/subscriptions.md)
+  * [Subscriptions](documentation/apis-developer/subscriptions.md)
 
 ## References
 
