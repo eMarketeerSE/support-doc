@@ -1,9 +1,36 @@
+---
+description: >-
+  En snabbreferens som listar eMarketeers standardkontaktfält och deras
+  teckengräns.
+---
+
 # Teckengräns för kontaktfält
 
 Varje kontaktfält har en teckengräns. Data som överskrider gränsen trunkeras.
 
 Tabellen nedan listar gränsen för varje fält.
 
-<table><tbody><tr><td><strong>Contact field</strong></td><td><strong>Character limit</strong></td></tr><tr><td><span style="font-weight: 400;">firstname</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">lastname</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">salutation</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">email</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">company</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">address1</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">address2</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">zip</span></td><td><span style="font-weight: 400;">25</span></td></tr><tr><td><span style="font-weight: 400;">city</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">fax</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">mobile</span></td><td><span style="font-weight: 400;">100</span></td></tr><tr><td><span style="font-weight: 400;">telephone</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">state</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">country</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">title</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">external_id</span></td><td><span style="font-weight: 400;">500</span></td></tr><tr><td><span style="font-weight: 400;">note</span></td><td><span style="font-weight: 400;">65535</span></td></tr><tr><td><span style="font-weight: 400;">Custom*</span></td><td><span style="font-weight: 400;">2000</span></td></tr></tbody></table>
+| **Contact field** | **Character limit** |
+| ----------------- | ------------------- |
+| firstname         | 500                 |
+| lastname          | 500                 |
+| salutation        | 500                 |
+| email             | 500                 |
+| company           | 500                 |
+| address1          | 500                 |
+| address2          | 500                 |
+| zip               | 25                  |
+| city              | 500                 |
+| fax               | 500                 |
+| mobile            | 100                 |
+| telephone         | 500                 |
+| state             | 500                 |
+| country           | 500                 |
+| title             | 500                 |
+| external\_id      | 500                 |
+| note              | 65535               |
+| Custom\*          | 2000                |
 
+{% hint style="info" %}
 \* Alla anpassade fält, oavsett typ, har en gräns på 2000 tecken.
+{% endhint %}
