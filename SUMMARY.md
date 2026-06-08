@@ -6,6 +6,7 @@
 
 * [Campaign basics](knowledge-base/getting-started/campaign-basics.md)
   * [Creating your first email](knowledge-base/getting-started/basics-creating-email.md)
+  * [Creating your first form](knowledge-base/getting-started/basics-creating-form-new.md)
   * [Creating your first form (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
   * [Creating your first SMS](knowledge-base/getting-started/basics-creating-sms.md)
   * [How to send an email](knowledge-base/getting-started/basics-send-email.md)

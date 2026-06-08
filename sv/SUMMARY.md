@@ -6,6 +6,7 @@
 
 * [Kampanjgrunder](knowledge-base/getting-started/campaign-basics.md)
   * [Skapa din första e-post](knowledge-base/getting-started/basics-creating-email.md)
+  * [Skapa ditt första formulär](knowledge-base/getting-started/basics-creating-form-new.md)
   * [Skapa ditt första formulär (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
   * [Skapa din första SMS](knowledge-base/getting-started/basics-creating-sms.md)
   * [Så här skickar du en e-post](knowledge-base/getting-started/basics-send-email.md)
