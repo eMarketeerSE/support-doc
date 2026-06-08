@@ -83,7 +83,6 @@
   * [Logga ut ur eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Prenumerationer](knowledge-base/account-admin/subscriptions.md)
-  * [Prenumerationer](documentation/apis-developer/subscriptions.md)
 
 ## Referens
 

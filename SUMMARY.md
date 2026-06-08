@@ -83,7 +83,6 @@
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Subscriptions](knowledge-base/account-admin/subscriptions.md)
-  * [Subscriptions](documentation/apis-developer/subscriptions.md)
 
 ## References
 
