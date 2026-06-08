@@ -62,7 +62,7 @@ När inställningar och mall är valda klickar du på **Create Form** för att s
 {% step %}
 ### Formuläreditorn
 
-När du klickar på **Create Form** öppnas editorn med fliken Designer aktiv. Menyn på vänster sida (Toolbox) låter dig lägga till formulärfält genom att dra dem till designytan — det centrala området där du strukturerar formulärlayouten och lägger till sidor.
+När du klickar på **Create Form** öppnas editorn med fliken Designer aktiv. Menyn på vänster sida (Toolbox) låter dig lägga till formulärfält genom att dra dem till designytan — det centrala området där du strukturerar formulärlayouten och lägger till sidor. Mallen **Event Registration** öppnas med tre sidor: **Personal information**, **Guests** och **Last things**.
 
 <div align="left" data-with-frame="true"><img src="../../../assets/first-form/FormEditor.png" alt="Formuläreditorn med Toolbox till vänster och designytan i mitten"></div>
 
@@ -90,7 +90,13 @@ Justera fälten på sidan **Personal information**. Mallen Event Registration in
 
 Gör ett fält obligatoriskt genom att klicka på knappen **\* Required** (visas som **\*** på mindre skärmar). Ta bort ett fält genom att hovra över det och klicka på raderingsknappen i det nedre högra hörnet. Du kan också radera hela sidor — om du använder mallen Event Registration kanske du vill ta bort sidan **Guests**.
 
+Många eMarketeer-formulärmallar använder platshållartexter i stället för frågenycklar — titlarna är dolda som standard via fältinställningarna, så etiketten visas inuti fältet i stället för ovanför det.
+
 <div align="left" data-with-frame="true"><img src="../../../assets/first-form/AdjustFormFields.png" alt="Redigering av kontaktfält på sidan Personal information"></div>
+
+Om synliga titlar föredras kan det aktiveras i formulärfältets **Layout**-egenskaper, under rullgardinsmenyn **Question title alignment** för enskilda frågor — eller i bulk genom att uppdatera sidans **Question Settings**.
+
+<div align="left" data-with-frame="true"><img src="../../../assets/first-form/PageQuestionSettings.png" alt="Panelen Question Settings på en formulärsida med alternativet Question title alignment"></div>
 
 Spara dina ändringar genom att klicka på diskettikonen ovanför designytan.
 
@@ -98,7 +104,7 @@ Spara dina ändringar genom att klicka på diskettikonen ovanför designytan.
 {% endstep %}
 
 {% step %}
-### De vanligaste formulärobjekten
+### De vanligaste formulärfälten
 
 Det här steget går igenom de grundläggande frågetyperna för att komma igång.
 
@@ -107,7 +113,7 @@ Det här steget går igenom de grundläggande frågetyperna för att komma igån
 * **Long Text:** En fråga där besökaren kan skriva ett valfritt textsvar. Använd det här för längre svar.
 * **Consent:** En kryssruta med text du väljer. Att markera den uppdaterar samtyckesinställningen på besökarens kontaktkort — användbart när du behöver uttryckligt samtycke för att lagra kontaktinformation.
 
-Du hittar de här frågetyperna i Toolbox i menyn till vänster. En fullständig lista över tillgängliga frågetyper finns i [Formuläreditor: UI-översikt](../../documentation/forms/ui-overview.md).
+Du hittar de här frågetyperna i Toolbox i menyn till vänster. En fullständig lista över tillgängliga frågetyper finns i [Formuläreditor: UI-översikt](../../documentation/forms/ui-overview.md#question-types).
 {% endstep %}
 
 {% step %}

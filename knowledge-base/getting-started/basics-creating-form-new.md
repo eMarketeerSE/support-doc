@@ -62,7 +62,7 @@ Once settings and template are set, click **Create Form** to create the componen
 {% step %}
 ### The form editor
 
-After you click **Create Form**, the editor opens with the Designer tab active. The left-side menu (Toolbox) lets you add form fields by dragging them onto the design surface — the centre area where you structure the form layout and add pages.
+After you click **Create Form**, the editor opens with the Designer tab active. The left-side menu (Toolbox) lets you add form fields by dragging them onto the design surface — the centre area where you structure the form layout and add pages. The **Event Registration** template opens with three pages: **Personal information**, **Guests**, and **Last things**.
 
 <div align="left" data-with-frame="true"><img src="../../assets/first-form/FormEditor.png" alt="Form editor with Toolbox on the left and the design surface in the centre"></div>
 
@@ -90,7 +90,13 @@ Adjust the fields on the **Personal information** page. The Event Registration t
 
 To make a field required, click the **\* Required** button (shown as **\*** on smaller screens). To remove a field, hover it and click the delete button in the bottom-right corner. You can also delete entire pages — if you are using the Event Registration template you may want to remove the **Guests** page.
 
+Many eMarketeer form templates use placeholder texts instead of question titles — the titles are hidden by default through field settings, so the label appears inside the input rather than above it.
+
 <div align="left" data-with-frame="true"><img src="../../assets/first-form/AdjustFormFields.png" alt="Editing contact fields on the Personal information page"></div>
+
+If visible titles are preferred, they can be enabled in the form field **Layout** properties, under the **Question title alignment** dropdown for individual questions — or in bulk by updating the page's **Question Settings**.
+
+<div align="left" data-with-frame="true"><img src="../../assets/first-form/PageQuestionSettings.png" alt="Question Settings panel on a form page, showing the Question title alignment option"></div>
 
 To save your progress, click the floppy-disk icon above the design surface.
 
@@ -98,7 +104,7 @@ To save your progress, click the floppy-disk icon above the design surface.
 {% endstep %}
 
 {% step %}
-### The most commonly used form items
+### The most commonly used form fields
 
 This step covers the basic question types to get you started.
 
@@ -107,7 +113,7 @@ This step covers the basic question types to get you started.
 * **Long Text:** A question where the visitor can write any text answer. Use this for longer answers.
 * **Consent:** A checkbox with text of your choosing. Selecting it updates the Consent setting on the visitor's contact card — useful when you need explicit consent to store contact information.
 
-You can find these question types in the Toolbox in the left-side menu. For a full list of available question types, see [Form editor: UI overview](../../documentation/forms/ui-overview.md).
+You can find these question types in the Toolbox in the left-side menu. For a full list of available question types, see [Form editor: UI overview](../../documentation/forms/ui-overview.md#question-types).
 {% endstep %}
 
 {% step %}
