@@ -13,6 +13,10 @@ Formulär (Legacy) är den tidigare formuläreditorn i eMarketeer. Om du fortfar
 
 {% columns %}
 {% column %}
+{% content-ref url="../getting-started/basics-creating-form.md" %}
+../getting-started/basics-creating-form.md
+{% endcontent-ref %}
+
 {% content-ref url="editing-a-live-form.md" %}
 editing-a-live-form.md
 {% endcontent-ref %}

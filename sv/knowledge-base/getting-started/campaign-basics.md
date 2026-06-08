@@ -22,10 +22,6 @@ create-new-campaign.md
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="basics-creating-form.md" %}
-basics-creating-form.md
-{% endcontent-ref %}
-
 {% content-ref url="basics-creating-sms.md" %}
 basics-creating-sms.md
 {% endcontent-ref %}
