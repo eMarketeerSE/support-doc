@@ -4,7 +4,7 @@
 
 **eMarketeer AB**
 
-_Version: 2.0 Effective Date: 2024-01-20_
+_Version: 2.1 Effective Date: 2026-06-08_
 
 For the purposes of Article 28(3) of Regulation 2016/679 (the GDPR) between the Customer (the data controller) and eMarketeer (the data processor) each a ‘party’; together ‘the parties’
 
@@ -282,6 +282,7 @@ eMarketeer shall only process Customer Data for the Permitted Purposes, which sh
 eMarketeer provides an email service, automation and marketing platform and other related services, as more particularly described in the Agreement. The subject matter of the data processing under this DPA is the Customer Data. Customer Data will be processed in accordance with the Agreement (including this DPA) and may be subject to the following processing activities:
 
 * Storage and other processing necessary to provide, maintain and improve the Service provided to Customer pursuant to the Agreement; and/or
+* AI-assisted / generative features (e.g. content generation, suggestions and text assistance) provided via Amazon Bedrock. Such features process customer-supplied prompts and content within the EU to generate output for the Customer. Prompts and outputs are not used to train foundation models and are not shared with the underlying model providers; and/or
 * Disclosures in accordance with the Agreement and/or as compelled by applicable law.
 
 #### A.3. The processing includes the following types of personal data about data subjects:
@@ -290,6 +291,7 @@ Customer may upload, submit, or otherwise provide certain personal data to the S
 
 * System Users: Identification and contact data (name, address, title, contact details, username); financial information (credit card details, account details, payment information); employment details (employer, job title, geographic location, area of responsibility).
 * Contacts: Identification and contact data (name, date of birth, gender, general, occupation or other demographic information, address, title, contact details, including email address); personal interests or preferences (including purchase history, marketing preferences and publicly available social media profile information); IT information (IP addresses, usage data, cookies data, online navigation data, location data, browser data); financial information (credit card details, account details, payment information).
+* AI feature inputs: Any prompts, instructions or content that the Customer submits to AI-assisted / generative features, which may contain personal data of the categories above to the extent determined and controlled by the Customer.
 
 #### A.4. Processing includes the following categories of data subject:
 
@@ -308,7 +310,7 @@ Continuous and as determined by the Customer. When a contact is removed, all cor
 
 On commencement of the Clauses, the data controller authorises the engagement of the following sub-processors:
 
-<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><strong>NAME</strong></td><td valign="top"><strong>Processing Country</strong></td><td valign="top"><strong>ADDRESS</strong></td><td valign="top"><strong>DESCRIPTION OF PROCESSING</strong></td></tr><tr><td valign="top">Amazon Data Services Ireland Ltd</td><td valign="top">Ireland</td><td valign="top">1 Burlington Plaza Burlington Road Dublin 4, D04RH96 Ireland</td><td valign="top">Hosting Provider. Hosting and operations of all servers, and infrastructure for eMarketeer. AWS also stores the complete databases for the Controller.</td></tr><tr><td valign="top">Superoffice AS</td><td valign="top">Norway</td><td valign="top">SuperOffice AS (HQ), Wergelandsveien 27, N-0167 Oslo, Norway</td><td valign="top">CRM Provider.</td></tr><tr><td valign="top">46elks</td><td valign="top">Sweden</td><td valign="top"><p>46elks AB</p><p>c/o Capsule</p><p>Smedsgränd 4</p><p>753 20 Uppsala</p><p>Sweden</p></td><td valign="top">SMS gateway. Used to send SMS</td></tr><tr><td valign="top">Auth0</td><td valign="top">Ireland</td><td valign="top">3rd Floor Union House 182-194 Union Street London, SE1 0LH, UK</td><td valign="top">Authentication and authorization platform. All endpoints in EU</td></tr><tr><td valign="top">Cloudmersive</td><td valign="top">EU</td><td valign="top"><p>4695 Chabot Drive, Suite 200</p><p>Pleasanton, California 94588</p><p>United States</p></td><td valign="top">Antivirus scan of uploaded pictures. All endpoints are EU based.</td></tr><tr><td valign="top">Google Inc</td><td valign="top">USA</td><td valign="top">Google Inc., 1600 Amphitheater Parkway, Mountain View, CA 94043, USA (“Google”).</td><td valign="top"><p>Recaptcha is used to determine whether data submitted to our website (eg via forms) comes from a person or an automated program</p><p>The use of Recaptcha and the data it collects are supported in Art. 6 (1) (e) GDPR. This means that the owner of the website has the right to protect his website from automated spam and other attacks.</p><p><strong>Can be disabled under integrations settings</strong></p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th valign="top"></th><th valign="top"></th><th valign="top"></th><th valign="top"></th></tr></thead><tbody><tr><td valign="top"><strong>NAME</strong></td><td valign="top"><strong>Processing Country</strong></td><td valign="top"><strong>ADDRESS</strong></td><td valign="top"><strong>DESCRIPTION OF PROCESSING</strong></td></tr><tr><td valign="top">Amazon Data Services Ireland Ltd</td><td valign="top">Ireland</td><td valign="top">1 Burlington Plaza Burlington Road Dublin 4, D04RH96 Ireland</td><td valign="top">Hosting Provider. Hosting and operations of all servers, and infrastructure for eMarketeer. AWS also stores the complete databases for the Controller.</td></tr><tr><td valign="top">Amazon Web Services – Amazon Bedrock (provided via Amazon Data Services Ireland Ltd / AWS EMEA SARL)</td><td valign="top">EU (eu-central-1 Frankfurt / eu-west-1 Ireland)</td><td valign="top">1 Burlington Plaza, Burlington Road, Dublin 4, D04 RH96, Ireland</td><td valign="top">AI inference provider. Processes customer-supplied prompts and content to generate AI output for AI-assisted / generative features. Bedrock is pinned to an EU region and cross-region inference to non-EU regions is disabled. Inputs and outputs are not used to train foundation models and are not shared with model providers.</td></tr><tr><td valign="top">Superoffice AS</td><td valign="top">Norway</td><td valign="top">SuperOffice AS (HQ), Wergelandsveien 27, N-0167 Oslo, Norway</td><td valign="top">CRM Provider.</td></tr><tr><td valign="top">46elks</td><td valign="top">Sweden</td><td valign="top"><p>46elks AB</p><p>c/o Capsule</p><p>Smedsgränd 4</p><p>753 20 Uppsala</p><p>Sweden</p></td><td valign="top">SMS gateway. Used to send SMS</td></tr><tr><td valign="top">Auth0</td><td valign="top">Ireland</td><td valign="top">3rd Floor Union House 182-194 Union Street London, SE1 0LH, UK</td><td valign="top">Authentication and authorization platform. All endpoints in EU</td></tr><tr><td valign="top">Cloudmersive</td><td valign="top">EU</td><td valign="top"><p>4695 Chabot Drive, Suite 200</p><p>Pleasanton, California 94588</p><p>United States</p></td><td valign="top">Antivirus scan of uploaded pictures. All endpoints are EU based.</td></tr><tr><td valign="top">Google Inc</td><td valign="top">USA</td><td valign="top">Google Inc., 1600 Amphitheater Parkway, Mountain View, CA 94043, USA (“Google”).</td><td valign="top"><p>Recaptcha is used to determine whether data submitted to our website (eg via forms) comes from a person or an automated program</p><p>The use of Recaptcha and the data it collects are supported in Art. 6 (1) (e) GDPR. This means that the owner of the website has the right to protect his website from automated spam and other attacks.</p><p><strong>Can be disabled under integrations settings</strong></p></td></tr></tbody></table>
 
 The data controller shall on the commencement of the Clauses authorise the use of the abovementioned sub-processors for the processing described for that party. The data processor shall not be entitled – without the data controller’s explicit written authorisation – to engage a sub-processor for a ‘different’ processing than the one which has been agreed upon or have another sub-processor perform the described processing.
 
@@ -322,7 +324,7 @@ The data controller shall on the commencement of the Clauses authorise the use o
 
 The data processor’s processing of personal data on behalf of the data controller shall be carried out by the data processor performing the following:
 
-Send email and SMS. Create forms and social campaigns. Track progress on all activities
+Send email and SMS. Create forms and social campaigns. Track progress on all activities. Provide AI-assisted / generative features (e.g. content generation and suggestions) via Amazon Bedrock. Such AI features are assistive only: they do not make decisions producing legal effects concerning data subjects or similarly significantly affecting them within the meaning of Article 22 GDPR.
 
 #### C.2. Security of processing
 
@@ -333,6 +335,7 @@ Measures to ensure that personal data is protected against accidental destructio
 **Technical Measures**
 
 * All data is stored in AWS data centre (EU)
+* AI inference is performed within Amazon Bedrock in an EU region, under the same AWS EU security controls
 * Rapid failover capability
 
 **Organisational Measures**
@@ -396,6 +399,7 @@ Measures capable of rapidly restoring the availability of and access to personal
 **Technical Measures**
 
 * No more personal data is collected then is necessary for the respective purpose
+* AI features transmit to Amazon Bedrock only the prompts/content required to generate the requested output
 
 **Organisational Measures**
 
@@ -414,13 +418,13 @@ The data processor shall insofar as this is possible – within the scope and th
 
 #### C.4. Storage period/erasure procedures
 
-Personal data is stored until a contact is deleted, or 1 month after termination of contract after which all the personal data for the account is automatically erased by the data processor.
+Personal data is stored until a contact is deleted, or 1 month after termination of contract after which all the personal data for the account is automatically erased by the data processor. AI feature prompts and outputs are not retained by the sub-processor (Amazon Bedrock) and are not used for model training.
 
 #### C.5. Processing location
 
 Processing of the personal data under the Clauses cannot be performed at other locations than the following without the data controller’s prior written authorisation:
 
-All processing takes place in EU
+All processing takes place in EU. AI-assisted / generative features are provided via Amazon Bedrock pinned to an EU region (eu-central-1 Frankfurt / eu-west-1 Ireland); Bedrock cross-region inference to non-EU regions is disabled. Prompts submitted to, and outputs generated by, these features are processed within the EU and are not used to train foundation models nor shared with the underlying model providers.
 
 #### C.6. Instruction on the transfer of personal data to third countries
 
