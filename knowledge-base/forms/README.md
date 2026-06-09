@@ -43,10 +43,6 @@ Form submissions are recorded as contact activity. Every form gives you a report
 {% content-ref url="../../documentation/forms/the-form-component.md" %}
 [the-form-component.md](../../documentation/forms/the-form-component.md)
 {% endcontent-ref %}
-
-{% content-ref url="form-expression-syntax.md" %}
-[form-expression-syntax.md](form-expression-syntax.md)
-{% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}

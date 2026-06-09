@@ -43,10 +43,6 @@ Formulärinlämningar registreras som kontaktaktivitet. Varje formulär ger dig 
 {% content-ref url="../../documentation/forms/the-form-component.md" %}
 [the-form-component.md](../../documentation/forms/the-form-component.md)
 {% endcontent-ref %}
-
-{% content-ref url="form-expression-syntax.md" %}
-[form-expression-syntax.md](form-expression-syntax.md)
-{% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}
