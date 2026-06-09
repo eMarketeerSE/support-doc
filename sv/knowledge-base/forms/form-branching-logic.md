@@ -14,7 +14,7 @@ Formuläreditorn stöder tre typer av förgreningslogik:
 * **Visa/dölj-logik** — visa eller dölj en fråga, panel eller sida baserat på ett svar.
 * **Slutföringslogik** — avsluta formuläret tidigt och visa tacksidan när ett villkor är uppfyllt.
 
-Alla förgreningsregler kan konfigureras via avsnittet **Conditions** i Property Grid, eller granskas och hanteras samlat i fliken **Logic**.
+Alla förgreningsregler kan konfigureras via avsnittet **Conditions** i Property Grid, eller granskas och hanteras samlat i fliken **Logic**. När du skriver villkor för hand i stället för att använda den visuella editorn, se [Uttryckssyntax i formulär](form-expression-syntax.md) för en komplett referens över operatorer och funktioner.
 
 ## Skip logic
 

@@ -14,7 +14,7 @@ The form editor supports three types of branching logic:
 * **Show/hide logic** — reveal or hide a question, panel, or page based on an answer.
 * **Complete survey logic** — end the form early and show the thank-you page when a condition is met.
 
-All branching rules can be configured through the **Conditions** section of the Property Grid, or reviewed and managed together in the **Logic** tab.
+All branching rules can be configured through the **Conditions** section of the Property Grid, or reviewed and managed together in the **Logic** tab. When you write conditions by hand instead of using the visual editor, see [Form expression syntax](form-expression-syntax.md) for the full operator and function reference.
 
 ## Skip logic
 
