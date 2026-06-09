@@ -53,5 +53,9 @@ Formulärinlämningar registreras som kontaktaktivitet. Varje formulär ger dig 
 {% content-ref url="how-to-link-to-a-form.md" %}
 [how-to-link-to-a-form.md](how-to-link-to-a-form.md)
 {% endcontent-ref %}
+
+{% content-ref url="form-branching-logic.md" %}
+[form-branching-logic.md](form-branching-logic.md)
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

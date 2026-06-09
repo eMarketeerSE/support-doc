@@ -53,5 +53,9 @@ Form submissions are recorded as contact activity. Every form gives you a report
 {% content-ref url="how-to-link-to-a-form.md" %}
 [how-to-link-to-a-form.md](how-to-link-to-a-form.md)
 {% endcontent-ref %}
+
+{% content-ref url="form-branching-logic.md" %}
+[form-branching-logic.md](form-branching-logic.md)
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

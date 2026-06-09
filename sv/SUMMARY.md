@@ -34,6 +34,7 @@
     * [Formulärkomponenten](documentation/forms/the-form-component.md)
     * [Länka till ett formulär](knowledge-base/forms/how-to-link-to-a-form.md)
     * [Formuläreditor: UI-översikt](documentation/forms/ui-overview.md)
+    * [Förgreningslogik i formulär](knowledge-base/forms/form-branching-logic.md)
   * [Formulär (Legacy)](knowledge-base/forms/legacy.md)
     * [Skapa ditt första formulär (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
     * [Redigera ett aktivt formulär](knowledge-base/forms/editing-a-live-form.md)
