@@ -66,7 +66,6 @@
   * [Så bygger och använder du kontaktfilter](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
   * [Importera kontakter från Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)
   * [Taggar](knowledge-base/contacts-lists/tags.md)
-  * [Taggar](documentation/apis-developer/tags.md)
   * [Så här skapar du en ny kontaktlista](knowledge-base/getting-started/new-contact-list.md)
 * [Leadhantering](knowledge-base/lead-board-scoring/README.md)
 
