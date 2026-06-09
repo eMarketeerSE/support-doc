@@ -8,6 +8,10 @@ description: >-
 
 Getting your account ready involves a handful of one-time steps. Adding an email domain is required before you can send; the rest are optional but expand what the platform can do for you.
 
+{% hint style="info" %}
+Many of the options in this checklist are only accessible to users with the Administrator role.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ### Complete the corporate details
@@ -21,12 +25,18 @@ Fill out your corporate contact information and upload your logo under **Account
 Add everyone on your team who needs access to eMarketeer. Each person gets their own login, and you control their permissions during the invite.
 
 [How to invite users to your account](../knowledge-base/account-admin/invite-user-account.md)
+
+Consider whether to enforce multi-factor authentication account-wide. This adds a second verification step for all users at login, reducing the risk of unauthorized access.
+
+[Multi-factor authentication](../documentation/accounts-auth/multi-factor-authentication.md)
 {% endstep %}
 
 {% step %}
 ### Add an email domain
 
 Authenticating your sending domain is required before you can send emails from eMarketeer. It also improves deliverability by proving to receiving mail servers that eMarketeer is authorized to send on your behalf.
+
+Start this step early — DNS changes are often handled by an IT department or hosting partner who may need to schedule the work. The rest of your setup can continue in the meantime.
 
 [Add email domain](../knowledge-base/email-deliverability/authorize-email-domain.md)
 {% endstep %}
@@ -37,6 +47,16 @@ Authenticating your sending domain is required before you can send emails from e
 A custom domain replaces the default `app.emarketeer.com` hostname in the links eMarketeer generates — including form URLs, landing page links, and email tracking links. This keeps your brand consistent and removes the eMarketeer hostname from links visible to your contacts.
 
 [Custom domain](../knowledge-base/account-admin/domains.md)
+{% endstep %}
+
+{% step %}
+### Add website scripts
+
+Install two scripts on your website to connect it to eMarketeer. The **form base script** is required on any page where you want to embed a form. The **Web Tracker** records page visits and links them to identified contacts, giving you visibility into which pages a contact has browsed.
+
+Set up the Web Tracker as early as possible — once installed it starts collecting data immediately, and that history becomes valuable the moment you begin sending campaigns.
+
+[Website integration](website-integration.md)
 {% endstep %}
 
 {% step %}
@@ -65,14 +85,6 @@ Supported integrations:
 
 * [Facebook Lead Forms](../documentation/lead-forms/facebook-lead-forms.md)
 * [LinkedIn Lead Gen Forms](../documentation/lead-forms/linkedin-lead-gen-forms.md)
-{% endstep %}
-
-{% step %}
-### Add website scripts
-
-Install two scripts on your website to connect it to eMarketeer. The **form base script** is required on any page where you want to embed a form. The **Web Tracker** records page visits and links them to identified contacts, giving you visibility into which pages a contact has browsed.
-
-[Website integration](website-integration.md)
 {% endstep %}
 
 {% step %}
