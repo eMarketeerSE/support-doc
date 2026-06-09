@@ -48,7 +48,7 @@ The calculations use unique contacts, not the total number of events. If a singl
 
 ## Sendout health widget
 
-.png>)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="Sendout health widget example"></div>
 
 Sendout health widget example.
 
