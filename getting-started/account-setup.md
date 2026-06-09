@@ -91,5 +91,7 @@ Supported integrations:
 ### Create component templates
 
 All components — emails, forms, and webpages — can be saved as templates for future reuse. If you want templates built to match your brand design, an eMarketeer consultant can help you set these up.
+
+To get started creating your component templates, see our [Campaign basics](../knowledge-base/getting-started/campaign-basics.md) guides.
 {% endstep %}
 {% endstepper %}
