@@ -49,3 +49,28 @@ Example use cases:
 
 * Move the lead to "Lost" on the lead board
 * Tag the contact as a lost sale for future win-back campaigns
+
+## Sale Created
+
+This event is sent to eMarketeer when a sale is created in SuperOffice. The data sent to eMarketeer is:
+
+* Email address (of the related contact in the sale)
+* Sale ID
+* Sale name
+* Sale Type
+* Sale value
+
+Example use cases:
+
+* Start a nurturing Journey for a newly created sale
+
+## Contact Created
+
+This event is sent to eMarketeer when a contact is created in SuperOffice. The data sent to eMarketeer is:
+
+* Email address (of the created contact)
+* Signal ID (`New Contact Created`)
+
+Example use cases:
+
+* Send a privacy notification email to new contacts

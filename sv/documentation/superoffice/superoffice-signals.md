@@ -49,3 +49,28 @@ Exempel på användningsfall:
 
 * Flytta leaden till "Lost" på Lead Board
 * Tagga kontakten som en förlorad försäljning för framtida win-back-kampanjer
+
+## Sale Created
+
+Den här händelsen skickas till eMarketeer när en försäljning skapas i SuperOffice. Data som skickas till eMarketeer är:
+
+* E-postadress (för den relaterade kontakten i försäljningen)
+* Sale ID
+* Sale name
+* Sale Type
+* Sale value
+
+Exempel på användningsfall:
+
+* Starta en nurturing-Journey för en nyligen skapad försäljning
+
+## Contact Created
+
+Den här händelsen skickas till eMarketeer när en kontakt skapas i SuperOffice. Data som skickas till eMarketeer är:
+
+* E-postadress (för den skapade kontakten)
+* Signal ID (`New Contact Created`)
+
+Exempel på användningsfall:
+
+* Skicka ett meddelande om dataskydd till nya kontakter
