@@ -41,15 +41,13 @@ En uppsättning kontroller låter dig forma vyn:
 * **Readable** vs. **True Scale** — växla mellan en balanserad layout och en där bredderna speglar exakta proportioner.
 * **Datumintervall** — fokusera flödet på en egen period.
 
-## Borra ner i ett steg
+## Borra ner i en nod
 
-Välj en nod för att öppna sidopanelen **Marketing source Break-Down**. Den bryter ner det valda steget i sessioner, konverteringar och MQL, så att du ser detaljerna bakom en väg utan att lämna flödet.
+Välj valfri nod för att öppna drill-down-panelen. Den bryter ner den valda noden i sessioner, konverteringar och MQL, så att du ser detaljerna bakom en väg utan att lämna flödet. Det fungerar för alla steg — traffic source, marketing source, campaign och så vidare.
 
-## Krav och noteringar
+## Krav
 
-Traffic Analyzer kräver den nya Web Tracker installerad på din webbplats. Utan den har flödet ingen trafikdata att rita från.
-
-Den här dashboarden är i Beta. Djupare nedbrytning på varje nivå i flödet finns på roadmappen.
+Traffic Analyzer kräver Web Tracker installerad på din webbplats. Utan den har flödet ingen trafikdata att rita från.
 
 ## Nästa steg
 

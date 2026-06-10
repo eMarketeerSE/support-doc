@@ -55,9 +55,9 @@ Under rutorna fokuserar varje widget på en del av prestandabilden.
 
 ## Krav
 
-För att se data i den här dashboarden behöver du den nya Web Tracker installerad på din webbplats. Om du inte har satt upp den ännu, se [Installera Web Tracker-skriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
+För att se data i den här dashboarden behöver du Web Tracker installerad på din webbplats. Om du inte har satt upp den ännu, se [Installera Web Tracker-skriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
-De nya formulären och det nya formulärskriptet matar också dashboarden. Installera formulärskriptet och använd de nya formulären för att få hela bilden.
+Formulären och formulärskriptet matar också dashboarden. Installera formulärskriptet och använd formulär för att få hela bilden.
 
 ## Nästa steg
 

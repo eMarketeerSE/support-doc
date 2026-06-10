@@ -41,15 +41,13 @@ A set of controls lets you shape the view:
 * **Readable** vs. **True Scale** — switch between a balanced layout and one where widths reflect exact proportions.
 * **Date range** — focus the flow on a custom period.
 
-## Drill down into a stage
+## Drill down into a node
 
-Select a node to open the **Marketing source Break-Down** side panel. It breaks the selected stage down into sessions, conversions, and MQLs, so you can see the detail behind a path without leaving the flow.
+Select any node to open the drill-down panel. It breaks the selected node down into sessions, conversions, and MQLs, so you can see the detail behind a path without leaving the flow. This works for any stage — traffic source, marketing source, campaign, and so on.
 
-## Requirements and notes
+## Requirements
 
-The Traffic Analyzer requires the new Web Tracker installed on your website. Without it, the flow has no traffic data to draw from.
-
-This dashboard is in Beta. Deeper, per-level drill-down across every stage of the flow is on the roadmap.
+The Traffic Analyzer requires the Web Tracker installed on your website. Without it, the flow has no traffic data to draw from.
 
 ## What to do next
 

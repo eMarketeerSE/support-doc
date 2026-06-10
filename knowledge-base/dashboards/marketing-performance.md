@@ -56,9 +56,9 @@ Below the tiles, each widget focuses on one part of the performance picture.
 
 ## Requirements
 
-To see data in this dashboard, you need the new Web Tracker installed on your website. If you have not set it up yet, see [Installing the web tracker script on your website](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
+To see data in this dashboard, you need the Web Tracker installed on your website. If you have not set it up yet, see [Installing the web tracker script on your website](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
-The new forms and the new forms script also feed the dashboard. Install the forms script and use the new forms to get the complete picture.
+The forms and the forms script also feed the dashboard. Install the forms script and use forms to get the complete picture.
 
 ## What to do next
 
