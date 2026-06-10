@@ -1,5 +1,4 @@
 ---
-icon: pen-to-square
 description: "Tekniska referenser för eMarketeers formulär: uttryckssyntax, reCAPTCHA och felsökning av formulärtillgänglighet."
 page-type: overview
 ---

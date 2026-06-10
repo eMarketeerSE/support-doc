@@ -1,5 +1,4 @@
 ---
-icon: pen-to-square
 description: "Technical references for eMarketeer forms: expression syntax, reCAPTCHA, and form availability troubleshooting."
 page-type: overview
 ---

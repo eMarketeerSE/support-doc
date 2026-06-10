@@ -12,6 +12,10 @@ page-type: overview
 email.md
 {% endcontent-ref %}
 
+{% content-ref url="references/forms.md" %}
+references/forms.md
+{% endcontent-ref %}
+
 {% content-ref url="platform/sms.md" %}
 sms.md
 {% endcontent-ref %}
