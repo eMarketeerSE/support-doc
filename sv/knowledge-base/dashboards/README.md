@@ -1,12 +1,12 @@
 ---
 icon: gauge
-description: "eMarketeers dashboards: Marketing Performance, Traffic Analyzer och Email Health."
+description: "eMarketeers dashboards: Marketing Performance, Traffic Analyzer, Operational Report och Email Health."
 page-type: overview
 ---
 
 # Dashboards
 
-Se hur din marknadsföring presterar, hur besökare rör sig från första kontakt till kvalificerad lead, och hur god hälsa dina e-postutskick har.
+Se hur din marknadsföring presterar, hur besökare rör sig från första kontakt till kvalificerad lead, vad som händer i ditt konto just nu, och hur god hälsa dina e-postutskick har.
 
 {% columns %}
 {% column %}
@@ -22,6 +22,10 @@ emailhealthdashboard.md
 {% column %}
 {% content-ref url="traffic-analyzer.md" %}
 traffic-analyzer.md
+{% endcontent-ref %}
+
+{% content-ref url="operational-report.md" %}
+operational-report.md
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

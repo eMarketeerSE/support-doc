@@ -79,6 +79,7 @@
 * [Dashboards](knowledge-base/dashboards/README.md)
   * [Marketing Performance](knowledge-base/dashboards/marketing-performance.md)
   * [Traffic Analyzer](knowledge-base/dashboards/traffic-analyzer.md)
+  * [Operational Report](knowledge-base/dashboards/operational-report.md)
   * [Email Health Dashboard](knowledge-base/email-deliverability/emailhealthdashboard.md)
 * [Account settings](knowledge-base/account-admin/README.md)
   * [How to invite users to your account (administrator)](knowledge-base/account-admin/invite-user-account.md)
