@@ -15,7 +15,7 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - `getting-started/` — onboarding articles for new users.
 - `knowledge-base/` — feature guides and how-tos, grouped by topic in subfolders.
 - `documentation/` — technical reference, grouped by topic in subfolders. Sub-folder `legal/` for legal docs.
-- `change-log/` — release notes.
+- `changelog/` — release notes. Its own GitBook space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
 - `assets/<article-slug>/` — images and downloads. **Shared between both languages** — never duplicate into `sv/assets/`.
 - `sv/` — Swedish variant. Mirrors the English structure exactly except `sv/documentation/legal/` does not exist (legal stays English-only).
 
@@ -26,11 +26,11 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - Image paths are relative and depend on the file's depth:
   - English KB / Doc article at depth 2 (e.g. `knowledge-base/forms/foo.md`): `![Alt](../../assets/foo/img.png)`.
   - Swedish KB / Doc article at depth 3 (e.g. `sv/knowledge-base/forms/foo.md`): `![Alt](../../../assets/foo/img.png)`.
-  - English change-log at depth 1: `![Alt](../assets/foo/img.png)`. Swedish change-log at depth 2: `![Alt](../../assets/foo/img.png)`.
+  - Changelog space pages (e.g. `changelog/2025.md`) use that space's own GitBook asset store: `![Alt](.gitbook/assets/img.png)`.
 
 ## Linking between spaces
 
-This site is published as more than one GitBook **space**: the main docs space (the repo root, with its own `SUMMARY.md`) and a separate **changelog** space (the `changelog/` folder, which has its own `changelog/SUMMARY.md`). The legacy `change-log/` folder is part of the docs space, not the changelog space.
+This site is published as more than one GitBook **space**: the main docs space (the repo root, with its own `SUMMARY.md`) and a separate **changelog** space (the `changelog/` folder, which has its own `changelog/SUMMARY.md`).
 
 Relative markdown paths (`../documentation/...`, `../knowledge-base/...`) only resolve **within** one space. A relative link that crosses from one space into another will break.
 
