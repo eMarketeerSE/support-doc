@@ -19,10 +19,6 @@ complaint-handling.md
 dkim-setup.md
 {% endcontent-ref %}
 
-{% content-ref url="../knowledge-base/email-deliverability/emailhealthdashboard.md" %}
-emailhealthdashboard.md
-{% endcontent-ref %}
-
 {% content-ref url="../knowledge-base/email-deliverability/spf-setup.md" %}
 spf-setup.md
 {% endcontent-ref %}

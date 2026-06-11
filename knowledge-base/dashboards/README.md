@@ -1,17 +1,21 @@
 ---
 icon: gauge
-description: "eMarketeer's analytics dashboards: Marketing Performance and Traffic Analyzer."
+description: "eMarketeer's dashboards: Marketing Performance, Traffic Analyzer, and Email Health."
 page-type: overview
 ---
 
 # Dashboards
 
-See how your marketing performs and how visitors move from first touch to qualified lead.
+See how your marketing performs, how visitors move from first touch to qualified lead, and how healthy your email sending is.
 
 {% columns %}
 {% column %}
 {% content-ref url="marketing-performance.md" %}
 marketing-performance.md
+{% endcontent-ref %}
+
+{% content-ref url="../email-deliverability/emailhealthdashboard.md" %}
+emailhealthdashboard.md
 {% endcontent-ref %}
 {% endcolumn %}
 
