@@ -28,6 +28,16 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
   - Swedish KB / Doc article at depth 3 (e.g. `sv/knowledge-base/forms/foo.md`): `![Alt](../../../assets/foo/img.png)`.
   - English change-log at depth 1: `![Alt](../assets/foo/img.png)`. Swedish change-log at depth 2: `![Alt](../../assets/foo/img.png)`.
 
+## Linking between spaces
+
+This site is published as more than one GitBook **space**: the main docs space (the repo root, with its own `SUMMARY.md`) and a separate **changelog** space (the `changelog/` folder, which has its own `changelog/SUMMARY.md`). The legacy `change-log/` folder is part of the docs space, not the changelog space.
+
+Relative markdown paths (`../documentation/...`, `../knowledge-base/...`) only resolve **within** one space. A relative link that crosses from one space into another will break.
+
+For cross-space links, use GitBook's internal URL form `https://app.gitbook.com/s/<spaceId>/<published-path>`. The docs space ID is `0ywqCs3au1x0DqPhEJTR`, e.g. `https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/guides/guides/forms/the-form-component`. Picking the target page in the GitBook editor's link dialog produces this format automatically. Note the published path does not mirror the repo folders (`documentation/forms/the-form-component.md` publishes under `/guides/guides/forms/the-form-component`), so confirm the real URL rather than guessing.
+
+Links **within** a single space (docs → docs, or changelog → changelog) stay as normal relative paths.
+
 ## Bilingual policy
 
 **Every article exists in both English and Swedish.** Whenever you add, edit, or rewrite an article in one language, you must mirror the change in the other language in the same commit (or a tightly paired follow-up commit). The pair is the unit of work.
