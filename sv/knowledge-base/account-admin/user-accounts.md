@@ -18,7 +18,9 @@ Innan du börjar, installera en authenticator-app på din mobila enhet om du int
 
 <div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34.png" alt="Ikon för Google Authenticator"></div>
 
-[<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) [<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png" alt="Ladda ner från App Store"></div>](https://apps.apple.com/se/app/google-authenticator/id388497605)
+[<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+
+[<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png" alt="Ladda ner från App Store"></div>](https://apps.apple.com/se/app/google-authenticator/id388497605)
 {% endcolumn %}
 
 {% column %}
@@ -26,7 +28,9 @@ Innan du börjar, installera en authenticator-app på din mobila enhet om du int
 
 <div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54.png" alt="Ikon för Twilio Authy"></div>
 
-[<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.authy.authy) [<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png" alt="Ladda ner från App Store"></div>](https://apps.apple.com/us/app/twilio-authy/id494168017)
+[<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.authy.authy)
+
+[<div data-with-frame="true" align="left"><img src="../../../assets/user-guide-enable-multi-factor-login/5a902db97f96951c82922874.png" alt="Ladda ner från App Store"></div>](https://apps.apple.com/us/app/twilio-authy/id494168017)
 {% endcolumn %}
 {% endcolumns %}
 
