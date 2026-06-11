@@ -39,7 +39,7 @@ Replace all occurrences of each **Old URL** with the corresponding **New URL** i
 | `https://support.emarketeer.com/knowledgebase/about-email-bounces/` | `https://emarketeer.gitbook.io/support/references/references/email/deliverability/about-email-bounces` |
 | `https://support.emarketeer.com/knowledgebase/authorize-email-domain/` | `https://emarketeer.gitbook.io/support/getting-started/account-setup/authorize-email-domain` |
 | `https://support.emarketeer.com/knowledgebase/barcodes/` | `https://emarketeer.gitbook.io/support/references/developer-advanced/barcodes` |
-| `https://support.emarketeer.com/knowledgebase/editing-a-live-form/` | `https://emarketeer.gitbook.io/support/guides/guides/forms/editing-a-live-form` |
+| `https://support.emarketeer.com/knowledgebase/editing-a-live-form/` | `https://emarketeer.gitbook.io/support/guides/guides/legacy/editing-a-live-form` |
 | `https://support.emarketeer.com/knowledgebase/emarketeer-sender-policy/` | `https://emarketeer.gitbook.io/support/references/references/email/emarketeer-sender-policy` |
 | `https://support.emarketeer.com/knowledgebase/embed-videomedia/` | `https://emarketeer.gitbook.io/support/guides/guides/email-content/embed-videomedia` |
 | `https://support.emarketeer.com/knowledgebase/how-lead-scoring-works-in-emarketeer/` | `https://emarketeer.gitbook.io/support/guides/lead-board-scoring/how-lead-scoring-works-in-emarketeer` |
@@ -47,7 +47,7 @@ Replace all occurrences of each **Old URL** with the corresponding **New URL** i
 | `https://support.emarketeer.com/knowledgebase/sales-users/` | `https://emarketeer.gitbook.io/support/guides/lead-board-scoring/sales-users` |
 | `https://support.emarketeer.com/knowledgebase/superoffice-automations-pro/` | `https://emarketeer.gitbook.io/support/integrations/superoffice/superoffice-automations-pro` |
 | `https://support.emarketeer.com/knowledgebase/web-monitor/` | `https://emarketeer.gitbook.io/support/references/references/web-tracker` |
-| `https://support.emarketeer.com/knowledgebase/website-integration-requirements/` | `https://emarketeer.gitbook.io/support/guides/guides/forms/website-integration-requirements` |
+| `https://support.emarketeer.com/knowledgebase/website-integration-requirements/` | `https://emarketeer.gitbook.io/support/guides/guides/legacy/website-integration-requirements` |
 | `https://support.emarketeer.com/knowledgebase/why-authorize-email-domain/` | `https://emarketeer.gitbook.io/support/getting-started/account-setup/authorize-email-domain` |
 
 ---
