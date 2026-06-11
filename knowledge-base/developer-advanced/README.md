@@ -1,6 +1,9 @@
 ---
 icon: rectangle-terminal
-description: Advanced guides for developers building on or extending eMarketeer.
+description: >-
+  Guides, reference material, and technical information for users with the
+  Developer role — those with access to more advanced tools, such as HTML
+  editors.
 page-type: overview
 ---
 

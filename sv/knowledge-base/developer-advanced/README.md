@@ -1,6 +1,8 @@
 ---
 icon: rectangle-terminal
-description: Avancerade guider för utvecklare som bygger på eller utökar eMarketeer.
+description: >-
+  Guider, referensmaterial och teknisk information för användare med Developer-rollen
+  – de som har tillgång till mer avancerade verktyg, som HTML-redigerare.
 page-type: overview
 ---
 
