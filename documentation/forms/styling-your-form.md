@@ -10,6 +10,10 @@ Style your form to match your brand using the **Themes** tab in the form editor.
 
 This guide walks through the theming options, from applying a ready-made theme to fine-tuning the header and background. For a tour of the whole editor, see [Form editor: UI overview](ui-overview.md).
 
+{% hint style="info" %}
+You cannot add custom CSS through the Themes tab, so you are limited to the options it offers. A form embedded on your website, however, can have styling injected when it's called. To read more, see [Embed forms on your website](publish-a-form.md#style-the-form).
+{% endhint %}
+
 ## About form themes
 
 A theme is a collection of visual settings that apply across your whole form — colors, fonts, spacing, and shape. The Themes tab gives you a no-code interface to adjust those settings, start from a preset, and save the result.
@@ -135,4 +139,4 @@ Under the **Background** category:
 
 For a tour of the other editor tabs, see [Form editor: UI overview](ui-overview.md).
 
-To style a form embedded on your website with your own CSS, see **Style the form** in [Embed forms on your website](publish-a-form.md).
+To style a form embedded on your website with your own CSS, see **Style the form** in [Embed forms on your website](publish-a-form.md#style-the-form).
