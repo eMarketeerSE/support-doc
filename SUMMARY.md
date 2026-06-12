@@ -35,6 +35,7 @@
     * [How to link to a form](knowledge-base/forms/how-to-link-to-a-form.md)
     * [Form editor: UI overview](documentation/forms/ui-overview.md)
     * [Form branching logic](knowledge-base/forms/form-branching-logic.md)
+    * [Styling your form](documentation/forms/styling-your-form.md)
   * [Forms (Legacy)](knowledge-base/forms/legacy.md)
     * [Creating your first form (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
     * [Editing a live form](knowledge-base/forms/editing-a-live-form.md)

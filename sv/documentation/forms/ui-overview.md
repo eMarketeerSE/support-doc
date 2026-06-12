@@ -190,6 +190,8 @@ Med Themes-fliken kan du ändra formulärets utseende — färger, typsnitt, sto
 
 Du kan exportera ett anpassat tema som en JSON-fil och importera det till ett annat formulär för att återanvända samma stil.
 
+För en komplett genomgång, se [Styla ditt formulär](styling-your-form.md).
+
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ThemesTab.png" alt="Themes-fliken med stilkontrollerna synliga."></div>
 
 ## Logic-fliken

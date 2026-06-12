@@ -190,6 +190,8 @@ The Themes tab lets you change the form's appearance — colors, fonts, sizes, c
 
 You can export a custom theme as a JSON file and import it on another form to reuse the same style.
 
+For a full walkthrough, see [Styling your form](styling-your-form.md).
+
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ThemesTab.png" alt="The Themes tab showing the style controls panel."></div>
 
 ## Logic tab
