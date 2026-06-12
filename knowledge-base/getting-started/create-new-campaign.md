@@ -49,7 +49,7 @@ Add your first component to the campaign. This might be an email invitation, a r
 The following articles cover each component type from start to finish:
 
 * [Creating your first email](basics-creating-email.md)
-* [Creating your first form (Legacy)](basics-creating-form.md)
+* [Creating your first form](basics-creating-form-new.md)
 * [Creating your first SMS](basics-creating-sms.md)
 * [Creating your first webpage](../developer-advanced/creating-first-webpage.md)
 

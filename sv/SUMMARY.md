@@ -5,11 +5,11 @@
 ## Kom igång
 
 * [Kampanjgrunder](knowledge-base/getting-started/campaign-basics.md)
+  * [Så här skapar du en ny kampanj](knowledge-base/getting-started/create-new-campaign.md)
   * [Skapa din första e-post](knowledge-base/getting-started/basics-creating-email.md)
   * [Skapa ditt första formulär](knowledge-base/getting-started/basics-creating-form-new.md)
   * [Skapa din första SMS](knowledge-base/getting-started/basics-creating-sms.md)
   * [Så här skickar du en e-post](knowledge-base/getting-started/basics-send-email.md)
-  * [Så här skapar du en ny kampanj](knowledge-base/getting-started/create-new-campaign.md)
 * [Kontoinställning](getting-started/account-setup.md)
   * [Lägg till e-postdomän](knowledge-base/email-deliverability/authorize-email-domain.md)
   * [Webbplatsintegrering](getting-started/website-integration.md)

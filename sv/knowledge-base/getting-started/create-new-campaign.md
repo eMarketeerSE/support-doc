@@ -41,6 +41,6 @@ Knappar för att lägga till nya komponenter
 Följande artiklar går igenom varje komponenttyp från början till slut:
 
 * [Skapa din första e-post](basics-creating-email.md)
-* [Skapa ditt första formulär (Legacy)](basics-creating-form.md)
+* [Skapa ditt första formulär](basics-creating-form-new.md)
 * [Skapa din första SMS](basics-creating-sms.md)
 * [Skapa din första webbsida](../developer-advanced/creating-first-webpage.md)
