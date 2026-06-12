@@ -25,6 +25,8 @@ De flesta widgetar visar alltid den senaste aktiviteten i ditt konto. Bara grafe
 
 **Sendouts and Web Sessions** är tidslinjen högst upp. Den ritar upp dina e-postutskick tillsammans med webbsessioner över den valda perioden, så att den fungerar både som kontots e-posttidslinje och som ett sätt att korrelera webbengagemang med det du skickar. Använd datumväljaren (uppe till höger) för att ändra perioden — det är den enda widget som datumintervallet påverkar. Under grafen markerar varje e-postikon och siffra de e-postmeddelanden som skickades det datumet; klicka på en för att se vilka e-postmeddelanden som gick ut den dagen och för att öppna en enskild komponentrapport.
 
+<div data-with-frame="true" align="left"><img src="../../../assets/operational-report/operational_sendouts_websessions.png" alt="Tidslinjen Sendouts and Web Sessions, som ritar upp e-postutskick mot webbsessioner, med klickbara e-postmarkörer under grafen."></div>
+
 **Recent Sendouts** listar de fem senaste utskicken via e-post och SMS med fler än 20 mottagare, med öppningsfrekvens, klick, CTR och CTOR. Växla till **Scheduled** för att i stället se de kommande utskicken närmast i tiden. Klicka på ett komponentnamn för att öppna dess komponentrapport.
 
 **Latest Sendout** lyfter fram ditt allra senaste utskick, med en genväg till dess rapport.
