@@ -6,7 +6,7 @@ description: >-
 
 # Styla ditt formulär
 
-Styla ditt formulär så att det matchar ditt varumärke via **Themes**-fliken i formuläreditorn. Du ändrar färger, typsnitt, storlekar, hörnavrundning, skuggor med mera — helt utan kod.
+Styla ditt formulär så att det matchar ditt varumärke via **Themes**-fliken i formuläreditorn. Du ändrar färger, typsnitt, storlekar, hörnavrundning, skuggor med mera — utan att skriva någon kod.
 
 Den här guiden går igenom alternativen för tema, från att applicera ett färdigt tema till att finjustera sidhuvudet och bakgrunden. För en rundtur i hela editorn, se [Formuläreditor: UI-översikt](ui-overview.md).
 

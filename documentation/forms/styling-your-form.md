@@ -6,7 +6,7 @@ description: >-
 
 # Styling your form
 
-Style your form to match your brand using the **Themes** tab in the form editor. You change colors, fonts, sizing, corner radius, shadows, and more — no code required.
+Style your form to match your brand using the **Themes** tab in the form editor. You change colors, fonts, sizing, corner radius, shadows, and more — without writing any code.
 
 This guide walks through the theming options, from applying a ready-made theme to fine-tuning the header and background. For a tour of the whole editor, see [Form editor: UI overview](ui-overview.md).
 
