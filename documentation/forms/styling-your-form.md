@@ -20,7 +20,11 @@ A theme is a collection of visual settings that apply across your whole form —
 
 <div data-with-frame="true" align="left"><img src="../../assets/styling-your-form/themes-tab.png" alt="The Themes tab open in the form editor, showing the theme settings panel."></div>
 
-You can export a custom theme as a JSON file and import it on another form to reuse the same style. This keeps a consistent look across every form you build.
+{% hint style="info" %}
+You can export a custom theme as a JSON file and import it on another form to reuse the same style, keeping a consistent look across every form you build.
+
+You can also turn a finished form into a template from the Campaign Components view. Templates act as starting points when you create new forms. Making templates is available to users with the Developer role.
+{% endhint %}
 
 ## Choose and apply a theme
 

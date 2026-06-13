@@ -20,7 +20,11 @@ Ett tema är en samling visuella inställningar som gäller för hela ditt formu
 
 <div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/themes-tab.png" alt="Themes-fliken öppen i formuläreditorn, med temainställningarna synliga."></div>
 
-Du kan exportera ett anpassat tema som en JSON-fil och importera det till ett annat formulär för att återanvända samma stil. Det håller utseendet konsekvent över alla formulär du bygger.
+{% hint style="info" %}
+Du kan exportera ett anpassat tema som en JSON-fil och importera det till ett annat formulär för att återanvända samma stil, så att utseendet hålls konsekvent över alla formulär du bygger.
+
+Du kan också göra ett färdigt formulär till en mall från vyn Campaign Components. Mallar fungerar som utgångspunkter när du skapar nya formulär. Möjligheten att skapa mallar finns för användare med Developer-rollen.
+{% endhint %}
 
 ## Välj och applicera ett tema
 
