@@ -64,7 +64,7 @@ To add your logo to the header:
 2. Open **Logo** in the **Survey Header** category.
 3. Paste an image link in the **Survey logo** field, or click the folder icon to upload a file.
 4. Optionally set **Logo width** and **Logo height** (in CSS units) to resize it.
-5. Choose a **Logo fit** option: None, Contain, Cover, or Fill.
+5. Choose a **Logo fit** option: None, [Contain](#contain), [Cover](#cover), or [Fill](#fill).
 
 <div data-with-frame="true" align="left"><img src="../../assets/styling-your-form/add-logo1.png" alt="The logo upload field and sizing options in the Survey Header category."></div>
 
@@ -106,8 +106,8 @@ Switch the **View** toggle to **Advanced** to reveal the full set of header-area
 
 * **Height** — set the header height on desktop.
 * **Height on smartphones** — set the header height on mobile.
-* **Background color** — choose None, Accent, or Custom (with a color picker).
-* **Background image** — paste a link or upload a file, then set the display style (Cover, Stretch, Contain, or Tile), the opacity, and whether the header content overlaps the image.
+* **Background color** — choose None, [Accent](#accent), or Custom (with a color picker).
+* **Background image** — paste a link or upload a file, then set the display style (Cover, [Stretch](#stretch), Contain, or [Tile](#tile)), the opacity, and whether the header content overlaps the image.
 
 <div data-with-frame="true" align="left"><img src="../../assets/styling-your-form/customize-header-area1.png" alt="The Height and Height on smartphones properties for the header."></div>
 
@@ -129,7 +129,7 @@ Under the **Background** category:
 
 * **Background color** — pick a color, or enter an RGB, HEX, or HSL value.
 * **Background image** — paste a link or click the folder icon to upload a file.
-* **Image display** — choose Auto, Contain, or Cover.
+* **Image display** — choose [Auto](#auto), Contain, or Cover.
 * **Image position** — toggle between Fixed and Scroll.
 * **Opacity** — set how transparent the background appears.
 
@@ -140,3 +140,63 @@ Under the **Background** category:
 For a tour of the other editor tabs, see [Form editor: UI overview](ui-overview.md).
 
 To style a form embedded on your website with your own CSS, see **Style the form** in [Embed forms on your website](publish-a-form.md#style-the-form).
+
+## Reference
+
+These options appear in several places across the Themes tab. Here is what each one means.
+
+<details>
+
+<summary>Accent</summary>
+
+A color defined in the theme's appearance settings. It is applied to accented elements throughout the form, such as button colors and the border on a focused field.
+
+</details>
+
+<details>
+
+<summary>Auto</summary>
+
+Displays the image at its natural size, without scaling it to fit its area.
+
+</details>
+
+<details>
+
+<summary>Contain</summary>
+
+Scales the image to fit entirely within its area while keeping its proportions. May leave empty space around it.
+
+</details>
+
+<details>
+
+<summary>Cover</summary>
+
+Scales the image to fill its area while keeping its proportions. May crop the edges.
+
+</details>
+
+<details>
+
+<summary>Fill</summary>
+
+Stretches the image to fill its area, ignoring its proportions. May distort the image.
+
+</details>
+
+<details>
+
+<summary>Stretch</summary>
+
+Stretches the image to fill its area, ignoring its proportions. Has the same effect as Fill.
+
+</details>
+
+<details>
+
+<summary>Tile</summary>
+
+Repeats the image across its area until the space is filled.
+
+</details>

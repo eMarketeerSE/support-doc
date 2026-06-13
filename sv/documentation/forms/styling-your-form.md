@@ -64,7 +64,7 @@ Så lägger du till din logotyp i sidhuvudet:
 2. Öppna **Logo** i kategorin **Survey Header**.
 3. Klistra in en bildlänk i fältet **Survey logo**, eller klicka på mappikonen för att ladda upp en fil.
 4. Ange eventuellt **Logo width** och **Logo height** (i CSS-enheter) för att ändra storlek.
-5. Välj ett alternativ för **Logo fit**: None, Contain, Cover eller Fill.
+5. Välj ett alternativ för **Logo fit**: None, [Contain](#contain), [Cover](#cover) eller [Fill](#fill).
 
 <div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/add-logo1.png" alt="Fältet för logotypuppladdning och storleksalternativen i kategorin Survey Header."></div>
 
@@ -106,8 +106,8 @@ Växla reglaget **View** till **Advanced** för att visa hela uppsättningen ins
 
 * **Height** — ange sidhuvudets höjd på dator.
 * **Height on smartphones** — ange sidhuvudets höjd på mobil.
-* **Background color** — välj None, Accent eller Custom (med en färgväljare).
-* **Background image** — klistra in en länk eller ladda upp en fil, och ange sedan visningsstil (Cover, Stretch, Contain eller Tile), opacitet och om sidhuvudets innehåll ska överlappa bilden.
+* **Background color** — välj None, [Accent](#accent) eller Custom (med en färgväljare).
+* **Background image** — klistra in en länk eller ladda upp en fil, och ange sedan visningsstil (Cover, [Stretch](#stretch), Contain eller [Tile](#tile)), opacitet och om sidhuvudets innehåll ska överlappa bilden.
 
 <div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/customize-header-area1.png" alt="Egenskaperna Height och Height on smartphones för sidhuvudet."></div>
 
@@ -129,7 +129,7 @@ Under kategorin **Background**:
 
 * **Background color** — välj en färg, eller ange ett RGB-, HEX- eller HSL-värde.
 * **Background image** — klistra in en länk eller klicka på mappikonen för att ladda upp en fil.
-* **Image display** — välj Auto, Contain eller Cover.
+* **Image display** — välj [Auto](#auto), Contain eller Cover.
 * **Image position** — växla mellan Fixed och Scroll.
 * **Opacity** — ange hur genomskinlig bakgrunden ska visas.
 
@@ -140,3 +140,63 @@ Under kategorin **Background**:
 För en rundtur i de andra editorflikarna, se [Formuläreditor: UI-översikt](ui-overview.md).
 
 För att styla ett formulär som är inbäddat på din webbplats med din egen CSS, se **Styla formuläret** i [Bädda in formulär på din webbplats](publish-a-form.md#styla-formuläret).
+
+## Referens
+
+De här alternativen förekommer på flera ställen i Themes-fliken. Så här fungerar de.
+
+<details>
+
+<summary>Accent</summary>
+
+En färg som definieras i temats appearance-inställningar. Den används på accentuerade element i hela formuläret, till exempel knappfärger och kanten på ett fält som är i fokus.
+
+</details>
+
+<details>
+
+<summary>Auto</summary>
+
+Visar bilden i dess naturliga storlek, utan att skala den för att fylla ytan.
+
+</details>
+
+<details>
+
+<summary>Contain</summary>
+
+Skalar bilden så att den ryms helt inom ytan med bibehållna proportioner. Kan lämna tomt utrymme runt den.
+
+</details>
+
+<details>
+
+<summary>Cover</summary>
+
+Skalar bilden så att den fyller ytan med bibehållna proportioner. Kan beskära kanterna.
+
+</details>
+
+<details>
+
+<summary>Fill</summary>
+
+Sträcker ut bilden så att den fyller ytan, utan hänsyn till proportionerna. Kan förvränga bilden.
+
+</details>
+
+<details>
+
+<summary>Stretch</summary>
+
+Sträcker ut bilden så att den fyller ytan, utan hänsyn till proportionerna. Har samma effekt som Fill.
+
+</details>
+
+<details>
+
+<summary>Tile</summary>
+
+Upprepar bilden över ytan tills utrymmet är fyllt.
+
+</details>
