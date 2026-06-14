@@ -154,7 +154,7 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 **Consent** Lagrar samtycke på den identifierade kontakten. Använd listan **Consent Type** för att ange syftet: **Store & Process** eller **Marketing**. Consent-frågor är inte obligatoriska som standard — gör dem obligatoriska om kontakten måste ge samtycke innan formuläret skickas in.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/ui-overview/consent.png" alt="En Consent-fråga i designytan med listan Consent Type."></div>
+<div align="left" data-with-frame="true"><img src="../../../assets/ui-overview/consent.png" alt="Två Consent-frågor i designytan, en för varje syfte — Store & Process och Marketing — med listan Consent Type."></div>
 
 </details>
 

@@ -154,7 +154,7 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 **Consent** Stores consent on the identified contact. Use the **Consent Type** dropdown to set the purpose: **Store & Process** or **Marketing**. Consent questions are not required by default — set them to required if the contact must consent before submitting.
 
-<div align="left" data-with-frame="true"><img src="../../assets/ui-overview/consent.png" alt="A Consent question on the design surface with the Consent Type dropdown."></div>
+<div align="left" data-with-frame="true"><img src="../../assets/ui-overview/consent.png" alt="Two Consent questions on the design surface, one for each purpose — Store & Process and Marketing — with the Consent Type dropdown."></div>
 
 </details>
 
