@@ -330,7 +330,7 @@ Open rate. The percentage of delivered emails that were opened by at least one r
 
 <summary>Personal data</summary>
 
-Under GDPR, any information that can be used to identify a natural person. In eMarketeer, personal data includes contact fields such as name, email address, phone number, and IP address. You are responsible for handling personal data in compliance with applicable law.
+Under GDPR, any information that can be used to identify a natural person. In eMarketeer, personal data includes contact fields such as name, email address, and phone number. You are responsible for handling personal data in compliance with applicable law.
 
 </details>
 

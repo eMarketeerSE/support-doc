@@ -314,7 +314,7 @@ Marketing Qualified Lead. En branschstandardterm för en kontakt som marknadsavd
 
 <summary>Personuppgifter</summary>
 
-Enligt GDPR är personuppgifter all information som kan användas för att identifiera en fysisk person. I eMarketeer inkluderar personuppgifter kontaktfält som namn, e-postadress, telefonnummer och IP-adress. Du ansvarar för att hantera personuppgifter i enlighet med tillämplig lag.
+Enligt GDPR är personuppgifter all information som kan användas för att identifiera en fysisk person. I eMarketeer inkluderar personuppgifter kontaktfält som namn, e-postadress och telefonnummer. Du ansvarar för att hantera personuppgifter i enlighet med tillämplig lag.
 
 </details>
 
