@@ -24,6 +24,26 @@ The Toolbox lists every question type and structural element you can add to your
 
 <details>
 
+<summary>Contact fields</summary>
+
+**Contact Field** A single-line input mapped to a specific field on the contact card. Use it when you want form responses to update the respondent's contact record in eMarketeer.
+
+Data submitted through a Contact field is saved both as form answer data and as contact record data. It overwrites any existing value on the contact card.
+
+A form that includes a **Contact field: Email** will create a new contact or match against an existing one when the form is submitted.
+
+Contact fields are pre-populated from the contact database if the respondent is known — for example, when they open the form through a personalized link.
+
+Available fields: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Contact-Fields.png" alt="The Contact fields question type on the design surface."></div>
+
+**Custom Contact Field** Works the same way as Contact Field, but maps to your account's custom contact fields instead of the default contact card fields.
+
+</details>
+
+<details>
+
 <summary>Single-choice questions</summary>
 
 **Radio button group** Displays a list of options. Respondents select one.
@@ -130,21 +150,21 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 <details>
 
-<summary>Contact fields</summary>
+<summary>Consent</summary>
 
-**Contact Field** A single-line input mapped to a specific field on the contact card. Use it when you want form responses to update the respondent's contact record in eMarketeer.
+**Consent** Stores consent on the identified contact. Use the **Consent Type** dropdown to set the purpose: **Store & Process** or **Marketing**. Consent questions are not required by default — set them to required if the contact must consent before submitting.
 
-Data submitted through a Contact field is saved both as form answer data and as contact record data. It overwrites any existing value on the contact card.
+<div align="left" data-with-frame="true"><img src="../../assets/ui-overview/consent.png" alt="A Consent question on the design surface with the Consent Type dropdown."></div>
 
-A form that includes a **Contact field: Email** will create a new contact or match against an existing one when the form is submitted.
+</details>
 
-Contact fields are pre-populated from the contact database if the respondent is known — for example, when they open the form through a personalized link.
+<details>
 
-Available fields: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
+<summary>Captcha</summary>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Contact-Fields.png" alt="The Contact fields question type on the design surface."></div>
+**Captcha** Adds an "I'm not a robot" checkbox to the form. The label is translated to the form's set language. The captcha is required, and a form cannot be saved without it.
 
-**Custom Contact Field** Works the same way as Contact Field, but maps to your account's custom contact fields instead of the default contact card fields.
+<div align="left" data-with-frame="true"><img src="../../assets/ui-overview/captcha.png" alt="A Captcha 'I'm not a robot' checkbox on the design surface."></div>
 
 </details>
 

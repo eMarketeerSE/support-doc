@@ -24,6 +24,26 @@ Toolbox listar alla frågetyper och strukturelement du kan lägga till i ditt fo
 
 <details>
 
+<summary>Contact fields</summary>
+
+**Contact Field** Ett enkelradigt inmatningsfält kopplat till ett specifikt fält på kontaktkortet. Använd det när du vill att formulärsvar ska uppdatera respondentens kontaktpost i eMarketeer.
+
+Data som skickas in via ett Contact field sparas både som formulärsvarsdata och som kontaktpostdata. Det skriver över eventuellt befintligt värde på kontaktkortet.
+
+Ett formulär som innehåller ett **Contact field: Email** skapar en ny kontakt eller matchar mot en befintlig när formuläret skickas in.
+
+Contact fields förifyller data från kontaktdatabasen om respondenten är känd — till exempel när hen öppnar formuläret via en personlig länk.
+
+Tillgängliga fält: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Contact-Fields.png" alt="Frågetypen Contact fields i designytan."></div>
+
+**Custom Contact Field** Fungerar på samma sätt som Contact Field, men är kopplat till ditt kontos anpassade kontaktfält i stället för standardfälten på kontaktkortet.
+
+</details>
+
+<details>
+
 <summary>Enkelsvarsfrågor</summary>
 
 **Radio button group** Visar en lista med alternativ. Respondenten väljer ett.
@@ -130,21 +150,21 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 <details>
 
-<summary>Contact fields</summary>
+<summary>Consent</summary>
 
-**Contact Field** Ett enkelradigt inmatningsfält kopplat till ett specifikt fält på kontaktkortet. Använd det när du vill att formulärsvar ska uppdatera respondentens kontaktpost i eMarketeer.
+**Consent** Lagrar samtycke på den identifierade kontakten. Använd listan **Consent Type** för att ange syftet: **Store & Process** eller **Marketing**. Consent-frågor är inte obligatoriska som standard — gör dem obligatoriska om kontakten måste ge samtycke innan formuläret skickas in.
 
-Data som skickas in via ett Contact field sparas både som formulärsvarsdata och som kontaktpostdata. Det skriver över eventuellt befintligt värde på kontaktkortet.
+<div align="left" data-with-frame="true"><img src="../../../assets/ui-overview/consent.png" alt="En Consent-fråga i designytan med listan Consent Type."></div>
 
-Ett formulär som innehåller ett **Contact field: Email** skapar en ny kontakt eller matchar mot en befintlig när formuläret skickas in.
+</details>
 
-Contact fields förifyller data från kontaktdatabasen om respondenten är känd — till exempel när hen öppnar formuläret via en personlig länk.
+<details>
 
-Tillgängliga fält: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
+<summary>Captcha</summary>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Contact-Fields.png" alt="Frågetypen Contact fields i designytan."></div>
+**Captcha** Lägger till en kryssruta med "I'm not a robot" i formuläret. Texten översätts till formulärets inställda språk. Captchan är obligatorisk, och ett formulär kan inte sparas utan den.
 
-**Custom Contact Field** Fungerar på samma sätt som Contact Field, men är kopplat till ditt kontos anpassade kontaktfält i stället för standardfälten på kontaktkortet.
+<div align="left" data-with-frame="true"><img src="../../../assets/ui-overview/captcha.png" alt="En Captcha-kryssruta med 'I'm not a robot' i designytan."></div>
 
 </details>
 
