@@ -32,5 +32,9 @@ transfer-a-campaign-to-a-different-account.md
 {% content-ref url="campaign-add-favorite.md" %}
 campaign-add-favorite.md
 {% endcontent-ref %}
+
+{% content-ref url="organizing-campaigns.md" %}
+organizing-campaigns.md
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

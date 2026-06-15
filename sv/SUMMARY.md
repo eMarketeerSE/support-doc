@@ -52,6 +52,7 @@
     * [Skapa en genväg till en kampanj med Mina favoriter](knowledge-base/campaigns/campaign-add-favorite.md)
     * [Kampanjkontakter](knowledge-base/campaigns/campaign-contacts.md)
     * [Kampanjgränssnittet förklarat](knowledge-base/campaigns/campaign-interface-explained.md)
+    * [Organisera kampanjer](knowledge-base/campaigns/organizing-campaigns.md)
     * [Så använder du kampanjfält i eMarketeer](knowledge-base/campaigns/how-to-use-campaign-fields-in-emarketeer.md)
     * [Överför en kampanj till ett annat konto](knowledge-base/campaigns/transfer-a-campaign-to-a-different-account.md)
     * [Så använder du eMarketeers kampanjrapporter](knowledge-base/reports/how-to-use-emarketeer-campaign-reports.md)

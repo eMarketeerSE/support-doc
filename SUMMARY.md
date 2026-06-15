@@ -52,6 +52,7 @@
     * [Creating a shortcut to a Campaign using My Favorites](knowledge-base/campaigns/campaign-add-favorite.md)
     * [Campaign Contacts](knowledge-base/campaigns/campaign-contacts.md)
     * [Campaign Interface explained](knowledge-base/campaigns/campaign-interface-explained.md)
+    * [Organizing campaigns](knowledge-base/campaigns/organizing-campaigns.md)
     * [How to use campaign fields in eMarketeer](knowledge-base/campaigns/how-to-use-campaign-fields-in-emarketeer.md)
     * [Transfer a campaign to a different account](knowledge-base/campaigns/transfer-a-campaign-to-a-different-account.md)
     * [How to use eMarketeer campaign reports](knowledge-base/reports/how-to-use-emarketeer-campaign-reports.md)
