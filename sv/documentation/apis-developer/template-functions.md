@@ -1,6 +1,11 @@
-# Mallfunktioner
+---
+description: >-
+  Mallfunktionerna i DCL, språket bakom eMarketeers Dynamic Content Engine
+  (DCE), som komponerar strukturerade layouter från nästlade kodbitar som kallas
+  block.
+---
 
-Den här artikeln täcker mallfunktionerna i DCL, språket bakom eMarketeers Dynamic Content Engine (DCE). DCE komponerar strukturerade layouter från nästlade kodbitar som kallas block.
+# Mallfunktioner
 
 DCE använder nästlade kodbitar (block) för att uppnå en strukturerad layout. Underordnade block kan infogas manuellt av sitt överordnade block, eller de kan "flödas" ut vid en specifik punkt i det överordnade blocket.
 

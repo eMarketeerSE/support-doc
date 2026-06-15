@@ -1,6 +1,11 @@
-# Transaktionella utskick
+---
+description: >-
+  Ett transaktionellt utskick levererar ett icke-marknadsförande
+  e-postmeddelande till en kontakt oavsett deras marknadsföringssamtycke. Lär dig
+  när du använder det och hur du aktiverar det.
+---
 
-Ett transaktionellt utskick låter dig leverera ett icke-marknadsförande e-postmeddelande till en kontakt oavsett deras marknadsföringssamtycke. Den här artikeln förklarar när du ska använda det och hur du aktiverar det.
+# Transaktionella utskick
 
 eMarketeer har ett inbyggt system för samtyckeshantering som spårar vilka du får skicka marknadsföringsmeddelanden till. Om en kontakt har dragit tillbaka sitt samtycke för marknadsföringsmeddelanden stoppas meddelandet och skickas inte.
 

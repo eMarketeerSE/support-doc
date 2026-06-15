@@ -1,6 +1,10 @@
-# E-postrapporten förklarad
+---
+description: >-
+  Händelsetaggarna i eMarketeers e-postrapport, siffrorna bredvid dem och hur
+  procentvärdena i widgetarna beräknas.
+---
 
-Den här artikeln förklarar händelsetaggarna i eMarketeers e-postrapport, siffrorna bredvid dem och hur procentvärdena i widgetarna beräknas.
+# E-postrapporten förklarad
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-Report-Page.png" alt="Exempel på en e-postrapportsida"></div>
 

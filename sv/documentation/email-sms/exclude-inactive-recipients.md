@@ -1,6 +1,11 @@
-# Exkludera inaktiva mottagare
+---
+description: >-
+  När du adresserar en kampanj i eMarketeer kan du exkludera inaktiva kontakter
+  från utskicket. Lär dig vad en inaktiv adress är och varför du bör sluta skicka
+  till dessa kontakter.
+---
 
-När du adresserar en kampanj i eMarketeer kan du exkludera inaktiva kontakter från utskicket. Den här artikeln förklarar vad en inaktiv e-postadress är och varför du bör sluta skicka till dessa kontakter.
+# Exkludera inaktiva mottagare
 
 ## Vad är en inaktiv e-postadress?
 

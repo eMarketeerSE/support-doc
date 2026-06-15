@@ -1,6 +1,10 @@
-# Dynamics - Journey-steg
+---
+description: >-
+  Skicka data, skapa poster och logga aktiviteter direkt till ditt Dynamics CRM
+  från en Journey med integrationen för Microsoft Dynamics 365 Sales.
+---
 
-Med integrationen mellan eMarketeer och Microsoft Dynamics 365 Sales kan du skicka data, skapa poster och logga aktiviteter direkt till ditt Dynamics CRM från en Journey.
+# Dynamics - Journey-steg
 
 ## Så synkroniseras poster
 

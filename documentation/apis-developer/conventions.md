@@ -1,6 +1,8 @@
-# Conventions
+---
+description: The conventions used throughout this DCL manual.
+---
 
-This page lists the conventions used throughout this manual.
+# Conventions
 
 Code is written in fixed-width font. Italics describe how eMarketeer uses a specific function. DCL is a programming language, so you should be familiar with generic terms such as function, argument, value, and string.
 

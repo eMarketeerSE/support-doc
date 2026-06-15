@@ -1,6 +1,10 @@
-# Varför eMarketeer inte stöder SRI för embed-skript
+---
+description: >-
+  eMarketeer har inte stöd för Subresource Integrity (SRI) på sina embed-skript.
+  Den här artikeln förklarar varför.
+---
 
-eMarketeer har inte stöd för Subresource Integrity (SRI) på sina embed-skript, och den här artikeln förklarar varför.
+# Varför eMarketeer inte stöder SRI för embed-skript
 
 SRI kan ge ökat förtroende för externa tillgångar, men det medför också avvägningar — särskilt för en plattform som levererar skript till många kunder. Den här artikeln går igenom resonemanget och vad det innebär för dig.
 

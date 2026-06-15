@@ -1,6 +1,10 @@
-# Förstå eMarketeer-URL:er
+---
+description: >-
+  eMarketeer använder flera typer av URL:er. Om du känner till dem kan du välja
+  rätt länk i varje situation, särskilt när du arbetar med formulärkomponenter.
+---
 
-eMarketeer använder flera typer av URL:er, och om du känner till dem kan du välja rätt länk i varje situation. Den här artikeln fokuserar på de URL:er du stöter på när du arbetar med formulärkomponenter.
+# Förstå eMarketeer-URL:er
 
 ### Publishing URL
 

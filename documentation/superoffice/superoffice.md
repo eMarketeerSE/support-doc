@@ -1,10 +1,11 @@
 ---
 icon: link
+description: >-
+  The eMarketeer–SuperOffice integration lets marketing teams send business
+  opportunities, leads, and intelligence to sales.
 ---
 
 # SuperOffice
-
-The eMarketeer–SuperOffice integration lets marketing teams send business opportunities, leads, and intelligence to sales.
 
 ## Supported versions
 

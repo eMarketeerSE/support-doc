@@ -1,6 +1,8 @@
-# Konventioner
+---
+description: Konventionerna som används genomgående i den här DCL-manualen.
+---
 
-Den här sidan listar konventionerna som används genomgående i den här manualen.
+# Konventioner
 
 Kod skrivs med teckensnitt med fast bredd. Kursiv stil beskriver hur eMarketeer använder en specifik funktion. DCL är ett programmeringsspråk, så du bör vara bekant med allmänna termer som funktion, argument, värde och sträng.
 

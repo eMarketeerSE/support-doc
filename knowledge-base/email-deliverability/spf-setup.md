@@ -1,6 +1,10 @@
-# SPF setup
+---
+description: >-
+  What to check when eMarketeer detects an SPF issue for one of your domains,
+  and how to set it up correctly.
+---
 
-This article explains what to check when eMarketeer detects an SPF issue for one of your domains, and how to set it up correctly.
+# SPF setup
 
 SPF (Sender Policy Framework) is an email authentication protocol that lets domain owners specify which mail servers are authorized to send email on behalf of their domain. It works by publishing a TXT record in DNS that lists the authorized sending hosts or services.
 

@@ -1,6 +1,10 @@
-# DMARC setup
+---
+description: >-
+  Publish a DMARC record in your DNS so receiving servers know how to handle
+  mail that fails authentication for your domain.
+---
 
-Publish a DMARC record in your DNS so receiving servers know how to handle mail that fails authentication for your domain.
+# DMARC setup
 
 DMARC (Domain-based Message Authentication, Reporting & Conformance) builds on SPF and DKIM and tells mail receivers how to treat unauthenticated email claiming to come from your domain. It also lets you receive reports on authentication results. A correctly configured DMARC record protects your domain from spoofing and phishing and improves deliverability.
 

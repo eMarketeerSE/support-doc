@@ -1,6 +1,9 @@
-# Hantering av e-poststudsar
+---
+description: >-
+  Hur eMarketeer hanterar e-poststudsar och vad det innebär för dina utskick.
+---
 
-Den här artikeln förklarar hur eMarketeer hanterar e-poststudsar och vad det innebär för dina utskick.
+# Hantering av e-poststudsar
 
 Att hålla studsar låga är en del av att skydda ditt avsändarrykte. eMarketeer sköter det mesta av arbetet automatiskt, men hur du bygger och underhåller dina kontaktlistor spelar också roll.
 

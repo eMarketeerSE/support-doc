@@ -1,6 +1,10 @@
-# On premise: NetServer URL and user creation
+---
+description: >-
+  Prepare the SuperOffice on-premise integration: expose NetServer to
+  eMarketeer, locate the WSDL URL, and create the integration user.
+---
 
-This article covers the prerequisites for the SuperOffice on-premise integration: exposing NetServer to eMarketeer, locating the correct WSDL URL, and creating a user for the integration.
+# On premise: NetServer URL and user creation
 
 ## Requirements
 

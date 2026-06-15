@@ -1,6 +1,10 @@
-# Email Health Dashboard
+---
+description: >-
+  An actionable view of your email deliverability and sender reputation, so you
+  can catch problems before they affect inbox placement.
+---
 
-The Email Health Dashboard gives you an actionable view of your email deliverability and sender reputation, so you can catch problems before they affect inbox placement.
+# Email Health Dashboard
 
 High-level KPIs, trend charts, and detailed tables let you spot where issues occur and drill down to the exact domains or accounts that need attention.
 

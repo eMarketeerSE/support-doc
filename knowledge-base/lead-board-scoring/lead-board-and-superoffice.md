@@ -1,6 +1,10 @@
-# Lead Board and SuperOffice
+---
+description: >-
+  The eMarketeer Lead Board can be used entirely through SuperOffice, so Sales
+  can manage leads while still using the eMarketeer web panels for insights.
+---
 
-The eMarketeer Lead Board can be used entirely through SuperOffice, so Sales can manage leads from within SuperOffice while still using the eMarketeer web panels for insights on contacts and companies.
+# Lead Board and SuperOffice
 
 New leads are automatically matched with SuperOffice contacts and auto-assigned to the responsible sales user.
 

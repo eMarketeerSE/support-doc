@@ -1,6 +1,10 @@
-# LinkedIn Lead Gen Forms
+---
+description: >-
+  Anslut LinkedIn Lead Gen Forms till eMarketeer så att annonsinskick skapar
+  kontakter, sätter lead scores och triggar Journeys automatiskt.
+---
 
-Anslut LinkedIn Lead Gen Forms till eMarketeer så att annonsinskick skapar kontakter, sätter lead scores och triggar Journeys automatiskt.
+# LinkedIn Lead Gen Forms
 
 När du annonserar på LinkedIn kan du koppla en Call to Action till dina annonser för att samla in registreringar, leads och anmälningar. [Läs mer om Lead Gen Forms på LinkedIn här](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads).
 

@@ -1,3 +1,9 @@
+---
+description: >-
+  The known reasons a SuperOffice automation event fails, and how to resolve
+  each one before re-enqueuing it in the Integration Queue.
+---
+
 # Why did the SuperOffice automation fail?
 
 Failed SuperOffice automation events are listed in the Integration Queue at [https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php](https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php) (login required).

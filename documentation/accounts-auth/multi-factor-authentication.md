@@ -1,6 +1,10 @@
-# Multi-factor authentication
+---
+description: >-
+  Multi-factor authentication (MFA) adds a second verification step to your
+  eMarketeer login to protect your account from unauthorised access.
+---
 
-Multi-factor authentication (MFA) adds a second verification step to your eMarketeer login to protect your account from unauthorised access.
+# Multi-factor authentication
 
 This article explains how MFA works and how to enable it for yourself or enforce it across your account.
 

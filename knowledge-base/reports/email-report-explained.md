@@ -1,6 +1,10 @@
-# Email report explained
+---
+description: >-
+  The event tags in the eMarketeer email report, the numbers next to them, and
+  how the widget percentages are calculated.
+---
 
-This article explains the event tags in the eMarketeer email report, the numbers next to them, and how the widget percentages are calculated.
+# Email report explained
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-Report-Page.png" alt="Example of an email report page"></div>
 

@@ -1,6 +1,10 @@
-# Cloudflare och eMarketeers spårningsparametrar
+---
+description: >-
+  Konfigurera Cloudflare så att eMarketeers spårningsparametrar per mottagare
+  inte orsakar cachemissar på dina landningssidor.
+---
 
-Konfigurera Cloudflare så att eMarketeers spårningsparametrar per mottagare inte orsakar cachemissar på dina landningssidor.
+# Cloudflare och eMarketeers spårningsparametrar
 
 När eMarketeer skickar e-post läggs två spårningsparametrar till på varje länk:
 

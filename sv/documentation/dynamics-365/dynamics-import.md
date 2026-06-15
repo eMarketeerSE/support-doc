@@ -1,6 +1,10 @@
-# Dynamics - Import
+---
+description: >-
+  Importera kontakter direkt från dina Marketing Lists i Microsoft Dynamics 365
+  Sales, antingen som en fristående import eller direkt innan en kampanj.
+---
 
-Importera kontakter direkt från dina Marketing Lists i Microsoft Dynamics 365 Sales. Du kan göra detta som en fristående import för att bygga upp din eMarketeer-databas, eller direkt innan du skickar en kampanj.
+# Dynamics - Import
 
 ## Integrationens omfattning
 

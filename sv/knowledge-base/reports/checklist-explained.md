@@ -1,6 +1,10 @@
-# Förstå checklistan för e-post
+---
+description: >-
+  Checklistan för e-post visar hur många kontakter som kommer att nås av ett
+  utskick, och hur många som inte gör det, uppdelat efter orsak.
+---
 
-Checklistan för e-post visar hur många kontakter som kommer att nås av ett utskick, och hur många som inte gör det, uppdelat efter orsak.
+# Förstå checklistan för e-post
 
 Du ser den här sidan när du skickar en e-post. Granska den för att bekräfta att utskicket når rätt målgrupp och för att förstå eventuella undantag.
 

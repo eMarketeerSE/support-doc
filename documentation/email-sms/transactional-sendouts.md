@@ -1,6 +1,11 @@
-# Transactional sendouts
+---
+description: >-
+  A transactional send-out delivers a non-marketing email to a contact
+  regardless of their marketing consent. Learn when to use it and how to enable
+  it.
+---
 
-A transactional send-out lets you deliver a non-marketing email to a contact regardless of their marketing consent. This article explains when to use it and how to enable it.
+# Transactional sendouts
 
 eMarketeer has a built-in consent management system that tracks who you can send marketing emails to. If a contact has withdrawn consent for marketing emails, the email is stopped and not sent.
 

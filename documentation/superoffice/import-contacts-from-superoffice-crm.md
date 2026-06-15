@@ -1,6 +1,10 @@
-# Import contacts from SuperOffice CRM
+---
+description: >-
+  When you import contacts from a SuperOffice CRM selection or project, you can
+  include or exclude contacts that lack consent for e-marketing.
+---
 
-When you import contacts from a SuperOffice CRM selection or project, you can include or exclude contacts that lack consent for e-marketing.
+# Import contacts from SuperOffice CRM
 
 In SuperOffice CRM, each contact has a "master switch" for e-marketing on the interests tab. We call this the "e-marketing consent switch".
 

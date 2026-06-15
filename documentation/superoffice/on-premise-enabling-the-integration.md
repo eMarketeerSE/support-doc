@@ -1,3 +1,9 @@
+---
+description: >-
+  The final step of the on-premise integration: enter your NetServer details in
+  eMarketeer and start the connection.
+---
+
 # On premise: enabling the integration
 
 This is the final step of the SuperOffice on-premise integration. Your NetServer must already be reachable from eMarketeer and you need a SuperOffice user dedicated to the integration.

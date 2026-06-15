@@ -1,6 +1,10 @@
-# Installera Web Tracker-skriptet på din webbplats
+---
+description: >-
+  Installera eMarketeer Web Tracker på din webbplats så att du kan se vilka
+  sidor dina kontakter besöker.
+---
 
-Installera eMarketeer Web Tracker på din webbplats så att du kan se vilka sidor dina kontakter besöker.
+# Installera Web Tracker-skriptet på din webbplats
 
 Den här guiden går igenom både den rekommenderade mallen för Google Tag Manager och en manuell installation. Du behöver inte vara teknisk — följ stegen i ordning. När du är klar, [installera även formulärets basskript på din webbplats](../forms/publish-a-form.md).
 

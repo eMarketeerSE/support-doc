@@ -1,6 +1,10 @@
-# DKIM is missing or incorrectly configured
+---
+description: >-
+  DKIM is a key part of email authentication and deliverability, and should be
+  in your DNS whenever you authorize a sending domain in eMarketeer.
+---
 
-DKIM is a key part of email authentication and deliverability, and it should be in place in your DNS whenever you authorize a sending domain in eMarketeer.
+# DKIM is missing or incorrectly configured
 
 If eMarketeer reports that DKIM is not working for your domain, the required records may have been removed from your DNS.
 

@@ -1,6 +1,11 @@
-# Microsoft Dynamics 365 Sales-integration
+---
+description: >-
+  eMarketeer-integrationen för Microsoft Dynamics 365 Sales kopplar samman ditt
+  CRM och din marknadsföringsautomation så att båda delar en enda källa till
+  sanning.
+---
 
-eMarketeer-integrationen för Microsoft Dynamics 365 Sales kopplar samman ditt CRM och din marknadsföringsautomation så att båda delar en enda källa till sanning.
+# Microsoft Dynamics 365 Sales-integration
 
 Använd integrationen för att synkronisera kontaktpreferenser, upprätthålla GDPR-efterlevnad, importera CRM-segment vid behov och automatisera journeys utan att skapa datasilos.
 

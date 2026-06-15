@@ -1,6 +1,10 @@
-# Facebook Lead Forms
+---
+description: >-
+  Connect Facebook Lead Forms to eMarketeer so ad submissions create contacts,
+  set lead scores, and trigger journeys automatically.
+---
 
-Connect Facebook Lead Forms to eMarketeer so ad submissions create contacts, set lead scores, and trigger journeys automatically.
+# Facebook Lead Forms
 
 When you advertise on Facebook, you can attach a Call to Action to your ads to collect registrations, leads, and sign-ups. The eMarketeer Facebook connector sends every Lead Form submission directly into eMarketeer.
 

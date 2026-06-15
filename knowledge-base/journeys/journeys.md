@@ -1,10 +1,11 @@
 ---
 icon: arrow-progress
+description: >-
+  A journey is a sequential list of actions (steps) that runs on every contact
+  who matches the criteria set as its starting point.
 ---
 
 # Journeys
-
-A journey is a sequential list of actions (steps) that runs on every contact who matches the criteria set as its starting point.
 
 Journeys are the automation engine in eMarketeer. They let you nurture contacts, update your CRM, and drive other processes without manual work.
 

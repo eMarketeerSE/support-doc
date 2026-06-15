@@ -1,6 +1,10 @@
-# eMarketeers avsändarpolicy
+---
+description: >-
+  Reglerna du måste följa när du skickar e-post eller SMS till mottagare via
+  eMarketeer-komponenter.
+---
 
-När du skickar kommunikation till mottagare via eMarketeer-komponenter som e-post eller SMS måste du följa reglerna nedan.
+# eMarketeers avsändarpolicy
 
 Reglerna skyddar både dina mottagare och ryktet för eMarketeers avsändarinfrastruktur.
 

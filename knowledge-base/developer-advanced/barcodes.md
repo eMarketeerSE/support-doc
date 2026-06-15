@@ -1,6 +1,10 @@
-# Barcodes
+---
+description: >-
+  What barcodes are, where they are used, and how you can use them in
+  eMarketeer.
+---
 
-This article explains what barcodes are, where they are used, and how you can use them in eMarketeer.
+# Barcodes
 
 ## What is a barcode?
 

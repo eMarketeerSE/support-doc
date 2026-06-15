@@ -1,3 +1,9 @@
+---
+description: >-
+  Kända orsaker till att en SuperOffice-automatiseringshändelse misslyckas, och
+  hur du löser var och en innan du köar om den i Integration Queue.
+---
+
 # Varför misslyckades SuperOffice-automatiseringen?
 
 Misslyckade SuperOffice-automatiseringshändelser listas i Integration Queue på [https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php](https://app.emarketeer.com/corporate/gui/account/integrations/integration_queue.php) (kräver inloggning).

@@ -1,6 +1,8 @@
-# Streckkoder
+---
+description: Vad streckkoder är, var de används och hur du kan använda dem i eMarketeer.
+---
 
-Den här artikeln förklarar vad streckkoder är, var de används och hur du kan använda dem i eMarketeer.
+# Streckkoder
 
 ## Vad är en streckkod?
 

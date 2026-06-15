@@ -1,6 +1,11 @@
-# Template Functions
+---
+description: >-
+  The template functions in DCL, the language behind eMarketeer's Dynamic
+  Content Engine (DCE), which composes structured layouts from nested chunks of
+  code called blocks.
+---
 
-This article covers the template functions in DCL, the language behind eMarketeer's Dynamic Content Engine (DCE). DCE composes structured layouts from nested chunks of code called blocks.
+# Template Functions
 
 DCE uses nested chunks of code (blocks) to obtain a structured layout. Child blocks can be inserted manually by their parent block, or they can be "flowed" out at a specific point in the parent block.
 

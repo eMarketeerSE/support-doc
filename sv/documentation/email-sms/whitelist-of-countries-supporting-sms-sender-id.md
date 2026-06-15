@@ -1,6 +1,10 @@
-# Whitelist över länder som stödjer SMS Sender ID
+---
+description: >-
+  Länderna där eMarketeer kan skicka SMS med alfanumeriskt Sender ID. Stödet
+  varierar mellan länder och operatörer.
+---
 
-Den här artikeln listar de länder där eMarketeer kan skicka SMS med alfanumeriskt Sender ID.
+# Whitelist över länder som stödjer SMS Sender ID
 
 Stödet för Sender ID varierar mellan länder och operatörer. Använd den här listan för att bekräfta om dina mottagare ser ditt Sender ID eller ett reservtelefonnummer.
 

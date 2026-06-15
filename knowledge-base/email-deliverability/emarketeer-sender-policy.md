@@ -1,6 +1,10 @@
-# eMarketeer sender policy
+---
+description: >-
+  The rules you must follow when sending email or SMS to recipients through
+  eMarketeer components.
+---
 
-When you send communication to recipients using eMarketeer components such as email or SMS, you are required to follow the rules below.
+# eMarketeer sender policy
 
 These rules protect both your recipients and the reputation of the eMarketeer sending infrastructure.
 

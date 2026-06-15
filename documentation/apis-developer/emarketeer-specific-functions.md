@@ -1,6 +1,10 @@
-# Emarketeer specific functions
+---
+description: >-
+  DCL functions unique to eMarketeer that fetch data from the contact card, your
+  user account, and other product-specific sources.
+---
 
-eMarketeer has several DCL functions that are not part of "core" DCL. They fetch data from the contact card, your user account, and other product-specific sources.
+# Emarketeer specific functions
 
 ## Link
 

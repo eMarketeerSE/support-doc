@@ -1,6 +1,8 @@
-# Var lagras eMarketeer-data geografiskt?
+---
+description: eMarketeer lagrar och behandlar din data inom EU, med ett undantag.
+---
 
-eMarketeer lagrar och behandlar din data inom EU, med ett undantag.
+# Var lagras eMarketeer-data geografiskt?
 
 Den fullständiga listan över underleverantörer finns i det DPA som kunder skriver under. Den här artikeln ger en kort sammanfattning.
 

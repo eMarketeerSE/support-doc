@@ -1,10 +1,11 @@
 ---
 icon: bookmark
+description: >-
+  Termer som används i eMarketeers dokumentation, med definitioner som är
+  specifika för hur eMarketeer använder dem.
 ---
 
 # Ordlista
-
-Termer som används i eMarketeers dokumentation, med definitioner som är specifika för hur eMarketeer använder dem.
 
 ## A
 

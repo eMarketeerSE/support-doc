@@ -1,6 +1,10 @@
-# Email feedback loop
+---
+description: >-
+  What feedback loop data is, how eMarketeer uses it, and how to act on the
+  information it provides.
+---
 
-This article explains what feedback loop data is, how eMarketeer uses it, and how to act on the information it provides.
+# Email feedback loop
 
 ### What it means
 

@@ -1,6 +1,10 @@
-# On premise: installationsprocess
+---
+description: >-
+  Krav och övergripande steg för att integrera en on-premise-installation av
+  SuperOffice med eMarketeer.
+---
 
-Den här artikeln beskriver kraven och de övergripande stegen för att integrera en on-premise-installation av SuperOffice med eMarketeer.
+# On premise: installationsprocess
 
 ## Krav
 

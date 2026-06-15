@@ -1,6 +1,11 @@
-# Dynamics - Add Lead to Marketing List
+---
+description: >-
+  Steget Add Lead to Marketing List lägger till en person i en specifik
+  Marketing List i Microsoft Dynamics 365 Sales, och riktar sig specifikt mot
+  Lead-poster.
+---
 
-Steget **Add Lead to Marketing List** lägger till en person i en specifik Marketing List i Microsoft Dynamics 365 Sales. Det riktar sig specifikt mot Lead-poster.
+# Dynamics - Add Lead to Marketing List
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/add_lead_marketing_list-1024x407.png" alt="Konfiguration av steget Add Lead to Marketing List i Dynamics"></div>
 

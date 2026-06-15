@@ -1,6 +1,10 @@
-# Web Tracker
+---
+description: >-
+  eMarketeers Web Tracker registrerar besökarnas källor och beteendet hos
+  enskilda kontakter på din webbplats.
+---
 
-eMarketeers Web Tracker registrerar besökarnas källor och beteendet hos enskilda kontakter på din webbplats.
+# Web Tracker
 
 Med trackern installerad kan du:
 

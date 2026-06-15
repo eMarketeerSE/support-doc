@@ -1,10 +1,11 @@
 ---
 icon: arrow-progress
+description: >-
+  En Journey är en sekventiell lista med åtgärder (steg) som körs på varje
+  kontakt som matchar kriterierna i utgångspunkten.
 ---
 
 # Journeys
-
-En Journey är en sekventiell lista med åtgärder (steg) som körs på varje kontakt som matchar kriterierna i utgångspunkten.
 
 Journeys är automationsmotorn i eMarketeer. De låter dig bearbeta kontakter, uppdatera ditt CRM och driva andra processer utan manuellt arbete.
 

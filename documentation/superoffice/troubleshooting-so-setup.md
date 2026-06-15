@@ -1,6 +1,10 @@
-# SuperOffice Integration Setup Troubleshooting
+---
+description: >-
+  Common failures when setting up the SuperOffice integration, and how to
+  resolve them.
+---
 
-This article covers common failures when setting up the SuperOffice integration, and how to resolve them.
+# SuperOffice Integration Setup Troubleshooting
 
 ## When the integration fails to finish
 

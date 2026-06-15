@@ -1,6 +1,9 @@
-# Email complaint handling
+---
+description: >-
+  How eMarketeer handles email complaints and what you can do to minimize them.
+---
 
-This article explains how eMarketeer handles email complaints and what you can do to minimize them.
+# Email complaint handling
 
 Complaints affect deliverability and sender reputation. Understanding how they are handled helps you protect both.
 

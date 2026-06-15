@@ -1,6 +1,9 @@
-# Email bounce handling
+---
+description: >-
+  How eMarketeer handles email bounces and what it means for your sending.
+---
 
-This article explains how eMarketeer handles email bounces and what it means for your sending.
+# Email bounce handling
 
 Keeping bounces low is part of protecting your sender reputation. eMarketeer handles most of the work automatically, but how you build and maintain your contact lists matters too.
 

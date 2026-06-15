@@ -1,6 +1,9 @@
-# Create activity
+---
+description: >-
+  Journey step that creates an Activity on the matching contact in SuperOffice.
+---
 
-Creates an Activity on the matching contact in SuperOffice.
+# Create activity
 
 <div align="left" data-with-frame="true"><img src="../../assets/so-journey-steps/CreateActivity.png" alt="Create activity step settings panel"></div>
 

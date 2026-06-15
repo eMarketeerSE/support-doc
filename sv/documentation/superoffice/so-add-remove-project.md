@@ -1,3 +1,9 @@
+---
+description: >-
+  Journey-steg som lägger till eller tar bort en kontakt från ett projekt i
+  SuperOffice.
+---
+
 # Lägg till / Ta bort från projekt
 
 Lägger till eller tar bort en kontakt från ett projekt i SuperOffice.

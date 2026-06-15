@@ -1,3 +1,9 @@
+---
+description: >-
+  Journey step that adds or removes an interest code on a contact in
+  SuperOffice.
+---
+
 # Add / Remove interest
 
 Adds or removes an interest code from a contact in SuperOffice. Interests are found on the Interests tab of the contact card in SuperOffice.

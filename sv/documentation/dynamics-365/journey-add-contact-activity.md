@@ -1,6 +1,10 @@
-# Dynamics - Add contact activity
+---
+description: >-
+  Steget Add Contact Activity skapar en Task eller ett Phone Call på en
+  Contact-post i ditt Microsoft Dynamics CRM.
+---
 
-Steget Add Contact Activity skapar en Task eller ett Phone Call på en Contact-post i ditt Microsoft Dynamics CRM.
+# Dynamics - Add contact activity
 
 Till skillnad från det generiska Add Activity-steget faller denna åtgärd inte tillbaka till en Lead när en Contact saknas. Använd det när aktiviteten måste vara kopplad till en Dynamics Contact specifikt.
 

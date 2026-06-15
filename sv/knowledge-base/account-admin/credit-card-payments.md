@@ -1,6 +1,8 @@
-# Kreditkortsbetalningar (Administrator)
+---
+description: Kreditkort är betalningsmetoden för din eMarketeer-prenumeration.
+---
 
-Kreditkort är betalningsmetoden för din eMarketeer-prenumeration.
+# Kreditkortsbetalningar (Administrator)
 
 eMarketeer fakturerar i efterskott, så din prenumeration debiteras vid slutet av varje använd månad. Du registrerar ett kreditkort på kontot, och eMarketeer drar det belopp som ska betalas i slutet av varje månad så länge prenumerationen löper. När du säger upp prenumerationen eller registrerar ett annat kort tas det gamla kortet bort från systemet.
 

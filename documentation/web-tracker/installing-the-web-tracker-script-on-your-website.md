@@ -1,6 +1,10 @@
-# Installing the web tracker script on your website
+---
+description: >-
+  Install the eMarketeer Web Tracker on your website so you can see which pages
+  your contacts visit.
+---
 
-Install the eMarketeer Web Tracker on your website so you can see which pages your contacts visit.
+# Installing the web tracker script on your website
 
 This guide walks through both the recommended Google Tag Manager template and a manual install. You do not need to be technical — follow the steps in order. When you are done, also [install the form base script on your site](../forms/publish-a-form.md).
 

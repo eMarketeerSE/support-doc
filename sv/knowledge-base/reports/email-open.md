@@ -1,6 +1,10 @@
-# När registreras en e-post som öppnad?
+---
+description: >-
+  En e-post registreras som öppnad när bilder laddas i mottagarens e-postklient,
+  eller när mottagaren klickar på en länk i meddelandet.
+---
 
-En e-post registreras som öppnad när bilder laddas i mottagarens e-postklient, eller när mottagaren klickar på en länk i meddelandet.
+# När registreras en e-post som öppnad?
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_11-57-42.png" alt="E-postrapportens graf med antalet öppnade e-postmeddelanden markerat"></div>
 

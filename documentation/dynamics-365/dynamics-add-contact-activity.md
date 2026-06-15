@@ -1,6 +1,11 @@
-# Dynamics - Add contact activity
+---
+description: >-
+  The Add Contact Activity step creates a Task or Phone Call strictly on a
+  Contact record in your Microsoft Dynamics CRM, with no fallback to a Lead if
+  no Contact is found.
+---
 
-The Add Contact Activity step creates a Task or Phone Call strictly on a **Contact** record in your Microsoft Dynamics CRM. Unlike the generic Add Activity step, this action does not fall back to a Lead if no Contact is found.
+# Dynamics - Add contact activity
 
 ![Add Contact Activity step configuration in Dynamics](../../../.gitbook/assets/add_contact_activity-1024x912.png)
 

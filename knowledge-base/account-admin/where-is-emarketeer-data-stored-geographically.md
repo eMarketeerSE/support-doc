@@ -1,6 +1,8 @@
-# Where is eMarketeer data stored geographically?
+---
+description: eMarketeer stores and processes your data in the EU, with one exception.
+---
 
-eMarketeer stores and processes your data in the EU, with one exception.
+# Where is eMarketeer data stored geographically?
 
 The full list of subcontractors is available in the DPA that customers sign. This article gives a short summary.
 

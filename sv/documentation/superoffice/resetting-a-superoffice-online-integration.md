@@ -1,6 +1,10 @@
-# Återställ en SuperOffice-integration
+---
+description: >-
+  Återställ en SuperOffice Online-integration om den slutar fungera eller
+  behöver återanslutas.
+---
 
-Den här artikeln förklarar hur du återställer en SuperOffice Online-integration om den slutar fungera eller behöver återanslutas.
+# Återställ en SuperOffice-integration
 
 ## Återställ integrationen
 

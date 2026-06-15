@@ -1,6 +1,11 @@
-# Dynamics - Create/Update Lead
+---
+description: >-
+  Steget Create/Update Lead skickar kontakter från eMarketeer till din
+  Microsoft Dynamics CRM som Leads, med inbyggd logik för att uppdatera
+  befintliga poster och förhindra dubbletter.
+---
 
-Steget Create/Update Lead skickar kontakter från eMarketeer till din Microsoft Dynamics CRM som Leads. Det har inbyggd logik för att uppdatera befintliga poster och förhindra dubbletter.
+# Dynamics - Create/Update Lead
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/create-update-lead-1024x695.png" alt="Konfiguration av steget Create/Update Lead med kryssrutan Always create a lead"></div>
 

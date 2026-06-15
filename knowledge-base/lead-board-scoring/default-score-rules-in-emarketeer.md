@@ -1,6 +1,10 @@
-# Default score rules in eMarketeer
+---
+description: >-
+  eMarketeer ships with two sets of default lead score rules, so scoring works
+  out of the box even before you build your own.
+---
 
-eMarketeer ships with two sets of default lead score rules so scoring works out of the box, even before you build your own.
+# Default score rules in eMarketeer
 
 Lead scoring is most useful when you set up rules tailored to your business, but the defaults give you a starting baseline. The default rules are active by default and apply to every contact on the account. The intended score range for the defaults is 0–100 points.
 

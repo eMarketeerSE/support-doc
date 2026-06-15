@@ -1,6 +1,8 @@
-# Skicka en Webhook från Zapier till eMarketeer
+---
+description: Skapa en Zap som skickar kontaktdata till eMarketeer som en anpassad Signal.
+---
 
-Skapa en Zap som skickar kontaktdata till eMarketeer som en anpassad Signal.
+# Skicka en Webhook från Zapier till eMarketeer
 
 Det här är användbart när du vill fånga formulärsvar, CRM-uppdateringar eller annan engagemangsdata från valfri källa. Signalen skapar eller uppdaterar kontakten i eMarketeer och registrerar engagemanget.
 

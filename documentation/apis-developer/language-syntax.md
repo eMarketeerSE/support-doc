@@ -1,6 +1,11 @@
-# Language Syntax
+---
+description: >-
+  DCL has a simple structure built on three terms: function, argument, and
+  value. Every function returns a string and takes named arguments whose values
+  are strings.
+---
 
-DCL has a simple structure built on three terms: function, argument, and value. Every function returns a string and takes named arguments whose values are strings.
+# Language Syntax
 
 The example below prints the firstname from the contact card.
 

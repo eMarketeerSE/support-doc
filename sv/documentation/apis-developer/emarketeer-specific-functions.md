@@ -1,6 +1,10 @@
-# eMarketeer-specifika funktioner
+---
+description: >-
+  DCL-funktioner som är unika för eMarketeer och hämtar data från kontaktkortet,
+  ditt användarkonto och andra produktspecifika källor.
+---
 
-eMarketeer har flera DCL-funktioner som inte är en del av "core" DCL. De hämtar data från kontaktkortet, ditt användarkonto och andra produktspecifika källor.
+# eMarketeer-specifika funktioner
 
 ## Link
 

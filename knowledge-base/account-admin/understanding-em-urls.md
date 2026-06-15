@@ -1,6 +1,10 @@
-# Understanding eMarketeer URLs
+---
+description: >-
+  eMarketeer uses several URL types. Knowing them helps you pick the right link
+  for each situation, especially when working with Form components.
+---
 
-eMarketeer uses several URL types, and knowing them helps you pick the right link for each situation. This article focuses on the URLs you encounter when working with Form components.
+# Understanding eMarketeer URLs
 
 ### Publishing URL
 

@@ -1,6 +1,9 @@
-# Felsökning av SuperOffice-integrationsuppsättning
+---
+description: >-
+  Vanliga fel när du sätter upp SuperOffice-integrationen, och hur du löser dem.
+---
 
-Den här artikeln går igenom vanliga fel när man sätter upp SuperOffice-integrationen, och hur du löser dem.
+# Felsökning av SuperOffice-integrationsuppsättning
 
 ## När integrationen inte slutförs
 

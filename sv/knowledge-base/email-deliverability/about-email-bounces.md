@@ -1,6 +1,10 @@
-# Om studsar och klagomål i e-post
+---
+description: >-
+  Vad studsar och klagomål är, hur eMarketeer hanterar dem och hur du håller
+  ditt avsändarrykte friskt.
+---
 
-Den här artikeln förklarar vad studsar och klagomål är, hur eMarketeer hanterar dem och vad du kan göra för att hålla ditt avsändarrykte friskt.
+# Om studsar och klagomål i e-post
 
 Studsar och klagomål påverkar om dina e-postmeddelanden når inkorgen. Att hålla båda låga skyddar leveransbarheten för alla som skickar från ditt konto.
 

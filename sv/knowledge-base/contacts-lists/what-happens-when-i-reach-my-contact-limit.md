@@ -1,6 +1,12 @@
+---
+description: >-
+  eMarketeers betalplaner storleksbestäms efter antalet kontakter du
+  kommunicerar med, så din plan sätter storleken på din kontaktdatabas.
+---
+
 # Vad händer när jag når min kontaktgräns?
 
-eMarketeers betalplaner storleksbestäms efter antalet kontakter du kommunicerar med, så din plan sätter storleken på din kontaktdatabas. Du ser gränsen på startsidans dashboard under "your account".
+Du ser gränsen på startsidans dashboard under "your account".
 
 ### Vad händer vid kontaktgränsen
 

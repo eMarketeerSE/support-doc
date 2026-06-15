@@ -1,6 +1,10 @@
-# Automatic send pause
+---
+description: >-
+  eMarketeer can automatically pause an account from sending more emails when
+  bounces or spam complaints exceed certain levels.
+---
 
-eMarketeer can automatically pause an account from sending more emails if bounces or spam complaints exceed certain levels.
+# Automatic send pause
 
 As an email service provider, eMarketeer sends emails on behalf of many customers. Keeping a good sender reputation, avoiding blacklists, and preventing spam is a constant operation. eMarketeer does not create the content or control the recipient lists, but it is its job to make sure all customers send emails responsibly.
 

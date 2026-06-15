@@ -1,6 +1,10 @@
-# Hantering av e-postklagomål
+---
+description: >-
+  Hur eMarketeer hanterar e-postklagomål och vad du kan göra för att minimera
+  dem.
+---
 
-Den här artikeln förklarar hur eMarketeer hanterar e-postklagomål och vad du kan göra för att minimera dem.
+# Hantering av e-postklagomål
 
 Klagomål påverkar leveransbarhet och avsändarrykte. Att förstå hur de hanteras hjälper dig att skydda båda.
 

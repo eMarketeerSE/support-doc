@@ -1,6 +1,10 @@
-# Understanding the Email Checklist
+---
+description: >-
+  The Email Checklist shows how many contacts will be addressed by a sendout,
+  and how many will not, broken down by reason.
+---
 
-The Email Checklist shows how many contacts will be addressed by a sendout, and how many will not, broken down by reason.
+# Understanding the Email Checklist
 
 You see this page when sending an email. Review it to confirm your sendout reaches the right audience and to understand any exclusions.
 

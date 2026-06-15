@@ -1,6 +1,10 @@
-# Hur fungerar samtycke?
+---
+description: >-
+  Samtycke i eMarketeer byggs upp av fyra delar: ändamål, rättslig grund, källa
+  och möjligheten att återkalla.
+---
 
-Samtycke i eMarketeer byggs upp av fyra delar: ändamål, rättslig grund, källa och möjligheten att återkalla.
+# Hur fungerar samtycke?
 
 Du använder eMarketeer för att lagra kontaktinformation som importerats från andra system, samla in mer kontaktdata via webbformulär och skicka e-post och SMS för olika ändamål. Informationen du lagrar tillhör dina kontakter (den registrerade), och du använder den för att kommunicera med dem. GDPR ger varje kontakt mer kontroll över informationen du har och formar hur du får kommunicera med dem.
 

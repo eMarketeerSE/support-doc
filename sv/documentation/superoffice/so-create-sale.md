@@ -1,6 +1,8 @@
-# Skapa försäljning
+---
+description: Journey-steg som skapar en Sale på den matchande kontakten i SuperOffice.
+---
 
-Skapar en försäljning på den matchande kontakten i SuperOffice.
+# Skapa försäljning
 
 <div align="left" data-with-frame="true"><img src="../../../assets/so-journey-steps/CreateSale.png" alt="Inställningspanelen för steget Skapa försäljning"></div>
 

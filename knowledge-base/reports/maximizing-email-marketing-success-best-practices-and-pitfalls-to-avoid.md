@@ -1,10 +1,11 @@
 ---
 hidden: true
+description: >-
+  Ten practices that protect your deliverability and improve engagement when you
+  send marketing email from eMarketeer.
 ---
 
 # Maximizing Email Marketing Success: 10 Best Practices and Pitfalls to Avoid
-
-Ten practices that protect your deliverability and improve engagement when you send marketing email from eMarketeer.
 
 The success of an email program depends as much on what you avoid as what you do. The points below cover the most common pitfalls and the practices that keep your campaigns landing in the inbox.
 

@@ -1,6 +1,11 @@
-# Importera kontakter från SuperOffice CRM
+---
+description: >-
+  När du importerar kontakter från en Selection eller ett projekt i SuperOffice
+  CRM kan du inkludera eller utesluta kontakter som saknar samtycke till
+  e-marknadsföring.
+---
 
-När du importerar kontakter från en Selection eller ett projekt i SuperOffice CRM kan du välja att inkludera eller utesluta kontakter som saknar samtycke till e-marknadsföring.
+# Importera kontakter från SuperOffice CRM
 
 I SuperOffice CRM har varje Person en "huvudströmbrytare" för e-marknadsföring på intresseflikfliken. Vi kallar denna "samtyckesbrytaren för e-marknadsföring".
 

@@ -1,6 +1,10 @@
-# On premise: NetServer-URL och användarkonto
+---
+description: >-
+  Förbered SuperOffice on-premise-integrationen: exponera NetServer för
+  eMarketeer, hitta rätt WSDL-URL och skapa en användare för integrationen.
+---
 
-Den här artikeln går igenom förutsättningarna för SuperOffice on-premise-integrationen: att exponera NetServer för eMarketeer, hitta rätt WSDL-URL och skapa en användare för integrationen.
+# On premise: NetServer-URL och användarkonto
 
 ## Krav
 

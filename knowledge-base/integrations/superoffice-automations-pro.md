@@ -1,6 +1,13 @@
+---
+description: >-
+  SuperOffice automations trigger actions in SuperOffice when a contact
+  interacts with an eMarketeer campaign, such as clicking a link or submitting a
+  form.
+---
+
 # SuperOffice automations
 
-SuperOffice automations let you trigger actions in SuperOffice when a contact interacts with an eMarketeer campaign — for example, by clicking a link or submitting a form. Each automation runs on the contact that triggered it and creates the corresponding object — sale, task, notification, interest update, project membership, or selection membership — directly in SuperOffice.
+Each automation runs on the contact that triggered it and creates the corresponding object — sale, task, notification, interest update, project membership, or selection membership — directly in SuperOffice.
 
 ## Setting up an automation
 

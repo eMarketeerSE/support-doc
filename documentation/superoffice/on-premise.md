@@ -1,6 +1,10 @@
-# SuperOffice on-premise integration
+---
+description: >-
+  Set up the on-premise integration in three steps: review the requirements,
+  configure NetServer access, and enable the connection from eMarketeer.
+---
 
-Setting up the on-premise integration involves three steps: reviewing the requirements, configuring NetServer access, and enabling the connection from eMarketeer.
+# SuperOffice on-premise integration
 
 ## Requirements overview
 

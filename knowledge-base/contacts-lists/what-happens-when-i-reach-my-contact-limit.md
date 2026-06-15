@@ -1,6 +1,12 @@
+---
+description: >-
+  eMarketeer pay plans are sized by the number of contacts you communicate with,
+  so your plan sets the size of your contact database.
+---
+
 # What happens when I reach my contact limit?
 
-eMarketeer pay plans are sized by the number of contacts you communicate with, so your plan sets the size of your contact database. You can see the limit on the home page dashboard under "your account".
+You can see the limit on the home page dashboard under "your account".
 
 ### What happens at the contact limit
 

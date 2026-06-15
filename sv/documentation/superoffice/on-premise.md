@@ -1,6 +1,10 @@
-# SuperOffice on-premise-integration
+---
+description: >-
+  Sätt upp on-premise-integrationen i tre steg: granska kraven, konfigurera
+  NetServer-åtkomst och aktivera anslutningen från eMarketeer.
+---
 
-Att sätta upp on-premise-integrationen innebär tre steg: granska kraven, konfigurera NetServer-åtkomst och aktivera anslutningen från eMarketeer.
+# SuperOffice on-premise-integration
 
 ## Kravöversikt
 

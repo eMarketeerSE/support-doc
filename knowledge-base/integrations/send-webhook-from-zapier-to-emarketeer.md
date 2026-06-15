@@ -1,6 +1,8 @@
-# Send a webhook from Zapier to eMarketeer
+---
+description: Set up a Zap that sends contact data to eMarketeer as a custom signal.
+---
 
-Set up a Zap that sends contact data to eMarketeer as a custom signal.
+# Send a webhook from Zapier to eMarketeer
 
 This is useful when you want to capture form submissions, CRM updates, or other engagement data from any source. The signal will create or update the contact in eMarketeer and record the engagement.
 

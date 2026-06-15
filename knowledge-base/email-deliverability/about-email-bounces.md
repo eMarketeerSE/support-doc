@@ -1,6 +1,10 @@
-# About email bounces and complaints
+---
+description: >-
+  What bounces and complaints are, how eMarketeer handles them, and how to keep
+  your sender reputation healthy.
+---
 
-This article explains what bounces and complaints are, how eMarketeer handles them, and what you can do to keep your sender reputation healthy.
+# About email bounces and complaints
 
 Bounces and complaints affect whether your emails reach the inbox. Keeping both low protects deliverability for everyone sending from your account.
 

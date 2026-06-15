@@ -1,6 +1,10 @@
-# Cloudflare & eMarketeer Tracking Parameters
+---
+description: >-
+  Configure Cloudflare so that eMarketeer's per-recipient tracking parameters
+  do not cause cache misses on your landing pages.
+---
 
-Configure Cloudflare so that eMarketeer's per-recipient tracking parameters do not cause cache misses on your landing pages.
+# Cloudflare & eMarketeer Tracking Parameters
 
 When eMarketeer sends emails, it appends two tracking parameters to every link:
 

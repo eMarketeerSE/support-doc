@@ -1,6 +1,10 @@
-# Automatisk pausning av utskick
+---
+description: >-
+  eMarketeer kan automatiskt pausa ett konto från att skicka fler
+  e-postmeddelanden när studsar eller spam-klagomål överstiger vissa nivåer.
+---
 
-eMarketeer kan automatiskt pausa ett konto från att skicka fler e-postmeddelanden om studsar eller spam-klagomål överstiger vissa nivåer.
+# Automatisk pausning av utskick
 
 Som leverantör av e-posttjänster skickar eMarketeer e-post för många kunders räkning. Att behålla ett gott avsändarrykte, undvika svartlistor och förhindra spam är ett ständigt arbete. eMarketeer skapar inte innehållet och styr inte mottagarlistorna, men det är vårt jobb att se till att alla kunder skickar e-post på ett ansvarsfullt sätt.
 

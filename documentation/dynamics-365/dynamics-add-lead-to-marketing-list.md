@@ -1,6 +1,10 @@
-# Dynamics - Add Lead to Marketing List
+---
+description: >-
+  The Add Lead to Marketing List step adds a person to a designated Marketing
+  List in Microsoft Dynamics 365 Sales, targeting Lead records specifically.
+---
 
-The **Add Lead to Marketing List** step adds a person to a designated Marketing List in Microsoft Dynamics 365 Sales. It targets Lead records specifically.
+# Dynamics - Add Lead to Marketing List
 
 ![Add Lead to Marketing List step configuration in Dynamics](../../../.gitbook/assets/add_lead_marketing_list-1024x407.png)
 

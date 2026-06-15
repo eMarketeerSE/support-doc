@@ -1,6 +1,10 @@
-# Reset a SuperOffice integration
+---
+description: >-
+  Reset a SuperOffice Online integration if it stops working or needs to be
+  reconnected.
+---
 
-This article explains how to reset a SuperOffice Online integration if it stops working or needs to be reconnected.
+# Reset a SuperOffice integration
 
 ## Reset the integration
 

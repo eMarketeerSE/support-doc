@@ -1,6 +1,10 @@
-# Webinar: How to Build Mobile Apps in eMarketeer
+---
+description: >-
+  This webinar shows how to use eMarketeer to build and distribute mobile web
+  apps for your events.
+---
 
-This webinar shows how to use eMarketeer to build and distribute mobile web apps for your events.
+# Webinar: How to Build Mobile Apps in eMarketeer
 
 A mobile app puts event information directly in participants' hands, which is one of the strongest ways to keep your audience engaged and informed during an event. Building and distributing one has traditionally been a hurdle. eMarketeer lets you build, publish, and distribute mobile web apps without that overhead.
 

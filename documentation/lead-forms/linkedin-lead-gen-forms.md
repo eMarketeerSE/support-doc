@@ -1,6 +1,10 @@
-# LinkedIn Lead Gen Forms
+---
+description: >-
+  Connect LinkedIn Lead Gen Forms to eMarketeer so ad submissions create
+  contacts, set lead scores, and trigger journeys automatically.
+---
 
-Connect LinkedIn Lead Gen Forms to eMarketeer so ad submissions create contacts, set lead scores, and trigger journeys automatically.
+# LinkedIn Lead Gen Forms
 
 When you advertise on LinkedIn, you can attach a Call to Action to your ads to collect registrations, leads, and sign-ups. [Read more about Lead Gen Forms on LinkedIn here](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads).
 

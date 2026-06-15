@@ -1,10 +1,12 @@
 ---
 icon: brackets-curly
+description: >-
+  eMarketeers API ger dig programmatisk åtkomst till data i ditt konto: lägg
+  till och ta bort kontakter, hantera listor, utlös utskick och skicka anpassade
+  händelser från externa system.
 ---
 
 # API
-
-eMarketeers API ger dig programmatisk åtkomst till data i ditt konto. Du kan lägga till och ta bort kontakter, hantera listor, utlösa utskick och skicka anpassade händelser från externa system.
 
 API:et är ett OpenAPI-dokumenterat REST API. Referensportalen på [api-doc.emarketeer.com](https://api-doc.emarketeer.com/) låter dig bläddra bland alla tillgängliga endpoints, se schemas för förfrågningar och svar, och testa anrop direkt i webbläsaren.
 

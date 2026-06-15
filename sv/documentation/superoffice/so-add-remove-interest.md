@@ -1,3 +1,9 @@
+---
+description: >-
+  Journey-steg som lägger till eller tar bort en intressekod på en kontakt i
+  SuperOffice.
+---
+
 # Lägg till / Ta bort intresse
 
 Lägger till eller tar bort en intressekod från en kontakt i SuperOffice. Intressen finns på fliken Intressen på kontaktkortet i SuperOffice.

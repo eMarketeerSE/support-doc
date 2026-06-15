@@ -1,6 +1,10 @@
-# Villkor
+---
+description: >-
+  DCL stöder ett enkelt if-elseif-else-endif-villkor för att testa om en sträng
+  är lika med en annan.
+---
 
-DCL stöder ett enkelt `if-elseif-else-endif`-villkor för att testa om en sträng är lika med en annan.
+# Villkor
 
 Villkorsfunktioner följer normal funktionssyntax och returnerar alltid en tom sträng. De kan inte användas som argument till andra funktioner. Du kan testa likhet eller olikhet. Det finns inget koncept för booleska operatorer, men du kan simulera AND genom att nästa villkor.
 

@@ -1,6 +1,10 @@
-# Double opt-in subscription
+---
+description: >-
+  A sign-up process where the contact confirms their subscription in two steps,
+  verifying the address belongs to the person who submitted the form.
+---
 
-Double opt-in is a sign-up process where the contact confirms their subscription in two steps, verifying that the address belongs to the person who submitted the form.
+# Double opt-in subscription
 
 To build this in eMarketeer, first decide where to store verified contacts. Common choices include adding them to a campaign, adding them to a contact list, or ticking a checkbox on the contact card.
 

@@ -1,6 +1,10 @@
-# Dynamics - Installation Process
+---
+description: >-
+  Set up the Microsoft Dynamics 365 Sales integration. A few manual steps are
+  required before you complete the configuration in the eMarketeer UI.
+---
 
-Set up the Microsoft Dynamics 365 Sales integration. A few manual steps are required before you complete the configuration in the eMarketeer UI.
+# Dynamics - Installation Process
 
 ## Manual prerequisites
 

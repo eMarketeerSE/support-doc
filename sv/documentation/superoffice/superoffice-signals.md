@@ -1,6 +1,10 @@
-# SuperOffice Signals
+---
+description: >-
+  SuperOffice kan skicka vissa händelser till eMarketeer som Signals, så att du
+  kan lyssna efter dessa händelser och agera på dem i eMarketeer.
+---
 
-SuperOffice kan skicka vissa händelser till eMarketeer som Signals, så att du kan lyssna efter dessa händelser och agera på dem i eMarketeer.
+# SuperOffice Signals
 
 Alla Signals som skickas till eMarketeer kan användas för att:
 

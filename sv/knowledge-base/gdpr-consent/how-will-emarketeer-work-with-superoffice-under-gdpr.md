@@ -1,6 +1,10 @@
-# Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?
+---
+description: >-
+  eMarketeer och SuperOffice håller samtycke och prenumerationsinställningar
+  synkroniserade så att du bara samlar in dem en gång.
+---
 
-eMarketeer och SuperOffice håller samtycke och prenumerationsinställningar synkroniserade så att du bara samlar in dem en gång.
+# Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?
 
 SuperOffice introducerade sina egna samtyckes- och prenumerationsfunktioner under Q1 och Q2 2018. Om du använder båda systemen ska du inte behöva hantera samtycke på två platser.
 

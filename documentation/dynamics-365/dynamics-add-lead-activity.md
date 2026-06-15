@@ -1,6 +1,11 @@
-# Dynamics - Add Lead activity
+---
+description: >-
+  The Add Lead Activity step creates a Task or Phone Call on a Lead record in
+  Microsoft Dynamics 365 Sales, with no fallback to a Contact if no Lead is
+  found.
+---
 
-The **Add Lead Activity** step creates a Task or Phone Call on a Lead record in Microsoft Dynamics 365 Sales. Unlike the generic Add Activity step, this one does not fall back to a Contact if no Lead is found.
+# Dynamics - Add Lead activity
 
 ![Add Lead Activity step configuration in Dynamics](../../../.gitbook/assets/add_lead_activity-1024x907.png)
 

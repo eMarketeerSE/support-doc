@@ -1,6 +1,10 @@
-# Conditionals
+---
+description: >-
+  DCL supports a simple if-elseif-else-endif conditional for testing whether one
+  string equals another.
+---
 
-DCL supports a simple `if-elseif-else-endif` conditional for testing whether one string equals another.
+# Conditionals
 
 Conditional functions follow normal function syntax and always return an empty string. They cannot be used as arguments to other functions. You can test for equality or inequality. There is no concept of boolean operators, but you can simulate AND by nesting conditionals.
 

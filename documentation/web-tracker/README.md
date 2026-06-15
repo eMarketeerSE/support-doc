@@ -1,6 +1,10 @@
-# The Web tracker
+---
+description: >-
+  The eMarketeer Web Tracker records visitor sources and the behavior of
+  individual contacts on your website.
+---
 
-The eMarketeer web tracker records visitor sources and the behavior of individual contacts on your website.
+# The Web tracker
 
 With the tracker installed you can:
 

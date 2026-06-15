@@ -1,10 +1,11 @@
 ---
 icon: link
+description: >-
+  eMarketeer–SuperOffice-integrationen låter marknadsteam skicka
+  affärsmöjligheter, leads och insikter till sälj.
 ---
 
 # SuperOffice-integration
-
-eMarketeer–SuperOffice-integrationen låter marknadsteam skicka affärsmöjligheter, leads och insikter till sälj.
 
 ## Versioner som stöds
 

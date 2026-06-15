@@ -1,6 +1,10 @@
-# Dynamics - Import
+---
+description: >-
+  Import contacts directly from your Microsoft Dynamics 365 Sales Marketing
+  Lists, either as a standalone import or on the fly right before a campaign.
+---
 
-Import contacts directly from your Microsoft Dynamics 365 Sales Marketing Lists. You can do this as a standalone import to build your eMarketeer database, or on the fly right before sending a campaign.
+# Dynamics - Import
 
 ## Integration scope
 

@@ -1,6 +1,10 @@
-# Webinar: Så bygger du mobilappar i eMarketeer
+---
+description: >-
+  Det här webinariet visar hur du använder eMarketeer för att bygga och
+  distribuera mobila webbappar för dina event.
+---
 
-Det här webinariet visar hur du använder eMarketeer för att bygga och distribuera mobila webbappar för dina event.
+# Webinar: Så bygger du mobilappar i eMarketeer
 
 En mobilapp lägger eventinformationen direkt i deltagarnas händer, vilket är ett av de starkaste sätten att hålla din publik engagerad och informerad under ett event. Att bygga och distribuera en app har traditionellt varit ett hinder. eMarketeer låter dig bygga, publicera och distribuera mobila webbappar utan den omkostnaden.
 

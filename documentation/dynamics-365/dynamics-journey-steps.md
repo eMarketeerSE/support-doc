@@ -1,6 +1,10 @@
-# Dynamics - Journey Steps
+---
+description: >-
+  Send data, create records, and log activities directly to your Dynamics CRM
+  from a Journey using the Microsoft Dynamics 365 Sales integration.
+---
 
-With the eMarketeer and Microsoft Dynamics 365 Sales integration, you can send data, create records, and log activities directly to your Dynamics CRM from a Journey.
+# Dynamics - Journey Steps
 
 ## How records sync
 

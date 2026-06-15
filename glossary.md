@@ -1,10 +1,11 @@
 ---
 icon: bookmark
+description: >-
+  Terms used throughout the eMarketeer documentation, with definitions specific
+  to how eMarketeer uses them.
 ---
 
 # Glossary
-
-Terms used throughout the eMarketeer documentation, with definitions specific to how eMarketeer uses them.
 
 ## A
 

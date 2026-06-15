@@ -1,6 +1,10 @@
-# Facebook Lead Forms
+---
+description: >-
+  Anslut Facebook Lead Forms till eMarketeer så att annonsinskick skapar
+  kontakter, sätter lead scores och triggar Journeys automatiskt.
+---
 
-Anslut Facebook Lead Forms till eMarketeer så att annonsinskick skapar kontakter, sätter lead scores och triggar Journeys automatiskt.
+# Facebook Lead Forms
 
 När du annonserar på Facebook kan du koppla en Call to Action till dina annonser för att samla in registreringar, leads och anmälningar. eMarketeers Facebook-kopplare skickar varje inskick från Lead Forms direkt in i eMarketeer.
 

@@ -1,10 +1,12 @@
 ---
 icon: link
+description: >-
+  The eMarketeer integration for Microsoft Dynamics 365 Sales bridges your
+  marketing and sales teams so CRM and marketing automation share one reliable
+  source of truth.
 ---
 
 # Microsoft Dynamics 365
-
-The eMarketeer integration for Microsoft Dynamics 365 Sales bridges your marketing and sales teams so your CRM and marketing automation platform share a single, reliable source of truth.
 
 With Dynamics connected to eMarketeer, you can sync contact preferences, enforce GDPR compliance, import CRM segments on the fly, and automate customer Journeys without creating data silos.
 

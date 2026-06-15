@@ -1,6 +1,10 @@
-# Dynamics - Add Contact to Marketing List
+---
+description: >-
+  The Add Contact to Marketing List step adds a person to a designated Marketing
+  List in your Microsoft Dynamics CRM, targeting Contact records specifically.
+---
 
-The Add Contact to Marketing List step automatically adds a person to a designated Marketing List in your Microsoft Dynamics CRM. This action targets **Contact** records specifically.
+# Dynamics - Add Contact to Marketing List
 
 ![Add Contact to Marketing List step configuration in Dynamics](../../../.gitbook/assets/Add_contact_to_marketing_list-1024x406.png)
 

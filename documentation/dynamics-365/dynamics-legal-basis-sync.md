@@ -1,6 +1,11 @@
-# Dynamics - Legal basis & Subscription sync
+---
+description: >-
+  The eMarketeer integration for Microsoft Dynamics 365 Sales keeps contact
+  preferences and legal compliance up to date automatically, so sales and
+  marketing share a single source of truth.
+---
 
-The eMarketeer integration for Microsoft Dynamics 365 Sales keeps contact preferences and legal compliance up to date automatically. This article explains how eMarketeer bridges its marketing compliance tools with Dynamics so sales and marketing share a single source of truth.
+# Dynamics - Legal basis & Subscription sync
 
 ## 1. How Legal Basis (consent) syncs
 

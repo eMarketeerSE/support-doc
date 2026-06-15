@@ -1,6 +1,10 @@
-# Standardregler för score i eMarketeer
+---
+description: >-
+  eMarketeer levereras med två uppsättningar standardregler för lead scoring, så
+  scoring fungerar direkt, även innan du bygger dina egna regler.
+---
 
-eMarketeer levereras med två uppsättningar standardregler för lead scoring, så scoring fungerar direkt – även innan du bygger dina egna regler.
+# Standardregler för score i eMarketeer
 
 Lead scoring är mest användbart när du skapar regler som är anpassade efter din verksamhet, men standardreglerna ger dig en startpunkt. Standardreglerna är aktiva som standard och tillämpas på varje kontakt på kontot. Det avsedda poängintervallet för standardreglerna är 0–100 poäng.
 

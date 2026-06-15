@@ -1,6 +1,10 @@
-# DKIM saknas eller är felaktigt konfigurerad
+---
+description: >-
+  DKIM är en central del av e-postautentisering och leveransbarhet, och bör
+  finnas i din DNS varje gång du autentiserar en avsändardomän i eMarketeer.
+---
 
-DKIM är en central del av e-postautentisering och leveransbarhet, och den bör finnas på plats i din DNS varje gång du autentiserar en avsändardomän i eMarketeer.
+# DKIM saknas eller är felaktigt konfigurerad
 
 Om eMarketeer rapporterar att DKIM inte fungerar för din domän kan de obligatoriska posterna ha tagits bort från din DNS.
 

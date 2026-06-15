@@ -1,6 +1,10 @@
-# SPF-uppsättning
+---
+description: >-
+  Vad du ska kontrollera när eMarketeer upptäcker ett SPF-problem för någon av
+  dina domäner, och hur du sätter upp det korrekt.
+---
 
-Den här artikeln förklarar vad du ska kontrollera när eMarketeer upptäcker ett SPF-problem för någon av dina domäner, och hur du sätter upp det korrekt.
+# SPF-uppsättning
 
 SPF (Sender Policy Framework) är ett protokoll för e-postautentisering som låter domänägare ange vilka e-postservrar som är auktoriserade att skicka e-post för domänens räkning. Det fungerar genom att en TXT-post publiceras i DNS som listar de auktoriserade avsändarhostarna eller tjänsterna.
 

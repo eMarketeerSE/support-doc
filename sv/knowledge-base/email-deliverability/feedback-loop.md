@@ -1,6 +1,10 @@
-# Feedback loop för e-post
+---
+description: >-
+  Vad feedback loop-data är, hur eMarketeer använder det och hur du agerar på
+  informationen.
+---
 
-Den här artikeln förklarar vad feedback loop-data är, hur eMarketeer använder det och hur du agerar på informationen.
+# Feedback loop för e-post
 
 ### Vad det betyder
 

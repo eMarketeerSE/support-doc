@@ -1,6 +1,11 @@
-# SuperOffice-integrationen – funktioner och flöden
+---
+description: >-
+  eMarketeer-integrationen för SuperOffice CRM kopplar marknadsaktivitet till
+  CRM-systemet, så att sälj ser lead- och engagemangsdata utan manuell
+  överlämning.
+---
 
-eMarketeer-integrationen för SuperOffice CRM kopplar marknadsaktivitet till CRM-systemet, så att sälj ser lead- och engagemangsdata utan manuell överlämning.
+# SuperOffice-integrationen – funktioner och flöden
 
 Den här artikeln förklarar de vanligaste användningsfallen, hur integrationsgränssnittet fungerar, hur kontakter rör sig mellan systemen, vad automationer kan göra, vilka webbpaneler som finns och hur laglig grund hanteras.
 

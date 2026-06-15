@@ -1,10 +1,11 @@
 ---
 hidden: true
+description: >-
+  eMarketeer and SuperOffice keep consent and subscription preferences in sync
+  so you only collect them once.
 ---
 
 # How will eMarketeer work with SuperOffice in compliance with GDPR?
-
-eMarketeer and SuperOffice keep consent and subscription preferences in sync so you only collect them once.
 
 SuperOffice introduced its own consent and subscription features during Q1 and Q2 2018. If you use both systems, you should not have to manage consent in two places.
 

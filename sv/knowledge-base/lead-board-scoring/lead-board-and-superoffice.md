@@ -1,6 +1,11 @@
-# Lead Board för SuperOffice
+---
+description: >-
+  eMarketeer Lead Board kan användas helt och hållet via SuperOffice, så sälj
+  kan hantera leads samtidigt som de använder eMarketeer-webbpanelerna för
+  insikter.
+---
 
-eMarketeer Lead Board kan användas helt och hållet via SuperOffice, så sälj kan hantera leads från SuperOffice samtidigt som de använder eMarketeer-webbpanelerna för insikter om kontakter och företag.
+# Lead Board för SuperOffice
 
 Nya leads matchas automatiskt mot kontakter i SuperOffice och tilldelas automatiskt till ansvarig sales user.
 

@@ -1,6 +1,10 @@
-# Actions performed during SuperOffice integration setup
+---
+description: >-
+  When you integrate eMarketeer with SuperOffice, several items are added to
+  SuperOffice automatically so eMarketeer features show up in the client.
+---
 
-When you integrate eMarketeer with SuperOffice, several items are added to SuperOffice automatically so eMarketeer features show up inside the SuperOffice client.
+# Actions performed during SuperOffice integration setup
 
 On SuperOffice 7.3 and newer, these actions run automatically. On older versions, they need to be performed manually.
 

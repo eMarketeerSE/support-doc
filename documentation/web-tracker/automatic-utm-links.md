@@ -1,6 +1,10 @@
-# Automatic UTM links
+---
+description: >-
+  eMarketeer automatically adds UTM parameters to links in your emails and
+  landing pages so web analytics can attribute visits correctly.
+---
 
-eMarketeer automatically adds UTM parameters to links in your emails and landing pages so web analytics — including the eMarketeer Web Tracker and tools like Google Analytics — can attribute visits correctly.
+# Automatic UTM links
 
 These are the UTM parameters added to your links when created in eMarketeer emails and landing pages.
 

@@ -1,6 +1,11 @@
-# Automatiska UTM-länkar
+---
+description: >-
+  eMarketeer lägger automatiskt till UTM-parametrar i länkar i dina
+  e-postutskick och landningssidor så att webbanalys kan attribuera besök
+  korrekt.
+---
 
-eMarketeer lägger automatiskt till UTM-parametrar i länkar i dina e-postutskick och landningssidor så att webbanalys — inklusive eMarketeer Web Tracker och verktyg som Google Analytics — kan attribuera besök korrekt.
+# Automatiska UTM-länkar
 
 Detta är de UTM-parametrar som läggs till i dina länkar när de skapas i eMarketeers e-postmeddelanden och landningssidor.
 

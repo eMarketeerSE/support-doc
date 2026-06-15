@@ -1,6 +1,13 @@
+---
+description: >-
+  SuperOffice-automatiseringar utlöser åtgärder i SuperOffice när en kontakt
+  interagerar med en eMarketeer-kampanj, till exempel genom att klicka på en
+  länk eller skicka in ett formulär.
+---
+
 # SuperOffice-automatiseringar
 
-SuperOffice-automatiseringar låter dig utlösa åtgärder i SuperOffice när en kontakt interagerar med en eMarketeer-kampanj — till exempel genom att klicka på en länk eller skicka in ett formulär. Varje automatisering körs på den kontakt som utlöste den och skapar motsvarande objekt — affär, uppgift, notifiering, intresseuppdatering, projektmedlemskap eller urvalmedlemskap — direkt i SuperOffice.
+Varje automatisering körs på den kontakt som utlöste den och skapar motsvarande objekt — affär, uppgift, notifiering, intresseuppdatering, projektmedlemskap eller urvalmedlemskap — direkt i SuperOffice.
 
 ## Konfigurera en automatisering
 

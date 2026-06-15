@@ -1,6 +1,10 @@
-# SMS Sender ID
+---
+description: >-
+  The Sender ID is the name or number a contact sees when they receive your SMS.
+  Learn how to request your own and where the feature has limitations.
+---
 
-The Sender ID is the name or number a contact sees when they receive your SMS. This article explains what Sender ID is, how to request your own, and where the feature has limitations.
+# SMS Sender ID
 
 .png>)
 

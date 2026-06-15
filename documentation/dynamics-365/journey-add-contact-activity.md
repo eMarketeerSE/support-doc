@@ -1,6 +1,10 @@
-# Dynamics - Add contact activity
+---
+description: >-
+  The Add Contact Activity step creates a Task or Phone Call on a Contact record
+  in your Microsoft Dynamics CRM.
+---
 
-The Add Contact Activity step creates a Task or Phone Call on a Contact record in your Microsoft Dynamics CRM.
+# Dynamics - Add contact activity
 
 Unlike the generic Add Activity step, this action does not fall back to a Lead when a Contact is missing. Use it when the activity must be tied to a Dynamics Contact specifically.
 

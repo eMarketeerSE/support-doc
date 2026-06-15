@@ -1,6 +1,8 @@
-# Dynamics - Funktioner
+---
+description: Ett index över de huvudsakliga funktionsområdena i integrationen med Microsoft Dynamics 365 Sales.
+---
 
-Ett index över de huvudsakliga funktionsområdena i integrationen med Microsoft Dynamics 365 Sales.
+# Dynamics - Funktioner
 
 - [Consent & Subscription Sync](dynamics-legal-basis-sync.md): hur den automatiserade synkmotorn i flera nivåer hanterar Legal Basis och granulära e-postprenumerationer för att hålla båda systemen i linje och regelefterlevande.
 - [Importera Kontakter & Listor](dynamics-import.md): hur du hämtar Dynamics Contact Marketing Lists till eMarketeer, antingen som en standardimport eller direkt innan ett e-postutskick.

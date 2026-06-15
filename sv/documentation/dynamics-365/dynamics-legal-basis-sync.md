@@ -1,6 +1,11 @@
-# Dynamics - Synkronisering av rättslig grund och prenumerationer
+---
+description: >-
+  eMarketeer-integrationen för Microsoft Dynamics 365 Sales håller
+  kontaktpreferenser och regelefterlevnad uppdaterade automatiskt, så att sälj
+  och marknad delar en enda källa till sanning.
+---
 
-eMarketeer-integrationen för Microsoft Dynamics 365 Sales håller kontaktpreferenser och regelefterlevnad uppdaterade automatiskt. Den här artikeln förklarar hur eMarketeer broar samman sina verktyg för marknadsföringsefterlevnad med Dynamics så att sälj och marknad delar en enda källa till sanning.
+# Dynamics - Synkronisering av rättslig grund och prenumerationer
 
 ## 1. Så synkroniseras rättslig grund (samtycke)
 

@@ -1,6 +1,10 @@
-# On premise: installation process
+---
+description: >-
+  Requirements and high-level steps for integrating an on-premise SuperOffice
+  installation with eMarketeer.
+---
 
-This article outlines the requirements and high-level steps for integrating an on-premise SuperOffice installation with eMarketeer.
+# On premise: installation process
 
 ## Requirements
 

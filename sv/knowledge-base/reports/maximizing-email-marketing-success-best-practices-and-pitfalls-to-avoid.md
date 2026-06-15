@@ -1,10 +1,11 @@
 ---
 hidden: true
+description: >-
+  Tio metoder som skyddar din leveransförmåga och förbättrar engagemanget när du
+  skickar marknadsföringsmejl från eMarketeer.
 ---
 
 # Maximera framgången inom e-postmarknadsföring: 10 bästa metoder och fallgropar att undvika
-
-Tio metoder som skyddar din leveransförmåga och förbättrar engagemanget när du skickar marknadsföringsmejl från eMarketeer.
 
 Framgången för ett e-postprogram beror lika mycket på vad du undviker som vad du gör. Punkterna nedan täcker de vanligaste fallgroparna och de metoder som gör att dina kampanjer landar i inkorgen.
 

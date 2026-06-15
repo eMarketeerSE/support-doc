@@ -1,6 +1,11 @@
-# Språksyntax
+---
+description: >-
+  DCL har en enkel struktur byggd på tre termer: funktion, argument och värde.
+  Varje funktion returnerar en sträng och tar namngivna argument vars värden är
+  strängar.
+---
 
-DCL har en enkel struktur byggd på tre termer: funktion, argument och värde. Varje funktion returnerar en sträng och tar namngivna argument vars värden är strängar.
+# Språksyntax
 
 Exemplet nedan skriver ut förnamnet från kontaktkortet.
 

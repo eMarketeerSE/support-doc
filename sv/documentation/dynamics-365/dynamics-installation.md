@@ -1,6 +1,10 @@
-# Dynamics - Installationsprocess
+---
+description: >-
+  Konfigurera integrationen med Microsoft Dynamics 365 Sales. Några manuella
+  steg krävs innan du slutför konfigurationen i eMarketeer-gränssnittet.
+---
 
-Konfigurera integrationen med Microsoft Dynamics 365 Sales. Några manuella steg krävs innan du slutför konfigurationen i eMarketeer-gränssnittet.
+# Dynamics - Installationsprocess
 
 ## Manuella förutsättningar
 

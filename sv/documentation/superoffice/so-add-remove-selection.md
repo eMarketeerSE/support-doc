@@ -1,3 +1,9 @@
+---
+description: >-
+  Journey-steg som lägger till eller tar bort en kontakt från ett urval i
+  SuperOffice.
+---
+
 # Lägg till / Ta bort från urval
 
 Lägger till eller tar bort en kontakt från ett urval i SuperOffice.

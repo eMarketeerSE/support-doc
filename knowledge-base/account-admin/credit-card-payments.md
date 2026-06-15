@@ -1,6 +1,8 @@
-# Credit card payments (Administrator)
+---
+description: Credit cards are the payment method for your eMarketeer subscription.
+---
 
-Credit cards are the payment method for your eMarketeer subscription.
+# Credit card payments (Administrator)
 
 eMarketeer bills in arrears, so your subscription is charged at the end of each month of use. You register a credit card on the account, and eMarketeer captures the amount owed at the end of each month for as long as the subscription runs. When you cancel the subscription or register a different card, the old card is removed from the system.
 

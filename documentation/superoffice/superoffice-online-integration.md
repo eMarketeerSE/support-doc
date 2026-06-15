@@ -1,6 +1,8 @@
-# SuperOffice Online integration
+---
+description: Connect SuperOffice Online to eMarketeer, step by step.
+---
 
-This article walks through connecting SuperOffice Online to eMarketeer.
+# SuperOffice Online integration
 
 ## Requirements
 

@@ -1,6 +1,10 @@
-# Åtgärder som utförs vid uppsättning av SuperOffice-integrationen
+---
+description: >-
+  När du integrerar eMarketeer med SuperOffice läggs flera objekt till i
+  SuperOffice automatiskt, så att eMarketeer-funktioner syns i klienten.
+---
 
-När du integrerar eMarketeer med SuperOffice läggs flera objekt till i SuperOffice automatiskt, så att eMarketeer-funktioner syns inne i SuperOffice-klienten.
+# Åtgärder som utförs vid uppsättning av SuperOffice-integrationen
 
 På SuperOffice 7.3 och nyare körs dessa åtgärder automatiskt. På äldre versioner måste de utföras manuellt.
 

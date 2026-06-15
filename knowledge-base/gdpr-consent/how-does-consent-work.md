@@ -1,6 +1,10 @@
-# How does consent work?
+---
+description: >-
+  Consent in eMarketeer is built from four parts: purpose, legal base, source,
+  and the option to withdraw.
+---
 
-Consent in eMarketeer is built from four parts: purpose, legal base, source, and the option to withdraw.
+# How does consent work?
 
 You use eMarketeer to store contact information imported from other systems, collect more contact data through web forms, and send emails and SMS for various purposes. The information you store belongs to your contacts (the data subject), and you use it to communicate with them. GDPR gives each contact more control over the information you hold and shapes how you may communicate with them.
 

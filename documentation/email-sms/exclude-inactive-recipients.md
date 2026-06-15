@@ -1,6 +1,11 @@
-# Exclude inactive recipients
+---
+description: >-
+  When you address a campaign in eMarketeer, you can exclude inactive contacts
+  from the send-out. Learn what an inactive address is and why to stop sending
+  to those contacts.
+---
 
-When you address a campaign in eMarketeer, you can exclude inactive contacts from the send-out. This article explains what an inactive email address is and why you should stop sending to those contacts.
+# Exclude inactive recipients
 
 ## What is an inactive email address?
 

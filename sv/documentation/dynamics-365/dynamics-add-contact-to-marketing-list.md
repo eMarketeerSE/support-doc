@@ -1,6 +1,11 @@
-# Dynamics - Add Contact to Marketing List
+---
+description: >-
+  Steget Add Contact to Marketing List lägger till en person i en specifik
+  Marketing List i din Microsoft Dynamics CRM, och riktar sig specifikt mot
+  Contact-poster.
+---
 
-Steget Add Contact to Marketing List lägger automatiskt till en person i en specifik Marketing List i din Microsoft Dynamics CRM. Denna åtgärd riktar sig specifikt mot **Contact**-poster.
+# Dynamics - Add Contact to Marketing List
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Add_contact_to_marketing_list-1024x406.png" alt="Konfiguration av steget Add Contact to Marketing List i Dynamics"></div>
 

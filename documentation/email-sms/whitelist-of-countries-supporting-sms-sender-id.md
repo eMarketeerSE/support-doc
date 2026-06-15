@@ -1,6 +1,10 @@
-# Whitelist of countries supporting SMS Sender ID
+---
+description: >-
+  The countries where eMarketeer can send SMS using an alphanumeric Sender ID.
+  Support varies by country and operator.
+---
 
-This article lists the countries where eMarketeer can send SMS messages using an alphanumeric Sender ID.
+# Whitelist of countries supporting SMS Sender ID
 
 Sender ID support varies by country and operator. Use this list to confirm whether your recipients see your Sender ID or a fallback phone number.
 

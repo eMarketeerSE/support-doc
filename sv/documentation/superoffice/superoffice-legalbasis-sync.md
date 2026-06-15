@@ -1,6 +1,11 @@
-# SuperOffice Legal Basis Sync
+---
+description: >-
+  eMarketeer och SuperOffice har var sin egen samtyckesdatabas. Legal
+  basis-synken håller båda i takt automatiskt, så att en ändring i ett system
+  speglas i det andra.
+---
 
-eMarketeer och SuperOffice har var sin egen samtyckesdatabas. Legal basis-synken håller båda i takt automatiskt, så att en ändring i ett system speglas i det andra.
+# SuperOffice Legal Basis Sync
 
 ## Krav
 

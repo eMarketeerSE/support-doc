@@ -1,6 +1,10 @@
-# When is an email registered as opened?
+---
+description: >-
+  An email is registered as opened when images load in the recipient's email
+  client, or when the recipient clicks a link in the message.
+---
 
-An email is registered as opened when images load in the recipient's email client, or when the recipient clicks a link in the message.
+# When is an email registered as opened?
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-04-27_11-57-42.png" alt="Email report graph with the number of opened emails highlighted"></div>
 

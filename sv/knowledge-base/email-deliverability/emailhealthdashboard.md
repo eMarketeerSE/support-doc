@@ -1,6 +1,10 @@
-# Email Health Dashboard
+---
+description: >-
+  En åtgärdbar bild av din e-postleveransbarhet och ditt avsändarrykte, så att
+  du kan upptäcka problem innan de påverkar inkorgsplaceringen.
+---
 
-Email Health Dashboard ger dig en åtgärdbar bild av din e-postleveransbarhet och ditt avsändarrykte, så att du kan upptäcka problem innan de påverkar inkorgsplaceringen.
+# Email Health Dashboard
 
 KPI:er på hög nivå, trenddiagram och detaljerade tabeller hjälper dig att se var problemen uppstår och borra ner till exakt vilka domäner eller konton som behöver uppmärksamhet.
 

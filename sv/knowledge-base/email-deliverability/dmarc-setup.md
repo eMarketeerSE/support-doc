@@ -1,6 +1,10 @@
-# Konfigurera DMARC
+---
+description: >-
+  Publicera en DMARC-post i din DNS så att mottagande servrar vet hur de ska
+  hantera e-post som misslyckas med autentisering för din domän.
+---
 
-Publicera en DMARC-post i din DNS så att mottagande servrar vet hur de ska hantera e-post som misslyckas med autentisering för din domän.
+# Konfigurera DMARC
 
 DMARC (Domain-based Message Authentication, Reporting & Conformance) bygger på SPF och DKIM och talar om för e-postmottagare hur de ska hantera oautentiserad e-post som påstås komma från din domän. Den låter dig också ta emot rapporter om autentiseringsresultat. En korrekt konfigurerad DMARC-post skyddar din domän mot spoofing och nätfiske och förbättrar leveransbarheten.
 

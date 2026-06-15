@@ -1,6 +1,10 @@
-# SMS Sender ID
+---
+description: >-
+  Sender ID är namnet eller numret som en kontakt ser när de tar emot ditt SMS.
+  Lär dig hur du begär ett eget och var funktionen har begränsningar.
+---
 
-Sender ID är namnet eller numret som en kontakt ser när de tar emot ditt SMS. Den här artikeln förklarar vad Sender ID är, hur du begär ett eget och var funktionen har begränsningar.
+# SMS Sender ID
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Sms_sender_id.png" alt="SMS Sender ID visat på en mobiltelefon"></div>
 

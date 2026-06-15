@@ -1,10 +1,12 @@
 ---
 icon: brackets-curly
+description: >-
+  The eMarketeer API gives you programmatic access to your account data: upsert
+  and delete contacts, manage lists, trigger sends, and push custom engagement
+  events from external systems.
 ---
 
 # API
-
-The eMarketeer API gives you programmatic access to data in your account. You can upsert and delete contacts, manage lists, trigger sends, and push custom engagement events from external systems.
 
 The API is an OpenAPI-documented REST API. The reference portal at [api-doc.emarketeer.com](https://api-doc.emarketeer.com/) lets you browse all available endpoints, view request and response schemas, and test calls directly in the browser.
 
