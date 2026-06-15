@@ -1,12 +1,13 @@
 ---
 description: >-
-  The eMarketeer integration for SuperOffice CRM connects marketing activity to
-  the CRM so sales sees lead and engagement data without manual handoffs.
+  The common use cases for the SuperOffice integration, how its interface works,
+  how contacts move between the systems, what automations can do, the available
+  web panels, and how legal basis is handled.
 ---
 
 # The SuperOffice Integration - features and flows
 
-This article explains the common use cases, how the integration interface works, how contacts move between the systems, what automations can do, the available web panels, and how legal basis is handled.
+The eMarketeer integration for SuperOffice CRM connects marketing activity to the CRM so sales sees lead and engagement data without manual handoffs.
 
 ## Common use cases
 
