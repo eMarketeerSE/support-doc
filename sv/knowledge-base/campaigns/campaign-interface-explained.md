@@ -10,22 +10,20 @@ Den här artikeln beskriver kampanjgränssnittet, med fokus på vyn Components.
 
 Vänstra sidan av skärmen innehåller menyn Add components och snabblänkar för kontakthantering och automationer. Högra sidan visar kampanjens olika vyer.
 
-Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form.md), [SMS](../getting-started/basics-creating-sms.md) och [Webpages](../developer-advanced/creating-first-webpage.md), plus en underkomponent, Mobile apps.
+Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form-new.md), [SMS](../getting-started/basics-creating-sms.md) och [Webpages](../developer-advanced/creating-first-webpage.md), plus en underkomponent, Mobile apps.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/campaign-UI-numbers.png" alt="Kampanjens gränssnitt"></div>
-
-Kampanjens användargränssnitt
 
 ## 1. Kampanjvyer
 
 Under kampanjens sökväg, namn och beskrivning ligger flera flikar. Varje flik är en separat vy av kampanjen:
 
-* Dashboard Bygg kampanjspecifika rapporter med rapportwidgets. Se [campaign reports](../reports/how-to-use-emarketeer-campaign-reports.md).
-* Components Standardvyn. Organisera och visa kampanjens komponenter. Siffran inom parentes visar hur många komponenter kampanjen har.
-* Contacts Listar kontakter som lagts till i kampanjen, antingen importerade direkt eller automatiskt tillagda genom interaktion. Siffran inom parentes visar hur många kontakter som för närvarande är kopplade till kampanjen. [Läs mer](campaign-contacts.md).
-* Event history Visar händelser för utskickade e-post eller SMS. Granska när en komponent skickades, samt granska eller avbryt kommande schemalagda utskick. Siffran inom parentes visar schemalagda utskick som väntar i kampanjen.
-* Automation Lägg till automatiserade åtgärder i kampanjen. Automationer triggas av att en kontakt interagerar med en komponent, så kampanjen måste innehålla minst en komponent. Siffran inom parentes visar hur många automationer som finns i kampanjen.
-* Fields Definiera fält som är unika för kampanjen och som kan flätas in i komponentinnehåll som variabler. Att redigera ett fältvärde ersätter variabeln i varje komponent som använder det. [Läs mer om kampanjfält](how-to-use-campaign-fields-in-emarketeer.md).
+* **Dashboard** — Bygg kampanjspecifika rapporter med rapportwidgets. Se [campaign reports](../reports/how-to-use-emarketeer-campaign-reports.md).
+* **Components** — Standardvyn. Organisera och visa kampanjens komponenter. Siffran inom parentes visar hur många komponenter kampanjen har.
+* **Contacts** — Listar kontakter som lagts till i kampanjen, antingen importerade direkt eller automatiskt tillagda genom interaktion. Siffran inom parentes visar hur många kontakter som för närvarande är kopplade till kampanjen. [Läs mer](campaign-contacts.md).
+* **Event history** — Visar händelser för utskickade e-post eller SMS. Granska när en komponent skickades, samt granska eller avbryt kommande schemalagda utskick. Siffran inom parentes visar schemalagda utskick som väntar i kampanjen.
+* **Automation** — Lägg till automatiserade åtgärder i kampanjen. Automationer triggas av att en kontakt interagerar med en komponent, så kampanjen måste innehålla minst en komponent. Siffran inom parentes visar hur många automationer som finns i kampanjen.
+* **Fields** — Definiera fält som är unika för kampanjen och som kan flätas in i komponentinnehåll som variabler. Att redigera ett fältvärde ersätter variabeln i varje komponent som använder det. [Läs mer om kampanjfält](how-to-use-campaign-fields-in-emarketeer.md).
 
 ## 2. Vyspecifikt område
 
@@ -39,10 +37,10 @@ Miniatyrer visas inte i någon särskild ordning, men du kan ordna om dem med dr
 
 Under varje miniatyr finns en meny med Edit, Send/Publish och Reports. Det här är komponentens huvudsektioner:
 
-* Edit Öppnar komponenteditorn där du ändrar komponentens innehåll.
-* Send Öppnar sidan Send options. Skicka eller schemalägg en komponent. Tillgängligt endast för e-post och SMS.
-* Publish Öppnar sidan Publish options. Visar komponentens direkt-URL och andra publiceringsalternativ. Tillgängligt endast för formulär och webbsidor.
-* Reports Öppnar komponentrapporten. Varje komponenttyp har sin egen rapport med olika mätvärden.
+* **Edit** — Öppnar komponenteditorn där du ändrar komponentens innehåll.
+* **Send** — Öppnar sidan Send options. Skicka eller schemalägg en komponent. Tillgängligt endast för e-post och SMS.
+* **Publish** — Öppnar sidan Publish options. Visar komponentens direkt-URL och andra publiceringsalternativ. Tillgängligt endast för formulär och webbsidor.
+* **Reports** — Öppnar komponentrapporten. Varje komponenttyp har sin egen rapport med olika mätvärden.
 
 Under komponentens huvudmeny finns ett område med extra information om komponenten, till exempel typ och användningsstatistik. Under det finns menyn More actions.
 
@@ -50,8 +48,8 @@ Under komponentens huvudmeny finns ett område med extra information om komponen
 
 Den här menyn ger alternativ för att hantera komponenten:
 
-* Delete Tar bort komponenten från kampanjen. När en komponent tas bort försvinner dess rapport och kopplad statistik. Kontaktinteraktioner med komponenten tas bort från kontaktens Engagement-tidslinje.
-* Rename Byter namn på komponenten. Namnet är endast synligt för eMarketeer-användare, inte för kontakter.
-* Copy Skapar en kopia i kampanjen med namnet "Copy of \[komponentnamn]". Kopian har en ren rapport men är i övrigt identisk med originalet.
-* Move Flyttar komponenten till en annan kampanj. Interna länkar till komponenter i ursprungskampanjen kan sluta fungera i den nya kampanjen.
-* Make template Skapar en kopia av komponenten som en mall, tillgänglig i menyn Add components under My templates. My templates listar alla sparade mallar på ditt konto.
+* **Delete** — Tar bort komponenten från kampanjen. När en komponent tas bort försvinner dess rapport och kopplad statistik. Kontaktinteraktioner med komponenten tas bort från kontaktens Engagement-tidslinje.
+* **Rename** — Byter namn på komponenten. Namnet är endast synligt för eMarketeer-användare, inte för kontakter.
+* **Copy** — Skapar en kopia i kampanjen med namnet "Copy of \[komponentnamn]". Kopian har en ren rapport men är i övrigt identisk med originalet.
+* **Move** — Flyttar komponenten till en annan kampanj. En komponent kan inte finnas utanför en kampanj, så du flyttar den till en annan kampanj, aldrig till en mapp. Interna länkar till komponenter i ursprungskampanjen kan sluta fungera i den nya.
+* **Make template** — Skapar en kopia av komponenten som en mall, tillgänglig i menyn Add components under My templates. My templates listar alla sparade mallar på ditt konto.
