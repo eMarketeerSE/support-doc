@@ -1,7 +1,7 @@
 ---
 description: >-
-  A step-by-step guide to creating a Form in eMarketeer, from setup
-  through the thank-you page and optional confirmation email.
+  A step-by-step guide to creating a Form in eMarketeer, from setup through the
+  thank-you page and optional confirmation email.
 layout:
   width: default
   title:
@@ -38,13 +38,13 @@ By the end you will have a working form with a thank-you page and an optional co
 
 From the campaign where you want to create the form, click **Add Form**.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/AddForm.png" alt="Add Form button on the campaign page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddForm.png" alt="Add Form button on the campaign page"></div>
 {% endstep %}
 
 {% step %}
 ### Fill in settings, choose a template, create the form
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/FormSettings.png" alt="Form settings and template selection dialog"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormSettings.png" alt="Form settings and template selection dialog"></div>
 
 **Settings**
 
@@ -64,7 +64,7 @@ Once settings and template are set, click **Create Form** to create the componen
 
 After you click **Create Form**, the editor opens with the Designer tab active. The left-side menu (Toolbox) lets you add form fields by dragging them onto the design surface — the centre area where you structure the form layout and add pages. The **Event Registration** template opens with three pages: **Personal information**, **Guests**, and **Last things**.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/FormEditor.png" alt="Form editor with Toolbox on the left and the design surface in the centre"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormEditor.png" alt="Form editor with Toolbox on the left and the design surface in the centre"></div>
 
 For a full reference of all tabs and options, see [Form editor: UI overview](../../documentation/forms/ui-overview.md).
 {% endstep %}
@@ -74,7 +74,7 @@ For a full reference of all tabs and options, see [Form editor: UI overview](../
 
 Many templates open with a Survey title and Survey description at the top. Click either text in the design surface to edit it, or adjust it in the General Survey settings.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/TitleAndDescriptionEditing.png" alt="Editing the survey title and description in the design surface"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TitleAndDescriptionEditing.png" alt="Editing the survey title and description in the design surface"></div>
 {% endstep %}
 
 {% step %}
@@ -92,15 +92,15 @@ To make a field required, click the **\* Required** button (shown as **\*** on s
 
 Many eMarketeer form templates use placeholder texts instead of question titles — the titles are hidden by default through field settings, so the label appears inside the input rather than above it.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/AdjustFormFields.png" alt="Editing contact fields on the Personal information page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AdjustFormFields.png" alt="Editing contact fields on the Personal information page"></div>
 
 If visible titles are preferred, they can be enabled in the form field **Layout** properties, under the **Question title alignment** dropdown for individual questions — or in bulk by updating the page's **Question Settings**.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/PageQuestionSettings.png" alt="Question Settings panel on a form page, showing the Question title alignment option"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/PageQuestionSettings.png" alt="Question Settings panel on a form page, showing the Question title alignment option"></div>
 
 To save your progress, click the floppy-disk icon above the design surface.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/SaveButton.png" alt="Save button (floppy-disk icon) above the design surface"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SaveButton.png" alt="Save button (floppy-disk icon) above the design surface"></div>
 {% endstep %}
 
 {% step %}
@@ -123,7 +123,7 @@ After a visitor submits, they are shown the thank-you page to confirm their answ
 
 Open the thank-you page settings by clicking **Survey Settings** (next to the Save button) above the design surface, then click the **Thank You Page** (crossed flags icon) in the right-side Property Grid.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/ThankYouPage.png" alt="Thank-you page options in the Property Grid"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ThankYouPage.png" alt="Thank-you page options in the Property Grid"></div>
 
 To change the text shown on the thank-you page, edit the **Thank You page markup** field. To redirect visitors to an external URL after submission, use the **Redirect to an external link after submission** option.
 
@@ -137,7 +137,7 @@ The thank-you page still shows briefly before redirecting unless **Show the "Tha
 
 Confirmation email settings let you send a copy of each submission to a specified email address, and send a copy of the answers back to the person who submitted them.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/ConfirmationEmail.png" alt="Confirmation email editor with sender fields and email body"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ConfirmationEmail.png" alt="Confirmation email editor with sender fields and email body"></div>
 
 1. Click the **Confirmation** button, then enable the feature using the toggle in the top-right corner.
 2. Fill in the sender information (required):
@@ -156,7 +156,7 @@ Confirmation email settings let you send a copy of each submission to a specifie
 
 Once your form is ready, click **Publish** in the editor top bar.
 
-<div align="left" data-with-frame="true"><img src="../../assets/first-form/FormPublish.png" alt="Publish panel showing Hosted URL and embed options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormPublish.png" alt="Publish panel showing Hosted URL and embed options"></div>
 
 * **Hosted URL:** A shareable link to the form. The form displays as it appears in the Preview tab. Share it directly via social media, a chat message, or a link on your website.
 * **Embed on your website:** Places the form on a web page using a script snippet. See [Embed forms on your website](../../documentation/forms/publish-a-form.md) for the full setup guide.

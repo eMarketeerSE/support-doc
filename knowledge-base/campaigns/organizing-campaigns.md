@@ -12,7 +12,7 @@ A campaign works like a project that groups related components together — for 
 
 The Campaigns list gives you an overview of every campaign without opening any of them. The Contents column lists how many of each component type a campaign holds, so you can see what's inside at a glance. You can also see who created each campaign and when. Campaigns are sorted with the most recently created first.
 
-<div data-with-frame="true" align="left"><img src="../../assets/organizing-campaigns/campaign-listing.png" alt="The Campaigns list view showing the Contents column, creator, and creation date."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/campaign-listing.png" alt="The Campaigns list view showing the Contents column, creator, and creation date."></div>
 
 ## Organize campaigns into folders
 

@@ -154,7 +154,7 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 **Consent** Stores consent on the identified contact. Use the **Consent Type** dropdown to set the purpose: **Store & Process** or **Marketing**. Consent questions are not required by default — set them to required if the contact must consent before submitting.
 
-<div align="left" data-with-frame="true"><img src="../../assets/ui-overview/consent.png" alt="Two Consent questions on the design surface, one for each purpose — Store & Process and Marketing."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/consent.png" alt="Two Consent questions on the design surface, one for each purpose — Store &#x26; Process and Marketing."></div>
 
 </details>
 
@@ -164,7 +164,7 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 **Captcha** Adds an "I'm not a robot" checkbox to the form. The label is translated to the form's set language. The captcha is required, and a form cannot be saved without it.
 
-<div align="left" data-with-frame="true"><img src="../../assets/ui-overview/captcha.png" alt="A Captcha 'I'm not a robot' checkbox on the design surface."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/captcha.png" alt="A Captcha &#x27;I&#x27;m not a robot&#x27; checkbox on the design surface."></div>
 
 </details>
 

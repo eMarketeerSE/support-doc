@@ -8,7 +8,7 @@ description: >-
 
 Adds or removes an interest code from a contact in SuperOffice. Interests are found on the Interests tab of the contact card in SuperOffice.
 
-<div align="left" data-with-frame="true"><img src="../../assets/so-journey-steps/AddRemoveInterest.png" alt="Add or remove interest step settings panel"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRemoveInterest.png" alt="Add or remove interest step settings panel"></div>
 
 ## Settings
 

@@ -21,7 +21,7 @@ Use it to understand which sources drive high-quality traffic, see which campaig
 
 The dashboard draws your marketing as a flow that reads left to right. Each stage feeds the next, and the width of each path reflects how much volume moves through it.
 
-<div data-with-frame="true" align="left"><img src="../../assets/traffic-analyzer/traffic_analyzer_overview.png" alt="The Traffic Analyzer flow, reading left to right from traffic source to qualified lead."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/traffic_analyzer_overview.png" alt="The Traffic Analyzer flow, reading left to right from traffic source to qualified lead."></div>
 
 The stages are:
 
@@ -47,7 +47,7 @@ A set of controls lets you shape the view:
 
 Click any node in the flow to open two options: **Drill down** and **Filter**.
 
-<div data-with-frame="true" align="left"><img src="../../assets/traffic-analyzer/NodeOptions.png" alt="The Drill down and Filter options shown when a node is clicked."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/NodeOptions.png" alt="The Drill down and Filter options shown when a node is clicked."></div>
 
 ### Drill down into a node
 
@@ -57,7 +57,7 @@ A few examples:
 
 * **Paid Social** — drill down to see how your paid social channels perform over the period: how many sessions they created, how many conversions, and how many leads (MQLs) came from that source.
 * **Campaign** — drill down on a specific campaign to see how it performs in numbers: which traffic and marketing sources drove the most traffic to it, and how well it converts and generates leads.
-* **MQL** — to see what drives new leads, drill down on the MQL node. It ranks the traffic sources, marketing sources, campaigns, and conversion points at each stage, so you can see which performs best. To start working with leads, see [Lead management](../lead-board-scoring/README.md).
+* **MQL** — to see what drives new leads, drill down on the MQL node. It ranks the traffic sources, marketing sources, campaigns, and conversion points at each stage, so you can see which performs best. To start working with leads, see [Lead management](../lead-board-scoring/).
 
 ### Filter
 

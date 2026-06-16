@@ -1,11 +1,10 @@
 ---
-description: >-
-  Journey step that adds or removes a contact from a project in SuperOffice.
+description: Journey step that adds or removes a contact from a project in SuperOffice.
 ---
 
 # Add / Remove from project
 
-<div align="left" data-with-frame="true"><img src="../../assets/so-journey-steps/AddRemoveFromProject.png" alt="Add or remove from project step settings panel"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRemoveFromProject.png" alt="Add or remove from project step settings panel"></div>
 
 ## Settings
 

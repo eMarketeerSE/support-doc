@@ -25,7 +25,7 @@ Most widgets always show the latest activity in your account. Only the Sendouts 
 
 **Sendouts and Web Sessions** is the timeline at the top. It plots your email sendouts alongside website sessions over the selected period, so it works both as your account's email timeline and as a way to correlate website engagement with what you send. Use the date range selector (top right) to change the period — this is the only widget the date range affects. Below the graph, each email icon and number marks the emails sent on that date; click one to see which emails went out that day and to open an individual component report.
 
-<div data-with-frame="true" align="left"><img src="../../assets/operational-report/operational_sendouts_websessions.png" alt="The Sendouts and Web Sessions timeline, plotting email sendouts against website sessions, with clickable email markers below the graph."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/operational_sendouts_websessions.png" alt="The Sendouts and Web Sessions timeline, plotting email sendouts against website sessions, with clickable email markers below the graph."></div>
 
 **Recent Sendouts** lists the five most recent email and SMS sendouts with more than 20 recipients, with open rate, clicks, CTR, and CTOR. Toggle it to **Scheduled** to see the upcoming sendouts closest in time instead. Click a component name to open its component report.
 
