@@ -36,4 +36,4 @@ Moving a file to another folder changes its path. This can break the places wher
 
 ## Working from the component editors
 
-The Files area is also available directly inside the component editors. When you add or replace an image or document while building an email, form, or page, you browse the same folders and files — so everything stays in one place.
+The Files area is also available directly inside the component editors. When you add or replace an image or document while building an email or page, you browse the same folders and files — so everything stays in one place.

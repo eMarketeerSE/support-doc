@@ -37,4 +37,4 @@ Att flytta en fil till en annan mapp ändrar dess sökväg. Det kan förstöra d
 
 ## Arbeta från komponenteditorerna
 
-Filer-området är också tillgängligt direkt inifrån komponenteditorerna. När du lägger till eller byter ut en bild eller ett dokument medan du bygger en e-post, ett formulär eller en sida bläddrar du bland samma mappar och filer — så att allt finns på ett ställe.
+Filer-området är också tillgängligt direkt inifrån komponenteditorerna. När du lägger till eller byter ut en bild eller ett dokument medan du bygger en e-post eller en sida bläddrar du bland samma mappar och filer — så att allt finns på ett ställe.
