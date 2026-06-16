@@ -28,6 +28,10 @@ You can upload files with these extensions:
 
 The maximum size for a single file is 50 MB.
 
+{% hint style="info" %}
+Video files are best hosted on a dedicated video streaming service and embedded into your content. The email and page component editors include built-in video embed blocks.
+{% endhint %}
+
 ## File paths and moving files
 
 Each file has an absolute path that points to its exact location in the Files area. When you use a file — an image in an email or form, for example — that use depends on the path.

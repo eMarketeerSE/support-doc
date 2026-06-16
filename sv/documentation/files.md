@@ -29,6 +29,10 @@ Du kan ladda upp filer med dessa filändelser:
 
 Den största tillåtna storleken för en enskild fil är 50 MB.
 
+{% hint style="info" %}
+Videofiler lämpar sig bäst för att lagras på en dedikerad videostreamingtjänst och bäddas in i ditt innehåll. Komponenteditorerna för e-post och sidor har inbyggda block för att bädda in video.
+{% endhint %}
+
 ## Filsökvägar och att flytta filer
 
 Varje fil har en absolut sökväg som pekar på dess exakta plats i Filer-området. När du använder en fil — till exempel en bild i en e-post eller ett formulär — är användningen beroende av sökvägen.
