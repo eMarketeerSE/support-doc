@@ -95,6 +95,7 @@
 ## Referens
 
 * [API](documentation/apis-developer/README.md)
+  * [Översikt över API-endpoints](documentation/apis-developer/api-endpoints-overview.md)
   * [Custom Signals API](documentation/apis-developer/custom-signals-api.md)
   * [Skicka en Webhook från Zapier till eMarketeer](knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md)
 * [Utvecklare](knowledge-base/developer-advanced/README.md)

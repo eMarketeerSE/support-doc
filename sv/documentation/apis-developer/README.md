@@ -16,5 +16,6 @@ Du hittar din API-nyckel i eMarketeer under **Inställningar** → **Plugins and
 
 ## Sidor i det här avsnittet
 
+* [Översikt över API-endpoints](api-endpoints-overview.md) — alla endpoints i de sex API-modulerna, med en rad om vad varje anrop gör.
 * [Custom Signals API](../../../documentation/apis-developer/custom-signals-api.md) — skicka händelser från externa system till eMarketeer-kontakter.
 * [Skicka en Webhook från Zapier till eMarketeer](../../../knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md) — utlös åtgärder i eMarketeer från Zapier-arbetsflöden.

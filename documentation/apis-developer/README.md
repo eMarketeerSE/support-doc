@@ -16,5 +16,6 @@ Your API key is available inside eMarketeer under **Settings** → **Plugins and
 
 ## Pages in this section
 
+* [API endpoints overview](api-endpoints-overview.md) — every endpoint across all six API modules, with a one-line summary of each call.
 * [Custom Signals API](custom-signals-api.md) — push engagement events from external systems into eMarketeer contacts.
 * [Send a webhook from Zapier to eMarketeer](../../knowledge-base/integrations/send-webhook-from-zapier-to-emarketeer.md) — trigger eMarketeer actions from Zapier workflows.
