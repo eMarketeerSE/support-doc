@@ -140,6 +140,7 @@
     * [Installing the web tracker script on your website](documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md)
     * [Automatic UTM links](documentation/web-tracker/automatic-utm-links.md)
     * [Cloudflare & eMarketeer Tracking Parameters](documentation/web-tracker/cloudflare-emarketeer-tracking-parameters.md)
+  * [Files](documentation/files.md)
   * [User accounts & auth](documentation/accounts-auth/README.md)
     * [Multi-factor authentication](documentation/accounts-auth/multi-factor-authentication.md)
     * [User accounts](documentation/accounts-auth/user-accounts.md)

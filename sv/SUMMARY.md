@@ -140,6 +140,7 @@
     * [Installera Web Tracker-skriptet på din webbplats](documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md)
     * [Automatiska UTM-länkar](documentation/web-tracker/automatic-utm-links.md)
     * [Cloudflare och eMarketeers spårningsparametrar](documentation/web-tracker/cloudflare-emarketeer-tracking-parameters.md)
+  * [Filer](documentation/files.md)
   * [Användarkonton & autentisering](documentation/accounts-auth/README.md)
     * [Multi-factor authentication](documentation/accounts-auth/multi-factor-authentication.md)
     * [Användarkonton](documentation/accounts-auth/user-accounts.md)
