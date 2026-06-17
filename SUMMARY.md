@@ -196,7 +196,6 @@
     * [Dynamics - Add Lead activity](documentation/dynamics-365/dynamics-add-lead-activity.md)
     * [Dynamics - Add Lead to Marketing List](documentation/dynamics-365/dynamics-add-lead-to-marketing-list.md)
   * [Dynamics - Legal basis & Subscription sync](documentation/dynamics-365/dynamics-legal-basis-sync.md)
-  * [Dynamics - Add contact activity](documentation/dynamics-365/journey-add-contact-activity.md)
 * [Other integrations](integrations.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)

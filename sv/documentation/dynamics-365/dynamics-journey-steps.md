@@ -24,7 +24,7 @@ För att logga en Task eller ett Phone Call i Dynamics, välj ett av tre lägen 
 
 - **Add Activity (smart mode):** det mest flexibla alternativet. Eftersom en person kan vara en Lead eller en Contact i ditt CRM frågar detta steg efter din preferens. Om du föredrar att rikta dig mot en Lead letar eMarketeer efter en sådan först. Om den inte hittar en Lead faller den tillbaka till Contact-posten (och vice versa), så att säljaktiviteter aldrig går förlorade. [Läs mer](../../../integrations/dynamics/dynamics-journey-steps/dynamics-add-activity.md)
 - **Add Lead Activity (strict):** loggar en aktivitet explicit på en Lead-post. Om eMarketeer inte hittar en matchande Lead hoppas åtgärden över. Den faller inte tillbaka till en Contact. [Läs mer](../../../integrations/dynamics/dynamics-journey-steps/dynamics-add-lead-activity.md)
-- **Add Contact Activity (strict):** loggar en aktivitet explicit på en Contact-post. Om eMarketeer inte hittar en matchande Contact hoppas åtgärden över. Den faller inte tillbaka till en Lead. [Läs mer](journey-add-contact-activity.md)
+- **Add Contact Activity (strict):** loggar en aktivitet explicit på en Contact-post. Om eMarketeer inte hittar en matchande Contact hoppas åtgärden över. Den faller inte tillbaka till en Lead. [Läs mer](dynamics-add-contact-activity.md)
 
 ## Marketing List-åtgärder
 
