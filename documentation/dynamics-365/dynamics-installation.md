@@ -6,9 +6,9 @@ description: >-
 
 # Dynamics - Installation Process
 
-## Manual prerequisites
-
-### Step 1: Create an app user in the customer's Power Platform environment
+{% stepper %}
+{% step %}
+### Create an app user in the Power Platform environment
 
 As a **System Administrator**, follow these steps:
 
@@ -20,8 +20,9 @@ As a **System Administrator**, follow these steps:
 6. In the app selection screen, choose **eMarketeer Marketing Cloud**. If it is not visible, search using the App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
 7. Assign the security role **System Administrator** to the app user.
 8. Click **Save**.
-
-### Step 2: Enable auditing for consent sync
+{% endstep %}
+{% step %}
+### Enable auditing for consent sync
 
 To ensure consent data syncs correctly, enable auditing for the Contact table.
 
@@ -32,8 +33,9 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 5. Click **Save**.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/audit.png" alt="Advanced options for the Contact table with audit changes enabled"></div>
-
-## Step 3: Enable the integration in eMarketeer
+{% endstep %}
+{% step %}
+### Enable the integration in eMarketeer
 
 This action requires the Administrator role.
 
@@ -45,6 +47,8 @@ Click **Connect to Dynamics 365**.
 
 Log in with a Microsoft account that has access to the Dynamics environment you want to integrate.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics_2-1024x442.png" alt="Microsoft sign-in prompt for connecting Dynamics"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics_2-1024x442.png" alt="Microsoft sign-in prompt for connecting Dynamics"></div>
 
 Choose the organization (environment) you want to integrate with and click **Continue**.
+{% endstep %}
+{% endstepper %}
