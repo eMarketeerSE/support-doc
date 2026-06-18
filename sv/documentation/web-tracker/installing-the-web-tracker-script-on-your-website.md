@@ -20,23 +20,46 @@ Innan du börjar behöver du ditt unika Tracker ID och skript.
 
 ## Alternativ 1: Enkel installation (rekommenderas)
 
-Använd detta alternativ om din webbplats kör Google Tag Manager (GTM) tillsammans med en cookie-banner som CookieBot eller CookieYes.
+Använd detta alternativ om din webbplats kör Google Tag Manager (GTM) tillsammans med en samtyckesbanderoll för cookies.
 
 Vi tillhandahåller en färdig mallfil som du kan importera direkt till GTM.
 
-1. Ladda ner mallfilen: <a href="../../../assets/installing-the-web-tracker-script-on-your-website/emarketeer-tracker.tpl" download>Hämta mallfilen här</a>.
-2. Öppna Google Tag Manager och välj din webbplats container.
-3. Lägg till eMarketeer-taggmallen:
-   * I vänstermenyn, gå till Templates, sedan Tag Templates, sedan New.
-   * Klicka på Import, välj `.tpl`-filen du laddade ner och klicka på Save.
-4. Skapa taggen med mallen:
-   * Gå till Tags, sedan New.
-   * Klicka på Tag Configuration och välj "eMarketeers Tracker Helper" (mallen du just lade till).
-   * Ange ditt Tracker ID när du ombeds.
-   * Godkänn eventuella efterfrågade behörigheter.
-5. Publicera din container i GTM.
+{% stepper %}
+{% step %}
+### Ladda ner mallfilen
 
-Trackern är nu igång och respekterar din cookie-banner.
+{% file src="../../../.gitbook/assets/emarketeer-tracker.tpl" %}
+{% endfile %}
+
+Mallen är kompatibel med fler än tio av de vanligaste samtyckesplattformarna för cookies, inklusive CookieBot och CookieYes.
+{% endstep %}
+{% step %}
+### Öppna Google Tag Manager
+
+Logga in på [Google Tag Manager](https://tagmanager.google.com) och välj din webbplats container.
+{% endstep %}
+{% step %}
+### Lägg till eMarketeer-taggmallen
+
+1. I vänstermenyn, gå till Templates, sedan Tag Templates, sedan New.
+2. Klicka på Import, välj `.tpl`-filen du laddade ner och klicka på Save.
+{% endstep %}
+{% step %}
+### Skapa taggen med mallen
+
+1. Gå till Tags, sedan New.
+2. Klicka på Tag Configuration och välj "eMarketeers Tracker Helper" (mallen du just lade till).
+3. Ange ditt Tracker ID när du ombeds.
+4. Godkänn eventuella efterfrågade behörigheter.
+{% endstep %}
+{% step %}
+### Publicera din container
+
+Publicera din container i GTM.
+{% endstep %}
+{% endstepper %}
+
+Trackern är nu igång och respekterar din samtyckesbanderoll.
 
 ## Alternativ 2: Manuell installation
 

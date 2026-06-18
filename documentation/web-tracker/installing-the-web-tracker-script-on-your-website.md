@@ -20,21 +20,44 @@ Before you start, you need your unique Tracker ID and script.
 
 ## Option 1: Easy install (recommended)
 
-Use this option if your site runs Google Tag Manager (GTM) together with a cookie banner such as CookieBot or CookieYes.
+Use this option if your site runs Google Tag Manager (GTM) together with a cookie consent banner.
 
 We provide a ready-made template file you can import directly into GTM.
 
-1. Download the template file: <a href="../../assets/installing-the-web-tracker-script-on-your-website/emarketeer-tracker.tpl" download>Get the template file here</a>.
-2. Open Google Tag Manager and select your website's container.
-3. Add the eMarketeer tag template:
-   * In the left menu, go to Templates, then Tag Templates, then New.
-   * Click Import, select the `.tpl` file you downloaded, and Save.
-4. Create the tag using the template:
-   * Go to Tags, then New.
-   * Click Tag Configuration and choose "eMarketeers Tracker Helper" (the template you just added).
-   * Enter your Tracker ID when prompted.
-   * Approve any requested permissions.
-5. Publish your container in GTM.
+{% stepper %}
+{% step %}
+### Download the template file
+
+{% file src="../../.gitbook/assets/emarketeer-tracker.tpl" %}
+{% endfile %}
+
+The template is compatible with more than ten of the most common cookie consent platforms, including CookieBot and CookieYes.
+{% endstep %}
+{% step %}
+### Open Google Tag Manager
+
+Log in to [Google Tag Manager](https://tagmanager.google.com) and select your website's container.
+{% endstep %}
+{% step %}
+### Add the eMarketeer tag template
+
+1. In the left menu, go to Templates, then Tag Templates, then New.
+2. Click Import, select the `.tpl` file you downloaded, and Save.
+{% endstep %}
+{% step %}
+### Create the tag using the template
+
+1. Go to Tags, then New.
+2. Click Tag Configuration and choose "eMarketeers Tracker Helper" (the template you just added).
+3. Enter your Tracker ID when prompted.
+4. Approve any requested permissions.
+{% endstep %}
+{% step %}
+### Publish your container
+
+Publish your container in GTM.
+{% endstep %}
+{% endstepper %}
 
 The tracker is now running and respects your cookie banner.
 
