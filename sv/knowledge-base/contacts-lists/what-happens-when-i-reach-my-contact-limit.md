@@ -6,8 +6,6 @@ description: >-
 
 # Vad händer när jag når min kontaktgräns?
 
-Du ser gränsen på startsidans dashboard under "your account".
-
 ### Vad händer vid kontaktgränsen
 
 När du når gränsen för kontaktdatabasen kan du inte skapa nya kontakter i kontot. Nya formulärinskick avvisas, filimporter listar kontakter som avvisade, och publicerade formulär stängs och visar ett felmeddelande.

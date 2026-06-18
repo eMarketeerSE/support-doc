@@ -6,8 +6,6 @@ description: >-
 
 # What happens when I reach my contact limit?
 
-You can see the limit on the home page dashboard under "your account".
-
 ### What happens at the contact limit
 
 When you reach the contact database limit, you can't create new contacts in the account. New form submissions are rejected, file imports list contacts as rejected, and published forms close and show an error message.
