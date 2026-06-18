@@ -16,7 +16,7 @@ Navigate to the campaign components view and click **Publish** below the form. Y
 
 ## Publish options
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Options.png" alt="The Publish panel showing the hosted URL and embed script options."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormPublish.png" alt="The Publish panel showing the hosted URL and embed script options."></div>
 
 ### Hosted URL
 

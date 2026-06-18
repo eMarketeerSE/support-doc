@@ -16,17 +16,17 @@ Before you start, install an authenticator app on your mobile device if you don'
 {% column %}
 #### Google Authenticator
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34 (1).png" alt="Google Authenticator icon"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34.png" alt="Google Authenticator icon"></div>
 
-[![Get it on Google Play](<../../.gitbook/assets/5a902dbf7f96951c82922875-1 (1).png>)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)[![Download on the App Store](<../../.gitbook/assets/5a902db97f96951c82922874 (1).png>)](https://apps.apple.com/se/app/google-authenticator/id388497605)
+[![Get it on Google Play](../../.gitbook/assets/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)[![Download on the App Store](../../.gitbook/assets/5a902db97f96951c82922874.png)](https://apps.apple.com/se/app/google-authenticator/id388497605)
 {% endcolumn %}
 
 {% column %}
 #### Twilio Authy 2-Factor Authentication
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54 (1).png" alt="Twilio Authy icon"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54.png" alt="Twilio Authy icon"></div>
 
-[![Get it on Google Play](<../../.gitbook/assets/5a902dbf7f96951c82922875-1 (1).png>)](https://play.google.com/store/apps/details?id=com.authy.authy)[![Download on the App Store](<../../.gitbook/assets/5a902db97f96951c82922874 (1).png>)](https://apps.apple.com/us/app/twilio-authy/id494168017)
+[![Get it on Google Play](../../.gitbook/assets/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.authy.authy)[![Download on the App Store](../../.gitbook/assets/5a902db97f96951c82922874.png)](https://apps.apple.com/us/app/twilio-authy/id494168017)
 {% endcolumn %}
 {% endcolumns %}
 
@@ -40,7 +40,7 @@ Follow these steps after you or your admin has enabled MFA on your account. You 
 
 Enter your username and password. If MFA is enabled, you see an "Activate MFA" button. Click it.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1 (1).png" alt="Activate MFA button on the login page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1.png" alt="Activate MFA button on the login page"></div>
 {% endstep %}
 
 {% step %}
@@ -48,7 +48,7 @@ Enter your username and password. If MFA is enabled, you see an "Activate MFA" b
 
 A QR code appears. Open your authenticator app on your phone and tap "Scan QR code". Scan the QR code on your computer screen. The app shows a six-digit code — enter it on the computer screen and click "Continue".
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit (1).png" alt="QR code shown during MFA setup"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit.png" alt="QR code shown during MFA setup"></div>
 {% endstep %}
 
 {% step %}
@@ -56,7 +56,7 @@ A QR code appears. Open your authenticator app on your phone and tap "Scan QR co
 
 You're now authenticated, but before you continue you're shown a recovery code. Use this code to sign in if you don't have your phone with the authenticator app. Save it somewhere secure. Tick the checkbox to confirm you've saved it, then click "Continue".
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09 (1).png" alt="Recovery code displayed during MFA setup"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09.png" alt="Recovery code displayed during MFA setup"></div>
 {% endstep %}
 {% endstepper %}
 
@@ -64,6 +64,6 @@ You're now authenticated, but before you continue you're shown a recovery code. 
 
 The next time you sign in, you see a "Verify your identity" prompt. Open your authenticator app, read the six-digit code, and enter it on the login screen. Tick the checkbox to have eMarketeer remember this device for 30 days so you don't need the app on every sign-in.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14 (1).png" alt="Verify your identity prompt at sign-in"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14.png" alt="Verify your identity prompt at sign-in"></div>
 
 If you have any trouble signing in, contact support through the chat box on the login page.
