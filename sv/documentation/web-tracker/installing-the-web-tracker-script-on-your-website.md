@@ -24,7 +24,7 @@ Använd detta alternativ om din webbplats kör Google Tag Manager (GTM) tillsamm
 
 Vi tillhandahåller en färdig mallfil som du kan importera direkt till GTM.
 
-1. Ladda ner mallfilen: [Hämta mallfilen här](https://support.emarketeer.com/wp-content/uploads/2026/03/emarketeer-tracker.tpl).
+1. Ladda ner mallfilen: [Hämta mallfilen här](../../../assets/installing-the-web-tracker-script-on-your-website/emarketeer-tracker.tpl).
 2. Öppna Google Tag Manager och välj din webbplats container.
 3. Lägg till eMarketeer-taggmallen:
    * I vänstermenyn, gå till Templates, sedan Tag Templates, sedan New.
