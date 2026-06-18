@@ -38,15 +38,15 @@ You do not need to construct this URL manually. Use the Insert Link dialog to ad
 
 ## How to insert a read on web link
 
-{% hint style="info" %}
-Many content blocks include a read on web link by default. Header blocks in particular typically come with one already inserted — check before adding a new one manually.
-{% endhint %}
-
 1. In the email editor, select the text you want to link.
 2. Open **Insert Link**.
 3. Choose **System link → Read on web**.
 
 eMarketeer inserts the full URL template. The merge tags resolve to the recipient's personal link when the email is sent.
+
+{% hint style="info" %}
+Many Header-type content blocks come with a read on web link already inserted. Check your block before adding one manually.
+{% endhint %}
 
 ## Sharing or archiving an email online
 

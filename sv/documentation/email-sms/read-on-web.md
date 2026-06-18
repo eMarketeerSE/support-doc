@@ -38,15 +38,15 @@ Du behöver inte konstruera den här URL:en manuellt. Använd dialogrutan Insert
 
 ## Så här infogar du en read on web-länk
 
-{% hint style="info" %}
-Många innehållsblock innehåller en read on web-länk som standard. Header-block i synnerhet har vanligtvis en redan infogad — kontrollera innan du lägger till en ny manuellt.
-{% endhint %}
-
 1. Markera den text du vill länka i e-posteditorn.
 2. Öppna **Insert Link**.
 3. Välj **System link → Read on web**.
 
 eMarketeer infogar hela URL-mallen. Merge tags löses upp till mottagarens personliga länk när e-posten skickas.
+
+{% hint style="info" %}
+Många Header-innehållsblock har redan en read on web-länk infogad. Kontrollera ditt block innan du lägger till en manuellt.
+{% endhint %}
 
 ## Dela eller arkivera ett e-postmeddelande online
 
