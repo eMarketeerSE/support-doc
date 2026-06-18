@@ -92,6 +92,12 @@ För att tillåta att en kontakt går in i en Journey flera gånger, kryssa i al
 
 När inställningen sparas kan kontakter återinträda om de matchar startpunktsfiltret igen. De behöver inte ha slutfört sin Journey.
 
+### Gör Journey tillgänglig på kontaktkortet
+
+Om du markerar det här alternativet läggs en manuell startpunkt för Journey till på kontaktkortet. Alla användare med åtkomst till en kontakt kan då starta Journey för den kontakten direkt, utan att vänta på en automatisk utlösare.
+
+Det här liknar att välja "Manual trigger" som Journeyns startpunkt, med en viktig skillnad: det här alternativet kan aktiveras på en Journey som redan har en automatisk utlösare. Använd det när en Journey ska ha både en automatisk och en manuell startpunkt — till exempel en e-postsekvens som normalt startar när en kontakt fyller i ett formulär, men som du också vill kunna starta manuellt för enskilda kontakter.
+
 ## Övervakning och analys
 
 ### Spåra prestanda för en Journey

@@ -96,6 +96,12 @@ To allow a contact to enter a Journey multiple times, check the option "Contact 
 
 When checked and saved, contacts can re-enter if they match the starting point filter again. They do not need to complete the Journey.
 
+### Make Journey available on Contact card
+
+Checking this option adds a manual starting point for the Journey on the contact card. Any user with access to a contact can then start the Journey for that contact directly, without waiting for an automatic trigger.
+
+This is similar to selecting "Manual trigger" as the Journey's starting point, with one important difference: this option can be enabled on a Journey that already has an automatic trigger. Use it when a Journey should have both an automatic and a manual entry point — for example, a nurture sequence that normally starts when a contact fills in a form, but that you also want to be able to start manually for individual contacts.
+
 ## Monitoring and analytics
 
 ### Tracking Journey performance

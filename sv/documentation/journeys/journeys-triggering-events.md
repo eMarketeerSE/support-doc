@@ -33,6 +33,14 @@ När någon av händelserna nedan inträffar för en kontakt kontrollerar eMarke
 
 - Ändring av lead-status
 
+### Manuell utlösare
+
+En Journey kan startas manuellt för en enskild kontakt från kontaktkortet, förutsatt att Journey har inställningen **Make Journey available on Contact card** aktiverad. Detta räknas som en utlösande händelse och tvingar Journey att starta för kontakten direkt.
+
+Till skillnad från andra utlösande händelser behöver kontakten inte matcha Journeyns startpunktsfilter. Den manuella utlösaren kringgår filtret helt, så Journey startar oavsett om kontakten annars skulle ha kvalificerat sig.
+
+Se [Gör Journey tillgänglig på kontaktkortet](creating-your-first-journey.md#gör-journey-tillgänglig-på-kontaktkortet) för hur du aktiverar det här.
+
 ## Så fungerar utvärderingen
 
 eMarketeer utvärderar startpunkter bara när en utlösande händelse inträffar — inte enligt ett schema och inte när en Journey aktiveras. En kontakt som redan matchar startpunktens villkor när du aktiverar Journey går inte in i den förrän en utlösande händelse inträffar för dem.
