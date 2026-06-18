@@ -24,7 +24,7 @@ Use this option if your site runs Google Tag Manager (GTM) together with a cooki
 
 We provide a ready-made template file you can import directly into GTM.
 
-1. Download the template file: [Get the template file here](../../assets/installing-the-web-tracker-script-on-your-website/emarketeer-tracker.tpl).
+1. Download the template file: <a href="../../assets/installing-the-web-tracker-script-on-your-website/emarketeer-tracker.tpl" download>Get the template file here</a>.
 2. Open Google Tag Manager and select your website's container.
 3. Add the eMarketeer tag template:
    * In the left menu, go to Templates, then Tag Templates, then New.
