@@ -123,6 +123,7 @@
     * [Automatic send pause](documentation/email-sms/automatic-send-pause.md)
     * [Exclude inactive recipients](documentation/email-sms/exclude-inactive-recipients.md)
     * [Transactional sendouts](documentation/email-sms/transactional-sendouts.md)
+    * [Read on web](documentation/email-sms/read-on-web.md)
     * [When is an email registered as opened?](knowledge-base/reports/email-open.md)
     * [eMarketeer sender policy](knowledge-base/email-deliverability/emarketeer-sender-policy.md)
     * [Why you shouldn't use a URL as link text](documentation/email-sms/url-as-link-caption.md)

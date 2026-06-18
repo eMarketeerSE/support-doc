@@ -33,6 +33,10 @@ email-open.md
 emarketeer-sender-policy.md
 {% endcontent-ref %}
 
+{% content-ref url="../documentation/email-sms/read-on-web.md" %}
+read-on-web.md
+{% endcontent-ref %}
+
 {% content-ref url="../documentation/email-sms/url-as-link-caption.md" %}
 url-as-link-caption.md
 {% endcontent-ref %}

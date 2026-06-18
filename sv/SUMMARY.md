@@ -123,6 +123,7 @@
     * [Automatisk pausning av utskick](documentation/email-sms/automatic-send-pause.md)
     * [Exkludera inaktiva mottagare](documentation/email-sms/exclude-inactive-recipients.md)
     * [Transaktionella utskick](documentation/email-sms/transactional-sendouts.md)
+    * [Read on web](documentation/email-sms/read-on-web.md)
     * [När registreras en e-post som öppnad?](knowledge-base/reports/email-open.md)
     * [eMarketeers avsändarpolicy](knowledge-base/email-deliverability/emarketeer-sender-policy.md)
     * [Varför du inte bör använda URL:er som länktext](documentation/email-sms/url-as-link-caption.md)
