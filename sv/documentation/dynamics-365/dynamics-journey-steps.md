@@ -41,7 +41,7 @@ När en matchning hittas sparar eMarketeer både `dynamics_lead_id` och `dynamic
 
 Contact-sökningar kontrollerar konverterade Leads först. En person som började som Lead och senare konverterades till Contact i Dynamics matchas korrekt den vägen.
 
-Flödesschemat nedan visar hela beslutsträdet för var och en av de fem stegtyperna.
+Flödesschemat nedan visar hela beslutsträdet för var och en av de sex stegtyperna.
 
 <div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/dynamics_matching_logic.png" alt="Flödesschema som visar kontaktmatchningens beslutsträd för varje typ av Dynamics Journey-steg"></div>
 

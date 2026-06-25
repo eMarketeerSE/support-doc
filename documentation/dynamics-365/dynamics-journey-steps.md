@@ -41,7 +41,7 @@ When a match is found, eMarketeer saves both `dynamics_lead_id` and `dynamics_co
 
 Contact lookups check for converted Leads first. A person who started as a Lead and was later converted to a Contact in Dynamics is matched correctly through this path.
 
-The flowchart below shows the full decision tree for each of the five step types.
+The flowchart below shows the full decision tree for each of the six step types.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/dynamics_matching_logic.png" alt="Flowchart showing the contact matching decision tree for each Dynamics Journey step type"></div>
 
