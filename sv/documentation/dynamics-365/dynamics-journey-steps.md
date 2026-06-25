@@ -43,4 +43,6 @@ Contact-sökningar kontrollerar konverterade Leads först. En person som börjad
 
 Flödesschemat nedan visar hela beslutsträdet för var och en av de fem stegtyperna.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/dynamics-journey-steps/dynamics_matching_logic.png" alt="Flödesschema som visar kontaktmatchningens beslutsträd för varje typ av Dynamics Journey-steg"></div>
+<div align="left" data-with-frame="true"><img src="../../../.gitbook/assets/dynamics_matching_logic.png" alt="Flödesschema som visar kontaktmatchningens beslutsträd för varje typ av Dynamics Journey-steg"></div>
+
+{% file src="../../../.gitbook/assets/dynamics_matching_logic.png" %}
