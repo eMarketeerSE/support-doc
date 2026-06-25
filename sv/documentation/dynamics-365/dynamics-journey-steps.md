@@ -14,6 +14,22 @@ För att brygga detta gap använder varje steg en inbyggd söklogik. När en Jou
 
 Stegen som är tillgängliga för dig är grupperade nedan.
 
+## Kontaktmatchningslogik
+
+Varje steg löser upp rätt Dynamics-post innan det utförs. Eftersom samma person kan finnas som Lead, Contact eller båda i Dynamics kör varje steg en trestegs-sökning i ordning från mest till minst specifik:
+
+1. **Direkt ID** — om eMarketeer redan har sparat ett `dynamics_lead_id` eller `dynamics_contact_id` på kontakten söks Dynamics direkt med det ID:t.
+2. **E-post och företag** — om inget ID är sparat söker eMarketeer efter e-postadress och företagsnamn tillsammans.
+3. **Enbart e-post** — om den kombinerade sökningen inte ger något resultat faller eMarketeer tillbaka på enbart e-postadress.
+
+När en matchning hittas sparar eMarketeer både `dynamics_lead_id` och `dynamics_contact_id` på kontaktposten. Nästa gång ett steg körs för samma person hoppar eMarketeer direkt till ID-sökningen — vilket gör efterföljande operationer snabbare. Om ett sparat ID inte längre är giltigt i Dynamics faller eMarketeer tillbaka på den fullständiga sökningen.
+
+Contact-sökningar kontrollerar konverterade Leads först. En person som började som Lead och senare konverterades till Contact i Dynamics matchas korrekt den vägen.
+
+Flödesschemat nedan visar hela beslutsträdet för var och en av de fem stegtyperna.
+
+![Flödesschema som visar kontaktmatchningens beslutsträd för varje typ av Dynamics Journey-steg](../../../assets/dynamics-journey-steps/dynamics_matching_logic.png)
+
 ## Skapa eller uppdatera poster
 
 - **Create/Update Lead:** skickar en person från eMarketeer till Dynamics som en Lead. Om en Lead med en matchande e-postadress redan finns uppdaterar eMarketeer den. Ett "Always create a lead"-alternativ tvingar fram skapandet av en ny Lead även om personen redan finns som Contact i Dynamics. [Läs mer](../../../integrations/dynamics/dynamics-journey-steps/create-update-lead.md)
