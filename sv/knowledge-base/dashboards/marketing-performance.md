@@ -26,7 +26,7 @@ En rad rutor högst upp sammanfattar dina utgående aktiviteter och hur kontakte
 | --- | --- |
 | Outbound | Utgående aktivitet som skickas från eMarketeer, till exempel e-post. |
 | Engaged | Kontakter som engagerade sig i din utgående aktivitet. |
-| Captured | Leads som fångats via formulär och andra ingångar. |
+| Konverterad | Leads som konverterat via formulär och andra ingångar. |
 | Enriched | Kontakter vars profiler fått mer data. |
 | Nurtured | Kontakter som förs framåt genom nurturing. |
 | Qualified Leads | Kontakter som nått status som kvalificerad lead. |

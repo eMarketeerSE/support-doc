@@ -58,27 +58,44 @@ The `assets/` folder is shared — never duplicate images into `sv/assets/`.
 | Settings | Inställningar |
 | Step | Steg |
 | Step-by-step | Steg-för-steg |
+| Template | Mall |
+| Selection / audience | Urval |
+| Report | Rapport |
+| Landing page | Landningssida |
+| Dashboard | Översikt |
+| Lead stream | Leadström |
+| Converted (lead metric) | Konverterad |
 
 **Keep in English (product UI labels, technical acronyms, brand):**
 
-- Journey, Journeys
+- Journey, Journeys — but add a hyphen-compound where Swedish grammar needs it: "Journey-inställningar", "Journey-steg", "Journey-utlösare".
 - Lead Board
-- Lead Streams
 - Web Tracker
 - Signals
 - Dynamics, Microsoft Dynamics 365
 - SuperOffice
+- reCAPTCHA, Zapier, Webhook
 - eMarketeer (always, case-exactly)
 - SPF, DKIM, DMARC, ARC
 - ESP, ISP, CRM, API, REST, JSON, XML, CSV
+- HTML, CSS, JS, URL, SQL
+- GDPR, KPI, CTR, CTOR
 - SMS, MMS
 - HAR (file)
 - UTM (parameter)
 - MFA, 2FA
-- Webhook, Zapier
+- GMT, iOS, Android
 - Code Block names from the email/form editor (Add Activity, Add Contact, etc.) — keep verbatim as they appear in the UI
 
 When in doubt about a UI label, leave it in English with the Swedish translation in parentheses on first mention if useful, e.g. "Use the **Bulk Actions** tool (Massåtgärder)".
+
+### Metric labels
+
+The Marketing Performance dashboard tile labelled **Captured** is rendered as **Converted** (Swedish **Konverterad**). The metric counts leads that converted, so the literal "captured" wording is wrong — do not translate it back to a literal "fångad/infångad".
+
+### Aligning with the product UI
+
+The glossary rows above (from **Template** down) and these acronyms are extracted from the eMarketeer product's own translation contract (`/translation.md`), so the support docs use the same Swedish words a reader sees in the live interface. When a term isn't in the glossary, check how the product UI translates it and follow that for consistency. `/translation.md` also covers the product codebase (gettext `.po`, React `i18n`, the four Nordic languages, CI checks) — none of which applies to these Markdown docs.
 
 ## Style
 

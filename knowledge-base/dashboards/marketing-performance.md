@@ -27,7 +27,7 @@ A row of tiles across the top summarises your outbound activity and how contacts
 | --- | --- |
 | Outbound | Outbound activity sent from eMarketeer, such as emails. |
 | Engaged | Contacts who engaged with your outbound activity. |
-| Captured | Leads captured through forms and other entry points. |
+| Converted | Leads that converted through forms and other entry points. |
 | Enriched | Contacts whose profiles gained data. |
 | Nurtured | Contacts being moved along through nurturing. |
 | Qualified Leads | Contacts that reached qualified-lead status. |
