@@ -42,7 +42,7 @@ Lead Board ger sälj ett intuitivt sätt att kvalificera och föra leads framåt
 För att kvalificera och leverera leads krävs tre delar:
 
 * **Säljteam** Leads kan bara levereras till säljteam. Du kan ha ett team eller flera. [Skapa ett säljteam](sales-teams.md)
-* **Lead Streams** En Lead Stream är en uppsättning kvalificeringsregler (ett filter). Varje kontakt som matchar filtret kvalificeras som ett lead och levereras till det valda säljteamet eller -teamen. [Skapa Lead Streams](lead-streams.md)
+* **Leadströmmar** En leadström är en uppsättning kvalificeringsregler (ett filter). Varje kontakt som matchar filtret kvalificeras som ett lead och levereras till det valda säljteamet eller -teamen. [Skapa leadströmmar](lead-streams.md)
 * **Säljanvändare** En säljanvändare har tillgång till Lead Board för att hantera leads och tillhör alltid ett team som tar emot leads. [Skapa säljanvändare](sales-users.md)
 
 ## Arbeta med Lead Board

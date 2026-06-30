@@ -53,7 +53,7 @@ Artiklar och guider för dagliga uppgifter i eMarketeer. Välj ett ämne nedan, 
     </tr>
     <tr>
       <td><strong>Lead Board & scoring</strong></td>
-      <td>Lead Board, Lead Streams, scoring-modeller och säljöverlämning.</td>
+      <td>Lead Board, leadströmmar, scoring-modeller och säljöverlämning.</td>
       <td><a href="lead-board-scoring/the-lead-board.md">Öppna</a></td>
     </tr>
     <tr>

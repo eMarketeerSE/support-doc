@@ -11,7 +11,7 @@ Filter låter dig segmentera kontakter efter vilka kriterier du än ställer in,
 Den här artikeln går igenom filterbyggaren, visar några exempelfilter och täcker de åtgärder du kan utföra på ett urval av kontakter.
 
 {% hint style="info" %}
-Filterbyggaren används även i Journeys, Lead Streams och lead scoring-regler — vanligtvis med något färre alternativ. Att förstå den ger dig en bra grund för att arbeta effektivt med eMarketeers automatiserade sekvenser ([Journeys](../journeys/journeys.md)) och leadkvalificeringssystem ([Lead Streams](../lead-board-scoring/lead-streams.md), [Lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)).
+Filterbyggaren används även i Journeys, leadströmmar och lead scoring-regler — vanligtvis med något färre alternativ. Att förstå den ger dig en bra grund för att arbeta effektivt med eMarketeers automatiserade sekvenser ([Journeys](../journeys/journeys.md)) och leadkvalificeringssystem ([Leadströmmar](../lead-board-scoring/lead-streams.md), [Lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)).
 {% endhint %}
 
 ## Lär känna filterbyggaren

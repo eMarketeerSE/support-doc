@@ -1,30 +1,30 @@
 ---
 description: >-
-  Hur du skapar lead streams — regeluppsättningar som automatiskt levererar
+  Hur du skapar leadströmmar — regeluppsättningar som automatiskt levererar
   MQL-leads till ett sales-team när kontakter uppfyller kriterierna.
 ---
 
-# Lead Streams
+# Leadströmmar
 
-En lead stream är en uppsättning regler som genererar Marketing Qualified Leads (MQL) för sälj att bearbeta.
+En leadström är en uppsättning regler som genererar Marketing Qualified Leads (MQL) för sälj att bearbeta.
 
-När en kontakt matchar reglerna för en lead stream blir kontakten ett lead och levereras till ett valt sales-team. Väl uppsatt levererar en lead stream leads kontinuerligt.
+När en kontakt matchar reglerna för en leadström blir kontakten ett lead och levereras till ett valt sales-team. Väl uppsatt levererar en leadström leads kontinuerligt.
 
-## Skapa en lead stream
+## Skapa en leadström
 
 Öppna Lead Board genom att klicka på Leads i toppmenyn.
 
-För att skapa en ny lead stream, klicka på kugghjulet i rutan för lead streams.
+För att skapa en ny leadström, klicka på kugghjulet i rutan för leadströmmar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/editstream.png" alt="Kugghjul för lead streams på Lead Board"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/editstream.png" alt="Kugghjul för leadströmmar på Lead Board"></div>
 
-Det öppnar sidan för lead streams, där du kan skapa eller hantera lead streams.
+Det öppnar sidan för leadströmmar, där du kan skapa eller hantera leadströmmar.
 
 Klicka på Add lead stream för att skapa en ny.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2022-06-09_15-04-03.png" alt="Knappen Add lead stream"></div>
 
-En lead stream behöver tre saker:
+En leadström behöver tre saker:
 
 * Ett namn och en valfri beskrivning
 * En uppsättning filterregler
@@ -42,15 +42,15 @@ Klicka på Apply för att lägga till regeln. Lägg till fler regler för att vi
 
 ### Välj ett sales-team
 
-Bocka i ett eller flera sales-team som ska ha åtkomst till denna lead stream.
+Bocka i ett eller flera sales-team som ska ha åtkomst till denna leadström.
 
-### Aktivera den nya lead stream:en
+### Aktivera den nya leadströmmen
 
-Du har följande alternativ för en ny lead stream:
+Du har följande alternativ för en ny leadström:
 
-* Enabled / Disabled – en ny lead stream startar inaktiv. Slå på reglaget till Active för att sätta den i drift. Från den stunden genererar nya matchningar mot dina regler leads.
-* Clear leads – du kan rensa lead stream:en på alla leads när som helst. Det tar bort leads från Lead Board som matchar denna stream. Stream:en måste vara inaktiv för att alternativet ska vara tillgängligt.
-* Fetch history – en lead stream genererar bara leads från nya matchningar. Om du till exempel vill göra leads av kontakter som svarar på ett formulär, genererar stream:en endast leads från formulärinskickningar som kommer in medan stream:en är aktiv. För att göra leads av tidigare matchningar, klicka på "Fetch ALL leads from history" för att generera de historiska leads:en en gång. Stream:en måste vara aktiv för att alternativet ska vara tillgängligt.
+* Enabled / Disabled – en ny leadström startar inaktiv. Slå på reglaget till Active för att sätta den i drift. Från den stunden genererar nya matchningar mot dina regler leads.
+* Clear leads – du kan rensa leadströmmen på alla leads när som helst. Det tar bort leads från Lead Board som matchar denna leadström. Leadströmmen måste vara inaktiv för att alternativet ska vara tillgängligt.
+* Fetch history – en leadström genererar bara leads från nya matchningar. Om du till exempel vill göra leads av kontakter som svarar på ett formulär, genererar leadströmmen endast leads från formulärinskickningar som kommer in medan leadströmmen är aktiv. För att göra leads av tidigare matchningar, klicka på "Fetch ALL leads from history" för att generera de historiska leads:en en gång. Leadströmmen måste vara aktiv för att alternativet ska vara tillgängligt.
 
 ## Kontrollera resultatet
 

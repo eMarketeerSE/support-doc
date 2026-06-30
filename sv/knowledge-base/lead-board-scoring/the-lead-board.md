@@ -24,7 +24,7 @@ Flera funktioner hjälper dig att arbeta med säljprocessen.
 
 För att begränsa leads på din board, använd dessa filter:
 
-* **Lead Streams.** Som standard visar boarden alla leads oavsett källa. Klicka på en specifik lead stream för att bara visa leads från den stream:en.
+* **Leadströmmar.** Som standard visar boarden alla leads oavsett källa. Klicka på en specifik leadström för att bara visa leads från den leadströmmen.
 * **Datumintervall.** Visa endast leads som genererats inom ett specifikt datumintervall. Om du inte hittar det du söker, utöka datumintervallet.
 * **Filter.** Ovanför stadierna kan du filtrera för att visa alla leads, bara leads som är tilldelade dig, eller dolda leads.
 * **Kontaktkategori.** Visa leads från alla kategorier eller bara en, som prospekt, kunder eller övriga.
@@ -38,7 +38,7 @@ Klicka på ett lead på boarden för att öppna kontaktkortet. Den första flike
 
 Härifrån kan du:
 
-* Se vilka lead streams kontakten matchat och beskrivningen.
+* Se vilka leadströmmar kontakten matchat och beskrivningen.
 * Ändra leadets kategori till prospekt, kund eller övrig.
 * Ändra lead-stadium.
 * Tilldela leadet till dig själv eller någon annan.

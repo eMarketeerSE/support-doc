@@ -73,7 +73,7 @@
 * [Leadhantering](knowledge-base/lead-board-scoring/README.md)
 
   * [Så bygger du din lead scoring-modell och vanliga misstag](knowledge-base/lead-board-scoring/how-to-set-up-your-lead-scoring-model-and-lead-scoring-mistakes.md)
-  * [Lead Streams](knowledge-base/lead-board-scoring/lead-streams.md)
+  * [Leadströmmar](knowledge-base/lead-board-scoring/lead-streams.md)
   * [Sales-team](knowledge-base/lead-board-scoring/sales-teams.md)
   * [Sales users](knowledge-base/lead-board-scoring/sales-users.md)
   * [Lead Board](knowledge-base/lead-board-scoring/the-lead-board.md)
