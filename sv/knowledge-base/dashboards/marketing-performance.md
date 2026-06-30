@@ -1,14 +1,14 @@
 ---
 description: >-
-  Marketing Performance-dashboarden samlar webbtrafik, kampanjengagemang,
+  Marknadsföringsresultat samlar webbtrafik, kampanjengagemang,
   konverteringar och leads i en vy över vad som driver din marknadsföring.
 ---
 
-# Marketing Performance
+# Marknadsföringsresultat
 
-Marketing Performance-dashboarden samlar din webbtrafik, ditt kampanjengagemang, dina konverteringar och dina leads i en vy, så att du ser vad som faktiskt driver din marknadsföring. Den ersätter den tidigare **Home**-sektionen och är den startvy du möter när du öppnar eMarketeer.
+Marknadsföringsresultat samlar din webbtrafik, ditt kampanjengagemang, dina konverteringar och dina leads i en vy, så att du ser vad som faktiskt driver din marknadsföring. Den ersätter den tidigare **Home**-sektionen och är den startvy du möter när du öppnar eMarketeer.
 
-De flesta team arbetar över många kanaler, kampanjer och aktiviteter, och svaret på vad som fungerar ligger utspritt i separata rapporter. Den här dashboarden samlar de signalerna på ett ställe och besvarar en enda fråga: vad är det egentligen som driver min marknadsföring?
+De flesta team arbetar över många kanaler, kampanjer och aktiviteter, och svaret på vad som fungerar ligger utspritt i separata rapporter. Den här översikten samlar de signalerna på ett ställe och besvarar en enda fråga: vad är det egentligen som driver min marknadsföring?
 
 ## Det här kan du använda den till
 
@@ -24,12 +24,12 @@ En rad rutor högst upp sammanfattar dina utgående aktiviteter och hur kontakte
 
 | Ruta | Vad den räknar |
 | --- | --- |
-| Outbound | Utgående aktivitet som skickas från eMarketeer, till exempel e-post. |
-| Engaged | Kontakter som engagerade sig i din utgående aktivitet. |
+| Utgående | Utgående aktivitet som skickas från eMarketeer, till exempel e-post. |
+| Engagerad | Kontakter som engagerade sig i din utgående aktivitet. |
 | Konverterad | Leads som konverterat via formulär och andra ingångar. |
-| Enriched | Kontakter vars profiler fått mer data. |
-| Nurtured | Kontakter som förs framåt genom nurturing. |
-| Qualified Leads | Kontakter som nått status som kvalificerad lead. |
+| Berikad | Kontakter vars profiler fått mer data. |
+| Vårdad | Kontakter som förs framåt genom nurturing. |
+| Kvalificerade leads | Kontakter som nått status som kvalificerad lead. |
 
 ## Widgetarna
 
@@ -55,10 +55,10 @@ Under rutorna fokuserar varje widget på en del av prestandabilden.
 
 ## Krav
 
-För att se data i den här dashboarden behöver du Web Tracker installerad på din webbplats. Om du inte har satt upp den ännu, se [Installera Web Tracker-skriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
+För att se data i den här översikten behöver du Web Tracker installerad på din webbplats. Om du inte har satt upp den ännu, se [Installera Web Tracker-skriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
-Formulären och formulärskriptet matar också dashboarden. Installera formulärskriptet och använd formulär för att få hela bilden.
+Formulären och formulärskriptet matar också översikten. Installera formulärskriptet och använd formulär för att få hela bilden.
 
 ## Nästa steg
 
-För att spåra hur besökare rör sig från första kontakt till kvalificerad lead, öppna [Traffic Analyzer](traffic-analyzer.md).
+För att spåra hur besökare rör sig från första kontakt till kvalificerad lead, öppna [Trafikanalysator](traffic-analyzer.md).

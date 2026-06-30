@@ -55,6 +55,6 @@ Om du vill lära dig mer tar det här blogginlägget upp [5 sätt att minska stu
 
 Ett klagomål är när en kontakt får e-postmeddelandet i inkorgen och sedan klickar på knappen "Det här är skräppost". Klagomål registreras endast från stora webbaserade e-postleverantörer som Gmail, Yahoo och Hotmail.
 
-När en kontakt markerar ett e-postmeddelande som skräppost och händelsen rapporteras till eMarketeer avregistreras kontakten automatiskt från framtida utskick. Alla klagomål rapporteras inte tillbaka till eMarketeer — vissa registreras bara hos leverantören. Du kan följa klagomålsfrekvenser per domän i [Email Health Dashboard](emailhealthdashboard.md).
+När en kontakt markerar ett e-postmeddelande som skräppost och händelsen rapporteras till eMarketeer avregistreras kontakten automatiskt från framtida utskick. Alla klagomål rapporteras inte tillbaka till eMarketeer — vissa registreras bara hos leverantören. Du kan följa klagomålsfrekvenser per domän i [E-posthälsa](emailhealthdashboard.md).
 
 Ditt konto tillåts en genomsnittlig klagomålsfrekvens på 0,3 % innan vi måste pausa det för granskning.

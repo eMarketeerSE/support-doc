@@ -1,12 +1,12 @@
 ---
 description: >-
-  Traffic Analyzer visualiserar hela ditt marknadsföringsflöde, från första
+  Trafikanalysator visualiserar hela ditt marknadsföringsflöde, från första
   kontakt till kvalificerad lead.
 ---
 
-# Traffic Analyzer
+# Trafikanalysator
 
-Traffic Analyzer visualiserar hela ditt marknadsföringsflöde, från första kontakt till kvalificerad lead. Den visar hur besökare rör sig genom din marknadsföring i en sammanhängande vy, i stället för som separata siffror i separata rapporter.
+Trafikanalysator visualiserar hela ditt marknadsföringsflöde, från första kontakt till kvalificerad lead. Den visar hur besökare rör sig genom din marknadsföring i en sammanhängande vy, i stället för som separata siffror i separata rapporter.
 
 Använd den för att förstå vilka källor som driver trafik av hög kvalitet, se vilka kampanjer och vilket innehåll som bidrar till konverteringar, och upptäcka var besökare faller ifrån längs vägen.
 
@@ -19,9 +19,9 @@ Använd den för att förstå vilka källor som driver trafik av hög kvalitet, 
 
 ## Läsa flödet
 
-Dashboarden ritar din marknadsföring som ett flöde som läses från vänster till höger. Varje steg matar nästa, och bredden på varje väg speglar hur mycket volym som rör sig genom den.
+Trafikanalysator ritar din marknadsföring som ett flöde som läses från vänster till höger. Varje steg matar nästa, och bredden på varje väg speglar hur mycket volym som rör sig genom den.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/traffic-analyzer/traffic_analyzer_overview.png" alt="Traffic Analyzer-flödet som läses från vänster till höger, från trafikkälla till kvalificerad lead."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/traffic-analyzer/traffic_analyzer_overview.png" alt="Trafikanalysator-flödet som läses från vänster till höger, från trafikkälla till kvalificerad lead."></div>
 
 Stegen är:
 
@@ -65,8 +65,8 @@ Välj **Filter** för att begränsa hela rapporten till bara den trafik som pass
 
 ## Krav
 
-Traffic Analyzer kräver Web Tracker installerad på din webbplats. Utan den har flödet ingen trafikdata att rita från.
+Trafikanalysator kräver Web Tracker installerad på din webbplats. Utan den har flödet ingen trafikdata att rita från.
 
 ## Nästa steg
 
-För en mer övergripande vy över kampanjer, konverteringar och leads, öppna dashboarden [Marketing Performance](marketing-performance.md).
+För en mer övergripande vy över kampanjer, konverteringar och leads, öppna [Marknadsföringsresultat](marketing-performance.md).

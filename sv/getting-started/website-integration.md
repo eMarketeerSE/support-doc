@@ -12,7 +12,7 @@ eMarketeer tillhandahåller två script för webbplatsintegrering. Installera b�
 
 Web Tracker registrerar sidbesök på din webbplats. När en besökare identifieras — genom att klicka på en länk i ett e-post eller skicka in ett formulär — visas deras sidbesök på kontaktens tidslinje i eMarketeer.
 
-Spåraren fyller också i marknadsföringsdashboarden med sessionsdata, trafikkällor och UTM-attribution.
+Spåraren fyller också Marknadsföringsresultat med sessionsdata, trafikkällor och UTM-attribution.
 
 Se [Installera Web Tracker-scriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md) för installationsinstruktioner.
 

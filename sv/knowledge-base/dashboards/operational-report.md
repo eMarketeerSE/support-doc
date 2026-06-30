@@ -1,13 +1,13 @@
 ---
 description: >-
-  Operational Report ger dig en snabb överblick över pågående arbete i ditt
+  Operativ rapport ger dig en snabb överblick över pågående arbete i ditt
   konto — senaste utskicken, formulärinskickningar, kampanjer, Journeys och
   nyligen skapade komponenter i en och samma vy.
 ---
 
-# Operational Report
+# Operativ rapport
 
-Operational Report ger dig en snabb överblick över vad som händer i ditt konto just nu. Den samlar dina senaste utskick, formulärinskickningar, kampanjer, Journeys och nyligen skapat arbete på en enda skärm, så att du ser pågående aktivitet utan att öppna varje rapport för sig.
+Operativ rapport ger dig en snabb överblick över vad som händer i ditt konto just nu. Den samlar dina senaste utskick, formulärinskickningar, kampanjer, Journeys och nyligen skapat arbete på en enda skärm, så att du ser pågående aktivitet utan att öppna varje rapport för sig.
 
 Använd den som din startpunkt: kolla vad som precis gått ut och vad som är schemalagt härnäst, se vad besökare skickar in, håll koll på vilka kampanjer och Journeys som är aktiva, och följ hur webbengagemanget hänger ihop med dina e-postutskick. Komponent- och kontaktnamn i rapporten är länkar — klicka på dem för att öppna komponentrapporten eller kontaktkortet.
 
@@ -45,4 +45,4 @@ Web Sessions-delen av grafen högst upp kräver att Web Tracker är installerad 
 
 ## Nästa steg
 
-För en mer övergripande vy över kampanjer, konverteringar och leads, öppna dashboarden [Marketing Performance](marketing-performance.md).
+För en mer övergripande vy över kampanjer, konverteringar och leads, öppna [Marknadsföringsresultat](marketing-performance.md).

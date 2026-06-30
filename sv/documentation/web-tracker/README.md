@@ -8,7 +8,7 @@ description: >-
 
 Med trackern installerad kan du:
 
-- Fylla på marknadsföringsöversiktens dashboard
+- Fylla på Marknadsföringsresultat
 - Spåra identifierade kontakter på din webbplats
 - Integrera med din webbplats samtyckesbanner
 - Spåra varifrån dina kontakter kommer

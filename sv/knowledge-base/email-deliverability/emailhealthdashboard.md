@@ -4,11 +4,11 @@ description: >-
   du kan upptäcka problem innan de påverkar inkorgsplaceringen.
 ---
 
-# Email Health Dashboard
+# E-posthälsa
 
 KPI:er på hög nivå, trenddiagram och detaljerade tabeller hjälper dig att se var problemen uppstår och borra ner till exakt vilka domäner eller konton som behöver uppmärksamhet.
 
-## Vad du kan göra med Email Health Dashboard
+## Vad du kan göra med E-posthälsa
 
 * Skydda ditt avsändarrykte genom att övervaka studsar, klagomål och leveransfrekvenser.
 * Upptäck risker för leveransbarhet tidigt genom att se negativa trender innan de blir blockeringar eller fördröjningar.
@@ -17,7 +17,7 @@ KPI:er på hög nivå, trenddiagram och detaljerade tabeller hjälper dig att se
 
 ## Datumintervall
 
-All data på dashboarden beräknas utifrån det valda datumintervallet.
+All data i översikten beräknas utifrån det valda datumintervallet.
 
 I väljaren för datumintervall, välj något av följande:
 
@@ -28,7 +28,7 @@ Det valda intervallet gäller för översiktskorten, tidsseriediagrammen och tab
 
 ## Översiktskort
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_1-1024x404.png" alt="Översiktskort på Email Health Dashboard"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_1-1024x404.png" alt="Översiktskort på E-posthälsa"></div>
 
 Översiktskorten ger dig en snabb ögonblicksbild av dina viktigaste mätvärden för e-posthälsa:
 
@@ -45,7 +45,7 @@ Varje kort visar också förändringen jämfört med föregående datumintervall
 
 \[
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_2-1024x295.png" alt="Tidsseriediagram för mätvärden på Email Health Dashboard"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_2-1024x295.png" alt="Tidsseriediagram för mätvärden på E-posthälsa"></div>
 
 Avsnittet Metrics visualiserar hur din e-posthälsa utvecklas över tid. Två tidsseriediagram visas:
 
@@ -62,7 +62,7 @@ Dessa diagram är användbara för att fånga gradvisa förändringar som kan si
 
 ## Tabellen Domains
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_3-1024x408.png" alt="Domains-tabellen på Email Health Dashboard"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_3-1024x408.png" alt="Domains-tabellen på E-posthälsa"></div>
 
 Tabellen Domains visar hur dina e-postmeddelanden presterar för varje mottagande domän under det valda datumintervallet. För varje domän ser du:
 
@@ -85,7 +85,7 @@ Endast domäner med minst 10 skickade e-postmeddelanden under det valda datumint
 
 \[
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_4-1024x433.png" alt="Account-tabellen på Email Health Dashboard"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_4-1024x433.png" alt="Account-tabellen på E-posthälsa"></div>
 
 Växla till fliken Account för att se e-posthälsostatistik för hela kontot. Tabellen visar volym och frekvens för:
 
@@ -125,4 +125,4 @@ För att upprätthålla god e-posthälsa:
 * Håll koll på domäner med sjunkande leverans eller engagemang.
 * Agera tidigt när du ser negativa förändringar — små problem kan eskalera snabbt.
 
-Email Health Dashboard hjälper dig att agera innan leveransproblem påverkar dina resultat.
+E-posthälsa hjälper dig att agera innan leveransproblem påverkar dina resultat.

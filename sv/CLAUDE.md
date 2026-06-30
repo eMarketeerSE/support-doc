@@ -89,9 +89,32 @@ The `assets/` folder is shared — never duplicate images into `sv/assets/`.
 
 When in doubt about a UI label, leave it in English with the Swedish translation in parentheses on first mention if useful, e.g. "Use the **Bulk Actions** tool (Massåtgärder)".
 
-### Metric labels
+### Dashboard names (the product UI is localized to Swedish)
 
-The Marketing Performance dashboard tile labelled **Captured** is rendered as **Converted** (Swedish **Konverterad**). The metric counts leads that converted, so the literal "captured" wording is wrong — do not translate it back to a literal "fångad/infångad".
+The eMarketeer product UI is fully translated to Swedish, so the dashboards and their tiles have official Swedish labels. Match the live UI, not the English source. Filenames and folder paths stay unchanged (URL stability) — only the visible name changes.
+
+| English | Swedish (live UI) |
+| --- | --- |
+| Dashboards (section/group) | Översikt |
+| Marketing Performance | Marknadsföringsresultat |
+| Traffic Analyzer | Trafikanalysator |
+| Operational Report | Operativ rapport |
+| Email Health Dashboard | E-posthälsa |
+
+Marketing Performance KPI tiles:
+
+| English | Swedish (live UI) |
+| --- | --- |
+| Outbound | Utgående |
+| Engaged | Engagerad |
+| Converted (was "Captured") | Konverterad |
+| Enriched | Berikad |
+| Nurtured | Vårdad |
+| Qualified Leads | Kvalificerade leads |
+
+The tile previously labelled **Captured** is rendered as **Converted** / **Konverterad** — the metric counts leads that converted, so the literal "captured / fångad / infångad" wording is wrong. Do not translate it back.
+
+> TODO: verify — widget titles, Traffic Analyzer stage/control labels, and the Email Health metric/table labels inside these articles are still in English but the live UI shows them in Swedish. They need a localization pass, and the "screenshots stay English" note below needs revisiting now that the product UI is Swedish.
 
 ### Aligning with the product UI
 
