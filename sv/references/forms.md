@@ -17,6 +17,10 @@ captcha.md
 {% endcolumn %}
 
 {% column %}
+{% content-ref url="../knowledge-base/forms/form-locales.md" %}
+form-locales.md
+{% endcontent-ref %}
+
 {% content-ref url="../knowledge-base/forms/form-unavailable.md" %}
 form-unavailable.md
 {% endcontent-ref %}

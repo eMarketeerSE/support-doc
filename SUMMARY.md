@@ -131,6 +131,7 @@
     * [Email report explained](knowledge-base/reports/email-report-explained.md)
     * [Maximizing Email Marketing Success: 10 Best Practices and Pitfalls to Avoid](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
   * [Forms](references/forms.md)
+    * [Form locales](knowledge-base/forms/form-locales.md)
     * [Form expression syntax](knowledge-base/forms/form-expression-syntax.md)
     * [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
     * [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)

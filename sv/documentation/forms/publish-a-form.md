@@ -40,6 +40,8 @@ Om ditt formulär finns i flera språkversioner anger du visningsspråk genom at
 <script>em_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en" });</script>
 ```
 
+För hela listan över tillgängliga locale-koder, se [Formulärspråk](../../knowledge-base/forms/form-locales.md).
+
 ## Förifyll fält
 
 Lägg till följande kod för att förifylla synliga eller dolda frågefält:

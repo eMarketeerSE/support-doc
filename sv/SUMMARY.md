@@ -131,6 +131,7 @@
     * [E-postrapporten förklarad](knowledge-base/reports/email-report-explained.md)
     * [Maximera framgången inom e-postmarknadsföring: 10 bästa metoder och fallgropar att undvika](knowledge-base/reports/maximizing-email-marketing-success-best-practices-and-pitfalls-to-avoid.md)
   * [Formulär](references/forms.md)
+    * [Formulärspråk](knowledge-base/forms/form-locales.md)
     * [Uttryckssyntax i formulär](knowledge-base/forms/form-expression-syntax.md)
     * [reCAPTCHA för eMarketeer-formulär](knowledge-base/forms/captcha.md)
     * [Identifiera varför ett formulär är otillgängligt (Legacy)](knowledge-base/forms/form-unavailable.md)

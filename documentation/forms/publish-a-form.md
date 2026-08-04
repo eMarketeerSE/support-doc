@@ -40,6 +40,8 @@ If your form has multiple language versions, set the display language by appendi
 <script>em_cta.render("SCRIPT-ID",{ fullPage: true, locale: "en" });</script>
 ```
 
+For the full list of available locale codes, see [Form locales](../../knowledge-base/forms/form-locales.md).
+
 ## Prepopulate fields
 
 To prefill visible or hidden question fields, add the following code:
