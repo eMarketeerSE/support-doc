@@ -188,6 +188,7 @@
   * [Microsoft Dynamics 365 Sales-integration](knowledge-base/integrations/microsoft-dynamics-integration.md)
   * [Dynamics - Funktioner](documentation/dynamics-365/dynamics-features.md)
   * [Dynamics - Installationsprocess](documentation/dynamics-365/dynamics-installation.md)
+  * [Dynamics - Obligatoriska behörigheter](documentation/dynamics-365/dynamics-permissions.md)
   * [Installera Dynamics Contact Panel](documentation/dynamics-365/5355-2.md)
   * [Dynamics - Import](documentation/dynamics-365/dynamics-import.md)
   * [Dynamics - Journey-steg](documentation/dynamics-365/dynamics-journey-steps.md)

@@ -188,6 +188,7 @@
   * [Microsoft Dynamics 365 Sales Integration](knowledge-base/integrations/microsoft-dynamics-integration.md)
   * [Dynamics - Features](documentation/dynamics-365/dynamics-features.md)
   * [Dynamics - Installation Process](documentation/dynamics-365/dynamics-installation.md)
+  * [Dynamics - Required permissions](documentation/dynamics-365/dynamics-permissions.md)
   * [Installing Dynamics Contact Panel](documentation/dynamics-365/5355-2.md)
   * [Dynamics - Import](documentation/dynamics-365/dynamics-import.md)
   * [Dynamics - Journey Steps](documentation/dynamics-365/dynamics-journey-steps.md)
