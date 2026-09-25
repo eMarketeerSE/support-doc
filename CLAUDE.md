@@ -155,3 +155,29 @@ After a content commit, push to `origin/main`. GitBook syncs within ~1 minute.
 ```bash
 git push origin main
 ```
+
+## New version of the site (`v2` branch)
+
+A new version of the support site is being built on the long-lived `v2` branch while `main` keeps serving the current site. Staging GitBook spaces (unpublished) sync `v2` so the new version can be previewed; production spaces sync only `main`.
+
+### Which branch
+
+- Work that belongs to the new version (new structure, rewritten articles, new sections) goes to `v2`. Never commit it to `main` — that publishes it early.
+- Fixes to the current live site go to `main` as usual.
+- If it is unclear which version a request is for, ask.
+
+### Working on `v2`
+
+- Push with `git push origin v2`. This updates staging only, so no publish confirmation is needed.
+- All other rules in this file (bilingual pair, `SUMMARY.md`, voice, commit message style) apply unchanged on `v2`.
+- Bring `main` into `v2` regularly so fixes to the live site carry forward and the launch merge stays clean: `git checkout v2 && git merge origin/main`.
+- When a file is renamed or moved on `v2`, add a redirect from the old path to the new one under `redirects:` in `.gitbook.yaml` (English) and `sv/.gitbook.yaml` (Swedish), so existing links keep working after launch.
+
+### Launch
+
+On the switch date, with the user's confirmation:
+
+1. Merge `origin/main` into `v2` one last time and resolve any conflicts.
+2. Check that both `SUMMARY.md`s resolve, the redirects cover every moved path, and cross-space links (`app.gitbook.com/s/...`) point to paths that exist in the new structure.
+3. `git checkout main && git merge v2 && git push origin main`. Production updates within ~1 minute.
+4. Remove this section from `CLAUDE.md`, delete the `v2` branch, and delete the staging spaces in GitBook.
