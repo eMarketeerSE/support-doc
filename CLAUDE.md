@@ -160,11 +160,25 @@ git push origin main
 
 A new version of the support site is being built on the long-lived `v2` branch while `main` keeps serving the current site. Staging GitBook spaces (unpublished) sync `v2` so the new version can be previewed; production spaces sync only `main`.
 
+Staging previews (GitBook organization members only):
+- English: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/6I0qo50pR92UyLZfNHV7/
+- Swedish: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/KXTjjergUfIPpDFG4Gkd/
+
 ### Which branch
 
 - Work that belongs to the new version (new structure, rewritten articles, new sections) goes to `v2`. Never commit it to `main` — that publishes it early.
 - Fixes to the current live site go to `main` as usual.
 - If it is unclear which version a request is for, ask.
+
+### Working with a non-technical editor
+
+Non-technical team members work on the new version through Claude Code, following `V2-EDITING-GUIDE.md`. They do not know Git. When the user says they are working on the new version, or the session is clearly for that:
+
+- At the start, run `git checkout v2 && git pull` yourself. Check the branch again before every commit.
+- Handle all Git steps silently. Describe results in plain words ("saved to the new version"), not Git terms.
+- After each push to `v2`, give the staging preview link for the changed page's language and say it updates in about a minute.
+- A "live site" fix goes to `main`: confirm with the user first, push, then merge `main` into `v2` and push `v2` so the fix is not lost at launch.
+- Launch is only done when the user explicitly asks for it, and only after confirming that Magnus or a developer is present.
 
 ### Working on `v2`
 
