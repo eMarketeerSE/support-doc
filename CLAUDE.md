@@ -8,7 +8,7 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - The site has two language variants: **English** (repo root) and **Swedish** (`sv/` subfolder). Each maps to its own GitBook Space; a language picker switches between them.
 - `SUMMARY.md` defines the English navigation; `sv/SUMMARY.md` defines the Swedish navigation.
 - `.gitbook.yaml` configures the English space; `sv/.gitbook.yaml` configures the Swedish space.
-- `sv/CLAUDE.md` holds Swedish-specific glossary, style rules, and the image-path adjustment rule. Read it whenever you touch any file under `sv/`.
+- `sv/CLAUDE.md` holds Swedish-specific glossary and style rules. Read it whenever you touch any file under `sv/`.
 
 ## File layout
 
@@ -16,17 +16,32 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - `knowledge-base/` — feature guides and how-tos, grouped by topic in subfolders.
 - `documentation/` — technical reference, grouped by topic in subfolders. Sub-folder `legal/` for legal docs.
 - `changelog/` — release notes. Its own GitBook space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
-- `assets/<article-slug>/` — images and downloads. **Shared between both languages** — never duplicate into `sv/assets/`.
+- `.gitbook/assets/` — English images. `sv/.gitbook/assets/` — Swedish images. Each GitBook space only reads files inside its own folder, so the Swedish space cannot see the root `.gitbook/assets/`; every image a Swedish article uses must also exist in `sv/.gitbook/assets/`. See Images below.
+- `assets/<article-slug>/` — leftover from the migration import. Not used by articles; do not add to it or link to it. Scheduled for cleanup after the v2 launch.
 - `sv/` — Swedish variant. Mirrors the English structure exactly except `sv/documentation/legal/` does not exist (legal stays English-only).
 
 ## Naming
 
 - Filenames are kebab-case slugs, e.g. `setting-up-smtp.md`. The English and Swedish copies of an article share the same filename and folder path under their respective roots.
 - Every article starts with one H1 (`# Title`) matching its title.
-- Image paths are relative and depend on the file's depth:
-  - English KB / Doc article at depth 2 (e.g. `knowledge-base/forms/foo.md`): `![Alt](../../assets/foo/img.png)`.
-  - Swedish KB / Doc article at depth 3 (e.g. `sv/knowledge-base/forms/foo.md`): `![Alt](../../../assets/foo/img.png)`.
-  - Changelog space pages (e.g. `changelog/2025.md`) use that space's own GitBook asset store: `![Alt](.gitbook/assets/img.png)`.
+- Image paths: see Images below.
+
+## Images
+
+Every space keeps its images flat in its own `.gitbook/assets/` folder:
+
+| Space | Folder | Path from an article at `<section>/<group>/article.md` |
+|---|---|---|
+| English | `.gitbook/assets/` | `../../.gitbook/assets/<file>` |
+| Swedish | `sv/.gitbook/assets/` | `../../.gitbook/assets/<file>` (same text, resolves inside `sv/`) |
+| Changelog | `changelog/.gitbook/assets/` | `.gitbook/assets/<file>` from `changelog/<page>.md` |
+
+- The path is relative: one `../` per folder level between the article and its space root. An article one level deeper uses `../../../.gitbook/assets/`.
+- English and Swedish copies of an article use the **identical** image path. When translating, copy the path unchanged, and make sure the file exists in both `.gitbook/assets/` and `sv/.gitbook/assets/` (copy it if not).
+- Name new images `<article-slug>-<what-it-shows>.png` in lowercase kebab-case, e.g. `import-contacts-step-2.png`, so the owning article is obvious from the file name. Never name a new file `image.png`, `image (3).png` or similar.
+- To replace a screenshot, add a new file with a new name and repoint the article. Do not overwrite an existing file: some files are shared by several articles, and overwriting changes them all.
+- Do not delete old image files. Leave them for a cleanup pass (confirm with the user first).
+- Before committing, check that every image path in the changed articles resolves to an existing file, in both languages.
 
 ## Linking between spaces
 
@@ -49,7 +64,7 @@ Links **within** a single space (docs → docs, or changelog → changelog) stay
 - **Rename / move**: rename both files in parallel and update both `SUMMARY.md`s.
 - **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both.
 - **Translation engine**: translate using Claude (you), guided by `sv/CLAUDE.md`'s glossary and style rules. Do not call external translation services.
-- **Image paths**: when translating EN → SV (or copying an SV file back to EN), adjust image paths per the Naming section rules above.
+- **Image paths**: keep the image path identical when translating, and make sure each image file exists in both `.gitbook/assets/` and `sv/.gitbook/assets/` (see Images).
 - **Legal docs** (`documentation/legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/documentation/legal/`.
 
 If the user explicitly asks you to edit only one language for a deliberate reason (e.g. "fix a typo in Swedish only"), respect that. Otherwise, keep the pair in sync.

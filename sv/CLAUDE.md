@@ -21,12 +21,12 @@ Mirrors the English structure exactly **except** `documentation/legal/` is NOT t
 
 ## Image references
 
-Swedish articles live one level deeper than their English counterparts, so image paths need one extra `../`:
+The Swedish space only reads files inside `sv/`, so Swedish images live in `sv/.gitbook/assets/`. Because a Swedish article sits at the same depth inside `sv/` as its English original does at the repo root, the image path is the same text in both languages:
 
-- English at `knowledge-base/<group>/article.md`: `![alt](../../assets/<slug>/img.png)`
-- Swedish at `sv/knowledge-base/<group>/article.md`: `![alt](../../../assets/<slug>/img.png)`
+- English `knowledge-base/<group>/article.md`: `![alt](../../.gitbook/assets/<file>)` → `.gitbook/assets/<file>`
+- Swedish `sv/knowledge-base/<group>/article.md`: `![alt](../../.gitbook/assets/<file>)` → `sv/.gitbook/assets/<file>`
 
-The `assets/` folder is shared — never duplicate images into `sv/assets/`.
+Copy the path unchanged when translating, and make sure the file exists in `sv/.gitbook/assets/` too. Never link to the root `assets/` or `.gitbook/assets/` folders from a Swedish article with extra `../` — the Swedish space cannot see them. Naming and replacement rules are in the root `CLAUDE.md` under Images.
 
 ## Terminology (Swedish glossary)
 
@@ -156,4 +156,4 @@ When translating a batch:
 - Read this file at the start of every batch.
 - Translate the listed files only. Never touch files outside the batch.
 - Use ONLY `git add` and `git commit`. Never `git push`, `git fetch`, or any remote-mutating command.
-- Sanity-check before commit: every translated file still has exactly one H1 on line 1, no `../../assets/` paths remain (all should be `../../../assets/`), no English headings linger.
+- Sanity-check before commit: every translated file still has exactly one H1 on line 1, every image path resolves to a file inside `sv/.gitbook/assets/`, no English headings linger.
