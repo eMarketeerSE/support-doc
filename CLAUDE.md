@@ -130,7 +130,8 @@ genuinely doesn't apply):
 
 ### What is out of scope (do NOT add)
 - GitBook hint blocks (`{% hint %}`). Not in this pass.
-- New screenshots, embedded videos, or external links.
+- Embedded videos or external links.
+- New screenshots during a voice or structure rewrite. Exception: replacing old-UI screenshots with new-UI ones is in scope on `v2` for the new-UI launch; follow the Images rules above.
 - Additional languages beyond English and Swedish (the bilingual pair is fixed).
 
 ## Autonomous vs. confirm-first
