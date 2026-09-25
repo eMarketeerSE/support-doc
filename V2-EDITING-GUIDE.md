@@ -52,10 +52,17 @@ Claude asks you before anything that is hard to undo, like deleting or moving ar
 
 ## Preview your changes
 
-Open the new version in your browser about one minute after Claude says it saved the change:
+Open the preview in your browser about one minute after Claude says it saved the change. You need to be logged in to GitBook.
 
-- English: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/6I0qo50pR92UyLZfNHV7/
-- Swedish: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/KXTjjergUfIPpDFG4Gkd/
+- **Preview of the whole site:** https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/sites/site_qHP5y/preview
+
+  This looks exactly like the real support site. Use the language picker to switch between English and Swedish.
+
+- **Single pages, if you need them:**
+  - English: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/6I0qo50pR92UyLZfNHV7/
+  - Swedish: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/KXTjjergUfIPpDFG4Gkd/
+
+The preview is only visible to people in our GitBook organization. Customers can't see it, and it doesn't show up on Google. To let someone else review it, ask Magnus to invite them to GitBook.
 
 If something looks wrong, tell Claude what you see, for example: "The image in the SMS consent article doesn't show."
 
