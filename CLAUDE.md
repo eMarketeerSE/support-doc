@@ -42,6 +42,7 @@ Every space keeps its images flat in its own `.gitbook/assets/` folder:
 - To replace a screenshot, add a new file with a new name and repoint the article. Do not overwrite an existing file: some files are shared by several articles, and overwriting changes them all.
 - Do not delete old image files. Leave them for a cleanup pass (confirm with the user first).
 - Before committing, check that every image path in the changed articles resolves to an existing file, in both languages.
+- Screenshot look and capture rules (annotation style, crop, fake data instead of real names): follow the `support-screenshots` skill in `.claude/skills/support-screenshots/SKILL.md`.
 
 ## Linking between spaces
 
