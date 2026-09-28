@@ -2,7 +2,7 @@
 
 **eMarketeer AB**
 
-_Version 2.0 – Effective Date: March 30, 2025_
+_Version 2.1 – Effective Date: September 28 2026_
 
 These general conditions regulate the relation between eMarketeer AB (org. nr 556631- 4497) and the Customer and constitute an integrated part of the agreement reached between the parties with respect to the software concept eMarketeer (“Agreement”). The Agreement is effective from the date of acceptance. Acceptance is deemed to take place when the Customer starts using the Service or by the Customer entering a paid subscription of the Service by signing the Agreement.
 
@@ -24,7 +24,7 @@ Backup and restore.\
 The database is backed up daily, and old backups are kept for 30 days. This backup is intended to be used to restore services in case of a catastrophic event, e.g. server crash.\
 More details about security and data protection can be found in [eMarketeer Information Security Policy](infromation-secirity-policy.md).
 
-### 3.Definitions
+### 3. Definitions
 
 **“The Service”** means the Marketing Automation and Lead Management, Software as a Service (SaaS) ordered by the Customer.
 
@@ -32,7 +32,7 @@ More details about security and data protection can be found in [eMarketeer Info
 
 **“Agreement date”** is the date the Customer sign the Agreement. The Customer is from this date a customer and will be able to access the Service.
 
-**“Contract period”** is the current Contract period you are in.
+**“Contract period”** means the initial period of twelve (12) months from the Agreement date, and each subsequent renewal period of twelve (12) months under section 17.2.
 
 **“Customer Data”** shall in this Agreement be defined as all data that the Customer stores on the Service.
 
@@ -126,7 +126,6 @@ eMarketeer shall use reasonable efforts to ensure that the Service is available 
 
 #### 9.2 Maintenance and Scheduled Downtime
 
-Maintenance and Scheduled Downtime\
 eMarketeer shall have the right to take actions that affect the availability of the Service provided that such an effect is justified from a technical or security perspective. eMarketeer informs the customer in advance of any scheduled maintenance on eMarketeer Status page.
 
 #### 9.3 Service Level Agreement (SLA)
@@ -171,10 +170,7 @@ Compensation applies only if a Customer submits a claim within 5 working days of
 To be eligible for compensation under the SLA, Customers must:
 
 * Notify eMarketeer Support within 5 working days of an incident.
-* Submit a support request including: \*
-  * A detailed incident description.
-  * The number of affected users and their locations.
-  * Steps the Customer has taken to resolve the issue.
+* Submit a support request including: a detailed incident description; the number of affected users and their locations; steps the Customer has taken to resolve the issue.
 
 The calculation of unavailability starts once eMarketeer is notified or becomes aware of the incident. eMarketeer will use its best efforts to process compensation claims within 30 days.
 
@@ -206,12 +202,12 @@ The Customer is obligated to ensure that the personal data provided by the Custo
 
 **10.5.1 Customer Data Retention**
 
-by law. Customers may request early deletion of their data before the 30-day period. After 30 days, all Customer data will be permanently deleted from eMarketeer’s active systems and backups
+Upon termination of the Agreement, eMarketeer will retain Customer Data for 30 days, unless a longer retention period is required by law. Customers may request deletion of their data before the 30-day period ends. After 30 days, all Customer Data will be permanently deleted from eMarketeer’s active systems.
 
 **10.5.2 Backup Retention**
 
 eMarketeer retains system backups for up to 90 days for security and compliance purposes.\
-Backup data is stored in an encrypted state and is automatically purged after 90 days
+Backup data is stored in an encrypted state and is automatically purged after 90 days.
 
 **10.5.3 Right to Data Deletion**
 
@@ -229,19 +225,19 @@ In the event of a confirmed security breach involving personal data, eMarketeer 
 
 #### 11.1
 
-eMarketeer is not liable for any data provided by the Customer in the Service.
+eMarketeer is not responsible for the content, accuracy or lawfulness of Customer Data or any other data provided by the Customer in the Service.
 
 #### 11.2
 
-With the limitations pursuant to this agreement, eMarketeer is liable for direct damages due to wilful misconduct or gross negligence by eMarketeer.
+Each party shall compensate the other party for direct loss caused by its breach of this Agreement, subject to the limitations in this section 11.
 
 #### 11.3
 
-With the limitations pursuant to this agreement, eMarketeer is only liable for indirect damages due to wilful misconduct or gross negligence by eMarketeer.
+Neither party is liable for indirect loss. Indirect loss means loss of profit, revenue or turnover; loss of business opportunity or goodwill; loss due to business interruption; loss of or damage to data beyond the reasonable cost of restoring it from the latest available backup; and liability to third parties. Amounts payable by the Customer under section 12.1 are not indirect loss for the purposes of this section.
 
 #### 11.4
 
-eMarketeer’s obligation to pay damages in the case of breach of contract is, in the absence of intent or gross negligence by eMarketeer, limited to one contract period. From the point in time when the breach of contract was claimed.
+Each party’s total aggregate liability under or in connection with this Agreement is limited to an amount equal to the fees paid and payable by the Customer for the Service during the twelve (12) months immediately preceding the event giving rise to the claim. If the event occurs before twelve months have passed from the Agreement date, the limit is the fees payable for the first Contract period. Compensation under section 9.3.2 counts towards this limit.
 
 #### 11.5
 
@@ -249,24 +245,23 @@ eMarketeer hereby warrants that eMarketeer does not infringe upon any right held
 
 #### 11.6
 
-In the event that a third party presents claims purely on account of the customer’s use of the service, the customer shall keep eMarketeer indemnified from such claims.
+The limitations in sections 11.3 and 11.4 do not apply to (a) loss caused by a party’s wilful misconduct or gross negligence, (b) the Customer’s obligation to pay fees and charges under this Agreement, or (c) liability that cannot be limited under mandatory law. The limit for the Customer’s indemnity is set out in section 11.7.
+
+#### 11.7
+
+The Customer’s total aggregate liability under section 12.1 is included in, and limited by, the amount set out in section 11.4, so the same limit applies to both parties. This limit does not apply where the claim is caused by the Customer’s wilful misconduct or gross negligence.
 
 ### 12. Indemnification and third-party claims
 
 #### 12.1 Customer’s Responsibility for Indemnification
 
-Customer’s Responsibility for Indemnification\
-The Customer agrees to indemnify, defend, and hold harmless eMarketeer, its affiliates, officers, directors, employees, and agents from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising from:
+Subject to section 11.7, the Customer shall indemnify, defend and hold harmless eMarketeer, its affiliates, officers, directors, employees and agents from and against third-party claims, and resulting damages, losses, costs and expenses (including reasonable legal fees), arising from:
 
 **12.1.1 Customer’s Use of the Service**
 
 Any unlawful, improper, or unauthorized use of the Service by the Customer or its Users.\
 Any violation of applicable laws or regulations, including but not limited to GDPR, anti-spam laws, and intellectual property laws, caused by the Customer’s actions.\
 Any third-party claims related to the Customer’s content, marketing practices, or data processing.
-
-**12.1.2 Customer’s Breach of Agreement**
-
-Failure to comply with the terms of service, data protection obligations, or any contractual terms.
 
 #### 12.2 Limitations and Exclusions
 
@@ -386,13 +381,13 @@ eMarketeer shall have the right to terminate the Customer’s account to access 
 
 #### 18.1
 
-Upon termination of the agreement, it is customer’s responsibility to copy and save previously stored information. eMarketeer is responsible
+Upon termination of the agreement, it is customer’s responsibility to copy and save previously stored information. eMarketeer is responsible for customer data to be erased from the Service database/s.
 
 ### 19. Relief
 
 #### 19.1
 
-A party (including its sub-contractors) is relieved from liability beyond their control and the circumstance prevents or makes substantially more difficult the timely performance of such obligation.
+A party (including its sub-contractors) is relieved from liability for failure to perform an obligation under this Agreement if the failure is due to a circumstance beyond its reasonable control which prevents or substantially impedes timely performance of that obligation.
 
 #### 19.2
 
@@ -414,7 +409,7 @@ Customer may not in wholly or partly assign its rights and/or obligations under 
 
 #### 21.1
 
-eMarketeer reserves the right to make changes to the terms and conditions of this Agreement with 1-month prior notice. If changes are governed in a clause of this Agreement, the stated prior notice applies. All Customers will be informed of such changes by email or through the information being made available on eMarketeer\`s website, in The Service or support site
+eMarketeer reserves the right to make changes to the terms and conditions of this Agreement with 1-month prior notice. If changes are governed in a clause of this Agreement, the stated prior notice applies. All Customers will be informed of such changes by email or through the information being made available on eMarketeer’s website, in The Service or support site
 
 #### 21.2
 
