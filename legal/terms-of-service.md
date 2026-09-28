@@ -141,10 +141,9 @@ provided they have the appropriate permissions.
 
 Exceptions: Unavailability does not include:
 
-*
-  * Scheduled maintenance with 48 hours’ notice.
-  * Issues caused by Customer equipment, software, or Internet connection failures.
-  * Third-party service provider failures (e.g., hosting provider outages).
+* Scheduled maintenance with 48 hours’ notice.
+* Issues caused by Customer equipment, software, or Internet connection failures.
+* Third-party service provider failures (e.g., hosting provider outages).
 
 If the Service falls below 99.8% availability due to a failure within eMarketeer’s control, Customers may request compensation as outlined in Section 9.3.2.
 
