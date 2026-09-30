@@ -7,13 +7,13 @@ description: >-
 
 # Dynamics - Create/Update Lead
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/create-update-lead-1024x695.png" alt="Konfiguration av steget Create/Update Lead med kryssrutan Always create a lead"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/create-update-lead-step-settings.png" alt="Panelen Create / Update Lead med Topic, Description, Always create a lead och Owner"></div>
 
 ### Stegkonfiguration
 
 När du lägger till detta steg i en Journey, konfigurera följande fält:
 
-* **Subject (obligatoriskt):** Sätter huvudtiteln för Lead-posten i Dynamics (till exempel "Webinar Attendee" eller "Contact Us Form").
+* **Topic (obligatoriskt):** Sätter huvudtiteln för Lead-posten i Dynamics (till exempel "Webinar Attendee" eller "Contact Us Form").
 * **Description:** Skickar ytterligare anteckningar, kampanjdetaljer eller kontext till ditt säljteam.
 
 ### Inställningen "Always create a lead"

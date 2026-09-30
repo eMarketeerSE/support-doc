@@ -7,13 +7,13 @@ description: >-
 
 # Dynamics - Create/Update Lead
 
-![Create/Update Lead step configuration with Always create a lead checkbox](../../.gitbook/assets/create-update-lead-1024x695.png)
+![Create / Update Lead panel with Topic, Description, Always create a lead and Owner](../../.gitbook/assets/create-update-lead-step-settings.png)
 
 ### Step configuration
 
 When you add this step to a Journey, configure the following fields:
 
-* **Subject (required):** Sets the main title for the Lead record in Dynamics (for example, "Webinar Attendee" or "Contact Us Form").
+* **Topic (required):** Sets the main title for the Lead record in Dynamics (for example, "Webinar Attendee" or "Contact Us Form").
 * **Description:** Passes additional notes, campaign details, or context to your sales team.
 
 ### The "Always create a lead" setting
