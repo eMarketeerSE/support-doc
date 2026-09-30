@@ -36,7 +36,7 @@ Innan du börjar, installera en authenticator-app på din mobila enhet om du int
 
 ## Konfigurera MFA
 
-Följ stegen nedan efter att du eller din admin har aktiverat MFA på ditt konto. Du kan också aktivera det själv i eMarketeer under Settings → Edit my profile → slå på MFA.
+Följ stegen nedan efter att du eller din admin har aktiverat MFA på ditt konto. Du kan också aktivera det själv i eMarketeer: klicka på din avatar uppe till höger, välj **My Profile**, öppna fliken **Security** och slå på **Multi-factor authentication**.
 
 {% stepper %}
 {% step %}

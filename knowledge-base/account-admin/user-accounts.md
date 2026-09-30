@@ -32,7 +32,7 @@ Before you start, install an authenticator app on your mobile device if you don'
 
 ## Set up MFA
 
-Follow these steps after you or your admin has enabled MFA on your account. You can also enable it yourself in eMarketeer under Settings → Edit my profile → toggle MFA on.
+Follow these steps after you or your admin has enabled MFA on your account. You can also enable it yourself in eMarketeer: click your avatar at the top right, choose **My Profile**, open the **Security** tab and switch on **Multi-factor authentication**.
 
 {% stepper %}
 {% step %}
