@@ -9,7 +9,7 @@ description: >-
 ## Reset the integration
 
 1. Sign in to your eMarketeer account.
-2. Go to **Account** > **Plugins & Integrations** > **SuperOffice**.
+2. Click the gear icon at the top right, choose **Account Settings**, open **Integrations**, and click **Manage** on the **Superoffice CRM** card.
 3.  Set the integration to **None** and click **Apply** to save the change.
 
     <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/soreset.png" alt="SuperOffice integration set to None"></div>
