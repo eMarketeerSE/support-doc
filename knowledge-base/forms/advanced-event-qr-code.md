@@ -48,16 +48,16 @@ The placeholders `M_VALUE` and `NAME_VALUE` are what you will replace with value
 
 ### Get the M-value and NAME-value from the form
 
-Open the report page for the form where attendance should be registered, then open the form's website integration code.
+Open the form where attendance should be registered, then open its Publish Form page.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/formintegrationcodeguide.png" alt="Step-by-step illustration of how to find the form integration code"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/advanced-event-qr-code-publish-website-integration.png" alt="The Publish Form page with numbered markers on the Publish Form menu, the Website Integration section, the domain field and the Get Code button"></div>
 
 Guide to form integration code
 
-1. Click **Publish Form** in the left-side menu to open the publishing options.
-2. Click **Website Integration** on the publishing page.
-3. Under `<FORM>`, type any domain in the domain field and press Enter. For example, `emarketeer.com`.
-4. Click the **Get Code** button.
+1. On the form's card in the campaign, click the **Publish** icon. You can also open the menu next to the form name and choose **Publish Form…**.
+2. Find the **Website Integration** section on the Publish Form page.
+3. Under **FORM**, type any domain in the domain field. For example, `emarketeer.com`.
+4. Click **Get Code**. The code appears below the button.
 
 Next, find the two values in the integration code. The M-value identifies the form. The NAME-value identifies the specific question — in this case, the question that stores the contact's email address. Look for:
 

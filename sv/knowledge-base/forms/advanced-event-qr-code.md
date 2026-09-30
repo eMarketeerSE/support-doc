@@ -48,16 +48,16 @@ Platshållarna `M_VALUE` och `NAME_VALUE` är det du ersätter med värden från
 
 ### Hämta M-värdet och NAME-värdet från formuläret
 
-Öppna rapportsidan för det formulär där närvaron ska registreras och öppna sedan formulärets integrationskod för webbplats.
+Öppna det formulär där närvaron ska registreras och öppna sedan dess sida Publish Form.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/formintegrationcodeguide.png" alt="Steg-för-steg-illustration av hur du hittar formulärets integrationskod"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/advanced-event-qr-code-publish-website-integration.png" alt="Sidan Publish Form med numrerade markeringar vid menyn Publish Form, avsnittet Website Integration, domänfältet och knappen Get Code"></div>
 
 Guide till formulärets integrationskod
 
-1. Klicka på **Publish Form** i vänstermenyn för att öppna publiceringsalternativen.
-2. Klicka på **Website Integration** på publiceringssidan.
-3. Under `<FORM>`, skriv valfri domän i domänfältet och tryck på Enter. Till exempel `emarketeer.com`.
-4. Klicka på knappen **Get Code**.
+1. Klicka på ikonen **Publish** på formulärets kort i kampanjen. Du kan också öppna menyn bredvid formulärnamnet och välja **Publish Form…**.
+2. Hitta avsnittet **Website Integration** på sidan Publish Form.
+3. Under **FORM**, skriv valfri domän i domänfältet. Till exempel `emarketeer.com`.
+4. Klicka på **Get Code**. Koden visas under knappen.
 
 Hitta sedan de två värdena i integrationskoden. M-värdet identifierar formuläret. NAME-värdet identifierar den specifika frågan — i det här fallet den fråga som lagrar kontaktens e-postadress. Leta efter:
 
