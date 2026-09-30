@@ -12,19 +12,19 @@ En Journey är en automatiserad sekvens som kör en serie steg för varje kontak
 
 ### Öppna Journey-byggaren
 
-Klicka på "Journeys" i den övre navigationsraden. Klicka sedan på "Create new Journey" för att skapa din första Journey.
+Klicka på "Journeys" i vänstermenyn. Klicka sedan på "New Journey" för att skapa din första Journey.
 
 ### Lägg till en startpunkt eller trigger
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-08.03.25-300x282.png" alt="Filterdialog för Journey-startpunkt"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-your-first-journey-new-journey-dialog.png" alt="Dialogrutan New Journey med namn, Automatic trigger vald och ett triggervillkor för Score"></div>
 
-När du skapar en ny Journey är första uppgiften att ange startpunkten.
+När du skapar en ny Journey är första uppgiften att namnge den och välja en startpunkt. Välj "Automatic trigger" för att lägga till kontakter när de matchar villkor, eller "Manual trigger" för att lägga till kontakter manuellt, till exempel från ett kontaktkort.
 
-En startpunkt är en uppsättning filterregler. Varje kontakt som matchar filtret startar Journey.
+Med en automatisk trigger är startpunkten en uppsättning triggervillkor. Klicka på "Set conditions", välj en kategori som Score och klicka på "Add condition". Varje kontakt som matchar villkoren startar Journey.
 
 **Observera:** Startpunkten utlöses endast för kontakter som matchar filtret från och med aktiveringstillfället. Den inkluderar inte kontakter som historiskt matchat filtret.
 
-När din startpunkt är inställd klickar du på "Apply" för att gå vidare till Journey-redigeraren.
+När dina villkor är inställda klickar du på "Apply conditions". Klicka sedan på "Create Journey" för att öppna Journey-redigeraren.
 
 Din Journey startar inte förrän du aktiverar den.
 
@@ -32,15 +32,15 @@ För närvarande är detta allt du behöver veta om startpunkter. För en djupar
 
 ### Bygg din Journey
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2023-05-25_08-38-56-300x209.png" alt="Journey-byggarens arbetsyta med stegnoder"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-your-first-journey-add-step-dot.png" alt="Journey-byggaren med en startpunkt och en pil som pekar på pricken på linjen under den"></div>
 
 När du har angett startpunkten kommer du in i Journey-byggaren. Det är här du lägger till de steg (åtgärder) du vill köra för varje kontakt som går in i din Journey.
 
-Klicka på de svarta prickarna för att lägga till steg i sekvens.
+Klicka på en prick på linjen mellan två steg för att öppna panelen "Add Journey step" och klicka sedan på det steg du vill ha. Stegen är grupperade som Campaign Component, Logic, Lead, Contact och CRM.
 
 ### Ställ in väntevillkor
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-08.58.56-300x239.png" alt="väntesteg följt av en If/Else-förgrening"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-your-first-journey-wait-and-if-else.png" alt="Väntesteg följt av ett If/Else-steg som delas i förgreningarna yes och no"></div>
 
 Med Journey-byggaren kan du dela upp din Journey i förgreningar baserat på kriterier som du väljer.
 
@@ -50,7 +50,7 @@ Lägg till väntesteget först, lägg sedan till If/Else-steget för att dela v�
 
 > Lägg alltid till ett väntesteg före ett If/Else-steg, annars utvärderas det omedelbart.
 
-If/Else-steget är också ett filter där du kan ange valfria kriterier. När du lägger till If/Else-steget delas förgreningen i två: en för kontakter som uppfyller kriterierna och en för dem som inte gör det. Att lägga till ett väntesteg före If/Else-steget är särskilt viktigt när du utvärderar interaktioner från ett tidigare steg.
+If/Else-steget har egna villkor. Klicka på "Set conditions" för att välja kriterier. När du lägger till If/Else-steget delas förgreningen i två: en för kontakter som uppfyller kriterierna och en för dem som inte gör det. Att lägga till ett väntesteg före If/Else-steget är särskilt viktigt när du utvärderar interaktioner från ett tidigare steg.
 
 Nu kan du fortsätta att bygga ut var och en av de två förgreningarna.
 
@@ -62,17 +62,17 @@ Rapporterna för de skickade komponenterna finns också i den kampanj där du by
 
 ### Spara din Journey
 
-Alla ändringar i en Journey måste sparas innan de träder i kraft. Tryck på "Save"-knappen i det övre högra hörnet för att spara din Journey.
+Alla ändringar i en Journey måste sparas innan de träder i kraft. Klicka på "Save" högst upp i den vänstra panelen för att spara din Journey.
 
 ### Aktivera en Journey
 
-När din första Journey har skapats (genom att klicka på "Save") är den pausad. När den är pausad är din Journey inaktiv och inga kontakter går in i den.
+När du skapar en Journey är den pausad. När den är pausad är din Journey inaktiv och inga kontakter går in i den.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-09.28.11.png" alt="pausad Journey med aktiveringsreglaget av"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-your-first-journey-status-paused.png" alt="Status Paused med reglaget avstängt"></div>
 
-När du är redo att aktivera din Journey klickar du på reglaget i det övre högra hörnet.
+När du är redo att aktivera din Journey slår du på reglaget under "Status" i den vänstra panelen. Etiketten ändras från Paused till Active.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-09.28.41.png" alt="aktiv Journey med aktiveringsreglaget på"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-your-first-journey-status-active.png" alt="Status Active med reglaget påslaget"></div>
 
 När din Journey är aktiv går alla nya kontakter som matchar startpunktsfiltret in i den.
 
@@ -102,11 +102,11 @@ Det här liknar att välja "Manual trigger" som Journeyns startpunkt, med en vik
 
 ### Spåra prestanda för en Journey
 
-Kontakter i en Journey kan ha tre statusar:
+"Journey Summary" i den vänstra panelen visar när Journey startades och hur många kontakter som finns i den. Kontakter kan ha tre statusar:
 
 * Contacts started – antalet kontakter som matchade startpunktsfiltret och gick in i din Journey.
 * Contacts in progress – varje kontakt som har startat din Journey men inte slutfört den. Utan väntesteg passerar kontakter pågående-statusen mycket snabbt. Med väntesteg kan många kontakter samtidigt vara pågående.
-* Completed Journeys – antalet kontakter som har slutfört alla steg i din Journey.
+* Completed journeys to date – antalet kontakter som har slutfört alla steg i din Journey.
 
 ### Stegräknare
 
@@ -118,7 +118,7 @@ Väntesteget har en extra räknare som visar hur många kontakter som för närv
 
 ## Journeys och SuperOffice
 
-Stegsamlingen innehåller flera åtgärder som utför uppgifter i SuperOffice. Alla uppgifter gäller kontakter i SuperOffice.
+Gruppen CRM i panelen "Add Journey step" innehåller flera åtgärder som utför uppgifter i SuperOffice: Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection och Add / Remove interest. Alla uppgifter gäller kontakter i SuperOffice.
 
 ### Kontaktmatchning
 
@@ -128,7 +128,7 @@ Om ingen matchande kontakt hittas hoppas Journey-steget över som standard.
 
 ### Skapa saknade kontakter i SuperOffice
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-05-25-kl.-12.27.46.png" alt="Inställningspanel för SuperOffice-steg i sidofältet"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-your-first-journey-superoffice-settings-panel.png" alt="Panelen SuperOffice settings med alternativen Create the contacts / company och Skip contacts we can't find in SO"></div>
 
 När du lägger till ett Journey-steg som involverar SuperOffice visas en inställningspanel i det vänstra sidofältet.
 
