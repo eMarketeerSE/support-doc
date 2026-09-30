@@ -42,7 +42,7 @@ Instead of typing the same information into every content piece, you store it on
 {% step %}
 ### Open the Fields tab
 
-In your campaign, go to the "fields" tab and click "add campaign field."
+In your campaign, go to the **Campaign Fields** tab and click **Add Campaign Field**.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Add-campaign-field-e1615299138567-1024x443.png" alt="The fields tab with the add campaign field button."></div>
 {% endstep %}

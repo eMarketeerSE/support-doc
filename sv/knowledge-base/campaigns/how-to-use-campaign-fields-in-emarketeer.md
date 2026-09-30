@@ -42,7 +42,7 @@ Istället för att skriva in samma information i varje innehållsdel sparar du d
 {% step %}
 ### Öppna fliken Fields
 
-Gå till fliken "fields" i din kampanj och klicka på "add campaign field."
+Gå till fliken **Campaign Fields** i din kampanj och klicka på **Add Campaign Field**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Add-campaign-field-e1615299138567-1024x443.png" alt="Fliken fields med knappen add campaign field."></div>
 {% endstep %}
