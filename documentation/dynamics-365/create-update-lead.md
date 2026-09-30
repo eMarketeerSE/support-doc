@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Create/Update Lead
 
-![Create/Update Lead step configuration with Always create a lead checkbox](../../../.gitbook/assets/create-update-lead-1024x695.png)
+![Create/Update Lead step configuration with Always create a lead checkbox](../../.gitbook/assets/create-update-lead-1024x695.png)
 
 ### Step configuration
 
