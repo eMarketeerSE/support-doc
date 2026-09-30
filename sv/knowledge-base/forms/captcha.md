@@ -6,9 +6,9 @@ description: >-
 
 # reCAPTCHA för eMarketeer-formulär
 
-reCAPTCHA skyddar dina formulär från botinskick med hjälp av Googles CAPTCHA-system.
+reCAPTCHA skyddar dina äldre formulär (legacy) från botinskick med hjälp av Googles CAPTCHA-system. Nya formulär använder i stället en captcha som drivs inom EU.
 
-Alla eMarketeer-formulär som publicerats efter den 25 april 2022 har reCAPTCHA-skydd. En grå och blå pilikon längst ned på sidor med formulär som driftas av eMarketeer visar att reCAPTCHA är aktivt.
+Legacy-formulär som publicerats efter den 25 april 2022 har reCAPTCHA-skydd. En grå och blå pilikon längst ned på sidor med legacy-formulär som driftas av eMarketeer visar att reCAPTCHA är aktivt.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/recaptchaicon.png" alt="reCAPTCHA-ikonen på en sida med ett driftat formulär"></div>
 
@@ -24,4 +24,4 @@ För mer information, se [Googles dokumentation för reCAPTCHA](https://www.goog
 
 ## Stänga av reCAPTCHA
 
-Du kan stänga av reCAPTCHA för formulär på ditt konto från motsvarande inställning på kontots sida för Integration settings.
+Du kan stänga av Google reCAPTCHA för legacy-formulär med reglaget **Google reCAPTCHA for legacy forms** under **Account Settings > Integrations**. Nya formulär använder en captcha som drivs inom EU.

@@ -6,9 +6,9 @@ description: >-
 
 # reCAPTCHA for eMarketeer Forms
 
-reCAPTCHA protects your forms from bot submissions using Google's CAPTCHA system.
+reCAPTCHA protects your legacy forms from bot submissions using Google's CAPTCHA system. New forms use an EU-hosted captcha instead.
 
-All eMarketeer forms published after April 25th, 2022 have reCAPTCHA protection. A grey and blue arrow icon at the bottom of hosted form pages shows that reCAPTCHA is active.
+Legacy forms published after April 25th, 2022 have reCAPTCHA protection. A grey and blue arrow icon at the bottom of hosted legacy form pages shows that reCAPTCHA is active.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/recaptchaicon.png" alt="reCAPTCHA icon on a hosted form page"></div>
 
@@ -24,4 +24,4 @@ For more detail, see [Google's reCAPTCHA documentation](https://www.google.com/r
 
 ## Turning off reCAPTCHA
 
-You can turn off reCAPTCHA for forms on your account from the related option on the account's Integration settings page.
+You can turn off Google reCAPTCHA for legacy forms with the **Google reCAPTCHA for legacy forms** switch under **Account Settings > Integrations**. New forms use an EU-hosted captcha.
