@@ -22,7 +22,7 @@ Storage of customer data\
 Data is stored within EU.\
 Backup and restore.\
 The database is backed up daily, and old backups are kept for 30 days. This backup is intended to be used to restore services in case of a catastrophic event, e.g. server crash.\
-More details about security and data protection can be found in [eMarketeer Information Security Policy](infromation-secirity-policy.md).
+More details about security and data protection can be found in [eMarketeer Information Security Policy](information-security-policy.md).
 
 ### 3. Definitions
 

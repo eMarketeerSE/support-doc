@@ -38,7 +38,7 @@ Data Processing Agreements (DPAs) are signed with customers to define how person
 
 #### Secure Storage
 
-Data is secured under an ISO 27001-certified Information Security Management System. Regular audits and assessments are performed by external security consultants in collaboration with our hosting provider.
+Data is stored in AWS infrastructure in the EU, which is certified to ISO 27001. Our security controls are regularly assessed and tested by an independent external security company.
 
 #### Audits and ISAE 3402
 

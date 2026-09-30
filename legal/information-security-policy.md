@@ -30,7 +30,7 @@ We follow a Security by Design approach. Code is developed and tested rigorously
 
 Production changes follow formal procedures. All code is reviewed and tested in isolated environments before deployment. Internal acceptance and risk assessments are mandatory.
 
-Penetration testing is performed regularly. We collaborate with security advisors like Watchcom AS for assessments, testing, and consulting.
+Penetration testing is performed regularly. Penetration testing and security assessments are carried out by eBuilder Security, an independent security company.
 
 ## Security Measures in eMarketeer Applications
 
