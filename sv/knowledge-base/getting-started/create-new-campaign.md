@@ -10,21 +10,21 @@ Skapa en kampanj som behållare för de e-postmeddelanden, formulär och webbsid
 
 En kampanj samlar relaterade komponenter, så att skapa en är oftast första steget för ett nytt arbete i eMarketeer.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cc1.png" alt="Skapa en kampanj"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/create-new-campaign-new-campaign-dialog.png" alt="Dialogrutan New Campaign med menyalternativet Campaigns, knappen New Campaign, fältet Campaign name och knappen Create numrerade 1 till 4"></div>
 
 Skapa en kampanj
 
-### 1. Öppna sidan Kampanjer från navigationslisten
+### 1. Öppna Campaigns i vänstermenyn
 
 Om du vill att den nya kampanjen ska ligga i en befintlig mapp, navigera till den mappen först.
 
-### 2. Klicka på \[Create Campaign] uppe till vänster
+### 2. Klicka på \[New Campaign] uppe till vänster
 
 ### 3. Ge kampanjen ett unikt namn
 
-Namnet identifierar kampanjen inom eMarketeer och visas aldrig för dina kontakter. Du kan också lägga till en valfri beskrivning, som också bara är intern.
+Namnet identifierar kampanjen inom eMarketeer och visas aldrig för dina kontakter. Du kan också lägga till en valfri beskrivning och taggar. Båda är bara interna.
 
-### 4. Klicka på \[Create Campaign] längst ned på sidan
+### 4. Klicka på \[Create] i dialogrutan
 
 Detta skapar kampanjen och öppnar dess tomma komponentsida.
 
@@ -32,15 +32,15 @@ Detta skapar kampanjen och öppnar dess tomma komponentsida.
 
 ## Vad du gör härnäst
 
-Lägg till din första komponent i kampanjen. Det kan vara en e-postinbjudan, ett anmälningsformulär eller en landningssida.
+Klicka på \[Add Component] för att lägga till din första komponent i kampanjen. Det kan vara en e-postinbjudan, ett anmälningsformulär eller en landningssida.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cc2.png" alt="Knappar för att lägga till nya komponenter"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/create-new-campaign-add-component-menu.png" alt="Menyn Add Component med Email, Form, SMS, Landing Page och Mobile App"></div>
 
-Knappar för att lägga till nya komponenter
+Menyn Add Component
 
 Följande artiklar går igenom varje komponenttyp från början till slut:
 
 * [Skapa din första e-post](basics-creating-email.md)
 * [Skapa ditt första formulär](basics-creating-form-new.md)
 * [Skapa din första SMS](basics-creating-sms.md)
-* [Skapa din första webbsida](../developer-advanced/creating-first-webpage.md)
+* [Skapa din första landningssida](../developer-advanced/creating-first-webpage.md)
