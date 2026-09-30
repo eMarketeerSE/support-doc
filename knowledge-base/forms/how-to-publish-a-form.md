@@ -10,13 +10,13 @@ eMarketeer gives you three ways to share a form with respondents: a hosted URL, 
 
 ## Open the Publish panel
 
-Navigate to the campaign components view and click **Publish** below the form. You can also open the form editor and click **Publish** in the toolbar.
+Open the campaign's **Components** tab and click the **Publish** icon (the globe) at the bottom of the form card. You can also open the form editor and click **Publish** in the toolbar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Button.png" alt="The Publish button below a form component in the campaign view."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-publish-a-form-form-editor-publish-button.png" alt="The Publish button in the top row of the form editor."></div>
 
 ## Publish options
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormPublish.png" alt="The Publish panel showing the hosted URL and embed script options."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-publish-a-form-publish-form-page.png" alt="The Publish Form page showing the hosted URL and embed script options."></div>
 
 ### Hosted URL
 

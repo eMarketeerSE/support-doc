@@ -10,13 +10,13 @@ eMarketeer erbjuder tre sätt att dela ett formulär med respondenter: en värd-
 
 ## Öppna Publish-panelen
 
-Navigera till kampanjens komponentvy och klicka på **Publish** under formuläret. Du kan även öppna formuläreditorn och klicka på **Publish** i verktygsfältet.
+Öppna kampanjens flik **Components** och klicka på ikonen **Publish** (jordklotet) längst ned på formulärkortet. Du kan även öppna formuläreditorn och klicka på **Publish** i verktygsfältet.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Button.png" alt="Publish-knappen under en formulärkomponent i kampanjvyn."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-publish-a-form-form-editor-publish-button.png" alt="Publish-knappen i den övre raden i formuläreditorn."></div>
 
 ## Publish-alternativ
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Publish-Options.png" alt="Publish-panelen med alternativ för värd-URL och inbäddningsskript."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-publish-a-form-publish-form-page.png" alt="Sidan Publish Form med alternativ för värd-URL och inbäddningsskript."></div>
 
 ### Värd-URL
 
