@@ -12,13 +12,13 @@ description: >-
 This section covers the current **Form** editor. For the previous form editor, see [Forms (Legacy)](legacy.md).
 {% endhint %}
 
-A Form is a campaign component you add to a campaign alongside your emails and other content. To add one, open a campaign and click **Add Form** in the left panel.
+A Form is a campaign component you add to a campaign alongside your emails and other content. To add one, open a campaign, click **Add Component**, then choose **Form**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/add-form-campaign.png" alt="The campaign sidebar with the ADD FORM button highlighted."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/forms-readme-add-component-menu-form.png" alt="The Add Component menu with Form highlighted."></div>
 
 When you add a form, you choose from a set of ready-made templates or start from scratch.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form-templates.png" alt="The form template picker showing available templates."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/forms-readme-form-template-gallery.png" alt="The Choose a starting point dialog showing the available form templates."></div>
 
 Forms are suited for a wide range of use cases:
 

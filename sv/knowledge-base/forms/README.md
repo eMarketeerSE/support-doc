@@ -12,13 +12,13 @@ description: >-
 Det här avsnittet gäller den nuvarande **Form**-editorn. För den tidigare formuläreditorn, se [Formulär (Legacy)](legacy.md).
 {% endhint %}
 
-Ett formulär är en kampanjkomponent som du lägger till i en kampanj tillsammans med dina e-postutskick och annat innehåll. Öppna en kampanj och klicka på **Add Form** i den vänstra panelen för att lägga till ett.
+Ett formulär är en kampanjkomponent som du lägger till i en kampanj tillsammans med dina e-postutskick och annat innehåll. Öppna en kampanj, klicka på **Add Component** och välj sedan **Form** för att lägga till ett.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/add-form-campaign.png" alt="Kampanjpanelen med knappen ADD FORM markerad."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/forms-readme-add-component-menu-form.png" alt="Menyn Add Component med Form markerat."></div>
 
 När du lägger till ett formulär väljer du bland ett antal färdiga mallar eller börjar från grunden.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form-templates.png" alt="Mallväljaren för formulär med tillgängliga mallar."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/forms-readme-form-template-gallery.png" alt="Dialogen Choose a starting point med tillgängliga formulärmallar."></div>
 
 Formulär passar för en mängd olika användningsområden:
 
