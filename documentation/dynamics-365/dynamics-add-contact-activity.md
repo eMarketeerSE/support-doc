@@ -7,13 +7,13 @@ description: >-
 
 # Dynamics - Add contact activity
 
-![Add Contact Activity step configuration in Dynamics](../../.gitbook/assets/add_contact_activity-1024x912.png)
+![Add Contact Activity panel with a topic, a description and Phone Call selected](../../.gitbook/assets/dynamics-add-contact-activity-step-settings.png)
 
 ### Step configuration
 
 When you add this step to a Journey, configure the following fields:
 
-* **Subject (required):** Sets the title of the activity in Dynamics.
+* **Topic (required):** Sets the title of the activity in Dynamics.
 * **Description:** Provides additional details or notes for the person completing the task.
 * **Activity Type:** Choose whether to log the activity as a **Task** or a **Phone Call**.
 * **Owner (required):** Select the Dynamics user who will be assigned the activity.
