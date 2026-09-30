@@ -54,25 +54,23 @@ Om du POST:ar (eller GET:ar) svaren till den URL:en med rätt name/value-par spa
 
 Skapa ett formulär i eMarketeer med en kontaktregistrering och eventuella andra frågor du behöver.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.10.png" alt="Ett formulär som skapas i eMarketeer."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-post-data-to-a-form-form-editor-sample.png" alt="Ett nyhetsbrevsformulär med fälten för förnamn, efternamn och e-post i formuläreditorn."></div>
 
 ## 2. Hämta HTML-koden för formuläret
 
-Klicka på "publish" på formuläret.
+Öppna menyn **Edit Form** högst upp i formuläreditorn och klicka på **Publish Form...**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_publish.png" alt="Publiceringsknappen på ett formulär."></div>
+Sidan Publish Form öppnas. Scrolla till **Website Integration**.
 
-Klicka sedan på "Website integration."
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-post-data-to-a-form-publish-website-integration.png" alt="Sidan Publish Form med en pil som pekar på rubriken Website Integration."></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_websiteintegration.png" alt="Alternativet för webbintegration."></div>
+Klicka på **Get Code** under **FORM** för att visa formulärkoden. Om reCAPTCHA är aktivt på ditt konto anger du först domänen för din webbplats i fältet bredvid knappen.
 
-Klicka på "GET CODE" under `<FORM>`-sektionen för att öppna formulärkoden. Om reCAPTCHA är aktivt på ditt konto behöver du lägga till en domän i domänfältet innan du kan komma åt koden.
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-post-data-to-a-form-publish-form-domain-get-code.png" alt="Sektionen FORM med domänfältet markerat och en pil som pekar på knappen Get Code."></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_formcode.png" alt="GET CODE-knappen under FORM-sektionen."></div>
+Formulärkoden visas under knappen.
 
-Formulärkoden visas.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.30.19.png" alt="Den genererade HTML-koden för formuläret."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-post-data-to-a-form-publish-form-generated-code.png" alt="Den genererade formulärkoden med post-URL:en och det dolda fältet m överst."></div>
 
 Du kan klistra in den här koden direkt på din webbplats. Den postar svaren till eMarketeer och visar sedan tacksidan.
 
@@ -84,6 +82,6 @@ När du har URL:en och inmatningsfälten fungerar varje metod som postar till de
 
 ## Egen tacksida
 
-Om du bäddar in formuläret på din webbplats kanske du vill skicka besökare till din egen tacksida i stället för den eMarketeer-hostade. För att ändra omdirigeringen redigerar du formuläret i eMarketeer och klickar på "Thank you page." Välj "Use custom URL" och ange URL:en att omdirigera till.
+Om du bäddar in formuläret på din webbplats kanske du vill skicka besökare till din egen tacksida i stället för den eMarketeer-hostade. För att ändra omdirigeringen redigerar du formuläret i eMarketeer och klickar på **Thank You Page** under **System Pages** i menyn till vänster. Välj **Use Custom URL**, ange URL:en att omdirigera till och klicka på **Update**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-12-08-kl.-09.28.39.png" alt="Inställningen för egen tacksida på ett formulär."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-post-data-to-a-form-thank-you-page-custom-url.png" alt="Inställningarna för Thank You Page med Use Custom URL valt och en webbadress ifylld."></div>
