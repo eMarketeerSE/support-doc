@@ -10,17 +10,17 @@ En användare i eMarketeer kan ha åtkomst till både marknadsförings- och säl
 
 Att hantera användare kräver administratörsrättigheter.
 
-Öppna Settings och välj User Accounts för att se aktuella användare och deras rättigheter.
+Klicka på kugghjulsikonen uppe till höger, välj Account Settings och öppna Users & Teams för att se aktuella användare och deras rättigheter.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-09-kl.-14.08.53-1024x427.png" alt="Listan User Accounts som visar befintliga användare och deras tilldelade rättigheter"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sales-users-user-accounts-list.png" alt="Fliken User Accounts i Users & Teams som visar befintliga användare och deras roller"></div>
 
 ## Skapa en ny sales user
 
-1. Klicka på Create User.
+1. Klicka på Create User. Då öppnas dialogrutan Create new user.
 2. Ange e-postadressen för den nya användaren.
-3.  Aktivera Sales leads med kryssrutan, och bocka sedan i ett eller flera sales-team som användaren ska tillhöra. En användare kan tillhöra ett eller flera sales-team.
+3.  Under Licenses, markera Sales user — Access to Leads och bocka sedan i ett eller flera sales-team som användaren ska tillhöra. En användare kan tillhöra ett eller flera sales-team.
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-09-kl.-14.15.05.png" alt="Formuläret Create User med Sales leads aktiverat och sales-team valda"></div>
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/sales-users-create-user-sales.png" alt="Dialogrutan Create new user med Sales user markerat och två sales-team valda"></div>
 4. Klicka på Create user and send login email.
 
 Användaren meddelas via e-post att sätta ett lösenord och fylla i profilen.
