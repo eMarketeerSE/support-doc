@@ -36,6 +36,6 @@ You can use this tab to remove unwanted contacts from the campaign, and by exten
 
 You can address Campaign Contacts using the "All contacts in this campaign" option when sending an email or SMS. See the definition at the top of this article for what counts as a campaign contact.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-04_16-06-53.png" alt="Recipient Source dropdown with &quot;All contacts in this campaign&quot; selected"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-contacts-recipient-source-all-campaign-contacts.png" alt="Recipient Source step with All Contacts in this Campaign highlighted"></div>
 
 The "All contacts in this campaign" option
