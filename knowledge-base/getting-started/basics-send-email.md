@@ -40,7 +40,7 @@ Before you start, you need a finished email component. See [Creating your first 
 
 Go to the campaign that contains the email and click **Send**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/basics-send-email-campaign-components-send.png" alt="Campaign components with the Send icon highlighted on an email card"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/basics-send-email-campaign-send-icon.png" alt="Campaign components with the Send icon on the Event invitation email highlighted"></div>
 {% endstep %}
 
 {% step %}

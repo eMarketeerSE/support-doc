@@ -40,7 +40,7 @@ Innan du börjar behöver du en färdig e-postkomponent. Se [Skapa din första e
 
 Gå till kampanjen som innehåller e-posten och klicka på **Send**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-campaign-components-send.png" alt="Kampanjens komponenter med ikonen Send markerad på ett e-postkort"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-campaign-send-icon.png" alt="Kampanjens komponenter med ikonen Send på e-posten Event invitation markerad"></div>
 {% endstep %}
 
 {% step %}
