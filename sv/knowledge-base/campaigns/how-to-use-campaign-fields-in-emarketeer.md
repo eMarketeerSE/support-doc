@@ -80,8 +80,6 @@ När du har valt typ visas ett värdefält. Fyll i värdet.
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-field-value-entry.png" alt="Ange ett värde för ett kampanjfält"></div>
 
 Upprepa för varje kampanjfält du behöver. Klicka på save. Använd kugghjulet för att redigera eller ta bort ett fält.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screen-Shot-2022-04-19-at-14.55.07-1024x621.png" alt="En rullgardinsmeny med olika typer av kampanjfält."></div>
 {% endstep %}
 {% endstepper %}
 

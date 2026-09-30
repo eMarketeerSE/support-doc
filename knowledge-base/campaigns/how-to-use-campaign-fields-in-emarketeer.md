@@ -80,8 +80,6 @@ After you pick a type, a value field appears. Enter the value.
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-field-value-entry.png" alt="Entering a value for a campaign field"></div>
 
 Repeat for any campaign fields you need. Click save. Use the cog wheel to edit or delete a field.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screen-Shot-2022-04-19-at-14.55.07-1024x621.png" alt="A drop list of different types of campaign fields."></div>
 {% endstep %}
 {% endstepper %}
 
