@@ -1,6 +1,6 @@
 ---
 description: >-
-  This guide walks you through creating a webpage in eMarketeer, from choosing a
+  This guide walks you through creating a landing page in eMarketeer, from choosing a
   template to editing content blocks and finishing the page.
 layout:
   width: default
@@ -22,21 +22,21 @@ layout:
     visible: true
 ---
 
-# Creating your first webpage
+# Creating your first landing page
 
 {% hint style="warning" %}
-You need a campaign before you can add a webpage. See [How to create a new campaign](../getting-started/create-new-campaign.md) if you haven't created one yet.
+You need a campaign before you can add a landing page. See [How to create a new campaign](../getting-started/create-new-campaign.md) if you haven't created one yet.
 {% endhint %}
 
 {% hint style="info" %}
-The example builds an event landing page, but the process is the same for any webpage type. By the end, you will have a webpage ready to publish.
+The example builds an event landing page, but the process is the same for any landing page. By the end, you will have a landing page ready to publish.
 {% endhint %}
 
 {% stepper %}
 {% step %}
-### Add a webpage from the campaign page
+### Add a landing page from the campaign page
 
-From the campaign page, click **Add Webpage**.
+From the Components tab of the campaign, click **Add Component**, then choose **Landing Page**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw1.png" alt="Add Webpage button on the campaign page"></div>
 {% endstep %}
@@ -48,24 +48,23 @@ From the campaign page, click **Add Webpage**.
 
 **Settings**
 
-* **Name your webpage:** A unique name so you can find it later. Use something that describes the page's role in the campaign. Visitors do not see this name.
-* **Page title:** The title visitors see in their browser tab.
+* **Component name:** A unique name so you can find it later. Use something that describes the page's role in the campaign. Visitors do not see this name.
 
 **Template**
 
-Pick a template from one of the tabs as a starting point for the design. This guide uses **Simple Landing (R)** from the **Landing Pages** tab. Custom templates saved on your account appear under **My Templates**.
+Under **Choose a starting point**, pick a template from one of the tabs as a starting point for the design. This guide uses **Simple Landing (R)** from the **Landing Pages** tab. Custom templates saved on your account appear under **My Templates**.
 
-**Create webpage component**
+**Create the landing page**
 
-Once settings and template are set, click **Create Web Page** to create the component.
+Once the name and template are set, click **Create** to create the component.
 {% endstep %}
 
 {% step %}
-### The webpage editor
+### The landing page editor
 
-After you click **Create Web Page**, the editor opens with the template's content already in place. The left menu lets you add content blocks, access tools, and adjust the settings from the previous step. The rest of the page shows the current content, made up of blocks you edit individually.
+After you click **Create**, the editor opens with the template's content already in place. The left menu lets you add content blocks, access tools, and set the page title under **Webpage Extras**. The rest of the page shows the current content, made up of blocks you edit individually.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_editor.png" alt="Webpage editor with content blocks and left-side menu"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_editor.png" alt="Landing page editor with content blocks and left-side menu"></div>
 {% endstep %}
 
 {% step %}
@@ -75,7 +74,7 @@ Each content block has several parts you can update. Click the block's **Edit** 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_content_block.png" alt="Edit button on a content block"></div>
 
-A settings panel opens on the right with two tabs: **Content** and **Styles**. Content is where you change the block's text, images, and links. Styles is where you change colors and fonts.
+A settings panel opens on the right with the tabs **Content**, **Styles**, **HTML** and **Settings**. Content is where you change the block's text, images, and links. Styles is where you change colors and fonts.
 
 On the Content tab, the top section controls how the block displays — leave those defaults for now. The lower section is where you edit the actual content.
 {% endstep %}
@@ -101,7 +100,7 @@ Open the block for editing, go to the Image section in the right panel, and clic
 
 To upload and use your own image:
 
-1. Click **Upload File**.
+1. Click **Upload Files**.
 2. Click **Choose files** and select the image on your computer.
 3. Upload the file to your eMarketeer account.
 4. Click the file in the browser window to select it.
@@ -154,7 +153,7 @@ To remove a block you don't need, click the delete button on its context bar.
 {% endstep %}
 
 {% step %}
-### Finish the webpage
+### Finish the landing page
 
 Click **Done Editing** to leave the editor.
 

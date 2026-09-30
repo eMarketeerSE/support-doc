@@ -1,6 +1,6 @@
 ---
 description: >-
-  Den här guiden tar dig igenom hur du skapar en webbsida i eMarketeer, från
+  Den här guiden tar dig igenom hur du skapar en landningssida i eMarketeer, från
   mallval till redigering av innehållsblock och färdigställning av sidan.
 layout:
   width: default
@@ -22,21 +22,21 @@ layout:
     visible: true
 ---
 
-# Skapa din första webbsida
+# Skapa din första landningssida
 
 {% hint style="warning" %}
-Du behöver en kampanj innan du kan lägga till en webbsida. Se [Skapa en ny kampanj](../getting-started/create-new-campaign.md) om du inte har skapat en ännu.
+Du behöver en kampanj innan du kan lägga till en landningssida. Se [Skapa en ny kampanj](../getting-started/create-new-campaign.md) om du inte har skapat en ännu.
 {% endhint %}
 
 {% hint style="info" %}
-Exemplet bygger en event-landningssida, men processen är densamma för alla typer av webbsidor. I slutet av guiden har du en webbsida redo att publicera.
+Exemplet bygger en event-landningssida, men processen är densamma för alla typer av landningssidor. I slutet av guiden har du en landningssida redo att publicera.
 {% endhint %}
 
 {% stepper %}
 {% step %}
-### Lägg till en webbsida från kampanjsidan
+### Lägg till en landningssida från kampanjsidan
 
-Klicka på **Add Webpage** från kampanjsidan.
+Klicka på **Add Component** på fliken Components i kampanjen och välj sedan **Landing Page**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw1.png" alt="Knappen Add Webpage på kampanjsidan"></div>
 {% endstep %}
@@ -48,24 +48,23 @@ Klicka på **Add Webpage** från kampanjsidan.
 
 **Inställningar**
 
-* **Name your webpage:** Ett unikt namn så att du hittar sidan senare. Välj något som beskriver sidans roll i kampanjen. Besökarna ser inte detta namn.
-* **Page title:** Titeln som besökarna ser i webbläsarens flik.
+* **Component name:** Ett unikt namn så att du hittar sidan senare. Välj något som beskriver sidans roll i kampanjen. Besökarna ser inte detta namn.
 
 **Mall**
 
-Välj en mall från en av flikarna som utgångspunkt för designen. Den här guiden använder **Simple Landing (R)** från fliken **Landing Pages**. Mallar som sparats på ditt konto visas under **My Templates**.
+Under **Choose a starting point** väljer du en mall från en av flikarna som utgångspunkt för designen. Den här guiden använder **Simple Landing (R)** från fliken **Landing Pages**. Mallar som sparats på ditt konto visas under **My Templates**.
 
-**Skapa webbsidekomponenten**
+**Skapa landningssidan**
 
-När inställningar och mall är valda klickar du på **Create Web Page** för att skapa komponenten.
+När namn och mall är valda klickar du på **Create** för att skapa komponenten.
 {% endstep %}
 
 {% step %}
-### Webbsideredigeraren
+### Redigeraren för landningssidor
 
-När du klickar på **Create Web Page** öppnas redigeraren med mallens innehåll på plats. Vänstermenyn låter dig lägga till innehållsblock, öppna verktyg och justera inställningarna från föregående steg. Resten av sidan visar det nuvarande innehållet, uppbyggt av block som du redigerar ett i taget.
+När du klickar på **Create** öppnas redigeraren med mallens innehåll på plats. Vänstermenyn låter dig lägga till innehållsblock, öppna verktyg och ange sidans titel under **Webpage Extras**. Resten av sidan visar det nuvarande innehållet, uppbyggt av block som du redigerar ett i taget.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_editor.png" alt="Webbsideredigeraren med innehållsblock och vänstermeny"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_editor.png" alt="Redigeraren för landningssidor med innehållsblock och vänstermeny"></div>
 {% endstep %}
 
 {% step %}
@@ -75,7 +74,7 @@ Varje innehållsblock består av flera delar som du kan uppdatera. Klicka på bl
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_content_block.png" alt="Edit-knappen på ett innehållsblock"></div>
 
-En inställningspanel öppnas till höger med två flikar: **Content** och **Styles**. Content är där du ändrar blockets text, bilder och länkar. Styles är där du ändrar färger och typsnitt.
+En inställningspanel öppnas till höger med flikarna **Content**, **Styles**, **HTML** och **Settings**. Content är där du ändrar blockets text, bilder och länkar. Styles är där du ändrar färger och typsnitt.
 
 På fliken Content styr den övre delen hur blocket visas — lämna dessa standardvärden för nu. Den nedre delen är där du redigerar det faktiska innehållet.
 {% endstep %}
@@ -101,7 +100,7 @@ Klicka på **Save** efter varje ändring.
 
 Gör så här för att ladda upp och använda en egen bild:
 
-1. Klicka på **Upload File**.
+1. Klicka på **Upload Files**.
 2. Klicka på **Choose files** och välj bilden på din dator.
 3. Ladda upp filen till ditt eMarketeer-konto.
 4. Klicka på filen i webbläsarfönstret för att markera den.
@@ -154,7 +153,7 @@ För att ta bort ett block du inte behöver klickar du på ta bort-knappen på d
 {% endstep %}
 
 {% step %}
-### Färdigställ webbsidan
+### Färdigställ landningssidan
 
 Klicka på **Done Editing** för att lämna redigeraren.
 
