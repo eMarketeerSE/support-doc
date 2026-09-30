@@ -49,26 +49,17 @@ Om du tänker använda kontakterna mer än en gång, lägg till dem i en kontakt
 
 Om du behöver skapa en ny kontaktlista som destination för din import visar [den här guiden](../getting-started/new-contact-list.md) hur du gör.
 
-\[
+För att starta importen går du till **Contacts** i vänstermenyn, klickar på **Add Contact** och väljer **Import from file**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-28_10-40-55.png" alt="Alternativet Import Contacts på fliken Contacts"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-add-contact-import-from-file.png" alt="Alternativet Import from file i dialogrutan Add Contact"></div>
 
-Alternativet Import Contacts på fliken Contacts.
+Alternativet Import from file i dialogrutan Add Contact.
 
 ## Import och fältmappning
 
-När du har valt importmetod är nästa steg själva importen. Välj File Upload och välj Excel File.
+När du har valt importmetod är nästa steg själva importen. Med alternativet **Import from file** drar och släpper du din Excel- eller CSV-fil, eller bläddrar fram den.
 
-Nästa vy innehåller instruktioner om hur du fortsätter:
-
-1. Öppna din Excel-fil.
-2. Markera cellerna du vill importera och kopiera dem.
-3. Klistra in de kopierade cellerna i den tomma textrutan.
-4. Klicka på Next.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-28_14-36-37.png" alt="Ett tomt textfält"></div>
-
-Ett tomt textfält
+> TODO: verify the steps after the file is uploaded (field mapping, import options, legal basis and the results report) in the new import dialog, and replace the screenshots below.
 
 ### Fältmappning
 

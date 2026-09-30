@@ -47,24 +47,17 @@ If you intend to use the contacts more than once, add them to a contact list. Yo
 
 If you need to create a new contact list as a destination for your import, [this guide](../getting-started/new-contact-list.md) shows you how.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_10-40-55.png" alt="Import Contacts option in the Contacts tab"></div>
+To start the import, go to **Contacts** in the left sidebar, click **Add Contact** and choose **Import from file**.
 
-Import Contacts option in the Contacts tab.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-add-contact-import-from-file.png" alt="Import from file option in the Add Contact dialog"></div>
+
+Import from file option in the Add Contact dialog.
 
 ## Importing and field mapping
 
-Once you have chosen the method of import, the next step is the import itself. Choose File Upload and select Excel File.
+Once you have chosen the method of import, the next step is the import itself. In the **Import from file** option, drag and drop your Excel or CSV file, or browse to it.
 
-The next view contains instructions on how to proceed:
-
-1. Open your Excel file.
-2. Select the cells you want to import and copy them.
-3. Paste the copied cells in the empty text area.
-4. Click Next.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_14-36-37.png" alt="An empty text area"></div>
-
-An empty text area
+> TODO: verify the steps after the file is uploaded (field mapping, import options, legal basis and the results report) in the new import dialog, and replace the screenshots below.
 
 ### Field mapping
 
