@@ -25,7 +25,7 @@ You can do this for multiple domains.
 
 This is what the email settings look like when you build an email and have authenticated a domain. The drop-down menu lets you choose from the list of domains you've authenticated.
 
-<div data-with-frame="true" align="left"><img src="../../../.gitbook/assets/Screenshot-2019-12-09-at-17.37.39.png" alt="email settings with authenticated domain dropdown"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/why-authorize-email-domain-email-from-address-domain.png" alt="The Add Email dialog with the From address field and the authenticated domain dropdown next to it"></div>
 
 ## Important dates and roll-out routine
 

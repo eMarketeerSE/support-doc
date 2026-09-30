@@ -25,7 +25,7 @@ Du kan göra detta för flera domäner.
 
 Så här ser e-postinställningarna ut när du bygger ett e-postmeddelande och har autentiserat en domän. Rullgardinsmenyn låter dig välja från listan över domäner du har autentiserat.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/why-authorize-email-domain/Screenshot-2019-12-09-at-17.37.39.png" alt="e-postinställningar med rullgardinsmeny för autentiserad domän"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/why-authorize-email-domain-email-from-address-domain.png" alt="Dialogen Add Email med fältet From address och rullgardinsmenyn för autentiserad domän bredvid"></div>
 
 ## Viktiga datum och utrullningsrutin
 
