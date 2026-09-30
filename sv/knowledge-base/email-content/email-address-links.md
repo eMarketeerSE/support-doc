@@ -36,9 +36,10 @@ Exempel på en e-postlänk tillämpad på text.
 Tillvägagångssättet är detsamma — `mailto:`-URL:en läggs i fältet Link URL, men den här gången på en knapp.
 
 1. Välj blocket med knappen och öppna länkrutan som matchar knappen.
-2. I fältet Link URL, skriv e-postadressen med prefixet `mailto:`.
-3. Tillämpa länken.
+2. Klicka på **Browse** bredvid fältet **Url**.
+3. I fältet **Link URL** i popupen Insert Link skriver du e-postadressen med prefixet `mailto:`.
+4. Klicka på **Apply**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-address-links-insert-mailto-link.png" alt="Popupen Insert Link med en mailto:-adress i fältet Link URL"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-address-links-button-mailto-link.png" alt="Ett knappblock med rutan Link 1 öppen, knappen Browse och popupen Insert Link med en mailto:-adress och knappen Apply"></div>
 
 Exempel på en e-postlänk på en knapp.

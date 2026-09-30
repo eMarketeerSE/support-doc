@@ -36,9 +36,10 @@ Example of an email link applied to text.
 The approach is the same — the `mailto:` URL goes in the Link URL field, but this time on a button.
 
 1. Select the block with the button and open the Link box that matches the button.
-2. In the Link URL field, write the email address with the prefix `mailto:`.
-3. Apply the link.
+2. Click **Browse** next to the **Url** field.
+3. In the **Link URL** field of the Insert Link popup, write the email address with the prefix `mailto:`.
+4. Click **Apply**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-address-links-insert-mailto-link.png" alt="Insert Link popup with a mailto: address in the Link URL field"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-address-links-button-mailto-link.png" alt="A button block with the Link 1 box open, the Browse button, and the Insert Link popup with a mailto: address and the Apply button"></div>
 
 Example of an email link on a button.
