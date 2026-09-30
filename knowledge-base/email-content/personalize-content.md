@@ -32,13 +32,13 @@ Importing via Excel lets you set the data on each contact by preparing the sheet
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-10-16.png" alt="Excel sheet with five columns prepared for import"></div>
 
-You can import an Excel file as part of sending an email or SMS, or beforehand into a campaign or contact list. Whichever path you choose, the column-mapping step is crucial — each column must match a contact card field.
+You can import an Excel file as part of sending an email or SMS, or beforehand into a contact list. Whichever path you choose, the column-mapping step is crucial — each column must match a contact card field.
 
 {% hint style="info" %}
 In this example, Personal Code is a custom field. Custom fields are non-standard contact card fields. Add custom fields under: Account Settings → Customize → Contact card fields (administrator role required).
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-33-09.png" alt="Column mapping screen during Excel import showing source columns matched to contact card fields"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-import-column-mapping.png" alt="Column mapping screen during Excel import showing source columns matched to contact card fields"></div>
 
 ## Using contact data in a component
 

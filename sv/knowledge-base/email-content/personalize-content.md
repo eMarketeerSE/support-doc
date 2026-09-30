@@ -32,13 +32,13 @@ Att importera via Excel låter dig sätta data på varje kontakt genom att förb
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-10-16.png" alt="Excel-ark med fem kolumner förberedda för import"></div>
 
-Du kan importera en Excel-fil som en del av att skicka ett e-postmeddelande eller SMS, eller i förväg till en kampanj eller kontaktlista. Vilken väg du än väljer är steget med kolumnmatchning avgörande — varje kolumn måste matcha ett kontaktkortsfält.
+Du kan importera en Excel-fil som en del av att skicka ett e-postmeddelande eller SMS, eller i förväg till en kontaktlista. Vilken väg du än väljer är steget med kolumnmatchning avgörande — varje kolumn måste matcha ett kontaktkortsfält.
 
 {% hint style="info" %}
 I det här exemplet är Personal Code ett anpassat fält. Anpassade fält är icke-standardiserade kontaktkortsfält. Lägg till anpassade fält under: Account Settings → Customize → Contact card fields (administratörsroll krävs).
 {% endhint %}
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-33-09.png" alt="Skärm för kolumnmatchning under Excel-import som visar källkolumner matchade mot kontaktkortsfält"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-import-column-mapping.png" alt="Skärm för kolumnmatchning under Excel-import som visar källkolumner matchade mot kontaktkortsfält"></div>
 
 ## Använda kontaktdata i en komponent
 
