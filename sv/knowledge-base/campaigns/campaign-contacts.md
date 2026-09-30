@@ -15,23 +15,22 @@ En kontakt läggs till i listan Kampanjkontakter när den:
 * Är mottagare av ett utskickat e-post som tillhör kampanjen. Kontakter som exkluderas före utskick läggs inte till.
 * Är mottagare av ett utskickat SMS som tillhör kampanjen. Kontakter som exkluderas före utskick läggs inte till.
 * Skickar in ett formulär som tillhör kampanjen.
-* Besöker en webbsida som tillhör kampanjen. Anonyma besök läggs inte till.
-* Importeras till kampanjen via funktionen Import Contacts i kampanjens vänstermeny.
+* Besöker en Landing Page som tillhör kampanjen. Anonyma besök läggs inte till.
 
 ## Gränssnittet för Kampanjkontakter
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-04_16-13-22.png" alt="Fliken Kampanjkontakter som listar kontakter i en kampanj"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/campaign-contacts-tab.png" alt="Fliken Contacts i en kampanj, markerad, med en lista över kontakter under"></div>
 
 Gränssnittet för Kampanjkontakter
 
-Klicka på en enskild kontakt för att se historiken över deras interaktioner i kampanjen. Använd Quick Search uppe till höger i fliken för att hitta en specifik kontakt.
+Klicka på en enskild kontakt för att se historiken över deras interaktioner i kampanjen. Använd fältet Search contacts uppe till höger i fliken för att hitta en specifik kontakt.
 
 ### Ta bort kontakter från en kampanj
 
 Du kan använda fliken för att ta bort oönskade kontakter från kampanjen, och därmed från varje komponentrapport i kampanjen. Det är användbart för att ta bort testkontakter.
 
 1. Markera kontakterna som ska tas bort med kryssrutorna till vänster på varje rad.
-2. Klicka på Remove selected from campaign ovanför listan.
+2. Klicka på Remove from Campaign ovanför listan.
 
 ## Alla kontakter i denna kampanj (mottagarkälla)
 
