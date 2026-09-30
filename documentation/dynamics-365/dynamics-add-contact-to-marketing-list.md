@@ -6,7 +6,7 @@ description: >-
 
 # Dynamics - Add Contact to Marketing List
 
-![Add Contact to Marketing List step configuration in Dynamics](../../../.gitbook/assets/Add_contact_to_marketing_list-1024x406.png)
+![Add Contact to Marketing List step configuration in Dynamics](../../.gitbook/assets/Add_contact_to_marketing_list-1024x406.png)
 
 ### Step configuration
 
