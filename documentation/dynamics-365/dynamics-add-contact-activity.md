@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add contact activity
 
-![Add Contact Activity step configuration in Dynamics](../../../.gitbook/assets/add_contact_activity-1024x912.png)
+![Add Contact Activity step configuration in Dynamics](../../.gitbook/assets/add_contact_activity-1024x912.png)
 
 ### Step configuration
 
