@@ -1,12 +1,12 @@
 ---
 description: >-
   Hur du skapar en kampanj i eMarketeer som behållare för dina
-  e-postmeddelanden, formulär och webbsidor.
+  e-postmeddelanden, formulär och landningssidor.
 ---
 
 # Så här skapar du en ny kampanj
 
-Skapa en kampanj som behållare för de e-postmeddelanden, formulär och webbsidor du vill skicka och publicera.
+Skapa en kampanj som behållare för de e-postmeddelanden, formulär och landningssidor du vill skicka och publicera.
 
 En kampanj samlar relaterade komponenter, så att skapa en är oftast första steget för ett nytt arbete i eMarketeer.
 

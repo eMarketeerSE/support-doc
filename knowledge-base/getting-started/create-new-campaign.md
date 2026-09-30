@@ -1,12 +1,12 @@
 ---
 description: >-
   How to create a campaign in eMarketeer to act as the container for your
-  emails, forms, and webpages.
+  emails, forms, and landing pages.
 ---
 
 # How to create a new campaign
 
-Create a campaign as the container for the emails, forms, and webpages you want to send and publish.
+Create a campaign as the container for the emails, forms, and landing pages you want to send and publish.
 
 A campaign groups related components, so creating one is usually the first step for a new piece of work in eMarketeer.
 
@@ -54,6 +54,6 @@ The following articles cover each component type from start to finish:
 * [Creating your first landing page](../developer-advanced/creating-first-webpage.md)
 
 {% hint style="info" %}
-Mobile apps are essentially webpage components but with a specialized template.
+Mobile apps are essentially landing page components but with a specialized template.
 {% endhint %}
 

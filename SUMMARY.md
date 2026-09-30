@@ -57,7 +57,7 @@
     * [Transfer a campaign to a different account](knowledge-base/campaigns/transfer-a-campaign-to-a-different-account.md)
     * [How to use eMarketeer campaign reports](knowledge-base/reports/how-to-use-emarketeer-campaign-reports.md)
   * [Webpages](guides/webpage.md)
-    * [Creating your first webpage](knowledge-base/developer-advanced/creating-first-webpage.md)
+    * [Creating your first landing page](knowledge-base/developer-advanced/creating-first-webpage.md)
     * [Change home screen icon in Web App](knowledge-base/account-admin/change-home-screen-icon-in-web-app.md)
     * [Webinar: How to Build Mobile Apps in eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
 * [Journeys](knowledge-base/journeys/journeys.md)

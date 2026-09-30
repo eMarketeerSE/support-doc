@@ -57,7 +57,7 @@
     * [Överför en kampanj till ett annat konto](knowledge-base/campaigns/transfer-a-campaign-to-a-different-account.md)
     * [Så använder du eMarketeers kampanjrapporter](knowledge-base/reports/how-to-use-emarketeer-campaign-reports.md)
   * [Webbsidor](guides/webpage.md)
-    * [Skapa din första webbsida](knowledge-base/developer-advanced/creating-first-webpage.md)
+    * [Skapa din första landningssida](knowledge-base/developer-advanced/creating-first-webpage.md)
     * [Byt ikon för hemskärm i Web App](knowledge-base/account-admin/change-home-screen-icon-in-web-app.md)
     * [Webinar: Så bygger du mobilappar i eMarketeer](knowledge-base/developer-advanced/webinar-build-mobile-app.md)
 * [Journeys](knowledge-base/journeys/journeys.md)
