@@ -70,7 +70,7 @@ When you share the link to your email on social media, the post can use a custom
 
 This is not where you set the subject line for the email itself — the subject line and sender information live in the left-hand side menu.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Link sharing settings in the editor"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-templates-link-sharing-panel.png" alt="The Title and Description link sharing fields at the top of the email editor, with the Title field highlighted"></div>
 
 Where to update link sharing information in the editor.
 

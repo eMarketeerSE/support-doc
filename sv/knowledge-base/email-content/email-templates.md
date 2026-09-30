@@ -70,7 +70,7 @@ När du delar länken till ditt e-postmeddelande på sociala medier kan inlägge
 
 Det här är inte där du sätter ämnesraden för själva e-postmeddelandet — ämnesraden och avsändarinformationen finns i menyn till vänster.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Link_sharing_in_editor-1024x443.png" alt="Inställningar för länkdelning i redigeraren"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-templates-link-sharing-panel.png" alt="Fälten Title och Description för länkdelning högst upp i e-postredigeraren, med fältet Title markerat"></div>
 
 Var du uppdaterar information om länkdelning i redigeraren.
 
