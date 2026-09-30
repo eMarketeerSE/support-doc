@@ -42,19 +42,19 @@ By the end you will have a working form with a thank-you page and an optional co
 {% step %}
 ### Add the form from the campaign page
 
-From the campaign where you want to create the form, click **Add Form**.
+From the campaign where you want to create the form, click **Add Component**, then **Form (Legacy)** under the Legacy section of the menu.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf1.png" alt="Add Form button on the campaign page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-component-form-legacy.png" alt="Add Component menu on the campaign page with the Form (Legacy) item highlighted"></div>
 {% endstep %}
 
 {% step %}
 ### Fill in settings, choose a template, create the form
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf2.png" alt="Form settings and template selection dialog"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-form-legacy-dialog.png" alt="Add Form (Legacy) dialog with the Component name field and templates on the Sign-up Forms tab"></div>
 
 **Settings**
 
-* **Name your form:** Give the form a unique name so you can find it later. Describe its purpose in the campaign — for example, "Registration" for a registration form. Only you see this name; it is not shown to visitors.
+* **Component name:** Give the form a unique name so you can find it later. Describe its purpose in the campaign — for example, "Registration" for a registration form. Only you see this name; it is not shown to visitors.
 
 **Template**
 
@@ -62,17 +62,17 @@ Pick a template from one of the tabs as a starting point for the design. This gu
 
 **Create form component**
 
-Once settings and template are set, click **Create Form** to create the component.
+Once settings and template are set, click **Create** to create the component.
 {% endstep %}
 
 {% step %}
 ### The form editor
 
-After you click **Create Form**, the editor opens. The left-side menu lets you add form items, access tools, and change settings. The rest of the page shows the form content, imported from the template.
+After you click **Create**, the editor opens. The left-side menu lets you add form items, access tools, and change settings. The rest of the page shows the form content, imported from the template.
 
 The content is made up of content blocks called form items, which you edit individually in the following steps.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_edit_view.png" alt="Form editor with form items and left-side menu"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-create-legacy-form-and-edit.png" alt="Form editor with Add Form Item, Form Pages and System Pages in the left-side menu"></div>
 {% endstep %}
 
 {% step %}
@@ -82,7 +82,7 @@ The first form item in most templates is a Rich Text block where you can introdu
 
 To edit any form item, either click its **Edit** button or double-click the block itself. A popup opens where you can change the text, questions, or answers.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_edit_richtext.png" alt="Editing a Rich Text block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-rich-text-edit.png" alt="Edit Rich Text dialog for a Rich Text block"></div>
 {% endstep %}
 
 {% step %}
@@ -90,7 +90,7 @@ To edit any form item, either click its **Edit** button or double-click the bloc
 
 The Registration block is the most important block in any form that is not collecting anonymous answers. It saves the visitor's contact information with their submission and matches it against your eMarketeer contact database — updating an existing contact card or creating a new contact if none exists.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_registration.png" alt="Registration block options with contact field selectors"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-registration-block.png" alt="Edit Contact Registration dialog with the list of contact fields"></div>
 
 What you can ask for in the Registration block is tied to the fields on a contact card. You choose which fields to ask for and which are required. The Registration block always asks for the visitor's email address, because it is a required field on a contact card.
 {% endstep %}
@@ -114,7 +114,7 @@ You can find these question types in the Add Form Item menu in the top-left of t
 
 After a visitor submits, they are redirected to the thank-you page to confirm their answer was saved. The default thank-you page contains a single text block, which you can edit to fit your form. Open the thank-you page settings by clicking **Thank You Page** in the left-side menu.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_thank_you_page.png" alt="Thank-you page settings with hosted page and custom URL options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-thank-you-page.png" alt="Thank-you page settings with hosted page and custom URL options"></div>
 
 You have two options: a hosted thank-you page or a custom URL. The hosted page is the default — change the text and you are done. Use a custom URL if you want to redirect visitors to a specific page, such as one on your own website.
 
@@ -126,7 +126,7 @@ To edit the text shown on the hosted page, click **Edit** as shown above.
 
 We do not recommend using this feature unless you need it, but for longer surveys you may want to let visitors review their answers before submitting. The confirmation page shows their answers and gives them a choice: **Edit** their answers or **Finish** to submit.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_confirmation_page.png" alt="Confirmation page settings with Edit and Finish options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-confirmation-page.png" alt="Confirmation page settings with the Activate Confirmation Page option"></div>
 
 When active, the confirmation page appears after the visitor proceeds from the form. The visitor must click **Finish** to confirm. They are then redirected to the thank-you page and, if configured, sent a confirmation email.
 {% endstep %}
@@ -136,7 +136,7 @@ When active, the confirmation page appears after the visitor proceeds from the f
 
 Confirmation email settings let you send a copy of each submission to a specified email address, and send a copy of the answers back to the person who submitted them.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_confirmation_email.png" alt="Confirmation email settings with sender and subject fields"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-confirmation-email.png" alt="Confirmation email settings with sender and subject fields"></div>
 
 Options:
 
@@ -152,12 +152,12 @@ Options:
 {% step %}
 ### Publish your Legacy Form
 
-Once your Legacy Form is ready, you have a few options for sharing it.
+Once your Legacy Form is ready, open **Edit Form** at the top of the editor and choose **Publish Form** to see your sharing options.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_publish_page.png" alt="Publishing page with Direct URL, Website Integration, and E-mail options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-publish-page.png" alt="Publish Form page with the direct URL, website integration options and e-mail information"></div>
 
-* **Direct URL:** A direct link to the form. Share it with colleagues, post it on social media, or link it from your website. When you click this option, a popup shows the link — copy it from the popup. Do not visit the link and copy from your browser address bar: each visitor gets a unique URL meant only for them.
-* **Website Integration:** HTML code and scripts to embed the form on your own website. Our support cannot always help with issues here because it is implemented outside eMarketeer. Skip this option unless you are comfortable with this kind of integration.
-* **E-mail:** Link to the form from an email. See the linking section in [Creating your first email](basics-creating-email.md).
+* **Direct URL:** Copy the URL shown at the top of the page to share the form — send it to colleagues, post it on social media, or link it from your website. Always use this URL, not a session URL from your browser's address bar: visiting the link yourself and copying it from there gives you a session-specific URL instead of the shared one.
+* **Website Integration:** Embed the form on your own website. Use the IFRAME snippet to render the form exactly as designed, or the raw HTML under FORM if you need full control over the markup. Our support cannot always help with issues here because it is implemented outside eMarketeer. Skip this option unless you are comfortable with this kind of integration.
+* **E-mail:** Link to the form from an email using the "Link to Form" feature in the e-mail editor, or paste the direct URL into your own e-mail client. See the linking section in [Creating your first email](basics-creating-email.md).
 {% endstep %}
 {% endstepper %}

@@ -42,21 +42,21 @@ När du är klar har du ett fungerande formulär med en tacksida och ett valfrit
 {% step %}
 ### Lägg till formuläret från kampanjsidan
 
-Klicka på **Add Form** från kampanjen där du vill skapa formuläret.
+Klicka på **Add Component** i kampanjen där du vill skapa formuläret och välj sedan **Form (Legacy)** under avsnittet Legacy i menyn.
 
 * Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf1.png" alt="Knappen Add Form på kampanjsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-component-form-legacy.png" alt="Menyn Add Component med alternativet Form (Legacy) markerat"></div>
 {% endstep %}
 
 {% step %}
 ### Fyll i inställningar, välj en mall och skapa formuläret
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf2.png" alt="Dialog för formulärinställningar och val av mall"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-form-legacy-dialog.png" alt="Dialogrutan Add Form (Legacy) med fältet Component name och mallar under fliken Sign-up Forms"></div>
 
 **Inställningar**
 
-* **Name your form:** Ge formuläret ett unikt namn så att du hittar det senare. Beskriv syftet i kampanjen — till exempel "Anmälan" för ett anmälningsformulär. Bara du ser namnet; det visas inte för besökarna.
+* **Component name:** Ge formuläret ett unikt namn så att du hittar det senare. Beskriv syftet i kampanjen — till exempel "Anmälan" för ett anmälningsformulär. Bara du ser namnet; det visas inte för besökarna.
 
 **Mall**
 
@@ -64,17 +64,17 @@ Välj en mall från någon av flikarna som utgångspunkt för designen. Den här
 
 **Skapa formulärkomponent**
 
-När inställningar och mall är klara klickar du på **Create Form** för att skapa komponenten.
+När inställningar och mall är klara klickar du på **Create** för att skapa komponenten.
 {% endstep %}
 
 {% step %}
 ### Formulärredigeraren
 
-När du klickat på **Create Form** öppnas redigeraren. Menyn till vänster låter dig lägga till formulärobjekt, nå verktyg och ändra inställningar. Resten av sidan visar formulärets innehåll, importerat från mallen.
+När du klickat på **Create** öppnas redigeraren. Menyn till vänster låter dig lägga till formulärobjekt, nå verktyg och ändra inställningar. Resten av sidan visar formulärets innehåll, importerat från mallen.
 
 Innehållet består av innehållsblock som kallas formulärobjekt, som du redigerar var för sig i följande steg.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_edit_view.png" alt="Formulärredigeraren med formulärobjekt och vänstermeny"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-create-legacy-form-and-edit.png" alt="Formulärredigeraren med Add Form Item, Form Pages och System Pages i vänstermenyn"></div>
 {% endstep %}
 
 {% step %}
@@ -84,7 +84,7 @@ Det första formulärobjektet i de flesta mallar är ett Rich Text-block där du
 
 För att redigera ett formulärobjekt klickar du antingen på dess **Edit**-knapp eller dubbelklickar på själva blocket. En popup öppnas där du kan ändra text, frågor eller svar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_edit_richtext.png" alt="Popup för redigering av Rich Text-block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-rich-text-edit.png" alt="Dialogrutan Edit Rich Text för ett Rich Text-block"></div>
 {% endstep %}
 
 {% step %}
@@ -92,7 +92,7 @@ För att redigera ett formulärobjekt klickar du antingen på dess **Edit**-knap
 
 Registration-blocket är det viktigaste blocket i alla formulär som inte samlar anonyma svar. Det sparar besökarens kontaktinformation tillsammans med deras inlämning och matchar mot din eMarketeer-kontaktdatabas — uppdaterar ett befintligt kontaktkort eller skapar en ny kontakt om ingen finns.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_registration.png" alt="Registration-blockets alternativ med fältväljare för kontaktuppgifter"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-registration-block.png" alt="Dialogrutan Edit Contact Registration med fältlistan för kontaktuppgifter"></div>
 
 Vad du kan fråga efter i Registration-blocket är kopplat till fälten på ett kontaktkort. Du väljer vilka fält som ska efterfrågas och vilka som är obligatoriska. Registration-blocket frågar alltid efter besökarens e-postadress, eftersom det är ett obligatoriskt fält på ett kontaktkort.
 {% endstep %}
@@ -116,7 +116,7 @@ Du hittar dessa frågetyper i menyn Add Form Item uppe till vänster i formulär
 
 Efter att en besökare skickat in formuläret omdirigeras de till tacksidan som bekräftar att deras svar sparats. Standardtacksidan innehåller ett enda textblock som du kan redigera så det passar ditt formulär. Öppna inställningarna för tacksidan genom att klicka på **Thank You Page** i vänstermenyn.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_thank_you_page.png" alt="Inställningar för tacksida med alternativ för hostad sida och anpassad URL"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-thank-you-page.png" alt="Inställningar för tacksida med alternativen hostad sida och anpassad URL"></div>
 
 Du har två alternativ: en hostad tacksida eller en anpassad URL. Den hostade sidan är standard — ändra texten så är du klar. Använd en anpassad URL om du vill omdirigera besökare till en specifik sida, till exempel en på din egen webbplats.
 
@@ -128,7 +128,7 @@ För att redigera texten som visas på den hostade sidan klickar du på **Edit**
 
 Vi rekommenderar inte att du använder funktionen om du inte behöver den, men för längre enkäter kan du vilja låta besökare granska sina svar innan de skickar in. Bekräftelsesidan visar deras svar och ger dem två val: **Edit** för att ändra svaren eller **Finish** för att skicka in.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_confirmation_page.png" alt="Inställningar för bekräftelsesida med alternativen Edit och Finish"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-confirmation-page.png" alt="Inställningar för bekräftelsesida med alternativet Activate Confirmation Page"></div>
 
 När den är aktiv visas bekräftelsesidan efter att besökaren gått vidare från formuläret. Besökaren måste klicka på **Finish** för att bekräfta. De omdirigeras sedan till tacksidan och, om det är inställt, skickas ett bekräftelsemejl.
 {% endstep %}
@@ -138,7 +138,7 @@ När den är aktiv visas bekräftelsesidan efter att besökaren gått vidare fr�
 
 Inställningarna för bekräftelsemejl låter dig skicka en kopia av varje inlämning till en angiven e-postadress, och skicka en kopia av svaren tillbaka till personen som lämnade in dem.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_confirmation_email.png" alt="Inställningar för bekräftelsemejl med fält för avsändare och ämne"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-confirmation-email.png" alt="Inställningar för bekräftelsemejl med fält för avsändare och ämne"></div>
 
 Alternativ:
 
@@ -154,14 +154,12 @@ Alternativ:
 {% step %}
 ### Publicera ditt Legacy-formulär
 
-När Legacy-formuläret är klart har du några alternativ för att dela det.
+När Legacy-formuläret är klart öppnar du **Edit Form** högst upp i redigeraren och väljer **Publish Form** för att se dina delningsalternativ.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cf_publish_page.png" alt="Publiceringssida med alternativ för Direct URL, Website Integration och E-mail"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-publish-page.png" alt="Sidan Publish Form med Direct URL, Website Integration och e-postinformation"></div>
 
-Publiceringssidan för ett formulär
-
-* **Direct URL:** En direktlänk till formuläret. Dela den med kollegor, publicera på sociala medier eller länka från din webbplats. När du klickar på alternativet visas länken i en popup — kopiera den därifrån. Besök inte länken och kopiera från webbläsarens adressfält: varje besökare får en unik URL avsedd bara för dem.
-* **Website Integration:** HTML-kod och skript för att bädda in formuläret på din egen webbplats. Vår support kan inte alltid hjälpa till med problem här eftersom det implementeras utanför eMarketeer. Hoppa över det här alternativet om du inte är van vid den här typen av integration.
-* **E-mail:** Länka till formuläret från ett mejl. Se länkningsavsnittet i [Skapa din första e-post](basics-creating-email.md).
+* **Direct URL:** Kopiera URL:en som visas högst upp på sidan för att dela formuläret — skicka den till kollegor, publicera den på sociala medier eller länka till den från din webbplats. Använd alltid den här URL:en och inte en sessions-URL från webbläsarens adressfält: om du besöker länken själv och kopierar den därifrån får du en sessionsspecifik URL i stället för den delade.
+* **Website Integration:** Bädda in formuläret på din egen webbplats. Använd IFRAME-koden för att visa formuläret exakt som det är utformat, eller rå HTML under FORM om du behöver full kontroll över markeringen. Vår support kan inte alltid hjälpa till med problem här eftersom det implementeras utanför eMarketeer. Hoppa över det här alternativet om du inte är van vid den här typen av integration.
+* **E-mail:** Länka till formuläret från ett e-postmeddelande med funktionen "Link to Form" i e-postredigeraren, eller klistra in Direct URL i din egen e-postklient. Se länkningsavsnittet i [Skapa din första e-post](basics-creating-email.md).
 {% endstep %}
 {% endstepper %}
