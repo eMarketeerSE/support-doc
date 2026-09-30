@@ -15,13 +15,13 @@ Som standard låter LinkedIn dig ladda ner inskickade leads som en CSV som du m�
 
 #### Anslut eMarketeer till LinkedIn
 
-Som administratör i eMarketeer, klicka på "Settings", sedan "Plugins and integrations" och därefter "LinkedIn". Klicka på "Connect to LinkedIn" för att starta anslutningen.
+Som administratör i eMarketeer, klicka på kugghjulsikonen uppe till höger, välj "Account Settings", öppna "Integrations" och klicka på "Manage" på LinkedIn-kortet. Klicka på "Connect to LinkedIn" för att starta anslutningen.
 
 _Obs: du ansluter med din personliga LinkedIn-profil, vilket ger eMarketeer åtkomst till de Ad Accounts som profilen har åtkomst till. Anslut med en profil som har åtkomst till de Ad Accounts du vill ta emot inskickningar från._
 
 När anslutningen är klar ser du listan över tillgängliga Ad Accounts.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/signals/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="Lista över LinkedIn Ad Accounts tillgängliga för att ta emot leads"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="Lista över LinkedIn Ad Accounts tillgängliga för att ta emot leads"></div>
 
 Markera de Ad Accounts du vill ta emot leads från. Alla inskickningar via Lead Gen Forms på ett markerat konto skickas till eMarketeer.
 
@@ -58,9 +58,9 @@ LinkedIn-formulär kan bara användas i en betald, publicerad annons — men du 
 
 #### Bearbeta inkommande leads
 
-När leads finns i eMarketeer kan du komma åt dem via Contact Filter som ett engagemang.
+När leads finns i eMarketeer kan du komma åt dem i dialogen Filter contacts, under kategorin Engagement.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/signals/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Kontaktfilter med engagemangsalternativ för LinkedIn"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/signals-filter-linkedin-lead-gen-form.png" alt="Listan Engagement type i dialogen Filter contacts med alternativet LinkedIn Lead Gen Form"></div>
 
 Använd filtret för att hämta alla kontakter som:
 
