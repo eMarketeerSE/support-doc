@@ -7,13 +7,13 @@ description: >-
 
 # Dynamics - Add Lead activity
 
-![Add Lead Activity step configuration in Dynamics](../../.gitbook/assets/add_lead_activity-1024x907.png)
+![Add Lead Activity panel with Topic, Description, Activity Type, Owner and schedule](../../.gitbook/assets/dynamics-add-lead-activity-step-settings.png)
 
 ## Step configuration
 
 When you add this step to a Journey, configure the following fields:
 
-* **Subject (required):** the title of the activity in Dynamics, for example "Follow-up Call" or "Send Pricing Guide".
+* **Topic (required):** the title of the activity in Dynamics, for example "Follow-up Call" or "Send Pricing Guide".
 * **Description:** additional details or notes for the person completing the task.
 * **Activity Type:** log the activity as either a Task or a Phone Call.
 * **Owner (required):** the Dynamics user assigned to the activity.
