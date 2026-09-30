@@ -44,7 +44,7 @@ Istället för att skriva in samma information i varje innehållsdel sparar du d
 
 Gå till fliken **Campaign Fields** i din kampanj och klicka på **Add Campaign Field**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Add-campaign-field-e1615299138567-1024x443.png" alt="Fliken fields med knappen add campaign field."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-fields-tab-empty.png" alt="Fliken Campaign Fields med knappen Add Campaign Field"></div>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ Gå till fliken **Campaign Fields** i din kampanj och klicka på **Add Campaign 
 
 Namnge fältet i dialogrutan. Låt namnet tydligt beskriva vad fältet innehåller — till exempel "event name." Använd beskrivningen för att notera hur och när du använder fältet som en referens för framtida redigeringar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.08.14-1024x561.png" alt="Namnge ett kampanjfält i dialogrutan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-add-campaign-field-dialog-name.png" alt="Namnge ett kampanjfält i dialogen Add Campaign Field"></div>
 {% endstep %}
 
 {% step %}
@@ -69,7 +69,7 @@ Tillgängliga typer är:
 * **Radio buttons:** välj ett av flera alternativ. För evenemang på olika platser kan du lägga till radioknappar för varje plats och det valda värdet flödar in i innehållet.
 * **Droplist:** välj ett eller flera alternativ från en lista. Till exempel en lista med talare — välj de som är med på det här evenemanget och de visas i ditt innehåll.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.08.08-1024x556.png" alt="Väljaren för kampanjfälttyp."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-add-campaign-field-type-dropdown.png" alt="Rullgardinsmenyn Field Type med kampanjfältens typer"></div>
 {% endstep %}
 
 {% step %}
@@ -77,7 +77,7 @@ Tillgängliga typer är:
 
 När du har valt typ visas ett värdefält. Fyll i värdet.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.09.42-1024x592.png" alt="Ange ett värde för ett kampanjfält."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-field-value-entry.png" alt="Ange ett värde för ett kampanjfält"></div>
 
 Upprepa för varje kampanjfält du behöver. Klicka på save. Använd kugghjulet för att redigera eller ta bort ett fält.
 
@@ -95,7 +95,7 @@ Att lägga till ett kampanjfält fungerar på samma sätt som att infoga en kont
 
 Klicka på textblocket där du vill lägga till fältet i din innehållseditor — ett e-post i det här exemplet.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.35.59-1024x483.png" alt="Redigera ett textblock i ett e-post."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-email-headline-block-edit.png" alt="Redigera ett textblock i ett e-post."></div>
 {% endstep %}
 
 {% step %}
@@ -109,11 +109,11 @@ Klicka på textblocket där du vill lägga till fältet i din innehållseditor �
 
 I dialogrutan ser du fälten på kontaktkortet tillsammans med kampanjfälten du satt upp. Det är därför tydliga namn spelar roll.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Picture-1-e1615301416592-300x180.png" alt="Personaliseringsdialogen som visar kontakt- och kampanjfält."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-personalize-popup-fields.png" alt="Personaliseringsdialogen som visar kontakt- och kampanjfält."></div>
 
 Välj kampanjfältet och klicka på save. Fältet läggs till i ditt innehåll.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.37.44-1-1024x433.png" alt="Ett kampanjfält infogat i ett textblock i ett e-post."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-field-merge-tag-inserted.png" alt="Ett kampanjfält infogat i ett textblock i ett e-post."></div>
 {% endstep %}
 {% endstepper %}
 

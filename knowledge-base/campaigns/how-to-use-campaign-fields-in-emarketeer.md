@@ -44,7 +44,7 @@ Instead of typing the same information into every content piece, you store it on
 
 In your campaign, go to the **Campaign Fields** tab and click **Add Campaign Field**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Add-campaign-field-e1615299138567-1024x443.png" alt="The fields tab with the add campaign field button."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-fields-tab-empty.png" alt="The Campaign Fields tab with the Add Campaign Field button"></div>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ In your campaign, go to the **Campaign Fields** tab and click **Add Campaign Fie
 
 In the pop-up, name the field. Make the name clearly describe what the field contains — for example, "event name." Use the description to note how and when you use the field as a reference for future edits.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.08.14-1024x561.png" alt="Naming a campaign field in the pop-up."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-add-campaign-field-dialog-name.png" alt="Naming a campaign field in the Add Campaign Field dialog"></div>
 {% endstep %}
 
 {% step %}
@@ -69,7 +69,7 @@ The available types are:
 * **Radio buttons:** choose one of several options. For events at different locations, you can add radio buttons for each location and the chosen value flows into your content.
 * **Droplist:** pick one or more options from a list. For example, a list of speakers — pick the ones for this event and they appear in your content.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.08.08-1024x556.png" alt="The campaign field type selector."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-add-campaign-field-type-dropdown.png" alt="The Field Type dropdown listing the campaign field types"></div>
 {% endstep %}
 
 {% step %}
@@ -77,7 +77,7 @@ The available types are:
 
 After you pick a type, a value field appears. Enter the value.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.09.42-1024x592.png" alt="Entering a value for a campaign field."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-field-value-entry.png" alt="Entering a value for a campaign field"></div>
 
 Repeat for any campaign fields you need. Click save. Use the cog wheel to edit or delete a field.
 
@@ -95,7 +95,7 @@ Adding a campaign field works the same way as inserting a contact's first name.
 
 In your content editor — an email in this example — click the text block where you want to add the field.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.35.59-1024x483.png" alt="Editing a text block in an email."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-email-headline-block-edit.png" alt="Editing a text block in an email."></div>
 {% endstep %}
 
 {% step %}
@@ -109,11 +109,11 @@ In your content editor — an email in this example — click the text block whe
 
 In the pop-up, you see the fields on your contact card together with the campaign fields you set up. This is why clear names matter.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Picture-1-e1615301416592-300x180.png" alt="The personalize pop-up showing contact and campaign fields."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-personalize-popup-fields.png" alt="The personalize pop-up showing contact and campaign fields."></div>
 
 Choose the campaign field and click save. The field is added to your content.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2021-03-09-at-15.37.44-1-1024x433.png" alt="A campaign field inserted into an email text block."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-campaign-fields-in-emarketeer-campaign-field-merge-tag-inserted.png" alt="A campaign field inserted into an email text block."></div>
 {% endstep %}
 {% endstepper %}
 
