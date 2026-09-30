@@ -19,7 +19,7 @@ By default, LinkedIn lets you download submitted leads as a CSV file that you pr
 
 ### Connect eMarketeer to LinkedIn
 
-As an admin in eMarketeer, click "Settings", "Plugins and integrations", and "LinkedIn". Click "Connect to LinkedIn" to start the connection.
+As an admin in eMarketeer, click the gear icon at the top right, choose "Account Settings", open "Integrations", and click "Manage" on the LinkedIn card. Click "Connect to LinkedIn" to start the connection.
 
 Note: you connect with your personal LinkedIn profile, which gives eMarketeer access to the Ad Accounts that profile has access to. Connect with a profile that has access to the Ad Accounts you want to receive Lead Gen Form submissions from.
 
@@ -66,9 +66,9 @@ First, create the form and the ad in LinkedIn. Then click "Preview" on the ad. F
 
 ## Processing the incoming leads
 
-Once leads arrive in eMarketeer, you can access them through the Contact Filter as Engagement.
+Once leads arrive in eMarketeer, you can access them through the Filter contacts dialog, under the Engagement category.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact Filter showing LinkedIn engagement options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/linkedin-lead-gen-forms-filter-linkedin-lead-gen-form.png" alt="Engagement type list in the Filter contacts dialog with LinkedIn Lead Gen Form as an option"></div>
 
 Using this filter, you can retrieve all contacts who:
 

@@ -19,7 +19,7 @@ Som standard låter LinkedIn dig ladda ner inskickade leads som en CSV-fil som d
 
 ### Anslut eMarketeer till LinkedIn
 
-Som administratör i eMarketeer, klicka på "Settings", "Plugins and integrations" och "LinkedIn". Klicka på "Connect to LinkedIn" för att starta anslutningen.
+Som administratör i eMarketeer, klicka på kugghjulsikonen uppe till höger, välj "Account Settings", öppna "Integrations" och klicka på "Manage" på LinkedIn-kortet. Klicka på "Connect to LinkedIn" för att starta anslutningen.
 
 Obs: du ansluter med din personliga LinkedIn-profil, vilket ger eMarketeer åtkomst till de Ad Accounts som profilen har åtkomst till. Anslut med en profil som har åtkomst till de Ad Accounts du vill ta emot inskick från Lead Gen Forms från.
 
@@ -66,9 +66,9 @@ Skapa först formuläret och annonsen i LinkedIn. Klicka sedan på "Preview" på
 
 ## Bearbeta de inkommande leadsen
 
-När leads kommer in i eMarketeer kommer du åt dem via Contact Filter som Engagement.
+När leads kommer in i eMarketeer kommer du åt dem via dialogrutan Filter contacts, under kategorin Engagement.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-11.52.17-300x233.png" alt="Contact Filter som visar LinkedIn-engagemangsalternativ"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/linkedin-lead-gen-forms-filter-linkedin-lead-gen-form.png" alt="Listan Engagement type i dialogrutan Filter contacts med LinkedIn Lead Gen Form som alternativ"></div>
 
 Med det här filtret kan du hämta alla kontakter som:
 
