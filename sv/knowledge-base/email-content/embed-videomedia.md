@@ -1,14 +1,14 @@
 ---
 description: >-
   Hur du använder Video/Media-blocket i Page Builder för att bädda in
-  YouTube-videor och annat rikt media i e-postmeddelanden och webbsidor.
+  YouTube-videor och annat rikt media i e-postmeddelanden och landningssidor.
 ---
 
 # Bädda in video/media
 
 Använd blocket Video/Media i Page Builder för att bädda in video, bildspel och annat rikt innehåll från externa tjänster.
 
-Blocket är tillgängligt i Page Builder för e-postmeddelanden och webbsidor. eMarketeer hämtar media från tjänster som YouTube och renderar det inuti ditt innehåll.
+Blocket är tillgängligt i Page Builder för e-postmeddelanden och landningssidor. eMarketeer hämtar media från tjänster som YouTube och renderar det inuti ditt innehåll.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/embed_mediablock.png" alt="Blocket Video/Media i Page Builder"></div>
 

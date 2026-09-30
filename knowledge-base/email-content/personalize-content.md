@@ -1,20 +1,20 @@
 ---
 description: >-
   How to use contact field data to display personalized content for each
-  individual recipient in emails, SMS, forms, and webpages.
+  individual recipient in emails, SMS, forms, and landing pages.
 ---
 
 # Personalize content
 
 Personalized content displays differently for each contact based on data stored on the contact card.
 
-The most common example is a personalized email greeting that addresses the contact by name. Personalization works in emails, SMS, forms, and webpages.
+The most common example is a personalized email greeting that addresses the contact by name. Personalization works in emails, SMS, forms, and landing pages.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-30-58.png" alt="A personalized greeting in an email."></div>
 
 ## How personalized content works
 
-When a contact is identified in an eMarketeer component, that component can pull data from the contact card. Emails and SMS always identify the contact, since they are targeted to specific contacts at send time. Forms and webpages can also personalize when the contact is identified — for example via a personal link.
+When a contact is identified in an eMarketeer component, that component can pull data from the contact card. Emails and SMS always identify the contact, since they are targeted to specific contacts at send time. Forms and landing pages can also personalize when the contact is identified — for example via a personal link.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-details.png" alt="Details tab of a contact card with First name, Last name, Email, Mobile and Company filled in"></div>
 

@@ -90,7 +90,7 @@ Tillgängliga integrationer:
 {% step %}
 ### Skapa komponentmallar
 
-Alla komponenter — e-post, formulär och webbsidor — kan sparas som mallar för framtida återanvändning. Om du vill ha mallar byggda utifrån din varumärkesdesign kan en eMarketeer-konsult hjälpa dig med det.
+Alla komponenter — e-post, formulär och landningssidor — kan sparas som mallar för framtida återanvändning. Om du vill ha mallar byggda utifrån din varumärkesdesign kan en eMarketeer-konsult hjälpa dig med det.
 
 Kom igång med att skapa komponentmallar i våra guider för [Kampanjgrunder](../knowledge-base/getting-started/campaign-basics.md).
 {% endstep %}

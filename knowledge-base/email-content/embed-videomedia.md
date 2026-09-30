@@ -1,14 +1,14 @@
 ---
 description: >-
   How to use the Video/Media block in the Page Builder to embed YouTube videos
-  and other rich media into emails and webpages.
+  and other rich media into emails and landing pages.
 ---
 
 # Embed Video/Media
 
 Use the Video/Media block in the Page Builder to embed video, slides, and other rich content from external services.
 
-The block is available in the Page Builder for emails and webpages. eMarketeer pulls media from services such as YouTube and renders it inside your content.
+The block is available in the Page Builder for emails and landing pages. eMarketeer pulls media from services such as YouTube and renders it inside your content.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/embed_mediablock.png" alt="Video/Media block in the Page Builder"></div>
 

@@ -15,7 +15,7 @@ En Marketing User har åtkomst till eMarketeers huvudarbetsyta — kampanjer, e-
 Ytterligare behörigheter som kan beviljas en Marketing User:
 
 - **Administrator** — åtkomst till kontoinställningar och användarhantering.
-- **Developer** — åtkomst till den fullständiga HTML-källkoden i e-postredigeraren, webbsidor, appar och JSON-redigeraren i formulär.
+- **Developer** — åtkomst till den fullständiga HTML-källkoden i e-postredigeraren, landningssidor, appar och JSON-redigeraren i formulär.
 - **CRM Web panels** — åtkomst till eMarketeer-paneler inbäddade i ett integrerat CRM-system.
 
 ## Sales User

@@ -1,20 +1,20 @@
 ---
 description: >-
   Hur du använder kontaktfältsdata för att visa personaliserat innehåll för
-  varje enskild mottagare i e-post, SMS, formulär och webbsidor.
+  varje enskild mottagare i e-post, SMS, formulär och landningssidor.
 ---
 
 # Personalisera innehåll
 
 Personaliserat innehåll visas olika för varje kontakt baserat på data som lagras på kontaktkortet.
 
-Det vanligaste exemplet är en personaliserad e-posthälsning som tilltalar kontakten med namn. Personalisering fungerar i e-postmeddelanden, SMS, formulär och webbsidor.
+Det vanligaste exemplet är en personaliserad e-posthälsning som tilltalar kontakten med namn. Personalisering fungerar i e-postmeddelanden, SMS, formulär och landningssidor.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-30-58.png" alt="En personaliserad hälsning i ett e-postmeddelande."></div>
 
 ## Så fungerar personaliserat innehåll
 
-När en kontakt är identifierad i en eMarketeer-komponent kan den komponenten hämta data från kontaktkortet. E-postmeddelanden och SMS identifierar alltid kontakten, eftersom de riktas till specifika kontakter vid utskickstillfället. Formulär och webbsidor kan också personalisera när kontakten är identifierad — till exempel via en personlig länk.
+När en kontakt är identifierad i en eMarketeer-komponent kan den komponenten hämta data från kontaktkortet. E-postmeddelanden och SMS identifierar alltid kontakten, eftersom de riktas till specifika kontakter vid utskickstillfället. Formulär och landningssidor kan också personalisera när kontakten är identifierad — till exempel via en personlig länk.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-details.png" alt="Fliken Details på ett kontaktkort med fälten First name, Last name, Email, Mobile och Company ifyllda"></div>
 

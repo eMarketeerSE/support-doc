@@ -15,7 +15,7 @@ A Marketing User has access to the main eMarketeer workspace — campaigns, emai
 Additional privileges that can be granted to a Marketing User:
 
 - **Administrator** — access to account settings and user management.
-- **Developer** — access to the full HTML source in the email editor, webpages, apps, and the JSON editor in forms.
+- **Developer** — access to the full HTML source in the email editor, landing pages, apps, and the JSON editor in forms.
 - **CRM Web panels** — access to eMarketeer panels embedded within an integrated CRM system.
 
 ## Sales User
