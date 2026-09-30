@@ -15,9 +15,9 @@ Any Signal sent to eMarketeer can be used to:
 
 ## Subscribe to SuperOffice events
 
-To subscribe to SuperOffice events, open the SuperOffice integration page in eMarketeer. At the bottom of the settings page you find the events you can subscribe to.
+To subscribe to SuperOffice events, click the gear icon at the top right, select **Account Settings**, open **Integrations**, and click **Manage** on the SuperOffice CRM card. On the SuperOffice settings page, the events you can subscribe to are listed under **Subscribe to SuperOffice events**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2024-01-16-kl.-10.15.13.png" alt="SuperOffice event subscription toggles in eMarketeer"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/superoffice-signals-superoffice-event-subscriptions.png" alt="Subscribe to SuperOffice events section with toggle switches for Sale Created, Sale Sold, Sale Lost and Contact Created"></div>
 
 Enable the toggle switches for the events you want SuperOffice to send to eMarketeer.
 

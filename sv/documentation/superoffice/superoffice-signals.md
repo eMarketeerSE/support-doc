@@ -15,9 +15,9 @@ Alla Signals som skickas till eMarketeer kan användas för att:
 
 ## Prenumerera på SuperOffice-händelser
 
-För att prenumerera på SuperOffice-händelser, öppna SuperOffice-integrationssidan i eMarketeer. Längst ned på inställningssidan hittar du de händelser du kan prenumerera på.
+För att prenumerera på SuperOffice-händelser klickar du på kugghjulsikonen uppe till höger, väljer **Account Settings**, öppnar **Integrations** och klickar på **Manage** på kortet SuperOffice CRM. På SuperOffice-inställningssidan finns de händelser du kan prenumerera på under **Subscribe to SuperOffice events**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2024-01-16-kl.-10.15.13.png" alt="Reglage för prenumeration på SuperOffice-händelser i eMarketeer"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/superoffice-signals-superoffice-event-subscriptions.png" alt="Avsnittet Subscribe to SuperOffice events med reglage för Sale Created, Sale Sold, Sale Lost och Contact Created"></div>
 
 Slå på reglagen för de händelser du vill att SuperOffice ska skicka till eMarketeer.
 
