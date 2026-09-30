@@ -6,7 +6,7 @@ description: >-
 
 # Dynamics - Add Lead to Marketing List
 
-![Add Lead to Marketing List step configuration in Dynamics](../../../.gitbook/assets/add_lead_marketing_list-1024x407.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/add_lead_marketing_list-1024x407.png" alt="Add Lead to Marketing List step configuration in Dynamics"></div>
 
 ## Step configuration
 
