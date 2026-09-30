@@ -16,7 +16,7 @@ Det vanligaste exemplet är en personaliserad e-posthälsning som tilltalar kont
 
 När en kontakt är identifierad i en eMarketeer-komponent kan den komponenten hämta data från kontaktkortet. E-postmeddelanden och SMS identifierar alltid kontakten, eftersom de riktas till specifika kontakter vid utskickstillfället. Formulär och landningssidor kan också personalisera när kontakten är identifierad — till exempel via en personlig länk.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-details.png" alt="Fliken Details på ett kontaktkort med fälten First name, Last name, Email, Mobile och Company ifyllda"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-sebastian.png" alt="Fliken Details på ett kontaktkort med fälten First name, Last name, Email, Mobile och Company ifyllda"></div>
 
 Ta kontakten Sebastian Olsson som exempel. All data som lagras i ett kontaktkortsfält kan användas i en komponents text, URL eller HTML-innehåll. Med First name tillgängligt kan du hälsa kontakten informellt — "Hi Sebastian." Med Last name och Salutation tillgängliga kan du använda en formell hälsning — "Dear Mr. Olsson."
 

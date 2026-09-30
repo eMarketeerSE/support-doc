@@ -16,7 +16,7 @@ The most common example is a personalized email greeting that addresses the cont
 
 When a contact is identified in an eMarketeer component, that component can pull data from the contact card. Emails and SMS always identify the contact, since they are targeted to specific contacts at send time. Forms and landing pages can also personalize when the contact is identified — for example via a personal link.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-details.png" alt="Details tab of a contact card with First name, Last name, Email, Mobile and Company filled in"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-sebastian.png" alt="Details tab of a contact card with First name, Last name, Email, Mobile and Company filled in"></div>
 
 Take the contact Sebastian Olsson as an example. Any data stored on a contact card field can be used in a component's text, URL, or HTML content. With First name available, you can greet the contact informally — "Hi Sebastian." With Last name and Salutation available, you can use a formal greeting — "Dear Mr. Olsson."
 
