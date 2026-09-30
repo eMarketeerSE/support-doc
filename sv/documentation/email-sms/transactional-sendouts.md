@@ -15,15 +15,15 @@ I vissa fall är meddelandet du vill skicka inte ett marknadsföringsmeddelande,
 * Bekräftelsemeddelanden
 * Leverans av efterfrågad information
 
-För att skicka ett meddelande som åsidosätter samtyckesinställningarna, markera utskicket som ett "transaktionellt meddelande".
+För att skicka ett meddelande som åsidosätter samtyckesinställningarna, markera utskicket som **Transactional**.
 
 Att skicka marknadsföringsmeddelanden utan samtycke är olagligt. Använd endast den här inställningen om kontakten verkligen behöver informationen eller väntar på den.
 
 ## Skicka ett meddelande manuellt från en kampanj
 
-Du ser den här inställningen när du adresserar ditt meddelande på standardskärmen för utskick.
+Du hittar inställningen i panelen **Consent** i steg 2, **Send Options**, när du adresserar ditt meddelande. Välj **Transactional**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Utskicksskärm med inställningen för transaktionellt meddelande markerad"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transactional-sendouts-send-consent-settings.png" alt="Panelen Consent med alternativen Marketing sendout och Transactional"></div>
 
 ## Skicka ett meddelande i en Journey
 

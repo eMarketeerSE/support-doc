@@ -15,15 +15,15 @@ In some cases the email you want to send is not a marketing email, and you need 
 * Confirmation emails
 * Delivery of requested information
 
-To send an email that overrides the consent settings, mark the send-out as a "transactional email".
+To send an email that overrides the consent settings, mark the send-out as **Transactional**.
 
 Sending marketing emails without consent is illegal. Use this setting only if the contact truly needs the information or is waiting for it.
 
 ## Sending an email manually from a campaign
 
-You see this setting when addressing your email in the standard send-out screen.
+You see this setting in the **Consent** panel on step 2, **Send Options**, when you address your email. Choose **Transactional**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-12-13-kl.-12.14.25-1024x310.png" alt="Send-out screen with the transactional email setting highlighted"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transactional-sendouts-send-consent-settings.png" alt="Consent panel with the Marketing sendout and Transactional options"></div>
 
 ## Sending an email in a Journey
 
