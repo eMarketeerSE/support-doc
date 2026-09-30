@@ -8,7 +8,7 @@ description: >-
 
 Lägger till eller tar bort en kontakt från ett urval i SuperOffice.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/so-journey-steps/AddRemoveFromSelection.png" alt="Inställningspanelen för steget Lägg till / Ta bort från urval"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-add-remove-selection-selection-step-settings.png" alt="Dialogen Update Selection med alternativen Add to selection och Remove from selection och sökfältet för urval"></div>
 
 ## Inställningar
 

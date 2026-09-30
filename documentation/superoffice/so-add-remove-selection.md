@@ -4,7 +4,7 @@ description: Journey step that adds or removes a contact from a selection in Sup
 
 # Add / Remove from selection
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRemoveFromSelection.png" alt="Add or remove from selection step settings panel"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-add-remove-selection-selection-step-settings.png" alt="Update Selection dialog with the Add to selection and Remove from selection options and the selection search field"></div>
 
 ## Settings
 
