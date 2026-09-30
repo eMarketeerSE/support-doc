@@ -36,12 +36,12 @@ Använd det här när ett formulär bara ska vara öppet under en begränsad tid
 
 ## Öppna formulärets publiceringsinställningar
 
-1.  I kampanjvyn, klicka på Publish på formuläret.
+1.  I kampanjvyn, klicka på ikonen **Publish** på formulärets kort.
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_publish.png" alt="formpub1"></div>
-2.  I vänstermenyn, klicka på Open/Close form.
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/close-a-form-form-card-publish-icon.png" alt="Formulärkort i kampanjvyn med en pil som pekar på ikonen Publish"></div>
+2.  Öppna menyn bredvid formulärets namn högst upp på sidan och klicka på **Open/Close Form**.
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_openclose.png" alt="formpub2"></div>
-3.  Välj de inställningar du behöver för ditt formulär.
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/close-a-form-form-menu-open-close.png" alt="Menyn bredvid formulärets namn med en pil som pekar på Open/Close Form"></div>
+3.  Välj de inställningar du behöver för ditt formulär och klicka sedan på **Save Changes**.
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_openclosesettings.png" alt="formpub3"></div>
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/close-a-form-open-close-settings.png" alt="Inställningar för Open/Close med besökarinställningar, alternativ för öppet och stängt samt editor för meddelandet när formuläret är stängt"></div>
