@@ -29,7 +29,7 @@ När du skickar e-post kan du välja en eller flera källor för dina mottagare.
 
 \[
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-28_10-01-08.png" alt="Alternativet File upload när du skickar en e-post"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-send-recipient-source-file-upload.png" alt="Steget Recipient Source med File Upload markerat"></div>
 
 Alternativet File upload när du skickar en e-post.
 

@@ -27,7 +27,7 @@ At this point you have an Excel file ready to go. Where you perform the import d
 
 When sending emails you can choose one or more sources for your recipients. The File upload option lets you import contacts from an Excel file (or text file) and use them as recipients in that send. It is an efficient way to use contacts from a file without creating a contact list first.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_10-01-08.png" alt="File upload option when sending an email"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-send-recipient-source-file-upload.png" alt="Recipient Source step with File Upload highlighted"></div>
 
 File upload option when sending an email.
 
@@ -62,7 +62,7 @@ Once you have chosen the method of import, the next step is the import itself. I
 
 Next you select the columns to import. The default setting is Do not import unless the value in the first row of a column matches an entry in the drop-down menu, in which case it is pre-selected. To import a column, choose the option that matches its data type. For example, the column that contains email addresses should be set to E-Mail.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_14-44-26.png" alt="Matching the column with the eMarketeer contact fields"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_14-44-26.png" alt="Matching the column with the eMarketeer contact fields"></div>
 
 Matching the column with the eMarketeer contact fields
 
@@ -82,7 +82,7 @@ Finally, you can update the legal basis for the contacts in your file. This crea
 
 A withdrawn consent is not changed by a contact import. You cannot revoke a withdrawal through import.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-06-18_13-58-39.png" alt="Example of how to set Consent as the legal basis for each Purpose"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-06-18_13-58-39.png" alt="Example of how to set Consent as the legal basis for each Purpose"></div>
 
 Example of how to set "Consent" as the Legal Basis for each Purpose.
 
