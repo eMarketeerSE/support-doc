@@ -38,17 +38,17 @@ Att skicka SMS är bara några få steg när meddelandet är uppsatt. När du ä
 {% step %}
 ### Lägg till SMS:et från kampanjsidan
 
-Klicka på **Add SMS** på kampanjsidan.
+Klicka på **Add Component** på kampanjsidan och sedan på **SMS**.
 
 * Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs1.png" alt="Knappen Add SMS på kampanjsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-add-component-sms.png" alt="Menyn Add Component på kampanjsidan med SMS markerat"></div>
 {% endstep %}
 
 {% step %}
 ### Fyll i inställningar, välj en mall och skapa SMS:et
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs2.png" alt="SMS-inställningar med namnfält och mallval"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-add-sms-dialog.png" alt="Dialogrutan Add SMS med namnfält och mallval"></div>
 
 **Inställningar**
 
@@ -60,19 +60,19 @@ Välj en mall från någon av flikarna som utgångspunkt. Den här guiden använ
 
 **Skapa SMS-komponent**
 
-När inställningar och mall är klara klickar du på **Create SMS** för att skapa komponenten.
+När inställningar och mall är klara klickar du på **Create** för att skapa komponenten.
 {% endstep %}
 
 {% step %}
 ### SMS-redigeraren
 
-När du klickat på **Create SMS** öppnas redigeraren. Du ser en textruta där du redigerar meddelandet och ett Sender ID-alternativ nedanför.
+När du klickat på **Create** öppnas redigeraren. Du ser en textruta där du redigerar meddelandet och ett Sender ID-alternativ nedanför.
 
-Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard är `eMarketeer`. Du kan begära ett eget Sender ID — se [den här artikeln](../../../documentation/email-sms/sender-id.md).
+Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard är `eMarketeer`. Du kan begära ett eget Sender ID — se [den här artikeln](../../documentation/email-sms/sender-id.md).
 
 Nedanför hittar du SMS-testfunktionen, som låter dig skicka SMS:et till dig själv för att se hur det ser ut när det kommer fram. Länkar i test-SMS fungerar inte — skicka SMS:et på vanligt sätt om du behöver testa länkar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs_edit_view.png" alt="SMS-redigeraren med meddelandefält, Sender ID och testskick"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-create-sms-and-edit.png" alt="SMS-redigeraren med meddelandefält, Sender ID, testskick och telefonförhandsvisning"></div>
 {% endstep %}
 
 {% step %}
@@ -90,6 +90,6 @@ Klicka på **Save Message** efter varje ändring för att spara ditt arbete.
 
 Att skicka en SMS fungerar i stort sett som att skicka en e-post och har många av samma alternativ. Se [Så här skickar du en e-post](basics-send-email.md) för en fullständig genomgång.
 
-Telefonnummer måste innehålla landskod och följa [standardformat](../../../documentation/email-sms/mobile-number-validation.md) innan du skickar. Till exempel: `+46701231231`.
+Telefonnummer måste innehålla landskod och följa [standardformat](../../documentation/email-sms/mobile-number-validation.md) innan du skickar. Till exempel: `+46701231231`.
 {% endstep %}
 {% endstepper %}

@@ -38,15 +38,15 @@ Sending SMS is only a few steps once the message is set up. By the end of this g
 {% step %}
 ### Add the SMS from the campaign page
 
-From the campaign page, click **Add SMS**.
+From the campaign page, click **Add Component**, then **SMS**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs1.png" alt="Add SMS button on the campaign page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-add-component-sms.png" alt="Add Component menu on the campaign page with SMS highlighted"></div>
 {% endstep %}
 
 {% step %}
 ### Fill in settings, choose a template, create the SMS
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs2.png" alt="SMS settings with name field and template selector"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-add-sms-dialog.png" alt="Add SMS dialog with component name field and template selector"></div>
 
 **Settings**
 
@@ -58,19 +58,19 @@ Pick a template from one of the tabs as a starting point. This guide uses **Mobi
 
 **Create SMS component**
 
-Once settings and template are set, click **Create SMS** to create the component.
+Once settings and template are set, click **Create** to create the component.
 {% endstep %}
 
 {% step %}
 ### The SMS editor
 
-After you click **Create SMS**, the editor opens. You see a text box where you edit the message and a Sender ID option below it.
+After you click **Create**, the editor opens. You see a text box where you edit the message and a Sender ID option below it.
 
 The Sender ID is the name of the sender as shown on the recipient's phone. The default is `eMarketeer`. You can request a custom Sender ID — see [this article](../../documentation/email-sms/sender-id.md).
 
 Below that you find the SMS testing feature, which lets you send the SMS to yourself to see how it looks on arrival. Links in test SMS messages do not work — send the SMS the normal way if you need to test links.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cs_edit_view.png" alt="SMS editor with message box, Sender ID and test send"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-create-sms-and-edit.png" alt="SMS editor with message box, Sender ID, test send and phone preview"></div>
 {% endstep %}
 
 {% step %}
