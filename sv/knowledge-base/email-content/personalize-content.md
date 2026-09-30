@@ -16,7 +16,7 @@ Det vanligaste exemplet är en personaliserad e-posthälsning som tilltalar kont
 
 När en kontakt är identifierad i en eMarketeer-komponent kan den komponenten hämta data från kontaktkortet. E-postmeddelanden och SMS identifierar alltid kontakten, eftersom de riktas till specifika kontakter vid utskickstillfället. Formulär och webbsidor kan också personalisera när kontakten är identifierad — till exempel via en personlig länk.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_10-40-28-1024x546.png" alt="Kontaktkort som visar fält ifyllda för en exempelkontakt"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-contact-card-details.png" alt="Fliken Details på ett kontaktkort med fälten First name, Last name, Email, Mobile och Company ifyllda"></div>
 
 Ta kontakten Sebastian Olsson som exempel. All data som lagras i ett kontaktkortsfält kan användas i en komponents text, URL eller HTML-innehåll. Med First name tillgängligt kan du hälsa kontakten informellt — "Hi Sebastian." Med Last name och Salutation tillgängliga kan du använda en formell hälsning — "Dear Mr. Olsson."
 
@@ -35,7 +35,7 @@ Att importera via Excel låter dig sätta data på varje kontakt genom att förb
 Du kan importera en Excel-fil som en del av att skicka ett e-postmeddelande eller SMS, eller i förväg till en kampanj eller kontaktlista. Vilken väg du än väljer är steget med kolumnmatchning avgörande — varje kolumn måste matcha ett kontaktkortsfält.
 
 {% hint style="info" %}
-I det här exemplet är Personal Code ett anpassat fält. Anpassade fält är icke-standardiserade kontaktkortsfält. Lägg till anpassade fält under: Account Settings → Customize eMarketeer → Customize Contact Card (administratörsroll krävs).
+I det här exemplet är Personal Code ett anpassat fält. Anpassade fält är icke-standardiserade kontaktkortsfält. Lägg till anpassade fält under: Account Settings → Customize → Contact card fields (administratörsroll krävs).
 {% endhint %}
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_11-33-09.png" alt="Skärm för kolumnmatchning under Excel-import som visar källkolumner matchade mot kontaktkortsfält"></div>
@@ -44,11 +44,11 @@ I det här exemplet är Personal Code ett anpassat fält. Anpassade fält är ic
 
 Lägg till personaliserad data i vilket textfält som helst med alternativet Personalize i verktygsfältet.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_14-39-08.png" alt="Personalize-ikonen i redigerarens verktygsfält"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-personalize-icon-text-toolbar.png" alt="Personalize-ikonen i verktygsfältet Text i e-postredigeraren, markerad med en pil"></div>
 
 Menyn listar alla tillgängliga kontaktkortsfält, företagskontofält och [kampanjfält](../campaigns/how-to-use-campaign-fields-in-emarketeer.md).
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_14-44-42.png" alt="Personalize-menyn öppen med listan över tillgängliga fält"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-personalize-menu.png" alt="Dialogrutan Personalize med en lista över kontaktkortsfält, kontodata och kampanjfält"></div>
 
 Att klicka på ett fält infogar ett kodavsnitt vid markören. Avsnittet för First name ser ut så här:
 
@@ -79,15 +79,15 @@ När du skriver avsnitt för hand är det ett vanligt misstag att glömma attrib
 
 ### Avsändarinfo för e-post
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-08-07.png" alt="Avsändarinfo-fält för e-post med personaliseringsplatshållare infogade"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-sender-info-personalized.png" alt="Avsändarinfo-fält för e-post med en sammanfogningskod inskriven i fältet Subject"></div>
 
 ### Textinnehåll
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-09-54.png" alt="Textinnehåll som visar en personaliseringsplatshållare inline"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-headline-personalized.png" alt="Redigeraren Big Headline med en sammanfogningskod infogad efter ordet Hi"></div>
 
 ### Länkar och URL:er
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-19_15-11-34.png" alt="En länk-URL med en personlig kod. Bild-URL:er fungerar på samma sätt."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/personalize-content-link-personalized-url.png" alt="Fälten för länk-URL och Caption med en sammanfogningskod för personlig kod i URL:en"></div>
 
 ### HTML
 
