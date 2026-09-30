@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add activity
 
-![Add Activity step configuration with Prefer Contact or Lead setting](../../../.gitbook/assets/add_activity-982x1024.png)
+![Add Activity step configuration with Prefer Contact or Lead setting](../../.gitbook/assets/add_activity-982x1024.png)
 
 ### Step configuration
 
