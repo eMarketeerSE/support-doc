@@ -15,7 +15,7 @@ For the integration to work properly, eMarketeer installs new items in SuperOffi
 
 ## Start the integration
 
-To start the integration, log in to eMarketeer and click "Account" then "Plugins and Integrations". From there you find the SuperOffice settings page.
+To start the integration, log in to eMarketeer, click the gear icon at the top right, choose "Account Settings", open "Integrations", and click "Manage" on the SuperOffice CRM card. From there you find the SuperOffice settings page.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/so-online-1.png" alt="SuperOffice Online settings page in eMarketeer"></div>
 
