@@ -5,7 +5,7 @@ description: >-
 
 # Skapa aktivitet
 
-<div align="left" data-with-frame="true"><img src="../../../assets/so-journey-steps/CreateActivity.png" alt="Inställningspanelen för steget Skapa aktivitet"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-create-activity-create-activity-step-settings.png" alt="Dialogen Create Activity med fälten för aktivitetstyp, beskrivning, slutförd-kryssruta, tilldelning och projekt"></div>
 
 ## Inställningar
 

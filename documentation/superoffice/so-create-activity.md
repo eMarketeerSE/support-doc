@@ -4,7 +4,7 @@ description: Journey step that creates an Activity on the matching contact in Su
 
 # Create activity
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CreateActivity.png" alt="Create activity step settings panel"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-create-activity-create-activity-step-settings.png" alt="Create Activity dialog with activity type, description, completed checkbox, assignee and project fields"></div>
 
 ## Settings
 
