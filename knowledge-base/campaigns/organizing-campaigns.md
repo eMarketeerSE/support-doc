@@ -6,13 +6,13 @@ description: >-
 
 # Organizing campaigns
 
-A campaign works like a project that groups related components together — for example, every email, form, and webpage tied to one event or newsletter. As your account fills with campaigns, a little structure keeps them easy to find. See [How to create a new campaign](../getting-started/create-new-campaign.md) to make your first one.
+A campaign works like a project that groups related components together — for example, every email, form, and landing page tied to one event or newsletter. As your account fills with campaigns, a little structure keeps them easy to find. See [How to create a new campaign](../getting-started/create-new-campaign.md) to make your first one.
 
 ## The Campaigns list view
 
 The Campaigns list gives you an overview of every campaign without opening any of them. The Contents column lists how many of each component type a campaign holds, so you can see what's inside at a glance. You can also see who created each campaign and when. Campaigns are sorted with the most recently created first.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/campaign-listing.png" alt="The Campaigns list view showing the Contents column, creator, and creation date."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/organizing-campaigns-campaigns-list-view.png" alt="The Campaigns list with the folder panel on the left and each campaign showing its creator, creation date and last activity."></div>
 
 ## Organize campaigns into folders
 
@@ -20,20 +20,18 @@ Group campaigns into folders by type — for example Newsletters, Events, Survey
 
 ### Create a folder
 
-To create a folder, click **Create folder** in the top toolbar of the Campaigns listing. A folder can hold other folders or campaigns. A campaign can't hold folders.
+To create a folder, click the plus icon next to **Folders** in the left-hand panel of the Campaigns listing. A folder can hold other folders or campaigns. A campaign can't hold folders.
 
 ### Move campaigns and folders
 
-There are two ways to move things:
-
-* **Drag and drop** — click the icon, drag it, and drop it onto another folder. To move an item out of its current folder, drop it anywhere on the breadcrumb trail.
-* **The Move button** — tick the box to the left of a campaign or folder name, then click **Move** in the top toolbar. This is the better choice when you want to move several campaigns or folders at once.
+You can move one campaign at a time. Click the three-dot icon on the campaign's row and choose **Move to folder**.
 
 ## Per-campaign options
 
-Each campaign has additional options behind the cogwheel icon on the far right of its row:
+Each campaign has additional options behind the three-dot icon on the far right of its row:
 
-* **Add favorite** — Adds the campaign as a favorite, quickly accessible from the My favorites section in the left-side menu.
-* **Rename** — Gives the campaign a new name.
-* **Copy** — Makes a copy of the campaign in the same folder. As the most recently created campaign, the copy is sorted first.
-* **Transfer** — Creates a copy of the campaign in another eMarketeer account. See [Transfer a campaign to a different account](transfer-a-campaign-to-a-different-account.md).
+* **Favorite** — Click the star to the left of a campaign's name to add it as a favorite, quickly accessible from the Favourites section in the left-side menu.
+* **Rename** — To rename a campaign, open it and change its name there.
+* **Copy campaign** — Makes a copy of the campaign in the same folder. As the most recently created campaign, the copy is sorted first.
+* **Transfer campaign** — Creates a copy of the campaign in another eMarketeer account. See [Transfer a campaign to a different account](transfer-a-campaign-to-a-different-account.md).
+* **Delete campaign** — Deletes the campaign.
