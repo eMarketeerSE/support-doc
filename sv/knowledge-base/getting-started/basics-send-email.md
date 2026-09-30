@@ -56,13 +56,11 @@ Den här guiden går igenom hur du skickar direkt. Du har också möjlighet att 
 
 **Alternativ A — Skicka ett testmejl till dig själv (valfritt)**
 
-För att förhandsgranska e-posten i din egen e-postklient skickar du ett snabbt test till dig själv. Skriv in din e-postadress i adressfältet och klicka på **Quick Send**.
+För att förhandsgranska e-posten i din egen e-postklient skickar du ett snabbt test till dig själv. Skriv in din e-postadress i fältet **Quick send** och klicka på **Send now**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-28-at-13.37.12.png" alt="Quick Send-fältet för att skicka ett testmejl till dig själv"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-quick-send-field.png" alt="Panelen Quick send med en e-postadress ifylld och knappen Send now"></div>
 
 **Alternativ B — Skicka e-posten till din kontaktlista**
-
-Det här steget har tre sidor.
 
 Om du inte har en kontaktlista än, se:
 
@@ -71,15 +69,19 @@ Om du inte har en kontaktlista än, se:
 
 Välj först **eMarketeer Contact Database**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.06.57.png" alt="Att välja eMarketeer Contact Database som mottagarkälla"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-recipient-source-database.png" alt="Steget Recipient Source med eMarketeer Contact Database markerat"></div>
 
 Välj sedan **Contact List**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.07.43.png" alt="Att välja Contact List som mottagartyp"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-recipient-source-contact-list.png" alt="Urvalstyper med Contact List markerat"></div>
 
-Välj till sist din kontaktlista i rullgardinsmenyn och klicka på **Add This List**. Exemplet nedan använder en lista som heter "Example List" med 15 kontakter.
+Välj till sist din kontaktlista i rullgardinsmenyn och klicka på **Add this List**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.08.20.png" alt="Rullgardinsmeny för kontaktlista med knappen Add This List"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-contact-list-dropdown-add.png" alt="Rullgardinsmeny för kontaktlista med en vald lista och knappen Add this List"></div>
+
+Listan visas nu som tillagd i utskicket. Vill du skicka till fler listor väljer du en till lista och klickar på **Add this List** igen. När du har lagt till alla listor du vill ha klickar du på **Next**.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-contact-list-add-more.png" alt="En lista markerad som redan tillagd i utskicket, med rullgardinsmenyn redo för en till lista"></div>
 {% endstep %}
 
 {% step %}
@@ -87,9 +89,9 @@ Välj till sist din kontaktlista i rullgardinsmenyn och klicka på **Add This Li
 
 Nästa sida, **2. Send Options**, visar den valda mottagarlistan och erbjuder alternativ för mer komplexa utskick. För ett enkelt utskick kan du hoppa över detaljerna här.
 
-Klicka på **Continue To Checklist** för att fortsätta.
+Klicka på **Next** för att fortsätta.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.09.42.png" alt="Send Options-sidan med knappen Continue To Checklist"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-send-options.png" alt="Steget Send Options med den valda listan, exkluderingar, samtyckesval och knappen Next"></div>
 {% endstep %}
 
 {% step %}
@@ -99,9 +101,9 @@ Checklistan visar om några kontakter från din lista kommer att exkluderas frå
 
 Om du vill se detaljerna, se [Förstå e-postchecklistan](../reports/checklist-explained.md).
 
-Klicka på **Launch Email** för att adressera och skicka e-posten till kontakterna i listan.
+Klicka på **Launch E-mail** för att adressera och skicka e-posten till kontakterna i listan.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-28-at-11.46.51.png" alt="Checklistsidan som visar exkluderade kontakter och knappen Launch Email"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-checklist-launch-email.png" alt="Steget Checklist med panelen Recipients och knappen Launch E-mail"></div>
 {% endstep %}
 
 {% step %}
@@ -109,7 +111,7 @@ Klicka på **Launch Email** för att adressera och skicka e-posten till kontakte
 
 Efter starten lämnas e-posten över till e-postservrarna, som vanligtvis hinner adressera och skicka inom några minuter.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.16.52.png" alt="Bekräftelseskärm för utskicket efter start"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-send-confirmation.png" alt="Bekräftelsen Email launched med knappen Back to Campaign"></div>
 {% endstep %}
 {% endstepper %}
 
