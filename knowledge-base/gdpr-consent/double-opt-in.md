@@ -25,7 +25,7 @@ The double opt-in consists of three components:
    * The confirmation email that thanks the contact and links to the confirmation landing page.
    * The confirmation landing page that confirms the sign-up is complete.
 2. Create the automations:
-   * Send Email — sends the confirmation email when the sign-up form is submitted.
-   * Add to contact list — triggers when any link in the confirmation email is clicked. You can swap this for Add to campaign, Update contact card, or another action that fits your setup.
+   * Send email — sends the confirmation email when the sign-up form is submitted.
+   * Add to list — triggers when any link in the confirmation email is clicked. You can swap this for Add to campaign, Update contact card, or another action that fits your setup.
 
 When the form is submitted, the confirmation email goes out. When the contact clicks the link, they land on the confirmation page and the automation adds them to your contact list.

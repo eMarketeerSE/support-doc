@@ -25,7 +25,7 @@ Double opt-in består av tre komponenter:
    * Bekräftelse-e-postmeddelandet som tackar kontakten och länkar till bekräftelsesidan.
    * Bekräftelsesidan som bekräftar att registreringen är klar.
 2. Skapa automationerna:
-   * Send Email — skickar bekräftelse-e-postmeddelandet när registreringsformuläret skickas in.
-   * Add to contact list — utlöses när någon länk i bekräftelse-e-postmeddelandet klickas. Du kan byta ut den mot Add to campaign, Update contact card eller en annan åtgärd som passar din inställning.
+   * Send email — skickar bekräftelse-e-postmeddelandet när registreringsformuläret skickas in.
+   * Add to list — utlöses när någon länk i bekräftelse-e-postmeddelandet klickas. Du kan byta ut den mot Add to campaign, Update contact card eller en annan åtgärd som passar din inställning.
 
 När formuläret skickas in går bekräftelse-e-postmeddelandet ut. När kontakten klickar på länken landar de på bekräftelsesidan och automationen lägger till dem i din kontaktlista.
