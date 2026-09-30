@@ -21,7 +21,7 @@ Använd den för att förstå vilka källor som driver trafik av hög kvalitet, 
 
 Trafikanalysator ritar din marknadsföring som ett flöde som läses från vänster till höger. Varje steg matar nästa, och bredden på varje väg speglar hur mycket volym som rör sig genom den.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/traffic-analyzer/traffic_analyzer_overview.png" alt="Trafikanalysator-flödet som läses från vänster till höger, från trafikkälla till kvalificerad lead."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/traffic_analyzer_overview.png" alt="Trafikanalysator-flödet som läses från vänster till höger, från trafikkälla till kvalificerad lead."></div>
 
 Stegen är:
 
@@ -47,7 +47,7 @@ En uppsättning kontroller låter dig forma vyn:
 
 Klicka på valfri nod i flödet för att öppna två alternativ: **Drill-Down** och **Filter**.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/traffic-analyzer/NodeOptions.png" alt="Alternativen Drill-Down och Filter som visas när en nod klickas."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/NodeOptions.png" alt="Alternativen Drill-Down och Filter som visas när en nod klickas."></div>
 
 ### Drill-Down i en nod
 

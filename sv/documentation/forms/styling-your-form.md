@@ -18,7 +18,7 @@ Du kan inte lägga till egen CSS via Themes-fliken, så du är begränsad till d
 
 Ett tema är en samling visuella inställningar som gäller för hela ditt formulär — färger, typsnitt, mellanrum och form. Themes-fliken ger dig ett kodfritt gränssnitt för att justera de inställningarna, utgå från en förinställning och spara resultatet.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/themes-tab.png" alt="Themes-fliken öppen i formuläreditorn, med temainställningarna synliga."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/themes-tab.png" alt="Themes-fliken öppen i formuläreditorn, med temainställningarna synliga."></div>
 
 {% hint style="info" %}
 Du kan exportera ett anpassat tema som en JSON-fil och importera det till ett annat formulär för att återanvända samma stil, så att utseendet hålls konsekvent över alla formulär du bygger.
@@ -32,7 +32,7 @@ Det snabbaste sättet att ge formuläret ny stil är att välja ett annat tema.
 
 Öppna listan **Theme** under kategorin **General** och välj en av förinställningarna. Varje förinställning finns i flera varianter, inklusive kompakta och mörka versioner, så du har en bred uppsättning utgångspunkter.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/theme-dropdown.png" alt="Listan Theme under kategorin General med de tillgängliga temaförinställningarna."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/theme-dropdown.png" alt="Listan Theme under kategorin General med de tillgängliga temaförinställningarna."></div>
 
 Att applicera ett tema är en utgångspunkt, inte ett slutgiltigt val — du kan justera varje enskild inställning efteråt.
 
@@ -42,7 +42,7 @@ Mörkt läge passar för visning i svagt ljus och fungerar bra ihop med mörkare
 
 Ställ in reglaget **Light / Dark** på **Dark** för att växla formuläret till ett mörkt färgschema.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/dark-theme.png" alt="Reglaget Light och Dark inställt på Dark."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dark-theme.png" alt="Reglaget Light och Dark inställt på Dark."></div>
 
 ## Visa frågor utan rutor
 
@@ -50,9 +50,9 @@ Som standard ligger varje fråga i sin egen ruta. Du kan ta bort rutorna för et
 
 Under kategorin **General**, ställ in **Question appearance** på **Without Panels**. Rutorna runt enskilda frågor försvinner.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/panels-with.png" alt="Formulärfrågor som var och en visas i sin egen ruta."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/panels-with.png" alt="Formulärfrågor som var och en visas i sin egen ruta."></div>
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/panels-without.png" alt="Samma formulärfrågor visade utan enskilda rutor."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/panels-without.png" alt="Samma formulärfrågor visade utan enskilda rutor."></div>
 
 Paneler (grupper av frågor) behåller sina egna kanter, så grupperade frågor hålls visuellt samman även när enskilda rutor är avstängda.
 
@@ -70,11 +70,11 @@ Så lägger du till din logotyp i sidhuvudet:
 4. Ange eventuellt **Logo width** och **Logo height** (i CSS-enheter) för att ändra storlek.
 5. Välj ett alternativ för **Logo fit**: None, [Contain](#contain), [Cover](#cover) eller [Fill](#fill).
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/add-logo1.png" alt="Fältet för logotypuppladdning och storleksalternativen i kategorin Survey Header."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/add-logo1.png" alt="Fältet för logotypuppladdning och storleksalternativen i kategorin Survey Header."></div>
 
 För att placera logotypen, växla till **Themes**-fliken, öppna kategorin **Header** och ställ in egenskapen **Logo alignment**.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/add-logo2.png" alt="Egenskapen Logo alignment i kategorin Header."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/add-logo2.png" alt="Egenskapen Logo alignment i kategorin Header."></div>
 
 ### Titel och beskrivning
 
@@ -84,7 +84,7 @@ Titeln och beskrivningen ligger bredvid logotypen i sidhuvudet. Följande instä
 
 Använd egenskapen **Text width** för att ange hur stor del av sidhuvudet som titeln och beskrivningen upptar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/title-description.png" alt="Egenskapen Text width som styr textområdet i sidhuvudet."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/title-description.png" alt="Egenskapen Text width som styr textområdet i sidhuvudet."></div>
 
 #### Anpassa typsnitt
 
@@ -96,13 +96,13 @@ Hitta sektionerna **Survey title font** och **Survey description font**. För va
 * **Opacity** — ange procentvärdet bredvid färgen.
 * **Font size** — ange storleken i pixlar.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/customize-fonts.png" alt="Kontroller för typsnitt, vikt, färg, opacitet och storlek för titel och beskrivning."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/customize-fonts.png" alt="Kontroller för typsnitt, vikt, färg, opacitet och storlek för titel och beskrivning."></div>
 
 #### Justera textjustering
 
 Använd egenskaperna **Survey title alignment** och **Survey description alignment** för att ange den horisontella och vertikala positionen för var och en.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/align-text.png" alt="Justeringskontrollerna för formulärets titel och beskrivning."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/align-text.png" alt="Justeringskontrollerna för formulärets titel och beskrivning."></div>
 
 ### Anpassa sidhuvudsområdet
 
@@ -113,17 +113,17 @@ Växla reglaget **View** till **Advanced** för att visa hela uppsättningen ins
 * **Background color** — välj None, [Accent](#accent) eller Custom (med en färgväljare).
 * **Background image** — klistra in en länk eller ladda upp en fil, och ange sedan visningsstil (Cover, [Stretch](#stretch), Contain eller [Tile](#tile)), opacitet och om sidhuvudets innehåll ska överlappa bilden.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/customize-header-area1.png" alt="Egenskaperna Height och Height on smartphones för sidhuvudet."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/customize-header-area1.png" alt="Egenskaperna Height och Height on smartphones för sidhuvudet."></div>
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/customize-header-area2.png" alt="Alternativen för sidhuvudets Background color: None, Accent och Custom."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/customize-header-area2.png" alt="Alternativen för sidhuvudets Background color: None, Accent och Custom."></div>
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/customize-header-area3.png" alt="Inställningarna för sidhuvudets Background image med kontroller för visning, opacitet och överlappning."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/customize-header-area3.png" alt="Inställningarna för sidhuvudets Background image med kontroller för visning, opacitet och överlappning."></div>
 
 ### Justera sidhuvudets innehållsområde
 
 Med reglaget **View** inställt på **Advanced**, använd egenskapen **Content area width** för att välja om sidhuvudets innehåll ska matcha formulärets bredd eller behållarens bredd.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/customize-header-area4.png" alt="Egenskapen Content area width i de avancerade sidhuvudsinställningarna."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/customize-header-area4.png" alt="Egenskapen Content area width i de avancerade sidhuvudsinställningarna."></div>
 
 ## Bakgrundsalternativ
 
@@ -137,7 +137,7 @@ Under kategorin **Background**:
 * **Image position** — växla mellan Fixed och Scroll.
 * **Opacity** — ange hur genomskinlig bakgrunden ska visas.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/styling-your-form/background-options.png" alt="Bakgrundsinställningarna för formuläret: färg, bild, visningsstil, position och opacitet."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/background-options.png" alt="Bakgrundsinställningarna för formuläret: färg, bild, visningsstil, position och opacitet."></div>
 
 ## Nästa steg
 
