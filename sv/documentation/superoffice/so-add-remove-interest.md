@@ -8,7 +8,7 @@ description: >-
 
 Lägger till eller tar bort en intressekod från en kontakt i SuperOffice. Intressen finns på fliken Intressen på kontaktkortet i SuperOffice.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/so-journey-steps/AddRemoveInterest.png" alt="Inställningspanelen för steget Lägg till / Ta bort intresse"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-add-remove-interest-interest-step-settings.png" alt="Dialogen SuperOffice Interest med alternativen Add interest och Remove interest och rullgardinsmenyn Choose interest in SuperOffice"></div>
 
 ## Inställningar
 
