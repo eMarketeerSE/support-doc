@@ -1,17 +1,15 @@
 ---
-description: eMarketeer lagrar och behandlar din data inom EU, med ett undantag.
+description: eMarketeer lagrar och behandlar din data inom EU, med ett valfritt undantag.
 ---
 
 # Var lagras eMarketeer-data geografiskt?
 
-Den fullständiga listan över underleverantörer finns i det DPA som kunder skriver under. Den här artikeln ger en kort sammanfattning.
+eMarketeer lagrar och behandlar din data inom EU. Det enda undantaget är en valfri funktion som använder en leverantör i USA, och du kan inaktivera den.
 
-## EU som standard
+Den fullständiga listan över underleverantörer finns i det personuppgiftsbiträdesavtal (DPA) som kunder skriver under. Den här artikeln ger en kort sammanfattning.
 
-Med ett undantag lagras och behandlas all eMarketeer-data inom EU.
+## Undantaget Google reCAPTCHA
 
-## Undantaget FullContact
+Äldre formulär kan använda Google reCAPTCHA för att upptäcka automatiska inskick. Det innebär att Googles servrar i USA används.
 
-FullContact-funktionen, om den används, gör förfrågningar till en server i USA med hjälp av e-postadresser. FullContact.com har alltid drivits i enlighet med EU-US Privacy Shield, och integrationen är uppdaterad med de aktuella SCC:erna från EU-kommissionen.
-
-Admin-användare kan aktivera eller inaktivera FullContact under Account > Plugins and Integrations i eMarketeer. Den här tjänsten är för närvarande inaktiverad som standard för nya konton.
+De nya formulären använder inte reCAPTCHA. Du kan inaktivera det under integrationsinställningarna.

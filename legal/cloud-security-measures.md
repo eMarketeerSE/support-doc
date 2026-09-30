@@ -8,7 +8,7 @@ This document outlines the current security measures in place to safeguard all d
 
 ### Data Storage
 
-All data in eMarketeer is managed under an ISO 27001 and ISO 27018 certified Information Security Management System (ISMS). Security incidents are handled according to well-defined procedures. External consultants regularly evaluate and test our security controls. We partner with AWS Europe for data storage and processing. For further details, visit [AWS Compliance](https://aws.amazon.com/compliance/programs/).
+All customer data is stored and processed in Amazon Web Services (AWS) infrastructure in the EU, which is certified to ISO 27001 and ISO 27018. Security incidents are handled according to well-defined procedures. An independent external security company regularly evaluates and tests our security controls. For further details, visit [AWS Compliance](https://aws.amazon.com/compliance/programs/).
 
 ### Personnel Security
 
@@ -24,7 +24,7 @@ All networks are secured with redundant firewalls. Inter-site communications are
 
 ### Operational Procedures and Responsibilities
 
-Users are notified at least 24 hours in advance about planned outages. System status updates are posted on the login screen and [status page](http://status.emarketeer.com/). System performance is continuously monitored, and updates are managed to minimize impact. Critical patches are applied immediately.
+Users are notified at least 24 hours in advance about planned outages. System status updates are posted on the login screen and [status page](https://status.emarketeer.com/). System performance is continuously monitored, and updates are managed to minimize impact. Critical patches are applied immediately.
 
 ### Malware Protection
 
@@ -32,7 +32,7 @@ Antivirus tools are installed on all servers and internal machines. The system i
 
 ### Encryption
 
-All communications use SSL for secure data transfer. We rely on modern cryptographic protocols including SSL v3/TLS and IPSEC/AES256/SHA1-HMAC to secure all communications and data storage.
+All communications use SSL for secure data transfer. We rely on modern cryptographic protocols including TLS 1.2 or higher in transit and AES-256 at rest to secure all communications and data storage.
 
 ### Access Control
 
@@ -64,7 +64,7 @@ All access is logged and backed up daily. Only authorized personnel can manage l
 
 ### Secure Development
 
-Security is embedded in every development phase. Code is tested manually and automatically. Development follows agile methodologies with mandatory code and security reviews. Penetration tests are regularly performed by Watchcom AS, our independent security advisor.
+Security is embedded in every development phase. Code is tested manually and automatically. Development follows agile methodologies with mandatory code and security reviews. Penetration tests are performed regularly by eBuilder Security, an independent security company.
 
 ### Contact
 

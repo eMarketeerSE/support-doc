@@ -3,3 +3,7 @@ root: ./
 structure:
   readme: legal.md
   summary: SUMMARY.md
+
+redirects:
+  covernance-risk-and-compliance: governance-risk-and-compliance.md
+  infromation-secirity-policy: information-security-policy.md

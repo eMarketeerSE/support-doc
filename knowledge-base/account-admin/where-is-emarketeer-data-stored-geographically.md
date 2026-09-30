@@ -1,17 +1,15 @@
 ---
-description: eMarketeer stores and processes your data in the EU, with one exception.
+description: eMarketeer stores and processes your data in the EU, with one optional exception.
 ---
 
 # Where is eMarketeer data stored geographically?
 
-The full list of subcontractors is available in the DPA that customers sign. This article gives a short summary.
+eMarketeer stores and processes your data in the EU. The only exception is one optional feature that involves a US-based provider, and you can disable it.
 
-## The EU default
+The full list of sub-processors is in the Data Processing Agreement that customers sign. This article gives a short summary.
 
-With one exception, all eMarketeer data is stored and processed in the EU.
+## The Google reCAPTCHA exception
 
-## The FullContact exception
+Legacy forms can use Google reCAPTCHA to detect automated submissions. This involves Google servers in the US.
 
-The FullContact feature, if used, queries a server in the US using email addresses. FullContact.com has always operated in compliance with the EU-US Privacy Shield, and the integration is up to date with the current SCCs from the European Commission.
-
-Admin users can enable or disable FullContact under Account > Plugins and Integrations in eMarketeer. This service is currently disabled by default for new accounts.
+The new forms do not use reCAPTCHA. You can disable it under integration settings.
