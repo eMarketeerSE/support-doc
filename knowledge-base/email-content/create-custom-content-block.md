@@ -20,7 +20,7 @@ Users with Developer permissions can change the HTML of a content block to alter
 
 ## How to save a custom content block
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-30-58.png" alt="Step 1 of saving a block"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/create-custom-content-block-dev-mode-block-settings.png" alt="Block settings panel with Disable Developer Mode, the Settings tab, the Label field and the Save as block button marked 1 to 4"></div>
 
 Saving a block
 
@@ -28,35 +28,22 @@ Saving a block
 {% step %}
 ### Enable Developer Mode
 
-With Developer permissions you will see the \[Enable Developer Mode] button in the Tools menu.
+With Developer permissions you will see the \[Enable Developer Mode] link in the Tools menu.
 {% endstep %}
 {% step %}
-### Open the block to save
+### Open the block's Settings tab
 
-Double-click the custom block to open its configuration menu.
-{% endstep %}
-{% step %}
-### Go to Block Settings
-
-Open the Settings tab in the block's configuration menu.
+Hover over the custom block and click its edit icon to open the block's configuration panel. Then open the **Settings** tab.
 {% endstep %}
 {% step %}
 ### Give the block a label
 
-The Label is the name shown in the Component Content section when the block is in use. Example: _1 Column: Text (1/1)_.
+The Name identifies the custom block in the system and is visible in Developer Mode. The Label is the name every user sees when working with the block, shown in the Component Content section when the block is in use. Example: _1 Column: Text (1/1)_.
 {% endstep %}
 {% step %}
-### Click Save as Block
+### Click Save as block
 
-\[Save as Block] opens the dialog where you can save the custom block to the component.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-35-19.png" alt="Step 2 of saving a block"></div>
-
-Save as block window
-
-1. **Set a container name** — The container name identifies the custom block in the system and is visible in Developer Mode.
-2. **Set a unique label for the block** — This label is the name every user sees when working with the custom block.
-3. **Create the custom block** — Clicking \[Create] saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in.
+Click \[Save as block] at the bottom of the same panel. This saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in. There is no separate dialog to fill in.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-37-10.png" alt="The new block in the Add Content list"></div>
 
@@ -68,9 +55,9 @@ The block as shown in the Add Content list
 
 ## Custom blocks in templates
 
-To make the block available in new components built from a template, either edit an existing template to add the block, or create a new template from a component that already contains it, as shown below.
+To make the block available in new components built from a template, either edit an existing template to add the block, or create a new template from a component that already contains it, as shown below. To create the template, open the three-dot menu on the component card and click **Create Template**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-38-45.png" alt="Creating a template from a component"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/create-custom-content-block-component-card-menu.png" alt="Component card menu with Create Template highlighted"></div>
 
 Creating a template from a component with a custom block
 

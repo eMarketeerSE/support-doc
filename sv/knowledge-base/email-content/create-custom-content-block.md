@@ -20,7 +20,7 @@ Användare med Developer-behörighet kan ändra HTML-koden för ett innehållsbl
 
 ## Så här sparar du ett anpassat innehållsblock
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-30-58.png" alt="Steg 1 av att spara ett block"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/create-custom-content-block-dev-mode-block-settings.png" alt="Panelen för blockinställningar där Disable Developer Mode, fliken Settings, fältet Label och knappen Save as block är markerade 1 till 4"></div>
 
 Spara ett block
 
@@ -28,41 +28,27 @@ Spara ett block
 {% step %}
 ### Aktivera Developer Mode
 
-Med Developer-behörighet ser du knappen \[Enable Developer Mode] i menyn Tools.
+Med Developer-behörighet ser du länken \[Enable Developer Mode] i menyn Tools.
 {% endstep %}
 
 {% step %}
-### Öppna blocket du vill spara
+### Öppna blockets flik Settings
 
-Dubbelklicka på det anpassade blocket för att öppna dess konfigurationsmeny.
-{% endstep %}
-
-{% step %}
-### Gå till Block Settings
-
-Öppna fliken Settings i blockets konfigurationsmeny.
+Håll muspekaren över det anpassade blocket och klicka på redigeringsikonen för att öppna blockets konfigurationspanel. Öppna sedan fliken **Settings**.
 {% endstep %}
 
 {% step %}
 ### Ge blocket en etikett
 
-Label är namnet som visas i sektionen Component Content när blocket används. Exempel: _1 Column: Text (1/1)_.
+Name identifierar det anpassade blocket i systemet och syns i Developer Mode. Label är namnet som varje användare ser när de arbetar med blocket, och det visas i sektionen Component Content när blocket används. Exempel: _1 Column: Text (1/1)_.
 {% endstep %}
 
 {% step %}
-### Klicka på Save as Block
+### Klicka på Save as block
 
-\[Save as Block] öppnar dialogen där du kan spara det anpassade blocket till komponenten.
+Klicka på \[Save as block] längst ned i samma panel. Det sparar det anpassade blocket och lägger till det i menyn "Add Content Block" så att alla användare kan släppa in det. Det finns ingen separat dialog att fylla i.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-35-19.png" alt="Steg 2 av att spara ett block"></div>
-
-Fönstret Save as block
-
-1. **Sätt ett containernamn** — Containernamnet identifierar det anpassade blocket i systemet och syns i Developer Mode.
-2. **Sätt en unik etikett för blocket** — Den här etiketten är namnet som varje användare ser när de arbetar med det anpassade blocket.
-3. **Skapa det anpassade blocket** — Klick på \[Create] sparar det anpassade blocket och lägger till det i menyn "Add Content Block" så att alla användare kan släppa in det.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-37-10.png" alt="Det nya blocket i listan Add Content"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-37-10.png" alt="Det nya blocket i listan Add Content"></div>
 
 Blocket som det visas i listan Add Content
 {% endstep %}
@@ -72,9 +58,9 @@ Blocket som det visas i listan Add Content
 
 ## Anpassade block i mallar
 
-För att göra blocket tillgängligt i nya komponenter byggda från en mall kan du antingen redigera en befintlig mall för att lägga till blocket, eller skapa en ny mall från en komponent som redan innehåller det, som visas nedan.
+För att göra blocket tillgängligt i nya komponenter byggda från en mall kan du antingen redigera en befintlig mall för att lägga till blocket, eller skapa en ny mall från en komponent som redan innehåller det, som visas nedan. För att skapa mallen öppnar du menyn med tre punkter på komponentkortet och klickar på **Create Template**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/pn_21-07-08_10-38-45.png" alt="Skapa en mall från en komponent"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/create-custom-content-block-component-card-menu.png" alt="Komponentkortets meny med Create Template markerat"></div>
 
 Skapa en mall från en komponent med ett anpassat block
 
