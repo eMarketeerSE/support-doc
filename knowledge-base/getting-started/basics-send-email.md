@@ -40,7 +40,7 @@ Before you start, you need a finished email component. See [Creating your first 
 
 Go to the campaign that contains the email and click **Send**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/se1-2.png" alt="Send button on the campaign page"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/basics-send-email-campaign-components-send.png" alt="Campaign components with the Send icon highlighted on an email card"></div>
 {% endstep %}
 
 {% step %}
@@ -48,7 +48,7 @@ Go to the campaign that contains the email and click **Send**.
 
 This guide covers sending immediately. You also have the option to schedule the email for a later time.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.05.07.png" alt="Send Now option in the send-out dialog"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/basics-send-email-send-start-options.png" alt="Send E-mail page with the Send Now!, Scheduled Send and Automate Send options"></div>
 {% endstep %}
 
 {% step %}

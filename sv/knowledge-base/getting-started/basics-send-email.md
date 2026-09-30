@@ -40,7 +40,7 @@ Innan du börjar behöver du en färdig e-postkomponent. Se [Skapa din första e
 
 Gå till kampanjen som innehåller e-posten och klicka på **Send**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/se1-2.png" alt="Knappen Send på kampanjsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-campaign-components-send.png" alt="Kampanjens komponenter med ikonen Send markerad på ett e-postkort"></div>
 {% endstep %}
 
 {% step %}
@@ -48,7 +48,7 @@ Gå till kampanjen som innehåller e-posten och klicka på **Send**.
 
 Den här guiden går igenom hur du skickar direkt. Du har också möjlighet att schemalägga e-posten till en senare tidpunkt.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CleanShot-2022-04-27-at-13.05.07.png" alt="Alternativet Send Now i utskicksdialogen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-send-email-send-start-options.png" alt="Sidan Send E-mail med alternativen Send Now!, Scheduled Send och Automate Send"></div>
 {% endstep %}
 
 {% step %}
