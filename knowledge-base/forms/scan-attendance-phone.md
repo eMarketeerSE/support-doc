@@ -36,14 +36,14 @@ Attendance is registered by submitting an email address through an eMarketeer fo
 
 The example below uses these event components.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png" alt="Event component overview"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/scan-attendance-phone-event-campaign-components.png" alt="Event campaign showing the invitation email, app delivery, mobile app and scan form components"></div>
 
 * **Invitation email.** Send your invitation to the audience you want at your event.
 * **Registration form.** Where your audience registers for the event. Ask for mobile phone number.
 * **App delivery and mobile app.** Create an app for your event to keep all event information in attendees' pockets. Enable the QR code. The "App Delivery" is an SMS with a link to the app; send it to everyone who registered.
-* **Scan form.** The form used to register attendees. It is built to accept an email address and return to the register page after submit. Create it by adding a "New Form" and choosing the "Event Barcode Scan" template.
+* **Scan form.** The form used to register attendees. It is built to accept an email address and return to the register page after submit. Create it with **Add Component** > **Form (Legacy)** and choose the "Event Barcode Scan" template under **Sign-up Forms**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2022-12-16_13-27-56-1024x636.png" alt="Form list with the Event Barcode Scan template"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/scan-attendance-phone-legacy-form-event-barcode-scan.png" alt="Add Form (Legacy) dialog with the Sign-up Forms templates and an arrow pointing to Event Barcode Scan"></div>
 
 ### Register attendance
 

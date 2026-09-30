@@ -36,14 +36,14 @@ Närvaron registreras genom att skicka in en e-postadress via ett eMarketeer-for
 
 Exemplet nedan använder dessa eventkomponenter.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-12-16-kl.-13.38.08.png" alt="Översikt över eventkomponenter"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/scan-attendance-phone-event-campaign-components.png" alt="Eventkampanj med komponenterna inbjudan, app-utskick, mobilapp och scanformulär"></div>
 
 * **Invitation email.** Skicka din inbjudan till den publik du vill ha på ditt event.
 * **Registration form.** Där publiken anmäler sig till eventet. Be om mobilnummer.
 * **App delivery and mobile app.** Skapa en app för ditt event för att hålla all eventinformation i deltagarnas fickor. Aktivera QR-koden. "App Delivery" är ett SMS med en länk till appen; skicka det till alla som anmält sig.
-* **Scan form.** Formuläret som används för att registrera deltagare. Det är byggt för att ta emot en e-postadress och återgå till registreringssidan efter inskickning. Skapa det genom att lägga till ett "New Form" och välja mallen "Event Barcode Scan".
+* **Scan form.** Formuläret som används för att registrera deltagare. Det är byggt för att ta emot en e-postadress och återgå till registreringssidan efter inskickning. Skapa det med **Add Component** > **Form (Legacy)** och välj mallen "Event Barcode Scan" under **Sign-up Forms**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2022-12-16_13-27-56-1024x636.png" alt="Formulärlista med mallen Event Barcode Scan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/scan-attendance-phone-legacy-form-event-barcode-scan.png" alt="Dialogen Add Form (Legacy) med mallar under Sign-up Forms och en pil som pekar på Event Barcode Scan"></div>
 
 ### Registrera närvaro
 
