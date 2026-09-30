@@ -38,15 +38,15 @@ The example builds an event invitation email, but the process is the same for an
 {% step %}
 ### Add the email from the campaign page
 
-From the campaign page, click **Add Email**.
+From the campaign page, click **Add Component**, then **Email**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce1.png" alt="Add Email button on the campaign page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-add-component-email.png" alt="Add Component menu open on the campaign page with Email boxed"></div>
 {% endstep %}
 
 {% step %}
 ### Fill in settings, choose a template, create the email
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce2.png" alt="Email settings and template selection dialog"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-add-email-dialog.png" alt="Add Email dialog with email settings and the Events template tab, Hero Event selected"></div>
 
 **Settings**
 
@@ -65,17 +65,17 @@ Pick a template from one of the tabs as a starting point for the design. This gu
 
 **Create email component**
 
-Once settings and template are set, click **Create Email** to create the component.
+Once settings and template are set, click **Create** to create the component.
 {% endstep %}
 
 {% step %}
 ### The email editor
 
-After you click **Create Email**, the editor opens with the new email. The left-side menu lets you add content blocks, access tools, and update the settings from the previous step. The rest of the page shows the email content, imported from the template you chose.
+After you click **Create**, the editor opens with the new email. The left-side menu lets you add content blocks, access tools, and update the settings from the previous step. The rest of the page shows the email content, imported from the template you chose.
 
 The content is made up of content blocks, which you edit individually in the following steps.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce3.png" alt="Email editor with content blocks and left-side menu"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-email-editor-overview.png" alt="Email editor with content blocks and left-side menu"></div>
 {% endstep %}
 
 {% step %}
@@ -83,7 +83,7 @@ The content is made up of content blocks, which you edit individually in the fol
 
 Each content block is made up of several parts you can update. Click the block's edit button to open its settings.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-edit-block-1.png" alt="Edit button on a content block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-edit-panel.png" alt="Edit button on a content block and the settings panel with Content and Styles tabs"></div>
 
 A settings menu opens on the right with two tabs: **Content** and **Styles**. Content is where you change the block's settings and content. Styles is where you change colors and fonts.
 
@@ -99,7 +99,7 @@ In the image below, we are not using the text paragraph and two of the link butt
 
 Click **Save** after each change to save your work.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce5.png" alt="Editing a block&#x27;s headline text in the content menu"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-headline-section.png" alt="Big Headline section expanded in the content menu with arrows to the headline text and Save boxed"></div>
 {% endstep %}
 
 {% step %}
@@ -107,19 +107,19 @@ Click **Save** after each change to save your work.
 
 To upload your own image, open the content block for editing, go to the Image section in the right-side menu, and click **Choose Image**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1.png" alt="Choose Image button in the image section"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-background-image-choose.png" alt="Background Image section with the Choose Image button boxed"></div>
 
 The Choose Image button
 
 To upload and use an image:
 
-1. Click **Upload File**.
+1. Click **Upload Files**.
 2. Click **Choose files** and select the image on your computer.
 3. Upload the file to your eMarketeer account.
 4. Click the file in the browser window to select it.
 5. Click **Use Selected** to add it to the content block.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2.png" alt="Upload File, Choose files, and Use Selected steps"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-choose-image-dialog.png" alt="Choose Image dialog with numbered markers on Upload Files, an image tile and Use Selected"></div>
 
 If the image does not match the recommended dimensions for the block, an option to auto-scale it appears. Click the link in the notice to accept.
 
@@ -136,7 +136,7 @@ Use buttons to link to a webpage, file, or another eMarketeer component. For a w
 3. Pick the campaign that contains your form in the first dropdown, then the form in the second dropdown.
 4. Click **Select**, then **Apply**, then **Save** to add the link and save the block.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce6.png" alt="Setting a button link via Browse to an eMarketeer form"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-link-browse.png" alt="Link 1 section expanded with Browse and Save boxed"></div>
 {% endstep %}
 
 {% step %}
@@ -146,7 +146,7 @@ To add a new content block, click **Add Content Block** in the left-side menu. I
 
 If the button is grey, first click an existing block to tell the editor where the new one should go.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12.png" alt="Add Content Block menu with block type options"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-add-content-panel.png" alt="Add Content Block button and the first Add Block button in the Add Content panel boxed"></div>
 {% endstep %}
 
 {% step %}
@@ -154,7 +154,7 @@ If the button is grey, first click an existing block to tell the editor where th
 
 To move a block, click and hold the reposition icon on the left side of the block's context bar, then drag it to the new position.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-move.png" alt="Reposition icon used to drag a content block"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-reposition-handle.png" alt="Reposition icon on a content block with the label Hold and drag block to reposition"></div>
 {% endstep %}
 
 {% step %}
@@ -162,7 +162,7 @@ To move a block, click and hold the reposition icon on the left side of the bloc
 
 To remove a block from the template, click the delete button on its context bar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Delete button on a content block&#x27;s context bar"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-delete-button.png" alt="Delete icon on a content block&#x27;s context bar boxed with an arrow"></div>
 {% endstep %}
 
 {% step %}
@@ -174,7 +174,7 @@ You configure the calendar event in the block's content menu — date, time, tit
 
 Keep the **Description** field to plain text and limit it to two or three short paragraphs.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce7.png" alt="Add to Calendar block settings with date, time, and location"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-calendar-link-block.png" alt="Add to Calendar block selected with date, time and location settings and the Save panel"></div>
 {% endstep %}
 
 {% step %}
@@ -186,7 +186,7 @@ The preheader is the short summary that recipient email clients show next to the
 
 Once your preheader is saved, click **Done Editing** to exit the editor.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce8.png" alt="Preheader field in Email Settings block with Done Editing button"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-email-settings-preheader.png" alt="Email Settings block with the Preheader field, Save and Done Editing marked with numbered steps"></div>
 {% endstep %}
 {% endstepper %}
 

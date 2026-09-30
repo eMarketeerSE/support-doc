@@ -14,19 +14,19 @@ Exemplet bygger ett inbjudningsmejl till ett event, men processen är densamma f
 {% step %}
 ### Lägg till e-posten från kampanjsidan
 
-Klicka på **Add Email** på kampanjsidan.
+Klicka på **Add Component** på kampanjsidan och sedan på **Email**.
 
 * Om du behöver skapa kampanjen först, se [Så här skapar du en ny kampanj](create-new-campaign.md).
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce1.png" alt="Knappen Add Email på kampanjsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-add-component-email.png" alt="Menyn Add Component öppen på kampanjsidan med Email markerad"></div>
 
-Knappen Add Email
+Menyn Add Component
 {% endstep %}
 
 {% step %}
 ### Fyll i inställningar, välj en mall och skapa e-posten
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce2.png" alt="Dialog för e-postinställningar och val av mall"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-add-email-dialog.png" alt="Dialogen Add Email med e-postinställningar och mallfliken Events, Hero Event vald"></div>
 
 E-postinställningar
 
@@ -47,17 +47,17 @@ Välj en mall från någon av flikarna som utgångspunkt för designen. Den här
 
 **Skapa e-postkomponent**
 
-När inställningar och mall är klara klickar du på **Create Email** för att skapa komponenten.
+När inställningar och mall är klara klickar du på **Create** för att skapa komponenten.
 {% endstep %}
 
 {% step %}
 ### E-postredigeraren
 
-När du klickat på **Create Email** öppnas redigeraren med den nya e-posten. Menyn till vänster låter dig lägga till innehållsblock, nå verktyg och uppdatera inställningarna från steg 2. Resten av sidan visar e-postens innehåll, importerat från mallen du valde.
+När du klickat på **Create** öppnas redigeraren med den nya e-posten. Menyn till vänster låter dig lägga till innehållsblock, nå verktyg och uppdatera inställningarna från steg 2. Resten av sidan visar e-postens innehåll, importerat från mallen du valde.
 
 Innehållet består av innehållsblock som du redigerar var för sig i följande steg.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce3.png" alt="E-postredigeraren med innehållsblock och vänstermeny"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-email-editor-overview.png" alt="E-postredigeraren med innehållsblock och vänstermeny"></div>
 
 Vy över e-postredigeraren
 {% endstep %}
@@ -67,7 +67,7 @@ Vy över e-postredigeraren
 
 Varje innehållsblock består av flera delar som du kan uppdatera. Klicka på blockets redigeringsknapp för att öppna dess inställningar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-edit-block-1.png" alt="Redigeringsknappen på ett innehållsblock"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-edit-panel.png" alt="Redigeringsknappen på ett innehållsblock och inställningspanelen med flikarna Content och Styles"></div>
 
 Redigera ett innehållsblock
 
@@ -85,7 +85,7 @@ I bilden nedan använder vi varken textstycket eller två av länkknapparna, så
 
 Klicka på **Save** efter varje ändring för att spara ditt arbete.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce5.png" alt="Redigering av ett blocks rubriktext i innehållsmenyn"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-headline-section.png" alt="Sektionen Big Headline utfälld i innehållsmenyn med pilar till rubriktexten och Save markerad"></div>
 
 Uppdatera textinnehåll i ett block
 {% endstep %}
@@ -95,19 +95,19 @@ Uppdatera textinnehåll i ett block
 
 För att ladda upp en egen bild öppnar du innehållsblocket för redigering, går till Image-sektionen i högermenyn och klickar på **Choose Image**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1.png" alt="Knappen Choose Image i bildsektionen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-background-image-choose.png" alt="Sektionen Background Image med knappen Choose Image markerad"></div>
 
 Knappen Choose Image
 
 Så här laddar du upp och använder en bild:
 
-1. Klicka på **Upload File**.
+1. Klicka på **Upload Files**.
 2. Klicka på **Choose files** och välj bilden på din dator.
 3. Ladda upp filen till ditt eMarketeer-konto.
 4. Klicka på filen i webbläsarfönstret för att välja den.
 5. Klicka på **Use Selected** för att lägga till den i innehållsblocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2.png" alt="Stegen Upload File, Choose files och Use Selected"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-choose-image-dialog.png" alt="Dialogen Choose Image med numrerade markeringar vid Upload Files, en bildruta och Use Selected"></div>
 
 Steg för att ladda upp och använda en ny bildfil
 
@@ -128,7 +128,7 @@ Använd knappar för att länka till en webbsida, en fil eller en annan eMarkete
 3. Välj kampanjen som innehåller ditt formulär i första rullgardinsmenyn, och därefter formuläret i andra rullgardinsmenyn.
 4. Klicka på **Select**, sedan **Apply** och slutligen **Save** för att lägga till länken och spara blocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce6.png" alt="Att ställa in en knapplänk via Browse till ett eMarketeer-formulär"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-link-browse.png" alt="Sektionen Link 1 utfälld med Browse och Save markerade"></div>
 
 Uppdatera knapplänk i ett innehållsblock
 {% endstep %}
@@ -140,7 +140,7 @@ För att lägga till ett nytt innehållsblock klickar du på **Add Content Block
 
 Om knappen är grå klickar du först på ett befintligt block för att tala om för redigeraren var det nya ska placeras.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12.png" alt="Add Content Block-menyn med alternativ för blocktyper"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-add-content-panel.png" alt="Knappen Add Content Block och den första knappen Add Block i panelen Add Content markerade"></div>
 
 Lägg till ett innehållsblock och välj sedan det specifika blocket du vill ha
 {% endstep %}
@@ -150,7 +150,7 @@ Lägg till ett innehållsblock och välj sedan det specifika blocket du vill ha
 
 För att flytta ett block klickar du och håller in flyttikonen till vänster på blockets kontextlist och drar det till den nya positionen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-move.png" alt="Flyttikon som används för att dra ett innehållsblock"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-reposition-handle.png" alt="Flyttikonen på ett innehållsblock med texten Hold and drag block to reposition"></div>
 
 Flytta ett block genom att dra det på plats
 {% endstep %}
@@ -160,7 +160,7 @@ Flytta ett block genom att dra det på plats
 
 För att ta bort ett block från mallen klickar du på borttagningsknappen på blockets kontextlist.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Borttagningsknapp på ett innehållsblocks kontextlist"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-block-delete-button.png" alt="Borttagningsikonen på ett innehållsblocks kontextlist markerad med en pil"></div>
 
 Knappen för att ta bort ett innehållsblock
 {% endstep %}
@@ -174,7 +174,7 @@ Du konfigurerar kalenderhändelsen i blockets innehållsmeny — datum, tid, tit
 
 Håll fältet **Description** i ren text och begränsa det till två eller tre korta stycken.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce7.png" alt="Inställningar för Add to Calendar-block med datum, tid och plats"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-calendar-link-block.png" alt="Blocket Add to Calendar markerat med inställningar för datum, tid och plats samt panelen Save"></div>
 
 Uppdatera Add to Calendar-blocket
 {% endstep %}
@@ -188,7 +188,7 @@ Preheadern är den korta sammanfattning som mottagarens e-postklient visar bredv
 
 När din preheader är sparad klickar du på **Done Editing** för att lämna redigeraren.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce8.png" alt="Preheader-fältet i Email Settings-blocket med knappen Done Editing"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-email-email-settings-preheader.png" alt="Blocket Email Settings med fältet Preheader, Save och Done Editing markerade med numrerade steg"></div>
 
 Skriv en preheader och lämna redigeraren
 {% endstep %}
