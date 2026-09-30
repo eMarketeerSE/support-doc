@@ -1,27 +1,27 @@
 ---
 description: >-
   How to add a link to an eMarketeer form from a button, text, or image inside
-  an email or webpage component.
+  an email or landing page component.
 ---
 
 # How to link to a form
 
-This guide shows how to link to a form from an eMarketeer email or web page component.
+This guide shows how to link to a form from an eMarketeer email or landing page component.
 
 You can add links to text, images, or link elements such as buttons. The steps below use a button as the example.
 
 ## Add the link
 
-Open the button settings and click the browse button next to the URL field.
+Open the button settings and click **Browse** next to the **Url** field.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-32-51.png" alt="The link configuration panel for a button."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-link-to-a-form-button-link-browse.png" alt="The Link 1 section of the block settings with the Browse button next to the Url field highlighted."></div>
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-33-19.png" alt="The browse dialog opened from the URL field."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-link-to-a-form-insert-link-dialog.png" alt="The Insert Link dialog with the eMarketeer Form button highlighted."></div>
 
-Click "link to eMarketeer form."
+Click **eMarketeer Form**.
 
 {% hint style="info" %}
-If you are linking to a legacy form, click **Form (Legacy)** instead.
+If you are linking to a legacy form, click **eMarketeer Form (Legacy)** instead.
 {% endhint %}
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="The form link options dialog."></div>

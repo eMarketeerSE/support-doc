@@ -1,29 +1,27 @@
 ---
 description: >-
   Hur du lägger till en länk till ett eMarketeer-formulär från en knapp, text
-  eller bild i ett e-post- eller webbsideskomponent.
+  eller bild i en e-post- eller landningssidekomponent.
 ---
 
 # Så här länkar du till ett formulär
 
-Den här guiden visar hur du länkar till ett formulär från ett e-postmeddelande eller en webbsideskomponent i eMarketeer.
+Den här guiden visar hur du länkar till ett formulär från ett e-postmeddelande eller en landningssidekomponent i eMarketeer.
 
 Du kan lägga till länkar i text, bilder eller länkelement som knappar. Stegen nedan använder en knapp som exempel.
 
 ## Lägg till länken
 
-Öppna knappens inställningar och klicka på bläddra-knappen bredvid URL-fältet.
+Öppna knappens inställningar och klicka på **Browse** bredvid fältet **Url**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-32-51.png" alt="Länkkonfigurationspanelen för en knapp."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-link-to-a-form-button-link-browse.png" alt="Avsnittet Link 1 i blockinställningarna med knappen Browse bredvid fältet Url markerad."></div>
 
-\[
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-link-to-a-form-insert-link-dialog.png" alt="Dialogen Insert Link med knappen eMarketeer Form markerad."></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-33-19.png" alt="Bläddra-dialogen öppnad från URL-fältet."></div>
-
-Klicka på "link to eMarketeer form."
+Klicka på **eMarketeer Form**.
 
 {% hint style="info" %}
-Om du vill länka till ett Legacy-formulär, klicka på **Form (Legacy)** i stället.
+Om du vill länka till ett Legacy-formulär, klicka på **eMarketeer Form (Legacy)** i stället.
 {% endhint %}
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2025-03-06_12-34-00.png" alt="Dialogen med länkalternativ för formulär."></div>
