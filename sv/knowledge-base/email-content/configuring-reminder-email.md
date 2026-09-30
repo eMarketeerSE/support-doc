@@ -40,7 +40,7 @@ Om du inte har byggt påminnelse-mejlet ännu, se guiden om att [skapa ett e-pos
 {% step %}
 ### Starta skickaprocessen och lägg till de ursprungliga mottagarna
 
-Välj samma kontaktgrupp som du använde för den ursprungliga kampanjen som din första Recipient Source. Om du vill skicka påminnelsen senare, välj "Scheduled Email" som utskickstyp i första steget.
+Välj samma kontaktgrupp som du använde för den ursprungliga kampanjen som din första Recipient Source. Om du vill skicka påminnelsen senare, välj **Scheduled Send** som utskickstyp i första steget.
 {% endstep %}
 
 {% step %}
@@ -56,7 +56,7 @@ Länken + Add recipients på sidan Send Options
 {% step %}
 ### Välj "Selection" som andra Recipient Source
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-selection.png" alt="Mottagarlistan av typen Selection är det sista alternativet på sidan för första Recipient Source"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/configuring-reminder-email-recipient-source-selection.png" alt="Steget Recipient Source med Selection markerat"></div>
 
 Selection är ett av alternativen på första Recipient Source-sidan
 {% endstep %}
@@ -68,13 +68,13 @@ Vilket urval du väljer beror på vad påminnelsen handlar om. De två exemplen 
 
 * För att påminna kontakter att läsa ett tidigare e-postmeddelande, bygg ett urval av kontakter som har öppnat det e-postmeddelandet. Det är de kontakterna du kommer att blockera.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-sel-email-open.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt tidigare e-postmeddelande, och därefter händelsetypen Opened E-mail för att blockera utskicket av påminnelse-mejlet till de kontakter som redan har läst det tidigare e-postmeddelandet"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/configuring-reminder-email-selection-email-opened.png" alt="Urval med kampanjen, en e-postkomponent och händelsen Opened E-mail valda"></div>
 
 Välj kontakter som har öppnat det tidigare e-postmeddelandet som en Recipient Source att blockera i nästa steg
 
 * För att påminna kontakter att registrera sig via ett formulär, bygg ett urval av kontakter som har skickat in det formuläret. Det är de kontakterna du kommer att blockera.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-sel-event-reg.png" alt="På sidan för andra Recipient Source-urvalet, välj din kampanj, sedan ditt formulär, och därefter händelsetypen Submitted för att blockera e-postutskicket till registrerade på ett formulär i nästa steg"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/configuring-reminder-email-selection-form-submitted.png" alt="Urval med kampanjen, en formulärkomponent och händelsen Submitted valda"></div>
 
 Välj formulärregistrerade som en Recipient Source att blockera i nästa steg
 {% endstep %}
@@ -84,7 +84,7 @@ Välj formulärregistrerade som en Recipient Source att blockera i nästa steg
 
 Listan Recipients visar nu både din ursprungliga grupp och det nya urvalet. Ändra Type-rullgardinen för urvalet från "Send to" till "Block".
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-type-block.png" alt="Block Recipients-alternativet finns som ett rullgardinsalternativ på raden för Recipient Source"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/configuring-reminder-email-send-options-type-block.png" alt="Send Options med två mottagarkällor, där den andra är satt till Block"></div>
 
 Blockera utskicket genom att sätta Recipient Source till Block
 
