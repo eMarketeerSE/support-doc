@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add Lead to Marketing List
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/add_lead_marketing_list-1024x407.png" alt="Konfiguration av steget Add Lead to Marketing List i Dynamics"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/dynamics-add-lead-to-marketing-list-step-settings.png" alt="Panelen Add Lead to Marketing List med en vald Marketing List"></div>
 
 ## Stegkonfiguration
 
