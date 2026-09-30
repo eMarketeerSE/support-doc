@@ -16,7 +16,7 @@ Biblioteket innehåller mer än två miljoner foton, 900 typsnitt och 700 ikoner
 
 I eMarketeer-redigeraren — där du bygger e-postmeddelanden eller landningssidor — lägger du till ett bildblock. I panelen till höger för bildblocket, klicka på "open image editor."
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/edited1607595459.png" alt="Knappen open image editor i bildblockets panel."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-the-image-editor-in-emarketeer-open-image-editor-button.png" alt="Knappen Open Image Editor i panelen Content för ett bildblock."></div>
 
 ### De fyra huvudfunktionerna
 
