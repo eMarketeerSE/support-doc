@@ -34,7 +34,7 @@ With lead scoring, you see how sales-ready your contacts are and identify market
 
 With lead scoring you can:
 
-* Set up rules based on marketing engagement, contact card fields, and contact lists — including when points expire.
+* Set up rules based on marketing engagement, contact card fields, and contact lists.
 * See each contact's lead score on every contact list and on the contact card.
 * Filter contacts by score — for example, all contacts above 50.
 * Export contacts as a file and hand them off to sales.
@@ -62,7 +62,7 @@ Marketing engagement:
 * Form — visited, submitted, or answered in a specific way
 * Landing page — visited or clicked a link
 * SMS — clicked
-* Website — visits. To score web visits, [install the web tracker script on your website](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
+* Web Tracker — visits. To score web visits, [install the web tracker script on your website](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
 Information on the contact card:
 
@@ -80,45 +80,47 @@ Contact lists:
 {% step %}
 ### Open lead scoring
 
-Click "contacts" in the top navigation and then "lead scoring" in the left-hand menu. This view shows all your score sets and their active status.
+Click the settings icon at the top right, choose "Account Settings", and then "Lead Scoring" in the left-hand menu. This view shows all your score sets and their active status.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/1.-lead-scoring-view-1024x591.png" alt="Lead scoring view in eMarketeer."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-lead-scoring-score-sets.png" alt="Lead Scoring in Account Settings, listing score sets and their status."></div>
 {% endstep %}
 
 {% step %}
 ### Add a score set
 
-To add your own rules, click "add score set." Name the score set after the kind of rules it contains — for example one set per product, or a set for engagement rules.
+To add your own rules, click "Add Score Set." Name the score set after the kind of rules it contains — for example one set per product, or a set for engagement rules. You can also add an optional description.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2.-Name-score-set.gif" alt="Naming a score set."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-new-score-set-name.png" alt="New Score Set page with name and description filled in."></div>
 {% endstep %}
 
 {% step %}
 ### Add a rule
 
-Click "add a new rule" and give it a clear name.
+Click "Add New Rule" and give the rule a clear name in the Rule Name field.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/3.-Name-rule.gif" alt="Naming a rule."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-new-score-rule-name.png" alt="New Score Rule dialog with a rule name and the list of condition categories."></div>
 {% endstep %}
 
 {% step %}
 ### Build the rule criteria
 
-Rules are built the same way as filters in eMarketeer. The first drop-down chooses the category: engagement, contact card fields, or contact list membership.
+Rules are built the same way as filters in eMarketeer. Under "Add condition", choose a category — for example engagement, contact fields, or contact list membership.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/4.-Choose-rule-category-1024x592.png" alt="Choosing a rule category."></div>
+For a webinar registration, choose Engagement and set Engagement type to Form.
 
-For a webinar registration, choose engagement -> form -> the specific form -> submitted.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-engagement-types.png" alt="Engagement type drop-down with Form, E-mail, SMS, Landing Page and other types."></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5.-Build-rule.gif" alt="Building a rule for a webinar form submission."></div>
+Under Selection, pick the specific form, and set Condition to Submitted.
 
-Next, consider occurrence — how many times the contact must do the action to get the points. Then consider time frame — for example, only the past 30 days.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-form-submitted.png" alt="Add condition dialog for a submitted webinar form."></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5.-Choose-occurrence-e1622552797474-1024x338.png" alt="Choosing occurrence for a rule."></div> <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/6.-Choose-time-frame-e1622552817660-1024x376.png" alt="Choosing a time frame for a rule."></div>
+Next, consider occurrence — how many times the contact must do the action to get the points: at least, at most, or exactly a number of times. Then consider time frame — for example, only the last 30 days. Click "Add condition."
 
-To narrow a rule further, add another criterion. For example, the contact signed up for the webinar AND visited a landing page three times. Click "AND" and repeat the steps for the second criterion.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-occurrence.png" alt="Occurrence options At least, At most and Exactly."></div> <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-time-frame.png" alt="Time frame options Any time, Last X days and Between."></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/7.-Combine-criteria.gif" alt="Combining criteria with AND."></div>
+To narrow a rule further, add another condition. For example, the contact signed up for the webinar AND visited a landing page three times. Choose a category again and repeat the steps for the second condition. The conditions are combined with AND. Click the AND chip to change it to OR.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-combine-conditions.png" alt="Score rule with two conditions combined with AND."></div>
 {% endstep %}
 
 {% step %}
@@ -130,32 +132,32 @@ Click "Apply."
 {% step %}
 ### Set the point value
 
-Set how many points the rule is worth. You can also remove points instead of adding them. Use negative points for behavior that is unlikely to lead to a sale — for example, "student" as job title, a visit to your careers page, or a country you cannot ship to.
+Next to the rule, set how many points the rule is worth. Choose "Remove" instead of "Add" to remove points. Use negative points for behavior that is unlikely to lead to a sale — for example, "student" as job title, a visit to your careers page, or a country you cannot ship to.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/8.-Add-points.gif" alt="Adding points to a rule."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-points.png" alt="Score rules with Add or Remove and a point value."></div>
 {% endstep %}
 
 {% step %}
 ### Activate the score set
 
-When the score set has all the rules you want, set it to active and click save. Scores are calculated for each contact. After adding or editing a rule, there can be a short delay before scores update — usually a few minutes, depending on database size.
+When the score set has all the rules you want, switch it to Active and click "Save Changes." Scores are calculated for each contact. After adding or editing a rule, there can be a short delay before scores update — usually a few minutes, depending on database size.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/9.-Activate-score-set.gif" alt="Activating a score set."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-new-score-set-activate.png" alt="New Score Set switched to Active with the Save Changes button."></div>
 {% endstep %}
 {% endstepper %}
 
-### See each contact's lead score and score summary
+### See each contact's lead score and score breakdown
 
-Contacts are scored when they fulfill any of your rules. You see the score on every contact list and on the contact card. On the contact card, the "score summary" tab shows how the contact earned their points. The graph shows the score over time. Below the graph, a breakdown lists every fulfilled rule and when those points expire.
+Contacts are scored when they fulfill any of your rules. You see the score on every contact list and on the contact card. On the contact card, the "Lead" tab shows how the contact earned their points. The "Lead score over time" graph shows the score over time. Below the graph, a breakdown lists every fulfilled rule with its points and score set.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-10.png" alt="A contact profile showing a list of lead score rules that the contact fulfilled along with the current lead score the contact has."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-contact-card-lead-score.png" alt="The Lead tab on a contact card, showing the lead score over time and the rules the contact fulfilled with their points."></div>
 
 ### Filter out your MQLs and hand them to sales
 
-To find contacts that reached a specific score — say 80 or higher — use filters. Go to contacts -> filter and choose "score" in the drop-down. You can then list contacts above or below your sales threshold.
+To find contacts that reached a specific score — say 80 or higher — use filters. Go to Contacts, click "Filter", and choose "Score" under Add condition. Set the condition to "Greater Than" and enter your threshold, for example 80. You can then list contacts above or below your sales threshold.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Filter-out-MQLs.gif" alt="Filtering contacts by lead score."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-filter-contacts-by-score.png" alt="Filter contacts dialog with a Score condition set to Greater Than 80."></div>
 
-With a selection, you have two buttons on the right: bulk actions and export contacts. Use bulk actions to update the selection — for example, add the contacts to a list. Use export to download the contacts as a text file or send them to a selection or project in SuperOffice. For SuperOffice export, the contacts must already be known in SuperOffice.
+When you select contacts, the "Export" and "Bulk actions" buttons appear at the top of the list. Use bulk actions to update the selection — for example, add the contacts to a list. Use "Export" to download the contacts as a file ("Export as file") or send them to a selection or project in SuperOffice ("Export to CRM"). For SuperOffice export, the contacts must already be known in SuperOffice.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Lead-scores-in-contact-lists-buttons.png" alt="Bulk actions and export buttons on a contact list."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-contacts-selection-export-bulk-actions.png" alt="Export and Bulk actions buttons above a contact list with three contacts selected."></div>

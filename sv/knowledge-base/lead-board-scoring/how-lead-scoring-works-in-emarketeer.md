@@ -34,7 +34,7 @@ Med lead scoring ser du hur säljklara dina kontakter är och identifierar marke
 
 Med lead scoring kan du:
 
-* Skapa regler baserade på marknadsföringsengagemang, fält på kontaktkortet och kontaktlistor – inklusive när poäng ska gå ut.
+* Skapa regler baserade på marknadsföringsengagemang, fält på kontaktkortet och kontaktlistor.
 * Se varje kontakts lead score på alla kontaktlistor och på kontaktkortet.
 * Filtrera kontakter efter score – till exempel alla kontakter över 50.
 * Exportera kontakter som en fil och lämna dem till sälj.
@@ -62,7 +62,7 @@ Marknadsföringsengagemang:
 * Formulär – besökte, skickade in eller svarade på ett specifikt sätt
 * Landningssida – besökte eller klickade på en länk
 * SMS – klickade
-* Webbplats – besök. För att score:a webbesök, [installera Web Tracker-skriptet på din webbplats](../../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
+* Web Tracker – besök. För att score:a webbesök, [installera Web Tracker-skriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md).
 
 Information på kontaktkortet:
 
@@ -80,47 +80,47 @@ Kontaktlistor:
 {% step %}
 ### Öppna lead scoring
 
-Klicka på "contacts" i toppnavigeringen och sedan på "lead scoring" i vänstermenyn. Den här vyn visar alla dina score-uppsättningar och deras aktiva status.
+Klicka på inställningsikonen uppe till höger, välj "Account Settings" och sedan "Lead Scoring" i vänstermenyn. Den här vyn visar alla dina score-uppsättningar och deras aktiva status.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/1.-lead-scoring-view-1024x591.png" alt="Vyn för lead scoring i eMarketeer."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-lead-scoring-score-sets.png" alt="Lead Scoring i Account Settings med en lista över score-uppsättningar och deras status."></div>
 {% endstep %}
 
 {% step %}
 ### Lägg till en score-uppsättning
 
-För att lägga till egna regler, klicka på "add score set." Namnge score-uppsättningen efter den typ av regler den innehåller – till exempel en uppsättning per produkt eller en uppsättning för engagemangsregler.
+För att lägga till egna regler, klicka på "Add Score Set." Namnge score-uppsättningen efter den typ av regler den innehåller – till exempel en uppsättning per produkt eller en uppsättning för engagemangsregler. Du kan också lägga till en valfri beskrivning.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2.-Name-score-set.gif" alt="Namnger en score-uppsättning."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-new-score-set-name.png" alt="Sidan New Score Set med namn och beskrivning ifyllda."></div>
 {% endstep %}
 
 {% step %}
 ### Lägg till en regel
 
-Klicka på "add a new rule" och ge den ett tydligt namn.
+Klicka på "Add New Rule" och ge regeln ett tydligt namn i fältet Rule Name.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/3.-Name-rule.gif" alt="Namnger en regel."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-new-score-rule-name.png" alt="Dialogen New Score Rule med ett regelnamn och listan över villkorskategorier."></div>
 {% endstep %}
 
 {% step %}
 ### Bygg regelkriterierna
 
-Regler byggs på samma sätt som filter i eMarketeer. Den första rullgardinen väljer kategori: engagemang, fält på kontaktkortet eller medlemskap i kontaktlista.
+Regler byggs på samma sätt som filter i eMarketeer. Under "Add condition" väljer du en kategori – till exempel engagemang, fält på kontaktkortet eller medlemskap i kontaktlista.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/4.-Choose-rule-category-1024x592.png" alt="Välja en regelkategori."></div>
+För en webbinarieregistrering, välj Engagement och ställ in Engagement type på Form.
 
-För en webbinarieregistrering, välj engagemang -> formulär -> det specifika formuläret -> skickade in.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-engagement-types.png" alt="Rullgardinsmenyn Engagement type med Form, E-mail, SMS, Landing Page och andra typer."></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/5.-Build-rule.gif" alt="Bygger en regel för en webbinarieformulär-inskickning."></div>
+Under Selection väljer du det specifika formuläret och ställer in Condition på Submitted.
 
-Tänk sedan på förekomst – hur många gånger kontakten måste utföra handlingen för att få poängen. Tänk sedan på tidsram – till exempel endast de senaste 30 dagarna.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-form-submitted.png" alt="Dialogen Add condition för ett inskickat webbinarieformulär."></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/5.-Choose-occurrence-e1622552797474-1024x338.png" alt="Väljer förekomst för en regel."></div>
+Tänk sedan på förekomst – hur många gånger kontakten måste utföra handlingen för att få poängen: minst, högst eller exakt ett visst antal gånger. Tänk sedan på tidsram – till exempel endast de senaste 30 dagarna. Klicka på "Add condition."
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/6.-Choose-time-frame-e1622552817660-1024x376.png" alt="Väljer en tidsram för en regel."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-occurrence.png" alt="Förekomstalternativen At least, At most och Exactly."></div> <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-time-frame.png" alt="Tidsramsalternativen Any time, Last X days och Between."></div>
 
-För att begränsa en regel ytterligare, lägg till ett kriterium till. Till exempel: kontakten anmälde sig till webbinariet OCH besökte en landningssida tre gånger. Klicka på "AND" och upprepa stegen för det andra kriteriet.
+För att begränsa en regel ytterligare, lägg till ett villkor till. Till exempel: kontakten anmälde sig till webbinariet OCH besökte en landningssida tre gånger. Välj en kategori igen och upprepa stegen för det andra villkoret. Villkoren kombineras med AND. Klicka på AND-markeringen för att ändra den till OR.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/7.-Combine-criteria.gif" alt="Kombinerar kriterier med AND."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-combine-conditions.png" alt="Score-regel med två villkor kombinerade med AND."></div>
 {% endstep %}
 
 {% step %}
@@ -132,32 +132,32 @@ Klicka på "Apply."
 {% step %}
 ### Ange poängvärdet
 
-Bestäm hur många poäng regeln är värd. Du kan också dra bort poäng istället för att lägga till. Använd negativa poäng för beteenden som sannolikt inte leder till en försäljning – till exempel "student" som jobbtitel, ett besök på din karriärsida eller ett land du inte kan leverera till.
+Ange bredvid regeln hur många poäng den är värd. Välj "Remove" istället för "Add" för att dra bort poäng. Använd negativa poäng för beteenden som sannolikt inte leder till en försäljning – till exempel "student" som jobbtitel, ett besök på din karriärsida eller ett land du inte kan leverera till.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/8.-Add-points.gif" alt="Lägger till poäng till en regel."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-score-rule-points.png" alt="Score-regler med Add eller Remove och ett poängvärde."></div>
 {% endstep %}
 
 {% step %}
 ### Aktivera score-uppsättningen
 
-När score-uppsättningen har alla regler du vill ha, sätt den till aktiv och klicka på spara. Score:n beräknas för varje kontakt. Efter att du lagt till eller redigerat en regel kan det dröja en stund innan poängen uppdateras – vanligtvis några minuter, beroende på databasens storlek.
+När score-uppsättningen har alla regler du vill ha, slå på Active och klicka på "Save Changes." Score:n beräknas för varje kontakt. Efter att du lagt till eller redigerat en regel kan det dröja en stund innan poängen uppdateras – vanligtvis några minuter, beroende på databasens storlek.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/9.-Activate-score-set.gif" alt="Aktiverar en score-uppsättning."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-new-score-set-activate.png" alt="New Score Set med Active påslaget och knappen Save Changes."></div>
 {% endstep %}
 {% endstepper %}
 
-### Se varje kontakts lead score och poängsammanfattning
+### Se varje kontakts lead score och poängfördelning
 
-Kontakter score:as när de uppfyller någon av dina regler. Du ser score:n på varje kontaktlista och på kontaktkortet. På kontaktkortet visar fliken "score summary" hur kontakten tjänat sina poäng. Grafen visar score:n över tid. Under grafen listar en uppdelning varje uppfylld regel och när poängen går ut.
+Kontakter score:as när de uppfyller någon av dina regler. Du ser score:n på varje kontaktlista och på kontaktkortet. På kontaktkortet visar fliken "Lead" hur kontakten tjänat sina poäng. Grafen "Lead score over time" visar score:n över tid. Under grafen listar en uppdelning varje uppfylld regel med dess poäng och score-uppsättning.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/image-10.png" alt="En kontaktprofil som visar en lista över lead score-regler kontakten uppfyllt tillsammans med kontaktens aktuella lead score."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-contact-card-lead-score.png" alt="Fliken Lead på ett kontaktkort med lead score över tid och de regler kontakten uppfyllt med deras poäng."></div>
 
 ### Filtrera ut dina MQL:er och lämna dem till sälj
 
-För att hitta kontakter som nått en specifik score – säg 80 eller högre – använd filter. Gå till contacts -> filter och välj "score" i rullgardinen. Du kan sedan lista kontakter över eller under din säljtröskel.
+För att hitta kontakter som nått en specifik score – säg 80 eller högre – använd filter. Gå till Contacts, klicka på "Filter" och välj "Score" under Add condition. Ställ in villkoret på "Greater Than" och ange din tröskel, till exempel 80. Du kan sedan lista kontakter över eller under din säljtröskel.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Filter-out-MQLs.gif" alt="Filtrerar kontakter efter lead score."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-filter-contacts-by-score.png" alt="Dialogen Filter contacts med ett Score-villkor satt till Greater Than 80."></div>
 
-Med ett urval har du två knappar till höger: massåtgärder och exportera kontakter. Använd massåtgärder för att uppdatera urvalet – till exempel lägga till kontakterna i en lista. Använd export för att ladda ner kontakterna som en textfil eller skicka dem till ett urval eller projekt i SuperOffice. För SuperOffice-export måste kontakterna redan vara kända i SuperOffice.
+När du markerar kontakter visas knapparna "Export" och "Bulk actions" högst upp i listan. Använd Bulk actions för att uppdatera urvalet – till exempel lägga till kontakterna i en lista. Använd "Export" för att ladda ner kontakterna som en fil ("Export as file") eller skicka dem till ett urval eller projekt i SuperOffice ("Export to CRM"). För SuperOffice-export måste kontakterna redan vara kända i SuperOffice.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Lead-scores-in-contact-lists-buttons.png" alt="Knappar för massåtgärder och export på en kontaktlista."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-lead-scoring-works-in-emarketeer-contacts-selection-export-bulk-actions.png" alt="Knapparna Export och Bulk actions ovanför en kontaktlista med tre markerade kontakter."></div>
