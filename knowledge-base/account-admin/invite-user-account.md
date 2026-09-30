@@ -1,38 +1,38 @@
 ---
 description: >-
-  How administrators invite a new user to an eMarketeer account from the User
-  Accounts settings page.
+  How administrators invite a new user to an eMarketeer account from Users &
+  Teams in Account Settings.
 ---
 
 # How to invite users to your account (administrator)
 
 This guide shows administrators how to invite a new user to your eMarketeer account.
 
-If you cannot find the User Accounts settings page, you do not have permission to invite or create users. Contact an administrator on your account or technical support for help.
+If you cannot find Users & Teams in Account Settings, you do not have permission to invite or create users. Contact an administrator on your account or technical support for help.
 
-## Open User Accounts settings
+## Open Users & Teams
 
-Navigate to the User Accounts settings page via the Company Account Settings.
+Click the gear icon at the top right, choose Account Settings, and open Users & Teams. The User Accounts tab lists your users.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_22-01-14_12-42-59.png" alt="Account Settings page"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-account-settings-users-and-teams.png" alt="Account Settings with Users & Teams highlighted in the left menu"></div>
 
-Account Settings page
+Account Settings with Users & Teams highlighted.
 
 ## Send the invite
 
-On the User Accounts page, click Invite User to start the invite process.
+On the User Accounts tab, click Create User to start the invite process.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_22-01-14_12-43-03.png" alt="Invite User button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-user-accounts-create-user-button.png" alt="Create User button on the User Accounts tab"></div>
 
-Invite User button
+Create User button on the User Accounts tab.
 
-This opens the Create New User page. Enter the email address of the new user, select their permissions, and send the invitation email.
+This opens the Create new user dialog. Enter the email address of the new user, select their licenses and access, and click Create user and send login email.
 
-* Developer: can access Developer Mode in components for advanced customisation.
-* Administrator: can access the Corporate Account Settings and invite users to the account.
+* Developer (a license under Marketing user): access to Developer Mode in e-mails and landing pages for advanced customisation.
+* Administrator (under Access): can edit the Corporate Account settings and create accounts.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_22-01-14_12-43-05.png" alt="Create New User page"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-dialog.png" alt="Create new user dialog"></div>
 
-Create New User page
+Create new user dialog
 
 The invite email contains a link to a page where the user can create their account if they do not already have one. If they already have a user account on another account, they gain access to the new account in addition to their existing ones.
