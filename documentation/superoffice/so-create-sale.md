@@ -4,7 +4,7 @@ description: Journey step that creates a Sale on the matching contact in SuperOf
 
 # Create sale
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/CreateSale.png" alt="Create sale step settings panel"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-create-sale-create-sale-step-settings.png" alt="Create Sale dialog with sales type, status, value, assignee, description and project fields"></div>
 
 ## Settings
 

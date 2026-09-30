@@ -4,7 +4,7 @@ description: Journey-steg som skapar en Sale på den matchande kontakten i Super
 
 # Skapa försäljning
 
-<div align="left" data-with-frame="true"><img src="../../../assets/so-journey-steps/CreateSale.png" alt="Inställningspanelen för steget Skapa försäljning"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-create-sale-create-sale-step-settings.png" alt="Dialogen Create Sale med fälten för försäljningstyp, status, värde, tilldelning, beskrivning och projekt"></div>
 
 ## Inställningar
 
