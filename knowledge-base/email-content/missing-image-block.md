@@ -98,11 +98,11 @@ Account user with developer permission.
 
 ## How to edit a template
 
-1. Click Add E-Mail from a campaign page to show your templates.
-2. Click More Actions on the template you want to edit.
-3. Click Edit Template in the dropdown menu.
+1. On a campaign page, click Add Component and choose Email. The My Templates tab shows your templates.
+2. Click the three-dot menu on the template you want to edit.
+3. Click Edit in the menu.
 4. The template opens in the component editor. Any change saved here updates the template.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Edit-Template.png" alt="Sequence showing Add E-Mail, More Actions, then Edit Template"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Edit-Template.png" alt="Sequence showing how to open a template for editing"></div>
 
 Visual guide to editing a template.

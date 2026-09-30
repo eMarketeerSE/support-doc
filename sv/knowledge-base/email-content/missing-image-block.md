@@ -98,11 +98,11 @@ Kontoanvändare med developer-behörighet.
 
 ## Så här redigerar du en mall
 
-1. Klicka på Add E-Mail från en kampanjsida för att visa dina mallar.
-2. Klicka på More Actions på mallen du vill redigera.
-3. Klicka på Edit Template i rullgardinsmenyn.
+1. Klicka på Add Component på en kampanjsida och välj Email. Fliken My Templates visar dina mallar.
+2. Klicka på trepricksmenyn på mallen du vill redigera.
+3. Klicka på Edit i menyn.
 4. Mallen öppnas i komponentredigeraren. Varje ändring som sparas här uppdaterar mallen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Edit-Template.png" alt="Sekvens som visar Add E-Mail, More Actions, sedan Edit Template"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Edit-Template.png" alt="Sekvens som visar hur du öppnar en mall för redigering"></div>
 
 Visuell guide till att redigera en mall.
