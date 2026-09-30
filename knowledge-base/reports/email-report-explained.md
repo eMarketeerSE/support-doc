@@ -6,7 +6,7 @@ description: >-
 
 # Email report explained
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Email-Report-Page.png" alt="Example of an email report page"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-report-explained-email-report-page.png" alt="Email report page with rate tiles, the Email process widget and the Last openers list"></div>
 
 Example of an email report page.
 
@@ -36,7 +36,7 @@ Each event tag shows two numbers, like "Event **10 (20)**." The number before th
 
 The widget values are based on how many delivered contacts interacted in a given way. In the example below, the email component was sent and delivered to 25 contacts. 10 opened it, and 3 clicked a link.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/EmailReportWidgets.png" alt="Example of the email report widgets"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-report-explained-email-report-kpi-tiles.png" alt="Email report tiles showing open rate, click-through rate, click-to-open rate and unsubscribed"></div>
 
 Example of email report widget values.
 
@@ -52,7 +52,7 @@ The calculations use unique contacts, not the total number of events. If a singl
 
 ## Sendout health widget
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="Sendout health widget example"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-sendout-health-widget.png" alt="Sendout health widget showing bounce rate and complaint rate gauges and sendout counts"></div>
 
 Sendout health widget example.
 

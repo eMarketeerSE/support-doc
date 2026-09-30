@@ -6,7 +6,7 @@ description: >-
 
 # E-postrapporten förklarad
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Email-Report-Page.png" alt="Exempel på en e-postrapportsida"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-email-report-page.png" alt="E-postrapportsida med nyckeltalsrutor, widgeten Email process och listan Last openers"></div>
 
 Exempel på en e-postrapportsida.
 
@@ -36,7 +36,7 @@ Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran fö
 
 Värdena i widgetarna baseras på hur många levererade kontakter som interagerade på ett visst sätt. I exemplet nedan skickades och levererades e-postkomponenten till 25 kontakter. 10 öppnade den, och 3 klickade på en länk.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/EmailReportWidgets.png" alt="Exempel på e-postrapportens widgetar"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-email-report-kpi-tiles.png" alt="Rapportens rutor med Open rate, Click through rate, Click to open rate och Unsubscribed"></div>
 
 Exempel på värden i e-postrapportens widgetar.
 
@@ -52,7 +52,7 @@ Beräkningarna använder unika kontakter, inte det totala antalet händelser. Om
 
 ## Widget för utskickets hälsa
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="Widget för utskickets hälsa"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-sendout-health-widget.png" alt="Widgeten Sendout health med mätare för bounce rate och complaint rate samt antal utskick"></div>
 
 Exempel på widget för utskickets hälsa.
 
