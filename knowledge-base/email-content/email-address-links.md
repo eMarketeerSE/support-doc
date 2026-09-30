@@ -27,7 +27,7 @@ To turn text inside a component into an email link, follow the same steps as for
 
 Best practice is to avoid adding this type of link in the body of an email component. Most email clients already turn plain email addresses into clickable links, so the sender does not need to add the link manually.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image.png" alt="Email link applied to text in the editor"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-address-links-insert-mailto-link.png" alt="Selected text in the editor, the Link button, and the Insert Link popup with a mailto: address and the Apply button"></div>
 
 Example of an email link applied to text.
 
@@ -39,6 +39,6 @@ The approach is the same — the `mailto:` URL goes in the Link URL field, but t
 2. In the Link URL field, write the email address with the prefix `mailto:`.
 3. Apply the link.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image.png" alt="Email link applied to a button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-address-links-insert-mailto-link.png" alt="Insert Link popup with a mailto: address in the Link URL field"></div>
 
 Example of an email link on a button.
