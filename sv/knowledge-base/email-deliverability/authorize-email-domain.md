@@ -50,11 +50,11 @@ Ange den domän du vill autentisera (till exempel `yourdomain.com`) i fältet **
 {% step %}
 ### Lägg till DNS-poster
 
-Den nya domänen visas i listan med statusen Pending. Klicka på **Authenticate** vid domänen för att öppna dialogen Authenticate Domain. Den listar de DNS-poster som ska läggas till: DKIM och SPF (obligatoriska), DMARC och MAIL FROM. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på **Click here to generate an email** längst ned i dialogen för att skicka posterna till ansvarig person.
+Den nya domänen visas i listan med statusen Pending. Klicka på **Authenticate** vid domänen för att öppna dialogen Authenticate Domain. Den listar de DNS-poster som ska läggas till: DKIM och SPF (obligatoriska), DMARC och MAIL FROM. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på **Click here to generate an email** längst ned i dialogen för att skicka posterna till ansvarig person. Det öppnar ett nytt mejl i ditt e-postprogram med posterna redan ifyllda.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-records.png" alt="Dialogen Authenticate Domain med DNS-posterna DKIM, SPF, DMARC och MAIL FROM"></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="länk för att skicka DNS-poster till IT-avdelningen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-generate-email-to-it.png" alt="Nytt mejl i e-postprogrammet med DNS-posterna ifyllda, öppnat från dialogen Authenticate Domain"></div>
 {% endstep %}
 
 {% step %}

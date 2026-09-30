@@ -53,11 +53,11 @@ Enter the domain you want to authorize (for example, `yourdomain.com`) in the **
 {% step %}
 ### Add DNS records
 
-The new domain appears in the list with the status Pending. Click **Authenticate** on the domain to open the Authenticate Domain dialog. It lists the DNS records to add: DKIM and SPF (mandatory), DMARC, and MAIL FROM. Add them to your DNS. If you do not have access to your company's DNS — often the IT department owns it — click **Click here to generate an email** at the bottom of the dialog to send the records to the person in charge.
+The new domain appears in the list with the status Pending. Click **Authenticate** on the domain to open the Authenticate Domain dialog. It lists the DNS records to add: DKIM and SPF (mandatory), DMARC, and MAIL FROM. Add them to your DNS. If you do not have access to your company's DNS — often the IT department owns it — click **Click here to generate an email** at the bottom of the dialog to send the records to the person in charge. This opens a new email in your email program with the records already filled in.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-records.png" alt="Authenticate Domain dialog listing the DKIM, SPF, DMARC and MAIL FROM records"></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2019-12-11-kl.-14.30.42.png" alt="link to send DNS records to the IT department"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/authorize-email-domain-generate-email-to-it.png" alt="New email in the email program with the DNS records filled in, opened from the Authenticate Domain dialog"></div>
 {% endstep %}
 
 {% step %}
