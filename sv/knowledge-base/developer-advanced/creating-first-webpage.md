@@ -38,13 +38,13 @@ Exemplet bygger en event-landningssida, men processen är densamma för alla typ
 
 Klicka på **Add Component** på fliken Components i kampanjen och välj sedan **Landing Page**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw1.png" alt="Knappen Add Webpage på kampanjsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-add-landing-page-menu.png" alt="Menyn Add Component med Landing Page markerat"></div>
 {% endstep %}
 
 {% step %}
 ### Fyll i inställningar och välj en mall
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw2.png" alt="Inställningar och mallval för webbsidan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-add-landing-page-dialog.png" alt="Dialogen Add Landing Page med komponentnamn, en mall och knappen Create"></div>
 
 **Inställningar**
 
@@ -64,7 +64,7 @@ När namn och mall är valda klickar du på **Create** för att skapa komponente
 
 När du klickar på **Create** öppnas redigeraren med mallens innehåll på plats. Vänstermenyn låter dig lägga till innehållsblock, öppna verktyg och ange sidans titel under **Webpage Extras**. Resten av sidan visar det nuvarande innehållet, uppbyggt av block som du redigerar ett i taget.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_editor.png" alt="Redigeraren för landningssidor med innehållsblock och vänstermeny"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-landing-page-editor.png" alt="Redigeraren för landningssidan med mallens innehåll och menyn till vänster"></div>
 {% endstep %}
 
 {% step %}
@@ -72,7 +72,7 @@ När du klickar på **Create** öppnas redigeraren med mallens innehåll på pla
 
 Varje innehållsblock består av flera delar som du kan uppdatera. Klicka på blockets **Edit**-knapp för att öppna dess inställningar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_content_block.png" alt="Edit-knappen på ett innehållsblock"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-block-edit-panel.png" alt="Ett innehållsblock öppet för redigering, med visnings- och innehållsinställningar till höger"></div>
 
 En inställningspanel öppnas till höger med flikarna **Content**, **Styles**, **HTML** och **Settings**. Content är där du ändrar blockets text, bilder och länkar. Styles är där du ändrar färger och typsnitt.
 
@@ -88,7 +88,7 @@ I exemplet nedan är textstycket och de två länkknapparna tomma, så de visas 
 
 Klicka på **Save** efter varje ändring.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_edit_text.png" alt="Redigering av rubriktexten i ett innehållsblock"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-edit-headline-text.png" alt="Redigering av rubriktexten i ett innehållsblock, med knappen Save"></div>
 {% endstep %}
 
 {% step %}
@@ -96,7 +96,7 @@ Klicka på **Save** efter varje ändring.
 
 Öppna blocket för redigering, gå till Image-sektionen i den högra panelen och klicka på **Choose Image**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_1.png" alt="Knappen Choose Image i bildsektionen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-choose-image-button.png" alt="Knappen Choose Image i inställningarna för bakgrundsbild"></div>
 
 Gör så här för att ladda upp och använda en egen bild:
 
@@ -106,11 +106,11 @@ Gör så här för att ladda upp och använda en egen bild:
 4. Klicka på filen i webbläsarfönstret för att markera den.
 5. Klicka på **Use Selected** för att lägga till den i innehållsblocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_image_upload_2.png" alt="Stegen Upload File, Choose files och Use Selected"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-choose-image-dialog.png" alt="Dialogen Choose Image med Upload Files, en vald bild och Use Selected"></div>
 
 Om bilden inte matchar de rekommenderade måtten för blocket visas ett alternativ för automatisk skalning. Klicka på länken i meddelandet för att godkänna.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce_upload_image_3.png" alt="Meddelande om Auto Scale för att ändra storlek på bilden"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-image-auto-scale-notice.png" alt="Meddelandet om Auto Scale för att ändra storlek på den valda bilden"></div>
 {% endstep %}
 
 {% step %}
@@ -123,7 +123,7 @@ Använd knappar för att länka till en webbsida, en fil eller en annan eMarkete
 3. Välj kampanjen som innehåller ditt formulär och välj sedan formuläret.
 4. Klicka på **Select**, sedan **Apply** och sedan **Save** för att lägga till länken och spara blocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce6.png" alt="Ange en knapplänk via Browse till ett eMarketeer-formulär"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-button-link-browse.png" alt="Ange en knapplänk med knappen Browse"></div>
 {% endstep %}
 
 {% step %}
@@ -133,7 +133,7 @@ Klicka på **Add Content Block** i vänstermenyn och klicka sedan på **Add Bloc
 
 Om knappen är grå klickar du först på ett befintligt block för att tala om för redigeraren var det nya blocket ska placeras.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-add-12.png" alt="Menyn Add Content Block med olika blocktyper"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-add-content-block-panel.png" alt="Panelen Add Content Block med olika blocktyper"></div>
 {% endstep %}
 
 {% step %}
@@ -141,7 +141,7 @@ Om knappen är grå klickar du först på ett befintligt block för att tala om 
 
 För att flytta ett block klickar du på och håller ned flytt-ikonen till vänster om blockets kontextfält och drar det sedan till den nya positionen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-move.png" alt="Flytt-ikonen som används för att dra ett innehållsblock"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-block-reposition-handle.png" alt="Flyttikonen som används för att dra ett innehållsblock"></div>
 {% endstep %}
 
 {% step %}
@@ -149,7 +149,7 @@ För att flytta ett block klickar du på och håller ned flytt-ikonen till väns
 
 För att ta bort ett block du inte behöver klickar du på ta bort-knappen på dess kontextfält.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ce-delete.png" alt="Ta bort-knappen på ett innehållsblocks kontextfält"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-block-delete-button.png" alt="Knappen för att ta bort i ett innehållsblocks verktygsfält"></div>
 {% endstep %}
 
 {% step %}
@@ -157,6 +157,6 @@ För att ta bort ett block du inte behöver klickar du på ta bort-knappen på d
 
 Klicka på **Done Editing** för att lämna redigeraren.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/cw_done.png" alt="Knappen Done Editing"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/creating-first-webpage-done-editing-button.png" alt="Knappen Done Editing"></div>
 {% endstep %}
 {% endstepper %}
