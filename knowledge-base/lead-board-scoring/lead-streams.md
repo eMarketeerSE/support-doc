@@ -12,17 +12,17 @@ Whenever a contact matches the rules of a lead stream, the contact becomes a lea
 
 ## Create a lead stream
 
-Open the lead board by clicking Leads in the top menu.
+Open the lead board by clicking Leads in the left sidebar.
 
-To set up a new lead stream, click the settings cog wheel in the lead streams box.
+To set up a new lead stream, click the Manage lead streams icon next to the lead streams drop-down.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/editstream.png" alt="Lead streams cog wheel on the lead board"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-lead-board-manage-lead-streams.png" alt="Manage lead streams icon next to the lead streams drop-down on the lead board"></div>
 
-This opens the lead stream page, where you can create or manage lead streams.
+This opens Lead Streams in Account Settings, where you can create or manage lead streams.
 
-Click Add lead stream to create a new one.
+Click Add Lead Stream to create a new one.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2022-06-09_15-04-03.png" alt="Add lead stream button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2022-06-09_15-04-03.png" alt="Add Lead Stream button"></div>
 
 A lead stream needs three things:
 
@@ -32,23 +32,23 @@ A lead stream needs three things:
 
 ### Add a new rule
 
-Click Add new rule to add the first criterion for becoming a lead.
+Click Add New Rule, name the rule, and choose a condition category — for example Score — to add the first criterion for becoming a lead.
 
 In this scenario we want to find contacts with high lead scores.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2022-06-13-kl.-12.54.14-1024x430.png" alt="Adding a lead score rule"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-lead-stream-score-rule.png" alt="New Rule dialog with a Score Greater Than 20 condition"></div>
 
 Click Apply to add the rule. Add other rules to expand or narrow which contacts qualify as leads.
 
 ### Choose a sales team
 
-Check one or more sales teams that should have access to this lead stream.
+Under Distribution to Sales Team, check one or more sales teams that should have access to this lead stream.
 
 ### Enable the new lead stream
 
 You have the following options on a new lead stream:
 
-* Enabled / Disabled — a new lead stream starts inactive. Toggle the switch to Active to set it live. From that moment, any new matches to your rules generate leads.
+* Enabled / Disabled — a new lead stream starts inactive. Toggle the switch to Active and click Save Changes to set it live. From that moment, any new matches to your rules generate leads.
 * Clear leads — you can clear the lead stream of all leads at any time. This removes the leads from the lead board that match this stream. The stream must be inactive for this option to be available.
 * Fetch history — a lead stream only generates leads from new matches. For example, if you want to make leads from contacts who answer a form, the stream generates leads only from form submits that come in while the stream is active. To make leads from past matches, click "Fetch ALL leads from history" to generate the historical leads once. The stream must be active for this option to be available.
 
@@ -56,4 +56,4 @@ You have the following options on a new lead stream:
 
 Head back to the lead board to see the new leads.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/streamsleads-1024x593.png" alt="New leads visible on the lead board"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-lead-board-new-leads.png" alt="New leads in the Marketing Qualified column of the lead board"></div>
