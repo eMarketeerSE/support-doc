@@ -33,35 +33,32 @@ Tags on contacts help you segment in a more nuanced way. Set tags manually on a 
 
 ### The tag widget
 
-You find the tag widget in a campaign (top right corner) or on the contact card. To add a tag, click the plus icon next to the tag widget to open it.
+You find the tag widget in a campaign (top right corner) or on the contact card (top right corner). To add a tag, click the tag icon to open it.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.28.40.png" alt="Tag widget with the add icon"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/tags-kb-campaign-tag-button.png" alt="Campaign tags with the tag icon"></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png" alt="Tag widget expanded"></div>
+The widget lists all tags in your account. Type in the search field to find a tag.
 
-#### Tag categories
-
-Each tag belongs to a category. Categories group related tags — for example, "Contact interests", "Contact types", or a category just for campaigns.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/tags-kb-tag-picker-open.png" alt="Tag widget showing the search field and the list of tags"></div>
 
 #### Create a new tag
 
-If the tag you want doesn't exist, create it by clicking "Create new tag".
+If the tag you want doesn't exist, type its name in the tag widget and choose **Create new "<name>" tag**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png" alt="Create new tag dialog"></div>
+You can also create tags in **Contacts** > **Tags**. Click **Create tag**, give the tag a name, and click **Create**.
 
-Give the tag a title. In the droplist, choose the category it belongs to. If no category fits, type a new category name and it will be created. Pick a color for the tag and click "Create tag".
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/tags-kb-new-tag-dialog.png" alt="New tag dialog with the Tag name field"></div>
 
 #### Deleting a tag
 
-To remove a tag completely, open the tag widget and click the edit button next to the tag title. Then click "Delete". This removes the tag from eMarketeer and from all contacts and campaigns that used it.
+To remove a tag completely, go to **Contacts** > **Tags** and click the delete icon next to the tag. This removes the tag from eMarketeer and from all contacts and campaigns that used it. Use the edit icon to rename a tag.
 
 ### Add tags to contacts or campaigns
 
-In the list of tags, check the checkbox in front of the tag you want to assign.
+Open the tag widget and choose the tag you want to assign from the list.
 
 ### Remove tags from a contact or campaign
 
-There are two ways to remove a tag:
+In the campaign or on the contact card, click the "x" on the tag to remove it. In a campaign, the "x" appears when you hover over the tag.
 
-1. In the campaign or on the contact card, hover over a tag and click the "x" to remove it. <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-11.10.57.png" alt="Tag with remove icon shown on hover"></div>
-2. Open the tag widget and uncheck the checkbox in front of the tag.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/tags-kb-tag-remove-on-hover.png" alt="Tag with remove icon shown on hover"></div>

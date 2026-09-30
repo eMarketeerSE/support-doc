@@ -33,37 +33,32 @@ Taggar på kontakter hjälper dig att segmentera på ett mer nyanserat sätt. S�
 
 ### Tagg-widgeten
 
-Du hittar tagg-widgeten i en kampanj (övre högra hörnet) eller på kontaktkortet. För att lägga till en tagg, klicka på plus-ikonen bredvid tagg-widgeten för att öppna den.
+Du hittar tagg-widgeten i en kampanj (övre högra hörnet) eller på kontaktkortet (övre högra hörnet). För att lägga till en tagg, klicka på tagg-ikonen för att öppna den.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.28.40.png" alt="Tagg-widget med add-ikonen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/tags-kb-campaign-tag-button.png" alt="Kampanjtaggar med tagg-ikonen"></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.22.35-651x1024.png" alt="Tagg-widget utfälld"></div>
+Widgeten listar alla taggar i ditt konto. Skriv i sökfältet för att hitta en tagg.
 
-#### Tagg-kategorier
-
-Varje tagg hör till en kategori. Kategorier grupperar relaterade taggar — till exempel "Contact interests", "Contact types" eller en kategori bara för kampanjer.
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/tags-kb-tag-picker-open.png" alt="Tagg-widget som visar sökfältet och listan över taggar"></div>
 
 #### Skapa en ny tagg
 
-Om taggen du vill ha inte finns, skapa den genom att klicka på "Create new tag".
+Om taggen du vill ha inte finns, skriv in dess namn i tagg-widgeten och välj **Create new "<name>" tag**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-10.59.47-569x1024.png" alt="Dialogen Create new tag"></div>
+Du kan också skapa taggar under **Contacts** > **Tags**. Klicka på **Create tag**, ge taggen ett namn och klicka på **Create**.
 
-Ge taggen en titel. I rullgardinen, välj kategorin den hör till. Om ingen kategori passar, skriv in ett nytt kategorinamn så skapas det. Välj en färg för taggen och klicka på "Create tag".
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/tags-kb-new-tag-dialog.png" alt="Dialogen New tag med fältet Tag name"></div>
 
 #### Ta bort en tagg
 
-För att ta bort en tagg helt, öppna tagg-widgeten och klicka på edit-knappen bredvid taggens titel. Klicka sedan på "Delete". Det tar bort taggen från eMarketeer och från alla kontakter och kampanjer som använde den.
+För att ta bort en tagg helt, gå till **Contacts** > **Tags** och klicka på ta bort-ikonen bredvid taggen. Det tar bort taggen från eMarketeer och från alla kontakter och kampanjer som använde den. Använd redigeringsikonen för att byta namn på en tagg.
 
 ### Lägga till taggar på kontakter eller kampanjer
 
-I listan över taggar, kryssa i kryssrutan framför taggen du vill tilldela.
+Öppna tagg-widgeten och välj den tagg du vill tilldela i listan.
 
 ### Ta bort taggar från en kontakt eller kampanj
 
-Det finns två sätt att ta bort en tagg:
+I kampanjen eller på kontaktkortet, klicka på "x" på taggen för att ta bort den. I en kampanj visas "x" när du håller muspekaren över taggen.
 
-1.  I kampanjen eller på kontaktkortet, för muspekaren över en tagg och klicka på "x" för att ta bort den.
-
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-06-21-kl.-11.10.57.png" alt="Tagg med ta bort-ikon som visas vid hover"></div>
-2. Öppna tagg-widgeten och avmarkera kryssrutan framför taggen.
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/tags-kb-tag-remove-on-hover.png" alt="Tagg med ta bort-ikon som visas vid hover"></div>
