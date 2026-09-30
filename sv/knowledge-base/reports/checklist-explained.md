@@ -8,7 +8,7 @@ description: >-
 
 Du ser den här sidan när du skickar en e-post. Granska den för att bekräfta att utskicket når rätt målgrupp och för att förstå eventuella undantag.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email.checklist.25.png" alt="Skärmbild av innehållet i checklistan för e-post"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/checklist-explained-email-checklist.png" alt="Checklistan för e-post med panelerna Recipients, Subject &amp; Sender och Spam Checker"></div>
 
 Exempel på checklistan
 

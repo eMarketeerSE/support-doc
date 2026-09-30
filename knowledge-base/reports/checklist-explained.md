@@ -8,7 +8,7 @@ description: >-
 
 You see this page when sending an email. Review it to confirm your sendout reaches the right audience and to understand any exclusions.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email.checklist.25.png" alt="Screenshot of the email checklist content"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/checklist-explained-email-checklist.png" alt="Email checklist with the Recipients, Subject &amp; Sender and Spam Checker panels"></div>
 
 ## Checklist categories
 
