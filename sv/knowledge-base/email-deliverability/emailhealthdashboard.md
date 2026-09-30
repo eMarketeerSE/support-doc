@@ -19,33 +19,31 @@ KPI:er på hög nivå, trenddiagram och detaljerade tabeller hjälper dig att se
 
 All data i översikten beräknas utifrån det valda datumintervallet.
 
-I väljaren för datumintervall, välj något av följande:
+Klicka på knappen för datumintervall högst upp till höger i fliken Email Health och välj något av följande:
 
-* Relativt intervall — en fördefinierad period som de senaste 7 dagarna eller de senaste 30 dagarna.
-* Anpassat intervall — välj start- och slutdatum manuellt. För att visa en enskild dag, sätt samma start- och slutdatum.
+* En fördefinierad period — Last 7 days, Last 30 days, Last 90 days, Since yesterday, This week, This month eller Last month.
+* Custom — välj start- och slutdatum manuellt. För att visa en enskild dag, sätt samma start- och slutdatum.
 
 Det valda intervallet gäller för översiktskorten, tidsseriediagrammen och tabellerna för Domain och Account.
 
 ## Översiktskort
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_1-1024x404.png" alt="Översiktskort på E-posthälsa"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-overview-cards.png" alt="Statusfältet Sending Status och sex översiktskort för sändningsvolym, leveransfrekvens, öppningsfrekvens, klickfrekvens, klagomål och studsar"></div>
 
 Översiktskorten ger dig en snabb ögonblicksbild av dina viktigaste mätvärden för e-posthälsa:
 
 * Total send volume — totalt antal skickade e-postmeddelanden.
 * Delivery rate — levererade e-postmeddelanden som procent av totalt skickade.
 * Open rate — öppningar som procent av levererade e-postmeddelanden.
-* Click rate — klick som procent av levererade e-postmeddelanden.
+* Click Rate — klick som procent av levererade e-postmeddelanden.
 * Complaints — spamklagomål som procent av levererade e-postmeddelanden.
-* Permanent bounces — permanenta studsar som procent av totalt skickade.
+* Bounces — studsar som procent av totalt skickade.
 
 Varje kort visar också förändringen jämfört med föregående datumintervall, så att du snabbt kan upptäcka förbättringar eller negativa trender.
 
 ## Mätvärdesdiagram
 
-\[
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_2-1024x295.png" alt="Tidsseriediagram för mätvärden på E-posthälsa"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-metrics-charts.png" alt="Kortet Metrics med diagrammen Volume och Rate och checklistan Select Metrics öppen"></div>
 
 Avsnittet Metrics visualiserar hur din e-posthälsa utvecklas över tid. Två tidsseriediagram visas:
 
@@ -55,19 +53,19 @@ Avsnittet Metrics visualiserar hur din e-posthälsa utvecklas över tid. Två ti
 ### Interagera med diagrammen
 
 * Hovra över valfritt datum för att se exakta värden för den dagen.
-* Använd rullgardinsmenyn Select metrics för att välja vilka mätvärden som ska visas.
+* Klicka på Select Metrics och bocka i de mätvärden du vill visa.
 * Jämför flera mätvärden för att upptäcka samband — till exempel ökad volym följd av högre studsfrekvenser.
 
 Dessa diagram är användbara för att fånga gradvisa förändringar som kan signalera framtida leveransproblem.
 
 ## Tabellen Domains
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_3-1024x408.png" alt="Domains-tabellen på E-posthälsa"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-domains-table.png" alt="Kortet Email Performance med fliken Domains vald, med avsändardomäner och deras frekvenser"></div>
 
 Tabellen Domains visar hur dina e-postmeddelanden presterar för varje mottagande domän under det valda datumintervallet. För varje domän ser du:
 
 * Send volume
-* Delivered (%)
+* Delivered emails (%)
 * Bounces (%)
 * Complaints (%)
 * Opens (%)
@@ -83,17 +81,14 @@ Endast domäner med minst 10 skickade e-postmeddelanden under det valda datumint
 
 ## Tabellen Account
 
-\[
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-account-table.png" alt="Kortet Email Performance med fliken Account vald, med mätvärden, volym, frekvens och skillnad"></div>
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email_health_4-1024x433.png" alt="Account-tabellen på E-posthälsa"></div>
-
-Växla till fliken Account för att se e-posthälsostatistik för hela kontot. Tabellen visar volym och frekvens för:
+I kortet Email Performance växlar du från Domains till fliken Account för att se e-posthälsostatistik för hela kontot. Tabellen visar volym och frekvens för:
 
 * Sent
 * Delivered
 * Complaints
-* Transient bounces
-* Permanent bounces
+* Bounces
 * Opens
 * Clicks
 

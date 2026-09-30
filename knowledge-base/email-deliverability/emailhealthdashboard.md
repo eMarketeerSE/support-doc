@@ -19,31 +19,31 @@ High-level KPIs, trend charts, and detailed tables let you spot where issues occ
 
 All data on the dashboard is calculated from the selected date range.
 
-In the Date range selector, choose one of:
+Click the date range button at the top right of the Email Health tab and choose one of:
 
-* Relative range — a predefined period such as Last 7 days or Last 30 days.
-* Custom range — pick a start and end date manually. To view a single day, set the same start and end date.
+* A predefined period — Last 7 days, Last 30 days, Last 90 days, Since yesterday, This week, This month, or Last month.
+* Custom — pick a start and end date manually. To view a single day, set the same start and end date.
 
 The selected range applies to the overview cards, the time series charts, and the Domain and Account tables.
 
 ## Overview cards
 
-![Overview cards on the Email Health Dashboard](../../../.gitbook/assets/email_health_1-1024x404.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-overview-cards.png" alt="The Sending Status bar and six overview cards showing send volume, delivery rate, open rate, click rate, complaints and bounces"></div>
 
 The overview cards give you a quick snapshot of your most important email health metrics:
 
 * Total send volume — total number of emails sent.
 * Delivery rate — delivered emails as a percentage of total sent.
 * Open rate — opens as a percentage of delivered emails.
-* Click rate — clicks as a percentage of delivered emails.
+* Click Rate — clicks as a percentage of delivered emails.
 * Complaints — spam complaints as a percentage of delivered emails.
-* Permanent bounces — permanent bounces as a percentage of total sent.
+* Bounces — bounces as a percentage of total sent.
 
 Each card also shows the change compared to the previous date range, so you can quickly spot improvements or negative trends.
 
 ## Metrics charts
 
-![Metrics time series charts on the Email Health Dashboard](../../../.gitbook/assets/email_health_2-1024x295.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-metrics-charts.png" alt="The Metrics card with Volume and Rate charts and the Select Metrics checklist open"></div>
 
 The Metrics section visualizes how your email health develops over time. Two time series charts are shown:
 
@@ -53,19 +53,19 @@ The Metrics section visualizes how your email health develops over time. Two tim
 ### Interacting with the charts
 
 * Hover over any date to see exact values for that day.
-* Use the Select metrics dropdown to choose which metrics to display.
+* Click Select Metrics and tick the metrics you want to display.
 * Compare multiple metrics to spot correlations — for example, increased volume followed by higher bounce rates.
 
 These charts are useful for catching gradual changes that can signal future deliverability problems.
 
 ## Domains table
 
-![Domains table on the Email Health Dashboard](../../../.gitbook/assets/email_health_3-1024x408.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-domains-table.png" alt="The Email Performance card with the Domains tab selected, listing sending domains and their rates"></div>
 
 The Domains table shows how your emails perform for each receiving domain during the selected date range. For each domain, you can see:
 
 * Send volume
-* Delivered (%)
+* Delivered emails (%)
 * Bounces (%)
 * Complaints (%)
 * Opens (%)
@@ -81,15 +81,14 @@ Only domains with at least 10 sent emails in the selected date range appear in t
 
 ## Account table
 
-![Account table on the Email Health Dashboard](../../../.gitbook/assets/email_health_4-1024x433.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/emailhealthdashboard-email-health-account-table.png" alt="The Email Performance card with the Account tab selected, listing metrics with volume, rate and difference"></div>
 
-Switch to the Account tab to view email health statistics for the whole account. The table shows volume and rate for:
+In the Email Performance card, switch from Domains to the Account tab to view email health statistics for the whole account. The table shows volume and rate for:
 
 * Sent
 * Delivered
 * Complaints
-* Transient bounces
-* Permanent bounces
+* Bounces
 * Opens
 * Clicks
 
