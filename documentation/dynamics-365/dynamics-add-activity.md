@@ -7,13 +7,13 @@ description: >-
 
 # Dynamics - Add activity
 
-![Add Activity step configuration with Prefer Contact or Lead setting](../../.gitbook/assets/add_activity-982x1024.png)
+![Add Activity panel with the Prefer Lead and Prefer Contact options](../../.gitbook/assets/dynamics-add-activity-step-settings.png)
 
 ### Step configuration
 
 When you add this step to a Journey, configure the following fields:
 
-* **Subject (required):** Sets the title of the activity in Dynamics (for example, "Follow-up Call" or "Send Pricing Guide").
+* **Topic (required):** Sets the title of the activity in Dynamics (for example, "Follow-up Call" or "Send Pricing Guide").
 * **Description:** Provides additional details or notes for the person completing the task.
 * **Activity Type:** Choose whether to log the activity as a **Task** or a **Phone Call**.
 * **Owner (required):** Select the Dynamics user who will be assigned the activity.

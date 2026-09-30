@@ -7,13 +7,13 @@ description: >-
 
 # Dynamics - Add activity
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/add_activity-982x1024.png" alt="Konfiguration av steget Add Activity med inställningen Prefer Contact eller Lead"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/dynamics-add-activity-step-settings.png" alt="Panelen Add Activity med alternativen Prefer Lead och Prefer Contact"></div>
 
 ### Stegkonfiguration
 
 När du lägger till detta steg i en Journey, konfigurera följande fält:
 
-* **Subject (obligatoriskt):** Sätter titeln på aktiviteten i Dynamics (till exempel "Follow-up Call" eller "Send Pricing Guide").
+* **Topic (obligatoriskt):** Sätter titeln på aktiviteten i Dynamics (till exempel "Follow-up Call" eller "Send Pricing Guide").
 * **Description:** Ger ytterligare detaljer eller anteckningar till personen som ska utföra uppgiften.
 * **Activity Type:** Välj om aktiviteten ska loggas som en **Task** eller ett **Phone Call**.
 * **Owner (obligatoriskt):** Välj den Dynamics-användare som ska tilldelas aktiviteten.
