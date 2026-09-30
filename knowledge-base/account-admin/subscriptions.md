@@ -15,13 +15,13 @@ You organise your emails into categories — for example, Newsletters, Event inv
 
 You need administrator access to create and manage subscription categories.
 
-1. In the top navigation, click **Account**.
-2.  Click **Subscription and send outs**.
+1. Click the gear icon at the top right and select **Account Settings**.
+2.  Open **Compliance** in the left menu. Subscription categories are listed under **Subscriptions**.
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_08-52-07.png" alt="Account menu with the Subscription and send outs option highlighted"></div>
-3.  Create your categories. Keep names short and clear — contacts see them in the subscription center. Focus on broad communication types rather than very specific ones.
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/subscriptions-account-settings-compliance.png" alt="Account Settings page with an arrow pointing to Compliance in the left menu"></div>
+3.  Click **Add subscription** to create a category. Keep names short and clear — contacts see them in the subscription center. Focus on broad communication types rather than very specific ones.
 
-    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_08-54-54.png" alt="Subscription categories management page listing category names"></div>
+    <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/subscriptions-compliance-subscriptions.png" alt="Compliance page with the Subscriptions table listing three categories and an Add subscription button"></div>
 
 ## Your contacts
 
@@ -29,13 +29,13 @@ All contacts — new and existing — start with every subscription category tur
 
 ## Create an email
 
-When you create a new email, a subscription category dropdown appears in the email settings. Select the category that best matches the email's content.
+When you add a new email, expand **Advanced settings** in the Add Email dialog to find the **Subscription category** dropdown. Select the category that best matches the email's content.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_09-10-14.png" alt="Email creation form showing the subscription category dropdown"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/subscriptions-add-email-subscription-category.png" alt="Add Email dialog with Advanced settings expanded and an arrow pointing to the Subscription category dropdown"></div>
 
 If the email does not belong to any category — for example, a one-time notification — set it to **None**. Emails set to None are only filtered for contacts who have fully unsubscribed.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2018-05-22_09-11-03.png" alt="Email settings panel with the subscription category field set to None"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/subscriptions-editor-subscription-category.png" alt="Email editor left panel with an arrow pointing to the Subscription category field set to None"></div>
 
 ## Subscription center
 
@@ -47,7 +47,7 @@ The standard unsubscribe link in email footers automatically links to the subscr
 
 ## Automations
 
-You can change a contact's subscription status automatically using Journey automations. Add a step that triggers when a contact interacts with a component — for example, to remove them from a category after they click a specific link.
+You can change a contact's subscription status automatically using campaign automations. Open the **Automation** tab of a campaign and create an automation that triggers when a contact interacts with a component — for example, to remove them from a category after they click a specific link.
 
 ***
 
