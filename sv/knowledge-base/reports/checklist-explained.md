@@ -14,6 +14,8 @@ Exempel på checklistan
 
 ## Kategorier i checklistan
 
+Varje siffra i checklistan är klickbar. Klicka på den för att se kontakterna i den kategorin.
+
 Adresserad e-post av dig Det totala antalet kontakter som ingår i mottagarlistorna för det här utskicket.
 
 Dubbletter Antalet dubbletter av e-postadresser som hittats. Vanligtvis bara relevant när du använder mer än en mottagarlista.
@@ -22,7 +24,7 @@ Avregistrerade Antalet avsedda mottagare som har avregistrerat sig från prenume
 
 Återkallat samtycke Antalet kontakter som har återkallat sitt samtycke till att ta emot utskick från dig. Den specifika samtyckesinställningen är kontaktens Marketing Consent. [Den här artikeln](../gdpr-consent/how-does-consent-work.md) förklarar samtycke mer i detalj.
 
-Ej levererbara e-postadresser Antalet kontakter vars e-postadresser tidigare har rapporterat att de inte kan ta emot e-post. [Den här guiden](../email-deliverability/undeliverable-contacts-email-checklist.md) visar hur du hittar ej levererbara kontakter i din kontaktdatabas.
+Ej levererbara e-postadresser Antalet kontakter vars e-postadresser tidigare har rapporterat att de inte kan ta emot e-post. [Den här artikeln](../email-deliverability/bounce-handling.md) förklarar hur eMarketeer hanterar studsar.
 
 Levererbara men inaktiva Antalet kontakter som kan ta emot e-post men som inte har läst dina meddelanden eller haft någon registrerad aktivitet under en längre period. Du väljer om du vill skicka till dessa kontakter i Steg 2 av e-postutskicket, via inställningen Exclude Inactive Recipients. [Den här artikeln](../../documentation/email-sms/exclude-inactive-recipients.md) förklarar Exclude Inactive Recipients.
 

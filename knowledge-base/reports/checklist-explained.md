@@ -12,6 +12,8 @@ You see this page when sending an email. Review it to confirm your sendout reach
 
 ## Checklist categories
 
+Each number in the checklist is clickable. Click it to see the contacts in that category.
+
 **Addressed email by you**\
 This is the total number of contacts included in the recipient lists used for this sendout.
 
