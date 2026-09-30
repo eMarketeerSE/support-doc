@@ -39,7 +39,7 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 
 This action requires the Administrator role.
 
-In eMarketeer, go to [Account → Plugins & Integration → Microsoft Dynamics 365](https://app.emarketeer.com/corporate/gui/account/integrations/dynamics.php).
+In eMarketeer, click the gear icon at the top right, choose **Account Settings**, open **Integrations**, and click **Manage** on the **Microsoft Dynamics 365** card.
 
 Click **Connect to Dynamics 365**.
 

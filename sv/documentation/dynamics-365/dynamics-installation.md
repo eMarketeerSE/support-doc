@@ -39,7 +39,7 @@ För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskn
 
 Denna åtgärd kräver rollen Administrator.
 
-I eMarketeer, gå till [Account → Plugins & Integration → Microsoft Dynamics 365](https://app.emarketeer.com/corporate/gui/account/integrations/dynamics.php).
+I eMarketeer klickar du på kugghjulsikonen uppe till höger, väljer **Account Settings**, öppnar **Integrations** och klickar på **Manage** på kortet **Microsoft Dynamics 365**.
 
 Klicka på **Connect to Dynamics 365**.
 
