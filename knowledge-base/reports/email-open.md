@@ -6,7 +6,7 @@ description: >-
 
 # When is an email registered as opened?
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-04-27_11-57-42.png" alt="Email report graph with the number of opened emails highlighted"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-open-email-process-opened.png" alt="Email process widget in the email report with the number of opened emails highlighted"></div>
 
 Email report graph, number of opened emails highlighted.
 

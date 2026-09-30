@@ -6,7 +6,7 @@ description: >-
 
 # När registreras en e-post som öppnad?
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-04-27_11-57-42.png" alt="E-postrapportens graf med antalet öppnade e-postmeddelanden markerat"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-open-email-process-opened.png" alt="Widgeten Email process i e-postrapporten med antalet öppnade e-postmeddelanden markerat"></div>
 
 E-postrapportens graf, antalet öppnade e-postmeddelanden markerat.
 
