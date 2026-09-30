@@ -93,6 +93,4 @@ To send to the contacts in a segment:
 3. Click "contact filter."
 4. In the drop-down, choose the segment you want to send to. The filter must be saved as a segment to appear here.
 
-> TODO: verify — check the wording of these steps against the current send dialog.
-
 Every contact that matches the segment at send time receives the email.

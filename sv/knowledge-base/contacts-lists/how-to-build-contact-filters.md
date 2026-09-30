@@ -93,6 +93,4 @@ För att skicka till kontakterna i ett segment:
 3. Klicka på "contact filter".
 4. I rullgardinen, välj det segment du vill skicka till. Filtret måste vara sparat som ett segment för att synas här.
 
-> TODO: verify — check the wording of these steps against the current send dialog.
-
 Varje kontakt som matchar segmentet vid sändningstillfället tar emot e-posten.
