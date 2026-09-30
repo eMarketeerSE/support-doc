@@ -52,11 +52,11 @@ Elusive Icons page for the calendar icon
 {% step %}
 ### Check which navigation menu style is in use
 
-In eMarketeer, check which navigation menu style your app uses. The setting is called **Navigation Menu** and lives at the top of the Settings tab for the Content block.
+In eMarketeer, check which navigation menu style your app uses. The setting is called **Navigation Menu** and lives at the top of the Content tab for the Content block.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-4-1-navigation-menu-style-setting.png" alt="Navigation Menu setting location on the Content Settings tab"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-4-1-navigation-menu-style-setting.png" alt="Navigation Menu setting location on the Content tab"></div>
 
-Navigation Menu setting location on the Content Settings tab
+Navigation Menu setting location on the Content tab
 
 There are three navigation menu styles: Icons, Icon List, and List. Note which one you use — you only need to change icons for that style.
 
@@ -68,7 +68,7 @@ The three navigation menu style options
 {% step %}
 ### Open the HTML tab
 
-On the mobile app component's editing page, click **Enable Developer Mode** in the left-side Tools menu, open **Colors, Fonts & Head**, and switch to the **HTML** tab in the right-side menu.
+On the mobile app component's editing page, click **Enable Developer Mode** in the left-side Tools menu. Select the Content block (for example in **Tree View**, click **container1 (Content)**), click **Edit Selected**, and switch to the **HTML** tab in the right-side menu.
 
 If you do not see the Developer Mode link, ask an account administrator to grant Developer permissions to your user account.
 

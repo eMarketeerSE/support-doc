@@ -52,11 +52,11 @@ Sidan för kalenderikonen på Elusive Icons
 {% step %}
 ### Kontrollera vilken stil på navigeringsmenyn som används
 
-I eMarketeer kontrollerar du vilken stil din app använder för navigeringsmenyn. Inställningen heter **Navigation Menu** och finns högst upp på fliken Settings för Content-blocket.
+I eMarketeer kontrollerar du vilken stil din app använder för navigeringsmenyn. Inställningen heter **Navigation Menu** och finns högst upp på fliken Content för Content-blocket.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-4-1-navigation-menu-style-setting.png" alt="Plats för Navigation Menu-inställningen på fliken Content Settings"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-4-1-navigation-menu-style-setting.png" alt="Plats för Navigation Menu-inställningen på fliken Content"></div>
 
-Plats för Navigation Menu-inställningen på fliken Content Settings
+Plats för Navigation Menu-inställningen på fliken Content
 
 Det finns tre stilar för navigeringsmenyn: Icons, Icon List och List. Notera vilken du använder — du behöver bara ändra ikoner för den stilen.
 
@@ -68,7 +68,7 @@ De tre alternativen för navigeringsmenystil
 {% step %}
 ### Öppna HTML-fliken
 
-På mobilappskomponentens redigeringssida klickar du på **Enable Developer Mode** i verktygsmenyn till vänster, öppnar **Colors, Fonts & Head** och växlar till fliken **HTML** i menyn till höger.
+På mobilappskomponentens redigeringssida klickar du på **Enable Developer Mode** i verktygsmenyn till vänster. Markera Content-blocket (klicka till exempel på **container1 (Content)** i **Tree View**), klicka på **Edit Selected** och växla till fliken **HTML** i menyn till höger.
 
 Om du inte ser länken Developer Mode, be en kontoadministratör att ge ditt användarkonto Developer-behörighet.
 
