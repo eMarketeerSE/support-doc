@@ -6,15 +6,15 @@ description: >-
 
 # Form editor: UI overview
 
-The form editor has six tabs: Designer, Preview, Themes, Logic, JSON Editor, and Translation. This article explains what each tab does and what question types are available.
+The form editor has six tabs: Designer, Preview, Themes, Logic, JSON Editor, and Translations. This article explains what each tab does and what question types are available.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormTabs.png" alt="The form editor showing the six tabs: Designer, Preview, Themes, Logic, JSON Editor, and Translation."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-form-tabs.png" alt="The form editor showing the six tabs: Designer, Preview, Themes, Logic, JSON Editor, and Translations."></div>
 
 ## Designer tab
 
-The Designer tab is where you build your form. It has three main areas: the Toolbox on the left, the design surface in the center, and the Property Grid on the right.
+The Designer tab is where you build your form. It has three main areas: the Toolbox on the left, the design surface in the center, and the Property Grid on the right. The Toolbox shows icons only; hover over an icon to see the question type. The Property Grid is closed until you click **Survey settings** above the design surface, or select a question and click a category icon in the right-hand bar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormDesignerTab.png" alt="The Designer tab with the Toolbox on the left, design surface in the center, and Property Grid on the right."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-designer-tab-overview.png" alt="The Designer tab with the Toolbox icon column on the left, the design surface in the center, and the Property Grid panel open on the right."></div>
 
 ### Toolbox
 
@@ -130,7 +130,7 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 **Image** Embeds a static image or video in the form. Respondents cannot interact with it.
 
-**Expression** Displays a calculated value — a sum, average, or concatenation of other answers. Useful on the final page to summarize what the respondent submitted.
+**Expression (read-only)** Displays a calculated value — a sum, average, or concatenation of other answers. Useful on the final page to summarize what the respondent submitted.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Expression.gif" alt="An expression question on the design surface, showing a calculated value updating in real time."></div>
 
@@ -162,9 +162,9 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 <summary>Captcha</summary>
 
-**Captcha** Adds an "I'm not a robot" checkbox to the form. The label is translated to the form's set language. The captcha is required, and a form cannot be saved without it.
+**Captcha** Adds bot protection to the form. The captcha resolves in the background, so respondents do not see it on the rendered form. In the Designer it appears as a placeholder. The captcha is required, and a form cannot be saved without it.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/captcha.png" alt="A Captcha &#x27;I&#x27;m not a robot&#x27; checkbox on the design surface."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/captcha.png" alt="A Captcha question on the design surface."></div>
 
 </details>
 
@@ -172,7 +172,7 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 To add a question, drag it from the Toolbox onto the design surface. You can also click the **Add Question** button at the bottom of a page to insert a single-line input. Click the ellipsis icon next to the button to choose a different type before inserting.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Add-Questions-button.png" alt="The Add Question button and ellipsis type selector at the bottom of a page."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-add-question-button.png" alt="The Add Question button at the bottom of a page, with the question type menu open from the ellipsis icon."></div>
 
 ### In-place editing
 
@@ -236,7 +236,7 @@ Click **Add New Rule**. Each rule has a condition (if) and one or more actions (
 * Run a custom expression
 * Set the content of the completion page
 
-To edit a rule, click it to expand it, make changes, and click **Done**. Use the Question Filter and Action Type Filter to narrow the list when a form has many rules.
+To edit a rule, click it to expand it, make changes, and click **Done**. Use the **All Questions** and **All Action Types** filters to narrow the list when a form has many rules.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRule.png" alt="The Logic tab with a rule expanded, showing the condition and action editors."></div>
 
@@ -246,14 +246,14 @@ The JSON Editor tab shows the raw JSON configuration of your form. You can edit 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/JSONTab.png" alt="The JSON Editor tab showing a form&#x27;s raw JSON configuration."></div>
 
-## Translation tab
+## Translations tab
 
-The Translation tab lists all translatable strings in your form. Use it to provide text in multiple languages so respondents can switch between them.
+The Translations tab lists all translatable strings in your form. Use it to provide text in multiple languages so respondents can switch between them.
 
-**Adding a language** — open Language Settings and click **Add** to select a language from the list.
+**Adding a language** — open the Languages panel on the right and click the plus icon to select a language from the list.
 
-**Filtering** — use the Page Filter to show strings from a specific page. Enable **Used Strings** to show only strings that have been translated.
+**Filtering** — use the **All Pages** filter to show strings from a specific page. Turn on **Used Strings Only** to hide strings that are not used in the form.
 
 **Import and export** — use the toolbar buttons to import or export translations as a CSV file.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TranslationsTab.png" alt="The Translation tab showing the language settings panel and translation string table."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TranslationsTab.png" alt="The Translations tab showing the language settings panel and translation string table."></div>

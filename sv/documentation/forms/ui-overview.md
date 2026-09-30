@@ -6,15 +6,15 @@ description: >-
 
 # Formuläreditor: UI-översikt
 
-Formuläreditorn har sex flikar: Designer, Preview, Themes, Logic, JSON Editor och Translation. Den här artikeln beskriver vad varje flik gör och vilka frågetyper som finns tillgängliga.
+Formuläreditorn har sex flikar: Designer, Preview, Themes, Logic, JSON Editor och Translations. Den här artikeln beskriver vad varje flik gör och vilka frågetyper som finns tillgängliga.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormTabs.png" alt="Formuläreditorn med de sex flikarna: Designer, Preview, Themes, Logic, JSON Editor och Translation."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-form-tabs.png" alt="Formuläreditorn med de sex flikarna: Designer, Preview, Themes, Logic, JSON Editor och Translations."></div>
 
 ## Designer-fliken
 
-Designer-fliken är där du bygger ditt formulär. Den har tre huvuddelar: Toolbox till vänster, designytan i mitten och Property Grid till höger.
+Designer-fliken är där du bygger ditt formulär. Den har tre huvuddelar: Toolbox till vänster, designytan i mitten och Property Grid till höger. Toolbox visar bara ikoner. Håll muspekaren över en ikon för att se frågetypen. Property Grid är stängd tills du klickar på **Survey settings** ovanför designytan, eller markerar en fråga och klickar på en kategoriikon i fältet till höger.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormDesignerTab.png" alt="Designer-fliken med Toolbox till vänster, designytan i mitten och Property Grid till höger."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-designer-tab-overview.png" alt="Designer-fliken med Toolbox som ikonkolumn till vänster, designytan i mitten och panelen Property Grid öppen till höger."></div>
 
 ### Toolbox
 
@@ -130,7 +130,7 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 **Image** Bäddar in en statisk bild eller video i formuläret. Respondenten kan inte interagera med den.
 
-**Expression** Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättning av andra svar. Användbart på den sista sidan för att sammanfatta vad respondenten har skickat in.
+**Expression (read-only)** Visar ett beräknat värde — en summa, ett medelvärde eller en sammansättning av andra svar. Användbart på den sista sidan för att sammanfatta vad respondenten har skickat in.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Expression.gif" alt="En expression-fråga i designytan som visar ett beräknat värde som uppdateras i realtid."></div>
 
@@ -162,9 +162,9 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 <summary>Captcha</summary>
 
-**Captcha** Lägger till en kryssruta med "I'm not a robot" i formuläret. Texten översätts till formulärets inställda språk. Captchan är obligatorisk, och ett formulär kan inte sparas utan den.
+**Captcha** Lägger till botskydd i formuläret. Captchan löses i bakgrunden, så respondenterna ser den inte i det renderade formuläret. I Designer visas den som en platshållare. Captchan är obligatorisk, och ett formulär kan inte sparas utan den.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/ui-overview/captcha.png" alt="En Captcha-kryssruta med 'I'm not a robot' i designytan."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/captcha.png" alt="En Captcha-fråga i designytan."></div>
 
 </details>
 
@@ -172,7 +172,7 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 För att lägga till en fråga drar du den från Toolbox till designytan. Du kan också klicka på knappen **Add Question** längst ned på en sida för att infoga ett enkelradigt inmatningsfält. Klicka på ellips-ikonen bredvid knappen för att välja en annan typ innan du infogar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Add-Questions-button.png" alt="Knappen Add Question och ellipsis-typväljaren längst ned på en sida."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-add-question-button.png" alt="Knappen Add Question längst ned på en sida, med frågetypsmenyn öppen från ellips-ikonen."></div>
 
 ### Redigering direkt i designytan
 
@@ -236,7 +236,7 @@ Klicka på **Add New Rule**. Varje regel har ett villkor (om) och en eller flera
 * Kör ett anpassat uttryck
 * Ange innehållet på bekräftelsesidan
 
-Om du vill redigera en regel klickar du på den för att expandera den, gör dina ändringar och klickar på **Done**. Använd Question Filter och Action Type Filter för att begränsa listan när ett formulär har många regler.
+Om du vill redigera en regel klickar du på den för att expandera den, gör dina ändringar och klickar på **Done**. Använd filtren **All Questions** och **All Action Types** för att begränsa listan när ett formulär har många regler.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRule.png" alt="Logic-fliken med en expanderad regel som visar villkors- och åtgärdseditorerna."></div>
 
@@ -246,14 +246,14 @@ JSON Editor-fliken visar formulärets råa JSON-konfiguration. Du kan redigera d
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/JSONTab.png" alt="JSON Editor-fliken med ett exempel på en formulärkonfiguration."></div>
 
-## Translation-fliken
+## Translations-fliken
 
-Translation-fliken listar alla översättningsbara strängar i ditt formulär. Använd den för att ange text på flera språk så att respondenter kan välja mellan dem.
+Translations-fliken listar alla översättningsbara strängar i ditt formulär. Använd den för att ange text på flera språk så att respondenter kan välja mellan dem.
 
-**Lägga till ett språk** — öppna Language Settings och klicka på **Add** för att välja ett språk från listan.
+**Lägga till ett språk** — öppna panelen Languages till höger och klicka på plusikonen för att välja ett språk från listan.
 
-**Filtrering** — använd Page Filter för att visa strängar från en specifik sida. Aktivera **Used Strings** för att bara visa strängar som har översatts.
+**Filtrering** — använd filtret **All Pages** för att visa strängar från en specifik sida. Aktivera **Used Strings Only** för att dölja strängar som inte används i formuläret.
 
 **Import och export** — använd verktygsfältsknapparna för att importera eller exportera översättningar som en CSV-fil.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TranslationsTab.png" alt="Translation-fliken med panelen för språkinställningar och strängtabellen synliga."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TranslationsTab.png" alt="Translations-fliken med panelen för språkinställningar och strängtabellen synliga."></div>
