@@ -8,16 +8,16 @@ description: >-
 
 A contact list is a static segmentation of contacts. You decide which contacts belong to it and use the list as the audience when you send a campaign.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-08-18_14-57-33.png" alt="The four steps to create a new contact list, shown in sequence in the eMarketeer interface"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/new-contact-list-contacts-list-nav.png" alt="The Manage contact lists panel on the Contacts page, with the Contacts menu item and the Create list button marked"></div>
 
 The steps to create a new contact list.
 
 ## Step-by-step
 
-1. Open the Contacts page by clicking Contacts on the page banner.
-2. Open the Contact List page from the left navigation.
-3. Click Add Contact List above the list of existing contact lists.
-4. Enter a name and click ADD to create the list.
+1. Open the Contacts page by clicking Contacts in the left sidebar.
+2. Click Contact lists in the navigation on the Contacts page. This opens the Manage contact lists panel.
+3. Click Create list above the list of existing contact lists.
+4. Enter a name and click Create to create the list.
 
 {% hint style="info" %}
 Contact lists can also be added from the [Bulk Actions](../contacts-lists/bulk-actions-tool.md) tool — select the contacts you want and add them to a new or existing list.
