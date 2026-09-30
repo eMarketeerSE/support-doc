@@ -44,13 +44,13 @@ Välj samma kontaktgrupp som du använde för den ursprungliga kampanjen som din
 {% endstep %}
 
 {% step %}
-### På Steg 2, Send Options, klicka på \[Add More Recipients]
+### På Steg 2, Send Options, klicka på + Add recipients
 
 Använd den här knappen för att lägga till det urval av kontakter du vill blockera från påminnelsen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-add-more.png" alt="På sidan för det andra utskickssteget, klicka på knappen Add More Recipients för att lägga till det urval av kontakter som ska blockeras senare"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/configuring-reminder-email-send-options-add-recipients.png" alt="Steget Send Options med länken + Add recipients markerad"></div>
 
-Knappen \[Add More Recipients] på sidan Send Options
+Länken + Add recipients på sidan Send Options
 {% endstep %}
 
 {% step %}

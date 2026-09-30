@@ -44,11 +44,11 @@ Choose the same group of contacts you used for the original campaign as your fir
 {% endstep %}
 
 {% step %}
-### On Step 2, Send Options, click \[Add More Recipients]
+### On Step 2, Send Options, click + Add recipients
 
 Use this button to add the Selection of contacts you want to block from the reminder.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/rem-add-more.png" alt="On the page for the second sendout step, click the Add More Recipients button to add the selection of contacts to block later"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/configuring-reminder-email-send-options-add-recipients.png" alt="Send Options step with the + Add recipients link highlighted"></div>
 {% endstep %}
 
 {% step %}
