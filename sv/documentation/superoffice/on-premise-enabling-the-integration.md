@@ -14,8 +14,8 @@ Om du inte har slutfört dessa förutsättningar, [följ dessa instruktioner](on
 
 När SuperOffice är klart slutför du resten av uppsättningen i eMarketeer.
 
-1. Logga in i eMarketeer och gå till **Account** > **Plugins and integrations**.
-2. Klicka på **Super Office** för att öppna sidan med integrationsinställningar.
+1. Logga in i eMarketeer, klicka på kugghjulsikonen uppe till höger och välj **Account Settings**.
+2. Öppna **Integrations** i Account Settings-menyn till vänster och klicka sedan på **Manage** på kortet **Superoffice CRM**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/onpremisesettings.png" alt="Inställningar för SuperOffice on-premise-integration"></div>
 
