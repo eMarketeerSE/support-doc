@@ -45,11 +45,11 @@ En uppsättning kontroller låter dig forma vyn:
 
 ## Nodalternativ
 
-Klicka på valfri nod i flödet för att öppna två alternativ: **Drill down** och **Filter**.
+Klicka på valfri nod i flödet för att öppna två alternativ: **Drill-Down** och **Filter**.
 
-<div data-with-frame="true" align="left"><img src="../../../assets/traffic-analyzer/NodeOptions.png" alt="Alternativen Drill down och Filter som visas när en nod klickas."></div>
+<div data-with-frame="true" align="left"><img src="../../../assets/traffic-analyzer/NodeOptions.png" alt="Alternativen Drill-Down och Filter som visas när en nod klickas."></div>
 
-### Borra ner i en nod
+### Drill-Down i en nod
 
 Det är här det blir intressant. Drill down-rapporten visar hur en enskild nod förhåller sig till resten av din trafik — sessionerna, konverteringarna och leadsen bakom den.
 

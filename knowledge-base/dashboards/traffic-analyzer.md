@@ -45,11 +45,11 @@ A set of controls lets you shape the view:
 
 ## Node options
 
-Click any node in the flow to open two options: **Drill down** and **Filter**.
+Click any node in the flow to open two options: **Drill-Down** and **Filter**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/NodeOptions.png" alt="The Drill down and Filter options shown when a node is clicked."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/NodeOptions.png" alt="The Drill-Down and Filter options shown when a node is clicked."></div>
 
-### Drill down into a node
+### Drill-Down into a node
 
 This is where it gets interesting. The drill-down report shows how a single node relates to the rest of your traffic — the sessions, conversions, and leads behind it.
 
