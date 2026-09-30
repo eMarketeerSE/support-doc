@@ -37,7 +37,7 @@ Filtreringen hjälper, men eMarketeer är inget verktyg för att rensa listor. O
 
 Du ser studsfrekvensen i e-postrapporten. Håll din genomsnittliga studsfrekvens under 5 %, annars pausas dina utskick för granskning.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-04-20-kl.-12.44.38.png" alt="studsfrekvens som visas i e-postrapporten"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/about-email-bounces-email-report-bounce-rate.png" alt="Kortet Sendout health i e-postrapporten med en studsfrekvens på 2,94 % och en klagomålsfrekvens på 0 %, båda markerade Healthy"></div>
 
 ### Vad händer om min studsfrekvens är för hög?
 
