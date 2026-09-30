@@ -11,58 +11,62 @@ Filters let you segment contacts by any criteria you set up, from broad groups t
 This article walks through the filter builder, shows a few example filters, and covers the actions you can take on a selection of contacts.
 
 {% hint style="info" %}
-The filter builder is also used inside Journeys, Lead Streams, and lead scoring rules — typically with a slightly smaller set of options. Understanding it here gives you a solid foundation for working effectively with eMarketeer's automated sequences ([Journeys](../journeys/journeys.md)) and lead qualification tools ([Lead Streams](../lead-board-scoring/lead-streams.md), [Lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)).
+Journeys, Lead Streams, and lead scoring rules use mostly the same dialog to build their conditions — typically with a slightly smaller set of options. Understanding it here gives you a solid foundation for working effectively with eMarketeer's automated sequences ([Journeys](../journeys/journeys.md)) and lead qualification tools ([Lead Streams](../lead-board-scoring/lead-streams.md), [Lead scoring](../lead-board-scoring/how-lead-scoring-works-in-emarketeer.md)).
 {% endhint %}
 
 ## Get to know the filter builder
 
-In eMarketeer, click the "contacts" tab. This is where you work with and get to know your contacts. To segment or build a selection, click the "filter" tab on the right-hand side, just above the contact list. A web panel opens — this is where you build filters and find the ones you have saved.
+In eMarketeer, click **Contacts** in the left sidebar. This is where you work with and get to know your contacts. To segment or build a selection, click **Filter** just above the contact list. The **Filter contacts** dialog opens — this is where you build filters. Use **Manage segments** at the top of the dialog to find the segments you have saved.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/filter_panel.png" alt="The filter panel in eMarketeer."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-contacts-dialog.png" alt="The Filter contacts dialog with the Add condition column on the left and no conditions yet."></div>
 
-The first drop-down lists every category you can filter on:
+The **Add condition** column on the left lists every category you can filter on:
 
-* Contact fields (any information on the contact card)
-* Marketing engagement
+* Engagement
+* Contact Tags
+* Score
+* Contact Fields (any information on the contact card)
+* Lead State
 * Delivery
 * Dates
 * Consent
-* Subscription categories
-* Contact lists
+* Subscription
+* Contact List
+* Contact Source
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/categories.png" alt="The filter category drop-down."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-condition-categories.png" alt="The filter categories in the Add condition column."></div>
 
 ## Build a filter
 
-To build a filter, pick the category and then a suitable operator — for example, "equals" or "doesn't equal." The operators available depend on the category.
+To build a filter, click a category and then choose a suitable condition — for example, "Equals" or "Not Equals." The conditions available depend on the category.
 
 For a simple example, segment contacts by country:
 
-1. In the first drop-down, choose Contact fields -> country.
+1. Click **Contact Fields**, then choose **Country** in the **Field** drop-down.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/add_country.png" alt="Adding the country field to a filter."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-field-country.png" alt="The Field drop-down in the Add condition dialog with Country highlighted."></div>
 
-2. In the operator drop-down, choose "equals."
+2. In the **Condition** drop-down, choose "Equals."
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/country_operator.png" alt="Setting the equals operator on the country filter."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-condition-operator.png" alt="The Condition drop-down open, showing Equals, Not Equals, Begins With and other conditions."></div>
 
-3. In the third field, type the country.
+3. In the **Value** field, type the country and click **Add condition**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/country.png" alt="Typing the country value."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-country-sweden.png" alt="The Add condition dialog filled in with Country, Equals and Sweden."></div>
 
-4. Click "apply." You now see all contacts that match the filter.
+4. Click **Apply**. You now see all contacts that match the filter.
 
 ## Make a filter more specific by adding criteria
 
-To narrow a filter, add more criteria. After the first one, click "and" or "or" to add another.
+To narrow a filter, add more criteria. Click a category again to add another condition. New conditions are joined with AND. Click the **AND** label between two conditions to switch it to **OR**.
 
 * AND: the contact must match both criteria.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/and_operator.png" alt="A filter using the AND operator."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-and-conditions.png" alt="Two conditions joined by AND: Country equals Sweden and Engagement any form submitted."></div>
 
 * OR: the contact must match one of the criteria.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/or_operator2.png" alt="A filter using the OR operator."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-build-contact-filters-filter-or-conditions.png" alt="Two conditions joined by OR: Country equals Sweden or Country equals Norway."></div>
 
 You can add as many criteria as you like and mix AND and OR in the same filter.
 
@@ -70,23 +74,25 @@ You can add as many criteria as you like and mix AND and OR in the same filter.
 
 The engagement category is worth highlighting. You can filter contacts by how they engaged with your marketing — for example, whether they filled out a specific form, clicked a link in an email, or visited a page on your website. This is useful for grouping contacts who have shown enough interest to be passed to sales, or for sending follow-up content based on activity.
 
-## Save filters
+## Save segments
 
-Save a filter to come back to it quickly. Saved filters are not personal — every user on your account can see them. You find saved filters in the same panel as the filter builder. You can also mark a filter as a favorite to pin it to the left-hand menu.
+Save a filter as a segment to come back to it quickly. Click **Save As Segment** in the Filter contacts dialog. Segments are not personal — every user on your account can see them. You find saved segments under **Manage segments** in the same dialog and under **Segments** in the Contacts menu. You can also mark a segment as a favorite with the star in **Manage segments** to pin it to the left-hand menu.
 
 ## What you can do with your selection of contacts
 
 ### Bulk actions
 
-Several bulk actions let you update every contact in the filter at once. You can update legal basis, change subscriptions, add the contacts to a campaign or an email list, and more.
+Several bulk actions let you update every contact in the filter at once. Select the contacts with the checkboxes in the list, then click **Bulk actions**. You can update legal basis, change subscriptions, add the contacts to a contact list, add tags, and more.
 
-### Set the filter as a recipient
+### Set a segment as a recipient
 
-To send to the contacts in a filter:
+To send to the contacts in a segment:
 
 1. Go to the send-out options for your email, where you add recipients.
 2. Choose "eMarketeer contact data base."
 3. Click "contact filter."
-4. In the drop-down, choose the filter you want to send to. The filter must be saved to appear here.
+4. In the drop-down, choose the segment you want to send to. The filter must be saved as a segment to appear here.
 
-Every contact that matches the filter at send time receives the email.
+> TODO: verify — check the wording of these steps against the current send dialog.
+
+Every contact that matches the segment at send time receives the email.
