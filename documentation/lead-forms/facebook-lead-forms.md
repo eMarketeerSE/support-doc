@@ -28,7 +28,7 @@ Once connected, submissions can:
 
 First, make sure you have one or more Businesses on Facebook.
 
-As an admin in eMarketeer, click "Settings", "Plugins and integrations", and "Facebook". Click "Connect to Facebook" to start the connection.
+As an admin in eMarketeer, click the gear icon, then "Account Settings" and "Integrations". Click "Manage" on the Facebook card. Click "Connect to Facebook" to start the connection.
 
 In the Facebook popup, log in with your personal profile to identify yourself.
 
@@ -42,11 +42,11 @@ Click "Continue". From the selected businesses, pick the pages you want to conne
 
 Finally, agree to the eMarketeer permissions and save the connection.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Facebook permissions confirmation"></div>
-
 You are now connected.
 
-eMarketeer lists the businesses it has access to. Your last step is to check which businesses you want to receive leads from. You can enable or disable each one at any time on this page.
+eMarketeer lists the businesses it has access to. Your last step is to check the box next to each business you want to receive leads from. You can change the selection at any time on this page.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/facebook-lead-forms-facebook-connected-organizations.png" alt="The Facebook page in Account Settings, showing the connected profile, a checkbox for each business and the Disconnect from Facebook button"></div>
 
 ## Receiving leads
 
@@ -56,7 +56,7 @@ Once your lead ads are live, [use this tool](https://developers.facebook.com/too
 
 When any submission arrives, real or test, it is sent to eMarketeer automatically. You will find these contacts under Contacts in the Engagement filter.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement filter showing Facebook lead submissions"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/facebook-lead-forms-filter-facebook-lead-gen-form.png" alt="The Filter contacts dialog with the Engagement type list open and Facebook Lead Gen Form marked"></div>
 
 ## Process incoming leads from Facebook
 

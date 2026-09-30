@@ -28,7 +28,7 @@ När kopplingen är aktiv kan inskick:
 
 Se först till att du har en eller flera Businesses på Facebook.
 
-Som administratör i eMarketeer, klicka på "Settings", "Plugins and integrations" och "Facebook". Klicka på "Connect to Facebook" för att starta anslutningen.
+Som administratör i eMarketeer, klicka på kugghjulsikonen och sedan på "Account Settings" och "Integrations". Klicka på "Manage" på Facebook-kortet. Klicka på "Connect to Facebook" för att starta anslutningen.
 
 I Facebook-popupen, logga in med din personliga profil för att identifiera dig.
 
@@ -42,11 +42,11 @@ Klicka på "Continue". Från de valda businesses väljer du de sidor du vill ans
 
 Slutligen, godkänn eMarketeers behörigheter och spara anslutningen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-14-kl.-15.09.24.png" alt="Bekräftelse av Facebook-behörigheter"></div>
-
 Du är nu ansluten.
 
-eMarketeer listar de businesses som det har åtkomst till. Ditt sista steg är att kontrollera vilka businesses du vill ta emot leads från. Du kan aktivera eller inaktivera varje när som helst på den här sidan.
+eMarketeer listar de businesses som det har åtkomst till. Ditt sista steg är att bocka i rutan bredvid varje business du vill ta emot leads från. Du kan ändra urvalet när som helst på den här sidan.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/facebook-lead-forms-facebook-connected-organizations.png" alt="Facebook-sidan i Account Settings med den anslutna profilen, en kryssruta för varje business och knappen Disconnect from Facebook"></div>
 
 ## Ta emot leads
 
@@ -56,7 +56,7 @@ När dina leadannonser är publicerade, [använd det här verktyget](https://dev
 
 När något inskick anländer, riktigt eller test, skickas det automatiskt till eMarketeer. Du hittar dessa kontakter under Contacts i Engagement-filtret.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-12-15-kl.-08.55.45.png" alt="Engagement-filter som visar Facebook-leadsinskick"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/facebook-lead-forms-filter-facebook-lead-gen-form.png" alt="Dialogen Filter contacts med listan Engagement type öppen och Facebook Lead Gen Form markerat"></div>
 
 ## Bearbeta inkommande leads från Facebook
 
