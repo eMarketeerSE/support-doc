@@ -13,10 +13,10 @@ This guide walks through both the recommended Google Tag Manager template and a 
 Before you start, you need your unique Tracker ID and script.
 
 1. Log in to your eMarketeer account.
-2. Go to [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). You must be an admin to access this page.
-3. Copy your Tracker ID and script. You will need them during installation.
+2. Click the gear icon at the top right, choose **Account Settings**, open **Integrations**, and click **View scripts** under **Developer resources > Website Scripts**. You must be an admin to access this page.
+3. Copy your tracker ID and, separately, the form base script shown further down the same page. You will need them during installation.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Tracker Settings page showing the Tracker ID and script"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/installing-the-web-tracker-script-on-your-website-website-scripts-tracker-id.png" alt="Website Scripts panel showing the tracker ID with its copy icon"></div>
 
 ## Option 1: Easy install (recommended)
 

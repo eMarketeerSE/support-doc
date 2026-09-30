@@ -13,10 +13,10 @@ Den här guiden går igenom både den rekommenderade mallen för Google Tag Mana
 Innan du börjar behöver du ditt unika Tracker ID och skript.
 
 1. Logga in på ditt eMarketeer-konto.
-2. Gå till [Tracker Settings](https://app.emarketeer.com/corporate/gui/account/integrations/tracker.php). Du måste vara administratör för att komma åt den här sidan.
-3. Kopiera ditt Tracker ID och skript. Du behöver dem under installationen.
+2. Klicka på kugghjulsikonen uppe till höger, välj **Account Settings**, öppna **Integrations** och klicka på **View scripts** under **Developer resources > Website Scripts**. Du måste vara administratör för att komma åt den här sidan.
+3. Kopiera ditt tracker ID och, separat, formulärets basskript som visas längre ned på samma sida. Du behöver dem under installationen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Screenshot-2026-01-13-132700-1024x128.png" alt="Sidan Tracker Settings som visar Tracker ID och skript"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/installing-the-web-tracker-script-on-your-website-website-scripts-tracker-id.png" alt="Panelen Website Scripts som visar tracker ID med kopieringsikonen"></div>
 
 ## Alternativ 1: Enkel installation (rekommenderas)
 
@@ -28,7 +28,7 @@ Vi tillhandahåller en färdig mallfil som du kan importera direkt till GTM.
 {% step %}
 ### Ladda ner mallfilen
 
-{% file src="../../../.gitbook/assets/emarketeer-tracker.tpl" %}
+{% file src="../../.gitbook/assets/emarketeer-tracker.tpl" %}
 {% endfile %}
 
 Mallen är kompatibel med fler än tio av de vanligaste samtyckesplattformarna för cookies, inklusive CookieBot och CookieYes.
