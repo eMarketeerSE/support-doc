@@ -15,11 +15,11 @@ Only the campaign components are transferred. Contacts and automations stay in t
 You need two things:
 
 1. A campaign you want to transfer.
-2. The EMID of the destination account.
+2. The TenantID of the destination account.
 
-### Get the destination EMID
+### Get the destination TenantID
 
-The EMID is a unique identifier for an eMarketeer account. Ask a user on the destination account to log in and click "Account" → "My Identifier Code (EMID)".
+The TenantID is a unique identifier for an eMarketeer account. Ask a user on the destination account to log in and click their avatar in the top right. Their TenantID appears at the top of the menu, under their email and company name.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png" alt="EMID lookup under the Account menu"></div>
 
@@ -27,11 +27,11 @@ Have them copy the code and send it to you.
 
 ### Transfer the campaign
 
-Open "Campaigns" and find the campaign you want to transfer in the list. Click the gear icon on the far right of that row, then click "Transfer".
+Open "Campaigns" and find the campaign you want to transfer in the list. Click the three-dot icon on the far right of that row, then click "Transfer campaign".
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.17.59.png" alt="Transfer option in the gear menu for a campaign"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-campaign-row-transfer-option.png" alt="The three-dot menu of a campaign row with the Transfer campaign option highlighted"></div>
 
-A dialog opens and asks for the EMID of the destination account. Paste the EMID you received and click "Fetch User".
+A dialog opens and asks for the TenantID of the destination account. Paste the TenantID you received and click "Fetch User".
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transferdialog.png" alt="Transfer dialog with EMID field"></div>
 
