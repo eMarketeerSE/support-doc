@@ -4,7 +4,7 @@ description: Journey step that adds or removes a contact from a project in Super
 
 # Add / Remove from project
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AddRemoveFromProject.png" alt="Add or remove from project step settings panel"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-add-remove-project-project-step-settings.png" alt="Update Project dialog with the Add to project and Remove from project options and the project search field"></div>
 
 ## Settings
 

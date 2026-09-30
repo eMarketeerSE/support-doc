@@ -8,7 +8,7 @@ description: >-
 
 Lägger till eller tar bort en kontakt från ett projekt i SuperOffice.
 
-<div align="left" data-with-frame="true"><img src="../../../assets/so-journey-steps/AddRemoveFromProject.png" alt="Inställningspanelen för steget Lägg till / Ta bort från projekt"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-add-remove-project-project-step-settings.png" alt="Dialogen Update Project med alternativen Add to project och Remove from project och sökfältet för projekt"></div>
 
 ## Inställningar
 
