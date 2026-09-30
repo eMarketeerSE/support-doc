@@ -31,16 +31,6 @@ When sending emails you can choose one or more sources for your recipients. The 
 
 File upload option when sending an email.
 
-### Import to a campaign
-
-If you want to prepare your campaign ahead of sending, you can import the contacts straight to the [campaign contacts list](../campaigns/campaign-contacts.md). You can then use the "All Contacts in this Campaign" option to address that selection.
-
-Note that the campaign contacts list updates dynamically as new contacts interact with the campaign, so there may be additional contacts beyond those from the Excel file when you address this source. This option suits empty campaigns you want to prep with contacts ahead of time, or campaigns where you want to add to an existing contact list. It does not suit campaigns with multiple purposes or recipient types.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_10-16-19-1024x513.png" alt="Import contacts option in a campaign"></div>
-
-Import contacts option in a campaign.
-
 ### Import to a contact list
 
 If you intend to use the contacts more than once, add them to a contact list. You can then address the same contacts across multiple sendouts without re-importing. Contact lists are commonly used for newsletter subscription lists, lists of internal contacts, or a test group for draft emails.
@@ -55,41 +45,42 @@ Import from file option in the Add Contact dialog.
 
 ## Importing and field mapping
 
-Once you have chosen the method of import, the next step is the import itself. In the **Import from file** option, drag and drop your Excel or CSV file, or browse to it.
+### Map columns
 
+In the **Import from file** window, drag and drop your Excel or CSV file, or browse to it. eMarketeer shows how many rows it found and a preview of the first five rows.
 
-### Field mapping
+For each column, choose the contact card field it contains in the dropdown above it. Columns whose heading matches a field are mapped automatically. Columns without a field are not imported. For example, set the column with email addresses to **Email**. Then click **Next: Import settings**.
 
-Next you select the columns to import. The default setting is Do not import unless the value in the first row of a column matches an entry in the drop-down menu, in which case it is pre-selected. To import a column, choose the option that matches its data type. For example, the column that contains email addresses should be set to E-Mail.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-map-columns.png" alt="Map columns step with a preview of the file and a field chosen for each column"></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_14-44-26.png" alt="Matching the column with the eMarketeer contact fields"></div>
+### Contact settings and existing contacts
 
-Matching the column with the eMarketeer contact fields
+Under **Contact settings** you can add tags to every imported contact, set their **Contact type**, and add them to a contact list with **Import to contact list**.
 
-### Import options
+Under **Existing contacts**, **Match by** decides how eMarketeer recognises contacts already in your database. By default it matches on email address: a matching contact is updated, and a new contact is created if there is no match. You can also match on External ID if one of your columns has that data type, which is useful if you want to update email addresses. **Update behavior** controls how existing contacts are updated.
 
-By default, matching is done on email address. If a matching email address is found, the existing contact is updated with the new information. If no match is found, a new contact is created. You can also match on External ID if one of your data columns has that data type. This updates contacts that share an External ID, which is useful if you want to update their email address. If no match is found, a new contact is created.
-
-If the import runs under Contacts, you can also import contacts to an existing contact list using the Import to List option.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-06-18_13-18-03.png" alt="Import options"></div>
-
-Import options
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-contact-settings.png" alt="Contact settings with tags, contact type and contact list, and Existing contacts with Match by and Update behavior"></div>
 
 ### Legal basis
 
-Finally, you can update the legal basis for the contacts in your file. This creates or updates the legal basis for every imported contact, so make sure your selection accurately reflects the legal basis for each individual in the file. [Read more about consent here](../gdpr-consent/how-does-consent-work.md).
+Finally, you can update the legal basis for the contacts in your file, for **Store and process** and **Marketing sendouts**. Both are set to **Do not update** by default. Updating creates or updates the legal basis for every imported contact, so make sure your selection accurately reflects the legal basis for each individual in the file. [Read more about consent here](../gdpr-consent/how-does-consent-work.md).
 
 A withdrawn consent is not changed by a contact import. You cannot revoke a withdrawal through import.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-06-18_13-58-39.png" alt="Example of how to set Consent as the legal basis for each Purpose"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-legal-basis.png" alt="Legal basis settings for Store and process and Marketing sendouts, and the Import contacts button"></div>
 
-Example of how to set "Consent" as the Legal Basis for each Purpose.
+### Start the import
 
-When ready, click Import Contacts to start the import. The time it takes depends on the number of contacts and columns. A small list of a few hundred contacts and a handful of columns typically takes a few seconds, while larger lists take longer. A progress bar runs during the import.
+Click **Import contacts**. The import runs in the background, so you can click **Done** and keep working while it finishes.
 
-When the import finishes, the results show how many contacts were updated, created, and skipped. If the import did not produce the expected results, this report helps you understand the problem. Contacts with invalid email addresses appear in the "Bad e-mail addresses" text area (visible after clicking Show list). You can copy that text into another Excel document for review.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-started.png" alt="Import started confirmation saying the contacts are being imported in the background"></div>
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-06-18_14-26-33.png" alt="Results of the import"></div>
+### Import results
 
-Results of the import
+When the import is complete, you get a notification in the inbox under the bell icon in the top right corner. It shows how many contacts were added, updated, skipped and rejected. Click **View report** to open the import report.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-notification.png" alt="Contact import completed notification in the inbox with the View report button"></div>
+
+The report shows the number of contacts created, updated, skipped and rejected. If the import did not produce the expected results, the report helps you find out why. Rows that could not be imported, for example because of an invalid email address, are listed under **Invalid rows**.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-report.png" alt="Import report with the number of contacts created, updated, skipped and rejected, and the Invalid rows list"></div>
