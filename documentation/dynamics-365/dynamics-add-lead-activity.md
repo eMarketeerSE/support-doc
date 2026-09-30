@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add Lead activity
 
-![Add Lead Activity step configuration in Dynamics](../../../.gitbook/assets/add_lead_activity-1024x907.png)
+![Add Lead Activity step configuration in Dynamics](../../.gitbook/assets/add_lead_activity-1024x907.png)
 
 ## Step configuration
 
