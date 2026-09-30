@@ -59,7 +59,6 @@ Alternativet Import from file i dialogrutan Add Contact.
 
 När du har valt importmetod är nästa steg själva importen. Med alternativet **Import from file** drar och släpper du din Excel- eller CSV-fil, eller bläddrar fram den.
 
-> TODO: verify the steps after the file is uploaded (field mapping, import options, legal basis and the results report) in the new import dialog, and replace the screenshots below.
 
 ### Fältmappning
 

@@ -57,7 +57,6 @@ Import from file option in the Add Contact dialog.
 
 Once you have chosen the method of import, the next step is the import itself. In the **Import from file** option, drag and drop your Excel or CSV file, or browse to it.
 
-> TODO: verify the steps after the file is uploaded (field mapping, import options, legal basis and the results report) in the new import dialog, and replace the screenshots below.
 
 ### Field mapping
 
