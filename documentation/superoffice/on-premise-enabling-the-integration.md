@@ -17,11 +17,11 @@ Once SuperOffice is ready, complete the rest of the setup in eMarketeer.
 1. Sign in to eMarketeer, click the gear icon at the top right, and choose **Account Settings**.
 2. Open **Integrations** in the left-hand Account Settings menu, then click **Manage** on the **Superoffice CRM** card.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/onpremisesettings.png" alt="SuperOffice on-premise integration settings"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/on-premise-enabling-the-integration-on-premise-settings.png" alt="SuperOffice settings with On Premise selected and the Web Service Settings fields"></div>
 
-3. Select the **On premise** radio button.
-4. Fill out the form with the username, password, and WSDL base URL pointing to your NetServer SVC-file directory.
-5. Click **Apply changes** to start the integration.
+3. Select **On Premise**.
+4. Under **Web Service Settings**, fill in the **User ID** and **Password** of the integration user, and a **WSDL Base URL** pointing to your NetServer SVC-file directory.
+5. Click **Apply Changes** to start the integration.
 
 During the integration process, eMarketeer installs items in your SuperOffice instance. [Read more about those actions](actions-performed-during-set-up.md).
 
