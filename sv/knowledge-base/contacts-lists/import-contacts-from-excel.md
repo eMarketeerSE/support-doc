@@ -17,8 +17,6 @@ Den här guiden beskriver hur du importerar kontakter till din eMarketeer-kontak
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2021-05-28_09-36-53.png" alt="Exempel på en Excel-fil med tre kontakter"></div>
 
-Exempel på en Excel-fil med 3 kontakter
-
 ## Var ska du importera?
 
 Vid det här laget har du en Excel-fil redo att användas. Var du utför importen beror på vad du vill göra med kontakterna. Oftast vill du göra ett specifikt e-postutskick. Frågan är om du vill skicka till dem omedelbart eller lagra dem för senare.
@@ -31,8 +29,6 @@ När du skickar e-post kan du välja en eller flera källor för dina mottagare.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-send-recipient-source-file-upload.png" alt="Steget Recipient Source med File Upload markerat"></div>
 
-Alternativet File upload när du skickar en e-post.
-
 ### Importera till en kontaktlista
 
 Om du tänker använda kontakterna mer än en gång, lägg till dem i en kontaktlista. Du kan då adressera samma kontakter över flera utskick utan att importera om. Kontaktlistor används ofta för prenumerationslistor för nyhetsbrev, listor över interna kontakter eller en testgrupp för utkast till e-post.
@@ -42,8 +38,6 @@ Om du behöver skapa en ny kontaktlista som destination för din import visar [d
 För att starta importen går du till **Contacts** i vänstermenyn, klickar på **Add Contact** och väljer **Import from file**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-add-contact-import-from-file.png" alt="Alternativet Import from file i dialogrutan Add Contact"></div>
-
-Alternativet Import from file i dialogrutan Add Contact.
 
 ## Import och fältmappning
 

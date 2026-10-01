@@ -17,8 +17,6 @@ This guide describes how to import contacts to your eMarketeer contact database 
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2021-05-28_09-36-53.png" alt="Example of an Excel file with three contacts"></div>
 
-Example of an Excel file with 3 contacts
-
 ## Where to import?
 
 At this point you have an Excel file ready to go. Where you perform the import depends on what you want to do with the contacts. Most often you want to make a specific email sendout. The question is whether you want to send to them immediately or store them for later.
@@ -29,8 +27,6 @@ When sending emails you can choose one or more sources for your recipients. The 
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-send-recipient-source-file-upload.png" alt="Recipient Source step with File Upload highlighted"></div>
 
-File upload option when sending an email.
-
 ### Import to a contact list
 
 If you intend to use the contacts more than once, add them to a contact list. You can then address the same contacts across multiple sendouts without re-importing. Contact lists are commonly used for newsletter subscription lists, lists of internal contacts, or a test group for draft emails.
@@ -40,8 +36,6 @@ If you need to create a new contact list as a destination for your import, [this
 To start the import, go to **Contacts** in the left sidebar, click **Add Contact** and choose **Import from file**.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-add-contact-import-from-file.png" alt="Import from file option in the Add Contact dialog"></div>
-
-Import from file option in the Add Contact dialog.
 
 ## Importing and field mapping
 
