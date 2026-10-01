@@ -43,12 +43,14 @@ In eMarketeer, click the gear icon at the top right, choose **Account Settings**
 
 Click **Connect to Dynamics 365**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics_1-1024x388.png" alt="Microsoft Dynamics 365 integration page in eMarketeer with the Connect button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-installation-connect-button.png" alt="Microsoft Dynamics 365 integration page in eMarketeer with the Connect to Dynamics 365 button"></div>
 
-Log in with a Microsoft account that has access to the Dynamics environment you want to integrate.
+Microsoft asks you to pick an account. Choose a Microsoft account that has access to the Dynamics environment you want to integrate, or click **Use another account** to sign in with a different one.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics_2-1024x442.png" alt="Microsoft sign-in prompt for connecting Dynamics"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-installation-pick-account.png" alt="Microsoft Pick an account screen with two accounts and Use another account"></div>
 
 Choose the organization (environment) you want to integrate with and click **Continue**.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-installation-choose-organization.png" alt="List of Dynamics organizations to connect to, with one selected, and the Continue button"></div>
 {% endstep %}
 {% endstepper %}
