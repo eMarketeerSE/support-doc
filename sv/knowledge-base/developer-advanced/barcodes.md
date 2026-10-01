@@ -8,8 +8,6 @@ description: Vad streckkoder är, var de används och hur du kan använda dem i 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Barcodes2.jpg" alt="streckkodsläsare som läser en streckkod"></div>
 
-En streckkodsläsare som läser en streckkod
-
 En streckkod är i grunden ett typsnitt som datorer kan läsa visuellt. För att läsa en behöver en dator en streckkodsläsare — dess "ögon". Som med vilket typsnitt som helst kan du koda in vad du vill: siffror, text eller hela meningar. Det du kodar in spelar bara roll om det betyder något för någon, eller något, i andra änden.
 
 Det här telefonnumret i ett vanligt typsnitt: `004651410050`

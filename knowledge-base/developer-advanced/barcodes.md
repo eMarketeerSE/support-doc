@@ -10,8 +10,6 @@ description: >-
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Barcodes2.jpg" alt="barcode scanner reading a barcode"></div>
 
-A barcode scanner reading a barcode
-
 A barcode is essentially a font that computers can read visually. To read one, a computer needs a barcode reader — its "eyes." Like any font, you can encode whatever you want: numbers, text, full sentences. What you encode only matters if it means something to someone, or something, on the other end.
 
 For example, this phone number in a regular font: `004651410050`
