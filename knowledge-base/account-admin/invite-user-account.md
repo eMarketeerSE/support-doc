@@ -16,15 +16,11 @@ Click the gear icon at the top right, choose Account Settings, and open Users & 
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-account-settings-users-and-teams.png" alt="Account Settings with Users & Teams highlighted in the left menu"></div>
 
-Account Settings with Users & Teams highlighted.
-
 ## Send the invite
 
 On the User Accounts tab, click Create User to start the invite process.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-user-accounts-create-user-button.png" alt="Create User button on the User Accounts tab"></div>
-
-Create User button on the User Accounts tab.
 
 This opens the Create new user dialog. Enter the email address of the new user, select their licenses and access, and click Create user and send login email.
 
@@ -32,7 +28,5 @@ This opens the Create new user dialog. Enter the email address of the new user, 
 * Administrator (under Access): can edit the Corporate Account settings and create accounts.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-dialog.png" alt="Create new user dialog"></div>
-
-Create new user dialog
 
 The invite email contains a link to a page where the user can create their account if they do not already have one. If they already have a user account on another account, they gain access to the new account in addition to their existing ones.

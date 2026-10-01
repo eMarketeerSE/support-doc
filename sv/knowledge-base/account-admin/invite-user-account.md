@@ -16,15 +16,11 @@ Klicka på kugghjulsikonen uppe till höger, välj Account Settings och öppna U
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-account-settings-users-and-teams.png" alt="Account Settings med Users & Teams markerat i vänstermenyn"></div>
 
-Account Settings med Users & Teams markerat.
-
 ## Skicka inbjudan
 
 På fliken User Accounts klickar du på Create User för att starta inbjudningsprocessen.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-user-accounts-create-user-button.png" alt="Knappen Create User på fliken User Accounts"></div>
-
-Knappen Create User på fliken User Accounts.
 
 Då öppnas dialogrutan Create new user. Ange den nya användarens e-postadress, välj licenser och åtkomst och klicka på Create user and send login email.
 
@@ -32,7 +28,5 @@ Då öppnas dialogrutan Create new user. Ange den nya användarens e-postadress,
 * Administrator (under Access): kan redigera Corporate Account-inställningarna och skapa konton.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-create-new-user-dialog.png" alt="Dialogrutan Create new user"></div>
-
-Dialogrutan Create new user
 
 Inbjudningsmejlet innehåller en länk till en sida där användaren kan skapa sitt konto, om de inte redan har ett. Om de redan har ett användarkonto på ett annat konto får de tillgång till det nya kontot utöver de befintliga.
