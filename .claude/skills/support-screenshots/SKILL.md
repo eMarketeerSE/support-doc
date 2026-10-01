@@ -33,6 +33,7 @@ Arrows are navy and labels are gold, not the other way round: navy filled pills 
 - Viewport 1440×900, captured at 2× pixel density, left sidebar **open**.
 - Crop to what the text is about (a dialog, a panel, a menu) with about 16 px padding. Use full-page shots only when the article is about the page layout.
 - **No real people and no test data.** Replace names, emails, phone numbers, company names and campaign or component names with realistic fake data before capturing. Nothing like "test", "asdf", "Copy of …", or random numbers may be visible. The fake logged-in user is Emma Lindqvist (avatar "EL").
+- **No photos of people.** Replace contact photos with illustrated avatars from DiceBear's CC0 "notionists" set (`https://api.dicebear.com/9.x/notionists/svg?seed=<name>&backgroundColor=<pastel>`), picking faces that fit the names. Leave about a third of contacts with the plain placeholder so the list looks natural. Give fake companies simple drawn logos (a coloured rounded square with a white shape), never real brand logos.
 - Save as optimised PNG. Never use screenshots from the old UI (before the October 2026 redesign).
 
 ## Files and markup
