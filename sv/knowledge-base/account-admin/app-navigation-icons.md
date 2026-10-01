@@ -34,7 +34,7 @@ Navigeringsmenyn använder ikoner från [Elusive Icons](https://elusiveicons.com
 
 Bläddra i ikonlistan på [elusiveicons.com](https://elusiveicons.com/icons/) och välj de ikoner du vill ha.
 
-[![Listsidan med Elusive Icons-ikoner](../../.gitbook/assets/app-elusiveicons-list.png)](https://downloads.intercomcdn.com/i/o/467403408/8cf83dfe3a6ecf908c2b9a64/app-elusiveicons-list.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-elusiveicons-list.png" alt="Listsidan med Elusive Icons-ikoner"></div>
 
 Listsidan för Elusive Icons
 {% endstep %}
@@ -44,7 +44,7 @@ Listsidan för Elusive Icons
 
 Klicka på den ikon du vill använda. Leta efter ikonens el-tag — ikonnamnet som börjar med "el-". Till exempel har kalenderikonen taggen `el-calendar`. Notera taggen — du klistrar in den i HTML i ett senare steg.
 
-[![Sidan för kalenderikonen på Elusive Icons](../../.gitbook/assets/app-elusiveicons-iconcode.png)](https://downloads.intercomcdn.com/i/o/467404444/50ba922f497aa71733a15555/app-elusiveicons-iconcode.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-elusiveicons-iconcode.png" alt="Sidan för kalenderikonen på Elusive Icons"></div>
 
 Sidan för kalenderikonen på Elusive Icons
 {% endstep %}
@@ -68,7 +68,7 @@ På mobilappskomponentens redigeringssida klickar du på **Enable Developer Mode
 
 Om du inte ser länken Developer Mode, be en kontoadministratör att ge ditt användarkonto Developer-behörighet.
 
-[![Navigering till HTML-fliken i Developer Mode](../../.gitbook/assets/app-html-tab.png)](https://downloads.intercomcdn.com/i/o/467405809/2a5e2703535471d490640f41/app-html-tab.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-html-tab.png" alt="Navigering till HTML-fliken i Developer Mode"></div>
 
 Navigering till HTML-fliken i Developer Mode
 {% endstep %}
@@ -82,13 +82,13 @@ Den översta delen av HTML-koden märker varje sektion som `iconlist` eller `ico
 
 #### Iconlist HTML
 
-[![Plats för iconlist-ikonkoden i HTML](../../.gitbook/assets/app-iconlist.png)](https://downloads.intercomcdn.com/i/o/467437532/3f94673815295cdcc491f545/app-iconlist.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-iconlist.png" alt="Plats för iconlist-ikonkoden i HTML"></div>
 
 Plats för iconlist-ikonkoden i HTML (vanligtvis nära rad 113)
 
 #### Icons HTML
 
-[![Plats för icons-ikonkoden i HTML](../../.gitbook/assets/app-icons.png)](https://downloads.intercomcdn.com/i/o/467437560/786013c0d589590cb65d0126/app-icons.png)
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-icons.png" alt="Plats för icons-ikonkoden i HTML"></div>
 
 Plats för icons-ikonkoden i HTML (vanligtvis nära rad 237)
 {% endstep %}

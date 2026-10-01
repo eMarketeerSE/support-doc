@@ -34,7 +34,7 @@ The navigation menu uses icons from [Elusive Icons](https://elusiveicons.com/ico
 
 Browse the icon list at [elusiveicons.com](https://elusiveicons.com/icons/) and pick the icons you want.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-elusiveicons-list.png" alt="Elusive Icons icon list page"></div>](https://downloads.intercomcdn.com/i/o/467403408/8cf83dfe3a6ecf908c2b9a64/app-elusiveicons-list.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-elusiveicons-list.png" alt="Elusive Icons icon list page"></div>
 
 The Elusive Icons list page
 {% endstep %}
@@ -44,7 +44,7 @@ The Elusive Icons list page
 
 Click the icon you want to use. Look for its el-tag — the icon name starting with "el-". For example, the calendar icon has the tag `el-calendar`. Note the tag — you will paste it into the HTML in a later step.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-elusiveicons-iconcode.png" alt="Elusive Icons page for the Calendar icon"></div>](https://downloads.intercomcdn.com/i/o/467404444/50ba922f497aa71733a15555/app-elusiveicons-iconcode.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-elusiveicons-iconcode.png" alt="Elusive Icons page for the Calendar icon"></div>
 
 Elusive Icons page for the calendar icon
 {% endstep %}
@@ -68,7 +68,7 @@ On the mobile app component's editing page, click **Enable Developer Mode** in t
 
 If you do not see the Developer Mode link, ask an account administrator to grant Developer permissions to your user account.
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-html-tab.png" alt="Navigating to the HTML tab in Developer Mode"></div>](https://downloads.intercomcdn.com/i/o/467405809/2a5e2703535471d490640f41/app-html-tab.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-html-tab.png" alt="Navigating to the HTML tab in Developer Mode"></div>
 
 Navigating to the HTML tab in Developer Mode
 {% endstep %}
@@ -82,13 +82,13 @@ The top-level part of the HTML labels each section as `iconlist` or `icons`. Eac
 
 #### Iconlist HTML
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-iconlist.png" alt="Location of the iconlist icon code in the HTML"></div>](https://downloads.intercomcdn.com/i/o/467437532/3f94673815295cdcc491f545/app-iconlist.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-iconlist.png" alt="Location of the iconlist icon code in the HTML"></div>
 
 Location of the iconlist icon code in the HTML (usually close to line 113)
 
 #### Icons HTML
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-icons.png" alt="Location of the icons icon code in the HTML"></div>](https://downloads.intercomcdn.com/i/o/467437560/786013c0d589590cb65d0126/app-icons.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-icons.png" alt="Location of the icons icon code in the HTML"></div>
 
 Location of the icons icon code in the HTML (usually close to line 237)
 {% endstep %}
