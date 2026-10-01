@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Create/Update Lead
 
-![Create / Update Lead panel with Topic, Description, Always create a lead and Owner](../../.gitbook/assets/create-update-lead-step-settings.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/create-update-lead-step-settings.png" alt="Create / Update Lead panel with Topic, Description, Always create a lead and Owner"></div>
 
 ### Step configuration
 
