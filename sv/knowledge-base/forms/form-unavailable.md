@@ -16,8 +16,6 @@ Den här artikeln hänvisar till olika typer av eMarketeer-URL:er. För bakgrund
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/form_closed_limit.png" alt="The form cannot be displayed at this time"></div>
 
-Felmeddelandet "The form cannot be displayed at this time"
-
 Det här betyder vanligtvis att eMarketeer-kontot har nått sin kontaktgräns och inte kan ta emot nya registreringar förrän gränsen höjs eller antalet kontakter minskas.
 
 För att höja kontaktgränsen, skicka en förfrågan till [customerservice@emarketeer.com](mailto:customerservice@emarketeer.com).

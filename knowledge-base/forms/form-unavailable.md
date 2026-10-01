@@ -16,8 +16,6 @@ This article references different types of eMarketeer URLs. For background, see 
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/form_closed_limit.png" alt="The form cannot be displayed at this time"></div>
 
-The form cannot be displayed at this time error message
-
 This usually means the eMarketeer account has reached its contact limit and cannot accept new registrations until the limit is raised or the contact count is reduced.
 
 To raise the contact limit, send a request to [customerservice@emarketeer.com](mailto:customerservice@emarketeer.com).
