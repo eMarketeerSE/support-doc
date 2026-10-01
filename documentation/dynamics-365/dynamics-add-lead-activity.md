@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add Lead activity
 
-![Add Lead Activity panel with Topic, Description, Activity Type, Owner and schedule](../../.gitbook/assets/dynamics-add-lead-activity-step-settings.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-add-lead-activity-step-settings.png" alt="Add Lead Activity panel with Topic, Description, Activity Type, Owner and schedule"></div>
 
 ## Step configuration
 
