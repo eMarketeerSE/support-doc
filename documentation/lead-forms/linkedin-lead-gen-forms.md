@@ -25,7 +25,7 @@ Note: you connect with your personal LinkedIn profile, which gives eMarketeer ac
 
 Once connected, you will see the list of Ad Accounts available to receive leads from.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="LinkedIn Ad Accounts list in eMarketeer connector"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/linkedin-lead-gen-forms-linkedin-ad-accounts.png" alt="LinkedIn connector in eMarketeer with the connected profile and the list of Ad Accounts to receive leads from"></div>
 
 Check the Ad Accounts you want to receive leads from. Checking an Ad Account automatically sends incoming leads from any Lead Gen Form on that Ad Account to eMarketeer.
 
