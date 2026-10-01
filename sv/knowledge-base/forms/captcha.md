@@ -1,10 +1,10 @@
 ---
 description: >-
-  Hur reCAPTCHA skyddar eMarketeer-formulär mot botinskick och vad ikonen på de
+  Hur reCAPTCHA skyddar eMarketeers Legacy-formulär mot botinskick och vad ikonen på de
   värdade formulärsidorna innebär.
 ---
 
-# reCAPTCHA för eMarketeer-formulär
+# reCAPTCHA för eMarketeers Legacy-formulär
 
 reCAPTCHA skyddar dina äldre formulär (legacy) från botinskick med hjälp av Googles CAPTCHA-system. Nya formulär använder i stället en captcha som drivs inom EU.
 

@@ -1,10 +1,10 @@
 ---
 description: >-
-  How reCAPTCHA protects eMarketeer forms from bot submissions and what the
+  How reCAPTCHA protects eMarketeer legacy forms from bot submissions and what the
   icon on hosted form pages means.
 ---
 
-# reCAPTCHA for eMarketeer Forms
+# reCAPTCHA for eMarketeer Legacy Forms
 
 reCAPTCHA protects your legacy forms from bot submissions using Google's CAPTCHA system. New forms use an EU-hosted captcha instead.
 

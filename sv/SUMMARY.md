@@ -133,7 +133,7 @@
   * [Formulär](references/forms.md)
     * [Formulärspråk](knowledge-base/forms/form-locales.md)
     * [Uttryckssyntax i formulär](knowledge-base/forms/form-expression-syntax.md)
-    * [reCAPTCHA för eMarketeer-formulär](knowledge-base/forms/captcha.md)
+    * [reCAPTCHA för eMarketeers Legacy-formulär](knowledge-base/forms/captcha.md)
     * [Identifiera varför ett formulär är otillgängligt (Legacy)](knowledge-base/forms/form-unavailable.md)
   * [SMS](platform/sms.md)
     * [SMS Sender ID](documentation/email-sms/sender-id.md)

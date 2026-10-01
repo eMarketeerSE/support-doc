@@ -133,7 +133,7 @@
   * [Forms](references/forms.md)
     * [Form locales](knowledge-base/forms/form-locales.md)
     * [Form expression syntax](knowledge-base/forms/form-expression-syntax.md)
-    * [reCAPTCHA for eMarketeer Forms](knowledge-base/forms/captcha.md)
+    * [reCAPTCHA for eMarketeer Legacy Forms](knowledge-base/forms/captcha.md)
     * [Identifying why a Form is Unavailable (Legacy)](knowledge-base/forms/form-unavailable.md)
   * [SMS](platform/sms.md)
     * [SMS Sender ID](documentation/email-sms/sender-id.md)
