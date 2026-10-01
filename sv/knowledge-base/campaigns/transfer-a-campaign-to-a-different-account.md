@@ -19,9 +19,9 @@ Du behöver två saker:
 
 ### Hämta EMID för destinationskontot
 
-EMID (My Identifier Code) är en kod som är unik för en användare på ett specifikt eMarketeer-konto. Be en användare på destinationskontot att logga in och gå till **My Profile** > **Security**. Koden finns under **My Identifier Code (EMID)**.
+EMID (My Identifier Code) är en kod som är unik för en användare på ett specifikt eMarketeer-konto. Be en användare på destinationskontot att logga in, klicka på kugghjulsikonen uppe till höger och gå till **My Profile** > **Security**. Koden finns under **My Identifier Code (EMID)**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-my-profile-emid.png" alt="Sidan Security i My Profile med My Identifier Code (EMID) och kopieringsikonen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-emid-code-box.png" alt="Rutan My Identifier Code (EMID) med kodfältet markerat"></div>
 
 Be dem klicka på kopieringsikonen bredvid koden och skicka koden till dig.
 

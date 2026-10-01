@@ -19,9 +19,9 @@ You need two things:
 
 ### Get the EMID of the destination account
 
-The EMID (My Identifier Code) is a code that is unique to a user in a specific eMarketeer account. Ask a user in the destination account to log in and go to **My Profile** > **Security**. The code is under **My Identifier Code (EMID)**.
+The EMID (My Identifier Code) is a code that is unique to a user in a specific eMarketeer account. Ask a user in the destination account to log in, click the gear icon in the top right corner and go to **My Profile** > **Security**. The code is under **My Identifier Code (EMID)**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-my-profile-emid.png" alt="Security page in My Profile with the My Identifier Code (EMID) and its copy icon"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-emid-code-box.png" alt="The My Identifier Code (EMID) box with the code field highlighted"></div>
 
 Have them click the copy icon next to the code and send the code to you.
 
