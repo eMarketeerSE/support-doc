@@ -49,8 +49,6 @@ Name identifierar det anpassade blocket i systemet och syns i Developer Mode. La
 Klicka på \[Save as block] längst ned i samma panel. Det sparar det anpassade blocket och lägger till det i menyn "Add Content Block" så att alla användare kan släppa in det. Det finns ingen separat dialog att fylla i.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-37-10.png" alt="Det nya blocket i listan Add Content"></div>
-
-Blocket som det visas i listan Add Content
 {% endstep %}
 {% endstepper %}
 

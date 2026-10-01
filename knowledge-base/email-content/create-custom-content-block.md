@@ -46,8 +46,6 @@ The Name identifies the custom block in the system and is visible in Developer M
 Click \[Save as block] at the bottom of the same panel. This saves the custom block and adds it to the "Add Content Block" menu so any user can drop it in. There is no separate dialog to fill in.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/pn_21-07-08_10-37-10.png" alt="The new block in the Add Content list"></div>
-
-The block as shown in the Add Content list
 {% endstep %}
 {% endstepper %}
 
