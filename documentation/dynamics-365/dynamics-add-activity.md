@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add activity
 
-![Add Activity panel with the Prefer Lead and Prefer Contact options](../../.gitbook/assets/dynamics-add-activity-step-settings.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-add-activity-step-settings.png" alt="Add Activity panel with the Prefer Lead and Prefer Contact options"></div>
 
 ### Step configuration
 
