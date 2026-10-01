@@ -15,15 +15,15 @@ Endast kampanjens komponenter överförs. Kontakter och automationer stannar kva
 Du behöver två saker:
 
 1. En kampanj du vill överföra.
-2. TenantID för destinationskontot.
+2. EMID för en användare på destinationskontot.
 
-### Hämta TenantID för destinationen
+### Hämta EMID för destinationskontot
 
-TenantID är en unik identifierare för ett eMarketeer-konto. Be en användare på destinationskontot att logga in och klicka på sin avatar uppe till höger. Deras TenantID visas överst i menyn, under e-postadressen och företagsnamnet.
+EMID (My Identifier Code) är en kod som är unik för en användare på ett specifikt eMarketeer-konto. Be en användare på destinationskontot att logga in och gå till **My Profile** > **Security**. Koden finns under **My Identifier Code (EMID)**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png" alt="EMID-uppslag under menyn Account"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-my-profile-emid.png" alt="Sidan Security i My Profile med My Identifier Code (EMID) och kopieringsikonen"></div>
 
-Be dem kopiera koden och skicka den till dig.
+Be dem klicka på kopieringsikonen bredvid koden och skicka koden till dig.
 
 ### Överför kampanjen
 
@@ -31,11 +31,9 @@ Be dem kopiera koden och skicka den till dig.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-campaign-row-transfer-option.png" alt="Menyn med tre punkter för en kampanjrad med alternativet Transfer campaign markerat"></div>
 
-En dialogruta öppnas och frågar efter TenantID för destinationskontot. Klistra in det TenantID du fick och klicka på "Fetch User".
+En dialogruta öppnas och frågar efter EMID för destinationskontot. Klistra in det EMID du fick och klicka på **Transfer campaign**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transferdialog.png" alt="Överföringsdialog med EMID-fält"></div>
-
-Verifiera att destinationskontot ser rätt ut, klicka sedan på "Transfer Campaign" för att slutföra överföringen.
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-transfer-campaign-dialog.png" alt="Dialogen Transfer campaign med ett fält för destinationskontots EMID"></div>
 
 ### Efter överföringen
 

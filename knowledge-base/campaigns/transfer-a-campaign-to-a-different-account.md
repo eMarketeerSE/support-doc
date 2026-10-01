@@ -15,15 +15,15 @@ Only the campaign components are transferred. Contacts and automations stay in t
 You need two things:
 
 1. A campaign you want to transfer.
-2. The TenantID of the destination account.
+2. The EMID of a user in the destination account.
 
-### Get the destination TenantID
+### Get the EMID of the destination account
 
-The TenantID is a unique identifier for an eMarketeer account. Ask a user on the destination account to log in and click their avatar in the top right. Their TenantID appears at the top of the menu, under their email and company name.
+The EMID (My Identifier Code) is a code that is unique to a user in a specific eMarketeer account. Ask a user in the destination account to log in and go to **My Profile** > **Security**. The code is under **My Identifier Code (EMID)**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-11-16-kl.-11.15.48.png" alt="EMID lookup under the Account menu"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-my-profile-emid.png" alt="Security page in My Profile with the My Identifier Code (EMID) and its copy icon"></div>
 
-Have them copy the code and send it to you.
+Have them click the copy icon next to the code and send the code to you.
 
 ### Transfer the campaign
 
@@ -31,11 +31,9 @@ Open "Campaigns" and find the campaign you want to transfer in the list. Click t
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-campaign-row-transfer-option.png" alt="The three-dot menu of a campaign row with the Transfer campaign option highlighted"></div>
 
-A dialog opens and asks for the TenantID of the destination account. Paste the TenantID you received and click "Fetch User".
+A dialog opens and asks for the EMID of the destination account. Paste the EMID you received and click **Transfer campaign**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transferdialog.png" alt="Transfer dialog with EMID field"></div>
-
-Verify the destination account looks correct, then click "Transfer Campaign" to complete the transfer.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transfer-a-campaign-to-a-different-account-transfer-campaign-dialog.png" alt="Transfer campaign dialog with a field for the EMID of the destination account"></div>
 
 ### After the transfer
 
