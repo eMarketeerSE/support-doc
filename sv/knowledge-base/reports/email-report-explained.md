@@ -8,8 +8,6 @@ description: >-
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-email-report-page.png" alt="E-postrapportsida med nyckeltalsrutor, widgeten Email process och listan Last openers"></div>
 
-Exempel på en e-postrapportsida.
-
 ## E-posthändelser
 
 Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran före parentesen är antalet unika kontakter som räknats för händelsen. Siffran i parentesen är totalen, inklusive dubbletter. En dubblerad Sent-händelse räknas när samma e-post har skickats till en kontakt mer än en gång, och en dubblerad Click-händelse räknas när samma mottagare klickar på samma länk mer än en gång.
@@ -36,9 +34,7 @@ Varje händelsetagg visar två siffror, som "Händelse **10 (20)**." Siffran fö
 
 Värdena i widgetarna baseras på hur många levererade kontakter som interagerade på ett visst sätt. I exemplet nedan skickades och levererades e-postkomponenten till 25 kontakter. 10 öppnade den, och 3 klickade på en länk.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-email-report-kpi-tiles.png" alt="Rapportens rutor med Open rate, Click through rate, Click to open rate och Unsubscribed"></div>
-
-Exempel på värden i e-postrapportens widgetar.
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-rate-tiles.png" alt="Rapportens rutor med Open rate, Click through rate, Click to open rate och Unsubscribed"></div>
 
 Beräkningarna använder unika kontakter, inte det totala antalet händelser. Om en enda kontakt fick samma e-post fyra gånger men bara öppnade en av dem räknas de som öppnad en gång för öppningsfrekvensen. De tre oöppnade kopiorna påverkar inte beräkningen.
 
@@ -53,8 +49,6 @@ Beräkningarna använder unika kontakter, inte det totala antalet händelser. Om
 ## Widget för utskickets hälsa
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-sendout-health-widget.png" alt="Widgeten Sendout health med mätare för bounce rate och complaint rate samt antal utskick"></div>
-
-Exempel på widget för utskickets hälsa.
 
 Den här widgeten ger dig en snabb överblick av studsfrekvens och klagomålsfrekvens för e-postkomponenten. Gränserna anger hur stor andel studsar eller klagomål som tjänsteleverantörer kan acceptera innan de flaggar dina utskick som bedrägliga. För att upprätthålla våra säkerhetsstandarder kan ditt konto pausas för granskning om en gräns nås.
 

@@ -8,8 +8,6 @@ description: >-
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-report-explained-email-report-page.png" alt="Email report page with rate tiles, the Email process widget and the Last openers list"></div>
 
-Example of an email report page.
-
 ## Email events
 
 Each event tag shows two numbers, like "Event **10 (20)**." The number before the parentheses is the number of unique contacts counted for the event. The number in parentheses is the total, including duplicates. A duplicate Sent event is counted when the same email has been sent to a contact more than once, and a duplicate Click event is counted when the same recipient clicks the same link more than once.
@@ -36,9 +34,7 @@ Each event tag shows two numbers, like "Event **10 (20)**." The number before th
 
 The widget values are based on how many delivered contacts interacted in a given way. In the example below, the email component was sent and delivered to 25 contacts. 10 opened it, and 3 clicked a link.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-report-explained-email-report-kpi-tiles.png" alt="Email report tiles showing open rate, click-through rate, click-to-open rate and unsubscribed"></div>
-
-Example of email report widget values.
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-report-explained-rate-tiles.png" alt="Email report tiles showing open rate, click-through rate, click-to-open rate and unsubscribed"></div>
 
 The calculations use unique contacts, not the total number of events. If a single contact received the same email four times but only opened one of them, they count as Opened once for the open rate. The three unopened copies do not change the calculation.
 
@@ -53,8 +49,6 @@ The calculations use unique contacts, not the total number of events. If a singl
 ## Sendout health widget
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-report-explained-sendout-health-widget.png" alt="Sendout health widget showing bounce rate and complaint rate gauges and sendout counts"></div>
-
-Sendout health widget example.
 
 This widget gives you a quick view of the bounce rate and complaint rate for the email component. The limits indicate the percentage of bounces or complaints that service providers may accept before flagging your sendouts as fraudulent. To uphold our security standards, your account may be paused for audit if a limit is reached.
 
