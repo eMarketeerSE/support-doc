@@ -22,7 +22,7 @@ This opens Lead Streams in Account Settings, where you can create or manage lead
 
 Click Add Lead Stream to create a new one.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/2022-06-09_15-04-03.png" alt="Add Lead Stream button"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-add-lead-stream-button.png" alt="Lead Streams in Account Settings with the Add Lead Stream button highlighted"></div>
 
 A lead stream needs three things:
 

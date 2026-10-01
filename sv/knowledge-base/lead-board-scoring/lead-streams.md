@@ -22,7 +22,7 @@ Det öppnar Lead Streams i Account Settings, där du kan skapa eller hantera lea
 
 Klicka på Add Lead Stream för att skapa en ny.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/2022-06-09_15-04-03.png" alt="Knappen Add Lead Stream"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/lead-streams-add-lead-stream-button.png" alt="Lead Streams i Account Settings med knappen Add Lead Stream markerad"></div>
 
 En leadström behöver tre saker:
 
