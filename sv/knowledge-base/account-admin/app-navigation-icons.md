@@ -56,13 +56,9 @@ I eMarketeer kontrollerar du vilken stil din app använder för navigeringsmenyn
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-4-1-navigation-menu-style-setting.png" alt="Plats för Navigation Menu-inställningen på fliken Content"></div>
 
-Plats för Navigation Menu-inställningen på fliken Content
-
 Det finns tre stilar för navigeringsmenyn: Icons, Icon List och List. Notera vilken du använder — du behöver bara ändra ikoner för den stilen.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/app-4-5-navigation-menu-style-combined.png" alt="De tre alternativen för navigeringsmenystil"></div>
-
-De tre alternativen för navigeringsmenystil
 {% endstep %}
 
 {% step %}

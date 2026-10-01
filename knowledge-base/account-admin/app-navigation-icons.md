@@ -56,13 +56,9 @@ In eMarketeer, check which navigation menu style your app uses. The setting is c
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-4-1-navigation-menu-style-setting.png" alt="Navigation Menu setting location on the Content tab"></div>
 
-Navigation Menu setting location on the Content tab
-
 There are three navigation menu styles: Icons, Icon List, and List. Note which one you use — you only need to change icons for that style.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/app-4-5-navigation-menu-style-combined.png" alt="The 3 navigation menu style options"></div>
-
-The three navigation menu style options
 {% endstep %}
 
 {% step %}
