@@ -25,8 +25,6 @@ Vid det här laget har du en Excel-fil redo att användas. Var du utför importe
 
 När du skickar e-post kan du välja en eller flera källor för dina mottagare. Alternativet File upload låter dig importera kontakter från en Excel-fil (eller textfil) och använda dem som mottagare i det utskicket. Det är ett effektivt sätt att använda kontakter från en fil utan att skapa en kontaktlista först.
 
-\[
-
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-send-recipient-source-file-upload.png" alt="Steget Recipient Source med File Upload markerat"></div>
 
 ### Importera till en kontaktlista
