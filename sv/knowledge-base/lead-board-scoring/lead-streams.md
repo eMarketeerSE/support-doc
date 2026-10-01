@@ -16,7 +16,7 @@ När en kontakt matchar reglerna för en leadström blir kontakten ett lead och 
 
 För att skapa en ny leadström, klicka på ikonen Manage lead streams bredvid rullgardinsmenyn för leadströmmar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/lead-streams-manage-lead-streams-button.png" alt="Knappen Manage lead streams bredvid rullgardinsmenyn för leadströmmar, ovanför kolumnerna på Lead Board"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/lead-streams-manage-lead-streams-toolbar.png" alt="Knappen Manage lead streams bredvid rullgardinsmenyn för leadströmmar, ovanför kolumnerna på Lead Board"></div>
 
 Det öppnar Lead Streams i Account Settings, där du kan skapa eller hantera leadströmmar.
 
@@ -56,4 +56,4 @@ Du har följande alternativ för en ny leadström:
 
 Gå tillbaka till Lead Board för att se de nya leads:en.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/lead-streams-lead-board-mql-column.png" alt="Lead Board med kolumnen Marketing Qualified (MQL) markerad"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/lead-streams-lead-board-mql-highlighted.png" alt="Lead Board med kolumnen Marketing Qualified (MQL) markerad"></div>

@@ -16,7 +16,7 @@ Open the lead board by clicking Leads in the left sidebar.
 
 To set up a new lead stream, click the Manage lead streams icon next to the lead streams drop-down.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-manage-lead-streams-button.png" alt="The Manage lead streams button next to the lead streams drop-down, above the lead board columns"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-manage-lead-streams-toolbar.png" alt="The Manage lead streams button next to the lead streams drop-down, above the lead board columns"></div>
 
 This opens Lead Streams in Account Settings, where you can create or manage lead streams.
 
@@ -56,4 +56,4 @@ You have the following options on a new lead stream:
 
 Head back to the lead board to see the new leads.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-lead-board-mql-column.png" alt="The lead board with the Marketing Qualified (MQL) column highlighted"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/lead-streams-lead-board-mql-highlighted.png" alt="The lead board with the Marketing Qualified (MQL) column highlighted"></div>
