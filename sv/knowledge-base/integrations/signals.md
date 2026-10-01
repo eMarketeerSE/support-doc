@@ -21,7 +21,7 @@ _Obs: du ansluter med din personliga LinkedIn-profil, vilket ger eMarketeer åtk
 
 När anslutningen är klar ser du listan över tillgängliga Ad Accounts.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Skarmavbild-2023-08-04-kl.-10.39.12.png" alt="Lista över LinkedIn Ad Accounts tillgängliga för att ta emot leads"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/linkedin-lead-gen-forms-linkedin-ad-accounts.png" alt="LinkedIn-kopplingen i eMarketeer med den anslutna profilen och listan med Ad Accounts att ta emot leads från"></div>
 
 Markera de Ad Accounts du vill ta emot leads från. Alla inskickningar via Lead Gen Forms på ett markerat konto skickas till eMarketeer.
 
