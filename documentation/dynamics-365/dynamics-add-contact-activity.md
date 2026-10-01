@@ -7,7 +7,7 @@ description: >-
 
 # Dynamics - Add contact activity
 
-![Add Contact Activity panel with a topic, a description and Phone Call selected](../../.gitbook/assets/dynamics-add-contact-activity-step-settings.png)
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-add-contact-activity-step-settings.png" alt="Add Contact Activity panel with a topic, a description and Phone Call selected"></div>
 
 ### Step configuration
 
