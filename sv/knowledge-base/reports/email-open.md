@@ -8,8 +8,6 @@ description: >-
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/email-open-email-process-opened.png" alt="Widgeten Email process i e-postrapporten med antalet öppnade e-postmeddelanden markerat"></div>
 
-E-postrapportens graf, antalet öppnade e-postmeddelanden markerat.
-
 ## Varför öppningar spåras på det här sättet
 
 Du kanske antar att en "öppning" är en händelse som mottagarens e-postklient rapporterar tillbaka till avsändaren, men så fungerar inte e-post. Det finns ingen inbyggd mekanism som talar om för avsändaren när ett meddelande har öppnats. Om du skickar e-post direkt till en kollega har du inget sätt att veta om de har läst den.

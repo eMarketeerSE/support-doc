@@ -8,8 +8,6 @@ description: >-
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/email-open-email-process-opened.png" alt="Email process widget in the email report with the number of opened emails highlighted"></div>
 
-Email report graph, number of opened emails highlighted.
-
 ## Why opens are tracked this way
 
 You might assume an "open" is an event the recipient's email client reports back to the sender, but that is not how email works. There is no built-in mechanism that tells the sender when a message has been opened. If you send mail to a colleague directly, you have no way of knowing whether they read it.
