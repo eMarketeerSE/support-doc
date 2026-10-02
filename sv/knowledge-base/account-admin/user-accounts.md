@@ -16,7 +16,7 @@ Innan du börjar, installera en authenticator-app på din mobila enhet om du int
 {% column %}
 #### Google Authenticator
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34.png" alt="Ikon för Google Authenticator"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-google-authenticator-icon.png" alt="Ikon för Google Authenticator" width="120"></div>
 
 [<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
@@ -26,7 +26,7 @@ Innan du börjar, installera en authenticator-app på din mobila enhet om du int
 {% column %}
 #### Twilio Authy 2-Factor Authentication
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54.png" alt="Ikon för Twilio Authy"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-twilio-authy-icon.png" alt="Ikon för Twilio Authy" width="120"></div>
 
 [<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.authy.authy)
 

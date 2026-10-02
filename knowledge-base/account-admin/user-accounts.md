@@ -16,7 +16,7 @@ Before you start, install an authenticator app on your mobile device if you don'
 {% column %}
 #### Google Authenticator
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.07.34.png" alt="Google Authenticator icon"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-google-authenticator-icon.png" alt="Google Authenticator icon" width="120"></div>
 
 [![Get it on Google Play](../../.gitbook/assets/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)[![Download on the App Store](../../.gitbook/assets/5a902db97f96951c82922874.png)](https://apps.apple.com/se/app/google-authenticator/id388497605)
 {% endcolumn %}
@@ -24,7 +24,7 @@ Before you start, install an authenticator app on your mobile device if you don'
 {% column %}
 #### Twilio Authy 2-Factor Authentication
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-15.05.54.png" alt="Twilio Authy icon"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-twilio-authy-icon.png" alt="Twilio Authy icon" width="120"></div>
 
 [![Get it on Google Play](../../.gitbook/assets/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.authy.authy)[![Download on the App Store](../../.gitbook/assets/5a902db97f96951c82922874.png)](https://apps.apple.com/us/app/twilio-authy/id494168017)
 {% endcolumn %}
