@@ -52,7 +52,7 @@ Klicka på **Add Component** i kampanjen där du vill skapa formuläret och väl
 {% step %}
 ### Fyll i inställningar, välj en mall och skapa formuläret
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-form-legacy-dialog.png" alt="Dialogrutan Add Form (Legacy) med fältet Component name och mallar under fliken Sign-up Forms"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-form-legacy-dialog-highlighted.png" alt="Dialogrutan Add Form (Legacy) med fältet Component name, mallen Sign-up basic och knappen Create markerade"></div>
 
 **Inställningar**
 

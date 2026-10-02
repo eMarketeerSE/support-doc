@@ -50,7 +50,7 @@ From the campaign where you want to create the form, click **Add Component**, th
 {% step %}
 ### Fill in settings, choose a template, create the form
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-form-legacy-dialog.png" alt="Add Form (Legacy) dialog with the Component name field and templates on the Sign-up Forms tab"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-add-form-legacy-dialog-highlighted.png" alt="Add Form (Legacy) dialog with the Component name field, the Sign-up basic template and the Create button highlighted"></div>
 
 **Settings**
 
