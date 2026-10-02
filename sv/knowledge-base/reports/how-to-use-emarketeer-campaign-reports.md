@@ -8,8 +8,6 @@ description: >-
 
 Kampanjpanelen låter dig bygga realtidsrapporter för vilken kampanj som helst med hjälp av dra-och-släpp-widgetar.
 
-Uppdatering från februari 2021: rapporteringswidgetarna finns nu på en egen flik som heter "Dashboard" inuti en kampanj. Att ställa in widgetar fungerar på samma sätt som i den äldre guiden.
-
 I den här artikeln lär du dig hur kampanjens rapportpanel fungerar och vad varje rapporteringswidget gör.
 
 ## Kampanjens dashboard
@@ -20,7 +18,7 @@ Kampanjens dashboard bygger rapporter från en uppsättning widgetar som du väl
 
 Gå till kampanjen du vill rapportera om. Klicka på fliken "Dashboard" och sedan "Add Report Widget". Välj de widgetar du vill spåra kampanjen med. Arrangera om dem genom att dra.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-campaign-dashboard-overview.png" alt="Fliken Dashboard i en kampanj med knappen Add Report Widget och flera rapportwidgetar."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-campaign-dashboard-example.png" alt="Fliken Dashboard i en kampanj med knappen Add Report Widget och flera rapportwidgetar."></div>
 
 ## Rapporteringswidgetar
 
@@ -32,7 +30,7 @@ De tillgängliga widgetarna är email top list, email performance, funnel chart,
 
 Ta reda på vilka av dina kampanjer som presterar bäst.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-top-list-widget.png" alt="Widgeten Email Top List som rangordnar e-postmeddelanden efter klickfrekvens."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-top-list-example.png" alt="Widgeten Email Top List som rangordnar e-postmeddelanden efter klickfrekvens, med tio nyhetsbrev."></div>
 
 Widgeten email top list rangordnar dina kampanjer efter open rate, click-through rate eller click-to-open rate. Den ger dig en överblick över hur varje kampanj presterade och vilken typ dina kontakter föredrar.
 
@@ -45,7 +43,7 @@ Så lägger du till widgeten:
 
 Lämplig för din e-postmarknadsföring.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-performance-widget.png" alt="Widgeten Email Performance som jämför genomsnittligt och senaste resultat."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-performance-example.png" alt="Widgeten Email Performance som jämför genomsnittligt och senaste resultat."></div>
 
 Se din genomsnittliga kampanjprestanda — open rate, click-through rate, click-to-open rate och avregistreringar. Du kan också jämföra genomsnitt med en annan kampanj. När du har lagt till widgeten väljer du kampanjen att jämföra mot och rapporten genereras automatiskt.
 
@@ -53,7 +51,7 @@ Se din genomsnittliga kampanjprestanda — open rate, click-through rate, click-
 
 Fungerar bra för lead nurture-kampanjer och event.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-funnel-chart-widget.png" alt="Widgeten Funnel View med en stapel för steget mail sent."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-funnel-chart-example.png" alt="Widgeten Funnel View med en stapel för steget mail sent i e-postmeddelandet Event invitation."></div>
 
 Spåra ditt marknadsföringsflöde steg för steg. Funnel chart visualiserar varje steg du bygger — till exempel eventinbjudan, eventanmälan och deltagarformulär. Varje steg är en stapel med konverteringsfrekvensen till nästa, och diagrammet visar den totala konverteringen från första steget till det sista.
 

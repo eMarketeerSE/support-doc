@@ -8,8 +8,6 @@ description: >-
 
 The campaign dashboard lets you build real-time reports for any campaign using drag-and-drop widgets.
 
-Update as of February 2021: the reporting widgets now live on their own tab called "Dashboard" inside a campaign. Setting up widgets works the same as in the older tutorial.
-
 In this article, you learn how the campaign report dashboard works and what each reporting widget does.
 
 ## Campaign dashboard
@@ -20,7 +18,7 @@ The campaign dashboard builds reports from a set of widgets you choose. Reports 
 
 Go to the campaign you want to report on. Click the "Dashboard" tab and then "Add Report Widget." Pick any widgets you want to track the campaign with. Rearrange them by dragging.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-campaign-dashboard-overview.png" alt="The Dashboard tab of a campaign with the Add Report Widget button and several report widgets."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-campaign-dashboard-example.png" alt="The Dashboard tab of a campaign with the Add Report Widget button and several report widgets."></div>
 
 ## Reporting widgets
 
@@ -32,7 +30,7 @@ The available widgets are email top list, email performance, funnel chart, KPI c
 
 Find out which of your campaigns performs best.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-top-list-widget.png" alt="The Email Top List widget ranking emails by click-through rate."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-top-list-example.png" alt="The Email Top List widget ranking ten newsletters by click-through rate."></div>
 
 The email top list widget ranks your campaigns by open rate, click-through rate, or click-to-open rate. It gives you an overview of how each campaign performed and which type your contacts prefer.
 
@@ -45,7 +43,7 @@ To add the widget:
 
 Suited for your email marketing.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-performance-widget.png" alt="The Email Performance widget comparing average and latest email results."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-email-performance-example.png" alt="The Email Performance widget comparing average and latest email results."></div>
 
 See your average campaign performance — open rate, click-through rate, click-to-open rate, and unsubscribes. You can also compare averages with another campaign. After adding the widget, choose the campaign to compare against and the report generates automatically.
 
@@ -53,7 +51,7 @@ See your average campaign performance — open rate, click-through rate, click-t
 
 Works well for lead nurture campaigns and events.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-funnel-chart-widget.png" alt="A Funnel View widget showing a bar for the mail sent step."></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-use-emarketeer-campaign-reports-funnel-chart-example.png" alt="A Funnel View widget showing a bar for the mail sent step of the Event invitation email."></div>
 
 Track your marketing flow step by step. The funnel chart visualizes each step you build — for example, event invitation, event sign-up, and attendee form. Each step is a bar with the conversion rate to the next, and the chart shows the overall conversion from the first step to the last.
 
