@@ -8,7 +8,7 @@ description: >-
 
 För att bygga detta i eMarketeer, börja med att bestämma var verifierade kontakter ska lagras. Vanliga val är att lägga till dem i en kampanj, lägga till dem i en kontaktlista eller markera en kryssruta på kontaktkortet.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/doubleoptin.png" alt="Översikt över double opt-in-flödet"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/double-opt-in-flow.png" alt="Flödet för double opt-in: registreringsformuläret skickar ett bekräftelsemejl, och länken i mejlet öppnar bekräftelsesidan och lägger till kontakten i en kontaktlista"></div>
 
 ## Så fungerar processen
 

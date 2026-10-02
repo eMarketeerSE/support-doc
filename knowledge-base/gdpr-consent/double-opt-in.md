@@ -8,7 +8,7 @@ description: >-
 
 To build this in eMarketeer, first decide where to store verified contacts. Common choices include adding them to a campaign, adding them to a contact list, or ticking a checkbox on the contact card.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/doubleoptin.png" alt="doubleoptin"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/double-opt-in-flow.png" alt="Double opt-in flow: the sign-up form sends a confirmation email, the link in the email opens the confirmation page and adds the contact to a contact list"></div>
 
 ## How the process works
 
