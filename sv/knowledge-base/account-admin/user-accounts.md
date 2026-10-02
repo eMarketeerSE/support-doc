@@ -16,21 +16,17 @@ Innan du börjar, installera en authenticator-app på din mobila enhet om du int
 {% column %}
 #### Google Authenticator
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-google-authenticator-icon.png" alt="Ikon för Google Authenticator" width="120"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-google-authenticator-icon.png" alt="Google Authenticator" width="120"></div>
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
-
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5a902db97f96951c82922874.png" alt="Ladda ner från App Store"></div>](https://apps.apple.com/se/app/google-authenticator/id388497605)
+<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play" width="180"></a> <a href="https://apps.apple.com/se/app/google-authenticator/id388497605"><img src="../../.gitbook/assets/5a902db97f96951c82922874.png" alt="Ladda ner från App Store" width="180"></a>
 {% endcolumn %}
 
 {% column %}
 #### Twilio Authy 2-Factor Authentication
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-twilio-authy-icon.png" alt="Ikon för Twilio Authy" width="120"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-twilio-authy-icon.png" alt="Twilio Authy" width="120"></div>
 
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play"></div>](https://play.google.com/store/apps/details?id=com.authy.authy)
-
-[<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/5a902db97f96951c82922874.png" alt="Ladda ner från App Store"></div>](https://apps.apple.com/us/app/twilio-authy/id494168017)
+<a href="https://play.google.com/store/apps/details?id=com.authy.authy"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Hämta på Google Play" width="180"></a> <a href="https://apps.apple.com/us/app/twilio-authy/id494168017"><img src="../../.gitbook/assets/5a902db97f96951c82922874.png" alt="Ladda ner från App Store" width="180"></a>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -66,14 +62,12 @@ Du är nu autentiserad, men innan du fortsätter får du en återställningskod.
 
 ## Nästa gång du loggar in
 
-Första gången du loggar in efter att du har konfigurerat MFA får du välja en metod för att verifiera din identitet. Välj **Google Authenticator or similar**. Du gör det här valet bara en gång. Därefter går eMarketeer direkt till rutan för koden.
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity med Google Authenticator or similar och Recovery code"></div>
-
-Därefter ser du en uppmaning "Verify your identity". Öppna din authenticator-app, läs av den sexsiffriga koden och ange den i fältet **Enter your one-time code**. Markera **Remember this device for 30 days** om du inte vill använda appen vid varje inloggning, och klicka sedan på **Continue**.
+Nästa gång du loggar in ser du en uppmaning "Verify your identity". Öppna din authenticator-app, läs av den sexsiffriga koden och ange den i fältet **Enter your one-time code**. Markera **Remember this device for 30 days** om du inte vill använda appen vid varje inloggning, och klicka sedan på **Continue**.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-verify-identity.png" alt="Uppmaningen Verify your identity med fältet för engångskoden, Remember this device for 30 days och Continue"></div>
 
-Om du inte har telefonen med dig klickar du på **Try another method** och loggar in med din återställningskod.
+Om du inte har telefonen med dig klickar du på **Try another method**. Välj **Recovery code** och logga in med din återställningskod.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity med Google Authenticator or similar och Recovery code"></div>
 
 Om du får problem med inloggningen, kontakta supporten via chattrutan på inloggningssidan.

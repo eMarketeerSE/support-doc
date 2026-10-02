@@ -16,17 +16,17 @@ Before you start, install an authenticator app on your mobile device if you don'
 {% column %}
 #### Google Authenticator
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-google-authenticator-icon.png" alt="Google Authenticator icon" width="120"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-google-authenticator-icon.png" alt="Google Authenticator" width="120"></div>
 
-[![Get it on Google Play](../../.gitbook/assets/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)[![Download on the App Store](../../.gitbook/assets/5a902db97f96951c82922874.png)](https://apps.apple.com/se/app/google-authenticator/id388497605)
+<a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Get it on Google Play" width="180"></a> <a href="https://apps.apple.com/se/app/google-authenticator/id388497605"><img src="../../.gitbook/assets/5a902db97f96951c82922874.png" alt="Download on the App Store" width="180"></a>
 {% endcolumn %}
 
 {% column %}
 #### Twilio Authy 2-Factor Authentication
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-twilio-authy-icon.png" alt="Twilio Authy icon" width="120"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-twilio-authy-icon.png" alt="Twilio Authy" width="120"></div>
 
-[![Get it on Google Play](../../.gitbook/assets/5a902dbf7f96951c82922875-1.png)](https://play.google.com/store/apps/details?id=com.authy.authy)[![Download on the App Store](../../.gitbook/assets/5a902db97f96951c82922874.png)](https://apps.apple.com/us/app/twilio-authy/id494168017)
+<a href="https://play.google.com/store/apps/details?id=com.authy.authy"><img src="../../.gitbook/assets/5a902dbf7f96951c82922875-1.png" alt="Get it on Google Play" width="180"></a> <a href="https://apps.apple.com/us/app/twilio-authy/id494168017"><img src="../../.gitbook/assets/5a902db97f96951c82922874.png" alt="Download on the App Store" width="180"></a>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -62,14 +62,12 @@ You're now authenticated, but before you continue you're shown a recovery code. 
 
 ## Next time you log in
 
-The first time you sign in after setting up MFA, you're asked to select a method to verify your identity. Choose **Google Authenticator or similar**. You only make this choice once. After that, eMarketeer goes straight to the code prompt.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity, with Google Authenticator or similar and Recovery code"></div>
-
-You then see a "Verify your identity" prompt. Open your authenticator app, read the six-digit code, and enter it in the **Enter your one-time code** field. Tick **Remember this device for 30 days** if you don't want to use the app on every sign-in, then click **Continue**.
+The next time you sign in, you see a "Verify your identity" prompt. Open your authenticator app, read the six-digit code, and enter it in the **Enter your one-time code** field. Tick **Remember this device for 30 days** if you don't want to use the app on every sign-in, then click **Continue**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-verify-identity.png" alt="Verify your identity prompt with the one-time code field, Remember this device for 30 days and Continue"></div>
 
-If you don't have your phone with you, click **Try another method** and sign in with your recovery code.
+If you don't have your phone with you, click **Try another method**. Choose **Recovery code** and sign in with your recovery code.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity, with Google Authenticator or similar and Recovery code"></div>
 
 If you have any trouble signing in, contact support through the chat box on the login page.
