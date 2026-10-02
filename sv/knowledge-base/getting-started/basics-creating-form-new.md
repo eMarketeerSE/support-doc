@@ -64,7 +64,7 @@ När inställningar och mall är valda klickar du på **Create** för att skapa 
 
 När du klickar på **Create** öppnas editorn med fliken Designer aktiv. Menyn på vänster sida (Toolbox) låter dig lägga till formulärfält genom att dra dem till designytan — det centrala området där du strukturerar formulärlayouten och lägger till sidor. Mallen **Event Registration** öppnas med tre sidor: **Personal information**, **Guests** och **Last things**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-designer-overview.png" alt="Formuläreditorn med Toolbox till vänster och designytan i mitten"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/FormEditor.png" alt="Formuläreditorn med Toolbox till vänster och designytan i mitten"></div>
 
 En fullständig referens för alla flikar och alternativ finns i [Formuläreditor: UI-översikt](../../documentation/forms/ui-overview.md).
 {% endstep %}
@@ -74,7 +74,7 @@ En fullständig referens för alla flikar och alternativ finns i [Formuläredito
 
 Många mallar öppnas med en Survey title och Survey description längst upp. Klicka på någon av texterna i designytan för att redigera den, eller justera dem under General Survey settings.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-title-description.png" alt="Redigering av formulärtitel och beskrivning i designytan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/TitleAndDescriptionEditing.png" alt="Redigering av formulärtitel och beskrivning i designytan"></div>
 {% endstep %}
 
 {% step %}
@@ -92,15 +92,15 @@ Gör ett fält obligatoriskt genom att markera kryssrutan **Required** i fältet
 
 Många eMarketeer-formulärmallar använder platshållartexter i stället för frågenycklar — titlarna är dolda som standard via fältinställningarna, så etiketten visas inuti fältet i stället för ovanför det.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-adjust-fields.png" alt="Redigering av fältet First Name på sidan Personal information, med fältets inställningspanel öppen"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/AdjustFormFields.png" alt="Redigering av kontaktfält på sidan Personal information"></div>
 
 Om synliga titlar föredras kan det aktiveras i formulärfältets **Layout**-egenskaper, under rullgardinsmenyn **Question title alignment** för enskilda frågor — eller i bulk genom att uppdatera sidans **Question Settings**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-page-question-settings.png" alt="Panelen Question Settings på en formulärsida med alternativet Question title alignment markerat"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/PageQuestionSettings.png" alt="Panelen Question Settings på en formulärsida med alternativet Question title alignment"></div>
 
 Spara dina ändringar genom att klicka på diskettikonen ovanför designytan.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-save-button.png" alt="Sparaknappen (diskettikonen) ovanför designytan"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/SaveButton.png" alt="Sparaknappen (diskettikonen) ovanför designytan"></div>
 {% endstep %}
 
 {% step %}
@@ -123,7 +123,7 @@ När en besökare skickar in formuläret visas tacksidan för att bekräfta att 
 
 Öppna tacksidans inställningar genom att klicka på **Survey Settings** (bredvid Spara-knappen) ovanför designytan och sedan klicka på **Thank You Page** (korsade flaggor-ikonen) i Property Grid på höger sida.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-thank-you-page.png" alt="Inställningarna för tacksidan i Property Grid"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ThankYouPage.png" alt="Tacksidans alternativ i Property Grid"></div>
 
 Ändra texten på tacksidan genom att redigera fältet **Thank You page markup**. Vill du omdirigera besökare till en extern URL efter inlämning använder du alternativet **Redirect to an external link after submission**.
 
@@ -137,7 +137,7 @@ Tacksidan visas ändå kort innan omdirigeringen sker, om inte **Show the "Thank
 
 Med bekräftelsemeddelandets inställningar kan du skicka en kopia av varje inlämning till en angiven e-postadress och skicka en kopia av svaren tillbaka till den som skickade in formuläret.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-form-confirmation-email.png" alt="Dialogrutan för bekräftelsemeddelande med avsändarfält och e-postbrödtext"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ConfirmationEmail.png" alt="Redigeraren för bekräftelsemeddelande med avsändarfält och e-postbrödtext"></div>
 
 1. Klicka på knappen **Confirmation** och aktivera sedan funktionen med reglaget i det övre högra hörnet.
 2. Fyll i avsändarinformationen (obligatoriskt):
