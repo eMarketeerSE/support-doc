@@ -42,9 +42,9 @@ Följ stegen nedan efter att du eller din admin har aktiverat MFA på ditt konto
 {% step %}
 ### Gå till inloggningssidan för eMarketeer
 
-Ange ditt användarnamn och lösenord. Om MFA är aktiverat ser du en knapp "Activate MFA". Klicka på den.
+Ange ditt användarnamn och lösenord. Om ditt konto kräver MFA visar skärmen **Select account** en knapp **Activate MFA**. Klicka på den.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1.png" alt="Knappen Activate MFA på inloggningssidan"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-activate.png" alt="Skärmen Select account som visar att kontot kräver Multi Factor Authentication, med knappen Activate MFA"></div>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ Ange ditt användarnamn och lösenord. Om MFA är aktiverat ser du en knapp "Act
 
 En QR-kod visas. Öppna din authenticator-app på telefonen och tryck på "Scan QR code". Skanna QR-koden på datorskärmen. Appen visar en sexsiffrig kod — ange den på datorskärmen och klicka på "Continue".
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit.png" alt="QR-kod som visas under MFA-konfiguration"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-secure-account-qr.png" alt="Skärmen Secure your account med en QR-kod och ett fält för engångskoden"></div>
 {% endstep %}
 
 {% step %}

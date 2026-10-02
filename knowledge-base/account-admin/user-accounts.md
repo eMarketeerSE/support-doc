@@ -38,9 +38,9 @@ Follow these steps after you or your admin has enabled MFA on your account. You 
 {% step %}
 ### Go to the eMarketeer login page
 
-Enter your username and password. If MFA is enabled, you see an "Activate MFA" button. Click it.
+Enter your username and password. If your account requires MFA, the **Select account** screen shows an **Activate MFA** button. Click it.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.38.47-1.png" alt="Activate MFA button on the login page"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-activate.png" alt="Select account screen saying the account requires Multi Factor Authentication, with the Activate MFA button"></div>
 {% endstep %}
 
 {% step %}
@@ -48,7 +48,7 @@ Enter your username and password. If MFA is enabled, you see an "Activate MFA" b
 
 A QR code appears. Open your authenticator app on your phone and tap "Scan QR code". Scan the QR code on your computer screen. The app shows a six-digit code — enter it on the computer screen and click "Continue".
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.41.55_edit.png" alt="QR code shown during MFA setup"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-secure-account-qr.png" alt="Secure your account screen with a QR code and a field for the one-time code"></div>
 {% endstep %}
 
 {% step %}
