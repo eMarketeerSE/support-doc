@@ -67,4 +67,4 @@ The anchor (`#Current_Lead_Age`) from the old URL is dropped. Verify whether an 
 The old "web-monitor" page has been merged into the Web Tracker documentation. The redirect points to the Web Tracker overview.
 
 **`/knowledgebase/why-authorize-email-domain/`**
-This page exists in the repository but is not published in the new docs site navigation. The redirect points to the "Add Email domain" article, which covers the same subject.
+This page has been removed from the docs (it described the roll-out of the new email service). The redirect points to the "Add Email domain" article, which covers the same subject.
