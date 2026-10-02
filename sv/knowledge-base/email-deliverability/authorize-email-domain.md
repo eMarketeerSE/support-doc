@@ -30,8 +30,6 @@ En autentiserad e-postdomän krävs för att skicka e-post från eMarketeer. Uta
 
 Den här guiden tar dig igenom autentiseringen av din domän så att du kan skicka e-post från din egen adress med bästa möjliga leveransbarhet.
 
-När du är klar, hör av dig till oss så aktiverar vi den nya e-posttjänsten för ditt konto.
-
 {% stepper %}
 {% step %}
 ### Gå till Email Domains
@@ -50,7 +48,7 @@ Ange den domän du vill autentisera (till exempel `yourdomain.com`) i fältet **
 {% step %}
 ### Lägg till DNS-poster
 
-Den nya domänen visas i listan med statusen Pending. Klicka på **Authenticate** vid domänen för att öppna dialogen Authenticate Domain. Den listar de DNS-poster som ska läggas till: DKIM och SPF (obligatoriska), DMARC och MAIL FROM. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på **Click here to generate an email** längst ned i dialogen för att skicka posterna till ansvarig person. Det öppnar ett nytt mejl i ditt e-postprogram med posterna redan ifyllda.
+Den nya domänen visas i listan med statusen Pending, och dialogen Authenticate Domain öppnas automatiskt. Den listar de DNS-poster som ska läggas till: DKIM och SPF (obligatoriska), DMARC och MAIL FROM. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på **Click here to generate an email** längst ned i dialogen för att skicka posterna till ansvarig person. Det öppnar ett nytt mejl i ditt e-postprogram med posterna redan ifyllda.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-records.png" alt="Dialogen Authenticate Domain med DNS-posterna DKIM, SPF, DMARC och MAIL FROM"></div>
 
