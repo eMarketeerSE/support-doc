@@ -58,6 +58,8 @@ Nu kan du fortsätta att bygga ut var och en av de två förgreningarna.
 
 Journey-stegen inkluderar att skicka e-post och textmeddelanden (SMS). För att använda dem i en Journey måste du först skapa dem i en kampanj.
 
+Du kan inte skapa ett nytt e-postmeddelande eller SMS inifrån en Journey. Du kan däremot lägga till ett steg som inte är färdigkonfigurerat som platshållare. En Journey med ofärdiga steg kan sparas men inte aktiveras.
+
 Rapporterna för de skickade komponenterna finns också i den kampanj där du byggde dem. Du kan gå direkt till rapporten för ett e-postmeddelande eller SMS genom att öppna inställningsmenyn för steget.
 
 ### Spara din Journey

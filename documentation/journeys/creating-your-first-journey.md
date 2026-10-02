@@ -62,6 +62,8 @@ You can now continue building each of the two branches.
 
 Journey steps include sending emails and text messages (SMS). To use them in a Journey, first create them in a campaign.
 
+You can't create a new email or SMS from inside the Journey. You can, however, add a step that isn't fully configured yet as a placeholder. A Journey with unfinished steps can be saved, but not activated.
+
 Reports for the sent components are also located in the campaign where you built them. You can go directly to the report for an email or SMS by opening the settings menu for the step.
 
 ### Save your Journey
