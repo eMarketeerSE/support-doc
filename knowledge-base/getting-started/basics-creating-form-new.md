@@ -49,6 +49,7 @@ From the campaign where you want to create the form, click **Add Component**, th
 **Settings**
 
 * **Component name:** Give the form a unique name so you can find it later. Describe its purpose in the campaign — for example, "Registration" for a registration form. Only you see this name; it is not shown to visitors.
+* **Default form language:** Choose the language the form defaults to. It sets the form's default locale, so built-in texts such as the contact field questions appear in this language. You can still add more translations to the form. This setting only decides which language the form defaults to.
 
 **Template**
 

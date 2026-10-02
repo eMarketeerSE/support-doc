@@ -49,6 +49,7 @@ Klicka på **Add Component** i kampanjen där du vill skapa formuläret och väl
 **Inställningar**
 
 * **Component name:** Ge formuläret ett unikt namn så att du hittar det senare. Beskriv syftet i kampanjen — till exempel "Registrering" för ett registreringsformulär. Bara du ser det här namnet; det visas inte för besökare.
+* **Default form language:** Välj det språk som formuläret ska ha som standard. Det anger formulärets standardspråk, så att inbyggda texter som frågorna för kontaktfälten visas på det språket. Du kan fortfarande lägga till fler översättningar av formuläret. Inställningen avgör bara vilket språk formuläret har som standard.
 
 **Mall**
 
