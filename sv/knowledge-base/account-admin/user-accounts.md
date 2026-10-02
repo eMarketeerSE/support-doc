@@ -60,14 +60,20 @@ En QR-kod visas. Öppna din authenticator-app på telefonen och tryck på "Scan 
 
 Du är nu autentiserad, men innan du fortsätter får du en återställningskod. Använd den koden för att logga in om du inte har din telefon med authenticator-appen. Spara den på ett säkert ställe. Markera kryssrutan för att bekräfta att du har sparat den och klicka sedan på "Continue".
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09.png" alt="Återställningskod som visas under MFA-konfiguration"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-recovery-code.png" alt="Skärmen Save your recovery code med återställningskoden, Copy code och kryssrutan för bekräftelse"></div>
 {% endstep %}
 {% endstepper %}
 
 ## Nästa gång du loggar in
 
-Nästa gång du loggar in ser du en uppmaning "Verify your identity". Öppna din authenticator-app, läs av den sexsiffriga koden och ange den på inloggningsskärmen. Markera kryssrutan för att eMarketeer ska komma ihåg den här enheten i 30 dagar, så du inte behöver appen vid varje inloggning.
+Första gången du loggar in efter att du har konfigurerat MFA får du välja en metod för att verifiera din identitet. Välj **Google Authenticator or similar**. Du gör det här valet bara en gång. Därefter går eMarketeer direkt till rutan för koden.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14.png" alt="Uppmaning Verify your identity vid inloggning"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity med Google Authenticator or similar och Recovery code"></div>
+
+Därefter ser du en uppmaning "Verify your identity". Öppna din authenticator-app, läs av den sexsiffriga koden och ange den i fältet **Enter your one-time code**. Markera **Remember this device for 30 days** om du inte vill använda appen vid varje inloggning, och klicka sedan på **Continue**.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-verify-identity.png" alt="Uppmaningen Verify your identity med fältet för engångskoden, Remember this device for 30 days och Continue"></div>
+
+Om du inte har telefonen med dig klickar du på **Try another method** och loggar in med din återställningskod.
 
 Om du får problem med inloggningen, kontakta supporten via chattrutan på inloggningssidan.

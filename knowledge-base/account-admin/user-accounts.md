@@ -56,14 +56,20 @@ A QR code appears. Open your authenticator app on your phone and tap "Scan QR co
 
 You're now authenticated, but before you continue you're shown a recovery code. Use this code to sign in if you don't have your phone with the authenticator app. Save it somewhere secure. Tick the checkbox to confirm you've saved it, then click "Continue".
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.43.09.png" alt="Recovery code displayed during MFA setup"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-recovery-code.png" alt="Save your recovery code screen with the recovery code, Copy code and the confirmation checkbox"></div>
 {% endstep %}
 {% endstepper %}
 
 ## Next time you log in
 
-The next time you sign in, you see a "Verify your identity" prompt. Open your authenticator app, read the six-digit code, and enter it on the login screen. Tick the checkbox to have eMarketeer remember this device for 30 days so you don't need the app on every sign-in.
+The first time you sign in after setting up MFA, you're asked to select a method to verify your identity. Choose **Google Authenticator or similar**. You only make this choice once. After that, eMarketeer goes straight to the code prompt.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2020-11-18-kl.-12.44.14.png" alt="Verify your identity prompt at sign-in"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity, with Google Authenticator or similar and Recovery code"></div>
+
+You then see a "Verify your identity" prompt. Open your authenticator app, read the six-digit code, and enter it in the **Enter your one-time code** field. Tick **Remember this device for 30 days** if you don't want to use the app on every sign-in, then click **Continue**.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-verify-identity.png" alt="Verify your identity prompt with the one-time code field, Remember this device for 30 days and Continue"></div>
+
+If you don't have your phone with you, click **Try another method** and sign in with your recovery code.
 
 If you have any trouble signing in, contact support through the chat box on the login page.
