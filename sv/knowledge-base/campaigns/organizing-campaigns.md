@@ -30,7 +30,7 @@ Du kan flytta en kampanj i taget. Klicka på trepricksikonen på kampanjens rad 
 
 Varje kampanj har ytterligare alternativ bakom trepricksikonen längst till höger på sin rad:
 
-* **Favorite** — Klicka på stjärnan till vänster om kampanjens namn för att lägga till den som favorit, snabbt åtkomlig från sektionen Favourites i menyn till vänster.
+* **Favourite** — Klicka på stjärnan till vänster om kampanjens namn för att lägga till den som favorit, snabbt åtkomlig från sektionen Favourites i menyn till vänster.
 * **Rename** — För att byta namn på en kampanj öppnar du den och ändrar namnet där.
 * **Copy campaign** — Skapar en kopia av kampanjen i samma mapp. Eftersom den är den senast skapade kampanjen sorteras kopian först.
 * **Transfer campaign** — Skapar en kopia av kampanjen i ett annat eMarketeer-konto. Se [Överför en kampanj till ett annat konto](transfer-a-campaign-to-a-different-account.md).

@@ -30,7 +30,7 @@ You can move one campaign at a time. Click the three-dot icon on the campaign's 
 
 Each campaign has additional options behind the three-dot icon on the far right of its row:
 
-* **Favorite** — Click the star to the left of a campaign's name to add it as a favorite, quickly accessible from the Favourites section in the left-side menu.
+* **Favourite** — Click the star to the left of a campaign's name to add it as a favourite, quickly accessible from the Favourites section in the left-side menu.
 * **Rename** — To rename a campaign, open it and change its name there.
 * **Copy campaign** — Makes a copy of the campaign in the same folder. As the most recently created campaign, the copy is sorted first.
 * **Transfer campaign** — Creates a copy of the campaign in another eMarketeer account. See [Transfer a campaign to a different account](transfer-a-campaign-to-a-different-account.md).

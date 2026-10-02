@@ -76,7 +76,7 @@ The engagement category is worth highlighting. You can filter contacts by how th
 
 ## Save segments
 
-Save a filter as a segment to come back to it quickly. Click **Save As Segment** in the Filter contacts dialog. Segments are not personal — every user on your account can see them. You find saved segments under **Manage segments** in the same dialog and under **Segments** in the Contacts menu. You can also mark a segment as a favorite with the star in **Manage segments** to pin it to the left-hand menu.
+Save a filter as a segment to come back to it quickly. Click **Save As Segment** in the Filter contacts dialog. Segments are not personal — every user on your account can see them. You find saved segments under **Manage segments** in the same dialog and under **Segments** in the Contacts menu. You can also mark a segment as a favourite with the star in **Manage segments** to pin it to the left-hand menu.
 
 ## What you can do with your selection of contacts
 
