@@ -40,6 +40,6 @@ Gå till Files i eMarketeer och ladda upp bilden till valfri mapp. Klicka för a
 4. På rad 9–12 klistrar du in din nya URL på alla fyra raderna.
 5. Klicka på Save.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/change-home-screen-icon-in-web-app-head-tab-icon-urls.png" alt="Web App-editorn med Disable Developer Mode, Colors, Fonts & Head och fliken Head markerade 1 till 3, samt ikonens URL:er på rad 9–12 i head-koden"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png" alt="URL:er för ikoner inklistrade på rad 9–12 i Web App-headern"></div>
 
 Din app använder nu den nya ikonen när den sparas på en hemskärm.

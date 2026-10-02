@@ -40,6 +40,6 @@ Open your Web App in developer mode and change the icon URLs.
 4. On lines 9-12, paste your new URL on all four rows.
 5. Click Save.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/change-home-screen-icon-in-web-app-head-tab-icon-urls.png" alt="Web app editor with Disable Developer Mode, Colors, Fonts & Head and the Head tab marked 1 to 3, and the icon URLs on lines 9-12 of the head code"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/Ska_CC_88rmavbild-2017-08-07-kl.-10.11.51.png" alt="icon URLs pasted on lines 9-12 of the web app head"></div>
 
 Your app now uses the new icon when saved to a home screen.
