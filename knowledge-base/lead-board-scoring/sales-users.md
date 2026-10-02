@@ -18,9 +18,9 @@ Click the gear icon at the top right, choose Account Settings, and open Users & 
 
 1. Click Create User. This opens the Create new user dialog.
 2. Enter the email address of the new user.
-3.  Under Licenses, check Sales user — Access to Leads, then tick one or more sales teams the user should belong to. A user can belong to one or more sales teams.
+3.  Under Licenses, check Sales user — Access to Leads, then tick one or more sales teams the user should belong to. A user can belong to one or more sales teams. A sales user also gets access to CRM web panels by default, so **CRM Web Panels** under **Access** is checked automatically.
 
-    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/sales-users-create-user-sales.png" alt="Create new user dialog with Sales user checked and two sales teams selected"></div>
+    <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/sales-users-create-user-sales-crm-panels.png" alt="Create new user dialog with Sales user checked, the sales teams listed below it, and CRM Web Panels checked under Access"></div>
 4. Click Create user and send login email.
 
 The user is notified by email to set a password and complete the profile.
