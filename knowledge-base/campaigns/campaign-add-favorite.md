@@ -19,6 +19,8 @@ Location of Favourites on the Campaigns page
 1. Find the campaign in the Campaigns list, under All Campaigns or in its folder.
 2. Click the star icon on the left side of the campaign's row.
 
+The campaign now appears under Favourites.
+
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-add-favorite-favourite-star-on-campaign-row.png" alt="The star icon at the start of a campaign row"></div>
 
 Adding a campaign to Favourites

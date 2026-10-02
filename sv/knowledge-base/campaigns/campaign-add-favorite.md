@@ -19,6 +19,8 @@ Plats för Favourites på sidan Campaigns
 1. Hitta kampanjen i kampanjlistan, under All Campaigns eller i sin mapp.
 2. Klicka på stjärnikonen till vänster i kampanjens rad.
 
+Kampanjen visas nu under Favourites.
+
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/campaign-add-favorite-favourite-star-on-campaign-row.png" alt="Stjärnikonen i början av en kampanjrad"></div>
 
 Lägga till en kampanj i Favourites
