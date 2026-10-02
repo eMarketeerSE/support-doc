@@ -27,6 +27,6 @@ This opens the Create new user dialog. Enter the email address of the new user, 
 * Developer (a license under Marketing user): access to Developer Mode in e-mails and landing pages for advanced customisation.
 * Administrator (under Access): can edit the Corporate Account settings and create accounts.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-dialog.png" alt="Create new user dialog"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Create new user dialog with an email address filled in and Marketing user and Developer checked"></div>
 
 The invite email contains a link to a page where the user can create their account if they do not already have one. If they already have a user account on another account, they gain access to the new account in addition to their existing ones.

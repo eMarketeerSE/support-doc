@@ -27,6 +27,6 @@ Då öppnas dialogrutan Create new user. Ange den nya användarens e-postadress,
 * Developer (en licens under Marketing user): åtkomst till Developer Mode i e-postmeddelanden och landningssidor för avancerad anpassning.
 * Administrator (under Access): kan redigera Corporate Account-inställningarna och skapa konton.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-create-new-user-dialog.png" alt="Dialogrutan Create new user"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Dialogrutan Create new user med en e-postadress ifylld och Marketing user och Developer markerade"></div>
 
 Inbjudningsmejlet innehåller en länk till en sida där användaren kan skapa sitt konto, om de inte redan har ett. Om de redan har ett användarkonto på ett annat konto får de tillgång till det nya kontot utöver de befintliga.
