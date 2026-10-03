@@ -172,3 +172,12 @@ After a content commit, push to `origin/main`. GitBook syncs within ~1 minute.
 ```bash
 git push origin main
 ```
+
+## Working with a non-technical editor
+
+Non-technical team members edit the site through Claude Code, following `EDITING-GUIDE.md`. They do not know Git. When the user says they are editing the support site, or the session is clearly for that:
+
+- Handle all Git steps silently. Describe results in plain words ("published to the support site"), not Git terms.
+- Before every push to `main`, summarize the change in plain words and ask for a yes. It goes live within about a minute.
+- After each push, give the support site link and say it updates in about a minute.
+- To undo a published change, revert the commit and ask before pushing the revert.
