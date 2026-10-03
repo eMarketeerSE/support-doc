@@ -23,6 +23,78 @@ layout:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-10-02" tags="new-release,feature,improvement,fix" %}
+## The new eMarketeer
+
+eMarketeer has been rebuilt with a new interface across the whole app. This is our biggest update since eMarketeer first launched, so this post covers the highlights rather than every change.
+
+### Interface and language
+
+* New interface and navigation across the app.
+* The app is now fully available in Swedish, Norwegian, Danish and Finnish.
+* Improved performance: pages and lists load faster.
+
+### Help assistant
+
+* A help assistant is now available inside the app. Ask questions in plain language and get answers from the documentation without leaving the page.
+
+### Campaigns
+
+* Redesigned and simplified campaign view.
+* Improved folder management.
+* Filter campaigns by creator, tags and latest activity.
+* Search across campaigns and their components.
+
+### Contacts
+
+* New contact card with an overview of contact details at the top.
+* Notes can now be added to contacts.
+* New Journeys tab showing the current step for each journey the contact has not yet completed.
+* The Lead tab is now always available, so a lead can be created from any contact card.
+* The contact list now shows the newest contacts first by default.
+
+### Tags, files and journeys
+
+* Tags can be created by typing directly on contacts and campaigns, with no need to set them up first.
+* Files can be uploaded by drag and drop, and sorted and searched.
+* Journeys can be organized into folders, with new filter and sort options.
+
+### Dashboards
+
+* Columns on all four dashboards can now be sorted, pinned, removed and filtered.
+
+<details>
+
+<summary>Moved and renamed</summary>
+
+* Saved filters are now called **Segments**.
+* **Lead Scoring** and **Lead Streams** have moved to **Account Settings**.
+
+</details>
+
+<details>
+
+<summary>Improved</summary>
+
+* The default form language can now be set when you create a form.
+
+</details>
+
+<details>
+
+<summary>Fixed</summary>
+
+* Fixed an issue where SuperOffice activities created by campaign automations on new forms showed "Details not available" in the activity web panel.
+* SuperOffice journey steps no longer match company records when looking up a contact by email.
+* The "Create sale" journey step now fills in the sale text in SuperOffice.
+* Failed journey steps now show a readable error message explaining the cause.
+* Fixed an issue where the Telephone and Mobile number fields in forms showed a placeholder that could not be removed.
+* Fixed an issue where hidden form questions with values were not saved.
+* Fixed an issue where recently saved consents could be missed by the consent sync.
+
+</details>
+{% endupdate %}
+
 {% update date="2026-04-14" tags="feature,improvement,fix,form,journey,integrations" %}
 ## Forms, Journeys, and Dynamics 365
 
