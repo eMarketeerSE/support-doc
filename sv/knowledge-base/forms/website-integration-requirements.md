@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   De tekniska krav en webbsida måste uppfylla för att vara värd för ett inbäddat eMarketeer-formulär.
 tags:

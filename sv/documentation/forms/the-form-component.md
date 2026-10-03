@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   En översikt av formulärkomponentredigeraren för att skapa, utforma och publicera fristående och inbäddade formulär.
 ---

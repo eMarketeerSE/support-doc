@@ -52,7 +52,7 @@ Du kan ändra en kontakts prenumerationsstatus automatiskt med kampanjautomation
 
 **Relaterat:**
 
-* [Exkludera inaktiva mottagare](../../../documentation/email-sms/exclude-inactive-recipients.md)
-* [Transaktionella utskick](../../../documentation/email-sms/transactional-sendouts.md)
-* [Vitlista e-postservrar](../../../documentation/email-sms/whitelisting-email-servers.md)
-* [Automatisk avsändarpaus](../../../documentation/email-sms/automatic-send-pause.md)
+* [Exkludera inaktiva mottagare](../../documentation/email-sms/exclude-inactive-recipients.md)
+* [Transaktionella utskick](../../documentation/email-sms/transactional-sendouts.md)
+* [Vitlista e-postservrar](../../documentation/email-sms/whitelisting-email-servers.md)
+* [Automatisk avsändarpaus](../../documentation/email-sms/automatic-send-pause.md)

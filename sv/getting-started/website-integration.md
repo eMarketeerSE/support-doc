@@ -14,7 +14,7 @@ Web Tracker registrerar sidbesök på din webbplats. När en besökare identifie
 
 Spåraren fyller också Marknadsföringsresultat med sessionsdata, trafikkällor och UTM-attribution.
 
-Se [Installera Web Tracker-scriptet på din webbplats](../../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md) för installationsinstruktioner.
+Se [Installera Web Tracker-scriptet på din webbplats](../documentation/web-tracker/installing-the-web-tracker-script-on-your-website.md) för installationsinstruktioner.
 
 ## Formulärbasscript
 

@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Avancerad guide för att begränsa antalet valbara alternativ i en checkbox-fråga i ett formulär med ett anpassat JavaScript-kodavsnitt.
 tags:

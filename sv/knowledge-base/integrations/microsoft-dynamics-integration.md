@@ -13,7 +13,7 @@ Att koppla samman eMarketeer med Dynamics synkroniserar kontaktpreferenser, säk
 - [Setup and configuration](../../documentation/dynamics-365/dynamics-installation.md) — anslut din Dynamics 365-instans till eMarketeer och skapa de initiala datatabellerna.
 - [Consent and subscription sync](../../documentation/dynamics-365/dynamics-legal-basis-sync.md) — så hanterar den flernivåiga synkmotorn rättslig grund och detaljerade e-postprenumerationer för att hålla båda systemen samordnade och regelefterlevda.
 - [Importing contacts and lists](../../documentation/dynamics-365/dynamics-import.md) — hämta kontaktlistor från Dynamics till eMarketeer för en vanlig databasimport eller direkt inför ett utskick.
-- [Journey steps and automations](../../../integrations/dynamics/dynamics-journey-steps/README.md) — trigga åtgärder, synkronisera engagemang och uppdatera data i Dynamics utifrån hur kontakter interagerar med din marknadsföring.
+- [Journey steps and automations](../../documentation/dynamics-365/dynamics-journey-steps.md) — trigga åtgärder, synkronisera engagemang och uppdatera data i Dynamics utifrån hur kontakter interagerar med din marknadsföring.
 
 ## Vad du gör härnäst
 

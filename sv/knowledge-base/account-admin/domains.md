@@ -1,4 +1,4 @@
-﻿---
+---
 description: >-
   Hur du skapar en anpassad domän för att ersätta standardadressen från eMarketeer i de länkar ditt konto genererar.
 ---
