@@ -17,7 +17,7 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - `documentation/` — technical reference, grouped by topic in subfolders. Sub-folder `legal/` for legal docs.
 - `changelog/` — release notes. Its own GitBook space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
 - `.gitbook/assets/` — English images. `sv/.gitbook/assets/` — Swedish images. Each GitBook space only reads files inside its own folder, so the Swedish space cannot see the root `.gitbook/assets/`; every image a Swedish article uses must also exist in `sv/.gitbook/assets/`. See Images below.
-- `assets/<article-slug>/` — leftover from the migration import. Not used by articles; do not add to it or link to it. Scheduled for cleanup after the v2 launch.
+- `assets/<article-slug>/` — leftover from the migration import. Not used by articles; do not add to it or link to it. Scheduled for cleanup.
 - `sv/` — Swedish variant. Mirrors the English structure exactly except `sv/documentation/legal/` does not exist (legal stays English-only).
 
 ## Naming
@@ -132,7 +132,7 @@ genuinely doesn't apply):
 ### What is out of scope (do NOT add)
 - GitBook hint blocks (`{% hint %}`). Not in this pass.
 - Embedded videos or external links.
-- New screenshots during a voice or structure rewrite. Exception: replacing old-UI screenshots with new-UI ones is in scope on `v2` for the new-UI launch; follow the Images rules above.
+- New screenshots during a voice or structure rewrite. Exception: replacing old-UI screenshots with new-UI ones is in scope; follow the Images rules above.
 - Additional languages beyond English and Swedish (the bilingual pair is fixed).
 
 ## Autonomous vs. confirm-first
@@ -172,45 +172,3 @@ After a content commit, push to `origin/main`. GitBook syncs within ~1 minute.
 ```bash
 git push origin main
 ```
-
-## New version of the site (`v2` branch)
-
-A new version of the support site is being built on the long-lived `v2` branch while `main` keeps serving the current site. Staging GitBook spaces (unpublished) sync `v2` so the new version can be previewed; production spaces sync only `main`.
-
-Staging setup in GitBook (visible to GitBook organization members only):
-- Spaces "English" (`6I0qo50pR92UyLZfNHV7`, repo root) and "Svenska" (`KXTjjergUfIPpDFG4Gkd`, `./sv`), both Git-Synced to `v2`.
-- Site "Support v2 preview" (`site_qHP5y`) with those two spaces as language variants. It stays **unpublished** on the free Basic plan: Basic only allows a public, search-indexed site, and share links cost $79/mo (Premium). Never publish it.
-- Preview of the whole site: https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/sites/site_qHP5y/preview
-- Single spaces: English https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/6I0qo50pR92UyLZfNHV7/ · Swedish https://app.gitbook.com/o/1JdVdPfmES6QvXxigQJW/s/KXTjjergUfIPpDFG4Gkd/
-
-### Which branch
-
-- Work that belongs to the new version (new structure, rewritten articles, new sections) goes to `v2`. Never commit it to `main` — that publishes it early.
-- Fixes to the current live site go to `main` as usual.
-- If it is unclear which version a request is for, ask.
-
-### Working with a non-technical editor
-
-Non-technical team members work on the new version through Claude Code, following `V2-EDITING-GUIDE.md`. They do not know Git. When the user says they are working on the new version, or the session is clearly for that:
-
-- At the start, run `git checkout v2 && git pull` yourself. Check the branch again before every commit.
-- Handle all Git steps silently. Describe results in plain words ("saved to the new version"), not Git terms.
-- After each push to `v2`, give the site preview link (and the direct page link if useful) and say it updates in about a minute.
-- A "live site" fix goes to `main`: confirm with the user first, push, then merge `main` into `v2` and push `v2` so the fix is not lost at launch.
-- Launch is only done when the user explicitly asks for it, and only after confirming that Magnus or a developer is present.
-
-### Working on `v2`
-
-- Push with `git push origin v2`. This updates staging only, so no publish confirmation is needed.
-- All other rules in this file (bilingual pair, `SUMMARY.md`, voice, commit message style) apply unchanged on `v2`.
-- Bring `main` into `v2` regularly so fixes to the live site carry forward and the launch merge stays clean: `git checkout v2 && git merge origin/main`.
-- When a file is renamed or moved on `v2`, add a redirect from the old path to the new one under `redirects:` in `.gitbook.yaml` (English) and `sv/.gitbook.yaml` (Swedish), so existing links keep working after launch.
-
-### Launch
-
-On the switch date, with the user's confirmation:
-
-1. Merge `origin/main` into `v2` one last time and resolve any conflicts.
-2. Check that both `SUMMARY.md`s resolve, the redirects cover every moved path, and cross-space links (`app.gitbook.com/s/...`) point to paths that exist in the new structure.
-3. `git checkout main && git merge v2 && git push origin main`. Production updates within ~1 minute.
-4. Remove this section from `CLAUDE.md`, delete the `v2` branch, and delete the "Support v2 preview" site and the "English"/"Svenska" staging spaces in GitBook (not the production "Docs" / "support (swedish)" spaces).
