@@ -53,16 +53,6 @@ eMarketeer has been rebuilt with a new interface across the whole app. This is o
 * The Lead tab is now always available, so a lead can be created from any contact card.
 * The contact list now shows the newest contacts first by default.
 
-### Tags, files and journeys
-
-* Tags can be created by typing directly on contacts and campaigns, with no need to set them up first.
-* Files can be uploaded by drag and drop, and sorted and searched.
-* Journeys can be organized into folders, with new filter and sort options.
-
-### Dashboards
-
-* Columns on all four dashboards can now be sorted, pinned, removed and filtered.
-
 <details>
 
 <summary>Moved and renamed</summary>
@@ -76,6 +66,10 @@ eMarketeer has been rebuilt with a new interface across the whole app. This is o
 
 <summary>Improved</summary>
 
+* Tags can be created by typing directly on contacts and campaigns, with no need to set them up first.
+* Files can be uploaded by drag and drop, and sorted and searched.
+* Journeys can be organized into folders, with new filter and sort options.
+* Columns on all four dashboards can now be sorted, pinned, removed and filtered.
 * The default form language can now be set when you create a form.
 
 </details>
