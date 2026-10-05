@@ -89,7 +89,6 @@
   * [Custom domain](knowledge-base/account-admin/domains.md)
 
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
-  * [Contact eMarketeer support](knowledge-base/account-admin/contact-support.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Subscriptions](knowledge-base/account-admin/subscriptions.md)
 
@@ -158,6 +157,7 @@
   * [Understanding eMarketeer URLs](knowledge-base/account-admin/understanding-em-urls.md)
   * [Where is eMarketeer data stored geographically?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
 * [Generate HAR file for support](knowledge-base/developer-advanced/generate-har-file.md)
+* [Contact eMarketeer support](knowledge-base/account-admin/contact-support.md)
 * [Glossary](glossary.md)
 
 ## Integrations

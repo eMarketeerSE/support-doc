@@ -89,7 +89,6 @@
   * [Egen domän](knowledge-base/account-admin/domains.md)
 
   * [Logga ut ur eMarketeer](knowledge-base/account-admin/log-out.md)
-  * [Kontakta eMarketeers support](knowledge-base/account-admin/contact-support.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Prenumerationer](knowledge-base/account-admin/subscriptions.md)
 
@@ -158,6 +157,7 @@
   * [Förstå eMarketeer-URL:er](knowledge-base/account-admin/understanding-em-urls.md)
   * [Var lagras eMarketeer-data geografiskt?](knowledge-base/account-admin/where-is-emarketeer-data-stored-geographically.md)
 * [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
+* [Kontakta eMarketeers support](knowledge-base/account-admin/contact-support.md)
 * [Ordlista](glossary.md)
 
 ## Integrationer
