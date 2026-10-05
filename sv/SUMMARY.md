@@ -176,6 +176,7 @@
     * [Lägg till / Ta bort från projekt](documentation/superoffice/so-add-remove-project.md)
     * [Lägg till / Ta bort från urval](documentation/superoffice/so-add-remove-selection.md)
     * [Lägg till / Ta bort intresse](documentation/superoffice/so-add-remove-interest.md)
+  * [Kontaktmatchning i SuperOffice](documentation/superoffice/superoffice-contact-matching.md)
   * [SuperOffice-automatiseringar](knowledge-base/integrations/superoffice-automations-pro.md)
   * [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
   * [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)
