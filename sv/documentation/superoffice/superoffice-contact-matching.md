@@ -6,17 +6,7 @@ description: Hur SuperOffice-stegen i en Journey hittar kontakten i SuperOffice,
 
 När ett Journey-steg utför en uppgift i SuperOffice måste eMarketeer först hitta kontakten i SuperOffice. Den här artikeln förklarar hur kontakter matchas och hur du kan skapa de kontakter som saknas.
 
-Det gäller stegen i gruppen **CRM** i panelen **Add Journey step**:
-
-* Create Activity
-* Create Sale
-* Add / Remove from project
-* Add / Remove from selection
-* Add / Remove interest
-
-Se [SuperOffice Journey Steps](superoffice-journey-steps.md).
-
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/superoffice-journey-steps-crm-group.png" alt="Gruppen CRM i panelen Add Journey step med Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection och Add / Remove interest"></div>
+Det gäller stegen i gruppen **CRM** i panelen **Add Journey step**. Se [SuperOffice Journey Steps](superoffice-journey-steps.md).
 
 ## Kontaktmatchning
 
