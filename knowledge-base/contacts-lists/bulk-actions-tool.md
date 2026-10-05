@@ -6,9 +6,9 @@ description: >-
 
 # How to manage contacts in bulk
 
-Bulk Actions lets you update or manage groups of contacts in a single operation.
+Bulk Actions lets you update or manage groups of contacts in a single operation. It's available in several places where eMarketeer lists contacts, for example under Contacts, in a campaign's contacts, in component reports and in journey step lists.
 
-To open it, go to **Contacts** and select the contacts you want to change with the checkboxes in the list. To select every contact in the current view, use the checkbox at the top of the list. The **Bulk actions** button then appears at the top of the list, next to **Export**. Use it when you need to apply the same change to many contacts at once.
+To open it under **Contacts**, select the contacts you want to change with the checkboxes in the list. To select every contact in the current view, use the checkbox at the top of the list. The **Bulk actions** button then appears at the top of the list, next to **Export**. Use it when you need to apply the same change to many contacts at once.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/bulk-actions-tool-contacts-bulk-actions-button.png" alt="Bulk actions button above the selected contacts in the contact list"></div>
 

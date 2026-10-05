@@ -6,9 +6,9 @@ description: >-
 
 # Så här hanterar du kontakter i bulk
 
-Bulk Actions (Massåtgärder) låter dig uppdatera eller hantera grupper av kontakter i en enda operation.
+Bulk Actions (Massåtgärder) låter dig uppdatera eller hantera grupper av kontakter i en enda operation. Det finns på flera ställen där eMarketeer listar kontakter, till exempel under Contacts, bland en kampanjs kontakter, i komponentrapporter och i listor för Journey-steg.
 
-Gå till **Contacts** och markera de kontakter du vill ändra med kryssrutorna i listan. Om du vill markera alla kontakter i den aktuella vyn använder du kryssrutan högst upp i listan. Knappen **Bulk actions** visas då överst i listan, bredvid **Export**. Använd den när du behöver tillämpa samma ändring på många kontakter samtidigt.
+Så här öppnar du det under **Contacts**: markera de kontakter du vill ändra med kryssrutorna i listan. Om du vill markera alla kontakter i den aktuella vyn använder du kryssrutan högst upp i listan. Knappen **Bulk actions** visas då överst i listan, bredvid **Export**. Använd den när du behöver tillämpa samma ändring på många kontakter samtidigt.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/bulk-actions-tool-contacts-bulk-actions-button.png" alt="Knappen Bulk actions ovanför de markerade kontakterna i kontaktlistan"></div>
 
