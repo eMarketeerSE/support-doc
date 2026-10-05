@@ -29,6 +29,7 @@ When any of the events below occurs for a contact, eMarketeer checks whether tha
 - Contact card update
 - Legal basis update
 - Added to a contact list
+- Share to CRM
 
 ### Lead Board
 

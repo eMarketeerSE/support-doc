@@ -28,6 +28,7 @@ När någon av händelserna nedan inträffar för en kontakt kontrollerar eMarke
 - Uppdatering av kontaktkort
 - Uppdatering av rättslig grund
 - Tillagd i en kontaktlista
+- Share to CRM
 
 ### Lead Board
 
