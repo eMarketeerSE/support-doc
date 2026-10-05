@@ -34,7 +34,7 @@ The dialog shows how many licenses of each type are in use. If you need more, cl
 
 ### Access
 
-* **CRM Web Panels**: access to the eMarketeer web panels in your CRM tool, such as Contact Summary and Company Summary.
+* **CRM Web Panels**: access to the eMarketeer web panels in your CRM tool, such as Contact Summary and Company Summary. For SuperOffice, see [Web panels](../../documentation/superoffice/integration-features-and-flows.md#web-panels) in the SuperOffice integration features and flows article.
 * **Administrator**: can edit the account settings and invite new users.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Create new user dialog with an email address filled in and Marketing user and Developer checked"></div>

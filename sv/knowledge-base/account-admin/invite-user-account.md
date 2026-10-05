@@ -34,7 +34,7 @@ Dialogrutan visar hur många licenser av varje typ som används. Om du behöver 
 
 ### Åtkomst
 
-* **CRM Web Panels**: åtkomst till eMarketeers webbpaneler i ditt CRM-verktyg, till exempel Contact Summary och Company Summary.
+* **CRM Web Panels**: åtkomst till eMarketeers webbpaneler i ditt CRM-verktyg, till exempel Contact Summary och Company Summary. För SuperOffice, se [Webbpaneler](../../documentation/superoffice/integration-features-and-flows.md#webbpaneler) i artikeln om SuperOffice-integrationens funktioner och flöden.
 * **Administrator**: kan redigera kontoinställningarna och bjuda in nya användare.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Dialogrutan Create new user med en e-postadress ifylld och Marketing user och Developer markerade"></div>
