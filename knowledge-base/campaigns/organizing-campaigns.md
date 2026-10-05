@@ -16,7 +16,7 @@ The Campaigns list gives you an overview of every campaign without opening any o
 
 ### Sort the list
 
-By default, campaigns are sorted by **Last activity**, with the most recently active campaign first. You can also sort the list by creation date (**Newest**) or by name.
+By default, campaigns are sorted by **Last activity**, with the most recently active campaign first. You can also sort the list by creation date (**Newest**/**Oldest**) or by name.
 
 ### Filter and search
 

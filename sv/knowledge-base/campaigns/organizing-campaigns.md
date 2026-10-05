@@ -16,7 +16,7 @@ Campaigns-listan ger dig en överblick över alla kampanjer utan att du behöver
 
 ### Sortera listan
 
-Som standard sorteras kampanjerna efter **Last activity**, med den senast aktiva kampanjen först. Du kan också sortera listan efter skapelsedatum (**Newest**) eller efter namn.
+Som standard sorteras kampanjerna efter **Last activity**, med den senast aktiva kampanjen först. Du kan också sortera listan efter skapelsedatum (**Newest**/**Oldest**) eller efter namn.
 
 ### Filtrera och sök
 
