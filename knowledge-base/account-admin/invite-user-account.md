@@ -24,8 +24,18 @@ On the User Accounts tab, click Create User to start the invite process.
 
 This opens the Create new user dialog. Enter the email address of the new user, select their licenses and access, and click Create user and send login email.
 
-* Developer (a license under Marketing user): access to Developer Mode in e-mails and landing pages for advanced customisation.
-* Administrator (under Access): can edit the Corporate Account settings and create accounts.
+### Licenses
+
+* **Marketing user**: access to the marketing tools, such as campaigns and journeys. A marketing user can view the Lead board, but can't be assigned leads or work with them.
+  * **Developer**: a role for marketing users, not a separate license. It gives access to Developer Mode in emails and landing pages. Only developers can create and update component templates.
+* **Sales user**: access to the Lead board to work with leads. A sales user must be assigned to a sales team. Your sales teams are listed under Sales user in the dialog. Tick the team or teams the user belongs to.
+
+The dialog shows how many licenses of each type are in use. If you need more, click Manage Payplan.
+
+### Access
+
+* **CRM Web Panels**: access to the eMarketeer web panels in your CRM tool, such as Contact Summary and Company Summary.
+* **Administrator**: can edit the account settings and invite new users.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Create new user dialog with an email address filled in and Marketing user and Developer checked"></div>
 

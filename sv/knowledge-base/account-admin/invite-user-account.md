@@ -24,8 +24,18 @@ På fliken User Accounts klickar du på Create User för att starta inbjudningsp
 
 Då öppnas dialogrutan Create new user. Ange den nya användarens e-postadress, välj licenser och åtkomst och klicka på Create user and send login email.
 
-* Developer (en licens under Marketing user): åtkomst till Developer Mode i e-postmeddelanden och landningssidor för avancerad anpassning.
-* Administrator (under Access): kan redigera Corporate Account-inställningarna och skapa konton.
+### Licenser
+
+* **Marketing user**: åtkomst till marknadsföringsverktygen, till exempel kampanjer och journeys. En marketing user kan se Lead board, men kan inte tilldelas leads eller arbeta med dem.
+  * **Developer**: en roll för marketing users, inte en egen licens. Den ger åtkomst till Developer Mode i e-postmeddelanden och landningssidor. Bara developers kan skapa och uppdatera komponentmallar.
+* **Sales user**: åtkomst till Lead board för att arbeta med leads. En sales user måste tilldelas ett säljteam. Dina säljteam listas under Sales user i dialogrutan. Markera det eller de team som användaren tillhör.
+
+Dialogrutan visar hur många licenser av varje typ som används. Om du behöver fler klickar du på Manage Payplan.
+
+### Åtkomst
+
+* **CRM Web Panels**: åtkomst till eMarketeers webbpaneler i ditt CRM-verktyg, till exempel Contact Summary och Company Summary.
+* **Administrator**: kan redigera kontoinställningarna och bjuda in nya användare.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Dialogrutan Create new user med en e-postadress ifylld och Marketing user och Developer markerade"></div>
 
