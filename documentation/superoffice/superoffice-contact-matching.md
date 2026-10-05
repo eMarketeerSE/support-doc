@@ -6,7 +6,15 @@ description: How SuperOffice Journey steps find the contact in SuperOffice, and 
 
 When a Journey step performs a task in SuperOffice, eMarketeer first has to find the contact in SuperOffice. This article explains how contacts are matched and how you can create the contacts that are missing.
 
-It applies to the steps in the CRM group of the "Add Journey step" panel: Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection and Add / Remove interest. See [SuperOffice Journey Steps](superoffice-journey-steps.md).
+It applies to the steps in the **CRM** group of the **Add Journey step** panel:
+
+* Create Activity
+* Create Sale
+* Add / Remove from project
+* Add / Remove from selection
+* Add / Remove interest
+
+See [SuperOffice Journey Steps](superoffice-journey-steps.md).
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/superoffice-journey-steps-crm-group.png" alt="The CRM group in the Add Journey step panel with Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection and Add / Remove interest"></div>
 
