@@ -6,6 +6,10 @@ description: Journey-stegstyper som skapar poster och uppdaterar data i SuperOff
 
 SuperOffice Journey Steps låter dig skapa poster och uppdatera data i SuperOffice när kontakter rör sig genom en Journey i eMarketeer. Varje steg skickar information till ditt anslutna SuperOffice-konto — skapar aktiviteter eller försäljningar, hanterar projekt- och urvalsmedlemskap eller uppdaterar intressekoder på kontakter.
 
+Du hittar stegen i gruppen CRM i panelen "Add Journey step".
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/superoffice-journey-steps-crm-group.png" alt="Gruppen CRM i panelen Add Journey step med Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection och Add / Remove interest"></div>
+
 {% columns %}
 {% column %}
 {% content-ref url="so-create-activity.md" %}

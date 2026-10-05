@@ -8,6 +8,8 @@ När ett Journey-steg utför en uppgift i SuperOffice måste eMarketeer först h
 
 Det gäller stegen i gruppen CRM i panelen "Add Journey step": Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection och Add / Remove interest. Se [SuperOffice Journey Steps](superoffice-journey-steps.md).
 
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/superoffice-journey-steps-crm-group.png" alt="Gruppen CRM i panelen Add Journey step med Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection och Add / Remove interest"></div>
+
 ## Kontaktmatchning
 
 När en uppgift utförs i SuperOffice kontrollerar eMarketeer först om kontakten finns där. Det görs genom att matcha kontaktens external-id och e-postadress.
