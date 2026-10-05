@@ -89,6 +89,7 @@
   * [Custom domain](knowledge-base/account-admin/domains.md)
 
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)
+  * [Contact eMarketeer support](knowledge-base/account-admin/contact-support.md)
   * [SMS Sender ID](knowledge-base/account-admin/sms.md)
   * [Subscriptions](knowledge-base/account-admin/subscriptions.md)
 
