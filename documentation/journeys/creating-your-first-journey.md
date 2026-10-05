@@ -124,6 +124,14 @@ The wait step has an additional counter showing how many contacts are currently 
 
 ## Journeys and SuperOffice
 
-The CRM group in the "Add Journey step" panel contains several actions that perform tasks in SuperOffice: Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection and Add / Remove interest. All tasks relate to contacts in SuperOffice.
+The **CRM** group in the **Add Journey step** panel contains several actions that perform tasks in SuperOffice:
+
+* Create Activity
+* Create Sale
+* Add / Remove from project
+* Add / Remove from selection
+* Add / Remove interest
+
+All tasks relate to contacts in SuperOffice.
 
 Before a step runs, eMarketeer looks up the contact in SuperOffice. To learn how contacts are matched and how missing contacts can be created, see [SuperOffice contact matching](../superoffice/superoffice-contact-matching.md).

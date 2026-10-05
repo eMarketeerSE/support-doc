@@ -120,6 +120,14 @@ Väntesteget har en extra räknare som visar hur många kontakter som för närv
 
 ## Journeys och SuperOffice
 
-Gruppen CRM i panelen "Add Journey step" innehåller flera åtgärder som utför uppgifter i SuperOffice: Create Activity, Create Sale, Add / Remove from project, Add / Remove from selection och Add / Remove interest. Alla uppgifter gäller kontakter i SuperOffice.
+Gruppen **CRM** i panelen **Add Journey step** innehåller flera åtgärder som utför uppgifter i SuperOffice:
+
+* Create Activity
+* Create Sale
+* Add / Remove from project
+* Add / Remove from selection
+* Add / Remove interest
+
+Alla uppgifter gäller kontakter i SuperOffice.
 
 Innan ett steg körs letar eMarketeer upp kontakten i SuperOffice. Hur kontakter matchas och hur saknade kontakter kan skapas läser du i [Kontaktmatchning i SuperOffice](../superoffice/superoffice-contact-matching.md).
