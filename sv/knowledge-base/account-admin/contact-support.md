@@ -1,23 +1,30 @@
 ---
 hidden: true
 description: >-
-  Hur du når en person i eMarketeers supportteam inifrån appen, vilka språk
-  supporten erbjuds på och när supporten är öppen.
+  Hur du når en person i eMarketeers supportteam via supportchatten i appen
+  eller via e-post, vilka språk supporten erbjuds på och när supporten är
+  öppen.
 ---
 
 # Kontakta eMarketeers support
 
-Om du vill prata med en person i eMarketeers supportteam klickar du på headset-ikonen i det övre fältet i eMarketeer.
+Om du vill prata med en person i eMarketeers supportteam klickar du på headset-ikonen i det övre fältet i eMarketeer. Då öppnas supportchatten. Du kan också mejla oss på [support@emarketeer.com](mailto:support@emarketeer.com).
 
 Använd det här när hjälpassistenten eller supportdokumentationen inte kan svara på din fråga, eller när du behöver hjälp att lösa ett problem i ditt konto.
 
-## Nå supporten från appen
+## Chatta med supporten i appen
 
-Klicka på **headset**-ikonen uppe till höger i eMarketeer. Den sitter mellan hjälpikonen och notifieringsklockan.
+Klicka på **headset**-ikonen uppe till höger i eMarketeer. Den sitter mellan hjälpikonen och notifieringsklockan. Supportchatten öppnas och du kan skriva direkt till våra supportagenter.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-support-top-bar-headset.png" alt="Det övre fältet i eMarketeer med headset-ikonen markerad"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-support-top-bar-headset.png" alt="Det övre fältet i eMarketeer med headset-ikonen, som öppnar supportchatten, markerad"></div>
 
-Våra supportagenter hjälper dig på svenska eller engelska.
+## Mejla supporten
+
+Du kan också nå oss via e-post på [support@emarketeer.com](mailto:support@emarketeer.com).
+
+## Språk
+
+Våra supportagenter hjälper dig på svenska eller engelska, både i chatten och via e-post.
 
 ## Supporttider
 

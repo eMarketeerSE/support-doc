@@ -1,23 +1,30 @@
 ---
 hidden: true
 description: >-
-  How to reach a person on the eMarketeer support team from inside the app,
-  which languages support is offered in, and when support is open.
+  How to reach a person on the eMarketeer support team through the support chat
+  in the app or by email, which languages support is offered in, and when
+  support is open.
 ---
 
 # Contact eMarketeer support
 
-To talk to a person on the eMarketeer support team, click the headset icon in the top bar of eMarketeer.
+To talk to a person on the eMarketeer support team, click the headset icon in the top bar of eMarketeer. This opens the support chat. You can also email us at [support@emarketeer.com](mailto:support@emarketeer.com).
 
 Use this when the help assistant or the support docs can't answer your question, or when you need help resolving an issue in your account.
 
-## Reach support from the app
+## Chat with support in the app
 
-Click the **headset** icon at the top right of eMarketeer. It sits between the help icon and the notifications bell.
+Click the **headset** icon at the top right of eMarketeer. It sits between the help icon and the notifications bell. The support chat opens, and you can write to our support agents directly.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-support-top-bar-headset.png" alt="The top bar in eMarketeer with the headset icon highlighted"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-support-top-bar-headset.png" alt="The top bar in eMarketeer with the headset icon, which opens the support chat, highlighted"></div>
 
-Our support agents help you in Swedish or English.
+## Email support
+
+You can also reach us by email at [support@emarketeer.com](mailto:support@emarketeer.com).
+
+## Languages
+
+Our support agents help you in Swedish or English, in the chat and by email.
 
 ## Support hours
 
