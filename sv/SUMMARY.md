@@ -36,6 +36,7 @@
     * [Länka till ett formulär](knowledge-base/forms/how-to-link-to-a-form.md)
     * [Formuläreditor: UI-översikt](documentation/forms/ui-overview.md)
     * [Förgreningslogik i formulär](knowledge-base/forms/form-branching-logic.md)
+    * [Så här skapar du ett quiz](knowledge-base/forms/how-to-create-a-quiz.md)
     * [Styla ditt formulär](documentation/forms/styling-your-form.md)
   * [Formulär (Legacy)](knowledge-base/forms/legacy.md)
     * [Skapa ditt första formulär (Legacy)](knowledge-base/getting-started/basics-creating-form.md)
