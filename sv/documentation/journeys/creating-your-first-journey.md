@@ -36,7 +36,7 @@ För närvarande är detta allt du behöver veta om startpunkter. För en djupar
 
 När du har angett startpunkten kommer du in i Journey-byggaren. Det är här du lägger till de steg (åtgärder) du vill köra för varje kontakt som går in i din Journey.
 
-Klicka på en prick på linjen mellan två steg för att öppna panelen "Add Journey step" och klicka sedan på det steg du vill ha. Stegen är grupperade som Campaign Component, Logic, Lead, Contact och CRM.
+Klicka på en prick på linjen mellan två steg för att öppna panelen "Add Journey step" och klicka sedan på det steg du vill ha. Stegen är grupperade som Campaign Component, Logic, Lead, Contact och CRM. Vad varje steg gör och hur du ställer in det beskrivs i [Journey-steg](journey-steps.md).
 
 ### Ställ in väntevillkor
 
@@ -46,7 +46,7 @@ Med Journey-byggaren kan du dela upp din Journey i förgreningar baserat på kri
 
 Till exempel kan din Journey skicka ett e-postmeddelande, vänta en dag och sedan utföra olika åtgärder beroende på om e-postmeddelandet öppnades.
 
-Lägg till väntesteget först, lägg sedan till If/Else-steget för att dela vägen i förgreningar.
+Lägg till [väntesteget](journey-step-wait.md) först, lägg sedan till [If/Else-steget](journey-step-if-else.md) för att dela vägen i förgreningar.
 
 > Lägg alltid till ett väntesteg före ett If/Else-steg, annars utvärderas det omedelbart.
 
@@ -56,7 +56,7 @@ Nu kan du fortsätta att bygga ut var och en av de två förgreningarna.
 
 ### Skicka e-post och SMS
 
-Journey-stegen inkluderar att skicka e-post och textmeddelanden (SMS). För att använda dem i en Journey måste du först skapa dem i en kampanj.
+Journey-stegen inkluderar att skicka [e-post](journey-step-send-email.md) och [textmeddelanden (SMS)](journey-step-send-sms.md). För att använda dem i en Journey måste du först skapa dem i en kampanj.
 
 Du kan inte skapa ett nytt e-postmeddelande eller SMS inifrån en Journey. Du kan däremot lägga till ett steg som inte är färdigkonfigurerat som platshållare. En Journey med ofärdiga steg kan sparas men inte aktiveras.
 

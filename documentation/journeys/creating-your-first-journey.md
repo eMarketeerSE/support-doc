@@ -38,7 +38,7 @@ For now this is all you need to know about starting points. For a deeper dive, s
 
 After you set the starting point, you enter the Journey builder. This is where you add the steps (actions) you want to execute for each contact that enters the Journey.
 
-Click a dot on the line between two steps to open the "Add Journey step" panel, then click the step you want. Steps are grouped as Campaign Component, Logic, Lead, Contact and CRM.
+Click a dot on the line between two steps to open the "Add Journey step" panel, then click the step you want. Steps are grouped as Campaign Component, Logic, Lead, Contact and CRM. For what each step does and how to set it up, see [Journey Steps](journey-steps.md).
 
 ### Setting up wait conditions
 
@@ -48,7 +48,7 @@ The Journey builder lets you split the Journey into branches based on criteria y
 
 For example, your Journey can send an email, wait for a day, and then perform different actions depending on whether the email was opened.
 
-Add the wait step first, then add the If/Else step to split the path into branches.
+Add the [wait step](journey-step-wait.md) first, then add the [If/Else step](journey-step-if-else.md) to split the path into branches.
 
 {% hint style="info" %}
 Always add a wait step before an If/Else step, or it will be evaluated immediately.
@@ -60,7 +60,7 @@ You can now continue building each of the two branches.
 
 ### Sending emails and SMS
 
-Journey steps include sending emails and text messages (SMS). To use them in a Journey, first create them in a campaign.
+Journey steps include [sending emails](journey-step-send-email.md) and [text messages (SMS)](journey-step-send-sms.md). To use them in a Journey, first create them in a campaign.
 
 You can't create a new email or SMS from inside the Journey. You can, however, add a step that isn't fully configured yet as a placeholder. A Journey with unfinished steps can be saved, but not activated.
 
