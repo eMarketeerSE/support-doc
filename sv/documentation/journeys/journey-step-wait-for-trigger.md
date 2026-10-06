@@ -15,3 +15,7 @@ Steget Wait for trigger håller kvar kontakten i steget tills den uppfyller ett 
 * **Set a time limit** — valfritt. Om kontakten inte uppfyller villkoren inom tidsgränsen går den ändå vidare till nästa steg. Ange ett tal och välj en enhet, till exempel timmar eller dagar.
 
 Klicka på **Apply** för att spara steget.
+
+{% hint style="warning" %}
+Om du inte anger någon tidsgräns går kontakten inte vidare i din Journey förrän den uppfyller villkoren. En kontakt som aldrig uppfyller dem blir kvar i steget för alltid. Ange en tidsgräns om din Journey ska fortsätta även för de kontakterna.
+{% endhint %}

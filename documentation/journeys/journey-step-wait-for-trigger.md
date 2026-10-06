@@ -15,3 +15,7 @@ The Wait for trigger step holds the contact at this step until they meet a set o
 * **Set a time limit** — optional. If the contact doesn't meet the conditions within the time limit, they move to the next step anyway. Enter a number and choose a unit, such as hours or days.
 
 Click **Apply** to save the step.
+
+{% hint style="warning" %}
+If you don't set a time limit, the contact does not move on in the Journey until they meet the conditions. A contact who never meets them stays in this step for good. Set a time limit if the Journey should continue for these contacts too.
+{% endhint %}
