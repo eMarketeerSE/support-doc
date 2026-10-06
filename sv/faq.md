@@ -51,7 +51,7 @@ Ja. Öppna kontaktkortet, gå till fliken **Lead** och gör kontakten till en le
 
 Inte direkt. En Lead Board visar leads från de [leadströmmar](knowledge-base/lead-board-scoring/lead-streams.md) som levererar till dess säljteam. Byt leadström i stället för att skicka en lead till ett annat team.
 
-Ett exempel: en kontakt fyller i ditt engelska formulär och matchar en leadström för ditt engelska säljteam, men kontakten är tydligt fransk. Ta bort leaden från dess nuvarande leadström på fliken **Lead** på kontaktkortet. Lägg sedan till kontakten i den leadström som levererar till ditt franska säljteam. Leaden visas då på det teamets Lead Board.
+Ett exempel: en kontakt fyller i ditt engelska formulär och matchar en leadström för ditt engelska säljteam, men kontakten är tydligt fransk. Ta bort kontakten från Lead Board på fliken **Lead** på kontaktkortet, så att den inte längre är en lead. Gör sedan kontakten till en lead igen från samma flik och välj den leadström som levererar till ditt franska säljteam. Leaden visas då på det teamets Lead Board.
 
 </details>
 

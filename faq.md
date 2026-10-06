@@ -51,7 +51,7 @@ Yes. Open the contact card, go to the **Lead** tab and make the contact a lead. 
 
 Not directly. A lead board shows the leads from the [lead streams](knowledge-base/lead-board-scoring/lead-streams.md) that deliver to its sales team. To send a lead to another team, change the lead stream instead.
 
-For example, a contact fills in your English form and matches a lead stream for your English sales team, but the contact is clearly French. On the **Lead** tab of the contact card, remove the lead from its current lead stream. Then add the contact to the lead stream that delivers to your French sales team. The lead then appears on that team's lead board.
+For example, a contact fills in your English form and matches a lead stream for your English sales team, but the contact is clearly French. On the **Lead** tab of the contact card, remove the contact from the lead board, so it's no longer a lead. Then make the contact a lead again from the same tab, and choose the lead stream that delivers to your French sales team. The lead then appears on that team's lead board.
 
 </details>
 
