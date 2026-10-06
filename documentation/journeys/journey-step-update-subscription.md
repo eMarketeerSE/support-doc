@@ -5,7 +5,7 @@ description: >-
 
 # Update Subscription
 
-The Update Subscription step subscribes or unsubscribes the contact from one of your subscriptions.
+The Update Subscription step subscribes or unsubscribes the contact from one of your [subscriptions](../../knowledge-base/account-admin/subscriptions.md).
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/journey-step-update-subscription-settings.png" alt="Update Subscription dialog with the Newsletter subscription and the status Subscribed"></div>
 
@@ -16,4 +16,4 @@ The Update Subscription step subscribes or unsubscribes the contact from one of 
 
 Click **Apply** to save the step.
 
-To learn more about subscriptions, see [Subscriptions](../../knowledge-base/account-admin/subscriptions.md).
+For more information about subscriptions, see [Subscriptions](../../knowledge-base/account-admin/subscriptions.md).

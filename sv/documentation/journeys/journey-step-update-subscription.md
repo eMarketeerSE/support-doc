@@ -5,7 +5,7 @@ description: >-
 
 # Update Subscription
 
-Steget Update Subscription lägger till eller tar bort kontaktens prenumeration på en av dina prenumerationer.
+Steget Update Subscription lägger till eller tar bort kontaktens prenumeration på en av dina [prenumerationer](../../knowledge-base/account-admin/subscriptions.md).
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/journey-step-update-subscription-settings.png" alt="Dialogen Update Subscription med prenumerationen Newsletter och statusen Subscribed"></div>
 
@@ -16,4 +16,4 @@ Steget Update Subscription lägger till eller tar bort kontaktens prenumeration 
 
 Klicka på **Apply** för att spara steget.
 
-Läs mer om prenumerationer i [Prenumerationer](../../knowledge-base/account-admin/subscriptions.md).
+Mer information om prenumerationer finns i [Prenumerationer](../../knowledge-base/account-admin/subscriptions.md).
