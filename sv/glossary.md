@@ -155,6 +155,16 @@ Ett permanent e-postleveransfel, vanligtvis för att e-postadressen inte exister
 
 </details>
 
+## I
+
+<details>
+
+<summary>Ogiltig e-postadress</summary>
+
+En e-postadress som inte är korrekt formaterad, till exempel en som saknar @-tecknet eller domänen. Kontakter med en ogiltig e-postadress blockeras när du importerar kontakter från en fil eller från ett CRM. De kan ändå skapas på andra sätt, till exempel via ett formulär eller Quick Send. Blanda inte ihop med en [olevererbar kontakt](#oleverbar-kontakt), vars e-postadress är korrekt formaterad men har studsat.
+
+</details>
+
 ## J
 
 <details>

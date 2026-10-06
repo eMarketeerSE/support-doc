@@ -229,6 +229,16 @@ A permanent email delivery failure, typically because the email address does not
 
 </details>
 
+## I
+
+<details>
+
+<summary>Invalid email address</summary>
+
+An email address that isn't correctly formatted, for example one that is missing the @ sign or the domain. Contacts with an invalid email address are blocked when you import contacts from a file or from a CRM. They can still be created in other ways, such as through a form or a Quick Send. Don't confuse this with an [undeliverable contact](#undeliverable-contact), whose email address is correctly formatted but has bounced.
+
+</details>
+
 ## J
 
 <details>
