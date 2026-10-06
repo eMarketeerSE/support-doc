@@ -177,6 +177,7 @@
 * [Skapa en HAR-fil för supporten](knowledge-base/developer-advanced/generate-har-file.md)
 * [Kontakta eMarketeers support](knowledge-base/account-admin/contact-support.md)
 * [Ordlista](glossary.md)
+* [Vanliga frågor och felsökning](faq.md)
 
 ## Integrationer
 

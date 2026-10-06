@@ -177,6 +177,7 @@
 * [Generate HAR file for support](knowledge-base/developer-advanced/generate-har-file.md)
 * [Contact eMarketeer support](knowledge-base/account-admin/contact-support.md)
 * [Glossary](glossary.md)
+* [FAQ and troubleshooting](faq.md)
 
 ## Integrations
 
