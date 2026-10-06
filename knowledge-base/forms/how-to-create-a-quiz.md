@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   How to build a quiz with the form editor: set correct answers, add a start
   page and a timer, show each respondent their score, and save the score with

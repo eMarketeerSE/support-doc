@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Så här bygger du ett quiz med formulärredigeraren: ange rätt svar, lägg till
   en startsida och en timer, visa varje deltagare sitt resultat och spara

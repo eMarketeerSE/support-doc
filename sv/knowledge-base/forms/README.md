@@ -25,7 +25,7 @@ Formulär passar för en mängd olika användningsområden:
 * Registreringsformulär
 * Evenemangsanmälningar
 * Enkäter och utvärderingar efter evenemang
-* Poängsatta quiz
+* Poängsatta quiz (se [Så här skapar du ett quiz](how-to-create-a-quiz.md))
 * NPS-enkäter
 
 Formulär är utformade för att enkelt bäddas in på din webbplats — alla ändringar du gör i eMarketeer uppdaterar det inbäddade formuläret automatiskt. Formulär kan även hanteras direkt av eMarketeer, vilket ger dig en länk som du kan dela eller länka till från valfri plats. Se [Bädda in formulär på din webbplats](../../documentation/forms/publish-a-form.md) för installationsinstruktioner.

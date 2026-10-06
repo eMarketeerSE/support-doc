@@ -25,7 +25,7 @@ Forms are suited for a wide range of use cases:
 * Sign-up forms
 * Event registrations
 * Surveys and post-event evaluations
-* Scored quizzes
+* Scored quizzes (see [How to create a quiz](how-to-create-a-quiz.md))
 * NPS surveys
 
 Forms are designed to be easily embedded on your website — any changes you make in eMarketeer update the embedded form automatically. Forms can also be hosted directly by eMarketeer, in which case you get a link you can share or point to from anywhere. See [Embed forms on your website](../../documentation/forms/publish-a-form.md) for setup instructions.
