@@ -13,6 +13,7 @@
 * [Kontoinställning](getting-started/account-setup.md)
   * [Lägg till e-postdomän](knowledge-base/email-deliverability/authorize-email-domain.md)
   * [Webbplatsintegrering](getting-started/website-integration.md)
+  * [Redigera din profil](getting-started/edit-your-profile.md)
 
 ## Guider
 
