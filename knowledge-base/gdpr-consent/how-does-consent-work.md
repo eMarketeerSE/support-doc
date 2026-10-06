@@ -51,7 +51,9 @@ You need a legal base for each purpose. A typical setup looks like this:
 - E-marketing = Consent. For marketing you need explicit consent unless you can prove legitimate interest.
 - Profiling = Consent. Same as e-marketing.
 
-Tip: if you collect contact data digitally through web forms, always include a consent checkbox that clearly states how you will use the information. This gives you explicit consent, which is a stronger legal base than legitimate interest.
+{% hint style="info" %}
+If you collect contact data digitally through web forms, always include a consent checkbox that clearly states how you will use the information. This gives you explicit consent, which is a stronger legal base than legitimate interest.
+{% endhint %}
 
 ## Source
 

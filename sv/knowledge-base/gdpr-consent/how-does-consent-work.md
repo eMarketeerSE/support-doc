@@ -51,7 +51,9 @@ Du behöver en rättslig grund för varje ändamål. En typisk inställning ser 
 - E-marketing = Consent. För marknadsföring behöver du uttryckligt samtycke om du inte kan bevisa berättigat intresse.
 - Profiling = Consent. Samma som e-marketing.
 
-Tips: om du samlar in kontaktdata digitalt via webbformulär, inkludera alltid en samtyckes-kryssruta som tydligt anger hur du kommer att använda informationen. Detta ger dig uttryckligt samtycke, vilket är en starkare rättslig grund än berättigat intresse.
+{% hint style="info" %}
+Om du samlar in kontaktdata digitalt via webbformulär, inkludera alltid en samtyckes-kryssruta som tydligt anger hur du kommer att använda informationen. Detta ger dig uttryckligt samtycke, vilket är en starkare rättslig grund än berättigat intresse.
+{% endhint %}
 
 ## Källa
 
