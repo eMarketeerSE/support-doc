@@ -1,7 +1,7 @@
 ---
 description: >-
   Checklistan för e-post visar hur många kontakter som kommer att nås av ett
-  utskick, och hur många som inte gör det, uppdelat efter orsak.
+  utskick, och hur många som kommer att exkluderas, uppdelat efter orsak.
 ---
 
 # Förstå checklistan för e-post

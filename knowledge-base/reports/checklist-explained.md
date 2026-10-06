@@ -1,7 +1,7 @@
 ---
 description: >-
   The Email Checklist shows how many contacts will be addressed by a sendout,
-  and how many will not, broken down by reason.
+  and how many will be excluded, broken down by reason.
 ---
 
 # Understanding the Email Checklist
