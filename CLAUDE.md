@@ -109,6 +109,17 @@ genuinely doesn't apply):
 4. **What to do next** (optional) — link to a related article if there's
    a natural follow-up.
 
+### Hint blocks
+- GitBook hint blocks are allowed for things the reader must not miss: a pitfall, a
+  limitation, or an action that can't be undone.
+- Ask the user before adding a new hint block. Turning existing text into a hint at the
+  user's request needs no extra confirmation.
+- Use `info` for tips and context, and `warning` for pitfalls that lead to unwanted
+  results. Example: `{% hint style="info" %}` … `{% endhint %}`.
+- Keep a hint to one to three sentences. Don't start it with "Tip:" or "Note:"; the
+  box already signals that.
+- Mirror every hint block in the Swedish article.
+
 ### What to fix when rewriting an existing article
 - Strip " – eMarketeer Support" and " - eMarketeer Support" suffixes
   from the H1.
@@ -130,7 +141,6 @@ genuinely doesn't apply):
   original wording and add a `> TODO: verify` callout near it.
 
 ### What is out of scope (do NOT add)
-- GitBook hint blocks (`{% hint %}`). Not in this pass.
 - Embedded videos or external links.
 - New screenshots during a voice or structure rewrite. Exception: replacing old-UI screenshots with new-UI ones is in scope; follow the Images rules above.
 - Additional languages beyond English and Swedish (the bilingual pair is fixed).
@@ -150,6 +160,7 @@ genuinely doesn't apply):
 - Restructuring sections.
 - Force-pushing.
 - Editing legal docs (`documentation/legal/`).
+- Adding a new GitBook hint block.
 
 ## Ask, don't guess
 
