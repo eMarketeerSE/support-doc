@@ -98,6 +98,7 @@
   * [Hur kontakter skapas](knowledge-base/contacts-lists/how-contacts-are-created.md)
   * [Så här hanterar du kontakter i bulk](knowledge-base/contacts-lists/bulk-actions-tool.md)
   * [Så bygger och använder du kontaktfilter](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
+  * [Så här rensar du dina kontakter](knowledge-base/contacts-lists/clean-up-contacts.md)
   * [Importera kontakter från Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)
   * [Taggar](knowledge-base/contacts-lists/tags.md)
   * [Så här skapar du en ny kontaktlista](knowledge-base/getting-started/new-contact-list.md)

@@ -98,6 +98,7 @@
   * [How contacts are created](knowledge-base/contacts-lists/how-contacts-are-created.md)
   * [How to manage contacts in bulk](knowledge-base/contacts-lists/bulk-actions-tool.md)
   * [How to build and use Contact Filters](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
+  * [How to clean up your contacts](knowledge-base/contacts-lists/clean-up-contacts.md)
   * [Import contacts from Excel](knowledge-base/contacts-lists/import-contacts-from-excel.md)
   * [Tags](knowledge-base/contacts-lists/tags.md)
   * [How to Create a New Contact List](knowledge-base/getting-started/new-contact-list.md)
