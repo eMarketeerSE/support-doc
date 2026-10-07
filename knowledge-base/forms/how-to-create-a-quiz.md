@@ -17,7 +17,7 @@ The quickest way to build a quiz is to start from the **Scored Quiz** template. 
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-create-a-quiz-scored-quiz-template.png" alt="Choose a starting point dialog with the Scored Quiz template selected"></div>
 
-The template already contains everything this guide describes:
+The template contains everything we will cover in this guide:
 
 * A start page that asks for the respondent's name.
 * Quiz questions with correct answers set, one question per page.

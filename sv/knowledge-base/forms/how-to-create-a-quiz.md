@@ -17,7 +17,7 @@ Det snabbaste sättet att bygga ett quiz är att börja från mallen **Scored Qu
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/how-to-create-a-quiz-scored-quiz-template.png" alt="Dialogen Choose a starting point med mallen Scored Quiz vald"></div>
 
-Mallen innehåller redan allt som den här guiden beskriver:
+Mallen innehåller allt som vi går igenom i den här guiden:
 
 * En startsida som frågar efter deltagarens namn.
 * Quizfrågor med rätt svar angivna, en fråga per sida.
