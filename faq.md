@@ -94,3 +94,13 @@ You can't set it directly. Each image block in the email editor shows a recommen
 No. eMarketeer doesn't support email attachments. Instead, upload the file to **Files** in eMarketeer and link to it from the email with the **Link to file** option in the link menu. See [Add a button with a link](knowledge-base/getting-started/basics-creating-email.md#add-a-button-with-a-link).
 
 </details>
+
+<details>
+
+<summary>Can I create plain text emails in eMarketeer?</summary>
+
+No. eMarketeer doesn't support plain-text-only emails. Every email you create in eMarketeer is sent as a multipart email, with both an HTML version and a plain text version.
+
+If you want an email that looks simple, like a plain text email, choose the **Email - Plain** template when you create the email. It has a minimal design, but it's still an HTML email, not a true plain text email. See [Fill in settings, choose a template, create the email](knowledge-base/getting-started/basics-creating-email.md#fill-in-settings-choose-a-template-create-the-email).
+
+</details>

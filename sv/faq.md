@@ -94,3 +94,13 @@ Det går inte att ställa in direkt. Varje bildblock i e-postredigeraren visar e
 Nej. eMarketeer stöder inte bilagor i e-post. Ladda i stället upp filen under **Files** i eMarketeer och länka till den från e-postmeddelandet med alternativet **Link to file** i länkmenyn. Se [Lägg till en knapp med en länk](knowledge-base/getting-started/basics-creating-email.md#lägg-till-en-knapp-med-en-länk).
 
 </details>
+
+<details>
+
+<summary>Kan jag skapa e-post i ren text i eMarketeer?</summary>
+
+Nej. eMarketeer stöder inte e-post med enbart ren text. Varje e-postmeddelande du skapar i eMarketeer skickas som ett multipart-meddelande, med både en HTML-version och en version i ren text.
+
+Om du vill ha ett e-postmeddelande som ser enkelt ut, som ett meddelande i ren text, väljer du mallen **Email - Plain** när du skapar e-postmeddelandet. Den har en enkel design, men det är fortfarande ett HTML-meddelande, inte ett riktigt meddelande i ren text. Se [Fyll i inställningar, välj en mall och skapa e-posten](knowledge-base/getting-started/basics-creating-email.md#fyll-i-inställningar-välj-en-mall-och-skapa-e-posten).
+
+</details>
