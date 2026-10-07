@@ -9,7 +9,7 @@ description: >-
 
 This guide shows how to find contacts that are no longer relevant for your account, so you can remove them.
 
-Cleaning up regularly keeps your reports accurate, keeps your contact count within your plan, and protects your sender reputation, because you only send to people who want your emails.
+Cleaning up regularly keeps your contact count within your plan. It also helps you follow [GDPR](../gdpr-consent/emarketeer-gdpr-overview.md), which says you shouldn't keep personal data for longer than you need it. And a tidy contact database is easier to work with.
 
 ## Find contacts with the filter builder
 
@@ -56,7 +56,7 @@ These contacts can receive your emails, but they don't open them or click any li
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/clean-up-contacts-unengaged-filter.png" alt="Filter condition E-mail Equals Deliverable but unengaged"></div>
 
-They may be worth removing, but consider giving them a chance first with a re-engagement [Journey](../journeys/journeys.md). See also [Exclude inactive recipients](../../documentation/email-sms/exclude-inactive-recipients.md).
+They may be worth removing, but consider giving them a chance first with a re-engagement [Journey](../journeys/journeys.md). To read more about unengaged contacts, see [Exclude inactive recipients](../../documentation/email-sms/exclude-inactive-recipients.md).
 
 ## Remove the contacts
 

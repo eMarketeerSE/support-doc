@@ -9,7 +9,7 @@ description: >-
 
 Den här guiden visar hur du hittar kontakter som inte längre är relevanta för ditt konto, så att du kan ta bort dem.
 
-Att rensa regelbundet håller dina rapporter korrekta, håller antalet kontakter inom din plan och skyddar ditt avsändarrykte, eftersom du bara skickar till personer som vill ha dina e-postmeddelanden.
+Att rensa regelbundet håller antalet kontakter inom din plan. Det hjälper dig också att följa [GDPR](../gdpr-consent/emarketeer-gdpr-overview.md), som säger att du inte ska spara personuppgifter längre än du behöver dem. Och en städad kontaktdatabas är lättare att arbeta med.
 
 ## Hitta kontakter med filterverktyget
 
@@ -56,7 +56,7 @@ De här kontakterna kan ta emot dina e-postmeddelanden, men de öppnar dem inte 
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/clean-up-contacts-unengaged-filter.png" alt="Filtervillkoret E-mail Equals Deliverable but unengaged"></div>
 
-De kan vara värda att ta bort, men överväg att först ge dem en chans med en [Journey](../journeys/journeys.md) för återaktivering. Se även [Exkludera inaktiva mottagare](../../documentation/email-sms/exclude-inactive-recipients.md).
+De kan vara värda att ta bort, men överväg att först ge dem en chans med en [Journey](../journeys/journeys.md) för återaktivering. Mer om oengagerade kontakter finns i [Exkludera inaktiva mottagare](../../documentation/email-sms/exclude-inactive-recipients.md).
 
 ## Ta bort kontakterna
 
