@@ -35,6 +35,16 @@ No. There's no filter for contacts with an [invalid email address](glossary.md#i
 
 </details>
 
+<details>
+
+<summary>Can I create companies in eMarketeer?</summary>
+
+No. Companies aren't records of their own in eMarketeer, so you can't create them or search for them. Instead, eMarketeer builds a company profile automatically from the domain of a contact's email address, as part of enriching the contact.
+
+To see a contact's company profile, open the contact card, go to the **Overview** tab and click **View company**. See [The company card](knowledge-base/lead-board-scoring/the-lead-board.md#the-company-card).
+
+</details>
+
 ## Leads
 
 <details>

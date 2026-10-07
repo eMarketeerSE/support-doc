@@ -35,6 +35,16 @@ Nej. Det finns inget filter för kontakter med en [ogiltig e-postadress](glossar
 
 </details>
 
+<details>
+
+<summary>Kan jag skapa företag i eMarketeer?</summary>
+
+Nej. Företag är inte egna poster i eMarketeer, så du kan inte skapa dem eller söka efter dem. eMarketeer bygger i stället en företagsprofil automatiskt utifrån domänen i kontaktens e-postadress, som en del av berikningen av kontakten.
+
+Om du vill se en kontakts företagsprofil öppnar du kontaktkortet, går till fliken **Overview** och klickar på **View company**. Se [Företagskortet](knowledge-base/lead-board-scoring/the-lead-board.md#företagskortet).
+
+</details>
+
 ## Leads
 
 <details>
