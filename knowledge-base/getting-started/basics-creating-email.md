@@ -63,6 +63,10 @@ From the campaign page, click **Add Component**, then **Email**.
 
 Pick a template from one of the tabs as a starting point for the design. This guide uses **Hero Event** from the **Events** tab. Custom templates saved on your account appear under **My Templates**.
 
+{% hint style="info" %}
+Every email starts from a template, so you can't create one without a template. To start from a blank design, choose **Empty email** on the **Layouts** tab. It starts empty, and all the content blocks for emails are available to add.
+{% endhint %}
+
 **Create email component**
 
 Once settings and template are set, click **Create** to create the component.

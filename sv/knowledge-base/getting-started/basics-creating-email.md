@@ -45,6 +45,10 @@ E-postinställningar
 
 Välj en mall från någon av flikarna som utgångspunkt för designen. Den här guiden använder **Hero Event** från fliken **Events**. Egna mallar som sparats på ditt konto visas under **My Templates**.
 
+{% hint style="info" %}
+Alla e-postmeddelanden utgår från en mall, så det går inte att skapa ett utan mall. Om du vill börja från en tom design väljer du **Empty email** på fliken **Layouts**. Den börjar tom, och alla innehållsblock för e-post finns tillgängliga att lägga till.
+{% endhint %}
+
 **Skapa e-postkomponent**
 
 När inställningar och mall är klara klickar du på **Create** för att skapa komponenten.
