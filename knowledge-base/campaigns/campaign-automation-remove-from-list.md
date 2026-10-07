@@ -6,7 +6,7 @@ description: >-
 
 # Remove from list automation
 
-The Remove from list automation is a [campaign automation](campaign-automations.md) that removes the contact who triggered it from a contact list. The contact itself is not deleted. To do the same in a Journey, see the [Contact List](../../documentation/journeys/journey-step-contact-list.md) step.
+The Remove from list automation is a [campaign automation](campaign-automations.md) that removes the contact who triggered it from a contact list. The contact itself is not deleted.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-remove-from-list-settings.png" alt="Remove from list automation settings with the name, the list to remove the contact from and Do only once per contact"></div>
 
@@ -19,3 +19,5 @@ The Remove from list automation is a [campaign automation](campaign-automations.
 ## Trigger
 
 Choose the component and event that run the automation under **When this happens**. See [Choose the trigger](campaign-automations.md#choose-the-trigger).
+
+**Related Journey step:** [Contact List](../../documentation/journeys/journey-step-contact-list.md)

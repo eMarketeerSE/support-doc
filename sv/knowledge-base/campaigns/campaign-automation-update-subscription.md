@@ -6,7 +6,7 @@ description: >-
 
 # Update subscription-automation
 
-Automatiseringen Update subscription är en [kampanjautomatisering](campaign-automations.md) som lägger till eller tar bort prenumerationen för den kontakt som utlöste den på en av dina [prenumerationer](../account-admin/subscriptions.md). Om du vill göra samma sak i en Journey, se steget [Update Subscription](../../documentation/journeys/journey-step-update-subscription.md).
+Automatiseringen Update subscription är en [kampanjautomatisering](campaign-automations.md) som lägger till eller tar bort prenumerationen för den kontakt som utlöste den på en av dina [prenumerationer](../account-admin/subscriptions.md).
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-update-subscription-settings.png" alt="Inställningarna för automatiseringen Update subscription med namn, prenumeration, statusen Unsubscribed och Do only once per contact"></div>
 
@@ -20,3 +20,5 @@ Automatiseringen Update subscription är en [kampanjautomatisering](campaign-aut
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Update Subscription](../../documentation/journeys/journey-step-update-subscription.md)

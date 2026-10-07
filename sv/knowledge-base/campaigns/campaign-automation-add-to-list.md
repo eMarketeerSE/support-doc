@@ -6,7 +6,7 @@ description: >-
 
 # Add to list-automation
 
-Automatiseringen Add to list är en [kampanjautomatisering](campaign-automations.md) som lägger till den kontakt som utlöste den i en kontaktlista. Om du vill göra samma sak i en Journey, se steget [Contact List](../../documentation/journeys/journey-step-contact-list.md).
+Automatiseringen Add to list är en [kampanjautomatisering](campaign-automations.md) som lägger till den kontakt som utlöste den i en kontaktlista.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-add-to-list-settings.png" alt="Inställningarna för automatiseringen Add to list med namn, lista att lägga till kontakten i och Do only once per contact"></div>
 
@@ -19,3 +19,5 @@ Automatiseringen Add to list är en [kampanjautomatisering](campaign-automations
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Contact List](../../documentation/journeys/journey-step-contact-list.md)

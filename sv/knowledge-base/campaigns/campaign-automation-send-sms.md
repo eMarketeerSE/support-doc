@@ -6,7 +6,7 @@ description: >-
 
 # Send SMS-automation
 
-Automatiseringen Send SMS är en [kampanjautomatisering](campaign-automations.md) som skickar ett textmeddelande (SMS) till den kontakt som utlöste den. Om du vill göra samma sak i en Journey, se steget [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md).
+Automatiseringen Send SMS är en [kampanjautomatisering](campaign-automations.md) som skickar ett textmeddelande (SMS) till den kontakt som utlöste den.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-send-sms-settings.png" alt="Inställningarna för automatiseringen Send SMS med namn, SMS att skicka, Delay action och Do only once per contact"></div>
 
@@ -22,3 +22,5 @@ SMS:et måste redan finnas. Du kan inte skapa ett SMS från automatiseringen.
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md)

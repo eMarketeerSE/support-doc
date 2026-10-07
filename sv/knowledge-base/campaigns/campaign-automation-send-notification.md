@@ -6,7 +6,7 @@ description: >-
 
 # Send notification-automation
 
-Automatiseringen Send notification är en [kampanjautomatisering](campaign-automations.md) som skickar en avisering om den kontakt som utlöste den, via e-post, SMS eller båda. Använd den för att meddela en kollega, till exempel när en kontakt skickar in ett formulär. Journey-steget [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md) liknar den, men skickar bara e-post.
+Automatiseringen Send notification är en [kampanjautomatisering](campaign-automations.md) som skickar en avisering om den kontakt som utlöste den, via e-post, SMS eller båda. Använd den för att meddela en kollega, till exempel när en kontakt skickar in ett formulär.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-send-notification-settings.png" alt="Inställningarna för automatiseringen Send notification med namn, e-postadresser, mobilnummer och Do only once per contact"></div>
 
@@ -20,3 +20,5 @@ Automatiseringen Send notification är en [kampanjautomatisering](campaign-autom
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md), som liknar den men bara skickar e-post.

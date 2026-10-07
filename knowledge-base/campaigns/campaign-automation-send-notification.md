@@ -6,7 +6,7 @@ description: >-
 
 # Send notification automation
 
-The Send notification automation is a [campaign automation](campaign-automations.md) that sends a notification about the contact who triggered it, by email, SMS or both. Use it to alert a colleague, for example when a contact submits a form. The [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md) Journey step is similar, but sends email only.
+The Send notification automation is a [campaign automation](campaign-automations.md) that sends a notification about the contact who triggered it, by email, SMS or both. Use it to alert a colleague, for example when a contact submits a form.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-send-notification-settings.png" alt="Send notification automation settings with the name, email addresses, mobile phone numbers and Do only once per contact"></div>
 
@@ -20,3 +20,5 @@ The Send notification automation is a [campaign automation](campaign-automations
 ## Trigger
 
 Choose the component and event that run the automation under **When this happens**. See [Choose the trigger](campaign-automations.md#choose-the-trigger).
+
+**Related Journey step:** [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md), which is similar but sends email only.

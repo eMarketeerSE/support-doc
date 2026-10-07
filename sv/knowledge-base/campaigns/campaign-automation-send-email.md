@@ -6,7 +6,7 @@ description: >-
 
 # Send email-automation
 
-Automatiseringen Send email är en [kampanjautomatisering](campaign-automations.md) som skickar ett e-postmeddelande från kampanjen till den kontakt som utlöste den. Om du vill göra samma sak i en Journey, se steget [Send Email](../../documentation/journeys/journey-step-send-email.md).
+Automatiseringen Send email är en [kampanjautomatisering](campaign-automations.md) som skickar ett e-postmeddelande från kampanjen till den kontakt som utlöste den.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-send-email-settings.png" alt="Inställningarna för automatiseringen Send email med namn, e-postmeddelande att skicka, Delay action och Do only once per contact"></div>
 
@@ -22,3 +22,5 @@ E-postmeddelandet måste redan finnas. Du kan inte skapa ett e-postmeddelande fr
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Send Email](../../documentation/journeys/journey-step-send-email.md)

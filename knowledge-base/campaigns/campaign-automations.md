@@ -8,30 +8,7 @@ description: >-
 
 Campaign automations are rules inside a campaign. Each rule runs one action, such as sending an email or adding the contact to a list, when a contact does something with one of the campaign's components.
 
-Use them for simple, immediate follow-ups to a send or a form, for example a confirmation email when a form is submitted or a notification to a colleague when a link is clicked.
-
-## Campaign automations or Journeys?
-
-Campaign automations and [Journeys](../journeys/journeys.md) can perform many of the same actions, but they are different features.
-
-* **Campaign automations** live inside one campaign. They are triggered by an event on one of that campaign's components, and each rule runs a single action. There are no logic steps, such as waits, If / Else or conditions. When you copy the campaign, its automations are copied too.
-* **Journeys** are separate, multi-step flows. They can start from many kinds of triggers and combine actions with waits, branches and conditions. See [Journey Steps](../../documentation/journeys/journey-steps.md).
-
-Many automations have a Journey step that does the same thing:
-
-| Campaign automation | Closest Journey step |
-|---|---|
-| Send email | [Send Email](../../documentation/journeys/journey-step-send-email.md) |
-| Send SMS | [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md) |
-| Add to list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
-| Remove from list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
-| Add to campaign | — |
-| Remove from Campaign | — |
-| Update contact card | [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md) |
-| Update legal basis | [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md) |
-| Update subscription | [Update Subscription](../../documentation/journeys/journey-step-update-subscription.md) |
-| Withdraw consent | — |
-| Send notification | [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md) |
+Use them for simple, immediate follow-ups to a send or a form, for example a confirmation email when a form is submitted, or a notification to a colleague when a link is clicked. They are quick to set up, they live with the campaign, and they are copied along when you copy the campaign.
 
 ## Find a campaign's automations
 
@@ -93,3 +70,26 @@ When you copy a campaign, its automations are copied with it, so the copy works 
 * **[Send notification automation](campaign-automation-send-notification.md)** — send a notification by email or SMS.
 
 If you have connected SuperOffice, see also [SuperOffice automations](../integrations/superoffice-automations-pro.md).
+
+## Campaign automations and Journeys
+
+Campaign automations and [Journeys](../journeys/journeys.md) can perform many of the same actions. Choose the one that fits the task:
+
+* Use a **campaign automation** when one action should happen right after an event in this campaign, such as a form submission or a link click.
+* Use a **Journey** when you need several steps, waits, If / Else branches or conditions, or a trigger outside the campaign. See [Journey Steps](../../documentation/journeys/journey-steps.md).
+
+Many automations have a Journey step that does the same thing:
+
+| Campaign automation | Closest Journey step |
+|---|---|
+| Send email | [Send Email](../../documentation/journeys/journey-step-send-email.md) |
+| Send SMS | [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md) |
+| Add to list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
+| Remove from list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
+| Add to campaign | — |
+| Remove from Campaign | — |
+| Update contact card | [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md) |
+| Update legal basis | [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md) |
+| Update subscription | [Update Subscription](../../documentation/journeys/journey-step-update-subscription.md) |
+| Withdraw consent | — |
+| Send notification | [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md) |

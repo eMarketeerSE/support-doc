@@ -8,30 +8,7 @@ description: >-
 
 Kampanjautomatiseringar är regler i en kampanj. Varje regel utför en åtgärd, till exempel skickar ett e-postmeddelande eller lägger till kontakten i en lista, när en kontakt gör något med någon av kampanjens komponenter.
 
-Använd dem för enkla, direkta uppföljningar av ett utskick eller ett formulär, till exempel ett bekräftelsemejl när ett formulär skickas in eller en avisering till en kollega när någon klickar på en länk.
-
-## Kampanjautomatiseringar eller Journeys?
-
-Kampanjautomatiseringar och [Journeys](../journeys/journeys.md) kan utföra många av samma åtgärder, men de är olika funktioner.
-
-* **Kampanjautomatiseringar** finns i en enda kampanj. De utlöses av en händelse på någon av kampanjens komponenter, och varje regel utför en enda åtgärd. Det finns inga logiksteg, som väntesteg, If / Else eller villkor. När du kopierar kampanjen kopieras även dess automatiseringar.
-* **Journeys** är separata flöden i flera steg. De kan starta från många typer av utlösare och kombinera åtgärder med väntesteg, förgreningar och villkor. Se [Journey-steg](../../documentation/journeys/journey-steps.md).
-
-Många automatiseringar har ett Journey-steg som gör samma sak:
-
-| Kampanjautomatisering | Närmaste Journey-steg |
-|---|---|
-| Send email | [Send Email](../../documentation/journeys/journey-step-send-email.md) |
-| Send SMS | [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md) |
-| Add to list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
-| Remove from list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
-| Add to campaign | — |
-| Remove from Campaign | — |
-| Update contact card | [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md) |
-| Update legal basis | [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md) |
-| Update subscription | [Update Subscription](../../documentation/journeys/journey-step-update-subscription.md) |
-| Withdraw consent | — |
-| Send notification | [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md) |
+Använd dem för enkla, direkta uppföljningar av ett utskick eller ett formulär, till exempel ett bekräftelsemejl när ett formulär skickas in, eller en avisering till en kollega när någon klickar på en länk. De är snabba att ställa in, de hör till kampanjen och de följer med när du kopierar kampanjen.
 
 ## Hitta en kampanjs automatiseringar
 
@@ -93,3 +70,26 @@ När du kopierar en kampanj kopieras dess automatiseringar med, så att kopian f
 * **[Send notification-automation](campaign-automation-send-notification.md)** — skicka en avisering via e-post eller SMS.
 
 Om du har anslutit SuperOffice, se även [SuperOffice-automatiseringar](../integrations/superoffice-automations-pro.md).
+
+## Kampanjautomatiseringar och Journeys
+
+Kampanjautomatiseringar och [Journeys](../journeys/journeys.md) kan utföra många av samma åtgärder. Välj det som passar uppgiften:
+
+* Använd en **kampanjautomatisering** när en åtgärd ska utföras direkt efter en händelse i den här kampanjen, till exempel när ett formulär skickas in eller någon klickar på en länk.
+* Använd en **Journey** när du behöver flera steg, väntesteg, If / Else-förgreningar eller villkor, eller en utlösare utanför kampanjen. Se [Journey-steg](../../documentation/journeys/journey-steps.md).
+
+Många automatiseringar har ett Journey-steg som gör samma sak:
+
+| Kampanjautomatisering | Närmaste Journey-steg |
+|---|---|
+| Send email | [Send Email](../../documentation/journeys/journey-step-send-email.md) |
+| Send SMS | [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md) |
+| Add to list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
+| Remove from list | [Contact List](../../documentation/journeys/journey-step-contact-list.md) |
+| Add to campaign | — |
+| Remove from Campaign | — |
+| Update contact card | [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md) |
+| Update legal basis | [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md) |
+| Update subscription | [Update Subscription](../../documentation/journeys/journey-step-update-subscription.md) |
+| Withdraw consent | — |
+| Send notification | [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md) |

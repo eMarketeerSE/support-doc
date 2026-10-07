@@ -6,7 +6,7 @@ description: >-
 
 # Send SMS automation
 
-The Send SMS automation is a [campaign automation](campaign-automations.md) that sends a text message (SMS) to the contact who triggered it. To do the same in a Journey, see the [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md) step.
+The Send SMS automation is a [campaign automation](campaign-automations.md) that sends a text message (SMS) to the contact who triggered it.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-send-sms-settings.png" alt="Send SMS automation settings with the name, the SMS to send, Delay action and Do only once per contact"></div>
 
@@ -22,3 +22,5 @@ The SMS must already exist. You can't create an SMS from the automation.
 ## Trigger
 
 Choose the component and event that run the automation under **When this happens**. See [Choose the trigger](campaign-automations.md#choose-the-trigger).
+
+**Related Journey step:** [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md)

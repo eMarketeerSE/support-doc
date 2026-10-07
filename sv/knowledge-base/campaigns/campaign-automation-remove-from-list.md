@@ -6,7 +6,7 @@ description: >-
 
 # Remove from list-automation
 
-Automatiseringen Remove from list är en [kampanjautomatisering](campaign-automations.md) som tar bort den kontakt som utlöste den från en kontaktlista. Själva kontakten tas inte bort. Om du vill göra samma sak i en Journey, se steget [Contact List](../../documentation/journeys/journey-step-contact-list.md).
+Automatiseringen Remove from list är en [kampanjautomatisering](campaign-automations.md) som tar bort den kontakt som utlöste den från en kontaktlista. Själva kontakten tas inte bort.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-remove-from-list-settings.png" alt="Inställningarna för automatiseringen Remove from list med namn, lista att ta bort kontakten från och Do only once per contact"></div>
 
@@ -19,3 +19,5 @@ Automatiseringen Remove from list är en [kampanjautomatisering](campaign-automa
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Contact List](../../documentation/journeys/journey-step-contact-list.md)

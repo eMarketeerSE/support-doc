@@ -6,7 +6,7 @@ description: >-
 
 # Update contact card-automation
 
-Automatiseringen Update contact card är en [kampanjautomatisering](campaign-automations.md) som uppdaterar ett fält på kontaktkortet för den kontakt som utlöste den. Om du vill göra samma sak i en Journey, se steget [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md).
+Automatiseringen Update contact card är en [kampanjautomatisering](campaign-automations.md) som uppdaterar ett fält på kontaktkortet för den kontakt som utlöste den.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-update-contact-card-settings.png" alt="Inställningarna för automatiseringen Update contact card med namn, fält att uppdatera, värde och Do only once per contact"></div>
 
@@ -20,3 +20,5 @@ Automatiseringen Update contact card är en [kampanjautomatisering](campaign-aut
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md)

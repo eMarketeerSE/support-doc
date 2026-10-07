@@ -6,7 +6,7 @@ description: >-
 
 # Update legal basis-automation
 
-Automatiseringen Update legal basis är en [kampanjautomatisering](campaign-automations.md) som anger den rättsliga grunden för den kontakt som utlöste den. Om du vill göra samma sak i en Journey, se steget [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md).
+Automatiseringen Update legal basis är en [kampanjautomatisering](campaign-automations.md) som anger den rättsliga grunden för den kontakt som utlöste den.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automation-update-legal-basis-settings.png" alt="Inställningarna för automatiseringen Update legal basis med namn, båda rättsliga grunderna satta till Keep current value och Do only once per contact"></div>
 
@@ -22,3 +22,5 @@ Båda inställningarna är som standard **Keep current value**, vilket lämnar d
 ## Utlösare
 
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+
+**Relaterat Journey-steg:** [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md)
