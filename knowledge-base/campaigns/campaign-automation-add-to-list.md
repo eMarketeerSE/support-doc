@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that adds the contact who triggered it to a contact list.
 ---

@@ -47,7 +47,7 @@ The standard unsubscribe link in email footers automatically links to the subscr
 
 ## Automations
 
-You can change a contact's subscription status automatically using campaign automations. Open the **Automation** tab of a campaign and create an automation that triggers when a contact interacts with a component — for example, to remove them from a category after they click a specific link.
+You can change a contact's subscription status automatically using campaign automations. Open the **Automation** tab of a campaign and create an automation that triggers when a contact interacts with a component — for example, to remove them from a category after they click a specific link. See the [Update subscription automation](../campaigns/campaign-automation-update-subscription.md).
 
 ***
 

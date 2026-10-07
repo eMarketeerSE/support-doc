@@ -21,7 +21,7 @@ Below the campaign name and description sit several tabs. Each tab is a separate
 * **Components** — The default view. Organize and view the campaign's components.
 * **Contacts** — Lists contacts added to the campaign, either imported directly or added automatically through interaction. The number of contacts is shown above the list. [Read more](campaign-contacts.md).
 * **Campaign Fields** — Define fields unique to this campaign that can be merged into component content as variables. Editing a field value replaces the variable in every component that uses it. [Read more about campaign fields](how-to-use-campaign-fields-in-emarketeer.md).
-* **Automation** — Add automated actions to the campaign. Automations trigger from a contact interacting with a component, so the campaign must contain at least one component.
+* **Automation** — Add automated actions to the campaign. Automations trigger from a contact interacting with a component, so the campaign must contain at least one component. [Read more about campaign automations](campaign-automations.md).
 * **Event History** — Shows events for sent emails or SMS. Review when a component was sent, and review or abort upcoming scheduled sends.
 * **Dashboard** — Build campaign-specific reports using reporting widgets. See [campaign reports](../reports/how-to-use-emarketeer-campaign-reports.md).
 

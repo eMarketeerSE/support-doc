@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that sets the legal basis for the contact who triggered it.
 ---

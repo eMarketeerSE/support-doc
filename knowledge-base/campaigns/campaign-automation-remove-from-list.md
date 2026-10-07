@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that removes the contact who triggered it from a contact list.
 ---

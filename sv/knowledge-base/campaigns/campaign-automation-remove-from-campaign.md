@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som tar bort den kontakt som utlöste den från en kampanj.
 ---

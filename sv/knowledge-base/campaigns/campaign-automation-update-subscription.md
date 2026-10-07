@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som lägger till eller tar bort prenumerationen för den kontakt som utlöste den på en av dina prenumerationer.
 ---

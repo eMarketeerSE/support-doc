@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som skickar en avisering om den kontakt som utlöste den, via e-post, SMS eller båda.
 ---

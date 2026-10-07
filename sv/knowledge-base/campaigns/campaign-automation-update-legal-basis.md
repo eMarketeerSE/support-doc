@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som anger den rättsliga grunden för den kontakt som utlöste den.
 ---

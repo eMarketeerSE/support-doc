@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that sends a notification about the contact who triggered it, by email, SMS or both.
 ---

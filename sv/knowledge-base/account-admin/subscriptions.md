@@ -46,7 +46,7 @@ Standardlänken för avprenumeration i e-postsidfötter länker automatiskt till
 
 ## Automationer
 
-Du kan ändra en kontakts prenumerationsstatus automatiskt med kampanjautomationer. Öppna fliken **Automation** i en kampanj och skapa en automation som utlöses när en kontakt interagerar med en komponent — till exempel för att ta bort dem från en kategori efter att de klickat på en specifik länk.
+Du kan ändra en kontakts prenumerationsstatus automatiskt med kampanjautomationer. Öppna fliken **Automation** i en kampanj och skapa en automation som utlöses när en kontakt interagerar med en komponent — till exempel för att ta bort dem från en kategori efter att de klickat på en specifik länk. Se [Update subscription-automationen](../campaigns/campaign-automation-update-subscription.md).
 
 ***
 

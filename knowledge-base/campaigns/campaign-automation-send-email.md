@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that sends an email from the campaign to the contact who triggered it.
 ---

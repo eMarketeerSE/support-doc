@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that subscribes or unsubscribes the contact who triggered it from one of your subscriptions.
 ---

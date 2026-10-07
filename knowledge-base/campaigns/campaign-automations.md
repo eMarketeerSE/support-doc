@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automations are rules inside a campaign that run an action when a contact interacts with one of the campaign's components. How they work, how they differ from Journeys, and the available automations.
 ---

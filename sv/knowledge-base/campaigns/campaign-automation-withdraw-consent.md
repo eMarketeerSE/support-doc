@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som drar tillbaka samtycket till marknadsföringsutskick för den kontakt som utlöste den.
 ---

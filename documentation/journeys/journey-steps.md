@@ -7,6 +7,8 @@ description: >-
 
 Journey steps are the actions a Journey runs for each contact who enters it. This page lists the basic steps and links to how each one is set up.
 
+Journey steps are not the same as [campaign automations](../../knowledge-base/campaigns/campaign-automations.md), which run a single action when a contact interacts with a component in one campaign.
+
 To add a step, click a dot on the line between two steps in the Journey builder. The **Add Journey step** panel opens, with the steps grouped as below. For a walkthrough of building a Journey, see [Creating your first Journey](creating-your-first-journey.md).
 
 ## Campaign Component

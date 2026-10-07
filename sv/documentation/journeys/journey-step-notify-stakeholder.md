@@ -21,4 +21,6 @@ Skriv `@` i något av de tre fälten för att infoga ett kontaktfält, till exem
 
 Eftersom det även fungerar i **Recipient email address** kan meddelandet gå till någon som finns sparad på kontakten. Om kontaktkortet till exempel innehåller e-postadressen till kontaktens key account manager kan du infoga det fältet, så att meddelandet går till rätt person för varje kontakt.
 
+Om du vill avisera någon via e-post eller SMS direkt från en kampanj, utan en Journey, använder du [Send notification-automationen](../../knowledge-base/campaigns/campaign-automation-send-notification.md).
+
 Klicka på **Apply** för att spara steget.

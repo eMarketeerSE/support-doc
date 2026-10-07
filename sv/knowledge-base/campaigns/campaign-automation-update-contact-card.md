@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som uppdaterar ett fält på kontaktkortet för den kontakt som utlöste den.
 ---

@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som lägger till den kontakt som utlöste den i en annan kampanj.
 ---

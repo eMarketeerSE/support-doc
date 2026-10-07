@@ -7,6 +7,8 @@ description: >-
 
 Journey-steg är de åtgärder som en Journey utför för varje kontakt som går in i den. Den här sidan listar de grundläggande stegen och länkar till hur du ställer in vart och ett.
 
+Journey-steg är inte samma sak som [kampanjautomatiseringar](../../knowledge-base/campaigns/campaign-automations.md), som utför en enda åtgärd när en kontakt interagerar med en komponent i en kampanj.
+
 Du lägger till ett steg genom att klicka på en prick på linjen mellan två steg i Journey-byggaren. Panelen **Add Journey step** öppnas, med stegen grupperade som nedan. En genomgång av hur du bygger en Journey finns i [Skapa din första Journey](creating-your-first-journey.md).
 
 ## Campaign Component

@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that updates a field on the contact card of the contact who triggered it.
 ---

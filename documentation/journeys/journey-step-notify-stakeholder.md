@@ -21,4 +21,6 @@ Type `@` in any of the three fields to insert a contact field, such as the conta
 
 Because this also works in **Recipient email address**, the notification can go to someone stored on the contact. For example, if the contact card holds the email address of the contact's key account manager, insert that field to send the notification to the right person for each contact.
 
+To notify someone by email or SMS straight from a campaign, without a Journey, use the [Send notification automation](../../knowledge-base/campaigns/campaign-automation-send-notification.md).
+
 Click **Apply** to save the step.

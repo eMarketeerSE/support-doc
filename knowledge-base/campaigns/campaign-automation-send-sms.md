@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that sends a text message (SMS) to the contact who triggered it.
 ---

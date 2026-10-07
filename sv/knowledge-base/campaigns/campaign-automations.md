@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatiseringar är regler i en kampanj som utför en åtgärd när en kontakt interagerar med någon av kampanjens komponenter. Hur de fungerar, hur de skiljer sig från Journeys och vilka automatiseringar som finns.
 ---

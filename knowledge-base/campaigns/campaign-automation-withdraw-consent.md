@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Campaign automation that withdraws the consent for marketing sendouts of the contact who triggered it.
 ---

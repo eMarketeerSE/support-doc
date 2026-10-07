@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som skickar ett textmeddelande (SMS) till den kontakt som utlöste den.
 ---

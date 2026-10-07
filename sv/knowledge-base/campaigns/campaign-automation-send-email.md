@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   Kampanjautomatisering som skickar ett e-postmeddelande från kampanjen till den kontakt som utlöste den.
 ---
