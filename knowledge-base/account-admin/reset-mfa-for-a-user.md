@@ -1,8 +1,7 @@
 ---
 description: >-
   How an administrator resets multi-factor authentication (MFA) for a user, for
-  example after the user has switched to a new phone. Users who aren't
-  administrators need to ask an administrator on their account.
+  example after the user has switched to a new phone.
 ---
 
 # Reset MFA for a user (administrator)

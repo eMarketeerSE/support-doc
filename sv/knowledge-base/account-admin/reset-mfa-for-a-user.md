@@ -1,8 +1,7 @@
 ---
 description: >-
   Så återställer en administratör multifaktorautentisering (MFA) för en
-  användare, till exempel när användaren har bytt till en ny telefon. Användare
-  som inte är administratörer behöver be en administratör på kontot.
+  användare, till exempel när användaren har bytt till en ny telefon.
 ---
 
 # Återställ MFA för en användare (administratör)
