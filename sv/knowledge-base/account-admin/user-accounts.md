@@ -70,4 +70,6 @@ Om du inte har telefonen med dig klickar du på **Try another method**. Välj **
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity med Google Authenticator or similar och Recovery code"></div>
 
+Har du bytt till en ny telefon? Be en administratör på ditt konto att återställa din MFA. Se [Återställ MFA för en användare (administratör)](reset-mfa-for-a-user.md).
+
 Om du får problem med inloggningen, kontakta supporten via chattrutan på inloggningssidan.

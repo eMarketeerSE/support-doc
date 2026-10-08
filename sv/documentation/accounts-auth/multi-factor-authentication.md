@@ -31,3 +31,7 @@ Administratörsbehörighet krävs.
 2. Aktivera alternativet att framtvinga MFA för alla användare.
 
 När det är framtvingat ombeds varje användare att slutföra MFA-installationen vid sin nästa inloggning.
+
+## Återställ MFA för en användare
+
+Om en användare inte längre kan logga in med sin authenticator-app, till exempel efter att ha bytt till en ny telefon, kan en administratör återställa användarens MFA. Se [Återställ MFA för en användare (administratör)](../../knowledge-base/account-admin/reset-mfa-for-a-user.md).

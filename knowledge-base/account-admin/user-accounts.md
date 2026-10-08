@@ -70,4 +70,6 @@ If you don't have your phone with you, click **Try another method**. Choose **Re
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/user-accounts-mfa-select-method.png" alt="Select a method to verify your identity, with Google Authenticator or similar and Recovery code"></div>
 
+Switched to a new phone? Ask an administrator on your account to reset your MFA. See [Reset MFA for a user (administrator)](reset-mfa-for-a-user.md).
+
 If you have any trouble signing in, contact support through the chat box on the login page.

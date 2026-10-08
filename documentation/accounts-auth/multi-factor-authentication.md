@@ -31,3 +31,7 @@ Administrator privileges are required.
 2. Enable the option to enforce MFA for all users.
 
 When enforced, every user is prompted to complete MFA setup on their next sign-in.
+
+## Reset MFA for a user
+
+If a user can't sign in with their authenticator app any more, for example after switching to a new phone, an administrator can reset their MFA. See [Reset MFA for a user (administrator)](../../knowledge-base/account-admin/reset-mfa-for-a-user.md).

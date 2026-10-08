@@ -118,6 +118,7 @@
 * [Kontoinställningar](knowledge-base/account-admin/README.md)
   * [Så bjuder du in användare till ditt konto (administratör)](knowledge-base/account-admin/invite-user-account.md)
   * [Användarguide: Aktivera Multi-Factor-inloggning](knowledge-base/account-admin/user-accounts.md)
+  * [Återställ MFA för en användare (administratör)](knowledge-base/account-admin/reset-mfa-for-a-user.md)
   * [Egen domän](knowledge-base/account-admin/domains.md)
 
   * [Logga ut ur eMarketeer](knowledge-base/account-admin/log-out.md)

@@ -118,6 +118,7 @@
 * [Account settings](knowledge-base/account-admin/README.md)
   * [How to invite users to your account (administrator)](knowledge-base/account-admin/invite-user-account.md)
   * [User guide: Enable Multi Factor Login](knowledge-base/account-admin/user-accounts.md)
+  * [Reset MFA for a user (administrator)](knowledge-base/account-admin/reset-mfa-for-a-user.md)
   * [Custom domain](knowledge-base/account-admin/domains.md)
 
   * [Log out of eMarketeer](knowledge-base/account-admin/log-out.md)

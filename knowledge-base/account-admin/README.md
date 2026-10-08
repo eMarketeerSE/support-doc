@@ -16,6 +16,10 @@ invite-user-account.md
 user-accounts.md
 {% endcontent-ref %}
 
+{% content-ref url="reset-mfa-for-a-user.md" %}
+reset-mfa-for-a-user.md
+{% endcontent-ref %}
+
 {% content-ref url="domains.md" %}
 domains.md
 {% endcontent-ref %}
