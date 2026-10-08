@@ -24,6 +24,7 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 
 - Filenames are kebab-case slugs, e.g. `setting-up-smtp.md`. The English and Swedish copies of an article share the same filename and folder path under their respective roots.
 - Every article starts with one H1 (`# Title`) matching its title.
+- The frontmatter `description` must be 200 characters or fewer. GitBook cuts longer descriptions off mid-sentence. Check the Swedish translation separately, since it usually runs longer.
 - Image paths: see Images below.
 
 ## Images
