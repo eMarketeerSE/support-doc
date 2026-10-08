@@ -1,8 +1,6 @@
 ---
 description: >-
-  De vanligaste användningsfallen för SuperOffice-integrationen, hur dess
-  gränssnitt fungerar, hur kontakter rör sig mellan systemen, vad automationer
-  kan göra, vilka webbpaneler som finns och hur laglig grund hanteras.
+  Vanliga användningsfall för SuperOffice-integrationen: gränssnittet, hur kontakter rör sig mellan systemen, automationer, webbpaneler och laglig grund.
 ---
 
 # SuperOffice-integrationen – funktioner och flöden

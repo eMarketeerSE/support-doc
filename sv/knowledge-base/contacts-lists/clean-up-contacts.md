@@ -1,8 +1,6 @@
 ---
 description: >-
-  Så hittar du kontakter som inte längre är relevanta, till exempel
-  olevererbara kontakter, kontakter som dragit tillbaka sitt samtycke, kontakter
-  du inte använt på ett år och oengagerade kontakter, och så tar du bort dem.
+  Så hittar du kontakter som inte längre är relevanta, till exempel olevererbara och oengagerade kontakter eller kontakter utan samtycke, och så tar du bort dem.
 ---
 
 # Så här rensar du dina kontakter
