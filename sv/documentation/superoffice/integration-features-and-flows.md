@@ -34,7 +34,7 @@ eMarketeer kopplas mot SuperOffice CRM via de vanliga NetServer-tjänsterna. eMa
 
 ### Separata databaser
 
-eMarketeer och SuperOffice CRM har separata databaser, och de förblir separata även med integrationen på plats. Det finns ingen bakgrundssynkronisering av kontakter. Kontakter skapas endast av integrationen i specifika scenarier:
+eMarketeer och SuperOffice CRM har separata databaser, och de förblir separata även med integrationen på plats. Det finns ingen bakgrundssynkronisering av kontakter. Kontakter kopplas via External ID, se [Så matchas kontakter mellan eMarketeer och SuperOffice](superoffice-contact-matching.md). Kontakter skapas endast av integrationen i specifika scenarier:
 
 * SuperOffice CRM: eMarketeer skapar nya kontakter (och företag) i SuperOffice CRM endast när en SuperOffice-användare godkänner det i webbpanelen Lead Report i eMarketeer. Sälj eller en controller bevakar normalt denna rapport för nya leads. Eftersom eMarketeer genererar leads från webben säkerställer detta screeningssteg att endast giltiga leads når SuperOffice CRM.
 * eMarketeer: Nya kontakter skapas i eMarketeer endast när du kör importfunktionen. Detta görs vanligen vid utskick till en SuperOffice-Selection eller ett projekt.
@@ -49,7 +49,7 @@ Följande kontaktfält överförs vid import av kontakter till båda systemen:
 * Telefon
 * Mobil
 * Titel
-* Person ID
+* Contact ID (sparas som External ID i eMarketeer)
 
 I SuperOffice kan även företag skapas om du väljer det. Följande fält fylls i på företagskortet:
 

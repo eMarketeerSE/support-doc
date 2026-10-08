@@ -20,7 +20,7 @@ The automation runs each time a contact triggers the campaign event it is attach
 
 ## How unmatched contacts are handled
 
-Each automation requires the contact to have an external ID that links it to a SuperOffice contact. If no external ID exists, eMarketeer cannot deliver the action. The automation is paused and the contact is added to the Manage Automations Queue.
+Each automation requires the contact to have an [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id) that links it to a SuperOffice contact. If no external ID exists, eMarketeer cannot deliver the action. The automation is paused and the contact is added to the Manage Automations Queue.
 
 To access the queue, click the SuperOffice logo in the top left corner of SuperOffice, then go to the **Manage Automations Queue** tab. From there, a sales rep can match the contact to an existing SuperOffice contact. The automation resumes once the match is made.
 

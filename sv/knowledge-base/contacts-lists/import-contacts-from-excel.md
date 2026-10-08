@@ -51,7 +51,7 @@ Välj för varje kolumn vilket kontaktkortsfält den innehåller i rullgardinsme
 
 Under **Contact settings** kan du lägga till taggar på alla importerade kontakter, ange deras **Contact type** och lägga till dem i en kontaktlista med **Import to contact list**.
 
-Under **Existing contacts** avgör **Match by** hur eMarketeer känner igen kontakter som redan finns i din databas. Som standard matchas på e-postadress: en matchande kontakt uppdateras, och en ny kontakt skapas om ingen matchning hittas. Du kan också matcha på External ID om någon av dina kolumner har den datatypen, vilket är användbart om du vill uppdatera e-postadresser. **Update behavior** styr hur befintliga kontakter uppdateras.
+Under **Existing contacts** avgör **Match by** hur eMarketeer känner igen kontakter som redan finns i din databas. Som standard matchas på e-postadress: en matchande kontakt uppdateras, och en ny kontakt skapas om ingen matchning hittas. Du kan också matcha på External ID om någon av dina kolumner har den datatypen, vilket är användbart om du vill uppdatera e-postadresser. External ID kopplar en kontakt till dess post i ett anslutet CRM. För SuperOffice sätts det när du importerar från SuperOffice. Se [Så matchas kontakter mellan eMarketeer och SuperOffice](../../documentation/superoffice/superoffice-contact-matching.md). **Update behavior** styr hur befintliga kontakter uppdateras.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-import-contact-settings.png" alt="Contact settings med taggar, kontakttyp och kontaktlista, och Existing contacts med Match by och Update behavior"></div>
 

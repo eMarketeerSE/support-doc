@@ -37,7 +37,7 @@ You will find the Lead Board on the main web panel under the SuperOffice logo. T
 
 When a contact in eMarketeer becomes an MQL and reaches the Lead Board, it is automatically checked against SuperOffice to see if the contact already exists there. The search uses the contact's email address.
 
-If a match is found, eMarketeer picks the first contact in the result and saves the ContactID to eMarketeer. A match is shown by the SuperOffice (owl) icon on the lead card.
+If a match is found, eMarketeer picks the first contact in the result and saves its SuperOffice Contact ID as the contact's External ID. A match is shown by the SuperOffice (owl) icon on the lead card.
 
 A successful match also releases any waiting automations on the contact.
 
@@ -57,4 +57,4 @@ On the company view in SuperOffice you can use the eMarketeer Company Summary, w
 
 ## Automation Queue
 
-The Automation Queue shows all eMarketeer contacts with automations pending entry to SuperOffice. They are pending because no ContactID is defined on the eMarketeer contact (External ID). The contact first needs to be created in SuperOffice using the "Share to CRM" button.
+The Automation Queue shows all eMarketeer contacts with automations pending entry to SuperOffice. They are pending because the eMarketeer contact has no External ID (SuperOffice Contact ID). The contact first needs to be created in SuperOffice using the "Share to CRM" button. See [How contacts are matched between eMarketeer and SuperOffice](../../documentation/superoffice/superoffice-contact-matching.md).

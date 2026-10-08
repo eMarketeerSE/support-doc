@@ -25,7 +25,7 @@ Add the missing information to the contact, then re-enqueue.
 
 When a contact triggers a SuperOffice automation, eMarketeer checks the contact's External ID field. If the field has a value, eMarketeer attempts the SuperOffice task using that value as the SuperOffice contact id. If no SuperOffice contact matches the value, the automation fails.
 
-Remove the bad External ID from the contact, then re-enqueue.
+Import the contact from SuperOffice again. The import matches on email address and saves the correct Contact ID as the External ID. Then re-enqueue. See [How contacts are matched between eMarketeer and SuperOffice](../../documentation/superoffice/superoffice-contact-matching.md).
 
 ## Automation refers to old SuperOffice resources
 

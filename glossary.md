@@ -185,6 +185,14 @@ The structured payload sent with a custom signal via the Signals API. Event data
 
 </details>
 
+<details>
+
+<summary>External ID</summary>
+
+A field on a contact that links it to the contact's record in a connected CRM, such as the SuperOffice Contact ID or the Microsoft Dynamics 365 contact ID. With SuperOffice, it's set when you import contacts from SuperOffice, share a contact to the CRM, or a Journey step matches the contact. See [How contacts are matched between eMarketeer and SuperOffice](documentation/superoffice/superoffice-contact-matching.md).
+
+</details>
+
 ## F
 
 <details>

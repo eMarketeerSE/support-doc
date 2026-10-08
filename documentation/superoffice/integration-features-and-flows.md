@@ -36,7 +36,7 @@ eMarketeer connects to SuperOffice CRM using the standard NetServer services. eM
 
 ### Separate databases
 
-eMarketeer and SuperOffice CRM have separate databases, and they stay separate even with the integration in place. There is no background synchronization of contacts. Contacts are only created by the integration in specific scenarios:
+eMarketeer and SuperOffice CRM have separate databases, and they stay separate even with the integration in place. There is no background synchronization of contacts. Contacts are linked through the External ID, see [How contacts are matched between eMarketeer and SuperOffice](superoffice-contact-matching.md). Contacts are only created by the integration in specific scenarios:
 
 * SuperOffice CRM: eMarketeer creates new contacts (and companies) in SuperOffice CRM only when a SuperOffice user approves it on the eMarketeer Lead Report web panel. Sales or a controller typically monitors this report for new leads. Because eMarketeer generates leads from the web, this screening step makes sure only valid leads reach SuperOffice CRM.
 * eMarketeer: New contacts are created in eMarketeer only when you run the import feature. This is commonly done when sending an email to a SuperOffice selection or project.
@@ -51,7 +51,7 @@ The following contact fields are transferred when importing contacts into either
 * Telephone
 * Mobile
 * Title
-* Person ID
+* Contact ID (saved as the External ID in eMarketeer)
 
 In SuperOffice, companies can also be created if you opt in. These fields are filled on the company card:
 

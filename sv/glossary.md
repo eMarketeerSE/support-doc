@@ -103,6 +103,14 @@ Domändelen i en e-postadress — delen efter @-tecknet. I eMarketeer autentiser
 
 </details>
 
+<details>
+
+<summary>External ID</summary>
+
+Ett fält på en kontakt som kopplar den till kontaktens post i ett anslutet CRM, till exempel Contact ID i SuperOffice eller kontakt-ID:t i Microsoft Dynamics 365. Med SuperOffice sätts det när du importerar kontakter från SuperOffice, delar en kontakt till CRM eller när ett Journey-steg matchar kontakten. Se [Så matchas kontakter mellan eMarketeer och SuperOffice](documentation/superoffice/superoffice-contact-matching.md).
+
+</details>
+
 ## F
 
 <details>

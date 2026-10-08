@@ -130,4 +130,4 @@ Gruppen **CRM** i panelen **Add Journey step** innehåller flera åtgärder som 
 
 Alla uppgifter gäller kontakter i SuperOffice.
 
-Innan ett steg körs letar eMarketeer upp kontakten i SuperOffice. Hur kontakter matchas och hur saknade kontakter kan skapas läser du i [Kontaktmatchning i SuperOffice](../superoffice/superoffice-contact-matching.md).
+Innan ett steg körs letar eMarketeer upp kontakten i SuperOffice. Hur kontakter matchas och hur saknade kontakter kan skapas läser du i [Så matchas kontakter mellan eMarketeer och SuperOffice](../superoffice/superoffice-contact-matching.md).

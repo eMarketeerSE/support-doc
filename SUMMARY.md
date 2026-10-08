@@ -211,7 +211,7 @@
     * [Add / Remove from project](documentation/superoffice/so-add-remove-project.md)
     * [Add / Remove from selection](documentation/superoffice/so-add-remove-selection.md)
     * [Add / Remove interest](documentation/superoffice/so-add-remove-interest.md)
-  * [SuperOffice contact matching](documentation/superoffice/superoffice-contact-matching.md)
+  * [How contacts are matched between eMarketeer and SuperOffice](documentation/superoffice/superoffice-contact-matching.md)
   * [SuperOffice automations](knowledge-base/integrations/superoffice-automations-pro.md)
   * [SuperOffice Signals](documentation/superoffice/superoffice-signals.md)
   * [SuperOffice Legal Basis Sync](documentation/superoffice/superoffice-legalbasis-sync.md)

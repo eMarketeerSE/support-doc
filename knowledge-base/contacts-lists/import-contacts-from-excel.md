@@ -51,7 +51,7 @@ For each column, choose the contact card field it contains in the dropdown above
 
 Under **Contact settings** you can add tags to every imported contact, set their **Contact type**, and add them to a contact list with **Import to contact list**.
 
-Under **Existing contacts**, **Match by** decides how eMarketeer recognises contacts already in your database. By default it matches on email address: a matching contact is updated, and a new contact is created if there is no match. You can also match on External ID if one of your columns has that data type, which is useful if you want to update email addresses. **Update behavior** controls how existing contacts are updated.
+Under **Existing contacts**, **Match by** decides how eMarketeer recognises contacts already in your database. By default it matches on email address: a matching contact is updated, and a new contact is created if there is no match. You can also match on External ID if one of your columns has that data type, which is useful if you want to update email addresses. External ID links a contact to its record in a connected CRM. For SuperOffice, it's set when you import from SuperOffice. See [How contacts are matched between eMarketeer and SuperOffice](../../documentation/superoffice/superoffice-contact-matching.md). **Update behavior** controls how existing contacts are updated.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-contact-settings.png" alt="Contact settings with tags, contact type and contact list, and Existing contacts with Match by and Update behavior"></div>
 

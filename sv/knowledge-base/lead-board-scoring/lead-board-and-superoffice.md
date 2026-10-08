@@ -38,7 +38,7 @@ Du hittar Lead Board på huvudwebbpanelen under SuperOffice-logotypen. Det finns
 
 När en kontakt i eMarketeer blir en MQL och når Lead Board kontrolleras kontakten automatiskt mot SuperOffice för att se om kontakten redan finns där. Sökningen använder kontaktens e-postadress.
 
-Om en matchning hittas väljer eMarketeer den första kontakten i resultatet och sparar ContactID till eMarketeer. En matchning visas av SuperOffice-ikonen (uggla) på lead-kortet.
+Om en matchning hittas väljer eMarketeer den första kontakten i resultatet och sparar dess Contact ID i SuperOffice som kontaktens External ID. En matchning visas av SuperOffice-ikonen (uggla) på lead-kortet.
 
 En lyckad matchning släpper också igenom eventuella väntande automatiseringar för kontakten.
 
@@ -58,4 +58,4 @@ På företagsvyn i SuperOffice kan du använda eMarketeer Company Summary, som v
 
 ## Automation Queue
 
-Automation Queue visar alla eMarketeer-kontakter med automatiseringar som väntar på att föras in i SuperOffice. De är väntande eftersom inget ContactID är definierat på eMarketeer-kontakten (External ID). Kontakten måste först skapas i SuperOffice med knappen "Share to CRM".
+Automation Queue visar alla eMarketeer-kontakter med automatiseringar som väntar på att föras in i SuperOffice. De är väntande eftersom eMarketeer-kontakten saknar External ID (Contact ID i SuperOffice). Kontakten måste först skapas i SuperOffice med knappen "Share to CRM". Se [Så matchas kontakter mellan eMarketeer och SuperOffice](../../documentation/superoffice/superoffice-contact-matching.md).

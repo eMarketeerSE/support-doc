@@ -25,7 +25,7 @@ Lägg till informationen som saknas på kontakten och köa sedan på nytt.
 
 När en kontakt triggar en SuperOffice-automatisering kontrollerar eMarketeer kontaktens External ID-fält. Om fältet har ett värde försöker eMarketeer utföra SuperOffice-uppgiften med det värdet som SuperOffice-kontakt-id. Om ingen SuperOffice-kontakt matchar värdet misslyckas automatiseringen.
 
-Ta bort det felaktiga External ID:t från kontakten och köa sedan på nytt.
+Importera kontakten från SuperOffice igen. Importen matchar på e-postadress och sparar rätt Contact ID som External ID. Köa sedan på nytt. Se [Så matchas kontakter mellan eMarketeer och SuperOffice](../../documentation/superoffice/superoffice-contact-matching.md).
 
 ## Automatiseringen refererar till gamla SuperOffice-resurser
 

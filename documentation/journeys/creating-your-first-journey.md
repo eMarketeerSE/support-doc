@@ -134,4 +134,4 @@ The **CRM** group in the **Add Journey step** panel contains several actions tha
 
 All tasks relate to contacts in SuperOffice.
 
-Before a step runs, eMarketeer looks up the contact in SuperOffice. To learn how contacts are matched and how missing contacts can be created, see [SuperOffice contact matching](../superoffice/superoffice-contact-matching.md).
+Before a step runs, eMarketeer looks up the contact in SuperOffice. To learn how contacts are matched and how missing contacts can be created, see [How contacts are matched between eMarketeer and SuperOffice](../superoffice/superoffice-contact-matching.md).
