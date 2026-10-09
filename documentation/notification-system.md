@@ -8,7 +8,7 @@ description: >-
 
 eMarketeer notifies you about problems in your account and about tasks you have started, both in the notification center and by email.
 
-This article lists the notifications by category and shows how to turn off the ones you don't want. For example, you can stop getting an email every time a bulk action finishes.
+Notifications are grouped into three categories: urgent problems, status updates and results of tasks you started. You can choose, for each category, whether you get them by email, in the notification center, or both.
 
 {% hint style="info" %}
 These are eMarketeer's own notifications about your account and your tasks. Notifications about contacts that you set up yourself, with the [Send notification](../knowledge-base/campaigns/campaign-automation-send-notification.md) campaign automation or the [Notify stakeholder](journeys/journey-step-notify-stakeholder.md) Journey step, are set in the campaign or Journey, not here.

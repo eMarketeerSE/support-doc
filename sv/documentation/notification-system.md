@@ -8,7 +8,7 @@ description: >-
 
 eMarketeer meddelar dig om problem i ditt konto och om uppgifter du har startat, både i notiscentret och via e-post.
 
-Den här artikeln listar notiserna per kategori och visar hur du stänger av dem du inte vill ha. Du kan till exempel sluta få ett mejl varje gång en massåtgärd är klar.
+Notiserna är grupperade i tre kategorier: akuta problem, statusuppdateringar och resultat av uppgifter du har startat. För varje kategori väljer du om du får dem via e-post, i notiscentret eller båda.
 
 {% hint style="info" %}
 Det här är eMarketeers egna notiser om ditt konto och dina uppgifter. Aviseringar om kontakter som du själv ställer in, med kampanjautomatiseringen [Send notification](../knowledge-base/campaigns/campaign-automation-send-notification.md) eller Journey-steget [Notify stakeholder](journeys/journey-step-notify-stakeholder.md), ställs in i kampanjen eller Journeyn, inte här.
