@@ -222,8 +222,6 @@
   * [Lead Board för SuperOffice](knowledge-base/lead-board-scoring/lead-board-and-superoffice.md)
 * [Microsoft Dynamics 365](documentation/dynamics-365/dynamics.md)
   * [Microsoft Dynamics 365 Sales-integration](documentation/dynamics-365/microsoft-dynamics-integration.md)
-  * [Microsoft Dynamics 365 Sales-integration](knowledge-base/integrations/microsoft-dynamics-integration.md)
-  * [Dynamics - Funktioner](documentation/dynamics-365/dynamics-features.md)
   * [Dynamics - Installationsprocess](documentation/dynamics-365/dynamics-installation.md)
   * [Dynamics - Obligatoriska behörigheter](documentation/dynamics-365/dynamics-permissions.md)
   * [Installera Dynamics Contact Panel](documentation/dynamics-365/5355-2.md)
