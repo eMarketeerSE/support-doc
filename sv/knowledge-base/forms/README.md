@@ -36,12 +36,20 @@ Formulärinlämningar registreras som kontaktaktivitet. Varje formulär ger dig 
 
 {% columns %}
 {% column %}
+{% content-ref url="how-to-publish-a-form.md" %}
+[how-to-publish-a-form.md](how-to-publish-a-form.md)
+{% endcontent-ref %}
+
 {% content-ref url="../../documentation/forms/publish-a-form.md" %}
 [publish-a-form.md](../../documentation/forms/publish-a-form.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../documentation/forms/the-form-component.md" %}
 [the-form-component.md](../../documentation/forms/the-form-component.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../documentation/forms/styling-your-form.md" %}
+[styling-your-form.md](../../documentation/forms/styling-your-form.md)
 {% endcontent-ref %}
 {% endcolumn %}
 
@@ -56,6 +64,10 @@ Formulärinlämningar registreras som kontaktaktivitet. Varje formulär ger dig 
 
 {% content-ref url="form-branching-logic.md" %}
 [form-branching-logic.md](form-branching-logic.md)
+{% endcontent-ref %}
+
+{% content-ref url="how-to-create-a-quiz.md" %}
+[how-to-create-a-quiz.md](how-to-create-a-quiz.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

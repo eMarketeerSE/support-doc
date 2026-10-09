@@ -36,5 +36,9 @@ campaign-add-favorite.md
 {% content-ref url="organizing-campaigns.md" %}
 organizing-campaigns.md
 {% endcontent-ref %}
+
+{% content-ref url="campaign-automations.md" %}
+campaign-automations.md
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

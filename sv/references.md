@@ -53,5 +53,9 @@ where-is-emarketeer-data-stored-geographically.md
 {% content-ref url="knowledge-base/gdpr-consent/emarketeer-gdpr-overview.md" %}
 emarketeer-gdpr-overview.md
 {% endcontent-ref %}
+
+{% content-ref url="documentation/files.md" %}
+files.md
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

@@ -26,6 +26,10 @@ import-contacts-from-excel.md
 how-to-build-contact-filters.md
 {% endcontent-ref %}
 
+{% content-ref url="clean-up-contacts.md" %}
+clean-up-contacts.md
+{% endcontent-ref %}
+
 {% content-ref url="bulk-actions-tool.md" %}
 bulk-actions-tool.md
 {% endcontent-ref %}
