@@ -28,24 +28,24 @@ Every notification belongs to one of three categories. You can turn email and in
 
 Problems that stop something from working. They are sent to every user in the account.
 
-| Notification | When it's sent | Button |
-|---|---|---|
-| LinkedIn integration issue detected | The LinkedIn integration fails. The notification includes the reason. | Check Integration |
-| Facebook connection expired, Facebook integration issue, Facebook page access expired, Facebook webhook authentication failed | The Facebook connection expires, the integration fails, page access expires or webhook authentication fails. | Reconnect Facebook |
-| Domain Verification Failed – Email Sending Not Working | The daily check finds that the DKIM or SPF record of one of your [email domains](../knowledge-base/email-deliverability/authorize-email-domain.md) fails. | Review Email Domains |
+| Notification | When it's sent |
+|---|---|
+| LinkedIn integration issue detected | The LinkedIn integration fails. The notification includes the reason. |
+| Facebook connection expired, Facebook integration issue, Facebook page access expired, Facebook webhook authentication failed | The Facebook connection expires, the integration fails, page access expires or webhook authentication fails. |
+| Domain Verification Failed – Email Sending Not Working | The daily check finds that the DKIM or SPF record of one of your [email domains](../knowledge-base/email-deliverability/authorize-email-domain.md) fails. |
 
 ### System Message (Low Prio)
 
 Status updates and recommendations. Notifications about integrations and email domains go to every user in the account. Import and export notifications go only to the user who started the import or export.
 
-| Notification | When it's sent | Button |
-|---|---|---|
-| LinkedIn integration recovered | The LinkedIn integration works again. | View Integration |
-| Facebook connection restored | The Facebook connection works again. | View Integration |
-| Domain Configuration Recommendation | An email domain is missing only its DMARC or MAIL FROM record. | Review Email Domains |
-| Email delivery issue | You send from an email domain that isn't verified for sending. Sent once per domain. | Email domain settings |
-| Contact import completed, Contact import failed, CRM import completed | A [contact import](../knowledge-base/contacts-lists/import-contacts-from-excel.md) or an import from your CRM finishes or fails. | View report |
-| Contact export completed | A contact export is ready to download. | Download |
+| Notification | When it's sent |
+|---|---|
+| LinkedIn integration recovered | The LinkedIn integration works again. |
+| Facebook connection restored | The Facebook connection works again. |
+| Domain Configuration Recommendation | An email domain is missing only its DMARC or MAIL FROM record. |
+| Email delivery issue | You send from an email domain that isn't verified for sending. Sent once per domain. |
+| Contact import completed, Contact import failed, CRM import completed | A [contact import](../knowledge-base/contacts-lists/import-contacts-from-excel.md) or an import from your CRM finishes or fails. |
+| Contact export completed | A contact export is ready to download. |
 
 ### Information
 

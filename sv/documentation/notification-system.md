@@ -28,24 +28,24 @@ Varje notis tillhör en av tre kategorier. Du kan slå på eller av notiser via 
 
 Problem som gör att något slutar fungera. De skickas till alla användare i kontot.
 
-| Notis | När den skickas | Knapp |
-|---|---|---|
-| LinkedIn integration issue detected | LinkedIn-integrationen slutar fungera. Notisen innehåller orsaken. | Check Integration |
-| Facebook connection expired, Facebook integration issue, Facebook page access expired, Facebook webhook authentication failed | Facebook-anslutningen går ut, integrationen slutar fungera, sidåtkomsten går ut eller webhook-autentiseringen misslyckas. | Reconnect Facebook |
-| Domain Verification Failed – Email Sending Not Working | Den dagliga kontrollen visar att DKIM- eller SPF-posten för en av dina [e-postdomäner](../knowledge-base/email-deliverability/authorize-email-domain.md) inte fungerar. | Review Email Domains |
+| Notis | När den skickas |
+|---|---|
+| LinkedIn integration issue detected | LinkedIn-integrationen slutar fungera. Notisen innehåller orsaken. |
+| Facebook connection expired, Facebook integration issue, Facebook page access expired, Facebook webhook authentication failed | Facebook-anslutningen går ut, integrationen slutar fungera, sidåtkomsten går ut eller webhook-autentiseringen misslyckas. |
+| Domain Verification Failed – Email Sending Not Working | Den dagliga kontrollen visar att DKIM- eller SPF-posten för en av dina [e-postdomäner](../knowledge-base/email-deliverability/authorize-email-domain.md) inte fungerar. |
 
 ### System Message (Low Prio)
 
 Statusuppdateringar och rekommendationer. Notiser om integrationer och e-postdomäner går till alla användare i kontot. Notiser om importer och exporter går bara till användaren som startade importen eller exporten.
 
-| Notis | När den skickas | Knapp |
-|---|---|---|
-| LinkedIn integration recovered | LinkedIn-integrationen fungerar igen. | View Integration |
-| Facebook connection restored | Facebook-anslutningen fungerar igen. | View Integration |
-| Domain Configuration Recommendation | En e-postdomän saknar bara sin DMARC- eller MAIL FROM-post. | Review Email Domains |
-| Email delivery issue | Du skickar från en e-postdomän som inte är verifierad för utskick. Skickas en gång per domän. | Email domain settings |
-| Contact import completed, Contact import failed, CRM import completed | En [kontaktimport](../knowledge-base/contacts-lists/import-contacts-from-excel.md) eller en import från ditt CRM blir klar eller misslyckas. | View report |
-| Contact export completed | En kontaktexport är klar att ladda ned. | Download |
+| Notis | När den skickas |
+|---|---|
+| LinkedIn integration recovered | LinkedIn-integrationen fungerar igen. |
+| Facebook connection restored | Facebook-anslutningen fungerar igen. |
+| Domain Configuration Recommendation | En e-postdomän saknar bara sin DMARC- eller MAIL FROM-post. |
+| Email delivery issue | Du skickar från en e-postdomän som inte är verifierad för utskick. Skickas en gång per domän. |
+| Contact import completed, Contact import failed, CRM import completed | En [kontaktimport](../knowledge-base/contacts-lists/import-contacts-from-excel.md) eller en import från ditt CRM blir klar eller misslyckas. |
+| Contact export completed | En kontaktexport är klar att ladda ned. |
 
 ### Information
 
