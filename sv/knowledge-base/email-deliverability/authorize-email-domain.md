@@ -50,7 +50,7 @@ Ange den domän du vill autentisera (till exempel `yourdomain.com`) i fältet **
 
 Den nya domänen visas i listan med statusen Pending, och dialogen Authenticate Domain öppnas automatiskt. Den listar de DNS-poster som ska läggas till: DKIM och SPF (obligatoriska), DMARC och MAIL FROM. Lägg till dem i din DNS. Om du inte har åtkomst till företagets DNS — ofta är det IT-avdelningen som äger den — klickar du på **Click here to generate an email** längst ned i dialogen för att skicka posterna till ansvarig person. Det öppnar ett nytt mejl i ditt e-postprogram med posterna redan ifyllda.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-records.png" alt="Dialogen Authenticate Domain med DNS-posterna DKIM, SPF, DMARC och MAIL FROM"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-failing.png" alt="Dialogen Authenticate Domain med DNS-posterna DKIM, SPF, DMARC och MAIL FROM, ännu inte verifierade"></div>
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-generate-email-to-it.png" alt="Nytt mejl i e-postprogrammet med DNS-posterna ifyllda, öppnat från dialogen Authenticate Domain"></div>
 {% endstep %}
@@ -64,9 +64,9 @@ När posterna är på plats öppnar du domänens dialog Authenticate Domain igen
 {% step %}
 ### Bekräfta autentiseringen
 
-Om posterna är korrekta ändras domänens status till Authenticated. Om något är fel markeras posten som misslyckas med ett rött kryss i kolumnen Status. Om eMarketeer inte kan verifiera posterna inom 72 timmar visas domänen som Failed: klicka på **Restart Validation** för att försöka igen.
+Om posterna är korrekta får varje post en grön bock i kolumnen Status och domänens status ändras till Authenticated. Om något är fel behåller posten som misslyckas sitt röda kryss. Om eMarketeer inte kan verifiera posterna inom 72 timmar visas domänen som Failed: klicka på **Restart Validation** för att försöka igen.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-failing.png" alt="Dialogen Authenticate Domain med röda kryss vid DKIM- och SPF-posterna som misslyckas"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-domain-authenticate-records.png" alt="Dialogen Authenticate Domain med gröna bockar vid alla poster"></div>
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/authorize-email-domain-email-domains-list.png" alt="Listan Email Domains med domäner markerade Authenticated, Pending och Failed"></div>
 {% endstep %}
