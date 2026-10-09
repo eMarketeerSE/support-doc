@@ -49,7 +49,7 @@ Status updates and recommendations. Notifications about integrations and email d
 
 ### Information
 
-Results of tasks you started. These notifications have no button and go only to you.
+Results of tasks you started. These notifications only go to you.
 
 | Notification | When it's sent |
 |---|---|

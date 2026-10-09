@@ -49,7 +49,7 @@ Statusuppdateringar och rekommendationer. Notiser om integrationer och e-postdom
 
 ### Information
 
-Resultat av uppgifter du har startat. Notiserna har ingen knapp och går bara till dig.
+Resultat av uppgifter du har startat. Notiserna går bara till dig.
 
 | Notis | När den skickas |
 |---|---|
