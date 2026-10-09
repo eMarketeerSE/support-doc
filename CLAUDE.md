@@ -75,6 +75,15 @@ If the user explicitly asks you to edit only one language for a deliberate reaso
 
 When you add, rename, or move a page, update `SUMMARY.md` in the same commit. Follow the existing nesting. If a section gets large, group with `## Subheading` lines.
 
+## Hub pages and link cards
+
+Many section pages are hubs that list their articles as link cards. The cards are `{% content-ref %}` blocks, usually inside `{% columns %}`, or a `<table data-view="cards">`. Most hubs have `page-type: overview` in the frontmatter.
+
+- When you add, remove, move or rename an article, update the link cards on its hub page in the same commit. The hub is the page the article sits under in `SUMMARY.md`. Update the Swedish hub the same way.
+- Every article nested directly under a hub in `SUMMARY.md` should have a card on that hub, and every card should point to an existing article.
+- Match the link format of the hub's existing cards, and keep the columns roughly balanced.
+- The Welcome page (`overview.md`) is the exception. Its cards point to sections, not to individual articles.
+
 ## Voice and style
 
 Voice: professional and approachable. Like a colleague who knows the
@@ -151,7 +160,7 @@ genuinely doesn't apply):
 **Autonomous (do, then push):**
 - Drafting or editing article content.
 - **Translating the change to the other language** to keep the English/Swedish pair in sync (per the Bilingual policy section).
-- Updating `SUMMARY.md` and `sv/SUMMARY.md` to match file changes.
+- Updating `SUMMARY.md` and `sv/SUMMARY.md`, and the hub link cards, to match file changes.
 - Fixing typos, broken links, formatting.
 - Adding cross-links between related articles.
 
