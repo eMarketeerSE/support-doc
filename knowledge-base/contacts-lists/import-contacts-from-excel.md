@@ -71,7 +71,7 @@ Click **Import contacts**. The import runs in the background, so you can click *
 
 ### Import results
 
-When the import is complete, you get a notification in the inbox under the bell icon in the top right corner. It shows how many contacts were added, updated, skipped and rejected. Click **View report** to open the import report.
+When the import is complete, you get a notification in the inbox under the bell icon in the top right corner. See [Notification system](../../documentation/notification-system.md). It shows how many contacts were added, updated, skipped and rejected. Click **View report** to open the import report.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-notification.png" alt="Contact import completed notification in the inbox with the View report button"></div>
 

@@ -183,6 +183,7 @@
     * [Prenumeration med double opt-in](knowledge-base/gdpr-consent/double-opt-in.md)
     * [Hur fungerar samtycke?](knowledge-base/gdpr-consent/how-does-consent-work.md)
     * [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+  * [Notissystemet](documentation/notification-system.md)
   * [Filer](documentation/files.md)
   * [Kreditkortsbetalningar (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
   * [Vad händer när jag når min kontaktgräns?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)

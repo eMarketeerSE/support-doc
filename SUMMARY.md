@@ -183,6 +183,7 @@
     * [Double opt-in subscription](knowledge-base/gdpr-consent/double-opt-in.md)
     * [How does consent work?](knowledge-base/gdpr-consent/how-does-consent-work.md)
     * [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
+  * [Notification system](documentation/notification-system.md)
   * [Files](documentation/files.md)
   * [Credit card payments (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
   * [What happens when I reach my contact limit?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)

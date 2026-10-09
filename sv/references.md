@@ -57,5 +57,9 @@ emarketeer-gdpr-overview.md
 {% content-ref url="documentation/files.md" %}
 files.md
 {% endcontent-ref %}
+
+{% content-ref url="documentation/notification-system.md" %}
+notification-system.md
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

@@ -24,3 +24,5 @@ Eftersom det även fungerar i **Recipient email address** kan meddelandet gå ti
 Om du vill avisera någon via e-post eller SMS direkt från en kampanj, utan en Journey, använder du [Send notification-automationen](../../knowledge-base/campaigns/campaign-automation-send-notification.md).
 
 Klicka på **Apply** för att spara steget.
+
+Det här steget är inte samma sak som de notiser eMarketeer skickar till dig om ditt konto och dina uppgifter. Läs om dem i [Notissystemet](../notification-system.md).

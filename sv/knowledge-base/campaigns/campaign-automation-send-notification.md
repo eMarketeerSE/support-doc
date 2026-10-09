@@ -31,3 +31,5 @@ Aviseringen meddelar att utlösaren inträffade och vem som utlöste den. En avi
 Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
 
 **Relaterat Journey-steg:** [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md), som liknar den men bara skickar e-post.
+
+Den här automatiseringen är inte samma sak som de notiser eMarketeer skickar till dig om ditt konto och dina uppgifter. Läs om dem i [Notissystemet](../../documentation/notification-system.md).

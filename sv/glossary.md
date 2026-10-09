@@ -317,6 +317,16 @@ Marketing Qualified Lead. En branschstandardterm för en kontakt som marknadsavd
 
 </details>
 
+## N
+
+<details>
+
+<summary>Notiscenter</summary>
+
+Inbox under klockikonen i den övre menyraden, där eMarketeer visar sina egna notiser om ditt konto och dina uppgifter, till exempel integrationsproblem, klara importer och massåtgärder. Samma notiser kan även skickas via e-post. Ska inte förväxlas med kampanjautomatiseringen Send notification. Se [Notissystemet](documentation/notification-system.md).
+
+</details>
+
 ## O
 
 <details>

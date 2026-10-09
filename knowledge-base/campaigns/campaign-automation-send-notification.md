@@ -31,3 +31,5 @@ The notification reports that the trigger happened and who triggered it. An emai
 Choose the component and event that run the automation under **When this happens**. See [Choose the trigger](campaign-automations.md#choose-the-trigger).
 
 **Related Journey step:** [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md), which is similar but sends email only.
+
+This automation is not the same as the notifications eMarketeer sends you about your account and your tasks. For those, see [Notification system](../../documentation/notification-system.md).

@@ -325,6 +325,16 @@ Marketing Qualified Lead. An industry-standard term for a contact that marketing
 
 </details>
 
+## N
+
+<details>
+
+<summary>Notification center</summary>
+
+The Inbox under the bell icon in the top bar, where eMarketeer shows its own notifications about your account and your tasks, such as integration problems, finished imports and bulk actions. The same notifications can also be sent by email. Not to be confused with the Send notification campaign automation. See [Notification system](documentation/notification-system.md).
+
+</details>
+
 ## O
 
 <details>

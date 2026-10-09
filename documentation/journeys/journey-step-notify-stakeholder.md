@@ -24,3 +24,5 @@ Because this also works in **Recipient email address**, the notification can go 
 To notify someone by email or SMS straight from a campaign, without a Journey, use the [Send notification automation](../../knowledge-base/campaigns/campaign-automation-send-notification.md).
 
 Click **Apply** to save the step.
+
+This step is not the same as the notifications eMarketeer sends you about your account and your tasks. For those, see [Notification system](../notification-system.md).

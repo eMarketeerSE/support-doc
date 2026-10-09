@@ -71,7 +71,7 @@ Klicka på **Import contacts**. Importen körs i bakgrunden, så du kan klicka p
 
 ### Importresultat
 
-När importen är klar får du en notis i inkorgen under klockikonen uppe till höger. Den visar hur många kontakter som lades till, uppdaterades, hoppades över och avvisades. Klicka på **View report** för att öppna importrapporten.
+När importen är klar får du en notis i inkorgen under klockikonen uppe till höger. Se [Notissystemet](../../documentation/notification-system.md). Den visar hur många kontakter som lades till, uppdaterades, hoppades över och avvisades. Klicka på **View report** för att öppna importrapporten.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-import-notification.png" alt="Notisen Contact import completed i inkorgen med knappen View report"></div>
 
