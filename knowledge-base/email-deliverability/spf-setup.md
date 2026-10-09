@@ -30,6 +30,6 @@ When SPF is missing or incorrect, receiving mail servers cannot verify that an e
 
 If you don't manage DNS yourself, you can use the email feature in the dialog to send all required DNS info to the person who does.
 
-For the full email domain setup, [see this guide](/broken/pages/IC60KxnBA16qsuFPFCKb).
+For the full email domain setup, see [Add Email domain](authorize-email-domain.md).
 
 If you need help, contact [support@emarketeer.com](mailto:support@emarketeer.com).

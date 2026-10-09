@@ -27,6 +27,6 @@ If DMARC is missing from your DNS, receiving servers may not properly evaluate m
 If you do not manage DNS yourself, use the email feature in the dialog to send the required DNS information to whoever does.
 {% endhint %}
 
-For the full email domain setup, see the [custom email domain guide](/broken/pages/IC60KxnBA16qsuFPFCKb).
+For the full email domain setup, see [Add Email domain](authorize-email-domain.md).
 
 If you need assistance, contact [support@emarketeer.com](mailto:support@emarketeer.com).

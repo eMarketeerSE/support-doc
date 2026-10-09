@@ -21,7 +21,7 @@ Köpta listor är också den främsta källan till spam-fällor — gamla e-post
 
 Förtroende börjar med avsändaradressen. Om e-posten visar din företagslogotyp och ditt innehåll men kommer från en orelaterad domän så märker mottagarna det. Med bedräglig e-post överallt är avsändardomänen en av de första sakerna folk kollar.
 
-En egen domän (dittforetag.se) bygger avsändarens rykte över tid och förbättrar chansen att landa i inkorgen. I eMarketeer kan du [konfigurera din egen e-postdomän](/broken/pages/55KHLqA5szGB4OXFO9Ed) för utskick.
+En egen domän (dittforetag.se) bygger avsändarens rykte över tid och förbättrar chansen att landa i inkorgen. I eMarketeer kan du [konfigurera din egen e-postdomän](../email-deliverability/authorize-email-domain.md) för utskick.
 
 ## 3. Rensa din kontaktlista regelbundet
 

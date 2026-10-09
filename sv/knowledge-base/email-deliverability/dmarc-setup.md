@@ -27,6 +27,6 @@ Om DMARC saknas i din DNS kan mottagande servrar inte utvärdera e-post som pås
 
 Om du inte hanterar DNS själv kan du använda e-postfunktionen i dialogen för att skicka nödvändig DNS-information till den som gör det.
 
-För hela uppsättningen av e-postdomän, se [guiden för anpassad e-postdomän](/broken/pages/55KHLqA5szGB4OXFO9Ed).
+För hela uppsättningen av e-postdomän, se [Lägg till e-postdomän](authorize-email-domain.md).
 
 Om du behöver hjälp, kontakta [support@emarketeer.com](mailto:support@emarketeer.com).

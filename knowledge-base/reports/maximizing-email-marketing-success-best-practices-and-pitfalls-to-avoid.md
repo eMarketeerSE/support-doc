@@ -21,7 +21,7 @@ Purchased lists are also the main source of spam traps — old email addresses t
 
 Trust starts with the from-address. If the email shows your corporate logo and content but comes from an unrelated domain, recipients notice. With fraudulent email everywhere, the from-domain is one of the first things people check.
 
-A custom domain (yourcompany.com) builds sender reputation over time and improves the chance of landing in the inbox. In eMarketeer you can [set up your own email domain](/broken/pages/IC60KxnBA16qsuFPFCKb) for sending.
+A custom domain (yourcompany.com) builds sender reputation over time and improves the chance of landing in the inbox. In eMarketeer you can [set up your own email domain](../email-deliverability/authorize-email-domain.md) for sending.
 
 ## 3. Clean your contact list regularly
 

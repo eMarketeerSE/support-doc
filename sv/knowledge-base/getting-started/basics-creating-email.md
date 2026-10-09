@@ -37,7 +37,7 @@ E-postinställningar
 * **From Name:** Avsändarnamnet som visas i mottagarnas e-postklient.
 * **From Address:** Den här består av två delar som tillsammans bildar avsändaradressen.
   1. Delen före `@` kan vara nästan vad som helst. Om du är osäker fungerar `noreply` i de flesta fall, men en riktig inkorg som kan ta emot svar är att föredra.
-  2. Delen efter `@` är din e-postdomän. Du måste lägga till din egen domän innan du kan skicka. Se [den här artikeln](/broken/pages/55KHLqA5szGB4OXFO9Ed) för hur.
+  2. Delen efter `@` är din e-postdomän. Du måste lägga till din egen domän innan du kan skicka. Se [Lägg till e-postdomän](../email-deliverability/authorize-email-domain.md) för hur.
 * **Reply-to Address (optional):** En adress som tar emot eventuella svar, användbart om From Address inte kan ta emot e-post. Används sällan; ofta tryggt att hoppa över.
 * **Subscription Category (optional):** Om ditt konto använder prenumerationslistor kan du kategorisera den här e-posten här. Används sällan; ofta tryggt att hoppa över.
 
