@@ -8,7 +8,7 @@ description: >-
 
 ## Integrationens omfattning
 
-- **Stödda listor:** integrationen stödjer för närvarande import från Contact Marketing Lists i Dynamics 365 Sales. Import från Lead Marketing Lists planeras till en framtida uppdatering.
+- **Stödda listor:** du kan importera från både Contact Marketing Lists och Lead Marketing Lists i Dynamics 365 Sales. Medlemmarna i båda listtyperna importeras som kontakter i eMarketeer.
 - **Importerade fält:** eMarketeer importerar följande grundläggande fält från Dynamics:
   - First Name
   - Last Name

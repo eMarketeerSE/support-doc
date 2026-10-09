@@ -13,7 +13,7 @@ Använd integrationen för att synkronisera kontaktpreferenser, upprätthålla G
 
 - [Installation och konfiguration](dynamics-installation.md) — anslut din Dynamics 365-instans till eMarketeer och skapa de initiala datatabellerna.
 - [Synkronisering av samtycke och prenumerationer](dynamics-legal-basis-sync.md) — håll rättslig grund och granulära e-postprenumerationer synkroniserade mellan båda systemen.
-- [Importera kontakter och listor](dynamics-import.md) — hämta Dynamics Contact Marketing Lists till eMarketeer, antingen som en standardimport av databasen eller direkt innan ett utskick.
+- [Importera kontakter och listor](dynamics-import.md) — hämta Dynamics Contact Marketing Lists och Lead Marketing Lists till eMarketeer, antingen som en standardimport av databasen eller direkt innan ett utskick.
 - [Journey-steg och automationer](dynamics-journey-steps.md) — utlös åtgärder, synkronisera engagemang och uppdatera Dynamics-poster baserat på kontaktbeteende.
 
 ## Vad du gör härnäst

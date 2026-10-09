@@ -8,7 +8,7 @@ description: >-
 
 ## Integration scope
 
-- **Supported lists:** the integration currently supports importing from Contact Marketing Lists in Dynamics 365 Sales. Importing from Lead Marketing Lists is planned for a future update.
+- **Supported lists:** you can import from both Contact Marketing Lists and Lead Marketing Lists in Dynamics 365 Sales. Members of both list types are imported as eMarketeer contacts.
 - **Imported fields:** eMarketeer imports the following core fields from Dynamics:
   - First Name
   - Last Name
