@@ -96,6 +96,7 @@
   * [Journeys Triggering Events](documentation/journeys/journeys-triggering-events.md)
 * [Contacts](knowledge-base/contacts-lists/README.md)
   * [How contacts are created](knowledge-base/contacts-lists/how-contacts-are-created.md)
+  * [The contact card](knowledge-base/contacts-lists/contact-card.md)
   * [How to manage contacts in bulk](knowledge-base/contacts-lists/bulk-actions-tool.md)
   * [How to build and use Contact Filters](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
   * [How to clean up your contacts](knowledge-base/contacts-lists/clean-up-contacts.md)
