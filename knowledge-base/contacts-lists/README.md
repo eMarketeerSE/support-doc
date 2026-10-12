@@ -12,6 +12,10 @@ page-type: overview
 how-contacts-are-created.md
 {% endcontent-ref %}
 
+{% content-ref url="contact-card.md" %}
+contact-card.md
+{% endcontent-ref %}
+
 {% content-ref url="../getting-started/new-contact-list.md" %}
 new-contact-list.md
 {% endcontent-ref %}

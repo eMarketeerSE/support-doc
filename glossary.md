@@ -87,6 +87,14 @@ A person stored in eMarketeer's database. eMarketeer uses "contact" consistently
 
 <details>
 
+<summary>Contact card</summary>
+
+The window that opens when you click a contact anywhere in eMarketeer. It shows the contact's details, activity, legal basis, Journeys, notes and lead status in one place. See [The contact card](knowledge-base/contacts-lists/contact-card.md).
+
+</details>
+
+<details>
+
 <summary>Contact field</summary>
 
 A data attribute on a contact record, such as first name, email address, or a custom field you define. Contact fields are used in personalization, filtering, and segmentation.

@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   A reference to everything on the contact card in eMarketeer, and what you can
   see and do on each of its tabs.

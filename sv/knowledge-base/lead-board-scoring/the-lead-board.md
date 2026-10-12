@@ -34,7 +34,7 @@ För att begränsa leads på din board, använd dessa filter:
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/the-lead-board-contact-card-lead-tab.png" alt="Kontaktkort med fliken Lead öppen"></div>
 
-Klicka på ett lead på boarden för att öppna kontaktkortet. Den sista fliken är fliken Lead, som visar allt som är relevant för att hantera leadet.
+Klicka på ett lead på boarden för att öppna kontaktkortet. Den sista fliken är fliken Lead, som visar allt som är relevant för att hantera leadet. Läs om allt annat på kortet i [Kontaktkortet](../contacts-lists/contact-card.md).
 
 Härifrån kan du:
 

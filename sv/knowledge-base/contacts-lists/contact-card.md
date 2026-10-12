@@ -1,5 +1,4 @@
 ---
-hidden: true
 description: >-
   En genomgång av allt på kontaktkortet i eMarketeer, och vad du kan se och
   göra på varje flik.

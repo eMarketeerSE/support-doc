@@ -211,6 +211,14 @@ En person lagrad i eMarketeers databas. eMarketeer använder "kontakt" konsekven
 
 <details>
 
+<summary>Kontaktkort</summary>
+
+Fönstret som öppnas när du klickar på en kontakt var som helst i eMarketeer. Det visar kontaktens uppgifter, aktivitet, rättsliga grund, Journeys, anteckningar och leadstatus på ett ställe. Se [Kontaktkortet](knowledge-base/contacts-lists/contact-card.md).
+
+</details>
+
+<details>
+
 <summary>Kontaktens tidslinje</summary>
 
 Den kronologiska historiken över en kontakts interaktioner, synlig på kontaktkortet. Tidslinjen visar e-postöppningar, klick, formulärinskickningar, webbbesök och anpassade signaler, var och en som en tidsstämplad engagemangspost.

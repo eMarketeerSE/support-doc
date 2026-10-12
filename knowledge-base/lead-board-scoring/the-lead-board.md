@@ -34,7 +34,7 @@ To narrow the leads on your board, use these filters:
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/the-lead-board-contact-card-lead-tab.png" alt="Contact card with the Lead tab open"></div>
 
-Click a lead on the board to open the contact card. The last tab is the Lead tab, which shows everything relevant for managing the lead.
+Click a lead on the board to open the contact card. The last tab is the Lead tab, which shows everything relevant for managing the lead. For everything else on the card, see [The contact card](../contacts-lists/contact-card.md).
 
 From here you can:
 
