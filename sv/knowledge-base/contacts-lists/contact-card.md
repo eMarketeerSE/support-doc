@@ -18,12 +18,14 @@ Det öppnas var du än klickar på en kontakt i en lista i eMarketeer: i Contact
 Den övre delen ser likadan ut på alla flikar.
 
 1. **Foto.** Klicka på fotot för att byta det. Siffran på fotot är kontaktens lead score.
-2. **Kontaktkategori.** Den första etiketten efter namnet. Klicka på den för att ändra kategorin till Prospect, Customer eller Other i dialogen [Update Category](../../.gitbook/assets/contact-card-update-category.png).
+2. **Kontaktkategori.** Den första etiketten efter namnet. Klicka på den för att ändra kategorin till Prospect, Customer eller Other i dialogen Update Category.
 3. **Leadsteg.** Den andra etiketten visar var kontakten befinner sig på Lead Board, till exempel MQL eller Opportunity.
 4. **Taggar.** Klicka på taggikonen för att välja en tagg, eller skriv en ny för att skapa den. Se [Taggar](tags.md).
 5. **Dela.** Dela kontakten till ditt CRM eller kopiera en länk till kontakten.
 
 Under namnet ser du kontaktens jobbtitel och företag. Klicka på företaget för att se företagsprofilen, som tas fram utifrån kontaktens e-postdomän. Kontaktvägarna nedanför länkar till kontaktens e-postadress, mobilnummer och LinkedIn-profil.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-update-category.png" alt="Dialogen Update Category med alternativen Prospect, Customer och Other" width="300"></div>
 
 ### Dela
 

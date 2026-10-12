@@ -18,12 +18,14 @@ It opens wherever you click a listed contact in eMarketeer: in Contacts, on the 
 The top of the card is the same on every tab.
 
 1. **Photo.** Click the photo to change it. The number on the photo is the contact's lead score.
-2. **Contact category.** The first label after the name. Click it to change the category to Prospect, Customer or Other in the [Update Category](../../.gitbook/assets/contact-card-update-category.png) dialog.
+2. **Contact category.** The first label after the name. Click it to change the category to Prospect, Customer or Other in the Update Category dialog.
 3. **Lead stage.** The second label shows where the contact is on the Lead Board, for example MQL or Opportunity.
 4. **Tags.** Click the tag icon to choose a tag, or type a new one to create it. See [Tags](tags.md).
 5. **Share.** Share the contact to your CRM, or copy a link to the contact.
 
 Under the name you see the contact's job title and company. Click the company to see its company profile, which is researched based on the contact's email domain. The contact options below link to the contact's email address, mobile number and LinkedIn profile.
+
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-update-category.png" alt="Update Category dialog with the options Prospect, Customer and Other" width="300"></div>
 
 ### Share
 
