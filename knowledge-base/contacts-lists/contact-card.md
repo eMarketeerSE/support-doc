@@ -31,10 +31,12 @@ Under the name you see the contact's job title and company. Click the company to
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-share-menu.png" alt="Share menu open on the contact card"></div>
 
-* **Share to CRM** creates a record of the contact in your connected CRM, or matches an existing record. The contact's CRM ID is then saved as the contact's [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). When the contact is already linked to your CRM, the menu shows **Open in CRM** instead.
+* **Share to CRM** creates a record of the contact in your connected CRM, or matches an existing record. The contact's CRM ID is then saved as the contact's [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). This option is shown when the contact has no External ID. When the contact has an External ID, the menu shows **Open in CRM** instead, which opens the contact in your integrated CRM.
 * **Copy link to this contact** copies a link to the contact that you can send to other eMarketeer users.
 
 The **⋮** menu to the right of the tabs has one option, **Delete this contact**.
+
+To close the contact card, click **X** in the top right corner or press Escape.
 
 ## Overview
 
@@ -74,7 +76,10 @@ The Timeline tab lists everything the contact has done, in time order.
 * By default, engagements are grouped by month. Use the buttons at the top right to group them by campaign instead.
 * Each month shows a summary of the types of engagement that happened that month. Click a month to expand it.
 * Click **More information** to see the full details of a single engagement, such as the answers in a form submission or the pages in a web session.
-* Filter on **All**, **Outbound**, **Inbound** or **Signals** to find a specific type of engagement.
+* Filter on **All**, **Outbound**, **Inbound** or **Signals** to find a specific type of engagement:
+  * **Outbound** is the emails and SMS you have sent to the contact.
+  * **Inbound** is what the contact has done, such as submitting eMarketeer forms or social media lead forms, and visiting your website.
+  * **Signals** are custom signals sent through the [Custom Signals API](../../documentation/apis-developer/custom-signals-api.md).
 
 ## Details
 
@@ -82,7 +87,7 @@ The Timeline tab lists everything the contact has done, in time order.
 
 The Details tab holds the contact's data.
 
-* **Contact fields.** Type into a field to update the contact. The change is saved as soon as you click somewhere else.
+* **Contact fields.** Type into a field to update the contact. The change is saved as soon as you leave the field, for example when you click somewhere else or press Tab to move to the next field.
 * **Subscriptions.** Each subscription, and whether the contact can receive it. See [Subscriptions](../account-admin/subscriptions.md).
 * **Record metadata.** When and how the contact was created, and the contact's External ID.
 
@@ -122,8 +127,10 @@ The Lead tab looks different depending on whether the contact is a lead yet.
 
 * **Lead stages.** Click a stage to move the lead to it.
 * **In stage and lead score.** How long the lead has been in its current stage, and its lead score.
-* **Assigned to.** The sales user the lead is assigned to. Only sales users can assign leads.
+* **Assigned to.** The sales user the lead is assigned to.
 * **Mark as lost**, **Hide lead** and **Remove from lead board** control the lead's place on the board.
+
+To work with leads, for example to assign them, mark them as lost or hide them, you need a Sales User license. See [User accounts](../../documentation/accounts-auth/user-accounts.md).
 * **Stage history.** A timeline of how the lead has moved through the stages.
 
 See [The lead board](../lead-board-scoring/the-lead-board.md).

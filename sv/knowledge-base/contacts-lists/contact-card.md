@@ -31,10 +31,12 @@ Under namnet ser du kontaktens jobbtitel och företag. Klicka på företaget fö
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-share-menu.png" alt="Menyn för att dela öppen på kontaktkortet"></div>
 
-* **Share to CRM** skapar en post för kontakten i ditt anslutna CRM, eller matchar en befintlig post. Kontaktens ID i CRM:et sparas sedan som kontaktens [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). När kontakten redan är kopplad till ditt CRM visar menyn **Open in CRM** i stället.
+* **Share to CRM** skapar en post för kontakten i ditt anslutna CRM, eller matchar en befintlig post. Kontaktens ID i CRM:et sparas sedan som kontaktens [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). Alternativet visas när kontakten saknar External ID. När kontakten har ett External ID visar menyn **Open in CRM** i stället, som öppnar kontakten i ditt integrerade CRM.
 * **Copy link to this contact** kopierar en länk till kontakten som du kan skicka till andra användare i eMarketeer.
 
 Menyn **⋮** till höger om flikarna har ett alternativ, **Delete this contact**.
+
+Stäng kontaktkortet genom att klicka på **X** uppe till höger eller trycka på Escape.
 
 ## Overview
 
@@ -74,7 +76,10 @@ Fliken Timeline listar allt kontakten har gjort, i tidsordning.
 * Som standard grupperas engagemangen per månad. Använd knapparna uppe till höger för att gruppera dem per kampanj i stället.
 * Varje månad visar en sammanfattning av vilka typer av engagemang som skedde den månaden. Klicka på en månad för att fälla ut den.
 * Klicka på **More information** för att se alla detaljer om ett enskilt engagemang, till exempel svaren i en formulärinskickning eller sidorna i en webbsession.
-* Filtrera på **All**, **Outbound**, **Inbound** eller **Signals** för att hitta en viss typ av engagemang.
+* Filtrera på **All**, **Outbound**, **Inbound** eller **Signals** för att hitta en viss typ av engagemang:
+  * **Outbound** är de mejl och SMS du har skickat till kontakten.
+  * **Inbound** är det kontakten har gjort, till exempel skickat in formulär i eMarketeer eller leadformulär i sociala medier, och besökt din webbplats.
+  * **Signals** är anpassade signaler som skickas via [Custom Signals API](../../documentation/apis-developer/custom-signals-api.md).
 
 ## Details
 
@@ -82,7 +87,7 @@ Fliken Timeline listar allt kontakten har gjort, i tidsordning.
 
 Fliken Details innehåller kontaktens uppgifter.
 
-* **Kontaktfält.** Skriv i ett fält för att uppdatera kontakten. Ändringen sparas så fort du klickar någon annanstans.
+* **Kontaktfält.** Skriv i ett fält för att uppdatera kontakten. Ändringen sparas så fort du lämnar fältet, till exempel när du klickar någon annanstans eller trycker på Tab för att gå till nästa fält.
 * **Prenumerationer.** Varje prenumeration och om kontakten kan ta emot den. Se [Prenumerationer](../account-admin/subscriptions.md).
 * **Metadata för posten.** När och hur kontakten skapades, samt kontaktens External ID.
 
@@ -122,8 +127,10 @@ Fliken Lead ser olika ut beroende på om kontakten är ett lead ännu.
 
 * **Leadsteg.** Klicka på ett steg för att flytta leadet dit.
 * **Tid i steget och lead score.** Hur länge leadet har varit i sitt nuvarande steg, och dess lead score.
-* **Assigned to.** Säljanvändaren som leadet är tilldelat. Bara säljanvändare kan tilldela leads.
+* **Assigned to.** Säljanvändaren som leadet är tilldelat.
 * **Mark as lost**, **Hide lead** och **Remove from lead board** styr leadets plats på tavlan.
+
+För att arbeta med leads, till exempel tilldela dem, markera dem som förlorade eller dölja dem, behöver du en licens för Sales User. Se [Användarkonton](../../documentation/accounts-auth/user-accounts.md).
 * **Stage history.** En tidslinje över hur leadet har rört sig genom stegen.
 
 Se [Lead Board](../lead-board-scoring/the-lead-board.md).
