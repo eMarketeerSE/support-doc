@@ -104,3 +104,13 @@ No. eMarketeer doesn't support plain-text-only emails. Every email you create in
 If you want an email that looks simple, like a plain text email, choose the **Email - Plain** template when you create the email. It has a minimal design, but it's still an HTML email, not a true plain text email. See [Fill in settings, choose a template, create the email](knowledge-base/getting-started/basics-creating-email.md#fill-in-settings-choose-a-template-create-the-email).
 
 </details>
+
+## API
+
+<details>
+
+<summary>Can I still use the Legacy API 1.0?</summary>
+
+No. The Legacy API 1.0 has been deprecated and is no longer in use. Use the current eMarketeer REST API instead. See [API](documentation/apis-developer/README.md) for how it works and where to find your API key, and [API endpoints overview](documentation/apis-developer/api-endpoints-overview.md) for the available endpoints.
+
+</details>

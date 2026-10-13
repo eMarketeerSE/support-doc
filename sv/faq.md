@@ -104,3 +104,13 @@ Nej. eMarketeer stöder inte e-post med enbart ren text. Varje e-postmeddelande 
 Om du vill ha ett e-postmeddelande som ser enkelt ut, som ett meddelande i ren text, väljer du mallen **Email - Plain** när du skapar e-postmeddelandet. Den har en enkel design, men det är fortfarande ett HTML-meddelande, inte ett riktigt meddelande i ren text. Se [Fyll i inställningar, välj en mall och skapa e-posten](knowledge-base/getting-started/basics-creating-email.md#fyll-i-inställningar-välj-en-mall-och-skapa-e-posten).
 
 </details>
+
+## API
+
+<details>
+
+<summary>Kan jag fortfarande använda Legacy API 1.0?</summary>
+
+Nej. Legacy API 1.0 är utfasat och används inte längre. Använd eMarketeers nuvarande REST API i stället. Se [API](documentation/apis-developer/README.md) för hur det fungerar och var du hittar din API-nyckel, och [Översikt över API-endpoints](documentation/apis-developer/api-endpoints-overview.md) för vilka endpoints som finns.
+
+</details>
