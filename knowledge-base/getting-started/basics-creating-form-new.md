@@ -118,6 +118,18 @@ You can find these question types in the Toolbox in the left-side menu. For a fu
 {% endstep %}
 
 {% step %}
+### Change the submit button text
+
+The button that submits the form says **Complete** by default. A wording such as **Submit** or **Register** often fits your form better.
+
+Click **Survey Settings** (next to the Save button) above the design surface, then click **Navigation** in the right-side Property Grid. Type your own text in **"Complete Survey" button text**.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-complete-button-text.png" alt="Navigation settings in the Property Grid with the Navigation icon and the Complete Survey button text field highlighted"></div>
+
+If you use your own text, it becomes available for translation in the [Translations tab](../../documentation/forms/ui-overview.md#translations-tab).
+{% endstep %}
+
+{% step %}
 ### Set up the thank-you page
 
 After a visitor submits, they are shown the thank-you page to confirm their answer was saved. The default thank-you page contains a single text block, which you can edit to fit your form.

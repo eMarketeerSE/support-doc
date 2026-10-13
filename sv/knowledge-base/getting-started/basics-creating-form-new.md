@@ -118,6 +118,18 @@ Du hittar de här frågetyperna i Toolbox i menyn till vänster. En fullständig
 {% endstep %}
 
 {% step %}
+### Ändra texten på skicka-knappen
+
+Knappen som skickar formuläret har texten **Complete** som standard. En formulering som **Skicka** eller **Anmäl** passar ofta bättre för ditt formulär.
+
+Klicka på **Survey Settings** (bredvid Spara-knappen) ovanför designytan och klicka sedan på **Navigation** i Property Grid till höger. Skriv din egen text i **"Complete Survey" button text**.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-form-new-complete-button-text.png" alt="Inställningarna för Navigation i Property Grid med ikonen Navigation och fältet för knapptexten Complete Survey markerade"></div>
+
+Om du använder en egen text blir den tillgänglig för översättning på [Translations-fliken](../../documentation/forms/ui-overview.md#translations-fliken).
+{% endstep %}
+
+{% step %}
 ### Ställ in tacksidan
 
 När en besökare skickar in formuläret visas tacksidan för att bekräfta att svaret sparades. Standardtacksidan innehåller ett enda textblock som du kan redigera för att passa ditt formulär.
