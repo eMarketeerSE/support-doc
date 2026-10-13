@@ -120,7 +120,7 @@ Du hittar de här frågetyperna i Toolbox i menyn till vänster. En fullständig
 {% step %}
 ### Ändra texten på skicka-knappen
 
-Knappen som skickar formuläret har texten **Complete** som standard. En formulering som **Skicka** eller **Anmäl** passar ofta bättre för ditt formulär.
+Knappen som skickar formuläret har texten **Complete** som standard. Om du vill ha en formulering som passar bättre för ditt syfte, till exempel **Skicka**, **Anmäl** eller **Prenumerera**, kan du ändra den.
 
 Klicka på **Survey Settings** (bredvid Spara-knappen) ovanför designytan och klicka sedan på **Navigation** i Property Grid till höger. Skriv din egen text i **"Complete Survey" button text**.
 

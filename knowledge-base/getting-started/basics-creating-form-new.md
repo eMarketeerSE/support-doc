@@ -120,7 +120,7 @@ You can find these question types in the Toolbox in the left-side menu. For a fu
 {% step %}
 ### Change the submit button text
 
-The button that submits the form says **Complete** by default. A wording such as **Submit** or **Register** often fits your form better.
+The button that submits the form says **Complete** by default. If you want wording that better fits your scenario, such as **Submit**, **Register** or **Subscribe**, you can change it.
 
 Click **Survey Settings** (next to the Save button) above the design surface, then click **Navigation** in the right-side Property Grid. Type your own text in **"Complete Survey" button text**.
 
