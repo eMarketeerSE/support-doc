@@ -1,2 +1,0 @@
-# Dynamics - Create/Update Lead
-

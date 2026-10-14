@@ -1,2 +1,0 @@
-# Dynamics - Add Lead activity
-

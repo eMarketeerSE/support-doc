@@ -1,2 +1,0 @@
-# Dynamics - Add contact activity
-
