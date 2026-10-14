@@ -76,6 +76,10 @@ ChatGPT fungerar på chatgpt.com. Se [Koppla ChatGPT till eMarketeer](connect-ch
 {% endcolumn %}
 
 {% column %}
+{% content-ref url="data-and-privacy.md" %}
+[data-and-privacy.md](data-and-privacy.md)
+{% endcontent-ref %}
+
 {% content-ref url="troubleshooting.md" %}
 [troubleshooting.md](troubleshooting.md)
 {% endcontent-ref %}

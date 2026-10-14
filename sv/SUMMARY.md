@@ -238,6 +238,7 @@
 * [AI-assistenter](integrations/ai-assistants/README.md)
   * [Koppla Claude till eMarketeer](integrations/ai-assistants/connect-claude.md)
   * [Koppla ChatGPT till eMarketeer](integrations/ai-assistants/connect-chatgpt.md)
+  * [AI-assistenter: data och integritet](integrations/ai-assistants/data-and-privacy.md)
   * [AI-assistenter: felsökning](integrations/ai-assistants/troubleshooting.md)
 * [Övriga integrationer](integrations.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)

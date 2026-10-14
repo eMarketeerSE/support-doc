@@ -23,6 +23,14 @@ layout:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-10-14" tags="new-release,feature" %}
+## Connect Claude or ChatGPT to eMarketeer
+
+You can now connect Claude or ChatGPT to your eMarketeer account and ask about your marketing in plain language. The assistant reads your reports, contacts, journeys, campaigns and forms. Marketing Users and Administrators can also ask it to make changes, such as creating a campaign or closing a form.
+
+See [AI assistants](https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/integrations/ai-assistants) to get started.
+{% endupdate %}
+
 {% update date="2026-10-02" tags="new-release,feature,improvement,fix" %}
 ## The new eMarketeer
 

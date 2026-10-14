@@ -76,6 +76,10 @@ ChatGPT works on chatgpt.com. See [Connect ChatGPT to eMarketeer](connect-chatgp
 {% endcolumn %}
 
 {% column %}
+{% content-ref url="data-and-privacy.md" %}
+[data-and-privacy.md](data-and-privacy.md)
+{% endcontent-ref %}
+
 {% content-ref url="troubleshooting.md" %}
 [troubleshooting.md](troubleshooting.md)
 {% endcontent-ref %}

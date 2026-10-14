@@ -238,6 +238,7 @@
 * [AI assistants](integrations/ai-assistants/README.md)
   * [Connect Claude to eMarketeer](integrations/ai-assistants/connect-claude.md)
   * [Connect ChatGPT to eMarketeer](integrations/ai-assistants/connect-chatgpt.md)
+  * [AI assistants: data and privacy](integrations/ai-assistants/data-and-privacy.md)
   * [AI assistants: troubleshooting](integrations/ai-assistants/troubleshooting.md)
 * [Other integrations](integrations.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
