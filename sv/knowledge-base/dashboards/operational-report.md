@@ -27,7 +27,7 @@ De flesta widgetar visar alltid den senaste aktiviteten i ditt konto. Bara grafe
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/operational-report-sendouts-web-sessions.png" alt="Tidslinjen Sendouts and Web Sessions, som ritar upp e-postutskick mot webbsessioner, med klickbara e-postmarkörer under grafen."></div>
 
-**Recent Sendouts** listar de fem senaste utskicken via e-post och SMS med fler än 20 mottagare, med öppningsfrekvens, klick, CTR och CTOR. Växla till **Scheduled** för att i stället se de kommande utskicken närmast i tiden. Klicka på ett komponentnamn för att öppna dess komponentrapport.
+**Recent Sendouts** listar de fem senaste utskicken via e-post och SMS med fler än 20 mottagare, med öppningsfrekvens, klick, CTR och CTOR. Växla till **Scheduled** för att i stället se de kommande utskicken närmast i tiden. Läs om hur du stoppar ett av dem i [Så avbryter du ett schemalagt utskick](../email-content/abort-scheduled-sendout.md). Klicka på ett komponentnamn för att öppna dess komponentrapport.
 
 **Latest Sendout** lyfter fram ditt allra senaste utskick, med en genväg till dess rapport.
 

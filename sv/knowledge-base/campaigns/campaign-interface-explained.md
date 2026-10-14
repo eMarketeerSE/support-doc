@@ -22,7 +22,7 @@ Under kampanjens namn och beskrivning ligger flera flikar. Varje flik är en sep
 * **Contacts** — Listar kontakter som lagts till i kampanjen, antingen importerade direkt eller automatiskt tillagda genom interaktion. Antalet kontakter visas ovanför listan. [Läs mer](campaign-contacts.md).
 * **Campaign Fields** — Definiera fält som är unika för kampanjen och som kan flätas in i komponentinnehåll som variabler. Att redigera ett fältvärde ersätter variabeln i varje komponent som använder det. [Läs mer om kampanjfält](how-to-use-campaign-fields-in-emarketeer.md).
 * **Automation** — Lägg till automatiserade åtgärder i kampanjen. Automationer triggas av att en kontakt interagerar med en komponent, så kampanjen måste innehålla minst en komponent. [Läs mer om kampanjautomatiseringar](campaign-automations.md).
-* **Event History** — Visar händelser för utskickade e-post eller SMS. Granska när en komponent skickades, samt granska eller avbryt kommande schemalagda utskick.
+* **Event History** — Visar händelser för utskickade e-post eller SMS. Granska när en komponent skickades, samt granska eller avbryt kommande schemalagda utskick. Se [Så avbryter du ett schemalagt utskick](../email-content/abort-scheduled-sendout.md).
 * **Dashboard** — Bygg kampanjspecifika rapporter med rapportwidgets. Se [campaign reports](../reports/how-to-use-emarketeer-campaign-reports.md).
 
 ## 2. Vyspecifikt område

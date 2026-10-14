@@ -11,6 +11,10 @@ page-type: overview
 configuring-reminder-email.md
 {% endcontent-ref %}
 
+{% content-ref url="abort-scheduled-sendout.md" %}
+abort-scheduled-sendout.md
+{% endcontent-ref %}
+
 {% content-ref url="create-custom-content-block.md" %}
 create-custom-content-block.md
 {% endcontent-ref %}

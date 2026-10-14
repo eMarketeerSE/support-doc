@@ -27,7 +27,7 @@ Most widgets always show the latest activity in your account. Only the Sendouts 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/operational-report-sendouts-web-sessions.png" alt="The Sendouts and Web Sessions timeline, plotting email sendouts against website sessions, with clickable email markers below the graph."></div>
 
-**Recent Sendouts** lists the five most recent email and SMS sendouts with more than 20 recipients, with open rate, clicks, CTR, and CTOR. Toggle it to **Scheduled** to see the upcoming sendouts closest in time instead. Click a component name to open its component report.
+**Recent Sendouts** lists the five most recent email and SMS sendouts with more than 20 recipients, with open rate, clicks, CTR, and CTOR. Toggle it to **Scheduled** to see the upcoming sendouts closest in time instead. To stop one of them, see [How to abort a scheduled sendout](../email-content/abort-scheduled-sendout.md). Click a component name to open its component report.
 
 **Latest Sendout** highlights your single most recent sendout, with a shortcut to its report.
 
