@@ -54,7 +54,7 @@ Skriv till assistenten som du skulle fråga en kollega.
 | Läsa rapporter, kontakter, Journeys, kampanjer och formulär | Alla användare |
 | Ändra saker: taggar, anteckningar, urval, kampanjer, starta eller starta om Journeys, öppna eller stänga formulär | Marketing Users och Administrators på det kontot |
 
-Användare utan någon av de rollerna ser inte de åtgärder som ändrar saker.
+Om du inte har någon av de här rollerna på något av dina konton erbjuder assistenten inte de här åtgärderna alls.
 
 ## Assistenter som stöds
 

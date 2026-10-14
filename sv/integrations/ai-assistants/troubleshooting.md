@@ -12,7 +12,7 @@ Kopplingen stöder bara inloggning med e-postadress och lösenord just nu. Logga
 
 ## Assistenten säger att den inte kan göra ändringar
 
-För att ändra saker, till exempel skapa en kampanj eller tagga en kontakt, behöver du rollen Marketing User eller Administrator på det kontot. Andra användare ser inte de här åtgärderna alls. Be din administratör om rollen.
+För att ändra saker, till exempel skapa en kampanj eller tagga en kontakt, behöver du rollen Marketing User eller Administrator på det kontot. Om du inte har någon av rollerna på något av dina konton erbjuder assistenten inte de här åtgärderna alls. Be din administratör om rollen.
 
 ## Fel konto svarar, eller kontot är inte tillgängligt
 

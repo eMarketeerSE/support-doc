@@ -54,7 +54,7 @@ Write to the assistant the way you would ask a colleague.
 | Read reports, contacts, journeys, campaigns and forms | Every user |
 | Change things: tags, notes, segments, campaigns, starting or restarting journeys, opening or closing forms | Marketing Users and Administrators on that account |
 
-Users without one of those roles don't see the actions that change things.
+If you don't have one of these roles on any of your accounts, the assistant doesn't offer these actions at all.
 
 ## Supported assistants
 

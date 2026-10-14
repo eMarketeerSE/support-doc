@@ -11,7 +11,7 @@ Du kopplar en gång på claude.ai. Claudes skrivbordsapp använder samma kopplin
 ## Innan du börjar
 
 - Du loggar in i eMarketeer med din e-postadress och ditt lösenord. Inloggning med Microsoft eller SuperOffice fungerar inte med kopplingen ännu.
-- Din Claude-plan tillåter anpassade kopplingar. På en Team- eller Enterprise-plan lägger en ägare först till kopplingen för din organisation. Sedan behöver du bara ansluta.
+- Din Claude-plan tillåter anpassade kopplingar. På en företagsplan kan en administratör behöva lägga till kopplingen för din organisation först. Sedan behöver du bara ansluta.
 - Du har kopplingens adress:
 
 ```

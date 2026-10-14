@@ -12,7 +12,7 @@ The connector supports only email and password logins for now. Log in with your 
 
 ## The assistant says it can't make changes
 
-Changing things, such as creating a campaign or tagging a contact, needs the Marketing User or Administrator role on that account. Other users don't see these actions at all. Ask your administrator for the role.
+Changing things, such as creating a campaign or tagging a contact, needs the Marketing User or Administrator role on that account. If you have neither role on any of your accounts, the assistant doesn't offer these actions at all. Ask your administrator for the role.
 
 ## The wrong account answers, or the account isn't available
 
