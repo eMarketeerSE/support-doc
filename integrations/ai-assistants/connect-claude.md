@@ -18,7 +18,7 @@ You connect once on claude.ai. The Claude desktop app uses the same connectors, 
 https://mcp.emarketeer.com/mcp
 ```
 
-If your company manages Claude for you, follow Connect through your organization below. Otherwise, follow Connect on your own.
+If your company manages Claude for you, follow Connect through your organization below. If Claude says "Organization owner must add this for the team", that's you. Otherwise, follow Connect on your own.
 
 ## Connect on your own
 

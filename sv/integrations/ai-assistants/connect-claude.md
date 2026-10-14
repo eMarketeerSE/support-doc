@@ -18,7 +18,7 @@ Du kopplar en gång på claude.ai. Claudes skrivbordsapp använder samma kopplin
 https://mcp.emarketeer.com/mcp
 ```
 
-Om ditt företag hanterar Claude åt dig följer du Anslut via din organisation nedan. Annars följer du Anslut på egen hand.
+Om ditt företag hanterar Claude åt dig följer du Anslut via din organisation nedan. Det gäller dig om Claude säger "Organization owner must add this for the team". Annars följer du Anslut på egen hand.
 
 ## Anslut på egen hand
 

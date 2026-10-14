@@ -6,6 +6,10 @@ description: Fixes for common problems when using eMarketeer from Claude or Chat
 
 Fixes for the most common problems when you use eMarketeer from an AI assistant.
 
+## Claude says "Organization owner must add this for the team"
+
+Your company manages Claude, so only an owner can add connectors. You don't need to add your own. In Claude, open **Customize**, select **Connectors**, then **Yours**. Select the eMarketeer connector your organization added and choose **Connect**. If it isn't there, ask your Claude organization owner to add it. See [Connect Claude to eMarketeer](connect-claude.md).
+
 ## You can't log in with Microsoft or SuperOffice
 
 The connector supports only email and password logins. Log in with your eMarketeer email address and password. If you don't have a password, ask your administrator.

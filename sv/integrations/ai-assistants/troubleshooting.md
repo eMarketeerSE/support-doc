@@ -6,6 +6,10 @@ description: Lösningar på vanliga problem när du använder eMarketeer från C
 
 Lösningar på de vanligaste problemen när du använder eMarketeer från en AI-assistent.
 
+## Claude säger "Organization owner must add this for the team"
+
+Ditt företag hanterar Claude, så bara en ägare kan lägga till kopplingar. Du behöver inte lägga till en egen. Öppna **Customize** i Claude, välj **Connectors** och sedan **Yours**. Välj eMarketeer-kopplingen som din organisation har lagt till och välj **Connect**. Om den inte finns där ber du ägaren av er Claude-organisation att lägga till den. Se [Koppla Claude till eMarketeer](connect-claude.md).
+
 ## Du kan inte logga in med Microsoft eller SuperOffice
 
 Kopplingen stöder bara inloggning med e-postadress och lösenord. Logga in med din e-postadress och ditt lösenord för eMarketeer. Om du inte har något lösenord, fråga din administratör.
