@@ -10,7 +10,7 @@ You connect once on claude.ai. The Claude desktop app uses the same connectors, 
 
 ## Before you start
 
-- You log in to eMarketeer with your email address and password. Logins with Microsoft or SuperOffice don't work with the connector yet.
+- You log in to eMarketeer with your email address and password. Logins with Microsoft or SuperOffice don't work with the connector.
 - Your Claude plan allows custom connectors. On a company plan, an admin may need to add the connector for your organization first. You then only connect.
 - You have the connector address:
 

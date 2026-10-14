@@ -9,7 +9,7 @@ description: >-
 
 Connect Claude to your eMarketeer account and ask about your marketing in plain language.
 
-The assistant works with your real data: reports, contacts, journeys, campaigns and forms. It sees only what your own eMarketeer login can see.
+The assistant works with your real data: reports, contacts, journeys, campaigns and forms. It reads from the accounts you belong to. Every user on an account can read this data through the connector, whatever their role in eMarketeer.
 
 ## What you can do
 
@@ -28,8 +28,8 @@ Write to the assistant the way you would ask a colleague.
 ### Contacts
 
 - Give me a short brief on anna@example.com before my sales call.
-- Why is this contact's lead score so high?
-- Has this person agreed to receive emails?
+- Why is anna@example.com's lead score so high?
+- Has anna@example.com agreed to receive emails?
 
 ### Journeys
 
@@ -39,7 +39,7 @@ Write to the assistant the way you would ask a colleague.
 ### Campaigns and forms
 
 - Create a campaign called Spring webinar in the Events folder.
-- Summarise the answers to our customer survey form.
+- Show how many people chose each answer in our customer survey form.
 - Close the registration form for the June event.
 
 ### Planning
@@ -62,5 +62,16 @@ Claude works on claude.ai and in the Claude desktop app. See [Connect Claude to 
 
 ## Next steps
 
-- [Connect Claude to eMarketeer](connect-claude.md)
-- [AI assistants: troubleshooting](troubleshooting.md)
+{% columns %}
+{% column %}
+{% content-ref url="connect-claude.md" %}
+[connect-claude.md](connect-claude.md)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column %}
+{% content-ref url="troubleshooting.md" %}
+[troubleshooting.md](troubleshooting.md)
+{% endcontent-ref %}
+{% endcolumn %}
+{% endcolumns %}

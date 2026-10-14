@@ -8,7 +8,7 @@ Fixes for the most common problems when you use eMarketeer from an AI assistant.
 
 ## You can't log in with Microsoft or SuperOffice
 
-The connector supports only email and password logins for now. Log in with your eMarketeer email address and password. If you don't have a password, ask your administrator.
+The connector supports only email and password logins. Log in with your eMarketeer email address and password. If you don't have a password, ask your administrator.
 
 ## The assistant says it can't make changes
 

@@ -8,7 +8,7 @@ Lösningar på de vanligaste problemen när du använder eMarketeer från en AI-
 
 ## Du kan inte logga in med Microsoft eller SuperOffice
 
-Kopplingen stöder bara inloggning med e-postadress och lösenord just nu. Logga in med din e-postadress och ditt lösenord för eMarketeer. Om du inte har något lösenord, fråga din administratör.
+Kopplingen stöder bara inloggning med e-postadress och lösenord. Logga in med din e-postadress och ditt lösenord för eMarketeer. Om du inte har något lösenord, fråga din administratör.
 
 ## Assistenten säger att den inte kan göra ändringar
 

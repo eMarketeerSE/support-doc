@@ -10,7 +10,7 @@ Du kopplar en gång på claude.ai. Claudes skrivbordsapp använder samma kopplin
 
 ## Innan du börjar
 
-- Du loggar in i eMarketeer med din e-postadress och ditt lösenord. Inloggning med Microsoft eller SuperOffice fungerar inte med kopplingen ännu.
+- Du loggar in i eMarketeer med din e-postadress och ditt lösenord. Inloggning med Microsoft eller SuperOffice fungerar inte med kopplingen.
 - Din Claude-plan tillåter anpassade kopplingar. På en företagsplan kan en administratör behöva lägga till kopplingen för din organisation först. Sedan behöver du bara ansluta.
 - Du har kopplingens adress:
 
@@ -25,7 +25,7 @@ https://mcp.emarketeer.com/mcp
 3. Skriv **eMarketeer** som namn och klistra in kopplingens adress.
 4. Välj **Add**.
 5. Välj **Connect** bredvid eMarketeer. eMarketeers inloggningssida öppnas.
-6. Logga in med din e-postadress och ditt lösenord för eMarketeer. Om du använder MFA, slutför den.
+6. Logga in med din e-postadress och ditt lösenord för eMarketeer. Om du använder MFA verifierar du inloggningen enligt instruktionerna.
 7. Ge Claude åtkomst till ditt eMarketeer-konto.
 
 ## Kontrollera att det fungerar
