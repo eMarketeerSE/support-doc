@@ -1,13 +1,13 @@
 ---
 icon: robot
 description: >-
-  Koppla en AI-assistent till ditt eMarketeer-konto och fråga om din
+  Koppla Claude eller ChatGPT till ditt eMarketeer-konto och fråga om din
   marknadsföring med vanliga ord.
 ---
 
 # AI-assistenter
 
-Koppla Claude till ditt eMarketeer-konto och fråga om din marknadsföring med vanliga ord.
+Koppla Claude eller ChatGPT till ditt eMarketeer-konto och fråga om din marknadsföring med vanliga ord.
 
 Assistenten arbetar med dina riktiga data: rapporter, kontakter, Journeys, kampanjer och formulär. Den läser från kontona du tillhör. Alla användare på ett konto kan läsa dessa data via kopplingen, oavsett roll i eMarketeer.
 
@@ -60,12 +60,18 @@ Om du inte har någon av de här rollerna på något av dina konton erbjuder ass
 
 Claude fungerar på claude.ai och i Claudes skrivbordsapp. Se [Koppla Claude till eMarketeer](connect-claude.md).
 
+ChatGPT fungerar på chatgpt.com. Se [Koppla ChatGPT till eMarketeer](connect-chatgpt.md).
+
 ## Nästa steg
 
 {% columns %}
 {% column %}
 {% content-ref url="connect-claude.md" %}
 [connect-claude.md](connect-claude.md)
+{% endcontent-ref %}
+
+{% content-ref url="connect-chatgpt.md" %}
+[connect-chatgpt.md](connect-chatgpt.md)
 {% endcontent-ref %}
 {% endcolumn %}
 

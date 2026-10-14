@@ -1,5 +1,5 @@
 ---
-description: Lösningar på vanliga problem när du använder eMarketeer från Claude.
+description: Lösningar på vanliga problem när du använder eMarketeer från Claude eller ChatGPT.
 ---
 
 # AI-assistenter: felsökning
@@ -28,7 +28,7 @@ Besökssiffror per sida finns från och med den 2 oktober 2026. De kräver ocks�
 
 ## Kopplingen slutade fungera
 
-Koppla från eMarketeer i assistentens inställningar och anslut sedan igen. Se [Koppla Claude till eMarketeer](connect-claude.md).
+Koppla från eMarketeer i assistentens inställningar och anslut sedan igen. Se [Koppla Claude till eMarketeer](connect-claude.md) eller [Koppla ChatGPT till eMarketeer](connect-chatgpt.md).
 
 ## Fortfarande problem
 

@@ -1,13 +1,13 @@
 ---
 icon: robot
 description: >-
-  Connect an AI assistant to your eMarketeer account and ask about your
+  Connect Claude or ChatGPT to your eMarketeer account and ask about your
   marketing in plain language.
 ---
 
 # AI assistants
 
-Connect Claude to your eMarketeer account and ask about your marketing in plain language.
+Connect Claude or ChatGPT to your eMarketeer account and ask about your marketing in plain language.
 
 The assistant works with your real data: reports, contacts, journeys, campaigns and forms. It reads from the accounts you belong to. Every user on an account can read this data through the connector, whatever their role in eMarketeer.
 
@@ -60,12 +60,18 @@ If you don't have one of these roles on any of your accounts, the assistant does
 
 Claude works on claude.ai and in the Claude desktop app. See [Connect Claude to eMarketeer](connect-claude.md).
 
+ChatGPT works on chatgpt.com. See [Connect ChatGPT to eMarketeer](connect-chatgpt.md).
+
 ## Next steps
 
 {% columns %}
 {% column %}
 {% content-ref url="connect-claude.md" %}
 [connect-claude.md](connect-claude.md)
+{% endcontent-ref %}
+
+{% content-ref url="connect-chatgpt.md" %}
+[connect-chatgpt.md](connect-chatgpt.md)
 {% endcontent-ref %}
 {% endcolumn %}
 

@@ -1,5 +1,5 @@
 ---
-description: Fixes for common problems when using eMarketeer from Claude.
+description: Fixes for common problems when using eMarketeer from Claude or ChatGPT.
 ---
 
 # AI assistants: troubleshooting
@@ -28,7 +28,7 @@ Visit figures per page start on 2 October 2026. They also need the web tracker o
 
 ## The connector stopped working
 
-Disconnect eMarketeer in your assistant's settings, then connect again. See [Connect Claude to eMarketeer](connect-claude.md).
+Disconnect eMarketeer in your assistant's settings, then connect again. See [Connect Claude to eMarketeer](connect-claude.md) or [Connect ChatGPT to eMarketeer](connect-chatgpt.md).
 
 ## Still stuck
 
