@@ -56,6 +56,43 @@ Write to the assistant the way you would ask a colleague.
 
 If you don't have one of these roles on any of your accounts, the assistant doesn't offer these actions at all.
 
+## Changes the assistant can make
+
+These are the only changes the assistant can make. Everything else is read-only.
+
+### Contacts
+
+- Add an existing tag to a contact, or remove one. The assistant can't create new tags.
+- Write a note on a contact's card, signed with your name.
+
+### Segments
+
+- Save a new segment from a set of filters. Saving a segment doesn't change any contacts.
+
+### Journeys
+
+- Add one contact to a journey that can be started manually. The journey then runs its own steps, which can include sending an email or a text message.
+- Restart contacts who got stuck at a step: named contacts, everyone at one step, or everyone in the journey.
+- Take one contact out of a journey, so they receive nothing more from it.
+
+### Campaigns
+
+- Create a new, empty campaign.
+- Rename a campaign or change its description.
+- Move a campaign to a folder.
+- Add an email, form, page or text message to a campaign as a copy of a template. Nothing is sent, and you edit the content in eMarketeer afterwards.
+
+### Forms
+
+- Open or close a form, including the closed message, an automatic close date and a maximum number of responses.
+
+### What the assistant can't do
+
+- Send or schedule a campaign.
+- Delete anything.
+- Edit the content of emails, forms or pages.
+- Change contact details or import contacts.
+
 ## Supported assistants
 
 Claude works on claude.ai and in the Claude desktop app. See [Connect Claude to eMarketeer](connect-claude.md).
