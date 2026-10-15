@@ -69,7 +69,6 @@ Fixes and improvements released after the October 2 release. All of them are liv
 * Notifications addressed to several email addresses now work.
 * The email screenshot in notifications is now a thumbnail and no longer covers the rest of the message.
 * SuperOffice automations: the project and selection fields search for matches as you type. Create Sale, Create Task and Notify Salesperson now include the optional **Add to project/selection** field.
-* Bulk actions and export on component reports now work the same way as in Contacts.
 
 </details>
 
@@ -89,6 +88,7 @@ Fixes and improvements released after the October 2 release. All of them are liv
 * **View report** now works on notifications that arrive while the page is open.
 * Segments saved before the update now work with export and bulk actions.
 * SuperOffice on-premise imports show the selection name again instead of "SuperOffice7".
+* Bulk actions and export on component reports now work the same way as in Contacts.
 
 </details>
 
