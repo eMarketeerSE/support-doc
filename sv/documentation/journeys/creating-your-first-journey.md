@@ -116,10 +116,10 @@ Ovanför varje steg visar räknare med en färgad prick hur många kontakter som
 
 | Räknare | Vad det betyder | Vad som händer med kontakten |
 |---|---|---|
-| 🟢 Done (grön) | Kontakten nådde steget och steget kördes utan problem. | Fortsätter i din Journey. |
-| 🔵 Skipped (blå) | Kontakten nådde steget, men steget gjorde ingenting. Oftast matchade kontakten inte stegets villkor. Det händer också när ett Dynamics-steg **Create/Update Lead** hoppas över på grund av inställningarna för CRM-integrationen. | Fortsätter i din Journey. |
-| 🟡 Warning (gul) | Steget kördes men kunde inte utföra sin uppgift i CRM:et. Till exempel hittades inte kontakten eller leadet, aktiviteten eller affären skapades inte, eller kontakten lades inte till i marknadsföringslistan. Bara CRM-steg och [Update Subscription](journey-step-update-subscription.md) kan ge en varning. | Fortsätter i din Journey. |
-| 🔴 Failed (röd) | Steget stötte på ett fel, till exempel ett CRM- eller integrationsfel, en timeout eller felaktiga data. Orsaken och felmeddelandet loggas. | Stannar vid steget. |
+| 🟢 Done | Kontakten nådde steget och steget kördes utan problem. | Fortsätter i din Journey. |
+| 🔵 Skipped | Kontakten nådde steget, men steget gjorde ingenting. Oftast matchade kontakten inte stegets villkor. Det händer också när ett Dynamics-steg **Create/Update Lead** hoppas över på grund av inställningarna för CRM-integrationen. | Fortsätter i din Journey. |
+| 🟡 Warning | Steget kördes men kunde inte utföra sin uppgift i CRM:et. Till exempel hittades inte kontakten eller leadet, aktiviteten eller affären skapades inte, eller kontakten lades inte till i marknadsföringslistan. Bara CRM-steg och [Update Subscription](journey-step-update-subscription.md) kan ge en varning. | Fortsätter i din Journey. |
+| 🔴 Failed | Steget stötte på ett fel, till exempel ett CRM- eller integrationsfel, en timeout eller felaktiga data. Orsaken och felmeddelandet loggas. | Stannar vid steget och fortsätter inte i din Journey förrän problemet är löst. |
 
 eMarketeer försöker köra misslyckade steg igen automatiskt några gånger. Därefter kan du starta om de misslyckade kontakterna från steget. Om omstarten lyckas minskar den röda räknaren och kontakten fortsätter. En kontakt som misslyckas flera gånger på samma steg räknas bara en gång.
 

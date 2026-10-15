@@ -120,10 +120,10 @@ Above each step, counters with a coloured dot show how many contacts have passed
 
 | Counter | What it means | What happens to the contact |
 |---|---|---|
-| 🟢 Done (green) | The contact reached the step and the step ran without problems. | Continues down the Journey. |
-| 🔵 Skipped (blue) | The contact reached the step, but the step did nothing. Usually the contact didn't match the step's condition. It also happens when a Dynamics **Create/Update Lead** step is skipped because of the CRM integration settings. | Continues down the Journey. |
-| 🟡 Warning (yellow) | The step ran but couldn't do its job in the CRM. For example, the contact or lead wasn't found, the activity or sale wasn't created, or the contact wasn't added to the marketing list. Only CRM steps and [Update Subscription](journey-step-update-subscription.md) can give a warning. | Continues down the Journey. |
-| 🔴 Failed (red) | The step hit an error, for example a CRM or integration error, a timeout or bad data. The reason and error message are logged. | Stops at the step. |
+| 🟢 Done | The contact reached the step and the step ran without problems. | Continues down the Journey. |
+| 🔵 Skipped | The contact reached the step, but the step did nothing. Usually the contact didn't match the step's condition. It also happens when a Dynamics **Create/Update Lead** step is skipped because of the CRM integration settings. | Continues down the Journey. |
+| 🟡 Warning | The step ran but couldn't do its job in the CRM. For example, the contact or lead wasn't found, the activity or sale wasn't created, or the contact wasn't added to the marketing list. Only CRM steps and [Update Subscription](journey-step-update-subscription.md) can give a warning. | Continues down the Journey. |
+| 🔴 Failed | The step hit an error, for example a CRM or integration error, a timeout or bad data. The reason and error message are logged. | Stops at the step and doesn't continue down the Journey until the problem is resolved. |
 
 eMarketeer retries failed steps automatically a few times. After that, you can restart the failed contacts from the step. If the restart succeeds, the red count goes down and the contact continues. A contact that fails several times on the same step is only counted once.
 
