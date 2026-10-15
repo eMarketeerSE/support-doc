@@ -129,16 +129,9 @@ eMarketeer retries failed steps automatically a few times. After that, you can r
 
 Click a counter to see the contacts it represents. On a wait step, this opens the list of contacts currently waiting there. On other steps, it opens the step's log of outcomes. From the list, you can export the contacts or update them in bulk.
 
-## Journeys and SuperOffice
+## Journeys and CRM integration
 
-The **CRM** group in the **Add Journey step** panel contains several actions that perform tasks in SuperOffice:
+When you integrate your CRM with eMarketeer, you get access to additional Journey steps that carry out tasks in the CRM. You find them in the **CRM** group in the **Add Journey step** panel.
 
-* Create Activity
-* Create Sale
-* Add / Remove from project
-* Add / Remove from selection
-* Add / Remove interest
-
-All tasks relate to contacts in SuperOffice.
-
-Before a step runs, eMarketeer looks up the contact in SuperOffice. To learn how contacts are matched and how missing contacts can be created, see [How contacts are matched between eMarketeer and SuperOffice](../superoffice/superoffice-contact-matching.md).
+* [SuperOffice Journey Steps](../superoffice/superoffice-journey-steps.md)
+* [Dynamics - Journey Steps](../dynamics-365/dynamics-journey-steps.md)

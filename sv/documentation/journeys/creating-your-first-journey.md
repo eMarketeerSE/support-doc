@@ -125,16 +125,9 @@ eMarketeer försöker köra misslyckade steg igen automatiskt några gånger. D�
 
 Klicka på en räknare för att se kontakterna den representerar. På ett väntesteg öppnas listan över kontakter som väntar där just nu. På andra steg öppnas stegets logg över utfall. Från listan kan du exportera kontakterna eller massuppdatera dem.
 
-## Journeys och SuperOffice
+## Journeys och CRM-integration
 
-Gruppen **CRM** i panelen **Add Journey step** innehåller flera åtgärder som utför uppgifter i SuperOffice:
+När du integrerar ditt CRM med eMarketeer får du tillgång till fler Journey-steg som utför uppgifter i CRM:et. Du hittar dem i gruppen **CRM** i panelen **Add Journey step**.
 
-* Create Activity
-* Create Sale
-* Add / Remove from project
-* Add / Remove from selection
-* Add / Remove interest
-
-Alla uppgifter gäller kontakter i SuperOffice.
-
-Innan ett steg körs letar eMarketeer upp kontakten i SuperOffice. Hur kontakter matchas och hur saknade kontakter kan skapas läser du i [Så matchas kontakter mellan eMarketeer och SuperOffice](../superoffice/superoffice-contact-matching.md).
+* [SuperOffice Journey Steps](../superoffice/superoffice-journey-steps.md)
+* [Dynamics - Journey-steg](../dynamics-365/dynamics-journey-steps.md)
