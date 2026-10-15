@@ -116,11 +116,20 @@ The "Journey Summary" in the left panel shows when the Journey was launched and 
 
 ### Step counter
 
-Each step in the Journey has a step counter that shows how many contacts have reached that step.
+Above each step, counters with a coloured dot show how many contacts have passed the step and how it went for them. A counter only appears when its count is above zero.
 
-Click the number to bring up a list of the contacts for that step. From there you can export or bulk update them.
+| Colour | Status | What it means | What happens to the contact |
+|---|---|---|---|
+| 🟢 Green | Done | The contact reached the step and the step ran without problems. | Continues down the Journey. |
+| 🔵 Blue | Skipped | The contact reached the step, but the step did nothing. Usually the contact didn't match the step's condition. It also happens when a Dynamics **Create/Update Lead** step is skipped because of the CRM integration settings. | Continues down the Journey. |
+| 🟡 Yellow | Warning | The step ran but couldn't do its job in the CRM. For example, the contact or lead wasn't found, the activity or sale wasn't created, or the contact wasn't added to the marketing list. Only CRM steps and [Update Subscription](journey-step-update-subscription.md) can give a warning. | Continues down the Journey. |
+| 🔴 Red | Failed | The step hit an error, for example a CRM or integration error, a timeout or bad data. The reason and error message are logged. | Stops at the step. |
 
-The wait step has an additional counter showing how many contacts are currently waiting in that step.
+eMarketeer retries failed steps automatically a few times. After that, you can restart the failed contacts from the step. If the restart succeeds, the red count goes down and the contact continues. A contact that fails several times on the same step is only counted once.
+
+The counters appear on every step except the starting point and [If / Else](journey-step-if-else.md) steps. On [Wait](journey-step-wait.md) and [Wait for trigger](journey-step-wait-for-trigger.md) steps, they count the contacts that have already left the step.
+
+Click a counter to see the contacts it represents. On a wait step, this opens the list of contacts currently waiting there. On other steps, it opens the step's log of outcomes. From the list, you can export the contacts or update them in bulk.
 
 ## Journeys and SuperOffice
 
