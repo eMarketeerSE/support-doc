@@ -112,18 +112,16 @@ Det här liknar att välja "Manual trigger" som Journeyns startpunkt, med en vik
 
 ### Stegräknare
 
-Ovanför varje steg visar räknare med en färgad prick hur många kontakter som har passerat steget och hur det gick för dem. En räknare visas bara när antalet är större än noll.
+Ovanför varje steg visar räknare med en färgad prick hur många kontakter som har passerat steget och hur det gick för dem. Räknarna visas på alla steg utom startpunkten och [If / Else](journey-step-if-else.md)-steg. På [Wait](journey-step-wait.md)- och [Wait for trigger](journey-step-wait-for-trigger.md)-steg räknar de kontakter som redan har lämnat steget.
 
-| Färg | Status | Vad det betyder | Vad som händer med kontakten |
-|---|---|---|---|
-| 🟢 Grön | Done | Kontakten nådde steget och steget kördes utan problem. | Fortsätter i din Journey. |
-| 🔵 Blå | Skipped | Kontakten nådde steget, men steget gjorde ingenting. Oftast matchade kontakten inte stegets villkor. Det händer också när ett Dynamics-steg **Create/Update Lead** hoppas över på grund av inställningarna för CRM-integrationen. | Fortsätter i din Journey. |
-| 🟡 Gul | Warning | Steget kördes men kunde inte utföra sin uppgift i CRM:et. Till exempel hittades inte kontakten eller leadet, aktiviteten eller affären skapades inte, eller kontakten lades inte till i marknadsföringslistan. Bara CRM-steg och [Update Subscription](journey-step-update-subscription.md) kan ge en varning. | Fortsätter i din Journey. |
-| 🔴 Röd | Failed | Steget stötte på ett fel, till exempel ett CRM- eller integrationsfel, en timeout eller felaktiga data. Orsaken och felmeddelandet loggas. | Stannar vid steget. |
+| Räknare | Vad det betyder | Vad som händer med kontakten |
+|---|---|---|
+| 🟢 Done (grön) | Kontakten nådde steget och steget kördes utan problem. | Fortsätter i din Journey. |
+| 🔵 Skipped (blå) | Kontakten nådde steget, men steget gjorde ingenting. Oftast matchade kontakten inte stegets villkor. Det händer också när ett Dynamics-steg **Create/Update Lead** hoppas över på grund av inställningarna för CRM-integrationen. | Fortsätter i din Journey. |
+| 🟡 Warning (gul) | Steget kördes men kunde inte utföra sin uppgift i CRM:et. Till exempel hittades inte kontakten eller leadet, aktiviteten eller affären skapades inte, eller kontakten lades inte till i marknadsföringslistan. Bara CRM-steg och [Update Subscription](journey-step-update-subscription.md) kan ge en varning. | Fortsätter i din Journey. |
+| 🔴 Failed (röd) | Steget stötte på ett fel, till exempel ett CRM- eller integrationsfel, en timeout eller felaktiga data. Orsaken och felmeddelandet loggas. | Stannar vid steget. |
 
 eMarketeer försöker köra misslyckade steg igen automatiskt några gånger. Därefter kan du starta om de misslyckade kontakterna från steget. Om omstarten lyckas minskar den röda räknaren och kontakten fortsätter. En kontakt som misslyckas flera gånger på samma steg räknas bara en gång.
-
-Räknarna visas på alla steg utom startpunkten och [If / Else](journey-step-if-else.md)-steg. På [Wait](journey-step-wait.md)- och [Wait for trigger](journey-step-wait-for-trigger.md)-steg räknar de kontakter som redan har lämnat steget.
 
 Klicka på en räknare för att se kontakterna den representerar. På ett väntesteg öppnas listan över kontakter som väntar där just nu. På andra steg öppnas stegets logg över utfall. Från listan kan du exportera kontakterna eller massuppdatera dem.
 
