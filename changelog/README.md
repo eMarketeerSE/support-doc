@@ -23,6 +23,84 @@ layout:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-10-15" tags="fix,improvement" %}
+## Fixes and improvements since the October 2 release
+
+Fixes and improvements released after the October 2 release. All of them are live.
+
+### Notable fixes
+
+* Submitting a legacy form with blank fields, such as name or mobile number, no longer removes that data from the contact card.
+* Campaign automations can be opened and edited again.
+* Fixed an issue where a Wait step with a decimal value, such as 1.5 hours, stopped the Journeys list from loading for the whole account.
+* Excel exports of form answers now open correctly in Excel.
+* **Select all** in campaign contacts now selects every contact, not only the first page. Bulk actions and exports now cover the full list.
+
+<details>
+
+<summary>Forms</summary>
+
+* Rules on legacy forms now save correctly.
+* The **Close form on date** setting now saves, whatever your date format or language.
+* Fixed a captcha error that could stop legacy forms from being submitted.
+* Fixed embedded forms that didn't load on some websites.
+* The forms script loads faster on your website, which improves page speed scores.
+* Legacy form reports: columns are clickable again and show the contacts who gave each answer. Questions with many options can be scrolled sideways again, and the campaign field is shown again.
+* Form confirmation emails: font and colour settings now apply to the answers section. A new line in the text no longer causes an error.
+* Form notifications now show question titles instead of internal question names.
+
+</details>
+
+<details>
+
+<summary>Email</summary>
+
+* The **Save** button in the email editor is no longer hidden at some window sizes or zoom levels.
+* The **Preview email** button is back on the send page, so you can step through recipients before sending.
+* Mail reports show correct unique counts while a sendout is still in progress.
+* Fixed an issue where some users were logged out while editing certain emails.
+
+</details>
+
+<details>
+
+<summary>Campaign automations</summary>
+
+* Notifications addressed to several email addresses now work.
+* The email screenshot in notifications is now a thumbnail and no longer covers the rest of the message.
+* SuperOffice automations: the project and selection fields search for matches as you type. Create Sale, Create Task and Notify Salesperson now include the optional **Add to project/selection** field.
+* Bulk actions and export on component reports now work the same way as in Contacts.
+
+</details>
+
+<details>
+
+<summary>Journeys</summary>
+
+* In a copied Journey, the SuperOffice **Add to project** and **Add to selection** steps can now be changed.
+
+</details>
+
+<details>
+
+<summary>Contacts and imports</summary>
+
+* A notification is now sent when a contact upload fails because the account has reached its contact limit.
+* **View report** now works on notifications that arrive while the page is open.
+* Segments saved before the update now work with export and bulk actions.
+* SuperOffice on-premise imports show the selection name again instead of "SuperOffice7".
+
+</details>
+
+<details>
+
+<summary>Other</summary>
+
+* Several wording fixes in the interface.
+
+</details>
+{% endupdate %}
+
 {% update date="2026-10-14" tags="new-release,feature" %}
 ## Connect Claude or ChatGPT to eMarketeer
 
