@@ -3,3 +3,6 @@ root: ./
 structure:
   readme: overview.md
   summary: SUMMARY.md
+
+redirects:
+  guides/guides/legacy/removing-a-form-answer: knowledge-base/forms/how-to-delete-a-form-answer.md

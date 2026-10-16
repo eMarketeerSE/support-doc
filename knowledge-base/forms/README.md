@@ -51,6 +51,10 @@ Form submissions are recorded as contact activity. Every form gives you a report
 {% content-ref url="../../documentation/forms/styling-your-form.md" %}
 [styling-your-form.md](../../documentation/forms/styling-your-form.md)
 {% endcontent-ref %}
+
+{% content-ref url="how-to-delete-a-form-answer.md" %}
+[how-to-delete-a-form-answer.md](how-to-delete-a-form-answer.md)
+{% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}

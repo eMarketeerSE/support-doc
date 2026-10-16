@@ -1,7 +1,7 @@
 ---
 description: >-
-  Hur du tar bort enskilda svar, valda rader eller hela uppsättningen svar från
-  en formulärrapport.
+  Så tar du bort formulärsvar från Spreadsheet-rapporten, kontaktkortet eller
+  kampanjens flik Contacts, och vad som händer när du gör det.
 layout:
   width: default
   title:
@@ -20,23 +20,29 @@ layout:
     visible: true
   actions:
     visible: true
-tags:
-  - legacy
 ---
 
-# Hur tar jag bort ett formulärsvar?
-
-{% hint style="warning" %}
-Den här artikeln gäller **Formulär (Legacy)**. För den nuvarande formuläreditorn, se [Formulär](README.md).
-{% endhint %}
+# Så tar du bort ett formulärsvar
 
 Ta bort testsvar, felaktiga svar eller hela uppsättningen svar från en formulärrapport.
+
+När du tar bort ett formulärsvar försvinner det från formulärrapporten och från kontaktens tidslinje. Kontakten matchar inte längre segment som bygger på den formulärinlämningen, som om kontakten aldrig hade skickat in formuläret. Kontaktfält och rättslig grund som inlämningen uppdaterade ligger kvar som de är.
 
 Det finns tre sätt att ta bort oönskade formulärsvar, beroende på var du startar.
 
 ## Ta bort från Spreadsheet-rapporten
 
-Öppna formulärrapporten och gå till fliken Spreadsheet. Varje rad innehåller kontaktdata och svaren från en kontakt. Markera en eller flera rader — Delete answers-knappen aktiveras, med det valda antalet visat inom parentes.
+Öppna formulärrapporten och gå till fliken Spreadsheet. Varje rad innehåller kontaktdata och svaren från en kontakt.
+
+1. Klicka på **⋯** i början av raden du vill ta bort.
+2. Klicka på **Delete**.
+3. Klicka på **Delete** igen för att bekräfta.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-delete-a-form-answer-spreadsheet-delete.png" alt="Spreadsheet-rapport med radens knapp Delete och dialogen Confirm Action, numrerade i ordning"></div>
+
+### Formulär (Legacy)
+
+I Spreadsheet-rapporten för ett legacy-formulär markerar du en eller flera rader. Knappen Delete answers aktiveras, med det valda antalet visat inom parentes.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/removing-a-form-answer-spreadsheet-delete-answers.png" alt="Spreadsheet-rapport med två rader markerade och knappen Delete answers markerad"></div>
 
@@ -50,7 +56,7 @@ Hitta kontakten på det sätt du föredrar — sökrutan för kontakter, ett fil
 
 Hitta formulärinlämningen i tidslinjen och klicka på More information.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/removing-a-form-answer-contact-form-answers-delete.png" alt="Vyn Submitted answers med knappen Delete answers"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/how-to-delete-a-form-answer-contact-card-delete-answers.png" alt="Svaren från en formulärinlämning på kontaktkortet, med knappen Delete answers"></div>
 
 Delete answers tar bort kontakten från rapporten.
 

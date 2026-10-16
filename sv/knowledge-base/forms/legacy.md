@@ -32,23 +32,19 @@ scan-attendance-phone.md
 {% content-ref url="advanced-event-qr-code.md" %}
 advanced-event-qr-code.md
 {% endcontent-ref %}
-
-{% content-ref url="how-to-post-data-to-a-form.md" %}
-how-to-post-data-to-a-form.md
-{% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}
+{% content-ref url="how-to-post-data-to-a-form.md" %}
+how-to-post-data-to-a-form.md
+{% endcontent-ref %}
+
 {% content-ref url="form-phone-number-validation-re.md" %}
 form-phone-number-validation-re.md
 {% endcontent-ref %}
 
 {% content-ref url="max-answers-form-checkbox.md" %}
 max-answers-form-checkbox.md
-{% endcontent-ref %}
-
-{% content-ref url="removing-a-form-answer.md" %}
-removing-a-form-answer.md
 {% endcontent-ref %}
 
 {% content-ref url="close-a-form.md" %}
