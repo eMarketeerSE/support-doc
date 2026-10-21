@@ -32,7 +32,7 @@ Antivirus tools are installed on all servers and internal machines. The system i
 
 ### Encryption
 
-All communications use SSL for secure data transfer. We rely on modern cryptographic protocols including TLS 1.2 or higher in transit and AES-256 at rest to secure all communications and data storage.
+All communications are encrypted with TLS. We use TLS 1.2 or higher in transit and AES-256 at rest to secure all communications and data storage.
 
 ### Access Control
 
@@ -48,7 +48,7 @@ eMarketeer maintains a disaster recovery plan and uses redundancy to ensure high
 
 ### Access to Cloud Services and Personal Information
 
-Unauthorized access attempts are blocked automatically. SSL and user authentication ensure only authorized users access customer data. Users can view and update personal data after logging in.
+Unauthorized access attempts are blocked automatically. TLS encryption and user authentication ensure only authorized users access customer data. Users can view and update personal data after logging in.
 
 ### Access Management
 
@@ -64,7 +64,7 @@ All access is logged and backed up daily. Only authorized personnel can manage l
 
 ### Secure Development
 
-Security is embedded in every development phase. Code is tested manually and automatically. Development follows agile methodologies with mandatory code and security reviews. Penetration tests are performed regularly by eBuilder Security, an independent security company.
+Security is embedded in every development phase. Code is tested manually and automatically. Development follows agile methodologies with mandatory code and security reviews. eBuilder Security, an independent security company, audits the platform weekly and performs regular penetration tests. See also [Vulnerability Management](vulnerability-management.md).
 
 ### Contact
 

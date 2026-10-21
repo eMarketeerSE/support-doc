@@ -10,6 +10,8 @@ Roles and responsibilities for both employees and contractors are clearly define
 
 All employees, temporary staff, and contractors sign NDAs to protect sensitive information.
 
+Violations of information security policies are handled under eMarketeer’s disciplinary procedures. Confidentiality obligations remain in force after employment or engagement ends, and departing staff are reminded of them at exit.
+
 ### Physical and Environmental Security
 
 Areas containing critical equipment and information are secured with appropriate access control. These areas are protected against environmental risks such as fire, water, and dust.
@@ -30,7 +32,7 @@ We follow a Security by Design approach. Code is developed and tested rigorously
 
 Production changes follow formal procedures. All code is reviewed and tested in isolated environments before deployment. Internal acceptance and risk assessments are mandatory.
 
-Penetration testing and security assessments are carried out regularly by eBuilder Security, an independent security company.
+eBuilder Security, an independent security company, audits the platform weekly and carries out regular penetration tests and security assessments.
 
 ## Security Measures in eMarketeer Applications
 
@@ -40,7 +42,7 @@ All data is hosted on AWS infrastructure located within Europe.
 
 ### Encryption
 
-We secure personal data in transit and at rest using encrypted communication (SSL/TLS).
+We secure personal data in transit with TLS 1.2 or higher and at rest with AES-256.
 
 ### Personnel Security
 
@@ -74,7 +76,7 @@ All data has 30-day point-in-time backup with monthly snapshots retained for 12 
 
 ### Access Control to eMarketeer Services
 
-Unauthorized access is blocked by firewalls. SSL encryption and user authentication secure access for authorized users only.
+Unauthorized access is blocked by firewalls. TLS encryption and user authentication secure access for authorized users only.
 
 #### Access to Personal Information
 

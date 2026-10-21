@@ -20,6 +20,8 @@ Risks are evaluated and addressed based on their severity—through mitigation, 
 
 We manage a variety of risks including technical, information security, financial, and regulatory compliance risks.
 
+Results of risk assessments, including treatment decisions and residual risks, are reported to management and the Board of Directors annually.
+
 #### Information Classification and Control
 
 All critical information and assets are registered, assigned to owners, and classified according to their sensitivity. Security measures are applied accordingly, and owners are responsible for maintaining safeguards and implementing improvements.
@@ -40,7 +42,7 @@ Data Processing Agreements (DPAs) are signed with customers to define how person
 
 Data is stored in AWS infrastructure in the EU, which is certified to ISO 27001. Our security controls are regularly assessed and tested by an independent external security company.
 
-#### Audits and ISAE 3402
+#### Audits
 
 Customers may request audits or inspections using certified third-party auditors. Costs are borne individually. eMarketeer also conducts annual third-party audits to validate its technical and organizational safeguards.
 
@@ -52,7 +54,7 @@ Testing includes feature, integration, performance, and stress tests—conducted
 
 Agile and Scrum methodologies guide our development process. New functionality is tested in dedicated environments before being released to production.
 
-Every release undergoes code reviews, risk assessments, and penetration testing. Only after meeting all security criteria is it implemented in our platform.
+Every release undergoes code reviews and risk assessments. Only after meeting all security criteria is it implemented in our platform. In addition, eBuilder Security, an independent security company, audits the platform weekly. See also [Vulnerability Management](vulnerability-management.md).
 
 #### Exit Plan
 

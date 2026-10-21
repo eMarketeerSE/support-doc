@@ -11,3 +11,4 @@
 * [Cookie Policy](cookie-policy.md)
 * [Privacy Policy](privacy-policy.md)
 * [eMarketeer's Statement on the Schrems II Ruling](emarketeers-statement-on-the-schreem-ii-ruling.md)
+* [Vulnerability Management](vulnerability-management.md)
