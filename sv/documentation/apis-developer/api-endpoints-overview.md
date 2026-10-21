@@ -12,7 +12,7 @@ Den här sidan listar alla endpoints i eMarketeers API, grupperade per modul, me
 API:et är uppdelat i moduler, var och en med sin egen OpenAPI-definition: **Contact**, **Subscription**, **Engagement**, **Consent**, **Tag** och **Messages**. Varje modul är ett REST-API som skickar och tar emot JSON.
 
 {% hint style="info" %}
-Alla anrop autentiseras med en API-nyckel som skickas i request-headern `x-api-key`. Din nyckel finns i eMarketeer under **Settings** → **Plugins and integration**.
+Alla anrop autentiseras med en API-nyckel som skickas i request-headern `x-api-key`. Du hittar din nyckel i eMarketeer under **Account Settings** → **Integrations** → **API Key**. Du behöver administratörsbehörighet för att generera en nyckel.
 {% endhint %}
 
 ## Contact

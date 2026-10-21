@@ -11,7 +11,7 @@ description: >-
 API:et är ett OpenAPI-dokumenterat REST API. Referensportalen på [api-doc.emarketeer.com](https://api-doc.emarketeer.com/) låter dig bläddra bland alla tillgängliga endpoints, se schemas för förfrågningar och svar, och testa anrop direkt i webbläsaren.
 
 {% hint style="info" %}
-Du hittar din API-nyckel i eMarketeer under **Inställningar** → **Plugins and integration**.
+Du hittar din API-nyckel i eMarketeer under **Account Settings** → **Integrations** → **API Key**. Du behöver administratörsbehörighet för att generera en nyckel.
 {% endhint %}
 
 ## Sidor i det här avsnittet

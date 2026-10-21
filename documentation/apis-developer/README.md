@@ -11,7 +11,7 @@ description: >-
 The API is an OpenAPI-documented REST API. The reference portal at [api-doc.emarketeer.com](https://api-doc.emarketeer.com/) lets you browse all available endpoints, view request and response schemas, and test calls directly in the browser.
 
 {% hint style="info" %}
-Your API key is available inside eMarketeer under **Settings** → **Plugins and integration**.
+You find your API key in eMarketeer under **Account Settings** → **Integrations** → **API Key**. Generating a key requires administrator access.
 {% endhint %}
 
 ## Pages in this section

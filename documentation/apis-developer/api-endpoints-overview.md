@@ -12,7 +12,7 @@ This page lists every endpoint in the eMarketeer API, grouped by module, with a 
 The API is split into modules, each with its own OpenAPI definition: **Contact**, **Subscription**, **Engagement**, **Consent**, **Tag**, and **Messages**. Every module is a REST API that sends and receives JSON.
 
 {% hint style="info" %}
-All calls authenticate with an API key sent in the `x-api-key` request header. Your key is available in eMarketeer under **Settings** → **Plugins and integration**.
+All calls authenticate with an API key sent in the `x-api-key` request header. You find your key in eMarketeer under **Account Settings** → **Integrations** → **API Key**. Generating a key requires administrator access.
 {% endhint %}
 
 ## Contact
