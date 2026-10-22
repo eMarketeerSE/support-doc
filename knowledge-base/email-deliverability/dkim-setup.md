@@ -10,8 +10,8 @@ If eMarketeer reports that DKIM is not working for your domain, the required rec
 
 ## To troubleshoot
 
-1. Open [Email Domain settings](https://app.emarketeer.com/corporate/gui/account/customize/domain/new.php) in your eMarketeer account. Administrator privileges are required.
-2. Click "Authorize" on the domain you want to investigate.
+1. Open [Email Domain settings](https://app.emarketeer.com/account/settings?section=domains) in your eMarketeer account. Administrator privileges are required.
+2. Click **Check authentication** on the domain you want to investigate.
 3. The dialog shows every record your DNS must contain for the domain.
 4. In your DNS, confirm the same records are present.
 

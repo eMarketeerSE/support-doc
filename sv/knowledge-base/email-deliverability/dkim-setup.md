@@ -10,8 +10,8 @@ Om eMarketeer rapporterar att DKIM inte fungerar för din domän kan de obligato
 
 ## Felsökning
 
-1. Öppna [Email Domain settings](https://app.emarketeer.com/corporate/gui/account/customize/domain/new.php) i ditt eMarketeer-konto. Administratörsbehörighet krävs.
-2. Klicka på "Authorize" på den domän du vill undersöka.
+1. Öppna [Email Domain settings](https://app.emarketeer.com/account/settings?section=domains) i ditt eMarketeer-konto. Administratörsbehörighet krävs.
+2. Klicka på **Check authentication** på den domän du vill undersöka.
 3. Dialogen visar varje post som din DNS måste innehålla för domänen.
 4. I din DNS, bekräfta att samma poster finns på plats.
 
