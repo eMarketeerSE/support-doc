@@ -19,8 +19,8 @@ When SPF is missing or incorrect, receiving mail servers cannot verify that an e
 
 ### How to troubleshoot and set it up
 
-1. Go to **Email Domain settings** in your eMarketeer account (admin access required).
-2. Click **Authorize** for the domain you're checking.
+1. Go to [Email Domain settings](https://app.emarketeer.com/account/settings?section=domains) in your eMarketeer account (admin access required).
+2. Click **Check authentication** for the domain you're checking.
 3. The domain setup dialog shows all required DNS records, including the SPF record to publish.
 4. In your DNS provider's control panel, verify that an SPF TXT record exists for your domain and matches the value shown in eMarketeer.
    * An SPF record typically starts with `v=spf1` and includes all servers and services authorized to send mail for your domain.

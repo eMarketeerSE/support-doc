@@ -19,8 +19,8 @@ När SPF saknas eller är felaktigt kan mottagande e-postservrar inte verifiera 
 
 ### Så felsöker du och sätter upp det
 
-1. Gå till **Email Domain settings** i ditt eMarketeer-konto (administratörsbehörighet krävs).
-2. Klicka på **Authorize** för den domän du undersöker.
+1. Gå till [Email Domain settings](https://app.emarketeer.com/account/settings?section=domains) i ditt eMarketeer-konto (administratörsbehörighet krävs).
+2. Klicka på **Check authentication** för den domän du undersöker.
 3. Dialogen för domänuppsättning visar alla DNS-poster som krävs, inklusive SPF-posten som ska publiceras.
 4. I din DNS-leverantörs kontrollpanel, bekräfta att en SPF TXT-post finns för din domän och matchar värdet som visas i eMarketeer.
    * En SPF-post börjar vanligtvis med `v=spf1` och inkluderar alla servrar och tjänster som är auktoriserade att skicka e-post för din domän.

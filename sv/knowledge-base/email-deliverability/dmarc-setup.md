@@ -12,8 +12,8 @@ Om DMARC saknas i din DNS kan mottagande servrar inte utvärdera e-post som pås
 
 ## Felsökning
 
-1. Öppna **Email Domain settings** i ditt eMarketeer-konto. Administratörsbehörighet krävs.
-2. Klicka på **Authorize** på den domän du undersöker.
+1. Öppna [Email Domain settings](https://app.emarketeer.com/account/settings?section=domains) i ditt eMarketeer-konto. Administratörsbehörighet krävs.
+2. Klicka på **Check authentication** på den domän du undersöker.
 3. Dialogen för domänkonfiguration listar varje nödvändig DNS-post, inklusive de DMARC-policyinställningar du bör publicera.
 4. I kontrollpanelen hos din DNS-leverantör, verifiera att en DMARC TXT-post finns — vanligtvis på `_dmarc.yourdomain.com` — och att den matchar det värde eMarketeer rekommenderar.
    * En DMARC-post är en DNS TXT-post som talar om för e-postservrar hur de ska hantera meddelanden som misslyckas med autentisering.

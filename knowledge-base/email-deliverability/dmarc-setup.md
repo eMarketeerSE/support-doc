@@ -12,8 +12,8 @@ If DMARC is missing from your DNS, receiving servers may not properly evaluate m
 
 ## To troubleshoot
 
-1. Open **Email Domain settings** in your eMarketeer account. Administrator access is required.
-2. Click **Authorize** on the domain you are checking.
+1. Open [Email Domain settings](https://app.emarketeer.com/account/settings?section=domains) in your eMarketeer account. Administrator access is required.
+2. Click **Check authentication** on the domain you are checking.
 3. The domain setup dialog lists every required DNS record, including the DMARC policy settings you should publish.
 4. In your DNS provider's control panel, verify that a DMARC TXT record exists — typically at `_dmarc.yourdomain.com` — and matches the value eMarketeer recommends.
    * A DMARC record is a DNS TXT entry that tells mail servers how to handle messages that fail authentication.
