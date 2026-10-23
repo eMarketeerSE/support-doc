@@ -100,8 +100,12 @@ Fliken Legal Basis visar kontaktens rättsliga grund för varje syfte och en än
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-journeys.png" alt="Fliken Journeys med en aktiv Journey och dess aktuella steg, och en lista med Journeys att starta med knapparna för förhandsvisning och Start"></div>
 
-* **Currently active.** De Journeys som kontakten är med i just nu, och det steg kontakten har nått. Klicka på **X** för att ta bort kontakten från en Journey.
+* **Currently active.** De Journeys som kontakten är med i just nu, och det steg kontakten har nått. Klicka på **X** för att stoppa kontakten från att fortsätta i en Journey.
 * **Start a Journey.** Journeys som har inställningen **Make Journey available on Contact card** påslagen. Klicka på ögonikonen för att förhandsvisa en Journey, eller på **Start** för att starta den för kontakten. Se [Manuell utlösare](../../documentation/journeys/journeys-triggering-events.md#manuell-utlösare).
+
+{% hint style="warning" %}
+När du tar bort en kontakt från en Journey stoppas bara kontakten från att fortsätta. Det som redan har hänt ändras inte: de Journey-steg som kontakten har slutfört, till exempel i ett test, listar fortfarande kontakten.
+{% endhint %}
 
 ## Notes
 
