@@ -100,8 +100,8 @@ The Legal Basis tab shows the contact's legal basis for each purpose, and a chan
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-journeys.png" alt="Journeys tab with a currently active Journey and its current step, and a list of Journeys to start with preview and Start buttons"></div>
 
-* **Currently active.** The Journeys the contact is in right now, and the step the contact has reached. Click **X** to stop the contact from continuing in a Journey.
 * **Start a Journey.** Journeys that have **Make Journey available on Contact card** enabled. Click the eye icon to preview a Journey, or **Start** to start it for the contact. See [Manual trigger](../../documentation/journeys/journeys-triggering-events.md#manual-trigger).
+* **Currently active.** The Journeys the contact is in right now, and the step the contact has reached. Click **X** to stop the contact from continuing in a Journey.
 
 {% hint style="warning" %}
 Removing a contact from a Journey only stops the contact from continuing. It doesn't undo what has already happened: the Journey steps the contact completed, for example in a test, still list the contact.
