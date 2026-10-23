@@ -1,15 +1,15 @@
 ---
 description: >-
   A quick map of every endpoint across the eMarketeer REST APIs — contacts,
-  subscriptions, engagement, consent, tags, and messages — so you can find the
-  right call fast.
+  subscriptions, engagement, consent, tags, messages, and campaigns — so you
+  can find the right call fast.
 ---
 
 # API endpoints overview
 
 This page lists every endpoint in the eMarketeer API, grouped by module, with a one-line summary of what each call does. It is a map, not a full reference. For request and response schemas and to test calls in the browser, use the interactive portal at [api-doc.emarketeer.com](https://api-doc.emarketeer.com/).
 
-The API is split into modules, each with its own OpenAPI definition: **Contact**, **Subscription**, **Engagement**, **Consent**, **Tag**, and **Messages**. Every module is a REST API that sends and receives JSON.
+The API is split into modules, each with its own OpenAPI definition: **Contact**, **Subscription**, **Engagement**, **Consent**, **Tag**, **Messages**, and **Campaigns**. Every module is a REST API that sends and receives JSON.
 
 {% hint style="info" %}
 All calls authenticate with an API key sent in the `x-api-key` request header. You find your key in eMarketeer under **Account Settings** → **Integrations** → **API Key**. Generating a key requires administrator access.
@@ -134,6 +134,27 @@ Send emails and SMS to contacts.
 ### SMS
 
 * `POST /v1/sms/send` — Send an SMS to one or more contacts.
+
+## Campaigns
+
+Copy, rename, and move campaign components, fill in the content of emails and landing pages, and send an email to a contact list.
+
+* Base URL: `https://connect.emarketeer.com/campaigns-api/v1`
+* Browse and test: [Campaigns definition](https://api-doc.emarketeer.com/?urls.primaryName=Campaigns)
+
+### Components
+
+* `POST /components/{componentType}/{componentId}/copy` — Copy an email, SMS, form, legacy form, or landing page into the same campaign.
+* `PATCH /components/{componentType}/{componentId}` — Rename a component, move it to another campaign, or both.
+
+### Content
+
+* `GET /components/{componentType}/{componentId}/content` — List the content blocks of an email or landing page, with their paths and current values.
+* `PATCH /components/{componentType}/{componentId}/content` — Fill in up to 50 content blocks of an email or landing page in one call.
+
+### Send
+
+* `POST /components/{componentType}/{componentId}/send` — Send an email to a contact list, now or at a scheduled time.
 
 ## What to do next
 

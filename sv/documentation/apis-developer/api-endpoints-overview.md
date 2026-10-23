@@ -1,15 +1,15 @@
 ---
 description: >-
   En snabb karta över alla endpoints i eMarketeers REST-API:er — kontakter,
-  prenumerationer, engagement, consent, taggar och meddelanden — så att du
-  snabbt hittar rätt anrop.
+  prenumerationer, engagement, consent, taggar, meddelanden och kampanjer — så
+  att du snabbt hittar rätt anrop.
 ---
 
 # Översikt över API-endpoints
 
 Den här sidan listar alla endpoints i eMarketeers API, grupperade per modul, med en rad om vad varje anrop gör. Det är en karta, inte en fullständig referens. För request- och response-scheman, och för att testa anrop i webbläsaren, använd den interaktiva portalen på [api-doc.emarketeer.com](https://api-doc.emarketeer.com/).
 
-API:et är uppdelat i moduler, var och en med sin egen OpenAPI-definition: **Contact**, **Subscription**, **Engagement**, **Consent**, **Tag** och **Messages**. Varje modul är ett REST-API som skickar och tar emot JSON.
+API:et är uppdelat i moduler, var och en med sin egen OpenAPI-definition: **Contact**, **Subscription**, **Engagement**, **Consent**, **Tag**, **Messages** och **Campaigns**. Varje modul är ett REST-API som skickar och tar emot JSON.
 
 {% hint style="info" %}
 Alla anrop autentiseras med en API-nyckel som skickas i request-headern `x-api-key`. Du hittar din nyckel i eMarketeer under **Account Settings** → **Integrations** → **API Key**. Du behöver administratörsbehörighet för att generera en nyckel.
@@ -134,6 +134,27 @@ Skicka e-post och SMS till kontakter.
 ### SMS
 
 * `POST /v1/sms/send` — Skicka SMS till en eller flera kontakter.
+
+## Campaigns
+
+Kopiera, byt namn på och flytta kampanjkomponenter, fyll i innehållet i e-post och landningssidor, och skicka e-post till en kontaktlista.
+
+* Bas-URL: `https://connect.emarketeer.com/campaigns-api/v1`
+* Bläddra och testa: [Campaigns-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Campaigns)
+
+### Komponenter
+
+* `POST /components/{componentType}/{componentId}/copy` — Kopiera ett e-postmeddelande, SMS, formulär, legacy-formulär eller en landningssida till samma kampanj.
+* `PATCH /components/{componentType}/{componentId}` — Byt namn på en komponent, flytta den till en annan kampanj, eller båda.
+
+### Innehåll
+
+* `GET /components/{componentType}/{componentId}/content` — Lista innehållsblocken i ett e-postmeddelande eller en landningssida, med deras sökvägar och nuvarande värden.
+* `PATCH /components/{componentType}/{componentId}/content` — Fyll i upp till 50 innehållsblock i ett e-postmeddelande eller en landningssida i ett anrop.
+
+### Skicka
+
+* `POST /components/{componentType}/{componentId}/send` — Skicka ett e-postmeddelande till en kontaktlista, direkt eller vid en schemalagd tidpunkt.
 
 ## Nästa steg
 
