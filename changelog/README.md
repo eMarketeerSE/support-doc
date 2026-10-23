@@ -23,6 +23,16 @@ layout:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-10-23" tags="api,feature" %}
+## New Campaigns API
+
+The new Campaigns API lets your own systems work with campaign components. You can copy, rename and move emails, SMS, forms and landing pages, fill in the content of emails and landing pages, and send an email to a contact list, right away or at a scheduled time.
+
+A typical use is to copy a template email, fill in its content blocks, and send the copy to a contact list. The Campaigns API uses the same API key as the other eMarketeer APIs.
+
+See [API endpoints overview](https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/references/apis-developer/api-endpoints-overview) for the endpoints, and the [Campaigns definition](https://api-doc.emarketeer.com/?urls.primaryName=Campaigns) in the API portal to browse and test the calls.
+{% endupdate %}
+
 {% update date="2026-10-15" tags="fix,improvement" %}
 ## Fixes and improvements since the October 2 release
 
