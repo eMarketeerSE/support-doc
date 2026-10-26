@@ -22,7 +22,7 @@ You need three details:
 
 ## Enable SSO
 
-1. Contact eMarketeer support with the three details. We let you know when SSO is enabled for your account.
+1. [Contact eMarketeer support](../../knowledge-base/account-admin/contact-support.md) with the three details: your Microsoft Entra tenant ID, your email domain, and your eMarketeer tenant ID. We let you know when SSO is enabled for your account.
 2. An administrator in your eMarketeer account signs in to eMarketeer and accepts the prompt to allow the connection.
 
 ## Assign app roles

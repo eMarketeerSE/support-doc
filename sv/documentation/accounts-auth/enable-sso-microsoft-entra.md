@@ -22,7 +22,7 @@ Du behöver tre uppgifter:
 
 ## Aktivera SSO
 
-1. Kontakta eMarketeers support med de tre uppgifterna. Vi meddelar dig när SSO är aktiverat för ditt konto.
+1. [Kontakta eMarketeers support](../../knowledge-base/account-admin/contact-support.md) med de tre uppgifterna: ditt tenant-ID i Microsoft Entra, din e-postdomän och ditt tenant-ID i eMarketeer. Vi meddelar dig när SSO är aktiverat för ditt konto.
 2. En administratör i ditt eMarketeer-konto loggar in i eMarketeer och godkänner frågan om att tillåta kopplingen.
 
 ## Tilldela app-roller
