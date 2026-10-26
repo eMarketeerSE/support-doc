@@ -1,6 +1,6 @@
 ---
 icon: link
-description: Connect Facebook and LinkedIn lead forms to your eMarketeer account.
+description: Connect Facebook and LinkedIn lead forms, and set up single sign-on through Microsoft Entra.
 page-type: overview
 ---
 
@@ -8,6 +8,10 @@ page-type: overview
 
 {% columns %}
 {% column %}
+{% content-ref url="documentation/accounts-auth/enable-sso-microsoft-entra.md" %}
+enable-sso-microsoft-entra.md
+{% endcontent-ref %}
+
 {% content-ref url="documentation/lead-forms/facebook-lead-forms.md" %}
 facebook-lead-forms.md
 {% endcontent-ref %}

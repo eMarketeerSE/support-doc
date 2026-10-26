@@ -242,6 +242,7 @@
   * [AI assistants: data and privacy](documentation/ai-assistants/data-and-privacy.md)
   * [AI assistants: troubleshooting](documentation/ai-assistants/troubleshooting.md)
 * [Other integrations](integrations.md)
+  * [How to enable SSO through Microsoft Entra](documentation/accounts-auth/enable-sso-microsoft-entra.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
 

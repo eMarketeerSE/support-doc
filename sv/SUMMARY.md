@@ -242,6 +242,7 @@
   * [AI-assistenter: data och integritet](documentation/ai-assistants/data-and-privacy.md)
   * [AI-assistenter: felsökning](documentation/ai-assistants/troubleshooting.md)
 * [Övriga integrationer](integrations.md)
+  * [Så aktiverar du SSO via Microsoft Entra](documentation/accounts-auth/enable-sso-microsoft-entra.md)
   * [Facebook Lead Forms](documentation/lead-forms/facebook-lead-forms.md)
   * [LinkedIn Lead Gen Forms](documentation/lead-forms/linkedin-lead-gen-forms.md)
 
