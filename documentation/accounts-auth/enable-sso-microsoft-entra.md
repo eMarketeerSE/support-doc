@@ -12,6 +12,8 @@ The first time a user signs in, eMarketeer creates the user automatically. The a
 
 ## Before you start
 
+SSO through Microsoft Entra is a paid service, with an installation cost and a monthly subscription fee. For details, contact sales@emarketeer.com.
+
 You need three details:
 
 * **Your Microsoft Entra tenant ID.** You find it on the **Overview** page of Microsoft Entra ID.
