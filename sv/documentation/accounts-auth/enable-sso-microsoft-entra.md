@@ -12,7 +12,7 @@ Första gången en användare loggar in skapar eMarketeer användaren automatisk
 
 ## Innan du börjar
 
-SSO via Microsoft Entra är en betaltjänst med en installationskostnad och en månadsavgift. Kontakta sales@emarketeer.com för mer information.
+SSO via Microsoft Entra är en betaltjänst med en installationskostnad och en månadsavgift. Kontakta [sales@emarketeer.com](mailto:sales@emarketeer.com) för mer information.
 
 Du behöver tre uppgifter:
 
