@@ -154,6 +154,7 @@
       * [Konfigurera DMARC](knowledge-base/email-deliverability/dmarc-setup.md)
       * [Whitelista e-postservrar](documentation/email-sms/whitelisting-email-servers.md)
       * [Om studsar och klagomål i e-post](knowledge-base/email-deliverability/about-email-bounces.md)
+      * [Så minskar du studsfrekvensen för e-post](knowledge-base/email-deliverability/how-to-reduce-email-bounce-rate.md)
       * [Feedback loop för e-post](knowledge-base/email-deliverability/feedback-loop.md)
     * [Automatisk pausning av utskick](documentation/email-sms/automatic-send-pause.md)
     * [Exkludera inaktiva mottagare](documentation/email-sms/exclude-inactive-recipients.md)

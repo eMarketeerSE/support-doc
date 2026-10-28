@@ -38,6 +38,10 @@ whitelisting-email-servers.md
 about-email-bounces.md
 {% endcontent-ref %}
 
+{% content-ref url="../knowledge-base/email-deliverability/how-to-reduce-email-bounce-rate.md" %}
+how-to-reduce-email-bounce-rate.md
+{% endcontent-ref %}
+
 {% content-ref url="../knowledge-base/email-deliverability/feedback-loop.md" %}
 feedback-loop.md
 {% endcontent-ref %}

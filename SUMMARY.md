@@ -154,6 +154,7 @@
       * [DMARC setup](knowledge-base/email-deliverability/dmarc-setup.md)
       * [Whitelisting Email Servers](documentation/email-sms/whitelisting-email-servers.md)
       * [About email bounces and complaints](knowledge-base/email-deliverability/about-email-bounces.md)
+      * [How to reduce your email bounce rate](knowledge-base/email-deliverability/how-to-reduce-email-bounce-rate.md)
       * [Email feedback loop](knowledge-base/email-deliverability/feedback-loop.md)
     * [Automatic send pause](documentation/email-sms/automatic-send-pause.md)
     * [Exclude inactive recipients](documentation/email-sms/exclude-inactive-recipients.md)
