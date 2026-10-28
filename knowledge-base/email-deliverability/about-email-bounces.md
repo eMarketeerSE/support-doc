@@ -49,7 +49,6 @@ eMarketeer runs the send-out for you and applies email security measures such as
 * **Work with your contact list continuously.** Watch your contacts' engagement. If a contact has bounced or has not opened your last few sends, consider a re-engagement campaign to identify who still wants to hear from you.
 * **Be relevant.** Engaged contacts are the foundation of a good sender reputation. Send content that contacts want to read so you get more opens and clicks and fewer bounces and complaints. ISPs notice the difference and reward it.
 
-If you want to learn more, this blog post covers [5 ways to reduce email bounce rate](https://www.emarketeer.com/blog/reduce-email-bounce-rate/).
 
 ### What is a complaint?
 

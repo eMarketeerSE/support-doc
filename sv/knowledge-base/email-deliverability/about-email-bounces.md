@@ -49,7 +49,6 @@ eMarketeer kör utskicket åt dig och tillämpar säkerhetsåtgärder för e-pos
 * **Arbeta med din kontaktlista löpande.** Håll koll på dina kontakters engagemang. Om en kontakt har studsat eller inte öppnat dina senaste utskick kan du överväga en återengageringskampanj för att se vilka som fortfarande vill höra från dig.
 * **Var relevant.** Engagerade kontakter är grunden för ett bra avsändarrykte. Skicka innehåll som kontakter vill läsa så får du fler öppningar och klick och färre studsar och klagomål. ISP:er märker skillnaden och belönar den.
 
-Om du vill lära dig mer tar det här blogginlägget upp [5 sätt att minska studsfrekvensen för e-post](https://www.emarketeer.com/blog/reduce-email-bounce-rate/).
 
 ### Vad är ett klagomål?
 
