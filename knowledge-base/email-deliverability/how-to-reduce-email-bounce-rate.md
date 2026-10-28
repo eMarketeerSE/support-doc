@@ -73,3 +73,4 @@ Make a habit of checking bounces after each send-out, while the cause is still e
 3. Look for patterns: many bounces on one domain, a company domain that no longer exists, or misspelled domains such as `gmial.com`. Correct the addresses you know are wrong.
 
 To follow the trend over time, use the Domains table in the [Email Health Dashboard](emailhealthdashboard.md). To remove undeliverable contacts, see [How to clean up your contacts](../contacts-lists/clean-up-contacts.md).
+
