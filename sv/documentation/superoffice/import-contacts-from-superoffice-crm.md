@@ -28,15 +28,18 @@ Varje kontakt i eMarketeer med den e-postadressen uppdateras, och Contact ID i S
 
 ## Importerade fält
 
-Importen fyller i följande standardfält på kontakten i eMarketeer:
+Importen fyller i följande fält på kontakten i eMarketeer:
 
-* Förnamn
-* Efternamn
-* E-post
-* Telefon
-* Mobil
-* Titel
-* Contact ID (sparas som External ID)
+| eMarketeer | SuperOffice |
+| --- | --- |
+| Förnamn | First name |
+| Efternamn | Last name |
+| E-post | E-mail |
+| Telefon | Phone - Direct |
+| Mobil | Phone - Mobile |
+| Titel | Title |
+| Företag | Company (från företagskortet) |
+| External ID | Contact ID |
 
 Det finns ingen mappning för anpassade fält. En översikt över hur kontakter flyttas mellan eMarketeer och SuperOffice finns i [SuperOffice-integrationen – funktioner och flöden](integration-features-and-flows.md#import-och-export-av-kontakter).
 

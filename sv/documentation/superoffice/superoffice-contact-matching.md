@@ -37,7 +37,7 @@ En kontakt utan External ID matchas på e-postadress. När en matchning hittas s
 
 ### SuperOffice-automatiseringar
 
-[SuperOffice-automatiseringar](../../knowledge-base/integrations/superoffice-automations-pro.md) i en kampanj behöver External ID. Utan det pausas automatiseringen och kontakten läggs i Manage Automations Queue tills kontakten har matchats eller delats till SuperOffice. Om External ID inte matchar någon kontakt i SuperOffice misslyckas automatiseringen. Se [Varför misslyckades SuperOffice-automatiseringen?](../../knowledge-base/integrations/integration-queue-failed-automations.md).
+[SuperOffice-automatiseringar](../../knowledge-base/integrations/superoffice-automations-pro.md) i en kampanj behöver External ID. Utan det pausas automatiseringen och kontakten läggs i Automation Queue tills kontakten har matchats eller delats till SuperOffice. Om External ID inte matchar någon kontakt i SuperOffice misslyckas automatiseringen. Se [Varför misslyckades SuperOffice-automatiseringen?](../../knowledge-base/integrations/integration-queue-failed-automations.md).
 
 ### Journey-steg
 

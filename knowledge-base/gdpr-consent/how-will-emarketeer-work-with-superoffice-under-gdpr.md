@@ -15,7 +15,7 @@ eMarketeer can run as a stand-alone product, so it keeps its own consent system.
 
 The integration covers these scenarios:
 
-* New contacts added through the lead report have their consent and subscriptions set in SuperOffice based on eMarketeer settings.
+* New contacts created in SuperOffice from the Automation Queue have their consent and subscriptions set in SuperOffice based on eMarketeer settings.
 * Imports from SuperOffice to eMarketeer carry consent and subscription values across.
 * When consent or subscription preferences change in either system, the other system is updated.
 

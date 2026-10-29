@@ -28,15 +28,18 @@ Every eMarketeer contact with that email address is updated, and the SuperOffice
 
 ## Imported fields
 
-The import fills these standard fields on the eMarketeer contact:
+The import fills these fields on the eMarketeer contact:
 
-* First name
-* Last name
-* Email
-* Telephone
-* Mobile
-* Title
-* Contact ID (saved as the External ID)
+| eMarketeer | SuperOffice |
+| --- | --- |
+| First name | First name |
+| Last name | Last name |
+| Email | E-mail |
+| Telephone | Phone - Direct |
+| Mobile | Phone - Mobile |
+| Title | Title |
+| Company | Company (from the company card) |
+| External ID | Contact ID |
 
 There is no custom field mapping. For an overview of how contacts move between eMarketeer and SuperOffice, see [The SuperOffice Integration - features and flows](integration-features-and-flows.md#import-and-export-of-contacts).
 

@@ -14,7 +14,7 @@ eMarketeer kan köras som en fristående produkt, så systemet har sitt eget sam
 
 Integrationen täcker dessa scenarier:
 
-- Nya kontakter som läggs till via lead-rapporten får sina samtycken och prenumerationer satta i SuperOffice baserat på inställningar i eMarketeer.
+- Nya kontakter som skapas i SuperOffice från Automation Queue får sina samtycken och prenumerationer satta i SuperOffice baserat på inställningar i eMarketeer.
 - Importer från SuperOffice till eMarketeer för med sig samtyckes- och prenumerationsvärden.
 - När samtycke eller prenumerationsinställningar ändras i ett av systemen uppdateras det andra systemet.
 
