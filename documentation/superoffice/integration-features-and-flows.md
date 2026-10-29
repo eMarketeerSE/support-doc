@@ -38,29 +38,23 @@ eMarketeer connects to SuperOffice CRM using the standard NetServer services. eM
 
 eMarketeer and SuperOffice CRM have separate databases, and they stay separate even with the integration in place. There is no background synchronization of contacts. Contacts are linked through the External ID, see [How contacts are matched between eMarketeer and SuperOffice](superoffice-contact-matching.md). Contacts are only created by the integration in specific scenarios:
 
-* SuperOffice CRM: eMarketeer creates new contacts (and companies) in SuperOffice CRM only when a SuperOffice user approves it on the eMarketeer Lead Report web panel. Sales or a controller typically monitors this report for new leads. Because eMarketeer generates leads from the web, this screening step makes sure only valid leads reach SuperOffice CRM.
-* eMarketeer: New contacts are created in eMarketeer only when you run the import feature. This is commonly done when sending an email to a SuperOffice selection or project.
+* **In SuperOffice CRM:** eMarketeer creates new contacts (and companies) in two ways:
+  * **Lead Report:** a SuperOffice user approves the new contact on the eMarketeer Lead Report web panel. Sales or a controller typically monitors this report for new leads. Because eMarketeer generates leads from the web, this screening step makes sure only valid leads reach SuperOffice CRM.
+  * **Journeys:** the SuperOffice Journey steps can create missing contacts and companies automatically, if you allow it in the step settings. See [Creating missing contacts in SuperOffice](superoffice-contact-matching.md#creating-missing-contacts-in-superoffice).
+* **In eMarketeer:** new contacts are created when you [import contacts from SuperOffice CRM](import-contacts-from-superoffice-crm.md). This is commonly done when sending an email to a SuperOffice selection or project.
 
-### Mapped contact fields
+### Fields
 
-The following contact fields are transferred when importing contacts into either system:
+Contacts are transferred with a fixed set of standard fields, listed in [Import contacts from SuperOffice CRM](import-contacts-from-superoffice-crm.md#imported-fields). The same fields are filled when eMarketeer creates contacts in SuperOffice.
 
-* First name
-* Last name
-* Email
-* Telephone
-* Mobile
-* Title
-* Contact ID (saved as the External ID in eMarketeer)
-
-In SuperOffice, companies can also be created if you opt in. These fields are filled on the company card:
+When eMarketeer creates companies in SuperOffice, these fields are filled on the company card:
 
 * Company name
 * Country
 * Category
 * Industry
 
-There is no custom field mapping; the standard fields above are used. Beyond these, automations can add or remove interests from contacts.
+There is no custom field mapping. Beyond the standard fields, automations can add or remove interests from contacts.
 
 ## Automations
 

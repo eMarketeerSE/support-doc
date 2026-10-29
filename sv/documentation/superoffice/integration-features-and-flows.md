@@ -36,29 +36,23 @@ eMarketeer kopplas mot SuperOffice CRM via de vanliga NetServer-tjänsterna. eMa
 
 eMarketeer och SuperOffice CRM har separata databaser, och de förblir separata även med integrationen på plats. Det finns ingen bakgrundssynkronisering av kontakter. Kontakter kopplas via External ID, se [Så matchas kontakter mellan eMarketeer och SuperOffice](superoffice-contact-matching.md). Kontakter skapas endast av integrationen i specifika scenarier:
 
-* SuperOffice CRM: eMarketeer skapar nya kontakter (och företag) i SuperOffice CRM endast när en SuperOffice-användare godkänner det i webbpanelen Lead Report i eMarketeer. Sälj eller en controller bevakar normalt denna rapport för nya leads. Eftersom eMarketeer genererar leads från webben säkerställer detta screeningssteg att endast giltiga leads når SuperOffice CRM.
-* eMarketeer: Nya kontakter skapas i eMarketeer endast när du kör importfunktionen. Detta görs vanligen vid utskick till en SuperOffice-Selection eller ett projekt.
+* **I SuperOffice CRM:** eMarketeer skapar nya kontakter (och företag) på två sätt:
+  * **Lead Report:** en SuperOffice-användare godkänner den nya kontakten i webbpanelen Lead Report i eMarketeer. Sälj eller en controller bevakar normalt denna rapport för nya leads. Eftersom eMarketeer genererar leads från webben säkerställer detta screeningssteg att endast giltiga leads når SuperOffice CRM.
+  * **Journeys:** SuperOffice-stegen i en Journey kan skapa saknade kontakter och företag automatiskt, om du tillåter det i stegets inställningar. Se [Skapa saknade kontakter i SuperOffice](superoffice-contact-matching.md#skapa-saknade-kontakter-i-superoffice).
+* **I eMarketeer:** nya kontakter skapas när du [importerar kontakter från SuperOffice CRM](import-contacts-from-superoffice-crm.md). Detta görs vanligen vid utskick till en SuperOffice-Selection eller ett projekt.
 
-### Mappade kontaktfält
+### Fält
 
-Följande kontaktfält överförs vid import av kontakter till båda systemen:
+Kontakter överförs med en fast uppsättning standardfält, som listas i [Importera kontakter från SuperOffice CRM](import-contacts-from-superoffice-crm.md#importerade-fält). Samma fält fylls i när eMarketeer skapar kontakter i SuperOffice.
 
-* Förnamn
-* Efternamn
-* E-post
-* Telefon
-* Mobil
-* Titel
-* Contact ID (sparas som External ID i eMarketeer)
-
-I SuperOffice kan även företag skapas om du väljer det. Följande fält fylls i på företagskortet:
+När eMarketeer skapar företag i SuperOffice fylls följande fält i på företagskortet:
 
 * Företagsnamn
 * Land
 * Kategori
 * Bransch
 
-Det finns ingen mappning för anpassade fält; standardfälten ovan används. Utöver dessa kan automationer lägga till eller ta bort intressen från kontakter.
+Det finns ingen mappning för anpassade fält. Utöver standardfälten kan automationer lägga till eller ta bort intressen från kontakter.
 
 ## Automationer
 

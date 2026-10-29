@@ -25,3 +25,19 @@ När du importerar kontakter från SuperOffice CRM till eMarketeer kan du hoppa 
 Importerade kontakter identifieras i eMarketeer via sin primära e-postadress, inte via Contact ID i SuperOffice. Om e-postadressen inte redan finns i eMarketeer skapas ett nytt kontaktkort med den e-postadressen som identifierare.
 
 Varje kontakt i eMarketeer med den e-postadressen uppdateras, och Contact ID i SuperOffice sparas som kontaktens External ID. Se [Så matchas kontakter mellan eMarketeer och SuperOffice](superoffice-contact-matching.md).
+
+## Importerade fält
+
+Importen fyller i följande standardfält på kontakten i eMarketeer:
+
+* Förnamn
+* Efternamn
+* E-post
+* Telefon
+* Mobil
+* Titel
+* Contact ID (sparas som External ID)
+
+Det finns ingen mappning för anpassade fält.
+
+En översikt över hur kontakter flyttas mellan eMarketeer och SuperOffice finns i [SuperOffice-integrationen – funktioner och flöden](integration-features-and-flows.md#import-och-export-av-kontakter).

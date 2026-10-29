@@ -24,3 +24,19 @@ When you import SuperOffice CRM contacts into eMarketeer, you can skip or includ
 Imported contacts are identified in eMarketeer by their primary email address, not by the SuperOffice Contact ID. If the email is not already in eMarketeer, a new contact card is created using that email as the identifier.
 
 Every eMarketeer contact with that email address is updated, and the SuperOffice Contact ID is saved as the contact's External ID. See [How contacts are matched between eMarketeer and SuperOffice](superoffice-contact-matching.md).
+
+## Imported fields
+
+The import fills these standard fields on the eMarketeer contact:
+
+* First name
+* Last name
+* Email
+* Telephone
+* Mobile
+* Title
+* Contact ID (saved as the External ID)
+
+There is no custom field mapping.
+
+For an overview of how contacts move between eMarketeer and SuperOffice, see [The SuperOffice Integration - features and flows](integration-features-and-flows.md#import-and-export-of-contacts).
