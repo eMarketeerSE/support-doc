@@ -1,8 +1,8 @@
 ---
 description: >-
   När du importerar kontakter från en Selection eller ett projekt i SuperOffice
-  CRM kan du inkludera eller utesluta kontakter som saknar samtycke till
-  e-marknadsföring.
+  CRM kan du utesluta kontakter utan samtycke till e-marknadsföring. Tar även
+  upp importerade fält och postadress.
 ---
 
 # Importera kontakter från SuperOffice CRM
@@ -38,6 +38,10 @@ Importen fyller i följande standardfält på kontakten i eMarketeer:
 * Titel
 * Contact ID (sparas som External ID)
 
-Det finns ingen mappning för anpassade fält.
+Det finns ingen mappning för anpassade fält. En översikt över hur kontakter flyttas mellan eMarketeer och SuperOffice finns i [SuperOffice-integrationen – funktioner och flöden](integration-features-and-flows.md#import-och-export-av-kontakter).
 
-En översikt över hur kontakter flyttas mellan eMarketeer och SuperOffice finns i [SuperOffice-integrationen – funktioner och flöden](integration-features-and-flows.md#import-och-export-av-kontakter).
+### Postadress
+
+Som standard importerar eMarketeer postadressen för kontaktens företag.
+
+Om **Use as postal address** är markerat för kontakten i SuperOffice importerar eMarketeer i stället kontaktens egen postadress. Det är samma inställning som SuperOffice använder för att avgöra vilken adress som ska användas vid utskick.

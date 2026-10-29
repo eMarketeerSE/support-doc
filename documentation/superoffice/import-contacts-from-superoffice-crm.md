@@ -1,7 +1,8 @@
 ---
 description: >-
   When you import contacts from a SuperOffice CRM selection or project, you can
-  include or exclude contacts that lack consent for e-marketing.
+  include or exclude contacts that lack consent for e-marketing. Also covers the
+  imported fields and postal address.
 ---
 
 # Import contacts from SuperOffice CRM
@@ -37,6 +38,10 @@ The import fills these standard fields on the eMarketeer contact:
 * Title
 * Contact ID (saved as the External ID)
 
-There is no custom field mapping.
+There is no custom field mapping. For an overview of how contacts move between eMarketeer and SuperOffice, see [The SuperOffice Integration - features and flows](integration-features-and-flows.md#import-and-export-of-contacts).
 
-For an overview of how contacts move between eMarketeer and SuperOffice, see [The SuperOffice Integration - features and flows](integration-features-and-flows.md#import-and-export-of-contacts).
+### Postal address
+
+By default, eMarketeer imports the postal address of the contact's company.
+
+If **Use as postal address** is selected for the contact in SuperOffice, eMarketeer imports the contact's own postal address instead. This is the same setting SuperOffice uses to decide which address to use for mailings.
