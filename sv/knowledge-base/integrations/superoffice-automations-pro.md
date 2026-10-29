@@ -20,9 +20,9 @@ Automatiseringen körs varje gång en kontakt utlöser den kampanjhändelse den 
 
 ## Hur omatchade kontakter hanteras
 
-Varje automatisering kräver att kontakten har ett [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id) som kopplar den till en SuperOffice-kontakt. Om inget externt ID finns kan eMarketeer inte utföra åtgärden. Automatiseringen pausas och kontakten läggs till i Manage Automations Queue.
+Varje automatisering kräver att kontakten har ett [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id) som kopplar den till en SuperOffice-kontakt. Om inget externt ID finns kan eMarketeer inte utföra åtgärden. Automatiseringen pausas och kontakten läggs till i Automation Queue.
 
-Öppna kön genom att klicka på SuperOffice-logotypen i det övre vänstra hörnet i SuperOffice och sedan gå till fliken **Manage Automations Queue**. Därifrån kan en säljare matcha kontakten mot en befintlig SuperOffice-kontakt. Automatiseringen återupptas när matchningen är gjord.
+Öppna kön genom att klicka på SuperOffice-logotypen i det övre vänstra hörnet i SuperOffice och sedan gå till fliken **Automation Queue**. Därifrån kan en säljare matcha kontakten mot en befintlig SuperOffice-kontakt, eller skapa den i SuperOffice. Automatiseringen återupptas när matchningen är gjord.
 
 {% hint style="info" %}
 SuperOffice-automatiseringar är inte samma sak som SuperOffice Journey-steg. Journey-steg använder annan matchningslogik. Den här artikeln handlar bara om automatiseringar på kampanjnivå.
@@ -30,7 +30,7 @@ SuperOffice-automatiseringar är inte samma sak som SuperOffice Journey-steg. Jo
 
 ## Typer av automatiseringar
 
-För alla typer: om kontakten saknar externt ID pausas automatiseringen och kontakten läggs till i Manage Automations Queue (se ovan).
+För alla typer: om kontakten saknar externt ID pausas automatiseringen och kontakten läggs till i Automation Queue (se ovan).
 
 ### Create new sale
 

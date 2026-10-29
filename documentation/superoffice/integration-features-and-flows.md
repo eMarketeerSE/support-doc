@@ -25,7 +25,7 @@ From a marketing perspective, the integration is most often used to:
 From a sales perspective, the integration allows SuperOffice CRM users to:
 
 * See information sent from eMarketeer about the contacts. The automations described above can create a sale, activity, or task in the CRM.
-* Use the Lead Report (a web panel) which lists all new leads in SuperOffice CRM.
+* Use the Automation Queue (a web panel) to screen new contacts from eMarketeer, and match them to existing contacts or create them in SuperOffice CRM.
 * Get a full history of contact interactions with online content through eMarketeer's Timeline Report.
 
 ## Integration interface
@@ -39,7 +39,7 @@ eMarketeer connects to SuperOffice CRM using the standard NetServer services. eM
 eMarketeer and SuperOffice CRM have separate databases, and they stay separate even with the integration in place. There is no background synchronization of contacts. Contacts are linked through the External ID, see [How contacts are matched between eMarketeer and SuperOffice](superoffice-contact-matching.md). Contacts are only created by the integration in specific scenarios:
 
 * **In SuperOffice CRM:** eMarketeer creates new contacts (and companies) in two ways:
-  * **Lead Report:** a SuperOffice user approves the new contact on the eMarketeer Lead Report web panel. Sales or a controller typically monitors this report for new leads. Because eMarketeer generates leads from the web, this screening step makes sure only valid leads reach SuperOffice CRM.
+  * **Automation Queue:** when an automation needs a contact that isn't in SuperOffice yet, the contact waits in the eMarketeer Automation Queue web panel. A SuperOffice user screens it there, and matches it to an existing contact or creates it. Because eMarketeer generates contacts from the web, this manual step makes sure only valid contacts reach SuperOffice CRM. See [How unmatched contacts are handled](../../knowledge-base/integrations/superoffice-automations-pro.md#how-unmatched-contacts-are-handled).
   * **Journeys:** the SuperOffice Journey steps can create missing contacts and companies automatically, if you allow it in the step settings. See [Creating missing contacts in SuperOffice](superoffice-contact-matching.md#creating-missing-contacts-in-superoffice).
 * **In eMarketeer:** new contacts are created when you [import contacts from SuperOffice CRM](import-contacts-from-superoffice-crm.md). This is commonly done when sending an email to a SuperOffice selection or project.
 
@@ -76,7 +76,7 @@ These activities have been added to SuperOffice by automations from eMarketeer.
 
 Web panels show more information or extend eMarketeer features into SuperOffice CRM. They can be shown or hidden based on the SuperOffice user's group. The following web panels are used in SuperOffice to interact with eMarketeer.
 
-* The Lead Report. The hub for incoming new leads. For example, if an automation is set up to create a new sale, it can only be processed if the contact already exists in SuperOffice. If the contact does not exist yet, it is treated as a new lead and listed on the Lead Report. Sales uses this report to bring new data into SuperOffice.
+* The Automation Queue. Lists contacts whose automations are waiting for a match in SuperOffice. For example, an automation that creates a sale can only run when the contact exists in SuperOffice. Until then, the contact waits in the Automation Queue, where sales matches it to an existing contact or creates it.
 * The Timeline Report. A web panel on the contact card in SuperOffice CRM. It shows every interaction the contact had with eMarketeer marketing content, including emails, forms, SMS, and landing pages.
 * Event details. When eMarketeer creates a sale or an activity, this panel shows the event that triggered it.
 
@@ -84,7 +84,7 @@ Web panels show more information or extend eMarketeer features into SuperOffice 
 
 Learn more about your contacts and how they engaged with your marketing content.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-31.png" alt="Lead Report listing contacts not yet in SuperOffice"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/image-31.png" alt="An earlier version of the Automation Queue, listing contacts not yet in SuperOffice"></div>
 
 This is where all contacts that are not yet in SuperOffice are listed.
 

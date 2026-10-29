@@ -37,7 +37,7 @@ A contact without an External ID is matched on email address. When a match is fo
 
 ### SuperOffice automations
 
-[SuperOffice automations](../../knowledge-base/integrations/superoffice-automations-pro.md) in a campaign need the External ID. Without it, the automation is paused and the contact is added to the Manage Automations Queue until the contact is matched or shared to SuperOffice. If the External ID doesn't match any contact in SuperOffice, the automation fails. See [Why did the SuperOffice automation fail?](../../knowledge-base/integrations/integration-queue-failed-automations.md).
+[SuperOffice automations](../../knowledge-base/integrations/superoffice-automations-pro.md) in a campaign need the External ID. Without it, the automation is paused and the contact is added to the Automation Queue until the contact is matched or shared to SuperOffice. If the External ID doesn't match any contact in SuperOffice, the automation fails. See [Why did the SuperOffice automation fail?](../../knowledge-base/integrations/integration-queue-failed-automations.md).
 
 ### Journey steps
 

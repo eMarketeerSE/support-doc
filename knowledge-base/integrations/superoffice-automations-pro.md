@@ -20,9 +20,9 @@ The automation runs each time a contact triggers the campaign event it is attach
 
 ## How unmatched contacts are handled
 
-Each automation requires the contact to have an [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id) that links it to a SuperOffice contact. If no external ID exists, eMarketeer cannot deliver the action. The automation is paused and the contact is added to the Manage Automations Queue.
+Each automation requires the contact to have an [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id) that links it to a SuperOffice contact. If no external ID exists, eMarketeer cannot deliver the action. The automation is paused and the contact is added to the Automation Queue.
 
-To access the queue, click the SuperOffice logo in the top left corner of SuperOffice, then go to the **Manage Automations Queue** tab. From there, a sales rep can match the contact to an existing SuperOffice contact. The automation resumes once the match is made.
+To access the queue, click the SuperOffice logo in the top left corner of SuperOffice, then go to the **Automation Queue** tab. From there, a sales rep can match the contact to an existing SuperOffice contact, or create it in SuperOffice. The automation resumes once the match is made.
 
 {% hint style="info" %}
 SuperOffice automations are not the same as SuperOffice Journey steps. Journey steps use a different matching logic. This article covers campaign-level automations only.
@@ -30,7 +30,7 @@ SuperOffice automations are not the same as SuperOffice Journey steps. Journey s
 
 ## Automation types
 
-For all types: if the contact has no external ID, the automation is paused and the contact is added to the Manage Automations Queue (see above).
+For all types: if the contact has no external ID, the automation is paused and the contact is added to the Automation Queue (see above).
 
 ### Create new sale
 
