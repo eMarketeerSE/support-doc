@@ -157,6 +157,7 @@
       * [How to reduce your email bounce rate](knowledge-base/email-deliverability/how-to-reduce-email-bounce-rate.md)
       * [Email feedback loop](knowledge-base/email-deliverability/feedback-loop.md)
     * [Automatic send pause](documentation/email-sms/automatic-send-pause.md)
+    * [Email send options](documentation/email-sms/email-send-options.md)
     * [Exclude inactive recipients](documentation/email-sms/exclude-inactive-recipients.md)
     * [Transactional sendouts](documentation/email-sms/transactional-sendouts.md)
     * [Read on web](documentation/email-sms/read-on-web.md)

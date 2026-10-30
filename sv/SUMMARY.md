@@ -157,6 +157,7 @@
       * [Så minskar du studsfrekvensen för e-post](knowledge-base/email-deliverability/how-to-reduce-email-bounce-rate.md)
       * [Feedback loop för e-post](knowledge-base/email-deliverability/feedback-loop.md)
     * [Automatisk pausning av utskick](documentation/email-sms/automatic-send-pause.md)
+    * [Utskicksalternativ för e-post](documentation/email-sms/email-send-options.md)
     * [Exkludera inaktiva mottagare](documentation/email-sms/exclude-inactive-recipients.md)
     * [Transaktionella utskick](documentation/email-sms/transactional-sendouts.md)
     * [Read on web](documentation/email-sms/read-on-web.md)

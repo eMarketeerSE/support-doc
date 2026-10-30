@@ -85,9 +85,9 @@ Listan visas nu som tillagd i utskicket. Vill du skicka till fler listor väljer
 {% endstep %}
 
 {% step %}
-### Fortsätt till checklistan
+### Granska Send Options
 
-Nästa sida, **2. Send Options**, visar den valda mottagarlistan och erbjuder alternativ för mer komplexa utskick. För ett enkelt utskick kan du hoppa över detaljerna här.
+Nästa sida, **2. Send Options**, visar den valda mottagarlistan och erbjuder alternativ för mer komplexa utskick. För ett enkelt utskick kan du hoppa över detaljerna här. Läs mer om vad varje alternativ gör i [Utskicksalternativ för e-post](../../documentation/email-sms/email-send-options.md).
 
 Klicka på **Next** för att fortsätta.
 

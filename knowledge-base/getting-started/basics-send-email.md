@@ -85,9 +85,9 @@ The list now shows as added to the send-out. To send to more lists, choose anoth
 {% endstep %}
 
 {% step %}
-### Continue to the checklist
+### Review Send Options
 
-The next page, **2. Send Options**, shows the chosen list of recipients and offers options for more complex send-outs. For a simple send, you can skip the details here.
+The next page, **2. Send Options**, shows the chosen list of recipients and offers options for more complex send-outs. For a simple send, you can skip the details here. To learn what each option does, see [Email send options](../../documentation/email-sms/email-send-options.md).
 
 Click **Next** to proceed.
 

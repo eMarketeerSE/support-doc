@@ -15,6 +15,10 @@ deliverability.md
 automatic-send-pause.md
 {% endcontent-ref %}
 
+{% content-ref url="../documentation/email-sms/email-send-options.md" %}
+email-send-options.md
+{% endcontent-ref %}
+
 {% content-ref url="../documentation/email-sms/exclude-inactive-recipients.md" %}
 exclude-inactive-recipients.md
 {% endcontent-ref %}

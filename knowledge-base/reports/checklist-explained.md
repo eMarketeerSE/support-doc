@@ -30,7 +30,7 @@ The number of contacts who have revoked their consent to receive sendouts from y
 The number of contacts whose email addresses have previously reported they cannot receive email. [This article](../email-deliverability/bounce-handling.md) explains how eMarketeer handles bounces.
 
 **Deliverable but Unengaged**\
-The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in Step 2 of the email sendout, via the Exclude Inactive Recipients setting. [This article](../../documentation/email-sms/exclude-inactive-recipients.md) explains Exclude Inactive Recipients.
+The number of contacts that can receive email but have not read your messages or had any registered activity for a long period. You choose whether to send to these contacts in [Step 2 of the email sendout](../../documentation/email-sms/email-send-options.md), via the Exclude Inactive Recipients setting. [This article](../../documentation/email-sms/exclude-inactive-recipients.md) explains Exclude Inactive Recipients.
 
 **Emails with Blocked Domains**\
 If your account blocks specific domains for sendouts, any contacts on those domains in your recipient lists are counted here.

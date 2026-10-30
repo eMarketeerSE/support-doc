@@ -26,7 +26,7 @@ Avregistrerade Antalet avsedda mottagare som har avregistrerat sig från prenume
 
 Ej levererbara e-postadresser Antalet kontakter vars e-postadresser tidigare har rapporterat att de inte kan ta emot e-post. [Den här artikeln](../email-deliverability/bounce-handling.md) förklarar hur eMarketeer hanterar studsar.
 
-Levererbara men inaktiva Antalet kontakter som kan ta emot e-post men som inte har läst dina meddelanden eller haft någon registrerad aktivitet under en längre period. Du väljer om du vill skicka till dessa kontakter i Steg 2 av e-postutskicket, via inställningen Exclude Inactive Recipients. [Den här artikeln](../../documentation/email-sms/exclude-inactive-recipients.md) förklarar Exclude Inactive Recipients.
+Levererbara men inaktiva Antalet kontakter som kan ta emot e-post men som inte har läst dina meddelanden eller haft någon registrerad aktivitet under en längre period. Du väljer om du vill skicka till dessa kontakter i [Steg 2 av e-postutskicket](../../documentation/email-sms/email-send-options.md), via inställningen Exclude Inactive Recipients. [Den här artikeln](../../documentation/email-sms/exclude-inactive-recipients.md) förklarar Exclude Inactive Recipients.
 
 E-post med blockerade domäner Om ditt konto blockerar specifika domäner för utskick räknas alla kontakter på dessa domäner i dina mottagarlistor här.
 

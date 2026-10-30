@@ -21,7 +21,7 @@ Sending marketing emails without consent is illegal. Use this setting only if th
 
 ## Sending an email manually from a campaign
 
-You see this setting in the **Consent** panel on step 2, **Send Options**, when you address your email. Choose **Transactional**.
+You see this setting in the **Consent** panel on step 2, [**Send Options**](email-send-options.md), when you address your email. Choose **Transactional**.
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/transactional-sendouts-send-consent-settings.png" alt="Consent panel with the Marketing sendout and Transactional options"></div>
 

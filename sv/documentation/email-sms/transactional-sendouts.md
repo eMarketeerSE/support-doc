@@ -21,7 +21,7 @@ Att skicka marknadsföringsmeddelanden utan samtycke är olagligt. Använd endas
 
 ## Skicka ett meddelande manuellt från en kampanj
 
-Du hittar inställningen i panelen **Consent** i steg 2, **Send Options**, när du adresserar ditt meddelande. Välj **Transactional**.
+Du hittar inställningen i panelen **Consent** i steg 2, [**Send Options**](email-send-options.md), när du adresserar ditt meddelande. Välj **Transactional**.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/transactional-sendouts-send-consent-settings.png" alt="Panelen Consent med alternativen Marketing sendout och Transactional"></div>
 
