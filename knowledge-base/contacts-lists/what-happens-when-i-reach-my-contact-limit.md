@@ -16,6 +16,8 @@ To avoid pausing the account, we send warnings as you get close to the limit. Th
 
 ### How to create new contacts again
 
-Bring the account back under the limit by removing contacts or upgrading the plan. Contact us through the chat in eMarketeer or [by email](mailto:customerservice@emarketeer.com) if you want to upgrade.
+Bring the account back under the limit by removing contacts or upgrading the plan. To find contacts you can remove, see [How to clean up your contacts](clean-up-contacts.md). Contact us through the chat in eMarketeer or [by email](mailto:customerservice@emarketeer.com) if you want to upgrade.
 
-Once you're under the limit again, forms and file imports start working within minutes.
+{% hint style="info" %}
+When the account is back under the limit, it takes a few minutes before the change is registered and forms and file imports work again. For forms embedded on your own website, the website's cache can delay this further.
+{% endhint %}

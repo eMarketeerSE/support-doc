@@ -16,6 +16,8 @@ För att undvika att kontot pausas skickar vi varningar när du närmar dig grä
 
 ### Så skapar du nya kontakter igen
 
-Få kontot tillbaka under gränsen genom att ta bort kontakter eller uppgradera planen. Kontakta oss via chatten i eMarketeer eller [via e-post](mailto:customerservice@emarketeer.com) om du vill uppgradera.
+Få kontot tillbaka under gränsen genom att ta bort kontakter eller uppgradera planen. Läs om hur du hittar kontakter att ta bort i [Så här rensar du dina kontakter](clean-up-contacts.md). Kontakta oss via chatten i eMarketeer eller [via e-post](mailto:customerservice@emarketeer.com) om du vill uppgradera.
 
-När du är under gränsen igen börjar formulär och filimporter fungera inom några minuter.
+{% hint style="info" %}
+När kontot är under gränsen igen tar det några minuter innan ändringen registreras och formulär och filimporter fungerar igen. För formulär som är inbäddade på din egen webbplats kan webbplatsens cache fördröja detta ytterligare.
+{% endhint %}
