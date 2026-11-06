@@ -29,6 +29,17 @@ Om kontakten finns men inte fick ditt e-postmeddelande, se [Identifiera varför 
 
 <details>
 
+<summary>Vad händer med rapporterna när jag tar bort en kontakt?</summary>
+
+När du tar bort en kontakt permanent ändras inte räknarna i dina rapporter, till exempel skickade e-postmeddelanden eller inskickade formulärsvar. Inte heller nyckeltal som öppningsfrekvens eller klickfrekvens ändras. Men kontakten tas bort överallt där den tidigare refererades.
+
+* **E-post:** om en kontakt har öppnat ett mejl och du senare tar bort kontakten, minskar inte räknaren **Opened**. Du kan fortfarande klicka på siffran, men kontakten visas inte längre i listan över kontakter som har öppnat mejlet.
+* **Formulär:** kontaktens formulärengagemang tas bort, men de inskickade svaren finns kvar. Det betyder att uppgifterna som en borttagen kontakt skickade in fortfarande finns i formulärrapporten. Du ser inte längre vem som skickade in dem, om inte svaren själva innehåller respondentens kontaktuppgifter.
+
+</details>
+
+<details>
+
 <summary>Kan jag hitta kontakter med en ogiltig e-postadress?</summary>
 
 Nej. Det finns inget filter för kontakter med en [ogiltig e-postadress](glossary.md#ogiltig-e-postadress). Exportera dina kontakter och kontrollera adresserna i ett externt verktyg, till exempel ett kalkylark, för att hitta dem.

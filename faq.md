@@ -29,6 +29,17 @@ If the contact exists but didn't receive your email, see [Identifying why an ema
 
 <details>
 
+<summary>What happens to reports when I delete a contact?</summary>
+
+Permanently deleting a contact doesn't change the counters in your reports, such as emails sent or submitted form answers. It doesn't change metrics such as open rate or click-through rate either. But the contact is removed everywhere it used to be referenced.
+
+* **Emails:** if a contact opened an email and you later delete the contact, the **Opened** counter doesn't go down. You can still click the number, but the contact no longer shows in the list of contacts who opened the email.
+* **Forms:** the contact's form engagement is removed, but the submitted answers remain. This means the data a deleted contact submitted still exists in the form report. You no longer see who submitted it, unless the answers themselves include the respondent's contact details.
+
+</details>
+
+<details>
+
 <summary>Can I find contacts with an invalid email address?</summary>
 
 No. There's no filter for contacts with an [invalid email address](glossary.md#invalid-email-address). To find them, export your contacts and check the addresses in an external tool, such as a spreadsheet.

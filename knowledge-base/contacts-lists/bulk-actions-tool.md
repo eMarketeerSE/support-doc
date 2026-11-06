@@ -24,4 +24,4 @@ The Bulk Actions tool offers seven functions:
 4. **Update subscriptions** — Changes the opt-in/opt-out status of subscription lists for the contacts. You can update any or all subscription lists in one go.
 5. **Update legal basis** — Updates the Legal Basis of all the contacts. You can update both "Store and Process" and "Marketing Sendouts" at the same time, and to different options if needed.
 6. **Unsubscribe** — Unsubscribes the contacts from all future email and SMS sendouts by setting their Legal Basis for Marketing Sendouts to "Withdrawn."
-7. **Permanently delete contacts** — Permanently deletes the contacts from your account along with any interactions they have been part of. Deleted contacts cannot be restored. This includes their interactions, activity, and engagement history.
+7. **Permanently delete contacts** — Permanently deletes the contacts from your account along with any interactions they have been part of. Deleted contacts cannot be restored. This includes their interactions, activity, and engagement history. Report counters and metrics don't change. See [What happens to reports when I delete a contact?](../../faq.md#contacts).
