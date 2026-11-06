@@ -64,4 +64,4 @@ När filtret visar de kontakter du vill ta bort markerar du dem och väljer **Bu
 Borttagna kontakter kan inte återställas inifrån eMarketeer. Om du kan behöva deras uppgifter senare klickar du på **Export** och sparar en kopia innan du tar bort dem.
 {% endhint %}
 
-Att ta bort kontakter ändrar inte räknarna eller nyckeltalen i dina rapporter, men de borttagna kontakterna visas inte längre i dem. Se [Vad händer med rapporterna när jag tar bort en kontakt?](../../faq.md#kontakter).
+Att ta bort kontakter ändrar inte räknarna eller nyckeltalen i dina rapporter, men de borttagna kontakterna visas inte längre i dem. Se [Vad händer med rapporterna när jag tar bort en kontakt?](../../faq.md#vad-hander-med-rapporterna-nar-jag-tar-bort-en-kontakt).

@@ -66,4 +66,4 @@ When the filter shows the contacts you want to remove, select them and choose **
 Deleted contacts can't be restored from within eMarketeer. If you might need their data later, click **Export** to save a copy before you delete them.
 {% endhint %}
 
-Deleting contacts doesn't change the counters or metrics in your reports, but the deleted contacts no longer show in them. See [What happens to reports when I delete a contact?](../../faq.md#contacts).
+Deleting contacts doesn't change the counters or metrics in your reports, but the deleted contacts no longer show in them. See [What happens to reports when I delete a contact?](../../faq.md#what-happens-to-reports-when-i-delete-a-contact).
