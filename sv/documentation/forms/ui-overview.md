@@ -202,7 +202,7 @@ Designytan slutar alltid med en tom skelettsida. Klicka på **Add Question** på
 
 När du tar bort alla frågor på en sida tas sidan bort automatiskt. Om du vill ta bort en hel sida på en gång håller du muspekaren över sidan och klickar på **Delete** i dess övre högra hörn.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-page-delete.png" alt="En sida i designytan med knapparna Duplicate och Delete som visas när muspekaren hålls över sidan, Delete markerad."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-page-delete-button.png" alt="En sida i designytan med knapparna Duplicate och Delete som visas när muspekaren hålls över sidan, Delete markerad."></div>
 
 #### Hantera sidor i Survey settings
 
@@ -212,7 +212,7 @@ Du kan också lägga till, ta bort och ändra ordning på sidor i Property Grid.
 2. Dra en sida i dess handtag för att ändra ordningen.
 3. Klicka på papperskorgsikonen för att ta bort en sida.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-survey-settings-pages.png" alt="Kategorin Pages i Survey settings med två sidor, numrerade: plusikonen, ett draghandtag och en papperskorgsikon."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-survey-settings-pages-panel.png" alt="Kategorin Pages i Survey settings med två sidor, numrerade: plusikonen, ett draghandtag och en papperskorgsikon."></div>
 
 ### Ändra frågetyp
 

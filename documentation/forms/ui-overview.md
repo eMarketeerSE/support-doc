@@ -202,7 +202,7 @@ The design surface always ends with an empty skeleton page. Click **Add Question
 
 When you delete all the questions on a page, the page is removed automatically. To delete a whole page at once, hover over the page and click **Delete** in its top-right corner.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-page-delete.png" alt="A page on the design surface with the Duplicate and Delete buttons shown on hover, Delete highlighted."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-page-delete-button.png" alt="A page on the design surface with the Duplicate and Delete buttons shown on hover, Delete highlighted."></div>
 
 #### Manage pages in Survey settings
 
@@ -212,7 +212,7 @@ You can also add, delete and reorder pages in the Property Grid. Click **Survey 
 2. Drag a page by its handle to change the order.
 3. Click the trash-can icon to delete a page.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-survey-settings-pages.png" alt="The Pages category in Survey settings with two pages, numbered: the plus icon, a drag handle and a trash-can icon."></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-survey-settings-pages-panel.png" alt="The Pages category in Survey settings with two pages, numbered: the plus icon, a drag handle and a trash-can icon."></div>
 
 ### Changing question type
 
