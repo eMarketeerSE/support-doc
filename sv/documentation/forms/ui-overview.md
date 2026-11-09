@@ -190,7 +190,29 @@ Om du vill ange ett standardsvar för en fråga markerar du den, öppnar kategor
 
 ### Sidhantering
 
-Ett formulär kan ha flera sidor. Lägg till en sida genom att markera formuläret, öppna kategorin **Survey** i Property Grid, gå till **Pages** och klicka på **Add new page**. Du kan också dra en fråga till skelett-sidan längst ned i designytan — det skapar automatiskt en ny sida.
+Ett formulär kan ha flera sidor. Sidor läggs till och tas bort automatiskt när du lägger till och tar bort frågor.
+
+#### Lägg till en sida
+
+Designytan slutar alltid med en tom skelettsida. Klicka på **Add Question** på den, eller dra en fråga till den, så skapas sidan automatiskt.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-skeleton-page-add-question.png" alt="En tom skelettsida längst ned i designytan, med knappen Add Question markerad."></div>
+
+#### Ta bort en sida
+
+När du tar bort alla frågor på en sida tas sidan bort automatiskt. Om du vill ta bort en hel sida på en gång håller du muspekaren över sidan och klickar på **Delete** i dess övre högra hörn.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-page-delete.png" alt="En sida i designytan med knapparna Duplicate och Delete som visas när muspekaren hålls över sidan, Delete markerad."></div>
+
+#### Hantera sidor i Survey settings
+
+Du kan också lägga till, ta bort och ändra ordning på sidor i Property Grid. Klicka på **Survey settings** ovanför designytan och öppna kategorin **Pages**.
+
+1. Klicka på plusikonen för att lägga till en sida.
+2. Dra en sida i dess handtag för att ändra ordningen.
+3. Klicka på papperskorgsikonen för att ta bort en sida.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-survey-settings-pages.png" alt="Kategorin Pages i Survey settings med två sidor, numrerade: plusikonen, ett draghandtag och en papperskorgsikon."></div>
 
 ### Ändra frågetyp
 

@@ -190,7 +190,29 @@ To set a default answer for a question, select it, open the **Data** category in
 
 ### Page management
 
-A form can have multiple pages. To add a page, select the form, open the **Survey** category in the Property Grid, go to **Pages**, and click **Add new page**. You can also drag a question onto the skeleton page at the bottom of the design surface — this creates a new page automatically.
+A form can have multiple pages. Pages are added and removed automatically as you add and delete questions.
+
+#### Add a page
+
+The design surface always ends with an empty skeleton page. Click **Add Question** on it, or drag a question onto it, and the page is created automatically.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-skeleton-page-add-question.png" alt="An empty skeleton page at the bottom of the design surface, with the Add Question button highlighted."></div>
+
+#### Delete a page
+
+When you delete all the questions on a page, the page is removed automatically. To delete a whole page at once, hover over the page and click **Delete** in its top-right corner.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-page-delete.png" alt="A page on the design surface with the Duplicate and Delete buttons shown on hover, Delete highlighted."></div>
+
+#### Manage pages in Survey settings
+
+You can also add, delete and reorder pages in the Property Grid. Click **Survey settings** above the design surface and open the **Pages** category.
+
+1. Click the plus icon to add a page.
+2. Drag a page by its handle to change the order.
+3. Click the trash-can icon to delete a page.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/ui-overview-survey-settings-pages.png" alt="The Pages category in Survey settings with two pages, numbered: the plus icon, a drag handle and a trash-can icon."></div>
 
 ### Changing question type
 
