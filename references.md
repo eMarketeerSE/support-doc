@@ -58,6 +58,10 @@ emarketeer-gdpr-overview.md
 files.md
 {% endcontent-ref %}
 
+{% content-ref url="documentation/shared-reports.md" %}
+shared-reports.md
+{% endcontent-ref %}
+
 {% content-ref url="documentation/notification-system.md" %}
 notification-system.md
 {% endcontent-ref %}

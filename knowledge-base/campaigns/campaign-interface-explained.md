@@ -48,7 +48,7 @@ The icon in the top left corner of the card shows the component type. The three-
 
 ### More actions menu
 
-This menu repeats Edit, Send or Publish, and Reports, and adds Shared Reports. For forms it also has Open/Close Form. It also provides options for managing the component:
+This menu repeats Edit, Send or Publish, and Reports, and adds [Shared Reports](../../documentation/shared-reports.md). For forms it also has Open/Close Form. It also provides options for managing the component:
 
 * **Change name** — Renames the component. The name is visible only to eMarketeer users, not to contacts.
 * **Copy** — Creates a copy in the campaign named "Copy of \[component name]". The copy has a clean report but is otherwise identical to the original.

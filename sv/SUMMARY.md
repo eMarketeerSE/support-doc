@@ -189,6 +189,7 @@
     * [Hur kommer eMarketeer att fungera med SuperOffice i enlighet med GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
   * [Notissystemet](documentation/notification-system.md)
   * [Filer](documentation/files.md)
+  * [Shared Reports](documentation/shared-reports.md)
   * [Kreditkortsbetalningar (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
   * [Vad händer när jag når min kontaktgräns?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)
   * [Standardregler för score i eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)

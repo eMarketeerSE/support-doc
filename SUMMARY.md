@@ -189,6 +189,7 @@
     * [How will eMarketeer work with SuperOffice in compliance with GDPR?](knowledge-base/gdpr-consent/how-will-emarketeer-work-with-superoffice-under-gdpr.md)
   * [Notification system](documentation/notification-system.md)
   * [Files](documentation/files.md)
+  * [Shared Reports](documentation/shared-reports.md)
   * [Credit card payments (Administrator)](knowledge-base/account-admin/credit-card-payments.md)
   * [What happens when I reach my contact limit?](knowledge-base/contacts-lists/what-happens-when-i-reach-my-contact-limit.md)
   * [Default score rules in eMarketeer](knowledge-base/lead-board-scoring/default-score-rules-in-emarketeer.md)

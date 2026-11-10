@@ -48,7 +48,7 @@ Ikonen uppe till vänster på kortet visar komponenttypen. Ikonen med tre punkte
 
 ### Menyn More actions
 
-Den här menyn upprepar Edit, Send eller Publish och Reports, och lägger till Shared Reports. För formulär finns även Open/Close Form. Menyn ger också alternativ för att hantera komponenten:
+Den här menyn upprepar Edit, Send eller Publish och Reports, och lägger till [Shared Reports](../../documentation/shared-reports.md). För formulär finns även Open/Close Form. Menyn ger också alternativ för att hantera komponenten:
 
 * **Change name** — Byter namn på komponenten. Namnet är endast synligt för eMarketeer-användare, inte för kontakter.
 * **Copy** — Skapar en kopia i kampanjen med namnet "Copy of \[komponentnamn]". Kopian har en ren rapport men är i övrigt identisk med originalet.
