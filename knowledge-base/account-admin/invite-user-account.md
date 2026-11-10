@@ -39,4 +39,14 @@ The dialog shows how many licenses of each type are in use. If you need more, cl
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Create new user dialog with an email address filled in and Marketing user and Developer checked"></div>
 
-The invite email contains a link to a page where the user can create their account if they do not already have one. If they already have a user account on another account, they gain access to the new account in addition to their existing ones.
+The invite email contains a link to a page where the user can create their account if they do not already have one.
+
+{% hint style="info" %}
+The invite link expires after 4 days. If the user hasn't completed registration by then, invite them again to send a new link.
+{% endhint %}
+
+## Inviting a user who already has an account
+
+If the person you invite already has an eMarketeer user account, they gain access to this account in addition to their home account (and any other accounts they belong to). When they log in, they choose which account to open from a drop-down list.
+
+Their home account is the account their user license applies to. A user who already pays for a license does not take up an additional license slot when you invite them to another account, and they keep the same level of access they have on their home account.

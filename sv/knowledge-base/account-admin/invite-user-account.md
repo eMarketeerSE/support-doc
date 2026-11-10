@@ -39,4 +39,14 @@ Dialogrutan visar hur många licenser av varje typ som används. Om du behöver 
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/invite-user-account-create-new-user-marketing-developer.png" alt="Dialogrutan Create new user med en e-postadress ifylld och Marketing user och Developer markerade"></div>
 
-Inbjudningsmejlet innehåller en länk till en sida där användaren kan skapa sitt konto, om de inte redan har ett. Om de redan har ett användarkonto på ett annat konto får de tillgång till det nya kontot utöver de befintliga.
+Inbjudningsmejlet innehåller en länk till en sida där användaren kan skapa sitt konto, om de inte redan har ett.
+
+{% hint style="info" %}
+Inbjudningslänken slutar gälla efter 4 dagar. Om användaren inte har slutfört registreringen innan dess, bjud in dem igen för att skicka en ny länk.
+{% endhint %}
+
+## Bjuda in en användare som redan har ett konto
+
+Om personen du bjuder in redan har ett eMarketeer-användarkonto får de tillgång till det här kontot utöver sitt hemkonto (och eventuella andra konton de tillhör). När de loggar in väljer de vilket konto de vill öppna från en rullgardinslista.
+
+Hemkontot är det konto som användarlicensen gäller för. En användare som redan betalar för en licens tar inte upp en extra licensplats när du bjuder in dem till ett annat konto, och de behåller samma åtkomstnivå som de har på sitt hemkonto.
