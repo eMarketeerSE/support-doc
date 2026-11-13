@@ -14,7 +14,8 @@ Detta är de UTM-parametrar som läggs till i dina länkar när de skapas i eMar
 - _utm\_medium_
   - För e-post: "email"
   - För landningssidor: "referral"
-- _utm\_content_
+- _utm\_term_
   - För e-post: ämnesraden i e-postmeddelandet
   - För landningssidor: sidans titel
+- _utm\_content_ – Namnet på eMarketeer-komponenten.
 - _utm\_em\_source_ – Specifik för eMarketeer; ID:t för komponenten som används.

@@ -9,7 +9,8 @@ Det här är de UTM-parametrar som läggs till i dina länkar:
 - `utm_medium`
   - "email" för mejl.
   - "referral" för landningssidor.
-- `utm_content`
+- `utm_term`
   - Ämnesraden för mejl.
   - Sidtiteln för landningssidor.
+- `utm_content` — namnet på eMarketeer-komponenten.
 - `utm_em_source` — specifikt för eMarketeer: ID:t för den komponent som används.

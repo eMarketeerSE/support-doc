@@ -9,7 +9,8 @@ These are the UTM parameters added to your links:
 - `utm_medium`
   - "email" for emails.
   - "referral" for landing pages.
-- `utm_content`
+- `utm_term`
   - The subject line for emails.
   - The page title for landing pages.
+- `utm_content` — the name of the eMarketeer component.
 - `utm_em_source` — specific to eMarketeer: the ID of the component used.

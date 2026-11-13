@@ -13,7 +13,8 @@ These are the UTM parameters added to your links when created in eMarketeer emai
 - _utm\_medium_
   - For emails: "email"
   - For landing pages: "referral"
-- _utm\_content_
+- _utm\_term_
   - For emails: the subject line of the email
   - For landing pages: the title of the page
+- _utm\_content_ – The name of the eMarketeer component.
 - _utm\_em\_source_ – Specific to eMarketeer; the ID of the component used.
