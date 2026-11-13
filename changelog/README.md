@@ -23,6 +23,122 @@ layout:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-16" tags="new-release,feature,improvement,fix" %}
+## November release: folders, favorites and SuperOffice project functions
+
+This release makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. It also covers fixes released since the October 15 post.
+
+### Campaigns and folders
+
+* Move a whole folder to another folder, or to the top level, in Campaigns, Contacts and Journeys.
+* The browser address now includes the folder, so you can bookmark a folder or share the link with a colleague.
+* Mark a campaign as a favorite with the star in the breadcrumbs, and open your favorites from there.
+* The sort order you choose in the Contacts, Campaigns and Journeys lists is remembered.
+* Renaming a campaign is easier to find.
+* Browser tabs show which page you are on, instead of only "eMarketeer".
+* The legacy email, landing page, SMS and form editors now match the new interface.
+
+### SuperOffice
+
+* **Add to project** can set the project member's function, such as Invited, Registered or Attended. If the contact is already in the project, the function is updated. This works in campaign automations and Journeys.
+* The SuperOffice **Create Activity** Journey step has its own title field, so a long description no longer spills into the title.
+* Contact imports take the postal address from the company, unless **Use as postal address** is ticked on the contact in SuperOffice.
+* Consent is set in SuperOffice when you share or import a contact, and kept in sync afterwards.
+
+### Forms
+
+* The captcha is added to the last page of a form automatically. You no longer add it in the editor.
+* The text of a consent question can contain links, for example to your privacy policy.
+* The email address question can be optional, so people can answer without giving their email address.
+
+### Email, SMS and Journeys
+
+* The SMS editor has an emoji menu, and newer emoji are supported.
+* When you schedule an email, the checklist shows the scheduled date and time.
+* Journey steps and If/Else conditions can use **Outbound email** conditions, like segments.
+
+### API
+
+* Contacts API v2 has consistent ids, working pagination and the lists each contact belongs to. Version 1 still works but is deprecated.
+* When you send an email through the API, you can skip recipients who already got it, and send to a contact list by its ID.
+
+### Notable fixes
+
+* Contacts saved from a form or through the API no longer lose their custom field values when the email address contains a capital letter.
+* The contact card no longer shows another contact's custom field values after you switch contacts.
+* Genuine email clicks are no longer discarded as bot clicks when a mail scanner checks the links at the same time.
+* The Journeys page loads even when one Journey has a step with a problem.
+* Some UK mobile numbers saved without a country code are no longer treated as Swedish numbers.
+* SMS short links now use https.
+
+<details>
+<summary>Contacts and imports</summary>
+
+* The contact list keeps your search and filter when you reload the page.
+* The contacts view refreshes by itself when an import finishes.
+* XLS imports have the **First row is header** option, like CSV imports.
+* Imports add the contacts to the list you choose.
+* Lead score is included again when you export contacts.
+* When you pick a component in an engagement filter, the newest components are listed first.
+* Segment filters with "is not" conditions and a time frame are much faster on large accounts.
+* The contact card says **Saved** only when a change is saved, and tells you when a save fails.
+* Custom date fields in older formats are shown on the contact card instead of an empty field.
+* Contact field groups show their fields again.
+* A lead's stage and its stage history agree, and adding a lead no longer creates duplicate history entries.
+* Contacts removed from a Journey on the contact card are no longer listed in the Journey.
+* **More information** on the timeline works for all form answers, and form previews on the timeline open the form.
+
+</details>
+
+<details>
+<summary>Email and SMS</summary>
+
+* The email checklist counts contacts who are in more than one recipient source as duplicates.
+* Email health names the exact subdomain that needs an SPF record.
+* If consent can't be checked when an email is sent, the sendout stops instead of risking a send to contacts who withdrew consent.
+* The SMS checklist leaves out contacts excluded by consent, the same way the sendout does.
+* The new email dialog shows long names and domains in full.
+* Creating an email with a subject line that is too long shows a message instead of doing nothing.
+* The image picker in the email editor opens and loads images faster.
+* Fixed an issue where form links in some emails showed an error instead of the form.
+
+</details>
+
+<details>
+<summary>Forms</summary>
+
+* Dragging fields in **Edit Contact Registration** reorders them again.
+* A shared form report stays open until the end of its expiry day.
+* Notifications show question titles for forms whose default language is not English.
+* A form answer delete that fails is shown as failed.
+
+</details>
+
+<details>
+<summary>SuperOffice and CRM</summary>
+
+* The SuperOffice web panel no longer keeps asking you to log in.
+* The SuperOffice Create Activity Journey step works for contacts with an apostrophe in their email address.
+* SuperOffice Create Task automations no longer skip every contact as "limited to once per contact".
+* When SuperOffice automations can't run because the account is over its contact limit, the automation log shows the reason.
+* The CRM timeline panel in SuperOffice and Dynamics no longer shows an error for some contacts.
+* Creating a contact from the CRM panel explains why it failed when the CRM contact has no email address, and shows when it worked.
+* You are told when a CRM import fails.
+* Component reports can export contacts to CRM again.
+
+</details>
+
+<details>
+<summary>Account and notifications</summary>
+
+* Links in the notification inbox open the right page.
+* Notifications and notification settings are shown in your language.
+* Turning on MFA in your profile explains the next step, and the switch always matches whether MFA is enforced.
+* Saving account settings no longer overwrites the account's mobile number with the Office fax field.
+
+</details>
+{% endupdate %}
+
 {% update date="2026-10-23" tags="api,feature" %}
 ## New Campaigns API
 
