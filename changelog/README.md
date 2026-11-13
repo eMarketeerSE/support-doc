@@ -28,20 +28,20 @@ layout:
 
 This release makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. It also covers fixes released since the October 15 post.
 
-### Campaigns and folders
+### Campaigns and navigation
 
 * Move a whole folder to another folder, or to the top level, in Campaigns, Contacts and Journeys.
 * The browser address now includes the folder, so you can bookmark a folder or share the link with a colleague.
-* Mark a campaign as a favorite with the star in the breadcrumbs, and open your favorites from there.
+* Open your favorite campaigns from the star icon next to the breadcrumbs.
 * The sort order you choose in the Contacts, Campaigns and Journeys lists is remembered.
-* Renaming a campaign is easier to find.
+* When you hover over a campaign's name, an edit icon and **Rename campaign** appear, so it is clear how to rename it.
 * Browser tabs show which page you are on, instead of only "eMarketeer".
-* The legacy email, landing page, SMS and form editors now match the new interface.
+* The email, landing page and SMS editors, and the legacy form editor, now match the new interface.
 
 ### SuperOffice
 
 * **Add to project** can set the project member's function, such as Invited, Registered or Attended. If the contact is already in the project, the function is updated. This works in campaign automations and Journeys.
-* The SuperOffice **Create Activity** Journey step has its own title field, so a long description no longer spills into the title.
+* The SuperOffice **Create Activity** Journey step has a title field, to match the activity in SuperOffice. A long description no longer spills into the title.
 * Contact imports take the postal address from the company, unless **Use as postal address** is ticked on the contact in SuperOffice.
 * Consent is set in SuperOffice when you share or import a contact, and kept in sync afterwards.
 
@@ -51,16 +51,22 @@ This release makes campaigns and folders easier to work with, adds new SuperOffi
 * The text of a consent question can contain links, for example to your privacy policy.
 * The email address question can be optional, so people can answer without giving their email address.
 
-### Email, SMS and Journeys
+### Email
+
+* When you schedule an email, the checklist shows the scheduled date and time.
+
+### SMS
 
 * The SMS editor has an emoji menu, and newer emoji are supported.
-* When you schedule an email, the checklist shows the scheduled date and time.
+
+### Journeys
+
 * Journey steps and If/Else conditions can use **Outbound email** conditions, like segments.
 
 ### API
 
 * Contacts API v2 has consistent ids, working pagination and the lists each contact belongs to. Version 1 still works but is deprecated.
-* When you send an email through the API, you can skip recipients who already got it, and send to a contact list by its ID.
+* When you send an email through the Messages API, you can skip contacts who already got it, like the **Exclude recipients who previously got this e-mail** send option. You can also send to a contact list by its ID.
 
 ### Notable fixes
 
@@ -109,7 +115,6 @@ This release makes campaigns and folders easier to work with, adds new SuperOffi
 
 * Dragging fields in **Edit Contact Registration** reorders them again.
 * A shared form report stays open until the end of its expiry day.
-* Notifications show question titles for forms whose default language is not English.
 * A form answer delete that fails is shown as failed.
 
 </details>
