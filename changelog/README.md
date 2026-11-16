@@ -28,10 +28,6 @@ layout:
 
 This release brings an updated design to the email, landing page and SMS editors, and to the legacy form editor, and a dark mode you can try as a beta. It also makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. The fixes released since the October 15 post are listed here too.
 
-### Dark mode (beta)
-
-* eMarketeer has a dark mode. Turn it on with the toggle in the top bar, and turn it off the same way. It is a beta, so some pages may not look quite right in dark mode yet.
-
 ### Campaigns and navigation
 
 * Move a whole folder to another folder, or to the top level, in Campaigns, Contacts and Journeys.
@@ -48,6 +44,10 @@ This release brings an updated design to the email, landing page and SMS editors
 * The SuperOffice **Create Activity** Journey step has a title field, to match the activity in SuperOffice. A long description no longer spills into the title.
 * Contact imports take the postal address from the company, unless **Use as postal address** is ticked on the contact in SuperOffice.
 * Consent is set in SuperOffice when you share or import a contact, and kept in sync afterwards.
+
+### Dark mode (beta)
+
+* eMarketeer has a dark mode. Turn it on with the toggle in the top bar, and turn it off the same way.
 
 ### Forms
 
