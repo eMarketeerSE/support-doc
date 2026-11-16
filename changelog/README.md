@@ -24,9 +24,9 @@ layout:
 
 {% updates format="full" %}
 {% update date="2026-11-16" tags="new-release,feature,improvement,fix" %}
-## November release: folders, favorites and SuperOffice project functions
+## November release
 
-This release makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. It also covers fixes released since the October 15 post.
+This release brings an updated design to the email, landing page and SMS editors, and to the legacy form editor. It also makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. The fixes released since the October 15 post are listed here too.
 
 ### Campaigns and navigation
 
