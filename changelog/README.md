@@ -26,7 +26,11 @@ layout:
 {% update date="2026-11-16" tags="new-release,feature,improvement,fix" %}
 ## November release
 
-This release brings an updated design to the email, landing page and SMS editors, and to the legacy form editor. It also makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. The fixes released since the October 15 post are listed here too.
+This release brings an updated design to the email, landing page and SMS editors, and to the legacy form editor, and a dark mode you can try as a beta. It also makes campaigns and folders easier to work with, adds new SuperOffice options, and includes many fixes. The fixes released since the October 15 post are listed here too.
+
+### Dark mode (beta)
+
+* eMarketeer has a dark mode. Turn it on with the toggle in the top bar, and turn it off the same way. It is a beta, so some pages may not look quite right in dark mode yet.
 
 ### Campaigns and navigation
 
