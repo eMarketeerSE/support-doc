@@ -24,3 +24,9 @@ The campaign now appears under Favourites.
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-add-favorite-favourite-star-on-campaign-row.png" alt="The star icon at the start of a campaign row"></div>
 
 Adding a campaign to Favourites
+
+## Switch to a favourite campaign
+
+A star icon sits next to the campaign breadcrumbs whenever they show. Click it to see a list of your favourite campaigns, then click a campaign to open it. You can switch between favourite campaigns this way without going back to the Campaigns page.
+
+You can't remove a campaign from Favourites in this list. Use the star on the campaign's row instead.

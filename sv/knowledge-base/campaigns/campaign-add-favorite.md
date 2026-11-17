@@ -24,3 +24,9 @@ Kampanjen visas nu under Favourites.
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/campaign-add-favorite-favourite-star-on-campaign-row.png" alt="Stjärnikonen i början av en kampanjrad"></div>
 
 Lägga till en kampanj i Favourites
+
+## Byt till en favoritkampanj
+
+Bredvid kampanjens brödsmulor finns en stjärnikon när brödsmulorna visas. Klicka på den för att se en lista över dina favoritkampanjer, och klicka sedan på en kampanj för att öppna den. På så sätt kan du byta mellan favoritkampanjer utan att gå tillbaka till sidan Campaigns.
+
+Du kan inte ta bort en kampanj från Favourites i den här listan. Använd stjärnan på kampanjens rad i stället.

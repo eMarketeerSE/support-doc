@@ -46,7 +46,7 @@ Tags are another good way to organize and categorize campaigns. A campaign can h
 
 Each campaign has additional options behind the three-dot icon on the far right of its row:
 
-* **Favourite** — Click the star to the left of a campaign's name to add it as a favourite, quickly accessible from the Favourites section in the left-side menu.
+* **Favourite** — Click the star to the left of a campaign's name to add it as a favourite. Open your favourites from the Favourites section in the left-side menu, or from the star next to the campaign breadcrumbs.
 * **Rename** — Open the campaign and click its name. Type the new name, then press Enter or click outside the name to save it.
 * **Copy campaign** — Makes a copy of the campaign in the same folder, including its [automations](campaign-automations.md). To find the copy quickly, especially in a folder with many campaigns, sort the list by **Newest**. The copy is then listed first.
 * **Transfer campaign** — Creates a copy of the campaign in another eMarketeer account. See [Transfer a campaign to a different account](transfer-a-campaign-to-a-different-account.md).

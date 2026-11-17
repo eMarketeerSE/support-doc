@@ -46,7 +46,7 @@ Taggar är ytterligare ett bra sätt att organisera och kategorisera kampanjer. 
 
 Varje kampanj har ytterligare alternativ bakom trepricksikonen längst till höger på sin rad:
 
-* **Favourite** — Klicka på stjärnan till vänster om kampanjens namn för att lägga till den som favorit, snabbt åtkomlig från sektionen Favourites i menyn till vänster.
+* **Favourite** — Klicka på stjärnan till vänster om kampanjens namn för att lägga till den som favorit. Öppna dina favoriter från sektionen Favourites i menyn till vänster, eller från stjärnan bredvid kampanjens brödsmulor.
 * **Rename** — Öppna kampanjen och klicka på namnet. Skriv det nya namnet och tryck på Enter, eller klicka utanför namnet, för att spara.
 * **Copy campaign** — Skapar en kopia av kampanjen i samma mapp, inklusive dess [automatiseringar](campaign-automations.md). För att snabbt hitta kopian, särskilt i en mapp med många kampanjer, sorterar du listan efter **Newest**. Kopian listas då först.
 * **Transfer campaign** — Skapar en kopia av kampanjen i ett annat eMarketeer-konto. Se [Överför en kampanj till ett annat konto](transfer-a-campaign-to-a-different-account.md).
