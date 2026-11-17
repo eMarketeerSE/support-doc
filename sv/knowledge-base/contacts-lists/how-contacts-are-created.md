@@ -62,3 +62,39 @@ Engagemangshändelser från SuperOffice kan vidarebefordras till eMarketeer som 
 
 **[Custom Signals API](../../documentation/apis-developer/custom-signals-api.md)**
 Du kan skicka anpassade engagemangshändelser från valfritt externt system via Signals API:et. Varje händelse skapar eller matchar en kontakt baserat på e-postadress.
+
+## När flera kontakter har samma e-postadress
+
+eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan till exempel skapa en kontakt, och en import från ditt CRM kan skapa en till.
+
+När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt överallt. eMarketeer använder den första regeln som gäller:
+
+1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från kontaktkortet eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
+2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics.
+3. Den äldsta kontakten med den e-postadressen.
+
+Det gäller på följande ställen:
+
+* SuperOffice- och Dynamics 365-panelerna.
+* Quick Send.
+* Formulärlänkar som identifierar kontakten på e-postadress.
+* Kontakter som skapas av lead ads.
+
+### Exempel
+
+Två kontakter har e-postadressen anna@acme.com:
+
+| Kontakt | Skapad | External ID |
+| --- | --- | --- |
+| Kontakt A | Av ett formulär, i går | Inget |
+| Kontakt B | Av en import från SuperOffice, förra året | Contact ID i SuperOffice |
+
+eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperOffice.
+
+### Det här uppdaterar fortfarande alla kontakter
+
+Avregistreringar, studsar och importer uppdaterar fortfarande alla kontakter med e-postadressen.
+
+### CRM-märket på kontaktkortet
+
+Kontaktkortet visar CRM-märket bara när External ID är ett Contact ID i SuperOffice eller ett ID i Dynamics. Ett Contact ID i SuperOffice är ett heltal större än 0. Andra importerade värden, till exempel `007` eller `12.5`, visar inte längre märket.

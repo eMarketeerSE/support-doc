@@ -62,3 +62,39 @@ Engagement events from SuperOffice can be forwarded to eMarketeer as signals, cr
 
 **[Custom Signals API](../../documentation/apis-developer/custom-signals-api.md)**
 You can push custom engagement events from any external system using the Signals API. Each event creates or matches a contact by email address.
+
+## When several contacts share an email address
+
+eMarketeer allows several contacts with the same email address. For example, a form can create one contact, and an import from your CRM can create another.
+
+When eMarketeer needs one contact for an email address, it picks the same one everywhere. It uses the first rule that applies:
+
+1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the contact card, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
+2. A contact that is linked to a person in SuperOffice or Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID.
+3. The oldest contact with that email address.
+
+This applies in these places:
+
+* The SuperOffice and Dynamics 365 panels.
+* Quick Send.
+* Form links that identify the contact by email address.
+* Contacts created by lead ads.
+
+### Example
+
+Two contacts share the email address anna@acme.com:
+
+| Contact | Created | External ID |
+| --- | --- | --- |
+| Contact A | By a form, yesterday | None |
+| Contact B | By an import from SuperOffice, last year | SuperOffice Contact ID |
+
+eMarketeer uses contact B, because it is linked to a person in SuperOffice.
+
+### What still updates every contact
+
+Unsubscribes, bounces and imports still update every contact with the email address.
+
+### The CRM badge on the contact card
+
+The contact card shows the CRM badge only when the External ID is a SuperOffice Contact ID or a Dynamics ID. A SuperOffice Contact ID is a whole number above 0. Other imported values, such as `007` or `12.5`, no longer show the badge.
