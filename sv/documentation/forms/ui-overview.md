@@ -158,15 +158,9 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 </details>
 
-<details>
+### Captcha
 
-<summary>Captcha</summary>
-
-**Captcha** Lägger till botskydd i formuläret. Captchan löses i bakgrunden, så respondenterna ser den inte i det renderade formuläret. I Designer visas den som en platshållare. Captchan är obligatorisk, och ett formulär kan inte sparas utan den.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/captcha.png" alt="En Captcha-fråga i designytan."></div>
-
-</details>
+Alla formulär får en captcha automatiskt. Den läggs till på formulärets sista sida när formuläret visas, så du lägger inte till den i Designer. Captchan löses i bakgrunden, och respondenterna ser den inte.
 
 ### Lägga till en fråga
 

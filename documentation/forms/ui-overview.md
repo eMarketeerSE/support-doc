@@ -158,15 +158,9 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 </details>
 
-<details>
+### Captcha
 
-<summary>Captcha</summary>
-
-**Captcha** Adds bot protection to the form. The captcha resolves in the background, so respondents do not see it on the rendered form. In the Designer it appears as a placeholder. The captcha is required, and a form cannot be saved without it.
-
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/captcha.png" alt="A Captcha question on the design surface."></div>
-
-</details>
+Every form gets a captcha automatically. It is added to the last page of the form when the form is shown, so you don't add it in the Designer. The captcha resolves in the background, and respondents don't see it.
 
 ### Adding a question
 
