@@ -10,7 +10,7 @@ This article describes the campaign interface, with a focus on the Components vi
 
 At the top of the campaign page are the campaign name, description and tags, followed by tabs for the different views of the campaign. Add new components with **Add Component** in the Components view.
 
-To rename the campaign, hover over its name and click **Rename campaign**. The name becomes editable in place.
+To rename the campaign, click its name. When you hover over the name, an edit icon and the text **Rename campaign** show that you can change it. Type the new name, then press Enter or click outside the name to save it.
 
 Components make up the content of your campaign. There are four component types: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form-new.md), [SMS](../getting-started/basics-creating-sms.md), and [Landing pages](../developer-advanced/creating-first-webpage.md), plus one sub-component, Mobile apps.
 

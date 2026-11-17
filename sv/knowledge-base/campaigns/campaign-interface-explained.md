@@ -10,7 +10,7 @@ Den här artikeln beskriver kampanjgränssnittet, med fokus på vyn Components.
 
 Överst på kampanjsidan finns kampanjens namn, beskrivning och taggar, följt av flikar för kampanjens olika vyer. Lägg till nya komponenter med **Add Component** i vyn Components.
 
-För att byta namn på kampanjen håller du muspekaren över namnet och klickar på **Rename campaign**. Då kan du redigera namnet direkt.
+För att byta namn på kampanjen klickar du på namnet. När du håller muspekaren över namnet visas en redigeringsikon och texten **Rename campaign**. Skriv det nya namnet och tryck på Enter, eller klicka utanför namnet, för att spara.
 
 Komponenter utgör innehållet i din kampanj. Det finns fyra komponenttyper: [Emails](../getting-started/basics-creating-email.md), [Forms](../getting-started/basics-creating-form-new.md), [SMS](../getting-started/basics-creating-sms.md) och [Landing pages](../developer-advanced/creating-first-webpage.md), plus en underkomponent, Mobile apps.
 
