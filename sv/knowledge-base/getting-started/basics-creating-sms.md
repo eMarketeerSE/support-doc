@@ -66,23 +66,28 @@ När inställningar och mall är klara klickar du på **Create** för att skapa 
 {% step %}
 ### SMS-redigeraren
 
-När du klickat på **Create** öppnas redigeraren. Du ser en textruta där du redigerar meddelandet och ett Sender ID-alternativ nedanför.
+När du klickat på **Create** öppnas redigeraren. Du skriver meddelandet i rutan **Message** i mitten. **Preview** till höger visar hur det ser ut på en telefon.
 
-Sender ID är namnet på avsändaren som visas på mottagarens telefon. Standard är `eMarketeer`. Du kan begära ett eget Sender ID — se [den här artikeln](../../documentation/email-sms/sender-id.md).
+Panelen till vänster innehåller resten av inställningarna:
 
-Nedanför hittar du SMS-testfunktionen, som låter dig skicka SMS:et till dig själv för att se hur det ser ut när det kommer fram. Länkar i test-SMS fungerar inte — skicka SMS:et på vanligt sätt om du behöver testa länkar.
+* **Sender ID** — namnet på avsändaren som visas på mottagarens telefon. Standard är `eMarketeer`. Du kan begära ett eget Sender ID — se [den här artikeln](../../documentation/email-sms/sender-id.md).
+* **Test send** — skicka SMS:et till ditt eget mobilnummer för att se hur det ser ut när det kommer fram. Länkar i test-SMS fungerar inte — skicka SMS:et på vanligt sätt om du behöver testa länkar.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-create-sms-and-edit.png" alt="SMS-redigeraren med meddelandefält, Sender ID, testskick och telefonförhandsvisning"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-editor.png" alt="SMS-redigeraren med infogningsverktyg, Sender ID och testskick till vänster, meddelanderutan med teckenräkning i mitten och en telefonförhandsvisning till höger"></div>
 {% endstep %}
 
 {% step %}
 ### Redigera SMS-innehållet
 
-Redigera meddelandetexten i textrutan. Knapparna ovanför textrutan låter dig lägga till länkar och personaliserad text som mottagarens namn.
+Skriv meddelandet i rutan **Message**. Under **Insert** i panelen till vänster använder du **Personalize** för att lägga till personaliserad text som kontaktens förnamn, **Insert link** för att lägga till en länk och **Emoji** för att lägga till en emoji.
+
+Under rutan ser du hur många tecken som finns kvar, hur många SMS meddelandet delas upp i och vilken teckenuppsättning det använder: GSM eller Unicode. En emoji gör att meddelandet byter till Unicode. Ett Unicode-SMS rymmer färre tecken, så meddelandet kan behöva fler delar.
+
+Om meddelandet är personaliserat varierar längden för varje kontakt, så siffrorna är ungefärliga.
 
 Länkar till andra eMarketeer-komponenter personaliseras per kontakt. Om du till exempel skickar en länk till en mobilappskomponent för ett event kan den innehålla en unik QR-kod eller bricka som kontakten använder för att identifiera sig på eventet.
 
-Klicka på **Save Message** efter varje ändring för att spara ditt arbete.
+Klicka på **Done editing** för att spara dina ändringar.
 {% endstep %}
 
 {% step %}
