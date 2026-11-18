@@ -43,9 +43,11 @@ To start the import, go to **Contacts** in the left sidebar, click **Add Contact
 
 In the **Import from file** window, drag and drop your Excel or CSV file, or browse to it. eMarketeer shows how many rows it found and a preview of the first five rows.
 
+**First row is a header** is turned on by default, for a file whose first row holds column headings. Turn it off if your file has no header row. The first row is then imported as a contact, and the columns are not mapped automatically, so you choose a field for each one yourself.
+
 For each column, choose the contact card field it contains in the dropdown above it. Columns whose heading matches a field are mapped automatically. Columns without a field are not imported. For example, set the column with email addresses to **Email**. Then click **Next: Import settings**.
 
-<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-map-columns.png" alt="Map columns step with a preview of the file and a field chosen for each column"></div>
+<div data-with-frame="true" align="left"><img src="../../.gitbook/assets/import-contacts-from-excel-import-map-columns-header-toggle.png" alt="Map columns step with the First row is a header toggle turned on, and a preview of the file with a field chosen for each column"></div>
 
 ### Contact settings and existing contacts
 

@@ -43,9 +43,11 @@ För att starta importen går du till **Contacts** i vänstermenyn, klickar på 
 
 I fönstret **Import from file** drar och släpper du din Excel- eller CSV-fil, eller bläddrar fram den. eMarketeer visar hur många rader den hittade och en förhandsvisning av de fem första raderna.
 
+**First row is a header** är påslaget som standard, för en fil där första raden innehåller kolumnrubriker. Stäng av det om din fil saknar rubrikrad. Då importeras första raden som en kontakt, och kolumnerna mappas inte automatiskt, så du väljer fält för varje kolumn själv.
+
 Välj för varje kolumn vilket kontaktkortsfält den innehåller i rullgardinsmenyn ovanför den. Kolumner vars rubrik matchar ett fält mappas automatiskt. Kolumner utan fält importeras inte. Ställ till exempel in kolumnen med e-postadresser på **Email**. Klicka sedan på **Next: Import settings**.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-import-map-columns.png" alt="Steget Map columns med en förhandsvisning av filen och ett valt fält för varje kolumn"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/import-contacts-from-excel-import-map-columns-header-toggle.png" alt="Steget Map columns med reglaget First row is a header påslaget och en förhandsvisning av filen med ett valt fält för varje kolumn"></div>
 
 ### Kontaktinställningar och befintliga kontakter
 
