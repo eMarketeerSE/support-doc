@@ -36,13 +36,13 @@ For all types: if the contact has no external ID, the automation is paused and t
 
 Creates a sale entry in SuperOffice and assigns it to the contact. eMarketeer sets the source, rating, and description. You can optionally add the contact to a selection or project when the sale is created.
 
-### Create a task
+### Create new task
 
-Creates a task (activity) in SuperOffice of the kind you specify. You can add a description. Tasks are always marked as not completed.
+Creates a task (activity) in SuperOffice of the kind you specify. You can add a **Task name**, which becomes the activity's title in SuperOffice, and a description. Tasks are always marked as not completed.
 
-### Notify sales rep
+### Notify salesperson
 
-Creates an activity in SuperOffice of the kind you specify. You can add a description. Notify sales rep activities are always marked as completed.
+Creates an activity in SuperOffice. You can add a **Notification title**, which becomes the activity's title in SuperOffice, and a description. Notify salesperson activities are always marked as completed.
 
 ### Set interest
 

@@ -5,13 +5,17 @@ description: >-
 
 # Skapa aktivitet
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-create-activity-create-activity-step-settings.png" alt="Dialogen Create Activity med fälten för aktivitetstyp, beskrivning, slutförd-kryssruta, tilldelning och projekt"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/so-create-activity-step-settings-with-title.png" alt="Dialogen Create Activity med fälten för aktivitetstyp, titel, beskrivning, slutförd-kryssruta, tilldelning och projekt"></div>
 
 ## Inställningar
 
 **Activity type:** Anger aktivitetstypen. Välj bland de tillgängliga aktivitetstyperna i ditt anslutna SuperOffice-konto.
 
-**Activity description in SuperOffice:** En beskrivning för aktiviteten. Skriv @ för att infoga personaliserade kopplingsfält. Beskrivningen visas även i kolumnen **Text** på fliken Aktiviteter för kontakter och företag i SuperOffice.
+**Activity title in SuperOffice:** Aktivitetens titel. Skriv @ för att infoga personaliserade kopplingsfält. Titeln är obligatorisk.
+
+**Activity description in SuperOffice:** En beskrivning för aktiviteten. Skriv @ för att infoga personaliserade kopplingsfält.
+
+När du öppnar aktiviteten i SuperOffice finns titeln i fältet **Title** och beskrivningen i fältet **Agenda**. Kolumnen **Text** på fliken Aktiviteter för kontakter och företag visar titeln följd av beskrivningen.
 
 **Set activity as completed in SuperOffice:** Välj om aktiviteten ska skapas som slutförd. En ej slutförd aktivitet är mer synlig för den tilldelade SuperOffice-användaren.
 
