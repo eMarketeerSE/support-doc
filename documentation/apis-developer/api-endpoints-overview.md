@@ -20,26 +20,34 @@ All calls authenticate with an API key sent in the `x-api-key` request header. Y
 Create, find, and delete contacts, manage contact lists, and read contact custom fields.
 
 * Base URL: `https://connect.emarketeer.com/contacts-api`
-* Browse and test: [Contact definition](https://api-doc.emarketeer.com/?urls.primaryName=Contact)
+* Browse and test: [Contact v2 definition](https://api-doc.emarketeer.com/?urls.primaryName=Contact%20v2)
+* Version 1: [Contact definition](https://api-doc.emarketeer.com/?urls.primaryName=Contact)
+
+{% hint style="warning" %}
+Version 1 of the Contacts API (`/v1/`) is deprecated and stops working on May 1, 2027. Move your integration to the v2 endpoints below before then.
+{% endhint %}
+
+Each v1 endpoint has a v2 endpoint with the same path, with `/v2/` instead of `/v1/`. Endpoints that return many items are paged: use `pageNumber` (starting at 0) and `pageSize` (up to 100, default 25).
 
 ### Contacts
 
-* `POST /v1/contacts` — Create or update up to 100 contacts at a time, matched on email address.
-* `GET /v1/contacts` — Find contacts by saved filter, email, or creation/modification date.
-* `POST /v1/contacts/delete` — Delete contacts by email address (up to 100 at a time).
+* `POST /v2/contacts` — Create or update up to 100 contacts at a time, matched on email address.
+* `GET /v2/contacts` — Find contacts by saved filter, email, or creation/modification date.
+* `POST /v2/contacts/delete` — Delete contacts by email address (up to 100 at a time).
+* `GET /v2/contacts/{contactId}/lists` — Get the contact lists a contact is a member of.
 
 ### Contact lists
 
-* `GET /v1/lists/` — Get all contact lists.
-* `POST /v1/lists/` — Create a contact list.
-* `DELETE /v1/lists/` — Delete contact lists.
-* `GET /v1/lists/{contactListId}` — Get the contacts in a contact list.
-* `POST /v1/lists/{contactListId}` — Add contacts to a contact list (up to 1000 at a time).
-* `DELETE /v1/lists/{contactListId}` — Remove contacts from a contact list.
+* `GET /v2/lists` — Get all contact lists, including nested lists.
+* `POST /v2/lists` — Create a contact list.
+* `DELETE /v2/lists` — Delete contact lists (up to 25 at a time).
+* `GET /v2/lists/{contactListId}` — Get the contacts in a contact list.
+* `POST /v2/lists/{contactListId}` — Add contacts to a contact list (up to 1000 at a time).
+* `DELETE /v2/lists/{contactListId}` — Remove contacts from a contact list (up to 1000 at a time).
 
 ### Contact custom fields
 
-* `GET /v1/contacts/customFields` — List all contact custom fields on the account.
+* `GET /v2/contacts/customFields` — List all contact custom fields on the account.
 
 ## Subscription
 
