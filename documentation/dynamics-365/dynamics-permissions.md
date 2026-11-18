@@ -115,26 +115,9 @@ This section describes how the access is identified, protected, and audited, and
 
 ### Credentials and tokens
 
-You choose which app registration the application user belongs to:
-
-| Option | App registration | Who holds the client secret | What a leaked secret exposes |
-|---|---|---|---|
-| Default | eMarketeer's multi-tenant app | eMarketeer | Every environment that consented to that app |
-| Your own app registration | An app you register in your own Microsoft Entra tenant | You create it; eMarketeer stores a copy for your account only | Only what you granted that app |
-
-To use your own app registration:
-
-1. Register a single-tenant app in Microsoft Entra ID.
-2. Create a client secret for it.
-3. Create an application user for that app in your Dynamics environment, with the security role above.
-4. Enter the app's client ID and client secret when you connect Dynamics 365 in eMarketeer.
-
-You own the expiry and rotation of that secret. To rotate it, create a new secret, then reconnect in eMarketeer with it.
-
-For both options:
-
-- eMarketeer sends the secret only to Microsoft Entra ID, to request tokens. eMarketeer never sends it back to a browser.
-- eMarketeer encrypts the stored copy of your client secret and the cached access tokens at rest with a dedicated AWS KMS key.
+- The application user belongs to eMarketeer's app registration in Microsoft Entra ID. Your administrator consents to it in your tenant. It authenticates with a client secret.
+- eMarketeer sends the secret only to Microsoft Entra ID, to request tokens. eMarketeer never sends it to a browser.
+- eMarketeer keeps the secret and the cached access tokens encrypted at rest. The cached tokens use a dedicated AWS KMS key.
 - Access tokens come from Microsoft Entra ID and expire after about one hour.
 - Certificate-based credentials are not supported.
 
@@ -151,7 +134,7 @@ For both options:
 | Where | What you can see |
 |---|---|
 | Dataverse auditing | Every create and update made by the application user, or by the impersonated user if you grant impersonation, if auditing is on for the environment and the table |
-| Microsoft Entra sign-in logs (service principal sign-ins) | Every token request made by the app registration |
+| Microsoft Entra sign-in logs (service principal sign-ins) | Every token request made by the eMarketeer app registration |
 | eMarketeer | Every Dataverse API call made after you connect, with endpoint and time and no query string. For a failed call, also the full URL, the request body and the error response. Available from eMarketeer support on request. |
 
 eMarketeer keeps its call log and error log for 180 days and deletes them within a few days after that. Application logs, which can contain request URLs, error responses from Dataverse and contact email addresses, are kept for 30 days.
@@ -163,9 +146,8 @@ You can stop all access at any time, without contacting eMarketeer. Do one of th
 - Disable the eMarketeer application user in the Power Platform admin center.
 - Remove its security roles.
 - Delete the eMarketeer enterprise application in Microsoft Entra ID.
-- If you use your own app registration, delete its client secret.
 
-If you disable the application user or remove its roles, Dataverse rejects the next call. If you delete the enterprise application or the client secret, eMarketeer cannot get a new token. The current token works until it expires, at most about 90 minutes later.
+If you disable the application user or remove its roles, Dataverse rejects the next call. If you delete the enterprise application, eMarketeer cannot get a new token. The current token works until it expires, at most about 90 minutes later.
 
 ## Permissions by feature
 

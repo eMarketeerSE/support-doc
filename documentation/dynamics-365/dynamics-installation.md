@@ -58,17 +58,3 @@ Choose the organization (environment) you want to integrate with and click **Con
 ## Grant less than System Administrator
 
 The app user does not need the System Administrator role. To give it only the privileges the integration uses, build a custom role from [Dynamics - Required permissions](dynamics-permissions.md) and assign that role in step 1.
-
-## Use your own app registration (optional)
-
-By default, the app user belongs to eMarketeer's app registration, which all eMarketeer customers share. You can use an app that you register in your own Microsoft Entra tenant instead. Its client secret then gives access to your environment only. See [Security controls](dynamics-permissions.md#security-controls) for the difference.
-
-1. In the Microsoft Entra admin center, register a new app. Choose **Accounts in this organizational directory only**.
-2. Open **Certificates & secrets** for the app and create a client secret. Copy its value.
-3. Follow step 1 above, but choose your own app instead of **eMarketeer Marketing Cloud** when you create the app user. You can skip the consent URL. If your tenant does not let users consent to apps, open the consent URL first, because the sign-in in step 3 uses eMarketeer's app.
-4. Follow step 3 above. After you choose the organization, turn on **Use your own app registration**.
-5. Enter the **Application (client) ID** and the **Client secret**, then click **Continue**.
-
-You still sign in with your Microsoft account through eMarketeer's app in step 3. That sign-in only finds your environments. It gives eMarketeer no access to the data in your environment.
-
-You own the expiry and rotation of the client secret. Before it expires, create a new secret and connect again with it.

@@ -116,26 +116,9 @@ Det här avsnittet beskriver hur åtkomsten identifieras, skyddas och granskas, 
 
 ### Inloggningsuppgifter och token
 
-Du väljer vilken appregistrering applikationsanvändaren tillhör:
-
-| Alternativ | Appregistrering | Vem som har klienthemligheten | Vad en läckt hemlighet exponerar |
-|---|---|---|---|
-| Standard | eMarketeers app för flera klientorganisationer | eMarketeer | Alla miljöer som har gett samtycke till den appen |
-| Din egen appregistrering | En app du registrerar i din egen Microsoft Entra-klientorganisation | Du skapar den; eMarketeer sparar en kopia enbart för ditt konto | Enbart det du har gett den appen åtkomst till |
-
-Så använder du din egen appregistrering:
-
-1. Registrera en app för en enda klientorganisation i Microsoft Entra ID.
-2. Skapa en klienthemlighet för den.
-3. Skapa en applikationsanvändare för appen i din Dynamics-miljö, med säkerhetsrollen ovan.
-4. Ange appens klient-ID och klienthemlighet när du ansluter Dynamics 365 i eMarketeer.
-
-Du ansvarar för hemlighetens giltighetstid och rotation. För att rotera den skapar du en ny hemlighet och ansluter sedan på nytt i eMarketeer med den.
-
-För båda alternativen gäller:
-
-- eMarketeer skickar hemligheten enbart till Microsoft Entra ID, för att begära token. eMarketeer skickar den aldrig tillbaka till en webbläsare.
-- eMarketeer krypterar den sparade kopian av din klienthemlighet och cachade åtkomsttoken i vila med en dedikerad AWS KMS-nyckel.
+- Applikationsanvändaren tillhör eMarketeers appregistrering i Microsoft Entra ID. Din administratör ger samtycke till den i din klientorganisation. Den autentiserar med en klienthemlighet.
+- eMarketeer skickar hemligheten enbart till Microsoft Entra ID, för att begära token. eMarketeer skickar den aldrig till en webbläsare.
+- eMarketeer förvarar hemligheten och cachade åtkomsttoken krypterade i vila. De cachade token använder en dedikerad AWS KMS-nyckel.
 - Åtkomsttoken kommer från Microsoft Entra ID och upphör att gälla efter ungefär en timme.
 - Certifikatbaserade inloggningsuppgifter stöds inte.
 
@@ -152,7 +135,7 @@ För båda alternativen gäller:
 | Var | Vad du kan se |
 |---|---|
 | Dataverse-granskning | Varje post som applikationsanvändaren skapar eller uppdaterar, eller den personifierade användaren om du tilldelar personifiering, om granskning är aktiverad för miljön och tabellen |
-| Inloggningsloggar i Microsoft Entra (inloggningar för tjänstens huvudnamn) | Varje tokenbegäran från appregistreringen |
+| Inloggningsloggar i Microsoft Entra (inloggningar för tjänstens huvudnamn) | Varje tokenbegäran från eMarketeers appregistrering |
 | eMarketeer | Varje anrop till Dataverse API efter att du har anslutit, med endpoint och tid och utan frågesträng. För ett misslyckat anrop även hela URL:en, anropets innehåll och felsvaret. Tillgängligt från eMarketeers support på begäran. |
 
 eMarketeer sparar sin anropslogg och fellogg i 180 dagar och tar bort dem inom några dagar därefter. Applikationsloggar, som kan innehålla anrops-URL:er, felsvar från Dataverse och kontakters e-postadresser, sparas i 30 dagar.
@@ -164,9 +147,8 @@ Du kan stoppa all åtkomst när som helst, utan att kontakta eMarketeer. Gör n�
 - Inaktivera eMarketeers applikationsanvändare i Power Platform admin center.
 - Ta bort dess säkerhetsroller.
 - Ta bort eMarketeers företagsprogram i Microsoft Entra ID.
-- Om du använder din egen appregistrering: ta bort dess klienthemlighet.
 
-Om du inaktiverar applikationsanvändaren eller tar bort dess roller avvisar Dataverse nästa anrop. Om du tar bort företagsprogrammet eller klienthemligheten kan eMarketeer inte få en ny token. Den aktuella token fungerar tills den upphör att gälla, som längst ungefär 90 minuter senare.
+Om du inaktiverar applikationsanvändaren eller tar bort dess roller avvisar Dataverse nästa anrop. Om du tar bort företagsprogrammet kan eMarketeer inte få en ny token. Den aktuella token fungerar tills den upphör att gälla, som längst ungefär 90 minuter senare.
 
 ## Behörigheter per funktion
 

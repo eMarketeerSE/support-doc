@@ -58,17 +58,3 @@ Välj den organisation (miljö) du vill integrera med och klicka på **Continue*
 ## Tilldela mindre än System Administrator
 
 App-användaren behöver inte rollen System Administrator. Om du vill ge den enbart de behörigheter integrationen använder bygger du en anpassad roll utifrån [Dynamics - Obligatoriska behörigheter](dynamics-permissions.md) och tilldelar den rollen i steg 1.
-
-## Använd din egen appregistrering (valfritt)
-
-Som standard tillhör app-användaren eMarketeers appregistrering, som alla eMarketeer-kunder delar. Du kan i stället använda en app som du registrerar i din egen Microsoft Entra-klientorganisation. Dess klienthemlighet ger då åtkomst enbart till din miljö. Se [Säkerhetskontroller](dynamics-permissions.md#säkerhetskontroller) för skillnaden.
-
-1. Registrera en ny app i Microsoft Entra admin center. Välj **Accounts in this organizational directory only**.
-2. Öppna **Certificates & secrets** för appen och skapa en klienthemlighet. Kopiera dess värde.
-3. Följ steg 1 ovan, men välj din egen app i stället för **eMarketeer Marketing Cloud** när du skapar app-användaren. Du kan hoppa över consent-URL:en. Om din klientorganisation inte låter användare ge samtycke till appar öppnar du consent-URL:en först, eftersom inloggningen i steg 3 använder eMarketeers app.
-4. Följ steg 3 ovan. När du har valt organisation aktiverar du **Use your own app registration**.
-5. Ange **Application (client) ID** och **Client secret** och klicka sedan på **Continue**.
-
-Du loggar fortfarande in med ditt Microsoft-konto via eMarketeers app i steg 3. Den inloggningen hittar bara dina miljöer. Den ger inte eMarketeer någon åtkomst till data i din miljö.
-
-Du ansvarar för klienthemlighetens giltighetstid och rotation. Skapa en ny hemlighet innan den går ut, och anslut på nytt med den.
