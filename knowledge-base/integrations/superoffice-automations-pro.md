@@ -54,7 +54,9 @@ Check the interests you want to unset. If the contact has an external ID, the in
 
 ### Add to project
 
-Adds the contact to a project you specify when setting up the automation.
+Adds the contact to a project you specify when setting up the automation. You can also choose a **Project member function**, such as Invited, Registered or Attended. If the contact is already in the project, their function is updated. If you don't choose a function, the contact's function is not changed.
+
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/superoffice-automations-pro-add-to-project.png" alt="Add to project automation settings with the automation name, project name, Project member function and Do only once per contact"></div>
 
 ### Remove from project
 
