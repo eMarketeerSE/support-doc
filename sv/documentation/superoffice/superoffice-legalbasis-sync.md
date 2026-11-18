@@ -21,6 +21,12 @@ Om din integration redan körs utan synk behöver du inaktivera den helt och akt
 
 När samtyckessynk är aktiverad körs den var 30:e minut och varje gång du skickar ett e-postmeddelande eller SMS.
 
+Synken körs också för en enskild kontakt direkt efter att du delar den med **Share to CRM** på kontaktkortet, eller importerar den från SuperOffice. För varje kontakt jämförs samtycket i båda systemen:
+
+* Samtycke som bara finns i eMarketeer skrivs till SuperOffice.
+* Samtycke som bara finns i SuperOffice skrivs till eMarketeer.
+* Samtycke i båda systemen: den senaste ändringen vinner.
+
 För en kampanj kontrollerar eMarketeer legal basis för varje kontakt i båda systemen i "Checklist"-steget. Det system med den senaste ändringen vinner, och det andra systemet uppdateras för att matcha.
 
 Synken täcker både ändamålen "Store and process" och "Marketing sendouts".
@@ -33,7 +39,7 @@ För att inaktivera synken, inaktivera integrationen. Välj "None" i inställnin
 
 **Med synk aktiverad, kommer eMarketeer och SuperOffice CRM alltid att vara 100 % synkade?**
 
-Nej. eMarketeer synkar samtyckesdata var 30:e minut, och på de kontakter du skickar e-post eller SMS till vid själva sändningstillfället.
+Nej. eMarketeer synkar samtyckesdata var 30:e minut, när du delar eller importerar en kontakt, och på de kontakter du skickar e-post eller SMS till vid själva sändningstillfället.
 
 **Vad händer med dubbletter av e-postadresser i eMarketeer kontra SuperOffice?**
 

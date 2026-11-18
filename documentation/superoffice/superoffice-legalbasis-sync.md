@@ -21,6 +21,12 @@ If your integration is already running without sync, you need to disable it enti
 
 When consent sync is enabled, it runs every 30 minutes and every time you send an email or SMS.
 
+The sync also runs for a single contact right after you share it with **Share to CRM** on the contact card, or import it from SuperOffice. For each contact, it compares the consent in both systems:
+
+* Consent only in eMarketeer is written to SuperOffice.
+* Consent only in SuperOffice is written to eMarketeer.
+* Consent in both systems: the most recent change wins.
+
 For a campaign, eMarketeer checks the legal basis for each contact in both systems at the "Checklist" stage. The system with the most recent change wins, and the other system is updated to match.
 
 The sync covers both the "Store and process" and "Marketing sendouts" purposes.
@@ -33,7 +39,7 @@ To disable the sync, disable the integration. Select "None" in the SuperOffice C
 
 **With sync activated, will eMarketeer and SuperOffice CRM always be 100% in sync?**
 
-No. eMarketeer syncs consent data every 30 minutes, and on the contacts you send emails or SMS to at the point of sending.
+No. eMarketeer syncs consent data every 30 minutes, when you share or import a contact, and on the contacts you send emails or SMS to at the point of sending.
 
 **What happens to duplicate email addresses in eMarketeer vs SuperOffice?**
 
