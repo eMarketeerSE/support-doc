@@ -18,8 +18,8 @@ MFA works by requiring extra verification information. A common factor is a one-
 
 ## Enable MFA for your user account
 
-1. In eMarketeer, go to **Account settings** and open **Edit my account**.
-2. Click to enable MFA.
+1. Click your avatar at the top right and choose **My Profile**.
+2. Open the **Security** tab and switch on **Multi-factor authentication**.
 
 MFA is set to disabled by default unless your administrator has enforced it for everyone on the account. The next time you sign in, you are prompted to configure your authenticator. To do it now, sign out and sign back in.
 
