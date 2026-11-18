@@ -32,6 +32,8 @@ Data som skickas in via ett Contact field sparas både som formulärsvarsdata oc
 
 Ett formulär som innehåller ett **Contact field: Email** skapar en ny kontakt eller matchar mot en befintlig när formuläret skickas in.
 
+E-postfrågan är obligatorisk som standard, både i formulärmallar och när du lägger till den i ett formulär. För att göra den valfri markerar du frågan och stänger av **Required**. Om respondenten då lämnar den tom sparas svaret ändå och visas i formulärrapporten, men det kopplas inte till någon kontakt. Om hen fyller i den måste e-postadressen vara giltig.
+
 Contact fields förifyller data från kontaktdatabasen om respondenten är känd — till exempel när hen öppnar formuläret via en personlig länk.
 
 Tillgängliga fält: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.

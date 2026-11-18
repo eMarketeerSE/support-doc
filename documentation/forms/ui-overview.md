@@ -32,6 +32,8 @@ Data submitted through a Contact field is saved both as form answer data and as 
 
 A form that includes a **Contact field: Email** will create a new contact or match against an existing one when the form is submitted.
 
+The email question is required by default, both in form templates and when you add it to a form. To make it optional, select the question and turn off **Required**. If a respondent then leaves it empty, the answer is still saved and shown in the form report, but it isn't linked to a contact. If they fill it in, the email address must be valid.
+
 Contact fields are pre-populated from the contact database if the respondent is known — for example, when they open the form through a personalized link.
 
 Available fields: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
