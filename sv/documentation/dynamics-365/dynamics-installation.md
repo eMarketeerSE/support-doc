@@ -39,7 +39,7 @@ För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskn
 
 Denna åtgärd kräver rollen Administrator.
 
-I eMarketeer klickar du på kugghjulsikonen uppe till höger, väljer **Account Settings**, öppnar **Integrations** och klickar på **Manage** på kortet **Microsoft Dynamics 365**.
+I eMarketeer klickar du på kugghjulsikonen uppe till höger, väljer **Account settings**, öppnar **Integrations** och klickar på **Manage** på kortet **Microsoft Dynamics 365**.
 
 Klicka på **Connect to Dynamics 365**.
 
@@ -65,10 +65,10 @@ Som standard tillhör app-användaren eMarketeers appregistrering, som alla eMar
 
 1. Registrera en ny app i Microsoft Entra admin center. Välj **Accounts in this organizational directory only**.
 2. Öppna **Certificates & secrets** för appen och skapa en klienthemlighet. Kopiera dess värde.
-3. Följ steg 1 ovan, men välj din egen app i stället för **eMarketeer Marketing Cloud** när du skapar app-användaren.
+3. Följ steg 1 ovan, men välj din egen app i stället för **eMarketeer Marketing Cloud** när du skapar app-användaren. Du kan hoppa över consent-URL:en. Om din klientorganisation inte låter användare ge samtycke till appar öppnar du consent-URL:en först, eftersom inloggningen i steg 3 använder eMarketeers app.
 4. Följ steg 3 ovan. När du har valt organisation aktiverar du **Use your own app registration**.
 5. Ange **Application (client) ID** och **Client secret** och klicka sedan på **Continue**.
 
-Du loggar fortfarande in med ditt Microsoft-konto via eMarketeers app i steg 3. Den inloggningen hittar bara dina miljöer. Den ger inte eMarketeer någon stående åtkomst.
+Du loggar fortfarande in med ditt Microsoft-konto via eMarketeers app i steg 3. Den inloggningen hittar bara dina miljöer. Den ger inte eMarketeer någon åtkomst till data i din miljö.
 
 Du ansvarar för klienthemlighetens giltighetstid och rotation. Skapa en ny hemlighet innan den går ut, och anslut på nytt med den.

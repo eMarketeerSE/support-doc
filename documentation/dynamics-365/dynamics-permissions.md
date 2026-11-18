@@ -10,21 +10,21 @@ This article lists every permission the eMarketeer integration needs inside your
 
 ## How the integration connects
 
-eMarketeer accesses your environment through an application user using the standard Dataverse Web API (`api/data/v9.2`). Authentication is server-to-server OAuth (client credentials) against Microsoft Entra ID, scoped to your Dataverse environment URL. No Microsoft Graph permissions are used or requested. The only scope the integration asks for is `https://<yourenvironment>.crm.dynamics.com/.default`.
+eMarketeer accesses your environment through an application user using the standard Dataverse Web API (`api/data/v9.2`). Authentication is server-to-server OAuth (client credentials) against Microsoft Entra ID, scoped to your Dataverse environment URL. The application user's token request asks for one scope: `<your environment URL>/.default`. It asks for no Microsoft Graph scope.
 
-During the initial connection, the integration makes one call to the Dynamics global discovery service (`globaldisco.crm.dynamics.com`) with the connecting administrator's own signed-in token, to find the environment being connected. After that, only the application user is used.
+Each time you connect, the administrator's browser and eMarketeer's backend each call the Dynamics global discovery service (`globaldisco.crm.dynamics.com`) once, with the administrator's own signed-in token, to find the environment. After that, only the application user is used.
 
 The integration reads and writes records regardless of who owns them, so privileges must be granted with **Organization scope**. A narrower scope (own records only, or one business unit) would hide records owned by other users and break syncs and exports.
 
 ## What the integration does not do
 
-- It never deletes your Contacts, Leads, Accounts, activities, or marketing lists.
+- No feature of the integration deletes your Contacts, Leads, Accounts, activities, or marketing lists. The recommended role has no Delete privilege on these tables.
 - The only field it ever changes on your Contacts outside of an explicit export is `donotbulkemail` (email consent), described in the [Consent sync](#6-consent-sync) use case.
 - It creates no records in your environment except the ones described in the use cases below.
 
 ## All permissions at a glance
 
-The table below is the complete set: the integration's security role needs these privileges and no others. Entries marked *connect/disconnect only* are used only while installing, upgrading, or removing the integration, and you can [remove them after connecting](#remove-the-install-time-privileges-after-connecting-optional).
+The table below is the complete set: the integration's security role needs these privileges. Entries marked *connect/disconnect only* are used only while installing, upgrading, or removing the integration, and you can [remove them after connecting](#remove-the-install-time-privileges-after-connecting-optional).
 
 | Table / component | Access needed | Privileges |
 |---|---|---|
@@ -34,18 +34,20 @@ The table below is the complete set: the integration's security role needs these
 | Marketing List (`list`) | Read, Write, Append To | `prvReadList`, `prvWriteList`, `prvAppendToList` |
 | Activities (Task, Phone Call) | Create, Append, Assign | `prvCreateActivity`, `prvAppendActivity`, `prvAssignActivity` (for setting the activity owner when impersonation is not granted) |
 | User (`systemuser`) | Read, Append To | `prvReadUser`, `prvAppendToUser` |
+| User settings (`usersettings`) | Read | `prvReadUserSettings` (to read the time zone for activity due dates) |
 | Security Role (`role`) | Read | `prvReadRole` |
 | Auditing (`audit`) | Read audit log | `prvReadRecordAuditHistory`, `prvReadAuditSummary` (corresponds to the "View Audit History" and "View Audit Summary" UI checkboxes) |
 | eMarketeer Subscriptions (`em_subscriptions`, custom) | Read, Create, Write, Delete, Append, Append To | `prvReadem_subscriptions`, `prvCreateem_subscriptions`, `prvWriteem_subscriptions`, `prvDeleteem_subscriptions`, `prvAppendem_subscriptions`, `prvAppendToem_subscriptions` |
 | eMarketeer Subscription Categories (`em_subscriptioncategories`, custom) | Read, Create, Write, Delete, Append To | `prvReadem_subscriptioncategories`, `prvCreateem_subscriptioncategories`, `prvWriteem_subscriptioncategories`, `prvDeleteem_subscriptioncategories`, `prvAppendToem_subscriptioncategories` |
 | Act on Behalf of Another User — *optional* | Execute | `prvActOnBehalfOfAnotherUser`. Leave it out unless you want activities to show the chosen user as creator. See [Impersonation](#impersonation). |
 | Publisher (`publisher`) — *connect/disconnect only* | Read, Create | `prvReadPublisher`, `prvCreatePublisher` |
-| Table definitions (metadata) — *connect/disconnect only* | Read, Create, Delete | `prvReadEntity`, `prvCreateEntity`, `prvDeleteEntity`, `prvCreateAttribute` |
+| Table definitions (metadata) | Read | `prvReadEntity`, `prvReadAttribute` (consent sync reads the Contact table definition on every run) |
+| Table definitions (metadata) — *connect/disconnect only* | Create | `prvCreateEntity`, `prvCreateAttribute` |
 | Alternate keys (metadata) — *connect/disconnect only* | Read, Create | `prvReadEntityKey`, `prvCreateEntityKey` |
 | Table relationships (metadata) — *connect/disconnect only* | Read, Create | `prvReadRelationship`, `prvCreateRelationship` |
 | System views (`savedqueries`) — *connect/disconnect only* | Read, Create | `prvReadCustomization`, `prvWriteCustomization` (Dataverse has no dedicated savedquery privilege) |
 | Forms (`systemforms`) — *connect/disconnect only* | Read, Write | `prvReadSystemForm`, `prvWriteSystemForm` |
-| Web resources (`webresourceset`) — *connect/disconnect only* | Read, Create, Write, Delete | `prvReadWebResource`, `prvCreateWebResource`, `prvWriteWebResource`, `prvDeleteWebResource` |
+| Web resources (`webresourceset`) — *connect/disconnect only* | Read, Create, Write | `prvReadWebResource`, `prvCreateWebResource`, `prvWriteWebResource` |
 | Webhook endpoints (`serviceendpoints`) — *connect/disconnect only* | Read, Create, Write, Delete | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint`, `prvWriteServiceEndpoint` (to set the webhook key on reconnect), `prvDeleteServiceEndpoint` |
 | Webhook registration steps (`sdkmessageprocessingsteps`, `sdkmessages`) — *connect/disconnect only* | Read, Create, Delete | `prvReadSdkMessage`, `prvReadSdkMessageProcessingStep`, `prvCreateSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep` |
 | Publish customizations — *connect/disconnect only* | Execute | `prvPublishCustomization` |
@@ -72,7 +74,7 @@ In the security-role editor, the privileges are found here:
 
 We advise against approximating this with built-in roles such as Salesperson, Marketing Professional, or System Customizer. They include broad rights (deleting records, sharing, bulk operations, unrestricted customization) that the integration never exercises, which defeats the purpose of moving away from System Administrator.
 
-After assigning the role, run the connection test in eMarketeer. It verifies the application user can reach the required tables. Dataverse names the missing privilege in the error whenever a call is denied, so any gap that surfaces later is straightforward to trace back to a specific role entry.
+After assigning the role, connect in eMarketeer. The connection checks that the application user exists and can see the Contact, Account and User tables. It does not check each privilege. Dataverse names the missing privilege in the error whenever a call is denied, so any gap that surfaces later is straightforward to trace back to a specific role entry.
 
 ### Remove the install-time privileges after connecting (optional)
 
@@ -84,7 +86,8 @@ If you want the smallest standing access, split the privileges into two roles:
 2. Create a second role, for example "eMarketeer Installer", with only those entries.
 3. Assign both roles to the application user.
 4. Connect the integration in eMarketeer.
-5. Remove the "eMarketeer Installer" role from the application user.
+5. Wait until the subscriptions section and the contact card panel show in Dynamics. The installation runs in the background after you connect.
+6. Remove the "eMarketeer Installer" role from the application user.
 
 Assign the installer role again before you reconnect, upgrade, or disconnect the integration. Day-to-day use (use cases 3 to 8) needs only the first role.
 
@@ -97,7 +100,7 @@ This section describes how the access is identified, protected, and audited, and
 | Step | Identity | Authorization |
 |---|---|---|
 | Finding the environment, during connection only | Your administrator, signed in with their own Microsoft account | Their own Dynamics access |
-| Every other call | The eMarketeer application user in your environment | The security role you assign to it, and nothing else |
+| Every other call | The eMarketeer application user in your environment | The security role you assign to it, and nothing else, unless you grant the optional impersonation privilege |
 
 - The administrator's sign-in token is valid only for the Dynamics discovery service. It cannot read data in your environment, and eMarketeer does not store it.
 - The application user's token is scoped to your Dataverse environment URL only. It grants no access to Microsoft Graph, Exchange, SharePoint, or any other environment.
@@ -117,7 +120,7 @@ You choose which app registration the application user belongs to:
 | Option | App registration | Who holds the client secret | What a leaked secret exposes |
 |---|---|---|---|
 | Default | eMarketeer's multi-tenant app | eMarketeer | Every environment that consented to that app |
-| Your own app registration | An app you register in your own Microsoft Entra tenant | You create it; eMarketeer stores a copy for your account only | Your environment only |
+| Your own app registration | An app you register in your own Microsoft Entra tenant | You create it; eMarketeer stores a copy for your account only | Only what you granted that app |
 
 To use your own app registration:
 
@@ -130,8 +133,8 @@ You own the expiry and rotation of that secret. To rotate it, create a new secre
 
 For both options:
 
-- The secret never leaves eMarketeer's AWS environment and is never sent to a browser.
-- eMarketeer encrypts stored client secrets and cached access tokens with a dedicated AWS KMS key. AWS CloudTrail records every use of that key.
+- eMarketeer sends the secret only to Microsoft Entra ID, to request tokens. eMarketeer never sends it back to a browser.
+- eMarketeer encrypts the stored copy of your client secret and the cached access tokens at rest with a dedicated AWS KMS key.
 - Access tokens come from Microsoft Entra ID and expire after about one hour.
 - Certificate-based credentials are not supported.
 
@@ -139,19 +142,19 @@ For both options:
 
 - All calls go over HTTPS to `login.microsoftonline.com`, `globaldisco.crm.dynamics.com`, and your Dataverse environment URL.
 - The integration validates the server certificate on every call.
-- All calls to your environment come from one fixed IP address. Ask eMarketeer support for it if you want to restrict the application user by IP, for example with the Power Platform IP firewall.
-- Your environment calls eMarketeer back only through the webhook registered in use case 1. Each environment gets its own webhook key, and eMarketeer rejects calls with a key issued to another environment.
-- eMarketeer stores and processes the data in the AWS region `eu-west-1` (Ireland).
+- All calls to your environment come from a small, fixed set of IP addresses. Ask eMarketeer support for them if you want to restrict the application user by IP, for example with the Power Platform IP firewall.
+- Your environment calls eMarketeer back only through the webhook registered in use case 1. Each environment gets its own webhook key.
+- The integration service runs in the AWS region `eu-west-1` (Ireland).
 
 ### Audit
 
 | Where | What you can see |
 |---|---|
-| Dataverse auditing | Every create and update made by the application user, with its user name, if auditing is on for the table |
+| Dataverse auditing | Every create and update made by the application user, or by the impersonated user if you grant impersonation, if auditing is on for the environment and the table |
 | Microsoft Entra sign-in logs (service principal sign-ins) | Every token request made by the app registration |
-| eMarketeer | Every Dataverse API call, with endpoint and time. Query strings, such as email filters, are not stored. Available from eMarketeer support on request. |
+| eMarketeer | Every Dataverse API call made after you connect, with endpoint and time and no query string. For a failed call, also the full URL, the request body and the error response. Available from eMarketeer support on request. |
 
-eMarketeer keeps its call log and error log for 180 days, then deletes them. Application logs, which can contain request URLs and error responses from Dataverse, are kept for 30 days.
+eMarketeer keeps its call log and error log for 180 days and deletes them within a few days after that. Application logs, which can contain request URLs, error responses from Dataverse and contact email addresses, are kept for 30 days.
 
 ### Revoke access
 
@@ -162,7 +165,7 @@ You can stop all access at any time, without contacting eMarketeer. Do one of th
 - Delete the eMarketeer enterprise application in Microsoft Entra ID.
 - If you use your own app registration, delete its client secret.
 
-The next call from eMarketeer then fails. Existing tokens stop working within about one hour.
+If you disable the application user or remove its roles, Dataverse rejects the next call. If you delete the enterprise application or the client secret, eMarketeer cannot get a new token. The current token works until it expires, at most about 90 minutes later.
 
 ## Permissions by feature
 
@@ -198,19 +201,17 @@ Runs once, when your administrator connects Dynamics 365 to eMarketeer. The inte
 
 ### 2. Disconnecting and uninstalling
 
-Runs once, if you disconnect the integration. Removes everything use case 1 installed.
+Runs once, if you disconnect the integration. Removes the webhook registrations. The two custom tables, the contact card panel, the subscriptions view and the form section stay in your environment. Remove them yourself if you no longer want them.
 
 **Trigger:** user-initiated. Runs only when your administrator disconnects the integration.
 
-**Tables accessed:** service endpoints, SDK message registrations, table definitions (metadata), web resources.
+**Tables accessed:** service endpoints, SDK message registrations.
 
-**Privileges required:** `prvReadSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep`; `prvReadServiceEndpoint`, `prvDeleteServiceEndpoint`; `prvReadWebResource`, `prvDeleteWebResource`; `prvReadEntity`, `prvDeleteEntity`. Uninstall-time only.
+**Privileges required:** `prvReadSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep`; `prvReadServiceEndpoint`, `prvDeleteServiceEndpoint`. Uninstall-time only.
 
 | What happens | Table | Access | Privilege |
 |---|---|---|---|
 | Remove the webhook registrations | sdkmessageprocessingstep, serviceendpoint | Read + Delete | `prvReadSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep`, `prvReadServiceEndpoint`, `prvDeleteServiceEndpoint` |
-| Remove the two custom subscription tables | metadata | Read + Delete | `prvReadEntity`, `prvDeleteEntity` |
-| Remove the contact-card panel | webresource | Read + Delete | `prvReadWebResource`, `prvDeleteWebResource` |
 
 ### 3. Exporting contacts and leads to Dynamics
 
@@ -249,6 +250,7 @@ eMarketeer automation steps write Tasks and Phone Calls onto the matching Lead o
 | Create a Task on the record | task | Create | `prvCreateActivity`, `prvAppendActivity`, `prvAppendToLead` / `prvAppendToContact` |
 | Create a Phone Call on the record | phonecall, activityparty | Create | same as Task, plus `prvAppendToUser` |
 | Read the owner's Entra ID object id (for attribution) | systemuser | Read | `prvReadUser` |
+| Read the application user's time zone, to set due dates | usersettings, timezonedefinition | Read | `prvReadUserSettings` |
 | Check whether impersonation is granted | systemuser | Read | `prvReadUser`, `prvReadRole` |
 | Without impersonation: set the chosen user as owner | task, phonecall | Assign | `prvAssignActivity` |
 | With impersonation: create the activity as the chosen user | — | — | `prvActOnBehalfOfAnotherUser` (optional) |
@@ -356,7 +358,7 @@ Data subjects are limited to the contacts and leads your team chooses to manage 
 
 ## Complete API call reference
 
-This table lists every Dataverse Web API call the integration makes. Calls marked *connect only* or *disconnect only* run only during use cases 1 and 2.
+This table lists the Dataverse Web API calls the integration makes. Calls marked *connect only* or *disconnect only* run only during use cases 1 and 2.
 
 | HTTP call | Table | Access | Privilege required |
 |---|---|---|---|
@@ -380,6 +382,7 @@ This table lists every Dataverse Web API call the integration makes. Calls marke
 | `GET /lists(id)` | list | Read | `prvReadList` |
 | `GET /lists(id)?$expand=listcontact_association / listlead_association` | list, contact, lead | Read | `prvReadList` + `prvReadContact` / `prvReadLead` |
 | `GET /contacts?fetchXml=...` (runs a dynamic list's stored query) | contact | Read | `prvReadContact` |
+| `GET /leads?fetchXml=...` (runs a dynamic lead list's stored query) | lead | Read | `prvReadLead` |
 | `POST /AddListMembersList` | list, contact, lead | Update (association) | `prvWriteList` + `prvAppendToList` + `prvAppendContact` / `prvAppendLead` |
 | `POST /tasks` | task | Create | `prvCreateActivity` + `prvAppendActivity` + `prvAppendToLead` / `prvAppendToContact` |
 | `POST /phonecalls` | phonecall, activityparty | Create | same as tasks + `prvAppendToUser` |
@@ -387,6 +390,8 @@ This table lists every Dataverse Web API call the integration makes. Calls marke
 | `CallerObjectId` header on `POST /tasks` / `/phonecalls`, only if granted | — | — | `prvActOnBehalfOfAnotherUser` (optional) |
 | `GET /systemusers?$select=...&$filter=...` | systemuser | Read | `prvReadUser` |
 | `GET /systemusers(id)?$select=azureactivedirectoryobjectid` | systemuser | Read | `prvReadUser` |
+| `GET /usersettingscollection(id)?$select=timezonecode` | usersettings | Read | `prvReadUserSettings` |
+| `GET /timezonedefinitions?$filter=...` | timezonedefinition | Read | none |
 | `GET /privileges?$filter=...`; `GET /roles?$filter=...` | privilege, role | Read | `prvReadRole` (the privilege table has no dedicated read privilege) |
 | `GET /audits?$select=...&$filter=objecttypecode eq 'contact' and ...` | audit | Read | `prvReadRecordAuditHistory` + `prvReadAuditSummary` |
 | `GET /RetrieveAvailableLanguages()` | — | Read | none |
@@ -400,7 +405,6 @@ This table lists every Dataverse Web API call the integration makes. Calls marke
 | `GET` / `POST /EntityDefinitions` — *connect only* | metadata | Read + Create | `prvReadEntity` + `prvCreateEntity` + `prvCreateAttribute` |
 | `GET` / `POST /EntityDefinitions(...)/Keys` — *connect only* | metadata | Read + Create | `prvReadEntityKey` + `prvCreateEntityKey` |
 | `GET` / `POST /RelationshipDefinitions` — *connect only* | metadata | Read + Create | `prvReadRelationship` + `prvCreateRelationship` |
-| `GET /EntityDefinitions`; `DELETE /EntityDefinitions(id)` — *disconnect only* | metadata | Read + Delete | `prvReadEntity` + `prvDeleteEntity` |
 | `GET` / `POST /savedqueries` — *connect only* | savedquery | Read + Create | `prvReadCustomization` / `prvWriteCustomization` |
 | `GET /systemforms?$filter=...`; `PATCH /systemforms(id)` — *connect only* | systemform | Read + Update | `prvReadSystemForm` / `prvWriteSystemForm` |
 | `POST /PublishXml` — *connect only* | — | Execute | `prvPublishCustomization` |
@@ -409,9 +413,8 @@ This table lists every Dataverse Web API call the integration makes. Calls marke
 | `GET /sdkmessages`; `GET /sdkmessagefilters` — *connect only* | sdkmessage, sdkmessagefilter | Read | `prvReadSdkMessage` |
 | `GET` / `POST /sdkmessageprocessingsteps` — *connect only* | sdkmessageprocessingstep | Read + Create | `prvReadSdkMessageProcessingStep` + `prvCreateSdkMessageProcessingStep` |
 | `GET` + `DELETE /sdkmessageprocessingsteps(id)`; `GET` + `DELETE /serviceendpoints(id)` — *disconnect only* | sdkmessageprocessingstep, serviceendpoint | Read + Delete | `prvReadSdkMessageProcessingStep` + `prvDeleteSdkMessageProcessingStep`; `prvReadServiceEndpoint` + `prvDeleteServiceEndpoint` |
-| `GET /webresourceset?$filter=...` — *connect/disconnect only* | webresource | Read | `prvReadWebResource` |
+| `GET /webresourceset?$filter=...` — *connect only* | webresource | Read | `prvReadWebResource` |
 | `POST` / `PATCH /webresourceset(id)` — *connect only* | webresource | Create + Update | `prvCreateWebResource` / `prvWriteWebResource` |
-| `DELETE /webresourceset(id)` — *disconnect only* | webresource | Delete | `prvDeleteWebResource` |
 | `GET /WhoAmI()` — *connect only* | — | Read | none |
 | `GET /api/data/v9.2/` (service document) — *connect only* | — | Read | none |
 | `GET /EntityDefinitions(LogicalName='contact')?$select=IsAuditEnabled` — *connect only* | metadata | Read | `prvReadEntity` |

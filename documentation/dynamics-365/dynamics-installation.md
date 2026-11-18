@@ -39,7 +39,7 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 
 This action requires the Administrator role.
 
-In eMarketeer, click the gear icon at the top right, choose **Account Settings**, open **Integrations**, and click **Manage** on the **Microsoft Dynamics 365** card.
+In eMarketeer, click the gear icon at the top right, choose **Account settings**, open **Integrations**, and click **Manage** on the **Microsoft Dynamics 365** card.
 
 Click **Connect to Dynamics 365**.
 
@@ -65,10 +65,10 @@ By default, the app user belongs to eMarketeer's app registration, which all eMa
 
 1. In the Microsoft Entra admin center, register a new app. Choose **Accounts in this organizational directory only**.
 2. Open **Certificates & secrets** for the app and create a client secret. Copy its value.
-3. Follow step 1 above, but choose your own app instead of **eMarketeer Marketing Cloud** when you create the app user.
+3. Follow step 1 above, but choose your own app instead of **eMarketeer Marketing Cloud** when you create the app user. You can skip the consent URL. If your tenant does not let users consent to apps, open the consent URL first, because the sign-in in step 3 uses eMarketeer's app.
 4. Follow step 3 above. After you choose the organization, turn on **Use your own app registration**.
 5. Enter the **Application (client) ID** and the **Client secret**, then click **Continue**.
 
-You still sign in with your Microsoft account through eMarketeer's app in step 3. That sign-in only finds your environments. It gives eMarketeer no standing access.
+You still sign in with your Microsoft account through eMarketeer's app in step 3. That sign-in only finds your environments. It gives eMarketeer no access to the data in your environment.
 
 You own the expiry and rotation of the client secret. Before it expires, create a new secret and connect again with it.
