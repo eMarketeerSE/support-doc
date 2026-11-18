@@ -94,7 +94,7 @@ eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperO
 
 ### Det här uppdaterar fortfarande alla kontakter
 
-Avregistreringar, studsar och importer uppdaterar fortfarande alla kontakter med e-postadressen. Formulärsvar och signaler uppdaterar också fälten på alla kontakter med e-postadressen.
+Avregistreringar, studsar och importer uppdaterar fortfarande alla kontakter med e-postadressen. Signaler uppdaterar också fälten på alla kontakter med e-postadressen.
 
 En import som är inställd på att inte uppdatera befintliga kontakter ändrar ingen av dem. Den lägger bara till kontakten som eMarketeer väljer i importens lista och taggar, så listan har en kontakt per e-postadress.
 

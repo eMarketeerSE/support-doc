@@ -94,7 +94,7 @@ eMarketeer uses contact B, because it is linked to a person in SuperOffice.
 
 ### What still updates every contact
 
-Unsubscribes, bounces and imports still update every contact with the email address. Form submissions and signals update the fields of every contact with the email address too.
+Unsubscribes, bounces and imports still update every contact with the email address. Signals update the fields of every contact with the email address too.
 
 An import set to not update existing contacts changes none of them. It adds only the contact that eMarketeer picks to the import's list and tags, so the list has one contact per email address.
 
