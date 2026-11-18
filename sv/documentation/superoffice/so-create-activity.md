@@ -11,11 +11,9 @@ description: >-
 
 **Activity type:** Anger aktivitetstypen. Välj bland de tillgängliga aktivitetstyperna i ditt anslutna SuperOffice-konto.
 
-**Activity title in SuperOffice:** Aktivitetens titel. Skriv @ för att infoga personaliserade kopplingsfält. Titeln är obligatorisk.
+**Activity title in SuperOffice:** Aktivitetens titel. Den sparas i aktivitetens fält **Title** i SuperOffice. Skriv @ för att infoga personaliserade kopplingsfält. Titeln är obligatorisk.
 
-**Activity description in SuperOffice:** En beskrivning för aktiviteten. Skriv @ för att infoga personaliserade kopplingsfält.
-
-När du öppnar aktiviteten i SuperOffice finns titeln i fältet **Title** och beskrivningen i fältet **Agenda**. Kolumnen **Text** på fliken Aktiviteter för kontakter och företag visar titeln följd av beskrivningen.
+**Activity description in SuperOffice:** En beskrivning för aktiviteten. Den sparas i aktivitetens fält **Agenda** i SuperOffice. Skriv @ för att infoga personaliserade kopplingsfält.
 
 **Set activity as completed in SuperOffice:** Välj om aktiviteten ska skapas som slutförd. En ej slutförd aktivitet är mer synlig för den tilldelade SuperOffice-användaren.
 

@@ -10,11 +10,9 @@ description: Journey step that creates an Activity on the matching contact in Su
 
 **Activity type:** Sets the activity type. Choose from the available activity types in your connected SuperOffice account.
 
-**Activity title in SuperOffice:** The title of the activity. Type @ to insert personalized merge fields. The title is required.
+**Activity title in SuperOffice:** The title of the activity. It is saved in the activity's **Title** field in SuperOffice. Type @ to insert personalized merge fields. The title is required.
 
-**Activity description in SuperOffice:** A description for the activity. Type @ to insert personalized merge fields.
-
-When you open the activity in SuperOffice, the title is in the **Title** field and the description is in the **Agenda** field. The **Text** column on the Activity tab for contacts and companies shows the title followed by the description.
+**Activity description in SuperOffice:** A description for the activity. It is saved in the activity's **Agenda** field in SuperOffice. Type @ to insert personalized merge fields.
 
 **Set activity as completed in SuperOffice:** Toggle whether the activity is created as completed. An uncompleted activity is more visible to the assigned SuperOffice user.
 
