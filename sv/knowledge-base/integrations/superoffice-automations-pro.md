@@ -56,8 +56,6 @@ Avmarkera de intressen du vill ta bort. Om kontakten har ett externt ID uppdater
 
 Lägger till kontakten i ett projekt du anger när du skapar automatiseringen. Du kan också välja en **Project member function**, till exempel Invited, Registered eller Attended. Om kontakten redan finns i projektet uppdateras funktionen. Om du inte väljer någon funktion ändras inte kontaktens funktion.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/superoffice-automations-pro-add-to-project.png" alt="Inställningarna för automatiseringen Add to project med automatiseringens namn, projektnamn, Project member function och Do only once per contact"></div>
-
 ### Remove from project
 
 Tar bort kontakten från ett projekt du anger när du skapar automatiseringen.
