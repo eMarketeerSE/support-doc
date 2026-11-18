@@ -54,3 +54,21 @@ Choose the organization (environment) you want to integrate with and click **Con
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-installation-choose-organization.png" alt="List of Dynamics organizations to connect to, with one selected, and the Continue button"></div>
 {% endstep %}
 {% endstepper %}
+
+## Grant less than System Administrator
+
+The app user does not need the System Administrator role. To give it only the privileges the integration uses, build a custom role from [Dynamics - Required permissions](dynamics-permissions.md) and assign that role in step 1.
+
+## Use your own app registration (optional)
+
+By default, the app user belongs to eMarketeer's app registration, which all eMarketeer customers share. You can use an app that you register in your own Microsoft Entra tenant instead. Its client secret then gives access to your environment only. See [Security controls](dynamics-permissions.md#security-controls) for the difference.
+
+1. In the Microsoft Entra admin center, register a new app. Choose **Accounts in this organizational directory only**.
+2. Open **Certificates & secrets** for the app and create a client secret. Copy its value.
+3. Follow step 1 above, but choose your own app instead of **eMarketeer Marketing Cloud** when you create the app user.
+4. Follow step 3 above. After you choose the organization, turn on **Use your own app registration**.
+5. Enter the **Application (client) ID** and the **Client secret**, then click **Continue**.
+
+You still sign in with your Microsoft account through eMarketeer's app in step 3. That sign-in only finds your environments. It gives eMarketeer no standing access.
+
+You own the expiry and rotation of the client secret. Before it expires, create a new secret and connect again with it.
