@@ -154,6 +154,8 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 
 **Consent** Lagrar samtycke på den identifierade kontakten. Använd listan **Consent Type** för att ange syftet: **Store & Process** eller **Marketing**. Consent-frågor är inte obligatoriska som standard — gör dem obligatoriska om kontakten måste ge samtycke innan formuläret skickas in.
 
+För att lägga till en länk, till exempel till din integritetspolicy, markerar du consent-frågan och öppnar Property Grid. I fältet **Question title** markerar du orden som ska bli en länk och klickar på länkikonen i verktygsfältet.
+
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/consent.png" alt="Två Consent-frågor i designytan, en för varje syfte — Store & Process och Marketing."></div>
 
 </details>

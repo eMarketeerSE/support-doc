@@ -154,6 +154,8 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 
 **Consent** Stores consent on the identified contact. Use the **Consent Type** dropdown to set the purpose: **Store & Process** or **Marketing**. Consent questions are not required by default — set them to required if the contact must consent before submitting.
 
+To add a link, for example to your privacy policy, select the consent question and open the Property Grid. In the **Question title** field, select the words you want to link and click the link icon in the toolbar.
+
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/consent.png" alt="Two Consent questions on the design surface, one for each purpose — Store &#x26; Process and Marketing."></div>
 
 </details>
