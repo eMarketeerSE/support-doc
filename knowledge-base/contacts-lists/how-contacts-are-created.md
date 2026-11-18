@@ -67,7 +67,7 @@ You can push custom engagement events from any external system using the Signals
 
 eMarketeer allows several contacts with the same email address. For example, a form can create one contact, and an import from your CRM can create another.
 
-When eMarketeer needs one contact for an email address, it picks the same one everywhere. It uses the first rule that applies:
+When eMarketeer needs one contact for an email address, it picks the same one in the places listed below. It uses the first rule that applies:
 
 1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the contact card, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
 2. A contact that is linked to a person in SuperOffice or Dynamics 365, or to a lead in Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID, or it is linked to a Dynamics 365 lead. If several contacts are linked, eMarketeer uses the oldest of them.
@@ -87,10 +87,10 @@ Two contacts share the email address anna@acme.com:
 
 | Contact | Created | External ID |
 | --- | --- | --- |
-| Contact A | By a form, yesterday | None |
-| Contact B | By an import from SuperOffice, last year | SuperOffice Contact ID |
+| Contact A | By a form, last year | None |
+| Contact B | By an import from SuperOffice, yesterday | SuperOffice Contact ID |
 
-eMarketeer uses contact B, because it is linked to a person in SuperOffice.
+eMarketeer uses contact B, because it is linked to a person in SuperOffice, even though contact A is older.
 
 ### What still updates every contact
 

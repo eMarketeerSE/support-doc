@@ -67,7 +67,7 @@ Du kan skicka anpassade engagemangshändelser från valfritt externt system via 
 
 eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan till exempel skapa en kontakt, och en import från ditt CRM kan skapa en till.
 
-När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt överallt. eMarketeer använder den första regeln som gäller:
+När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt på ställena som listas nedan. eMarketeer använder den första regeln som gäller:
 
 1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från kontaktkortet eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
 2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365, eller till en lead i Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller så är den kopplad till en lead i Dynamics 365. Om flera kontakter är kopplade använder eMarketeer den äldsta av dem.
@@ -87,10 +87,10 @@ Två kontakter har e-postadressen anna@acme.com:
 
 | Kontakt | Skapad | External ID |
 | --- | --- | --- |
-| Kontakt A | Av ett formulär, i går | Inget |
-| Kontakt B | Av en import från SuperOffice, förra året | Contact ID i SuperOffice |
+| Kontakt A | Av ett formulär, förra året | Inget |
+| Kontakt B | Av en import från SuperOffice, i går | Contact ID i SuperOffice |
 
-eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperOffice.
+eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperOffice, trots att kontakt A är äldre.
 
 ### Det här uppdaterar fortfarande alla kontakter
 
