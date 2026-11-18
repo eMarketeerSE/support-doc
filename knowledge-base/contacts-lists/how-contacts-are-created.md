@@ -70,7 +70,7 @@ eMarketeer allows several contacts with the same email address. For example, a f
 When eMarketeer needs one contact for an email address, it picks the same one everywhere. It uses the first rule that applies:
 
 1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the contact card, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
-2. A contact that is linked to a person in SuperOffice or Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID.
+2. A contact that is linked to a person in SuperOffice or Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID. If several contacts are linked, eMarketeer uses the oldest of them.
 3. The oldest contact with that email address.
 
 This applies in these places:
@@ -78,7 +78,8 @@ This applies in these places:
 * The SuperOffice and Dynamics 365 panels.
 * Quick Send.
 * Form links that identify the contact by email address.
-* Contacts created by lead ads.
+* Form submissions that match an existing contact. The answer is saved on this contact.
+* Signals, such as Facebook Lead Forms and LinkedIn Lead Gen Forms. The event is saved on this contact.
 
 ### Example
 
@@ -93,7 +94,9 @@ eMarketeer uses contact B, because it is linked to a person in SuperOffice.
 
 ### What still updates every contact
 
-Unsubscribes, bounces and imports still update every contact with the email address.
+Unsubscribes, bounces and imports still update every contact with the email address. Form submissions and signals update the fields of every contact with the email address too.
+
+An import set to not update existing contacts changes none of them. It adds only the contact that eMarketeer picks to the import's list and tags, so the list has one contact per email address.
 
 ### The CRM badge on the contact card
 

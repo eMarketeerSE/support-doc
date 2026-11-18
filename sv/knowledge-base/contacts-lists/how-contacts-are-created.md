@@ -70,7 +70,7 @@ eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan t
 När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt överallt. eMarketeer använder den första regeln som gäller:
 
 1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från kontaktkortet eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
-2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics.
+2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics. Om flera kontakter är kopplade använder eMarketeer den äldsta av dem.
 3. Den äldsta kontakten med den e-postadressen.
 
 Det gäller på följande ställen:
@@ -78,7 +78,8 @@ Det gäller på följande ställen:
 * SuperOffice- och Dynamics 365-panelerna.
 * Quick Send.
 * Formulärlänkar som identifierar kontakten på e-postadress.
-* Kontakter som skapas av lead ads.
+* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på den här kontakten.
+* Signaler, till exempel Facebook Lead Forms och LinkedIn Lead Gen Forms. Händelsen sparas på den här kontakten.
 
 ### Exempel
 
@@ -93,7 +94,9 @@ eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperO
 
 ### Det här uppdaterar fortfarande alla kontakter
 
-Avregistreringar, studsar och importer uppdaterar fortfarande alla kontakter med e-postadressen.
+Avregistreringar, studsar och importer uppdaterar fortfarande alla kontakter med e-postadressen. Formulärsvar och signaler uppdaterar också fälten på alla kontakter med e-postadressen.
+
+En import som är inställd på att inte uppdatera befintliga kontakter ändrar ingen av dem. Den lägger bara till kontakten som eMarketeer väljer i importens lista och taggar, så listan har en kontakt per e-postadress.
 
 ### CRM-märket på kontaktkortet
 
