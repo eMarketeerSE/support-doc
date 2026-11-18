@@ -70,7 +70,7 @@ eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan t
 När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt överallt. eMarketeer använder den första regeln som gäller:
 
 1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från kontaktkortet eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
-2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics. Om flera kontakter är kopplade använder eMarketeer den äldsta av dem.
+2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365, eller till en lead i Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller så är den kopplad till en lead i Dynamics 365. Om flera kontakter är kopplade använder eMarketeer den äldsta av dem.
 3. Den äldsta kontakten med den e-postadressen.
 
 Det gäller på följande ställen:
@@ -100,4 +100,4 @@ En import som är inställd på att inte uppdatera befintliga kontakter ändrar 
 
 ### CRM-märket på kontaktkortet
 
-Kontaktkortet visar CRM-märket bara när External ID är ett Contact ID i SuperOffice eller ett ID i Dynamics. Ett Contact ID i SuperOffice är ett heltal större än 0. Andra importerade värden, till exempel `007` eller `12.5`, visar inte längre märket.
+Kontaktkortet visar CRM-märket bara när External ID är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller när kontakten är kopplad till en lead i Dynamics 365. Ett Contact ID i SuperOffice är ett heltal större än 0, skrivet utan inledande nollor. Andra importerade värden, till exempel `007` eller `12.5`, visar inte längre märket.

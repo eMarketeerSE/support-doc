@@ -70,7 +70,7 @@ eMarketeer allows several contacts with the same email address. For example, a f
 When eMarketeer needs one contact for an email address, it picks the same one everywhere. It uses the first rule that applies:
 
 1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the contact card, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
-2. A contact that is linked to a person in SuperOffice or Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID. If several contacts are linked, eMarketeer uses the oldest of them.
+2. A contact that is linked to a person in SuperOffice or Dynamics 365, or to a lead in Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID, or it is linked to a Dynamics 365 lead. If several contacts are linked, eMarketeer uses the oldest of them.
 3. The oldest contact with that email address.
 
 This applies in these places:
@@ -100,4 +100,4 @@ An import set to not update existing contacts changes none of them. It adds only
 
 ### The CRM badge on the contact card
 
-The contact card shows the CRM badge only when the External ID is a SuperOffice Contact ID or a Dynamics ID. A SuperOffice Contact ID is a whole number above 0. Other imported values, such as `007` or `12.5`, no longer show the badge.
+The contact card shows the CRM badge only when the External ID is a SuperOffice Contact ID or a Dynamics ID, or when the contact is linked to a Dynamics 365 lead. A SuperOffice Contact ID is a whole number above 0, written with no leading zeros. Other imported values, such as `007` or `12.5`, no longer show the badge.
