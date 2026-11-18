@@ -132,16 +132,18 @@ View, create, update, and delete tags, and assign tags to contacts in bulk.
 
 Send emails and SMS to contacts.
 
+Use the Messages API to send to individual contacts, at most 10 at a time. To send an email to a whole contact list, use the Campaigns API (see [Send](#send) below).
+
 * Base URL: `https://connect.emarketeer.com/messages-api`
 * Browse and test: [Messages definition](https://api-doc.emarketeer.com/?urls.primaryName=Messages)
 
 ### Email
 
-* `POST /v1/email/send` — Send an email to one or more contacts.
+* `POST /v1/email/send` — Send an email to up to 10 contacts.
 
 ### SMS
 
-* `POST /v1/sms/send` — Send an SMS to one or more contacts.
+* `POST /v1/sms/send` — Send an SMS to up to 10 contacts.
 
 ## Campaigns
 
@@ -162,7 +164,7 @@ Copy, rename, and move campaign components, fill in the content of emails and la
 
 ### Send
 
-* `POST /components/{componentType}/{componentId}/send` — Send an email to a contact list, now or at a scheduled time.
+* `POST /components/{componentType}/{componentId}/send` — Send an email to a contact list, now or at a scheduled time. It can leave out contacts who already got this email (`sendOnce`).
 
 ## What to do next
 

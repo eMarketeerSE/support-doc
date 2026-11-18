@@ -29,7 +29,7 @@ Använd exkluderingarna (3) för att filtrera bort kontakter innan du skickar. P
 
 * **Exclude duplicate e-mail addresses:** om utskicket innehåller flera kontakter med samma e-postadress får bara en av dem mejlet. Samma kontakt i flera mottagarkällor räknas alltid som en kontakt.
 * **Exclude inactive recipients:** utesluter kontakter som inte har interagerat med dina mejl på över ett år. Se [Exkludera inaktiva mottagare](exclude-inactive-recipients.md).
-* **Exclude recipients who previously got this e-mail:** om den här e-postkomponenten har skickats tidigare blockeras de kontakter som fick ett tidigare utskick.
+* **Exclude recipients who previously got this e-mail:** om den här e-postkomponenten har skickats tidigare blockeras de kontakter som fick ett tidigare utskick. Campaigns API har samma alternativ (`sendOnce`) när du skickar ett e-postmeddelande till en kontaktlista.
 
 Ett exempel: du skickar mejlet till en lista med 100 kontakter. Dagen efter läggs 5 nya adresser till i listan. Skicka mejlet till hela listan med 105 kontakter och markera rutan, så blockeras de 100 kontakter som redan har fått mejlet.
 

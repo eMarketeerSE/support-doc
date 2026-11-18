@@ -70,7 +70,7 @@ This release brings an updated design to the email, landing page and SMS editors
 ### API
 
 * Contacts API v2 has consistent ids, working pagination and the lists each contact belongs to. Version 1 still works but is deprecated.
-* When you send an email through the Messages API, you can skip contacts who already got it, like the **Exclude recipients who previously got this e-mail** send option. You can also send to a contact list by its ID.
+* When you send an email to a contact list through the Campaigns API, you can skip contacts who already got it, like the **Exclude recipients who previously got this e-mail** send option.
 
 ### Notable fixes
 

@@ -132,16 +132,18 @@ Visa, skapa, uppdatera och radera taggar, och tilldela taggar till kontakter i b
 
 Skicka e-post och SMS till kontakter.
 
+Använd Messages API för att skicka till enskilda kontakter, högst 10 åt gången. För att skicka ett e-postmeddelande till en hel kontaktlista använder du Campaigns API (se [Skicka](#skicka) nedan).
+
 * Bas-URL: `https://connect.emarketeer.com/messages-api`
 * Bläddra och testa: [Messages-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Messages)
 
 ### E-post
 
-* `POST /v1/email/send` — Skicka e-post till en eller flera kontakter.
+* `POST /v1/email/send` — Skicka e-post till upp till 10 kontakter.
 
 ### SMS
 
-* `POST /v1/sms/send` — Skicka SMS till en eller flera kontakter.
+* `POST /v1/sms/send` — Skicka SMS till upp till 10 kontakter.
 
 ## Campaigns
 
@@ -162,7 +164,7 @@ Kopiera, byt namn på och flytta kampanjkomponenter, fyll i innehållet i e-post
 
 ### Skicka
 
-* `POST /components/{componentType}/{componentId}/send` — Skicka ett e-postmeddelande till en kontaktlista, direkt eller vid en schemalagd tidpunkt.
+* `POST /components/{componentType}/{componentId}/send` — Skicka ett e-postmeddelande till en kontaktlista, direkt eller vid en schemalagd tidpunkt. Det kan utesluta kontakter som redan har fått e-postmeddelandet (`sendOnce`).
 
 ## Nästa steg
 
