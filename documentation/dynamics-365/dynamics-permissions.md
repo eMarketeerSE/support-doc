@@ -32,7 +32,7 @@ The table below is the complete set: the integration's security role needs these
 | Lead (`lead`) | Read, Create, Write, Append, Append To | `prvReadLead`, `prvCreateLead`, `prvWriteLead`, `prvAppendLead`, `prvAppendToLead` | 3, 4, 5, 8 |
 | Account (`account`) | Read, Create, Append To, Assign | `prvReadAccount`, `prvCreateAccount`, `prvAppendToAccount`, `prvAssignAccount` (for setting record owners) | 3, 5, 8 |
 | Marketing List (`list`) | Read, Write, Append To | `prvReadList`, `prvWriteList`, `prvAppendToList` | 5 |
-| Activities (Task, Phone Call) | Create, Append, Assign | `prvCreateActivity`, `prvAppendActivity`, `prvAssignActivity` (for setting the activity owner when impersonation is not granted) | 4 |
+| Activities (Task, Phone Call) | Create, Read, Append, Append To, Assign | `prvCreateActivity`, `prvReadActivity`, `prvAppendActivity`, `prvAppendToActivity`, `prvAssignActivity` (for setting the activity owner when impersonation is not granted) | 4 |
 | User (`systemuser`) | Read, Append To | `prvReadUser`, `prvAppendToUser` | 3, 4 |
 | User settings (`usersettings`) | Read | `prvReadUserSettings` (to read the time zone for activity due dates) | 4 |
 | Security Role (`role`) | Read | `prvReadRole` | 3, 4 |
@@ -235,13 +235,13 @@ eMarketeer automation steps write Tasks and Phone Calls onto the matching Lead o
 
 **Tables accessed:** task, phone call, activity party, contact, lead, systemuser.
 
-**Privileges required:** Activity Create/Append; contact and lead Read/Append To; systemuser Read/Append To; Activity Assign, or the optional Act on Behalf of Another User.
+**Privileges required:** Activity Create/Read/Append/Append To; contact and lead Read/Append To; systemuser Read/Append To; Activity Assign, or the optional Act on Behalf of Another User.
 
 | What happens | Table | Access | Privilege |
 |---|---|---|---|
 | Find the Lead/Contact to attach the activity to | contact, lead | Read | `prvReadContact`, `prvReadLead` |
-| Create a Task on the record | task | Create | `prvCreateActivity`, `prvAppendActivity`, `prvAppendToLead` / `prvAppendToContact` |
-| Create a Phone Call on the record | phonecall, activityparty | Create | same as Task, plus `prvAppendToUser` |
+| Create a Task on the record | task | Create | `prvCreateActivity`, `prvReadActivity`, `prvAppendActivity`, `prvAppendToLead` / `prvAppendToContact` |
+| Create a Phone Call on the record | phonecall, activityparty | Create | same as Task, plus `prvAppendToActivity` and `prvAppendToUser` |
 | Read the owner's Entra ID object id (for attribution) | systemuser | Read | `prvReadUser` |
 | Read the application user's time zone, to set due dates | usersettings, timezonedefinition | Read | `prvReadUserSettings` |
 | Check whether impersonation is granted | systemuser | Read | `prvReadUser`, `prvReadRole` |
@@ -377,8 +377,8 @@ This table lists the Dataverse Web API calls the integration makes. Calls marked
 | `GET /contacts?fetchXml=...` (runs a dynamic list's stored query) | contact | Read | `prvReadContact` |
 | `GET /leads?fetchXml=...` (runs a dynamic lead list's stored query) | lead | Read | `prvReadLead` |
 | `POST /AddListMembersList` | list, contact, lead | Update (association) | `prvWriteList` + `prvAppendToList` + `prvAppendContact` / `prvAppendLead` |
-| `POST /tasks` | task | Create | `prvCreateActivity` + `prvAppendActivity` + `prvAppendToLead` / `prvAppendToContact` |
-| `POST /phonecalls` | phonecall, activityparty | Create | same as tasks + `prvAppendToUser` |
+| `POST /tasks` | task | Create | `prvCreateActivity` + `prvReadActivity` + `prvAppendActivity` + `prvAppendToLead` / `prvAppendToContact` |
+| `POST /phonecalls` | phonecall, activityparty | Create | same as tasks + `prvAppendToActivity` + `prvAppendToUser` |
 | `GET /systemusers(id)/Microsoft.Dynamics.CRM.RetrieveUserPrivilegeByPrivilegeName(…)` | systemuser | Read | `prvReadUser`, `prvReadRole` |
 | `CallerObjectId` header on `POST /tasks` / `/phonecalls`, only if granted | — | — | `prvActOnBehalfOfAnotherUser` (optional) |
 | `GET /systemusers?$select=...&$filter=...` | systemuser | Read | `prvReadUser` |

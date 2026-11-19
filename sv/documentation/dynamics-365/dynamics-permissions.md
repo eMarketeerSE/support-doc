@@ -33,7 +33,7 @@ Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsro
 | Lead (`lead`) | Read, Create, Write, Append, Append To | `prvReadLead`, `prvCreateLead`, `prvWriteLead`, `prvAppendLead`, `prvAppendToLead` | 3, 4, 5, 8 |
 | Account (`account`) | Read, Create, Append To, Assign | `prvReadAccount`, `prvCreateAccount`, `prvAppendToAccount`, `prvAssignAccount` (för att sätta postägare) | 3, 5, 8 |
 | Marketing List (`list`) | Read, Write, Append To | `prvReadList`, `prvWriteList`, `prvAppendToList` | 5 |
-| Aktiviteter (Task, Phone Call) | Create, Append, Assign | `prvCreateActivity`, `prvAppendActivity`, `prvAssignActivity` (för att sätta aktivitetens ägare när personifiering inte är tilldelad) | 4 |
+| Aktiviteter (Task, Phone Call) | Create, Read, Append, Append To, Assign | `prvCreateActivity`, `prvReadActivity`, `prvAppendActivity`, `prvAppendToActivity`, `prvAssignActivity` (för att sätta aktivitetens ägare när personifiering inte är tilldelad) | 4 |
 | User (`systemuser`) | Read, Append To | `prvReadUser`, `prvAppendToUser` | 3, 4 |
 | Användarinställningar (`usersettings`) | Read | `prvReadUserSettings` (för att läsa tidszonen för aktiviteters förfallodatum) | 4 |
 | Security Role (`role`) | Read | `prvReadRole` | 3, 4 |
@@ -236,13 +236,13 @@ eMarketeer-automatiseringssteg skriver Tasks och Phone Calls till matchande Lead
 
 **Tabeller som används:** task, phone call, activity party, contact, lead, systemuser.
 
-**Behörigheter som krävs:** Activity Create/Append; contact och lead Read/Append To; systemuser Read/Append To; Activity Assign, eller den valfria Act on Behalf of Another User.
+**Behörigheter som krävs:** Activity Create/Read/Append/Append To; contact och lead Read/Append To; systemuser Read/Append To; Activity Assign, eller den valfria Act on Behalf of Another User.
 
 | Vad som händer | Tabell | Åtkomst | Behörighet |
 |---|---|---|---|
 | Hitta den Lead/Contact som aktiviteten ska kopplas till | contact, lead | Read | `prvReadContact`, `prvReadLead` |
-| Skapa en Task på posten | task | Create | `prvCreateActivity`, `prvAppendActivity`, `prvAppendToLead` / `prvAppendToContact` |
-| Skapa ett Phone Call på posten | phonecall, activityparty | Create | samma som Task, plus `prvAppendToUser` |
+| Skapa en Task på posten | task | Create | `prvCreateActivity`, `prvReadActivity`, `prvAppendActivity`, `prvAppendToLead` / `prvAppendToContact` |
+| Skapa ett Phone Call på posten | phonecall, activityparty | Create | samma som Task, plus `prvAppendToActivity` och `prvAppendToUser` |
 | Läsa ägarens Entra ID-objekt-id (för attribution) | systemuser | Read | `prvReadUser` |
 | Läsa applikationsanvändarens tidszon, för att sätta förfallodatum | usersettings, timezonedefinition | Read | `prvReadUserSettings` |
 | Kontrollera om personifiering är tilldelad | systemuser | Read | `prvReadUser`, `prvReadRole` |
@@ -378,8 +378,8 @@ Den här tabellen listar de Dataverse Web API-anrop som integrationen gör. Anro
 | `GET /contacts?fetchXml=...` (kör en dynamisk listas lagrade fråga) | contact | Read | `prvReadContact` |
 | `GET /leads?fetchXml=...` (kör en dynamisk leadlistas lagrade fråga) | lead | Read | `prvReadLead` |
 | `POST /AddListMembersList` | list, contact, lead | Update (association) | `prvWriteList` + `prvAppendToList` + `prvAppendContact` / `prvAppendLead` |
-| `POST /tasks` | task | Create | `prvCreateActivity` + `prvAppendActivity` + `prvAppendToLead` / `prvAppendToContact` |
-| `POST /phonecalls` | phonecall, activityparty | Create | samma som tasks + `prvAppendToUser` |
+| `POST /tasks` | task | Create | `prvCreateActivity` + `prvReadActivity` + `prvAppendActivity` + `prvAppendToLead` / `prvAppendToContact` |
+| `POST /phonecalls` | phonecall, activityparty | Create | samma som tasks + `prvAppendToActivity` + `prvAppendToUser` |
 | `GET /systemusers(id)/Microsoft.Dynamics.CRM.RetrieveUserPrivilegeByPrivilegeName(…)` | systemuser | Read | `prvReadUser`, `prvReadRole` |
 | `CallerObjectId`-huvud på `POST /tasks` / `/phonecalls`, enbart om behörigheten är tilldelad | — | — | `prvActOnBehalfOfAnotherUser` (valfri) |
 | `GET /systemusers?$select=...&$filter=...` | systemuser | Read | `prvReadUser` |
