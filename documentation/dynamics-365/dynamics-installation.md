@@ -23,13 +23,13 @@ Follow these steps:
 4. Open **Settings → Users + permissions → Application users**.
 5. Click **+ New app user**.
 6. In the app selection screen, choose **eMarketeer Marketing Cloud**. If it is not visible, search using the App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
-7. Assign a security role to the app user. Choose **System Administrator**, or a custom role with only the privileges the integration uses. To build the custom role, see [Dynamics - Required permissions](dynamics-permissions.md).
+7. Assign a security role to the app user. Choose **System Administrator**, or a custom role with only the privileges the integration uses. To build the custom role, follow [Recommended security role](dynamics-permissions.md#recommended-security-role). Two of its tables exist only after you connect, so read the ordering note there first.
 8. Click **Save**.
 {% endstep %}
 {% step %}
 ### Enable auditing for consent sync
 
-To ensure consent data syncs correctly, enable auditing for the Contact table.
+To ensure consent data syncs correctly, enable auditing for the Contact table. This step requires the System Administrator or System Customizer role in the environment.
 
 1. Go to Power Apps at `https://make.powerapps.com`.
 2. Navigate to **Tables → Contact**.

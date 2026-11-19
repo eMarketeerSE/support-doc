@@ -20,12 +20,12 @@ Integrationen läser och skriver poster oavsett vem som äger dem, så behörigh
 ## Vad integrationen inte gör
 
 - Ingen funktion i integrationen tar bort dina kontakter, Leads, konton, aktiviteter eller marknadsföringslistor. Den rekommenderade rollen har ingen Delete-behörighet på de tabellerna.
-- Det enda fält den ändrar på dina kontakter utanför en explicit export är `donotbulkemail` (e-postsamtycke), som beskrivs i användningsfallet [Samtyckessynk](#6-samtyckessynk).
+- Det enda fält den ändrar på dina kontakter utanför en explicit export är `donotbulkemail` (e-postsamtycke), som beskrivs i användningsfallet [Samtyckessynk](#id-6.-samtyckessynk).
 - Den skapar inga poster i din miljö utöver de som beskrivs i användningsfallen nedan.
 
 ## Alla behörigheter i översikt
 
-Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsroll behöver dessa behörigheter. Rader markerade med *enbart anslut/koppla från* används bara när du ansluter eller kopplar från integrationen, och du kan [ta bort dem efter anslutning](#ta-bort-installationsbehörigheterna-efter-anslutning-valfritt). Kolumnen "Används för" anger numren på de användningsfall under [Behörigheter per funktion](#behörigheter-per-funktion) som behöver varje rad.
+Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsroll behöver dessa behörigheter. Rader markerade med *enbart anslut/koppla från* används bara när du ansluter eller kopplar från integrationen, och du kan [ta bort dem efter anslutning](#ta-bort-installationsbehorigheterna-efter-anslutning-valfritt). Kolumnen "Används för" anger numren på de användningsfall under [Behörigheter per funktion](#behorigheter-per-funktion) som behöver varje rad.
 
 | Tabell / komponent | Åtkomst som krävs | Behörigheter | Används för |
 |---|---|---|---|
@@ -40,7 +40,7 @@ Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsro
 | Auditing (`audit`) | Läs granskningslogg | `prvReadRecordAuditHistory`, `prvReadAuditSummary` (motsvarar kryssrutorna "View Audit History" och "View Audit Summary" i gränssnittet) | 6 |
 | eMarketeer Subscriptions (`em_subscriptions`, anpassad) | Read, Create, Write, Delete, Append, Append To | `prvReadem_subscriptions`, `prvCreateem_subscriptions`, `prvWriteem_subscriptions`, `prvDeleteem_subscriptions`, `prvAppendem_subscriptions`, `prvAppendToem_subscriptions` | 7 |
 | eMarketeer Subscription Categories (`em_subscriptioncategories`, anpassad) | Read, Create, Write, Delete, Append To | `prvReadem_subscriptioncategories`, `prvCreateem_subscriptioncategories`, `prvWriteem_subscriptioncategories`, `prvDeleteem_subscriptioncategories`, `prvAppendToem_subscriptioncategories` | 7 |
-| Act on Behalf of Another User — *valfri* | Execute | `prvActOnBehalfOfAnotherUser`. Utelämna den om du inte vill att aktiviteter ska visa den valda användaren som skapare. Se [Personifiering](#personifiering). | 4 |
+| Act on Behalf of Another User — *valfri* | Execute | `prvActOnBehalfOfAnotherUser`. Utelämna den om du inte vill att aktiviteter ska visa den valda användaren som skapare. Med den kan integrationen agera som vilken användare som helst i miljön. Se [Personifiering](#personifiering). | 4 |
 | Publisher (`publisher`) — *enbart anslut/koppla från* | Read, Create | `prvReadPublisher`, `prvCreatePublisher` | 1 |
 | Tabelldefinitioner (metadata) | Read | `prvReadEntity`, `prvReadAttribute` (samtyckessynken läser Contact-tabellens definition vid varje körning) | 1, 6 |
 | Tabelldefinitioner (metadata) — *enbart anslut/koppla från* | Create | `prvCreateEntity`, `prvCreateAttribute` | 1 |
@@ -65,7 +65,7 @@ I säkerhetsrollseditorn hittar du behörigheterna här:
 |---|---|
 | Fliken Core Records: Contact, Lead, Account, Marketing List, Activity | Read/Create/Write/Append/Append To/Assign-cellerna från tabellen ovan |
 | Fliken Core Records, diverse behörigheter | View Audit History, View Audit Summary |
-| Fliken Business Management: User, Security Role | Read på båda; Append To på User |
+| Fliken Business Management: User, Security Role, User Settings | Read på alla tre; Append To på User |
 | Fliken Business Management, diverse behörigheter | Act on Behalf of Another User (valfri) |
 | Fliken Customization: Entity, Field, Entity Key, Relationship, System Form, Web Resource, Customizations | Metadata-, formulär-, vy- och webbresursposterna från tabellen ovan, plus Publish Customizations |
 | Fliken Customization: Sdk Message, Sdk Message Processing Step, Service Endpoint; fliken Business Management: Publisher | Webhook- och publisher-posterna från tabellen ovan |
@@ -76,8 +76,9 @@ I säkerhetsrollseditorn hittar du behörigheterna här:
 1. Skapa rollen utan de anpassade tabellraderna.
 2. Anslut integrationen i eMarketeer.
 3. Lägg till behörigheterna för de anpassade tabellerna i rollen.
+4. Anslut integrationen igen. Behåll behörigheterna markerade med *enbart anslut/koppla från* i rollen tills det är gjort.
 
-Prenumerationssynken körs enligt ett schema. Den börjar fungera vid nästa körning efter att du har lagt till behörigheterna, inom 30 minuter.
+Den första anslutningen kan inte skriva prenumerationerna för dina befintliga Dynamics-kontakter, eftersom rollen då saknar åtkomst till de nya tabellerna. Den andra anslutningen skriver dem.
 
 Vi avråder från att approximera detta med inbyggda roller som Salesperson, Marketing Professional eller System Customizer. De inkluderar breda rättigheter (radering av poster, delning, bulkoperationer, obegränsad anpassning) som integrationen aldrig använder, vilket motverkar syftet med att flytta bort från System Administrator.
 
@@ -93,8 +94,10 @@ Om du vill ha minsta möjliga stående åtkomst delar du upp behörigheterna i t
 2. Skapa en andra roll, till exempel "eMarketeer Installer", med enbart de raderna.
 3. Tilldela applikationsanvändaren båda rollerna.
 4. Anslut integrationen i eMarketeer.
-5. Vänta två timmar. Efter att du har anslutit kör eMarketeer den inledande installationen i bakgrunden, och installationen behöver de här behörigheterna.
-6. Ta bort rollen "eMarketeer Installer" från applikationsanvändaren.
+5. Lägg till behörigheterna för eMarketeer Subscriptions och eMarketeer Subscription Categories i rollen "eMarketeer Integration". De två tabellerna finns först efter att du har anslutit.
+6. Anslut integrationen igen, så att eMarketeer skriver prenumerationerna för dina befintliga Dynamics-kontakter.
+7. Vänta två timmar. Efter att du har anslutit kör eMarketeer den inledande installationen i bakgrunden, och installationen behöver de här behörigheterna.
+8. Ta bort rollen "eMarketeer Installer" från applikationsanvändaren.
 
 Tilldela installationsrollen igen innan du ansluter på nytt eller kopplar från integrationen. eMarketeer kör installationen enbart när du ansluter. Daglig användning (användningsfall 3 till 8) behöver bara den första rollen.
 
@@ -289,7 +292,7 @@ eMarketeer → Dynamics: när en kontakt avanmäler sig i eMarketeer sätter int
 
 Speglar eMarketeers prenumerationskategorier och varje kontakts prenumerationsval till de två anpassade tabellerna som integrationen installerade (`em_subscriptions`, `em_subscriptioncategories`), och läser ändringar gjorda i Dynamics (via prenumerationsavsnittet på Contact-formuläret) tillbaka till eMarketeer. Alla skrivningar i det här flödet går till integrationens egna anpassade tabeller; dina kontakter läses bara.
 
-**Utlösare:** automatisk. Körs i bakgrunden när prenumerationsdata ändras på endera sidan (i Dynamics via de webhooks som installerades vid anslutning). Precis som samtyckessynken gäller den bara kontakter som finns i båda systemen.
+**Utlösare:** automatisk. Körs i bakgrunden var 30:e minut, och när en kontakt skapas eller uppdateras i Dynamics (via de webhooks som installerades vid anslutning). Precis som samtyckessynken gäller den bara kontakter som finns i båda systemen.
 
 **Tabeller som används:** em_subscriptions (anpassad), em_subscriptioncategories (anpassad), contact.
 
@@ -377,7 +380,7 @@ Den här tabellen listar de Dataverse Web API-anrop som integrationen gör. Anro
 | `POST /AddListMembersList` | list, contact, lead | Update (association) | `prvWriteList` + `prvAppendToList` + `prvAppendContact` / `prvAppendLead` |
 | `POST /tasks` | task | Create | `prvCreateActivity` + `prvAppendActivity` + `prvAppendToLead` / `prvAppendToContact` |
 | `POST /phonecalls` | phonecall, activityparty | Create | samma som tasks + `prvAppendToUser` |
-| `GET /WhoAmI()`; `GET /systemusers(id)/Microsoft.Dynamics.CRM.RetrieveUserPrivilegeByPrivilegeName(…)` | systemuser | Read | `prvReadUser`, `prvReadRole` |
+| `GET /systemusers(id)/Microsoft.Dynamics.CRM.RetrieveUserPrivilegeByPrivilegeName(…)` | systemuser | Read | `prvReadUser`, `prvReadRole` |
 | `CallerObjectId`-huvud på `POST /tasks` / `/phonecalls`, enbart om behörigheten är tilldelad | — | — | `prvActOnBehalfOfAnotherUser` (valfri) |
 | `GET /systemusers?$select=...&$filter=...` | systemuser | Read | `prvReadUser` |
 | `GET /systemusers(id)?$select=azureactivedirectoryobjectid` | systemuser | Read | `prvReadUser` |
@@ -406,7 +409,7 @@ Den här tabellen listar de Dataverse Web API-anrop som integrationen gör. Anro
 | `GET` + `DELETE /sdkmessageprocessingsteps(id)`; `GET` + `DELETE /serviceendpoints(id)` — *enbart koppla från* | sdkmessageprocessingstep, serviceendpoint | Read + Delete | `prvReadSdkMessageProcessingStep` + `prvDeleteSdkMessageProcessingStep`; `prvReadServiceEndpoint` + `prvDeleteServiceEndpoint` |
 | `GET /webresourceset?$filter=...` — *enbart anslut* | webresource | Read | `prvReadWebResource` |
 | `POST` / `PATCH /webresourceset(id)` — *enbart anslut* | webresource | Create + Update | `prvCreateWebResource` / `prvWriteWebResource` |
-| `GET /WhoAmI()` — *enbart anslut* | — | Read | ingen |
+| `GET /WhoAmI()` | — | Read | ingen |
 | `GET /api/data/v9.2/` (servicedokument) — *enbart anslut* | — | Read | ingen |
 | `GET /EntityDefinitions(LogicalName='contact')?$select=IsAuditEnabled` — *enbart anslut* | metadata | Read | `prvReadEntity` |
 

@@ -23,13 +23,13 @@ Följ dessa steg:
 4. Öppna **Settings → Users + permissions → Application users**.
 5. Klicka på **+ New app user**.
 6. På skärmen för appval, välj **eMarketeer Marketing Cloud**. Om den inte syns, sök med App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
-7. Tilldela app-användaren en säkerhetsroll. Välj **System Administrator**, eller en anpassad roll med enbart de behörigheter integrationen använder. Se [Dynamics - Obligatoriska behörigheter](dynamics-permissions.md) för hur du bygger den anpassade rollen.
+7. Tilldela app-användaren en säkerhetsroll. Välj **System Administrator**, eller en anpassad roll med enbart de behörigheter integrationen använder. Följ [Rekommenderad säkerhetsroll](dynamics-permissions.md#rekommenderad-sakerhetsroll) för att bygga den anpassade rollen. Två av dess tabeller finns först efter att du har anslutit, så läs noteringen om ordning där först.
 8. Klicka på **Save**.
 {% endstep %}
 {% step %}
 ### Aktivera granskning för synkronisering av samtycke
 
-För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskning för Contact-tabellen.
+För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskning för Contact-tabellen. Det här steget kräver rollen System Administrator eller System Customizer i miljön.
 
 1. Gå till Power Apps på `https://make.powerapps.com`.
 2. Navigera till **Tables → Contact**.
