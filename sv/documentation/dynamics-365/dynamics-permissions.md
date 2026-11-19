@@ -49,7 +49,7 @@ Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsro
 | Systemvyer (`savedqueries`) — *enbart anslut/koppla från* | Read, Create | `prvReadCustomization`, `prvWriteCustomization` (Dataverse har ingen dedikerad savedquery-behörighet) |
 | Formulär (`systemforms`) — *enbart anslut/koppla från* | Read, Write | `prvReadSystemForm`, `prvWriteSystemForm` |
 | Webbresurser (`webresourceset`) — *enbart anslut/koppla från* | Read, Create, Write | `prvReadWebResource`, `prvCreateWebResource`, `prvWriteWebResource` |
-| Webhook-endpoints (`serviceendpoints`) — *enbart anslut/koppla från* | Read, Create, Write, Delete | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint`, `prvWriteServiceEndpoint` (för att sätta webhook-nyckeln vid ny anslutning), `prvDeleteServiceEndpoint` |
+| Webhook-endpoints (`serviceendpoints`) — *enbart anslut/koppla från* | Read, Create, Delete | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint`, `prvDeleteServiceEndpoint` |
 | Webhook-registreringssteg (`sdkmessageprocessingsteps`, `sdkmessages`) — *enbart anslut/koppla från* | Read, Create, Delete | `prvReadSdkMessage`, `prvReadSdkMessageProcessingStep`, `prvCreateSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep` |
 | Publicera anpassningar — *enbart anslut/koppla från* | Execute | `prvPublishCustomization` |
 
@@ -79,7 +79,7 @@ När rollen har tilldelats ansluter du i eMarketeer. Anslutningen kontrollerar a
 
 ### Ta bort installationsbehörigheterna efter anslutning (valfritt)
 
-Raderna markerade med *enbart anslut/koppla från* används bara av användningsfall 1 och 2. De omfattar rätten att ändra kontaktkortspanelen. Panelen är en webbresurs, och dess skript körs i webbläsarsessionen hos varje Dynamics-användare som öppnar den. Så länge applikationsanvändaren har de här behörigheterna kan eMarketeers inloggningsuppgifter ändra skriptet.
+När du ansluter sätter eMarketeer upp kontaktkortspanelen, prenumerationsavsnittet och webhooks i din miljö. Raderna markerade med *enbart anslut/koppla från* behövs bara för den installationen och för att koppla från (användningsfall 1 och 2), så du kan ta bort dem efteråt.
 
 Om du vill ha minsta möjliga stående åtkomst delar du upp behörigheterna i två roller:
 
@@ -108,27 +108,32 @@ Det här avsnittet beskriver hur åtkomsten identifieras, skyddas och granskas, 
 
 ### Personifiering
 
-`prvActOnBehalfOfAnotherUser` är valfri. Tilldela den bara om du behöver den.
+`prvActOnBehalfOfAnotherUser` är valfri. Den har ett enda syfte: aktiviteterna som eMarketeer loggar visar den valda Dynamics-användaren som "Created By" och "Modified By", till exempel på postens tidslinje.
 
-- Om du tilldelar den visar aktiviteter den valda Dynamics-användaren som "Created By". eMarketeer skickar huvudet `CallerObjectId` enbart på `POST /tasks` och `POST /phonecalls`.
+| | Med behörigheten | Utan behörigheten |
+|---|---|---|
+| Aktivitetens ägare | Den valda användaren | Den valda användaren |
+| "Created By" och "Modified By" | Den valda användaren | eMarketeers applikationsanvändare |
+
+Om du utelämnar den är namnet det enda du förlorar. Aktiviteten skapas fortfarande på rätt post, med den valda användaren som ägare.
+
+- Utan behörigheten behöver rollen `prvAssignActivity` för att sätta ägaren.
 - Dataverse kör ett personifierat anrop med den personifierade användarens behörigheter, inte med eMarketeer-rollens behörigheter. Så länge rollen har den här behörigheten kan eMarketeers inloggningsuppgifter agera som vilken användare som helst i miljön, även en administratör.
-- Om du utelämnar den skapar eMarketeer aktiviteter som applikationsanvändaren och sätter den valda användaren som "Owner". Integrationen kontrollerar rollen före varje aktivitet, så du kan lägga till eller ta bort behörigheten när som helst utan att ansluta på nytt.
+- eMarketeer använder personifiering enbart när en Task eller ett Phone Call skapas. Huvudet `CallerObjectId` skickas enbart på `POST /tasks` och `POST /phonecalls`.
+- Integrationen kontrollerar rollen före varje aktivitet, så du kan lägga till eller ta bort behörigheten när som helst utan att ansluta på nytt.
 
 ### Inloggningsuppgifter och token
 
-- Applikationsanvändaren tillhör eMarketeers appregistrering i Microsoft Entra ID. Din administratör ger samtycke till den i din klientorganisation. Den autentiserar med en klienthemlighet.
-- eMarketeer skickar hemligheten enbart till Microsoft Entra ID, för att begära token. eMarketeer skickar den aldrig till en webbläsare.
-- eMarketeer förvarar hemligheten och cachade åtkomsttoken krypterade i vila. De cachade token använder en dedikerad AWS KMS-nyckel.
-- Åtkomsttoken kommer från Microsoft Entra ID och upphör att gälla efter ungefär en timme.
-- Certifikatbaserade inloggningsuppgifter stöds inte.
+- Applikationsanvändaren tillhör eMarketeers appregistrering i Microsoft Entra ID. Din administratör ger samtycke till den i din klientorganisation.
+- eMarketeer förvarar sina inloggningsuppgifter och åtkomsttoken krypterat och säkert. eMarketeer skickar dem aldrig till en webbläsare.
+- Åtkomsttoken kommer från Microsoft Entra ID och gäller bara en kort tid.
 
 ### Transport
 
-- Alla anrop går över HTTPS till `login.microsoftonline.com`, `globaldisco.crm.dynamics.com` och din Dataverse-miljös URL.
-- Integrationen validerar servercertifikatet vid varje anrop.
-- Alla anrop till din miljö kommer från ett litet, fast antal IP-adresser. Be eMarketeers support om dem om du vill begränsa applikationsanvändaren per IP, till exempel med Power Platforms IP-brandvägg.
-- Din miljö anropar eMarketeer enbart via den webhook som registreras i användningsfall 1. Varje miljö får sin egen webhook-nyckel.
-- Integrationstjänsten körs i AWS-regionen `eu-west-1` (Irland).
+- Alla anrop krypteras under överföringen med HTTPS. Integrationen validerar servercertifikatet vid varje anrop.
+- Anrop till din miljö kommer från fasta IP-adresser. Om du vill begränsa applikationsanvändaren per IP-adress kan du be eMarketeers support om adresserna.
+- Din miljö anropar eMarketeer enbart via den webhook som registreras i användningsfall 1. Webhooken skyddas med en hemlig nyckel som är unik för din miljö.
+- Integrationstjänsten körs inom EU.
 
 ### Granskning
 
@@ -136,9 +141,6 @@ Det här avsnittet beskriver hur åtkomsten identifieras, skyddas och granskas, 
 |---|---|
 | Dataverse-granskning | Varje post som applikationsanvändaren skapar eller uppdaterar, eller den personifierade användaren om du tilldelar personifiering, om granskning är aktiverad för miljön och tabellen |
 | Inloggningsloggar i Microsoft Entra (inloggningar för tjänstens huvudnamn) | Varje tokenbegäran från eMarketeers appregistrering |
-| eMarketeer | Varje anrop till Dataverse API efter att du har anslutit, med endpoint och tid och utan frågesträng. För ett misslyckat anrop även hela URL:en, anropets innehåll och felsvaret. Tillgängligt från eMarketeers support på begäran. |
-
-eMarketeer sparar sin anropslogg och fellogg i 180 dagar och tar bort dem inom några dagar därefter. Applikationsloggar, som kan innehålla anrops-URL:er, felsvar från Dataverse och kontakters e-postadresser, sparas i 30 dagar.
 
 ### Återkalla åtkomst
 
@@ -148,7 +150,7 @@ Du kan stoppa all åtkomst när som helst, utan att kontakta eMarketeer. Gör n�
 - Ta bort dess säkerhetsroller.
 - Ta bort eMarketeers företagsprogram i Microsoft Entra ID.
 
-Om du inaktiverar applikationsanvändaren eller tar bort dess roller avvisar Dataverse nästa anrop. Om du tar bort företagsprogrammet kan eMarketeer inte få en ny token. Den aktuella token fungerar tills den upphör att gälla, som längst ungefär 90 minuter senare.
+Om du inaktiverar applikationsanvändaren eller tar bort dess roller avvisar Dataverse nästa anrop. Om du tar bort företagsprogrammet kan eMarketeer inte få en ny token. En token som redan är utfärdad fungerar tills den upphör att gälla, en kort tid senare.
 
 ## Behörigheter per funktion
 
@@ -178,7 +180,7 @@ Körs en gång, när din administratör ansluter Dynamics 365 till eMarketeer. I
 | Skapa prenumerationsvyn | savedquery | Read + Create | `prvReadCustomization`, `prvWriteCustomization` |
 | Lägga till ett prenumerationsavsnitt i Contact-formuläret | systemform | Read + Write | `prvReadSystemForm`, `prvWriteSystemForm` |
 | Publicera anpassningarna | — | Execute | `prvPublishCustomization` |
-| Registrera eMarketeers webhook-endpoint, eller sätta dess nyckel vid ny anslutning | serviceendpoint | Read + Create + Write | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint`, `prvWriteServiceEndpoint` |
+| Registrera eMarketeers webhook-endpoint | serviceendpoint | Read + Create | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint` |
 | Registrera webhook-steg för Contact create/update | sdkmessage, sdkmessageprocessingstep | Read + Create | `prvReadSdkMessage`, `prvReadSdkMessageProcessingStep`, `prvCreateSdkMessageProcessingStep` |
 | Installera kontaktkortspanelen | webresource | Read + Create + Write | `prvReadWebResource`, `prvCreateWebResource`, `prvWriteWebResource` |
 
@@ -392,7 +394,7 @@ Den här tabellen listar de Dataverse Web API-anrop som integrationen gör. Anro
 | `GET /systemforms?$filter=...`; `PATCH /systemforms(id)` — *enbart anslut* | systemform | Read + Update | `prvReadSystemForm` / `prvWriteSystemForm` |
 | `POST /PublishXml` — *enbart anslut* | — | Execute | `prvPublishCustomization` |
 | `GET /customcontrols` — *enbart anslut* | customcontrol | Read | ingen dedikerad (ingen `prvReadCustomControl` finns) |
-| `GET` / `POST /serviceendpoints`; `PATCH /serviceendpoints(id)` — *enbart anslut* | serviceendpoint | Read + Create + Write | `prvReadServiceEndpoint` / `prvCreateServiceEndpoint` / `prvWriteServiceEndpoint` |
+| `GET` / `POST /serviceendpoints` — *enbart anslut* | serviceendpoint | Read + Create | `prvReadServiceEndpoint` / `prvCreateServiceEndpoint` |
 | `GET /sdkmessages`; `GET /sdkmessagefilters` — *enbart anslut* | sdkmessage, sdkmessagefilter | Read | `prvReadSdkMessage` |
 | `GET` / `POST /sdkmessageprocessingsteps` — *enbart anslut* | sdkmessageprocessingstep | Read + Create | `prvReadSdkMessageProcessingStep` + `prvCreateSdkMessageProcessingStep` |
 | `GET` + `DELETE /sdkmessageprocessingsteps(id)`; `GET` + `DELETE /serviceendpoints(id)` — *enbart koppla från* | sdkmessageprocessingstep, serviceendpoint | Read + Delete | `prvReadSdkMessageProcessingStep` + `prvDeleteSdkMessageProcessingStep`; `prvReadServiceEndpoint` + `prvDeleteServiceEndpoint` |
