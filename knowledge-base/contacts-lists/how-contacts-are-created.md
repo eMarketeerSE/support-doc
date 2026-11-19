@@ -78,7 +78,7 @@ This applies in these places:
 * The SuperOffice and Dynamics 365 panels.
 * Quick Send.
 * Form links that identify the contact by email address.
-* Form submissions that match an existing contact. The answer is saved on this contact. In new forms, a tracked website visitor comes after rule 1: if the browser is tracked as one of the contacts, the answer is saved on that contact.
+* Form submissions that match an existing contact. The answer is saved on this contact. In new forms, a tracked website visitor comes after rule 1: if the browser is tracked as one of the contacts, the answer is saved on that contact. A personal link counts only when the email address typed in the form belongs to that contact. If someone forwards the email and a colleague answers with their own address, the answer is saved on the colleague's contact.
 * Signals, such as Facebook Lead Forms and LinkedIn Lead Gen Forms. The event is saved on this contact.
 
 ### Example

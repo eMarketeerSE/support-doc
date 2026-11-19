@@ -78,7 +78,7 @@ Det gäller på följande ställen:
 * SuperOffice- och Dynamics 365-panelerna.
 * Quick Send.
 * Formulärlänkar som identifierar kontakten på e-postadress.
-* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på den här kontakten. I nya formulär kommer en spårad besökare på webbplatsen efter regel 1: om webbläsaren är spårad som en av kontakterna sparas svaret på den kontakten.
+* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på den här kontakten. I nya formulär kommer en spårad besökare på webbplatsen efter regel 1: om webbläsaren är spårad som en av kontakterna sparas svaret på den kontakten. En personlig länk räknas bara när e-postadressen som fylls i formuläret tillhör den kontakten. Om någon vidarebefordrar e-postmeddelandet och en kollega svarar med sin egen adress sparas svaret på kollegans kontakt.
 * Signaler, till exempel Facebook Lead Forms och LinkedIn Lead Gen Forms. Händelsen sparas på den här kontakten.
 
 ### Exempel
