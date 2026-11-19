@@ -30,7 +30,7 @@ Under namnet ser du kontaktens jobbtitel och företag. Klicka på företaget fö
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-share-menu.png" alt="Menyn för att dela öppen på kontaktkortet"></div>
 
-* **Share to CRM** skapar en post för kontakten i ditt anslutna CRM, eller matchar en befintlig post. Kontaktens ID i CRM:et sparas sedan som kontaktens [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). Alternativet visas när kontakten saknar External ID. När kontakten har ett External ID visar menyn **Open in CRM** i stället, som öppnar kontakten i ditt integrerade CRM.
+* **Share to CRM** skapar en post för kontakten i ditt anslutna CRM, eller matchar en befintlig post. Kontaktens ID i CRM:et sparas sedan som kontaktens [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). Alternativet visas när kontakten inte är kopplad till ditt CRM. Kontakten är kopplad när dess External ID är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller när den är kopplad till en lead i Dynamics 365. För en kopplad kontakt visar menyn **Open in CRM** i stället, som öppnar kontakten i ditt integrerade CRM.
 * **Copy link to this contact** kopierar en länk till kontakten som du kan skicka till andra användare i eMarketeer.
 
 Menyn **⋮** till höger om flikarna har ett alternativ, **Delete this contact**.

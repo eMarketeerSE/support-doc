@@ -15,6 +15,8 @@ eMarketeer and SuperOffice keep separate databases. The link between them is sto
 
 The link is a contact field called **External ID**. With SuperOffice, it holds the person's SuperOffice **Contact ID**. The field isn't specific to SuperOffice: with Microsoft Dynamics 365, for example, it holds the Dynamics contact ID.
 
+eMarketeer treats the External ID as a SuperOffice Contact ID only when it is a whole number above 0, written with no leading zeros, such as `1234`. A value such as `007` or `12.5` does not link the contact to SuperOffice.
+
 {% hint style="info" %}
 SuperOffice uses two similar IDs. The **Contact ID** identifies the person (`person_id` in the SuperOffice database), and the **Company ID** identifies the company (`contact_id`). eMarketeer always stores the person's Contact ID.
 {% endhint %}
@@ -27,7 +29,7 @@ You can also set the External ID with an [Excel import](../../knowledge-base/con
 
 A contact without an External ID is matched on email address. When a match is found, the SuperOffice Contact ID is saved as the External ID. This happens in the following places:
 
-* **Import from SuperOffice** — The import updates every eMarketeer contact with a matching email address, including the External ID. If several contacts share the same email address, they all end up with identical data, including the same External ID.
+* **Import from SuperOffice** — The import updates every eMarketeer contact with a matching email address, including the External ID. If several contacts share the same email address, they all end up with identical data, including the same External ID. To see which of them eMarketeer uses, see [When several contacts share an email address](../../knowledge-base/contacts-lists/how-contacts-are-created.md#when-several-contacts-share-an-email-address).
 * **Share to CRM** — Sharing a contact creates it in SuperOffice, or matches an existing contact by email address. The Contact ID is then saved as the External ID.
 * **Lead Board** — When a contact becomes an MQL, eMarketeer searches SuperOffice by email address, uses the first match and saves its Contact ID as the External ID. See [Lead Board for SuperOffice](../../knowledge-base/lead-board-scoring/lead-board-and-superoffice.md).
 * **Journeys** — The SuperOffice Journey steps match the contact by email address, or create it in SuperOffice if you allow it, and save the Contact ID as the External ID.

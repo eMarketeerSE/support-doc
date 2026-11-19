@@ -15,6 +15,8 @@ eMarketeer och SuperOffice har separata databaser. Kopplingen mellan dem sparas 
 
 Kopplingen är ett kontaktfält som heter **External ID**. Med SuperOffice innehåller det personens **Contact ID** i SuperOffice. Fältet är inte specifikt för SuperOffice: med Microsoft Dynamics 365 innehåller det till exempel kontakt-ID:t i Dynamics.
 
+eMarketeer behandlar External ID som ett Contact ID i SuperOffice bara när det är ett heltal större än 0, skrivet utan inledande nollor, till exempel `1234`. Ett värde som `007` eller `12.5` kopplar inte kontakten till SuperOffice.
+
 {% hint style="info" %}
 SuperOffice använder två liknande ID:n. **Contact ID** identifierar personen (`person_id` i SuperOffice-databasen), och **Company ID** identifierar företaget (`contact_id`). eMarketeer sparar alltid personens Contact ID.
 {% endhint %}
@@ -27,7 +29,7 @@ Du kan också sätta External ID med en [import från Excel](../../knowledge-bas
 
 En kontakt utan External ID matchas på e-postadress. När en matchning hittas sparas Contact ID i SuperOffice som External ID. Det sker på följande ställen:
 
-* **Import från SuperOffice** — Importen uppdaterar varje kontakt i eMarketeer med matchande e-postadress, inklusive External ID. Om flera kontakter har samma e-postadress får de alla identiska uppgifter, inklusive samma External ID.
+* **Import från SuperOffice** — Importen uppdaterar varje kontakt i eMarketeer med matchande e-postadress, inklusive External ID. Om flera kontakter har samma e-postadress får de alla identiska uppgifter, inklusive samma External ID. Vilken av dem eMarketeer använder beskrivs i [När flera kontakter har samma e-postadress](../../knowledge-base/contacts-lists/how-contacts-are-created.md#när-flera-kontakter-har-samma-e-postadress).
 * **Share to CRM** — När du delar en kontakt skapas den i SuperOffice, eller matchas mot en befintlig kontakt på e-postadress. Contact ID sparas sedan som External ID.
 * **Lead Board** — När en kontakt blir en MQL söker eMarketeer i SuperOffice på e-postadress, använder den första träffen och sparar dess Contact ID som External ID. Se [Lead Board för SuperOffice](../../knowledge-base/lead-board-scoring/lead-board-and-superoffice.md).
 * **Journeys** — SuperOffice-stegen i en Journey matchar kontakten på e-postadress, eller skapar den i SuperOffice om du tillåter det, och sparar Contact ID som External ID.
