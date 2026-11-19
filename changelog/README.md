@@ -23,6 +23,16 @@ layout:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-19" tags="improvement,integrations" %}
+## Which contact is used when several share an email address
+
+When several contacts have the same email address, eMarketeer now picks the same contact in each place that needs one. It uses the contact that the link or panel names first. If there is none, it uses a contact linked to SuperOffice or Dynamics 365. If there is none, it uses the oldest contact.
+
+This applies in the SuperOffice and Dynamics 365 panels, Quick Send, form links, form submissions and signals. Before, these places could pick different contacts. See [When several contacts share an email address](https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/guides/contacts-lists/how-contacts-are-created#when-several-contacts-share-an-email-address).
+
+The **Share** menu on the contact card shows **Open in CRM** only when the External ID is a SuperOffice Contact ID or a Dynamics ID, or when the contact is linked to a Dynamics 365 lead. A SuperOffice Contact ID is a whole number above 0 with no leading zeros. Other imported values, such as `007`, now show **Share to CRM**. See [SuperOffice contact matching](https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/integrations/superoffice/superoffice-contact-matching#external-id).
+{% endupdate %}
+
 {% update date="2026-11-16" tags="new-release,feature,improvement,fix" %}
 ## November release
 
