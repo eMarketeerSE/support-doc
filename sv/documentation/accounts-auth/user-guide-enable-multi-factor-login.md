@@ -20,7 +20,7 @@ Innan du börjar, installera en autentiseringsapp på din mobila enhet om du int
 
 ## Konfigurera MFA
 
-Följ dessa steg efter att du eller din administratör har aktiverat MFA på ditt konto. För att aktivera MFA på din egen inloggning, gå till Settings, sedan Edit my profile, och klicka på växlingsknappen för MFA.
+Följ dessa steg efter att du eller din administratör har aktiverat MFA på ditt konto. För att aktivera MFA på din egen inloggning klickar du på din avatar uppe till höger, väljer **My Profile**, öppnar fliken **Security** och slår på **Multi-factor authentication**.
 
 ### 1. Gå till eMarketeers inloggningssida
 

@@ -26,7 +26,7 @@ Before you start, install an authentication app on your mobile device if you don
 
 ## Set up MFA
 
-Follow these steps after you or your administrator enables MFA on your account. To enable MFA on your own login, go to Settings, then Edit my profile, and click the toggle for MFA.
+Follow these steps after you or your administrator enables MFA on your account. To enable MFA on your own login, click your avatar at the top right, choose **My Profile**, open the **Security** tab and switch on **Multi-factor authentication**.
 
 ### 1. Go to the eMarketeer login page
 

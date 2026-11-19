@@ -20,26 +20,34 @@ Alla anrop autentiseras med en API-nyckel som skickas i request-headern `x-api-k
 Skapa, hitta och radera kontakter, hantera kontaktlistor och läsa anpassade kontaktfält.
 
 * Bas-URL: `https://connect.emarketeer.com/contacts-api`
-* Bläddra och testa: [Contact-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Contact)
+* Bläddra och testa: [Contact v2-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Contact%20v2)
+* Version 1: [Contact-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Contact)
+
+{% hint style="warning" %}
+Version 1 av Contacts API (`/v1/`) är utfasad och slutar fungera den 1 maj 2027. Flytta din integration till v2-endpoints nedan innan dess.
+{% endhint %}
+
+Varje v1-endpoint har en v2-endpoint med samma sökväg, med `/v2/` i stället för `/v1/`. Endpoints som returnerar många objekt är uppdelade i sidor: använd `pageNumber` (börjar på 0) och `pageSize` (högst 100, standard 25).
 
 ### Kontakter
 
-* `POST /v1/contacts` — Skapa eller uppdatera upp till 100 kontakter åt gången, matchade på e-postadress.
-* `GET /v1/contacts` — Hitta kontakter via sparat filter, e-post eller skapad-/ändrad-datum.
-* `POST /v1/contacts/delete` — Radera kontakter via e-postadress (upp till 100 åt gången).
+* `POST /v2/contacts` — Skapa eller uppdatera upp till 100 kontakter åt gången, matchade på e-postadress.
+* `GET /v2/contacts` — Hitta kontakter via sparat filter, e-post eller skapad-/ändrad-datum.
+* `POST /v2/contacts/delete` — Radera kontakter via e-postadress (upp till 100 åt gången).
+* `GET /v2/contacts/{contactId}/lists` — Hämta de kontaktlistor som en kontakt är medlem i.
 
 ### Kontaktlistor
 
-* `GET /v1/lists/` — Hämta alla kontaktlistor.
-* `POST /v1/lists/` — Skapa en kontaktlista.
-* `DELETE /v1/lists/` — Radera kontaktlistor.
-* `GET /v1/lists/{contactListId}` — Hämta kontakterna i en kontaktlista.
-* `POST /v1/lists/{contactListId}` — Lägg till kontakter i en kontaktlista (upp till 1000 åt gången).
-* `DELETE /v1/lists/{contactListId}` — Ta bort kontakter från en kontaktlista.
+* `GET /v2/lists` — Hämta alla kontaktlistor, inklusive nästlade listor.
+* `POST /v2/lists` — Skapa en kontaktlista.
+* `DELETE /v2/lists` — Radera kontaktlistor (upp till 25 åt gången).
+* `GET /v2/lists/{contactListId}` — Hämta kontakterna i en kontaktlista.
+* `POST /v2/lists/{contactListId}` — Lägg till kontakter i en kontaktlista (upp till 1000 åt gången).
+* `DELETE /v2/lists/{contactListId}` — Ta bort kontakter från en kontaktlista (upp till 1000 åt gången).
 
 ### Anpassade kontaktfält
 
-* `GET /v1/contacts/customFields` — Lista alla anpassade kontaktfält på kontot.
+* `GET /v2/contacts/customFields` — Lista alla anpassade kontaktfält på kontot.
 
 ## Subscription
 
@@ -124,16 +132,18 @@ Visa, skapa, uppdatera och radera taggar, och tilldela taggar till kontakter i b
 
 Skicka e-post och SMS till kontakter.
 
+Använd Messages API för att skicka till enskilda kontakter, högst 10 åt gången. För att skicka ett e-postmeddelande till en hel kontaktlista använder du Campaigns API (se [Skicka](#skicka) nedan).
+
 * Bas-URL: `https://connect.emarketeer.com/messages-api`
 * Bläddra och testa: [Messages-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Messages)
 
 ### E-post
 
-* `POST /v1/email/send` — Skicka e-post till en eller flera kontakter.
+* `POST /v1/email/send` — Skicka e-post till upp till 10 kontakter.
 
 ### SMS
 
-* `POST /v1/sms/send` — Skicka SMS till en eller flera kontakter.
+* `POST /v1/sms/send` — Skicka SMS till upp till 10 kontakter.
 
 ## Campaigns
 
@@ -154,7 +164,7 @@ Kopiera, byt namn på och flytta kampanjkomponenter, fyll i innehållet i e-post
 
 ### Skicka
 
-* `POST /components/{componentType}/{componentId}/send` — Skicka ett e-postmeddelande till en kontaktlista, direkt eller vid en schemalagd tidpunkt.
+* `POST /components/{componentType}/{componentId}/send` — Skicka ett e-postmeddelande till en kontaktlista, direkt eller vid en schemalagd tidpunkt. Det kan utesluta kontakter som redan har fått e-postmeddelandet (`sendOnce`).
 
 ## Nästa steg
 

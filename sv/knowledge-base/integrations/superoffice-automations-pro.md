@@ -36,13 +36,13 @@ För alla typer: om kontakten saknar externt ID pausas automatiseringen och kont
 
 Skapar en affärspost i SuperOffice och tilldelar den till kontakten. eMarketeer anger källa, betyg och beskrivning. Du kan även lägga till kontakten i ett urval eller projekt när affären skapas.
 
-### Create a task
+### Create new task
 
-Skapar en uppgift (aktivitet) i SuperOffice av den typ du anger. Du kan lägga till en beskrivning. Uppgifter markeras alltid som ej slutförda.
+Skapar en uppgift (aktivitet) i SuperOffice av den typ du anger. Du kan lägga till ett **Task name**, som blir aktivitetens titel i SuperOffice, och en beskrivning. Uppgifter markeras alltid som ej slutförda.
 
-### Notify sales rep
+### Notify salesperson
 
-Skapar en aktivitet i SuperOffice av den typ du anger. Du kan lägga till en beskrivning. Notify sales rep-aktiviteter markeras alltid som slutförda.
+Skapar en aktivitet i SuperOffice. Du kan lägga till en **Notification title**, som blir aktivitetens titel i SuperOffice, och en beskrivning. Notify salesperson-aktiviteter markeras alltid som slutförda.
 
 ### Set interest
 
@@ -54,7 +54,7 @@ Avmarkera de intressen du vill ta bort. Om kontakten har ett externt ID uppdater
 
 ### Add to project
 
-Lägger till kontakten i ett projekt du anger när du skapar automatiseringen.
+Lägger till kontakten i ett projekt du anger när du skapar automatiseringen. Du kan också välja en **Project member function**, till exempel Invited, Registered eller Attended. Om kontakten redan finns i projektet uppdateras funktionen. Om du inte väljer någon funktion ändras inte kontaktens funktion.
 
 ### Remove from project
 

@@ -30,7 +30,7 @@ Use the exclusions (3) to filter out contacts before you send. You can review th
 
 * **Exclude duplicate e-mail addresses:** if the send-out includes several contacts with the same email address, only one of them gets the email. The same contact in several recipient sources is always counted as one contact.
 * **Exclude inactive recipients:** leaves out contacts who have not interacted with your emails for over a year. See [Exclude inactive recipients](exclude-inactive-recipients.md).
-* **Exclude recipients who previously got this e-mail:** if this email component has been sent before, the contacts who got an earlier send-out are blocked.
+* **Exclude recipients who previously got this e-mail:** if this email component has been sent before, the contacts who got an earlier send-out are blocked. The Campaigns API has the same option (`sendOnce`) when you send an email to a contact list.
 
 For example, you send the email to a list of 100 contacts. The next day, 5 new addresses are added to the list. Send the email to the full list of 105 with this box ticked, and the 100 contacts who already got the email are blocked.
 

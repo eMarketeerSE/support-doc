@@ -32,6 +32,8 @@ Data som skickas in via ett Contact field sparas både som formulärsvarsdata oc
 
 Ett formulär som innehåller ett **Contact field: Email** skapar en ny kontakt eller matchar mot en befintlig när formuläret skickas in.
 
+E-postfrågan är obligatorisk som standard, både i formulärmallar och när du lägger till den i ett formulär. För att göra den valfri markerar du frågan och stänger av **Required**. Om respondenten då lämnar den tom sparas svaret ändå och visas i formulärrapporten, men det kopplas inte till någon kontakt. Om hen fyller i den måste e-postadressen vara giltig.
+
 Contact fields förifyller data från kontaktdatabasen om respondenten är känd — till exempel när hen öppnar formuläret via en personlig länk.
 
 Tillgängliga fält: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
@@ -153,6 +155,8 @@ Visar en serie bilder. Respondenten klickar på en (eller flera, om det är konf
 <summary>Consent</summary>
 
 **Consent** Lagrar samtycke på den identifierade kontakten. Använd listan **Consent Type** för att ange syftet: **Store & Process** eller **Marketing**. Consent-frågor är inte obligatoriska som standard — gör dem obligatoriska om kontakten måste ge samtycke innan formuläret skickas in.
+
+För att lägga till en länk, till exempel till din integritetspolicy, markerar du consent-frågan och öppnar Property Grid. I fältet **Question title** markerar du orden som ska bli en länk och klickar på länkikonen i verktygsfältet.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/consent.png" alt="Två Consent-frågor i designytan, en för varje syfte — Store & Process och Marketing."></div>
 

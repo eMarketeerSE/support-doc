@@ -32,6 +32,8 @@ Data submitted through a Contact field is saved both as form answer data and as 
 
 A form that includes a **Contact field: Email** will create a new contact or match against an existing one when the form is submitted.
 
+The email question is required by default, both in form templates and when you add it to a form. To make it optional, select the question and turn off **Required**. If a respondent then leaves it empty, the answer is still saved and shown in the form report, but it isn't linked to a contact. If they fill it in, the email address must be valid.
+
 Contact fields are pre-populated from the contact database if the respondent is known — for example, when they open the form through a personalized link.
 
 Available fields: Email, First Name, Last Name, Salutation, Company, Title, Phone number, Mobile phone, Address 1, Address 2, City, State, Zip code, Country, Note.
@@ -153,6 +155,8 @@ Displays a series of images. Respondents click one (or more, if configured) to s
 <summary>Consent</summary>
 
 **Consent** Stores consent on the identified contact. Use the **Consent Type** dropdown to set the purpose: **Store & Process** or **Marketing**. Consent questions are not required by default — set them to required if the contact must consent before submitting.
+
+To add a link, for example to your privacy policy, select the consent question and open the Property Grid. In the **Question title** field, select the words you want to link and click the link icon in the toolbar.
 
 <div align="left" data-with-frame="true"><img src="../../.gitbook/assets/consent.png" alt="Two Consent questions on the design surface, one for each purpose — Store &#x26; Process and Marketing."></div>
 

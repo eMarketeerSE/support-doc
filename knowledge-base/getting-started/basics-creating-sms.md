@@ -64,23 +64,28 @@ Once settings and template are set, click **Create** to create the component.
 {% step %}
 ### The SMS editor
 
-After you click **Create**, the editor opens. You see a text box where you edit the message and a Sender ID option below it.
+After you click **Create**, the editor opens. You write the message in the **Message** box in the middle. The **Preview** on the right shows how it looks on a phone.
 
-The Sender ID is the name of the sender as shown on the recipient's phone. The default is `eMarketeer`. You can request a custom Sender ID — see [this article](../../documentation/email-sms/sender-id.md).
+The left panel holds the rest of the settings:
 
-Below that you find the SMS testing feature, which lets you send the SMS to yourself to see how it looks on arrival. Links in test SMS messages do not work — send the SMS the normal way if you need to test links.
+* **Sender ID** — the name of the sender as shown on the recipient's phone. The default is `eMarketeer`. You can request a custom Sender ID — see [this article](../../documentation/email-sms/sender-id.md).
+* **Test send** — send the SMS to your own mobile phone number to see how it looks on arrival. Links in a test SMS do not work — send the SMS the normal way if you need to test links.
 
-<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-create-sms-and-edit.png" alt="SMS editor with message box, Sender ID, test send and phone preview"></div>
+<div align="left" data-with-frame="true"><img src="../../.gitbook/assets/basics-creating-sms-editor.png" alt="SMS editor with insert tools, Sender ID and test send on the left, the message box with character counts in the middle, and a phone preview on the right"></div>
 {% endstep %}
 
 {% step %}
 ### Edit the SMS content
 
-Edit the message text in the text box. The buttons above the text box let you add links and personalized text such as the recipient's name.
+Write the message in the **Message** box. Under **Insert** in the left panel, use **Personalize** to add personalized text such as the contact's first name, **Insert link** to add a link, and **Emoji** to add an emoji.
+
+Below the box you see how many characters are left, how many SMS the message is split into, and which character set it uses: GSM or Unicode. An emoji switches the message to Unicode. A Unicode SMS holds fewer characters, so the message may need more parts.
+
+If the message is personalized, its length differs for each contact, so these counts are approximate.
 
 Links to other eMarketeer components are personalized per contact. For example, if you send a link to a mobile app component for an event, it can include a unique QR code or badge the contact uses to identify themselves at the event.
 
-Click **Save Message** after each change to save your work.
+Click **Done editing** to save your changes.
 {% endstep %}
 
 {% step %}

@@ -18,8 +18,8 @@ MFA fungerar genom att kräva extra verifieringsinformation. En vanlig faktor ä
 
 ## Aktivera MFA för ditt användarkonto
 
-1. Gå till **Account settings** i eMarketeer och öppna **Edit my account**.
-2. Klicka för att aktivera MFA.
+1. Klicka på din avatar uppe till höger och välj **My Profile**.
+2. Öppna fliken **Security** och slå på **Multi-factor authentication**.
 
 MFA är inaktiverat som standard om inte din administratör har framtvingat det för alla på kontot. Nästa gång du loggar in ombeds du att konfigurera din authenticator. För att göra det nu, logga ut och logga in igen.
 

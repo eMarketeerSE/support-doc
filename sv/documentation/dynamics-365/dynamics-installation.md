@@ -10,7 +10,12 @@ description: >-
 {% step %}
 ### Skapa en app-användare i Power Platform-miljön
 
-Som **System Administrator**, följ dessa steg:
+Det här steget kräver två roller på Microsoft-sidan:
+
+- **Delsteg 1:** en Microsoft Entra-roll som kan ge administratörsmedgivande för din klientorganisation, till exempel Global Administrator, Cloud Application Administrator eller Application Administrator. Medgivandet lägger till eMarketeer-appen i din klientorganisation.
+- **Delsteg 2 till 8:** rollen **System Administrator** i Power Platform-miljön. Den skapar app-användaren och tilldelar dess säkerhetsroll.
+
+Följ dessa steg:
 
 1. Navigera till en consent-URL och lägg till appen: `https://login.microsoftonline.com/<your tenant id>/adminconsent?client_id=a2a5e177-5102-4792-b0eb-52f4539f3cf7`
 2. Öppna **Power Platform Admin Center** på `https://admin.powerplatform.microsoft.com`.
@@ -18,13 +23,13 @@ Som **System Administrator**, följ dessa steg:
 4. Öppna **Settings → Users + permissions → Application users**.
 5. Klicka på **+ New app user**.
 6. På skärmen för appval, välj **eMarketeer Marketing Cloud**. Om den inte syns, sök med App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
-7. Tilldela säkerhetsrollen **System Administrator** till app-användaren.
+7. Tilldela app-användaren en säkerhetsroll. Välj **System Administrator**, eller en anpassad roll med enbart de behörigheter integrationen använder. Följ [Rekommenderad säkerhetsroll](dynamics-permissions.md#rekommenderad-sakerhetsroll) för att bygga den anpassade rollen. Två av dess tabeller finns först efter att du har anslutit, så läs noteringen om ordning där först.
 8. Klicka på **Save**.
 {% endstep %}
 {% step %}
 ### Aktivera granskning för synkronisering av samtycke
 
-För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskning för Contact-tabellen.
+För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskning för Contact-tabellen. Det här steget kräver rollen System Administrator eller System Customizer i miljön.
 
 1. Gå till Power Apps på `https://make.powerapps.com`.
 2. Navigera till **Tables → Contact**.
@@ -37,9 +42,9 @@ För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskn
 {% step %}
 ### Aktivera integrationen i eMarketeer
 
-Denna åtgärd kräver rollen Administrator.
+Det här steget kräver rollen Administrator i eMarketeer.
 
-I eMarketeer klickar du på kugghjulsikonen uppe till höger, väljer **Account Settings**, öppnar **Integrations** och klickar på **Manage** på kortet **Microsoft Dynamics 365**.
+I eMarketeer klickar du på kugghjulsikonen uppe till höger, väljer **Account settings**, öppnar **Integrations** och klickar på **Manage** på kortet **Microsoft Dynamics 365**.
 
 Klicka på **Connect to Dynamics 365**.
 

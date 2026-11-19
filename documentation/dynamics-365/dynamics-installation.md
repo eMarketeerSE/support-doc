@@ -10,7 +10,12 @@ description: >-
 {% step %}
 ### Create an app user in the Power Platform environment
 
-As a **System Administrator**, follow these steps:
+This step needs two roles on the Microsoft side:
+
+- **Sub-step 1:** a Microsoft Entra role that can grant admin consent for your tenant, for example Global Administrator, Cloud Application Administrator, or Application Administrator. The consent adds the eMarketeer app to your tenant.
+- **Sub-steps 2 to 8:** the **System Administrator** role in the Power Platform environment. It creates the app user and assigns its security role.
+
+Follow these steps:
 
 1. Navigate to a consent URL and add the app: `https://login.microsoftonline.com/<your tenant id>/adminconsent?client_id=a2a5e177-5102-4792-b0eb-52f4539f3cf7`
 2. Open the **Power Platform Admin Center** at `https://admin.powerplatform.microsoft.com`.
@@ -18,13 +23,13 @@ As a **System Administrator**, follow these steps:
 4. Open **Settings → Users + permissions → Application users**.
 5. Click **+ New app user**.
 6. In the app selection screen, choose **eMarketeer Marketing Cloud**. If it is not visible, search using the App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
-7. Assign the security role **System Administrator** to the app user.
+7. Assign a security role to the app user. Choose **System Administrator**, or a custom role with only the privileges the integration uses. To build the custom role, follow [Recommended security role](dynamics-permissions.md#recommended-security-role). Two of its tables exist only after you connect, so read the ordering note there first.
 8. Click **Save**.
 {% endstep %}
 {% step %}
 ### Enable auditing for consent sync
 
-To ensure consent data syncs correctly, enable auditing for the Contact table.
+To ensure consent data syncs correctly, enable auditing for the Contact table. This step requires the System Administrator or System Customizer role in the environment.
 
 1. Go to Power Apps at `https://make.powerapps.com`.
 2. Navigate to **Tables → Contact**.
@@ -37,9 +42,9 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 {% step %}
 ### Enable the integration in eMarketeer
 
-This action requires the Administrator role.
+This step requires the Administrator role in eMarketeer.
 
-In eMarketeer, click the gear icon at the top right, choose **Account Settings**, open **Integrations**, and click **Manage** on the **Microsoft Dynamics 365** card.
+In eMarketeer, click the gear icon at the top right, choose **Account settings**, open **Integrations**, and click **Manage** on the **Microsoft Dynamics 365** card.
 
 Click **Connect to Dynamics 365**.
 

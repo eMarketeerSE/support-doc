@@ -38,6 +38,8 @@ För att skapa en mapp klickar du på plusikonen bredvid **Folders** i panelen t
 
 Du kan flytta en kampanj i taget. Klicka på trepricksikonen på kampanjens rad och välj **Move to folder**.
 
+För att flytta en mapp med allt innehåll håller du muspekaren över mappen i panelen till vänster, klickar på trepricksikonen och väljer **Move to folder**. I dialogrutan väljer du en annan mapp, eller **No folder (root)** för att flytta den till översta nivån, och klickar på **Move**.
+
 ## Kategorisera kampanjer med taggar
 
 Taggar är ytterligare ett bra sätt att organisera och kategorisera kampanjer. En kampanj kan ha flera taggar, till exempel "Nyhetsbrev" och "Sverige", så att du kan gruppera den på fler sätt än en enda mapp tillåter. Sedan kan du filtrera Campaigns-listan efter tagg för att snabbt hitta relaterade kampanjer. Se [Taggar](../contacts-lists/tags.md) för hur du lägger till och hanterar taggar.

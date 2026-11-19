@@ -38,6 +38,8 @@ To create a folder, click the plus icon next to **Folders** in the left-hand pan
 
 You can move one campaign at a time. Click the three-dot icon on the campaign's row and choose **Move to folder**.
 
+To move a folder with everything in it, hover over the folder in the left-hand panel, click the three-dot icon and choose **Move to folder**. In the dialog, choose another folder, or **No folder (root)** to move it to the top level, and click **Move**.
+
 ## Categorize campaigns with tags
 
 Tags are another good way to organize and categorize campaigns. A campaign can have several tags, for example "Newsletters" and "Sweden", so you can group it in more ways than a single folder allows. You can then filter the Campaigns list by tag to find related campaigns quickly. See [Tags](../contacts-lists/tags.md) to learn how to add and manage tags.
