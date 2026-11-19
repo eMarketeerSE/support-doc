@@ -78,7 +78,7 @@ This applies in these places:
 * The SuperOffice and Dynamics 365 panels.
 * Quick Send.
 * Form links that identify the contact by email address.
-* Form submissions that match an existing contact. The answer is saved on this contact.
+* Form submissions that match an existing contact. The answer is saved on this contact. In new forms, a tracked website visitor comes after rule 1: if the browser is tracked as one of the contacts, the answer is saved on that contact.
 * Signals, such as Facebook Lead Forms and LinkedIn Lead Gen Forms. The event is saved on this contact.
 
 ### Example
@@ -94,6 +94,6 @@ eMarketeer uses contact B, because it is linked to a person in SuperOffice, even
 
 ### What updates every contact
 
-Unsubscribes, bounces and imports that match on email address update every contact with the email address. Signals update the fields of every contact with the email address too.
+Unsubscribes, bounces and imports that match on email address update every contact with the email address. Form submissions and signals update the fields of every contact with the email address too.
 
 An import set to not update existing contacts changes none of them. It adds only the contact that eMarketeer picks to the import's list and tags, so the list has one contact per email address.

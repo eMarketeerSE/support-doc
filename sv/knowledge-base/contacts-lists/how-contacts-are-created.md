@@ -78,7 +78,7 @@ Det gäller på följande ställen:
 * SuperOffice- och Dynamics 365-panelerna.
 * Quick Send.
 * Formulärlänkar som identifierar kontakten på e-postadress.
-* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på den här kontakten.
+* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på den här kontakten. I nya formulär kommer en spårad besökare på webbplatsen efter regel 1: om webbläsaren är spårad som en av kontakterna sparas svaret på den kontakten.
 * Signaler, till exempel Facebook Lead Forms och LinkedIn Lead Gen Forms. Händelsen sparas på den här kontakten.
 
 ### Exempel
@@ -94,7 +94,7 @@ eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperO
 
 ### Det här uppdaterar alla kontakter
 
-Avregistreringar, studsar och importer som matchar på e-postadress uppdaterar alla kontakter med e-postadressen. Signaler uppdaterar också fälten på alla kontakter med e-postadressen.
+Avregistreringar, studsar och importer som matchar på e-postadress uppdaterar alla kontakter med e-postadressen. Formulärsvar och signaler uppdaterar också fälten på alla kontakter med e-postadressen.
 
 En import som är inställd på att inte uppdatera befintliga kontakter ändrar ingen av dem. Den lägger bara till kontakten som eMarketeer väljer i importens lista och taggar, så listan har en kontakt per e-postadress.
 
