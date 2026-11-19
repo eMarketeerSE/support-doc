@@ -25,33 +25,33 @@ Integrationen läser och skriver poster oavsett vem som äger dem, så behörigh
 
 ## Alla behörigheter i översikt
 
-Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsroll behöver dessa behörigheter. Rader markerade med *enbart anslut/koppla från* används bara vid installation, uppgradering eller borttagning av integrationen, och du kan [ta bort dem efter anslutning](#ta-bort-installationsbehörigheterna-efter-anslutning-valfritt).
+Tabellen nedan är den fullständiga uppsättningen: integrationens säkerhetsroll behöver dessa behörigheter. Rader markerade med *enbart anslut/koppla från* används bara när du ansluter eller kopplar från integrationen, och du kan [ta bort dem efter anslutning](#ta-bort-installationsbehörigheterna-efter-anslutning-valfritt). Kolumnen "Används för" anger numren på de användningsfall under [Behörigheter per funktion](#behörigheter-per-funktion) som behöver varje rad.
 
-| Tabell / komponent | Åtkomst som krävs | Behörigheter |
-|---|---|---|
-| Contact (`contact`) | Read, Create, Write, Append, Append To | `prvReadContact`, `prvCreateContact`, `prvWriteContact`, `prvAppendContact`, `prvAppendToContact`, `prvAssignContact` (för att sätta postägare) |
-| Lead (`lead`) | Read, Create, Write, Append, Append To | `prvReadLead`, `prvCreateLead`, `prvWriteLead`, `prvAppendLead`, `prvAppendToLead` |
-| Account (`account`) | Read, Create, Append To, Assign | `prvReadAccount`, `prvCreateAccount`, `prvAppendToAccount`, `prvAssignAccount` (för att sätta postägare) |
-| Marketing List (`list`) | Read, Write, Append To | `prvReadList`, `prvWriteList`, `prvAppendToList` |
-| Aktiviteter (Task, Phone Call) | Create, Append, Assign | `prvCreateActivity`, `prvAppendActivity`, `prvAssignActivity` (för att sätta aktivitetens ägare när personifiering inte är tilldelad) |
-| User (`systemuser`) | Read, Append To | `prvReadUser`, `prvAppendToUser` |
-| Användarinställningar (`usersettings`) | Read | `prvReadUserSettings` (för att läsa tidszonen för aktiviteters förfallodatum) |
-| Security Role (`role`) | Read | `prvReadRole` |
-| Auditing (`audit`) | Läs granskningslogg | `prvReadRecordAuditHistory`, `prvReadAuditSummary` (motsvarar kryssrutorna "View Audit History" och "View Audit Summary" i gränssnittet) |
-| eMarketeer Subscriptions (`em_subscriptions`, anpassad) | Read, Create, Write, Delete, Append, Append To | `prvReadem_subscriptions`, `prvCreateem_subscriptions`, `prvWriteem_subscriptions`, `prvDeleteem_subscriptions`, `prvAppendem_subscriptions`, `prvAppendToem_subscriptions` |
-| eMarketeer Subscription Categories (`em_subscriptioncategories`, anpassad) | Read, Create, Write, Delete, Append To | `prvReadem_subscriptioncategories`, `prvCreateem_subscriptioncategories`, `prvWriteem_subscriptioncategories`, `prvDeleteem_subscriptioncategories`, `prvAppendToem_subscriptioncategories` |
-| Act on Behalf of Another User — *valfri* | Execute | `prvActOnBehalfOfAnotherUser`. Utelämna den om du inte vill att aktiviteter ska visa den valda användaren som skapare. Se [Personifiering](#personifiering). |
-| Publisher (`publisher`) — *enbart anslut/koppla från* | Read, Create | `prvReadPublisher`, `prvCreatePublisher` |
-| Tabelldefinitioner (metadata) | Read | `prvReadEntity`, `prvReadAttribute` (samtyckessynken läser Contact-tabellens definition vid varje körning) |
-| Tabelldefinitioner (metadata) — *enbart anslut/koppla från* | Create | `prvCreateEntity`, `prvCreateAttribute` |
-| Alternativa nycklar (metadata) — *enbart anslut/koppla från* | Read, Create | `prvReadEntityKey`, `prvCreateEntityKey` |
-| Tabellrelationer (metadata) — *enbart anslut/koppla från* | Read, Create | `prvReadRelationship`, `prvCreateRelationship` |
-| Systemvyer (`savedqueries`) — *enbart anslut/koppla från* | Read, Create | `prvReadCustomization`, `prvWriteCustomization` (Dataverse har ingen dedikerad savedquery-behörighet) |
-| Formulär (`systemforms`) — *enbart anslut/koppla från* | Read, Write | `prvReadSystemForm`, `prvWriteSystemForm` |
-| Webbresurser (`webresourceset`) — *enbart anslut/koppla från* | Read, Create, Write | `prvReadWebResource`, `prvCreateWebResource`, `prvWriteWebResource` |
-| Webhook-endpoints (`serviceendpoints`) — *enbart anslut/koppla från* | Read, Create, Delete | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint`, `prvDeleteServiceEndpoint` |
-| Webhook-registreringssteg (`sdkmessageprocessingsteps`, `sdkmessages`) — *enbart anslut/koppla från* | Read, Create, Delete | `prvReadSdkMessage`, `prvReadSdkMessageProcessingStep`, `prvCreateSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep` |
-| Publicera anpassningar — *enbart anslut/koppla från* | Execute | `prvPublishCustomization` |
+| Tabell / komponent | Åtkomst som krävs | Behörigheter | Används för |
+|---|---|---|---|
+| Contact (`contact`) | Read, Create, Write, Append, Append To | `prvReadContact`, `prvCreateContact`, `prvWriteContact`, `prvAppendContact`, `prvAppendToContact`, `prvAssignContact` (för att sätta postägare) | 3, 4, 5, 6, 7, 8 |
+| Lead (`lead`) | Read, Create, Write, Append, Append To | `prvReadLead`, `prvCreateLead`, `prvWriteLead`, `prvAppendLead`, `prvAppendToLead` | 3, 4, 5, 8 |
+| Account (`account`) | Read, Create, Append To, Assign | `prvReadAccount`, `prvCreateAccount`, `prvAppendToAccount`, `prvAssignAccount` (för att sätta postägare) | 3, 5, 8 |
+| Marketing List (`list`) | Read, Write, Append To | `prvReadList`, `prvWriteList`, `prvAppendToList` | 5 |
+| Aktiviteter (Task, Phone Call) | Create, Append, Assign | `prvCreateActivity`, `prvAppendActivity`, `prvAssignActivity` (för att sätta aktivitetens ägare när personifiering inte är tilldelad) | 4 |
+| User (`systemuser`) | Read, Append To | `prvReadUser`, `prvAppendToUser` | 3, 4 |
+| Användarinställningar (`usersettings`) | Read | `prvReadUserSettings` (för att läsa tidszonen för aktiviteters förfallodatum) | 4 |
+| Security Role (`role`) | Read | `prvReadRole` | 3, 4 |
+| Auditing (`audit`) | Läs granskningslogg | `prvReadRecordAuditHistory`, `prvReadAuditSummary` (motsvarar kryssrutorna "View Audit History" och "View Audit Summary" i gränssnittet) | 6 |
+| eMarketeer Subscriptions (`em_subscriptions`, anpassad) | Read, Create, Write, Delete, Append, Append To | `prvReadem_subscriptions`, `prvCreateem_subscriptions`, `prvWriteem_subscriptions`, `prvDeleteem_subscriptions`, `prvAppendem_subscriptions`, `prvAppendToem_subscriptions` | 7 |
+| eMarketeer Subscription Categories (`em_subscriptioncategories`, anpassad) | Read, Create, Write, Delete, Append To | `prvReadem_subscriptioncategories`, `prvCreateem_subscriptioncategories`, `prvWriteem_subscriptioncategories`, `prvDeleteem_subscriptioncategories`, `prvAppendToem_subscriptioncategories` | 7 |
+| Act on Behalf of Another User — *valfri* | Execute | `prvActOnBehalfOfAnotherUser`. Utelämna den om du inte vill att aktiviteter ska visa den valda användaren som skapare. Se [Personifiering](#personifiering). | 4 |
+| Publisher (`publisher`) — *enbart anslut/koppla från* | Read, Create | `prvReadPublisher`, `prvCreatePublisher` | 1 |
+| Tabelldefinitioner (metadata) | Read | `prvReadEntity`, `prvReadAttribute` (samtyckessynken läser Contact-tabellens definition vid varje körning) | 1, 6 |
+| Tabelldefinitioner (metadata) — *enbart anslut/koppla från* | Create | `prvCreateEntity`, `prvCreateAttribute` | 1 |
+| Alternativa nycklar (metadata) — *enbart anslut/koppla från* | Read, Create | `prvReadEntityKey`, `prvCreateEntityKey` | 1 |
+| Tabellrelationer (metadata) — *enbart anslut/koppla från* | Read, Create | `prvReadRelationship`, `prvCreateRelationship` | 1 |
+| Systemvyer (`savedqueries`) — *enbart anslut/koppla från* | Read, Create | `prvReadCustomization`, `prvWriteCustomization` (Dataverse har ingen dedikerad savedquery-behörighet) | 1 |
+| Formulär (`systemforms`) — *enbart anslut/koppla från* | Read, Write | `prvReadSystemForm`, `prvWriteSystemForm` | 1 |
+| Webbresurser (`webresourceset`) — *enbart anslut/koppla från* | Read, Create, Write | `prvReadWebResource`, `prvCreateWebResource`, `prvWriteWebResource` | 1 |
+| Webhook-endpoints (`serviceendpoints`) — *enbart anslut/koppla från* | Read, Create, Delete | `prvReadServiceEndpoint`, `prvCreateServiceEndpoint`, `prvDeleteServiceEndpoint` | 1, 2 |
+| Webhook-registreringssteg (`sdkmessageprocessingsteps`, `sdkmessages`) — *enbart anslut/koppla från* | Read, Create, Delete | `prvReadSdkMessage`, `prvReadSdkMessageProcessingStep`, `prvCreateSdkMessageProcessingStep`, `prvDeleteSdkMessageProcessingStep` | 1, 2 |
+| Publicera anpassningar — *enbart anslut/koppla från* | Execute | `prvPublishCustomization` | 1 |
 
 Ett krav utöver behörigheterna: granskning måste vara aktiverat på Contact-tabellen, annars kan samtyckessynken inte identifiera samtyckeändringar gjorda i Dynamics.
 
@@ -71,7 +71,13 @@ I säkerhetsrollseditorn hittar du behörigheterna här:
 | Fliken Customization: Sdk Message, Sdk Message Processing Step, Service Endpoint; fliken Business Management: Publisher | Webhook- och publisher-posterna från tabellen ovan |
 | Fliken Custom Entities: eMarketeer Subscriptions, eMarketeer Subscription Categories | De fullständiga uppsättningarna från tabellen ovan |
 
-**Obs om ordning:** de två eMarketeer-anpassade tabellerna (`em_subscriptions`, `em_subscriptioncategories`) existerar bara efter den första anslutningen, så deras behörigheter kan läggas till rollen först efter att användningsfall 1 har körts. Det praktiska tillvägagångssättet är: skapa rollen utan anpassade tabellrader, anslut, lägg sedan till de behörigheterna.
+**Obs om ordning:** de två eMarketeer-anpassade tabellerna (`em_subscriptions`, `em_subscriptioncategories`) existerar bara efter den första anslutningen, så deras behörigheter kan läggas till rollen först efter att användningsfall 1 har körts. Gör så här:
+
+1. Skapa rollen utan de anpassade tabellraderna.
+2. Anslut integrationen i eMarketeer.
+3. Lägg till behörigheterna för de anpassade tabellerna i rollen.
+
+Prenumerationssynken körs enligt ett schema. Den börjar fungera vid nästa körning efter att du har lagt till behörigheterna, inom 30 minuter.
 
 Vi avråder från att approximera detta med inbyggda roller som Salesperson, Marketing Professional eller System Customizer. De inkluderar breda rättigheter (radering av poster, delning, bulkoperationer, obegränsad anpassning) som integrationen aldrig använder, vilket motverkar syftet med att flytta bort från System Administrator.
 
@@ -87,10 +93,10 @@ Om du vill ha minsta möjliga stående åtkomst delar du upp behörigheterna i t
 2. Skapa en andra roll, till exempel "eMarketeer Installer", med enbart de raderna.
 3. Tilldela applikationsanvändaren båda rollerna.
 4. Anslut integrationen i eMarketeer.
-5. Vänta tills prenumerationsavsnittet och kontaktkortspanelen visas i Dynamics. Installationen körs i bakgrunden efter att du har anslutit.
+5. Vänta två timmar. Efter att du har anslutit kör eMarketeer den inledande installationen i bakgrunden, och installationen behöver de här behörigheterna.
 6. Ta bort rollen "eMarketeer Installer" från applikationsanvändaren.
 
-Tilldela installationsrollen igen innan du ansluter på nytt, uppgraderar eller kopplar från integrationen. Daglig användning (användningsfall 3 till 8) behöver bara den första rollen.
+Tilldela installationsrollen igen innan du ansluter på nytt eller kopplar från integrationen. eMarketeer kör installationen enbart när du ansluter. Daglig användning (användningsfall 3 till 8) behöver bara den första rollen.
 
 ## Säkerhetskontroller
 

@@ -10,7 +10,12 @@ description: >-
 {% step %}
 ### Create an app user in the Power Platform environment
 
-As a **System Administrator**, follow these steps:
+This step needs two roles on the Microsoft side:
+
+- **Sub-step 1:** a Microsoft Entra role that can grant admin consent for your tenant, for example Global Administrator, Cloud Application Administrator, or Application Administrator. The consent adds the eMarketeer app to your tenant.
+- **Sub-steps 2 to 8:** the **System Administrator** role in the Power Platform environment. It creates the app user and assigns its security role.
+
+Follow these steps:
 
 1. Navigate to a consent URL and add the app: `https://login.microsoftonline.com/<your tenant id>/adminconsent?client_id=a2a5e177-5102-4792-b0eb-52f4539f3cf7`
 2. Open the **Power Platform Admin Center** at `https://admin.powerplatform.microsoft.com`.
@@ -18,7 +23,7 @@ As a **System Administrator**, follow these steps:
 4. Open **Settings → Users + permissions → Application users**.
 5. Click **+ New app user**.
 6. In the app selection screen, choose **eMarketeer Marketing Cloud**. If it is not visible, search using the App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
-7. Assign the security role **System Administrator** to the app user.
+7. Assign a security role to the app user. Choose **System Administrator**, or a custom role with only the privileges the integration uses. To build the custom role, see [Dynamics - Required permissions](dynamics-permissions.md).
 8. Click **Save**.
 {% endstep %}
 {% step %}
@@ -37,7 +42,7 @@ To ensure consent data syncs correctly, enable auditing for the Contact table.
 {% step %}
 ### Enable the integration in eMarketeer
 
-This action requires the Administrator role.
+This step requires the Administrator role in eMarketeer.
 
 In eMarketeer, click the gear icon at the top right, choose **Account settings**, open **Integrations**, and click **Manage** on the **Microsoft Dynamics 365** card.
 
@@ -54,7 +59,3 @@ Choose the organization (environment) you want to integrate with and click **Con
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-installation-choose-organization.png" alt="List of Dynamics organizations to connect to, with one selected, and the Continue button"></div>
 {% endstep %}
 {% endstepper %}
-
-## Grant less than System Administrator
-
-The app user does not need the System Administrator role. To give it only the privileges the integration uses, build a custom role from [Dynamics - Required permissions](dynamics-permissions.md) and assign that role in step 1.

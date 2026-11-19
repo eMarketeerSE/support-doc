@@ -10,7 +10,12 @@ description: >-
 {% step %}
 ### Skapa en app-användare i Power Platform-miljön
 
-Som **System Administrator**, följ dessa steg:
+Det här steget kräver två roller på Microsoft-sidan:
+
+- **Delsteg 1:** en Microsoft Entra-roll som kan ge administratörsmedgivande för din klientorganisation, till exempel Global Administrator, Cloud Application Administrator eller Application Administrator. Medgivandet lägger till eMarketeer-appen i din klientorganisation.
+- **Delsteg 2 till 8:** rollen **System Administrator** i Power Platform-miljön. Den skapar app-användaren och tilldelar dess säkerhetsroll.
+
+Följ dessa steg:
 
 1. Navigera till en consent-URL och lägg till appen: `https://login.microsoftonline.com/<your tenant id>/adminconsent?client_id=a2a5e177-5102-4792-b0eb-52f4539f3cf7`
 2. Öppna **Power Platform Admin Center** på `https://admin.powerplatform.microsoft.com`.
@@ -18,7 +23,7 @@ Som **System Administrator**, följ dessa steg:
 4. Öppna **Settings → Users + permissions → Application users**.
 5. Klicka på **+ New app user**.
 6. På skärmen för appval, välj **eMarketeer Marketing Cloud**. Om den inte syns, sök med App ID `a2a5e177-5102-4792-b0eb-52f4539f3cf7`.
-7. Tilldela säkerhetsrollen **System Administrator** till app-användaren.
+7. Tilldela app-användaren en säkerhetsroll. Välj **System Administrator**, eller en anpassad roll med enbart de behörigheter integrationen använder. Se [Dynamics - Obligatoriska behörigheter](dynamics-permissions.md) för hur du bygger den anpassade rollen.
 8. Klicka på **Save**.
 {% endstep %}
 {% step %}
@@ -37,7 +42,7 @@ För att säkerställa att samtyckesdata synkroniseras korrekt, aktivera granskn
 {% step %}
 ### Aktivera integrationen i eMarketeer
 
-Denna åtgärd kräver rollen Administrator.
+Det här steget kräver rollen Administrator i eMarketeer.
 
 I eMarketeer klickar du på kugghjulsikonen uppe till höger, väljer **Account settings**, öppnar **Integrations** och klickar på **Manage** på kortet **Microsoft Dynamics 365**.
 
@@ -54,7 +59,3 @@ Välj den organisation (miljö) du vill integrera med och klicka på **Continue*
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/dynamics-installation-choose-organization.png" alt="Lista med Dynamics-organisationer att ansluta till, där en är vald, och knappen Continue"></div>
 {% endstep %}
 {% endstepper %}
-
-## Tilldela mindre än System Administrator
-
-App-användaren behöver inte rollen System Administrator. Om du vill ge den enbart de behörigheter integrationen använder bygger du en anpassad roll utifrån [Dynamics - Obligatoriska behörigheter](dynamics-permissions.md) och tilldelar den rollen i steg 1.
