@@ -65,11 +65,11 @@ You can push custom engagement events from any external system using the Signals
 
 ## When several contacts share an email address
 
-eMarketeer allows several contacts with the same email address. For example, a form can create one contact, and an import from your CRM can create another.
+eMarketeer allows several contacts with the same email address. For example, a form can create one contact. Later, an import with **Match by** set to **External ID** can create another contact with the same email address, because that import looks only at the External ID.
 
 When eMarketeer needs one contact for an email address, it picks the same one in the places listed below. It uses the first rule that applies:
 
-1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the contact card, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
+1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the company card in the panel, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
 2. A contact that is linked to a person in SuperOffice or Dynamics 365, or to a lead in Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID, or it is linked to a Dynamics 365 lead. If several contacts are linked, eMarketeer uses the oldest of them.
 3. The oldest contact with that email address.
 
@@ -88,16 +88,12 @@ Two contacts share the email address anna@acme.com:
 | Contact | Created | External ID |
 | --- | --- | --- |
 | Contact A | By a form, last year | None |
-| Contact B | By an import from SuperOffice, yesterday | SuperOffice Contact ID |
+| Contact B | By an import with **Match by** set to **External ID**, last week | SuperOffice Contact ID |
 
 eMarketeer uses contact B, because it is linked to a person in SuperOffice, even though contact A is older.
 
-### What still updates every contact
+### What updates every contact
 
-Unsubscribes, bounces and imports still update every contact with the email address. Signals update the fields of every contact with the email address too.
+Unsubscribes, bounces and imports that match on email address update every contact with the email address. Signals update the fields of every contact with the email address too.
 
 An import set to not update existing contacts changes none of them. It adds only the contact that eMarketeer picks to the import's list and tags, so the list has one contact per email address.
-
-### The CRM badge on the contact card
-
-The contact card shows the CRM badge only when the External ID is a SuperOffice Contact ID or a Dynamics ID, or when the contact is linked to a Dynamics 365 lead. A SuperOffice Contact ID is a whole number above 0, written with no leading zeros. Other imported values, such as `007` or `12.5`, no longer show the badge.

@@ -30,7 +30,7 @@ Under the name you see the contact's job title and company. Click the company to
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/contact-card-share-menu.png" alt="Share menu open on the contact card"></div>
 
-* **Share to CRM** creates a record of the contact in your connected CRM, or matches an existing record. The contact's CRM ID is then saved as the contact's [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). This option is shown when the contact has no External ID. When the contact has an External ID, the menu shows **Open in CRM** instead, which opens the contact in your integrated CRM.
+* **Share to CRM** creates a record of the contact in your connected CRM, or matches an existing record. The contact's CRM ID is then saved as the contact's [External ID](../../documentation/superoffice/superoffice-contact-matching.md#external-id). This option is shown when the contact is not linked to your CRM. The contact is linked when its External ID is a SuperOffice Contact ID or a Dynamics ID, or when it is linked to a Dynamics 365 lead. For a linked contact, the menu shows **Open in CRM** instead, which opens the contact in your integrated CRM.
 * **Copy link to this contact** copies a link to the contact that you can send to other eMarketeer users.
 
 The **⋮** menu to the right of the tabs has one option, **Delete this contact**.

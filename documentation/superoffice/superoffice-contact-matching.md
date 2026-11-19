@@ -15,6 +15,8 @@ eMarketeer and SuperOffice keep separate databases. The link between them is sto
 
 The link is a contact field called **External ID**. With SuperOffice, it holds the person's SuperOffice **Contact ID**. The field isn't specific to SuperOffice: with Microsoft Dynamics 365, for example, it holds the Dynamics contact ID.
 
+eMarketeer treats the External ID as a SuperOffice Contact ID only when it is a whole number above 0, written with no leading zeros, such as `1234`. A value such as `007` or `12.5` does not link the contact to SuperOffice.
+
 {% hint style="info" %}
 SuperOffice uses two similar IDs. The **Contact ID** identifies the person (`person_id` in the SuperOffice database), and the **Company ID** identifies the company (`contact_id`). eMarketeer always stores the person's Contact ID.
 {% endhint %}

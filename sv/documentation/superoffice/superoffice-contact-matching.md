@@ -15,6 +15,8 @@ eMarketeer och SuperOffice har separata databaser. Kopplingen mellan dem sparas 
 
 Kopplingen är ett kontaktfält som heter **External ID**. Med SuperOffice innehåller det personens **Contact ID** i SuperOffice. Fältet är inte specifikt för SuperOffice: med Microsoft Dynamics 365 innehåller det till exempel kontakt-ID:t i Dynamics.
 
+eMarketeer behandlar External ID som ett Contact ID i SuperOffice bara när det är ett heltal större än 0, skrivet utan inledande nollor, till exempel `1234`. Ett värde som `007` eller `12.5` kopplar inte kontakten till SuperOffice.
+
 {% hint style="info" %}
 SuperOffice använder två liknande ID:n. **Contact ID** identifierar personen (`person_id` i SuperOffice-databasen), och **Company ID** identifierar företaget (`contact_id`). eMarketeer sparar alltid personens Contact ID.
 {% endhint %}

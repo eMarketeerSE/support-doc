@@ -65,11 +65,11 @@ Du kan skicka anpassade engagemangshändelser från valfritt externt system via 
 
 ## När flera kontakter har samma e-postadress
 
-eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan till exempel skapa en kontakt, och en import från ditt CRM kan skapa en till.
+eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan till exempel skapa en kontakt. Senare kan en import där **Match by** är inställt på **External ID** skapa en till kontakt med samma e-postadress, eftersom den importen bara tittar på External ID.
 
 När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt på ställena som listas nedan. eMarketeer använder den första regeln som gäller:
 
-1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från kontaktkortet eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
+1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från företagskortet i panelen eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
 2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365, eller till en lead i Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller så är den kopplad till en lead i Dynamics 365. Om flera kontakter är kopplade använder eMarketeer den äldsta av dem.
 3. Den äldsta kontakten med den e-postadressen.
 
@@ -88,16 +88,13 @@ Två kontakter har e-postadressen anna@acme.com:
 | Kontakt | Skapad | External ID |
 | --- | --- | --- |
 | Kontakt A | Av ett formulär, förra året | Inget |
-| Kontakt B | Av en import från SuperOffice, i går | Contact ID i SuperOffice |
+| Kontakt B | Av en import där **Match by** är inställt på **External ID**, förra veckan | Contact ID i SuperOffice |
 
 eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperOffice, trots att kontakt A är äldre.
 
-### Det här uppdaterar fortfarande alla kontakter
+### Det här uppdaterar alla kontakter
 
-Avregistreringar, studsar och importer uppdaterar fortfarande alla kontakter med e-postadressen. Signaler uppdaterar också fälten på alla kontakter med e-postadressen.
+Avregistreringar, studsar och importer som matchar på e-postadress uppdaterar alla kontakter med e-postadressen. Signaler uppdaterar också fälten på alla kontakter med e-postadressen.
 
 En import som är inställd på att inte uppdatera befintliga kontakter ändrar ingen av dem. Den lägger bara till kontakten som eMarketeer väljer i importens lista och taggar, så listan har en kontakt per e-postadress.
 
-### CRM-märket på kontaktkortet
-
-Kontaktkortet visar CRM-märket bara när External ID är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller när kontakten är kopplad till en lead i Dynamics 365. Ett Contact ID i SuperOffice är ett heltal större än 0, skrivet utan inledande nollor. Andra importerade värden, till exempel `007` eller `12.5`, visar inte längre märket.
