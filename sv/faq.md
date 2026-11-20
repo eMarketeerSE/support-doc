@@ -116,6 +116,18 @@ Om du vill ha ett e-postmeddelande som ser enkelt ut, som ett meddelande i ren t
 
 </details>
 
+<details>
+
+<summary>Kan jag spara eller ladda ner ett e-postmeddelande, till exempel som PDF?</summary>
+
+Nej. eMarketeer kan inte spara eller ladda ner e-postmeddelanden. Öppna i stället e-postmeddelandets [Read on web](documentation/email-sms/read-on-web.md)-sida i webbläsaren och spara sidan som PDF:
+
+1. Skicka ett test av e-postmeddelandet till dig själv och klicka på dess read on web-länk. Om e-postmeddelandet inte har någon, lägg till den först. Se [Så här infogar du en read on web-länk](documentation/email-sms/read-on-web.md#så-här-infogar-du-en-read-on-web-länk).
+2. Tryck på **Ctrl+P** (**Cmd+P** på Mac) för att skriva ut sidan.
+3. Välj **Spara som PDF** som skrivare och klicka sedan på **Spara**.
+
+</details>
+
 ## API
 
 <details>

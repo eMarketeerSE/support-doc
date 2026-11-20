@@ -116,6 +116,18 @@ If you want an email that looks simple, like a plain text email, choose the **Em
 
 </details>
 
+<details>
+
+<summary>Can I save or download an email, for example as a PDF?</summary>
+
+No. eMarketeer can't save or download emails. Instead, open the email's [Read on web](documentation/email-sms/read-on-web.md) page in your browser and save that page as a PDF:
+
+1. Send a test of the email to yourself and click its read on web link. If the email doesn't have one, add it first. See [How to insert a read on web link](documentation/email-sms/read-on-web.md#how-to-insert-a-read-on-web-link).
+2. Press **Ctrl+P** (**Cmd+P** on a Mac) to print the page.
+3. As the printer, choose **Save as PDF**, then click **Save**.
+
+</details>
+
 ## API
 
 <details>
