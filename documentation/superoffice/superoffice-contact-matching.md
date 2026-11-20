@@ -51,11 +51,11 @@ The steps in the **CRM** group of the **Add Journey step** panel first use the E
 
 When you add a Journey step involving SuperOffice, a settings panel appears in the left sidebar.
 
-By default, contacts that are not found in SuperOffice are skipped. You can also configure the step to automatically create the missing contacts in SuperOffice.
+The SuperOffice steps only run for contacts that exist in SuperOffice. By default, a contact that isn't found in SuperOffice is skipped: the step doesn't run for that contact. To run the step for these contacts too, set it to create the missing contacts in SuperOffice.
 
 To create the contacts in SuperOffice, you must also provide a responsible sales person and a category for the new contacts and companies.
 
-When creating contacts and companies automatically, eMarketeer tries to find an existing company suitable for the new contact, or creates the contact without a company if allowed.
+A company is only created when eMarketeer creates a new contact. If the contact already exists in SuperOffice, no company is created. For a new contact, eMarketeer looks for a suitable existing company in SuperOffice, first by email domain and then by company name. If it finds none, it creates a new company, or creates the contact without a company if that's allowed.
 
 The contact-creation setting applies to all SuperOffice steps in the Journey.
 

@@ -51,11 +51,11 @@ Stegen i gruppen **CRM** i panelen **Add Journey step** använder först Externa
 
 När du lägger till ett Journey-steg som involverar SuperOffice visas en inställningspanel i det vänstra sidofältet.
 
-Som standard hoppas kontakter som inte hittas i SuperOffice över. Du kan också konfigurera steget så att det automatiskt skapar de saknade kontakterna i SuperOffice.
+SuperOffice-stegen körs bara för kontakter som finns i SuperOffice. Som standard hoppas en kontakt som inte hittas i SuperOffice över: steget körs inte för den kontakten. Om du vill att steget ska köras även för de kontakterna ställer du in det så att de saknade kontakterna skapas i SuperOffice.
 
 För att skapa kontakterna i SuperOffice måste du också ange en ansvarig säljare och en kategori för de nya kontakterna och företagen.
 
-När kontakter och företag skapas automatiskt försöker eMarketeer hitta ett befintligt företag som passar den nya kontakten, eller skapar kontakten utan företag om det är tillåtet.
+Ett företag skapas bara när eMarketeer skapar en ny kontakt. Om kontakten redan finns i SuperOffice skapas inget företag. För en ny kontakt letar eMarketeer efter ett passande befintligt företag i SuperOffice, först på e-postdomän och sedan på företagsnamn. Om inget hittas skapas ett nytt företag, eller så skapas kontakten utan företag om det är tillåtet.
 
 Inställningen för att skapa kontakter gäller alla SuperOffice-steg i din Journey.
 
