@@ -22,9 +22,9 @@ Journeys kan användas för att:
 
 Kombinationen av ett filter som startpunkt och de tillgängliga stegen ger dig ett kraftfullt verktyg för att automatisera nästan vilken process som helst.
 
-## Systemkrav
+## Aktiva Journeys
 
-Du kan använda Journeys utan att köpa till tillägget. I Trial-läge kan du skapa hur många Journeys du vill, men endast en Journey kan vara aktiv åt gången.
+Du kan skapa hur många Journeys du vill, men bara en Journey kan vara aktiv åt gången. För att ha fler än en aktiv Journey behöver du tillägget Unlimited Journeys. Det ingår automatiskt i abonnemang med en kontaktnivå på 5 000 kontakter eller fler.
 
 ## Vad du gör härnäst
 

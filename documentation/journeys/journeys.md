@@ -23,9 +23,9 @@ Journeys can be used to:
 
 The combination of a filter as starting point and the available steps gives you a powerful tool for automating almost any process.
 
-## System requirements
+## Active journeys
 
-You can use journeys without purchasing the add-on. In Trial mode, you can create as many journeys as you like, but only one journey can be active at a time.
+You can create as many journeys as you like, but only one journey can be active at a time. To have more than one active journey, you need the Unlimited Journeys add-on. It's included automatically in subscriptions with a contact level of 5,000 contacts or more.
 
 ## What to do next
 
