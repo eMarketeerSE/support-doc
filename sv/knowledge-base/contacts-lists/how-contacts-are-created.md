@@ -65,21 +65,28 @@ Du kan skicka anpassade engagemangshändelser från valfritt externt system via 
 
 ## När flera kontakter har samma e-postadress
 
-eMarketeer tillåter flera kontakter med samma e-postadress. Ett formulär kan till exempel skapa en kontakt. Senare kan en import där **Match by** är inställt på **External ID** skapa en till kontakt med samma e-postadress, eftersom den importen bara tittar på External ID.
+eMarketeer tillåter att fler än en kontakt har samma e-postadress. Ett formulär skapar till exempel en kontakt. Senare skapar en import där **Match by** är inställt på **External ID** en andra kontakt med samma e-postadress, eftersom den importen bara matchar på External ID.
 
-När eMarketeer behöver en enda kontakt för en e-postadress väljer det samma kontakt på ställena som listas nedan. eMarketeer använder den första regeln som gäller:
+Många åtgärder behöver arbeta med en enda kontakt för en e-postadress — att öppna en kontakt i SuperOffice-panelen, en Quick Send, en formulärlänk och så vidare. När kontakter delar e-postadress väljer eMarketeer alltid samma kontakt, **standardkontakten**. eMarketeer använder den första regel som gäller:
 
-1. Kontakten som länken eller panelen redan pekar ut. Det är en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från företagskortet i panelen eller CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen.
-2. En kontakt som är kopplad till en person i SuperOffice eller Dynamics 365, eller till en lead i Dynamics 365. Kontakten har ett **External ID** som är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller så är den kopplad till en lead i Dynamics 365. Om flera kontakter är kopplade använder eMarketeer den äldsta av dem.
-3. Den äldsta kontakten med den e-postadressen.
+1. **En kontakt som sammanhanget redan pekar ut.** Till exempel en personlig länk i ett e-postmeddelande, en kontakt som du öppnade från företagskortet i en panel, CRM-personen som visas i SuperOffice- eller Dynamics 365-panelen, eller, i ett formulär, den besökare som webbläsaren är spårad som.
+2. **En kontakt som är kopplad till en CRM-person.** Kontaktens **External ID** är ett Contact ID i SuperOffice eller ett ID i Dynamics, eller så är kontakten kopplad till en lead i Dynamics 365. Om flera kontakter uppfyller detta använder eMarketeer den äldsta.
+3. **Den äldsta kontakten** med den e-postadressen.
 
-Det gäller på följande ställen:
+### Där eMarketeer använder standardkontakten
 
 * SuperOffice- och Dynamics 365-panelerna.
 * Quick Send.
 * Formulärlänkar som identifierar kontakten på e-postadress.
-* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på den här kontakten. I nya formulär kommer en spårad besökare på webbplatsen efter regel 1: om webbläsaren är spårad som en av kontakterna sparas svaret på den kontakten. En personlig länk räknas bara när e-postadressen som fylls i formuläret tillhör den kontakten. Om någon vidarebefordrar e-postmeddelandet och en kollega svarar med sin egen adress sparas svaret på kollegans kontakt.
-* Signaler, till exempel Facebook Lead Forms och LinkedIn Lead Gen Forms. Händelsen sparas på den här kontakten.
+* Formulärsvar som matchar en befintlig kontakt. Svaret sparas på standardkontakten.
+* Signaler, till exempel Facebook Lead Forms och LinkedIn Lead Gen Forms. Händelsen sparas på standardkontakten.
+
+### Vilken kontakt ett formulärsvar hamnar på
+
+Ett formulärsvar följer reglerna ovan, så regel 1 kan skicka det till en annan kontakt än den äldsta:
+
+* Om webbläsaren är spårad som en av kontakterna sparas svaret på den kontakten.
+* En personlig länk räknas bara när e-postadressen som fylls i formuläret tillhör länkens kontakt. Om någon vidarebefordrar e-postmeddelandet och en kollega svarar med sin egen adress sparas svaret på kollegans kontakt.
 
 ### Exempel
 
@@ -94,7 +101,7 @@ eMarketeer använder kontakt B, eftersom den är kopplad till en person i SuperO
 
 ### Det här uppdaterar alla kontakter
 
-Avregistreringar, studsar och importer som matchar på e-postadress uppdaterar alla kontakter med e-postadressen. Formulärsvar och signaler uppdaterar också fälten på alla kontakter med e-postadressen.
+Avregistreringar, studsar och importer som matchar på e-postadress uppdaterar alla kontakter med e-postadressen. Formulärsvar och signaler uppdaterar också fälten på alla kontakter med e-postadressen. Själva svaret eller händelsen sparas bara på den kontakt som väljs ovan.
 
-En import som är inställd på att inte uppdatera befintliga kontakter ändrar ingen av dem. Den lägger bara till kontakten som eMarketeer väljer i importens lista och taggar, så listan har en kontakt per e-postadress.
+En import som är inställd på att inte uppdatera befintliga kontakter ändrar ingen av dem. Den lägger bara till standardkontakten i importens lista och taggar, så listan har en kontakt per e-postadress.
 

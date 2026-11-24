@@ -65,21 +65,28 @@ You can push custom engagement events from any external system using the Signals
 
 ## When several contacts share an email address
 
-eMarketeer allows several contacts with the same email address. For example, a form can create one contact. Later, an import with **Match by** set to **External ID** can create another contact with the same email address, because that import looks only at the External ID.
+eMarketeer allows more than one contact to share an email address. For example, a form creates one contact. Later, an import with **Match by** set to **External ID** creates a second contact with the same email address, because that import matches only on the External ID.
 
-When eMarketeer needs one contact for an email address, it picks the same one in the places listed below. It uses the first rule that applies:
+Many actions need to work on a single contact for an email address — opening a contact in the SuperOffice panel, a Quick Send, a form link, and so on. When contacts share an email address, eMarketeer always picks the same one, the **default contact**. It uses the first of these rules that applies:
 
-1. The contact that the link or panel already names. This is a personal link in an email, a contact you opened from the company card in the panel, or the CRM person shown in the SuperOffice or Dynamics 365 panel.
-2. A contact that is linked to a person in SuperOffice or Dynamics 365, or to a lead in Dynamics 365. This contact has an **External ID** that is a SuperOffice Contact ID or a Dynamics ID, or it is linked to a Dynamics 365 lead. If several contacts are linked, eMarketeer uses the oldest of them.
-3. The oldest contact with that email address.
+1. **A contact the context already points to.** For example, a personal link in an email, a contact you opened from the company card in a panel, the CRM person shown in the SuperOffice or Dynamics 365 panel, or, in a form, the visitor the browser is tracked as.
+2. **A contact linked to a CRM person.** Its **External ID** is a SuperOffice Contact ID or a Dynamics ID, or the contact is linked to a Dynamics 365 lead. If several contacts qualify, eMarketeer uses the oldest.
+3. **The oldest contact** with that email address.
 
-This applies in these places:
+### Where eMarketeer uses the default contact
 
 * The SuperOffice and Dynamics 365 panels.
 * Quick Send.
 * Form links that identify the contact by email address.
-* Form submissions that match an existing contact. The answer is saved on this contact. In new forms, a tracked website visitor comes after rule 1: if the browser is tracked as one of the contacts, the answer is saved on that contact. A personal link counts only when the email address typed in the form belongs to that contact. If someone forwards the email and a colleague answers with their own address, the answer is saved on the colleague's contact.
-* Signals, such as Facebook Lead Forms and LinkedIn Lead Gen Forms. The event is saved on this contact.
+* Form answers that match an existing contact. The answer is saved on the default contact.
+* Signals, such as Facebook Lead Forms and LinkedIn Lead Gen Forms. The event is saved on the default contact.
+
+### Which contact gets a form answer
+
+A form answer follows the rules above, so rule 1 can send it somewhere other than the oldest contact:
+
+* If the browser is tracked as one of the contacts, the answer is saved on that contact.
+* A personal link only counts when the email address typed in the form belongs to the link's contact. If someone forwards the email and a colleague answers with their own address, the answer is saved on the colleague's contact.
 
 ### Example
 
@@ -94,6 +101,6 @@ eMarketeer uses contact B, because it is linked to a person in SuperOffice, even
 
 ### What updates every contact
 
-Unsubscribes, bounces and imports that match on email address update every contact with the email address. Form submissions and signals update the fields of every contact with the email address too.
+Unsubscribes, bounces, and imports that match on email address update every contact with the email address. Form submissions and signals also update the fields of every contact with the email address. The answer or event itself is saved only on the one contact picked above.
 
-An import set to not update existing contacts changes none of them. It adds only the contact that eMarketeer picks to the import's list and tags, so the list has one contact per email address.
+An import set to not update existing contacts changes none of them. It adds only the default contact to the import's list and tags, so the list has one contact per email address.
