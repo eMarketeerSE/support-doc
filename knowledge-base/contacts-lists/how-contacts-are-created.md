@@ -73,7 +73,7 @@ When this happens, many actions still need to work on a single contact — openi
 
 | Situation | Contact used |
 | --- | --- |
-| You open the address from the SuperOffice or Dynamics 365 panel | The CRM person the panel shows |
+| You view a person in the CRM panel | The contact whose External ID matches that CRM person |
 | You Quick Send to the address | The CRM-linked contact; if none, the oldest |
 | A contact clicks a personal link in a campaign email | That exact contact |
 | A form is submitted and the browser is tracked as one of the contacts | The tracked contact |

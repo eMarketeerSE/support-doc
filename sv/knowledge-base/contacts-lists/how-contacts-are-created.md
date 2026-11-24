@@ -73,7 +73,7 @@ När det händer behöver många åtgärder ändå arbeta med en enda kontakt �
 
 | Situation | Kontakt som används |
 | --- | --- |
-| Du öppnar adressen från SuperOffice- eller Dynamics 365-panelen | CRM-personen som panelen visar |
+| Du visar en person i CRM-panelen | Kontakten vars External ID matchar den CRM-personen |
 | Du gör en Quick Send till adressen | Den CRM-kopplade kontakten; om ingen finns, den äldsta |
 | En kontakt klickar på en personlig länk i ett kampanjmejl | Exakt den kontakten |
 | Ett formulär skickas in och webbläsaren är spårad som en av kontakterna | Den spårade kontakten |
