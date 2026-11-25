@@ -32,6 +32,8 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+html { scroll-padding-top: var(--header-height); }
+
 body {
   margin: 0;
   background: var(--bg-page);
