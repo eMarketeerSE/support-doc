@@ -89,8 +89,7 @@ a { color: var(--link); }
   padding: 24px 16px;
   font-size: 0.9rem;
 }
-.site-nav > summary { display: none; }
-.site-nav::details-content { content-visibility: visible; display: block; }
+.nav-toggle, .nav-toggle-label { display: none; }
 .site-nav h2 {
   margin: 20px 0 6px;
   color: var(--text-muted);
@@ -131,12 +130,16 @@ article summary { cursor: pointer; color: var(--text-heading); font-weight: 600;
 article blockquote { margin: 1.5em 0; padding: 0 16px; border-left: 4px solid var(--orange); color: var(--text-muted); }
 
 .not-found { max-width: 640px; margin: 20vh auto 0; padding: 0 16px; }
+html[data-language="en"] [data-language="sv"], html[data-language="sv"] [data-language="en"] { display: none; }
 .not-found h1 { color: var(--text-heading); }
 
 @media (max-width: 767px) {
   .layout { display: block; }
   .site-nav { position: static; max-height: none; padding: 8px 16px; border-bottom: 1px solid var(--border); }
-  .site-nav > summary { display: block; cursor: pointer; padding: 8px 0; color: var(--text-heading); font-weight: 600; }
-  .site-nav::details-content { content-visibility: auto; display: revert; }
+  .nav-toggle { display: block; position: absolute; width: 1px; height: 1px; opacity: 0; }
+  .nav-toggle-label { display: block; cursor: pointer; padding: 8px 0; color: var(--text-heading); font-weight: 600; }
+  .nav-toggle:focus-visible + .nav-toggle-label { outline: 2px solid var(--link); outline-offset: 2px; }
+  .site-nav nav { display: none; }
+  .nav-toggle:checked ~ nav { display: block; }
   main { padding: 24px 16px 48px; }
 }

@@ -29,8 +29,9 @@ const { twinUrl, nav } = page
       </nav>
     </header>
     <div class="layout">
-      <details class="site-nav">
-        <summary>Menu</summary>
+      <div class="site-nav">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menu" />
+        <label for="nav-toggle" class="nav-toggle-label">Menu</label>
         <nav aria-label="Pages">
           {nav.map((group) => (
             <section>
@@ -39,7 +40,7 @@ const { twinUrl, nav } = page
             </section>
           ))}
         </nav>
-      </details>
+      </div>
       <main>
         <article data-pagefind-body>
           {!hasHeading && <h1>{page.title}</h1>}
