@@ -30,6 +30,7 @@ describe('checkBuild', () => {
   it('should accept a snapshot URL that is a redirect source', () => {
     const dist = createDist()
     writeFile(dist, 'old/page.html', REDIRECT_HTML)
+    writeFile(dist, 'new.html', '<p>new</p>')
     assert.deepEqual(checkBuild(dist, ['/old/page'], { '/old/page': '/new' }), [])
   })
 
@@ -51,15 +52,33 @@ describe('checkBuild', () => {
   it('should report a redirect source that is also a page', () => {
     const dist = createDist()
     writeFile(dist, 'old/page.html', '<p>real page</p>')
+    writeFile(dist, 'new.html', '<p>new</p>')
     const problems = checkBuild(dist, ['/old/page'], { '/old/page': '/new' })
-    assert.ok(problems.some((problem) => problem.includes('/old/page')))
+    assert.deepStrictEqual(problems, ['/old/page is a redirect source but the build has a page there'])
   })
 
   it('should report a missing sitemap.xml and robots.txt', () => {
     const dist = mkdtempSync(join(tmpdir(), 'check-build-'))
     const problems = checkBuild(dist, [], {})
-    assert.equal(problems.length, 2)
-    assert.ok(problems.some((problem) => problem.includes('sitemap.xml')))
-    assert.ok(problems.some((problem) => problem.includes('robots.txt')))
+    assert.deepStrictEqual(problems, ['dist/sitemap.xml is missing', 'dist/robots.txt is missing'])
+  })
+
+  it('should report a redirect whose target is not a page', () => {
+    const dist = createDist()
+    writeFile(dist, 'old/a.html', REDIRECT_HTML)
+    writeFile(dist, 'old/b.html', REDIRECT_HTML)
+    writeFile(dist, 'index.html', '<p>home</p>')
+    const redirects = { '/old/a': '/gone', '/old/b': '/old/a' }
+    assert.deepStrictEqual(checkBuild(dist, [], redirects), [
+      '/old/a redirects to /gone, which is not a page',
+      '/old/b redirects to /old/a, which is not a page',
+    ])
+  })
+
+  it('should accept a redirect to the home page', () => {
+    const dist = createDist()
+    writeFile(dist, 'old/a.html', REDIRECT_HTML)
+    writeFile(dist, 'index.html', '<p>home</p>')
+    assert.deepStrictEqual(checkBuild(dist, [], { '/old/a': '/' }), [])
   })
 })

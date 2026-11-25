@@ -1,10 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs'
-import { join, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
-import { flatMap, keys, union } from 'lodash-es'
-import { readRedirects } from '../src/lib/redirects.ts'
-
-const SNAPSHOT_FILE = fileURLToPath(new URL('../sitemap-snapshot.txt', import.meta.url))
+import { join } from 'node:path'
+import { flatMap, keys, toPairs, union } from 'lodash-es'
 
 export const checkBuild = (dist: string, snapshot: string[], redirects: Record<string, string>): string[] => {
   const missingFiles = flatMap(['sitemap.xml', 'robots.txt'], (name) =>
@@ -24,12 +20,10 @@ export const checkBuild = (dist: string, snapshot: string[], redirects: Record<s
     }
     return []
   })
-  return [...missingFiles, ...urlProblems]
-}
-
-if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const snapshot = readFileSync(SNAPSHOT_FILE, 'utf8').split('\n').filter((line) => line !== '')
-  const problems = checkBuild(resolve(process.argv[2]), snapshot, readRedirects())
-  problems.forEach((problem) => console.log(problem))
-  process.exit(problems.length > 0 ? 1 : 0)
+  const targetProblems = flatMap(toPairs(redirects), ([source, target]) => {
+    const file = join(dist, target === '/' ? 'index.html' : `${target}.html`)
+    const isPage = existsSync(file) && !readFileSync(file, 'utf8').includes('http-equiv="refresh"')
+    return isPage ? [] : [`${source} redirects to ${target}, which is not a page`]
+  })
+  return [...missingFiles, ...urlProblems, ...targetProblems]
 }

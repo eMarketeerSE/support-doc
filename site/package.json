@@ -8,7 +8,7 @@
   "scripts": {
     "test": "node --import tsx --test \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
     "build": "astro build",
-    "check-build": "tsx scripts/check-build.ts dist"
+    "check-build": "tsx scripts/check-build-cli.ts dist"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.10",
