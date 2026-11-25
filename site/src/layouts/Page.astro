@@ -1,0 +1,51 @@
+---
+import '../styles/site.css'
+import Nav from '../components/Nav.astro'
+import { Space, SPACE_PREFIX } from '../lib/summary'
+import type { NavGroup, SitePage } from '../lib/summary'
+
+type Props = { page: SitePage & { twinUrl: string; nav: NavGroup[] }; hasHeading: boolean }
+
+const { page, hasHeading } = Astro.props
+const lang = page.space === Space.Swedish ? 'sv' : 'en'
+const { twinUrl, nav } = page
+---
+<!doctype html>
+<html lang={lang} data-site="support-doc">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{page.title} - eMarketeer Support</title>
+    {page.description && <meta name="description" content={page.description} />}
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href={SPACE_PREFIX[page.space]}>eMarketeer Support</a>
+      <div class="search-slot"></div>
+      <nav class="language-picker" aria-label="Language">
+        <a href={page.space === Space.Swedish ? twinUrl : page.url} aria-current={lang === 'en' ? 'true' : undefined} hreflang="en">English</a>
+        <a href={page.space === Space.Swedish ? page.url : twinUrl} aria-current={lang === 'sv' ? 'true' : undefined} hreflang="sv">Svenska</a>
+      </nav>
+    </header>
+    <div class="layout">
+      <details class="site-nav">
+        <summary>Menu</summary>
+        <nav aria-label="Pages">
+          {nav.map((group) => (
+            <section>
+              {group.heading && <h2>{group.heading}</h2>}
+              <Nav items={group.items} currentUrl={page.url} />
+            </section>
+          ))}
+        </nav>
+      </details>
+      <main>
+        <article data-pagefind-body>
+          {!hasHeading && <h1>{page.title}</h1>}
+          <slot />
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
