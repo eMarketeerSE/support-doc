@@ -2,8 +2,10 @@ import path from 'node:path'
 import type { Root } from 'hast'
 import { find } from 'lodash-es'
 import { visit } from 'unist-util-visit'
-import { REPO_ROOT, isExternal, resolveLink } from './links'
-import type { SitePage } from './summary'
+import { resolveLink } from './links'
+import { REPO_ROOT, type SitePage } from './summary'
+
+const WEB_LINK = /^https?:/i
 
 export const rehypeSiteLinks = (options: { pages: SitePage[] }) => (tree: Root, file: { path: string }) => {
   const pageFile = path.relative(REPO_ROOT, file.path).split(path.sep).join('/')
@@ -15,7 +17,7 @@ export const rehypeSiteLinks = (options: { pages: SitePage[] }) => (tree: Root, 
   visit(tree, 'element', (element) => {
     if (element.tagName === 'a' && typeof element.properties.href === 'string') {
       element.properties.href = resolveLink(element.properties.href, page, options.pages)
-      if (isExternal(element.properties.href)) {
+      if (WEB_LINK.test(element.properties.href)) {
         element.properties.target = '_blank'
         element.properties.rel = ['noopener']
       }

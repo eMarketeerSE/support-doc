@@ -1,12 +1,10 @@
 import { existsSync } from 'node:fs'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { find, keys, startsWith } from 'lodash-es'
-import type { SitePage } from './summary'
+import { REPO_ROOT, type SitePage } from './summary'
 
 export const DOCS_SPACE_ID = '0ywqCs3au1x0DqPhEJTR'
 export const CHANGELOG_SPACE_ID = 'R2AVUzAq8nYYHcGZOcNU'
-export const REPO_ROOT = fileURLToPath(new URL('../../../', import.meta.url))
 
 const ASSET_URL_PREFIX: Record<string, string> = {
   '.gitbook/assets/': '/.gitbook/assets/',

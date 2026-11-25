@@ -12,6 +12,7 @@ export default defineConfig({
   build: { format: 'file' },
   vite: { build: { assetsInlineLimit: 0 } },
   markdown: {
+    syntaxHighlight: false,
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypeRaw, [rehypeSiteLinks, { pages: readAllPages() }]],
   },

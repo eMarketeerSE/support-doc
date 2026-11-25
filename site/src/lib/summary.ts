@@ -29,8 +29,9 @@ export const SPACE_SUMMARY: Record<Space, string> = {
   [Space.Legal]: 'legal/SUMMARY.md',
 }
 
-const REPO_ROOT = fileURLToPath(new URL('../../../', import.meta.url))
+export const REPO_ROOT = fileURLToPath(new URL('../../../', import.meta.url))
 const HEADING = /^## (.+?)\s*$/
+const LIST_MARKER = /^ *[*-]/
 const ENTRY = /^( *)\* \[(.*)\]\(([^)\s]+)(?: "[^"]*")?\)\s*$/
 
 export const slug = (text: string): string =>
@@ -54,7 +55,7 @@ export const parseSummary = (
   let names: string[] = []
   let parents: NavItem[] = []
 
-  for (const line of summary.split('\n')) {
+  for (const [index, line] of summary.split('\n').entries()) {
     const heading = HEADING.exec(line)
     if (heading) {
       group = slug(heading[1])
@@ -65,7 +66,13 @@ export const parseSummary = (
     }
     const entry = ENTRY.exec(line)
     if (!entry) {
+      if (LIST_MARKER.test(line)) {
+        throw new Error(`${SPACE_SUMMARY[space]} line ${index + 1}: cannot read entry: ${line}`)
+      }
       continue
+    }
+    if (entry[1].length % 2 !== 0) {
+      throw new Error(`${SPACE_SUMMARY[space]} line ${index + 1}: indent must be a multiple of 2: ${line}`)
     }
     const level = entry[1].length / 2
     const entryPath = entry[3]

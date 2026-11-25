@@ -1,11 +1,9 @@
 import { defineCollection } from 'astro:content'
 import { readFile } from 'node:fs/promises'
-import { fileURLToPath, pathToFileURL } from 'node:url'
+import { pathToFileURL } from 'node:url'
 import matter from 'gray-matter'
 import { keyBy, mapValues } from 'lodash-es'
-import { Space, findTwinUrl, readAllPages, readNav } from './lib/summary'
-
-const REPO_ROOT = fileURLToPath(new URL('../../', import.meta.url))
+import { REPO_ROOT, Space, findTwinUrl, readAllPages, readNav } from './lib/summary'
 
 const pages = defineCollection({
   loader: {

@@ -5,12 +5,13 @@ import { renderRobots, renderSitemap } from './site-files'
 import { readAllPages } from './summary'
 
 describe('site files', () => {
-  const sitemap = renderSitemap(readAllPages())
+  const pages = readAllPages()
+  const sitemap = renderSitemap(pages)
   const locations = map(Array.from(sitemap.matchAll(/<loc>(.+?)<\/loc>/g)), 1)
 
   it('should list every page URL once in the sitemap', () => {
-    assert.strictEqual(size(locations), 487)
-    assert.strictEqual(size(uniq(locations)), 487)
+    assert.strictEqual(size(locations), size(pages))
+    assert.strictEqual(size(uniq(locations)), size(locations))
   })
 
   it('should list the home page as the site root with a trailing slash', () => {

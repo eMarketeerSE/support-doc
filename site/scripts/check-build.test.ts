@@ -36,8 +36,16 @@ describe('checkBuild', () => {
   it('should report a snapshot URL with no page and no redirect', () => {
     const dist = createDist()
     const problems = checkBuild(dist, ['/missing/page'], {})
-    assert.equal(problems.length, 1)
-    assert.match(problems[0], /\/missing\/page/)
+    assert.deepEqual(problems, [
+      '/missing/page was live and now has no page. If you renamed or removed it, add a line to site/redirects.json.',
+    ])
+  })
+
+  it('should report a snapshot URL that is a refresh file but not in the redirects list', () => {
+    const dist = createDist()
+    writeFile(dist, 'old/page.html', REDIRECT_HTML)
+    const problems = checkBuild(dist, ['/old/page'], {})
+    assert.deepEqual(problems, ['/old/page is a redirect file but is not in the redirects list'])
   })
 
   it('should report a redirect source that is also a page', () => {

@@ -13,7 +13,7 @@ export const checkBuild = (dist: string, snapshot: string[], redirects: Record<s
   const urlProblems = flatMap(union(snapshot, keys(redirects)), (url) => {
     const file = join(dist, url === '/' ? 'index.html' : `${url}.html`)
     if (!existsSync(file)) {
-      return [`${url} has no page and no redirect in the build`]
+      return [`${url} was live and now has no page. If you renamed or removed it, add a line to site/redirects.json.`]
     }
     const isRedirectFile = readFileSync(file, 'utf8').includes('http-equiv="refresh"')
     if (url in redirects && !isRedirectFile) {

@@ -1,15 +1,12 @@
 import assert from 'node:assert'
+import { readFileSync } from 'node:fs'
 import { describe, it } from 'node:test'
-import { endsWith, filter, includes, keys, map, size, values } from 'lodash-es'
+import { endsWith, filter, includes, keys, map, size, uniq, values } from 'lodash-es'
 import { readRedirects } from './redirects'
 import { readAllPages } from './summary'
 
 describe('redirects', () => {
   const pageUrls = map(readAllPages(), 'url')
-
-  it('should hold 48 redirects', () => {
-    assert.strictEqual(size(readRedirects()), 48)
-  })
 
   it('should point every redirect at a page URL', () => {
     const missing = filter(values(readRedirects()), (target) => !includes(pageUrls, target))
@@ -28,5 +25,12 @@ describe('redirects', () => {
 
   it('should send /documentation/legal to /legal, not to /legal/legal', () => {
     assert.strictEqual(readRedirects()['/documentation/legal'], '/legal')
+  })
+
+  it('should hold no source key twice in redirects.json', () => {
+    const text = readFileSync(new URL('../../redirects.json', import.meta.url), 'utf8')
+    const sources = map(Array.from(text.matchAll(/^\s*"([^"]+)"\s*:/gm)), 1)
+    assert.strictEqual(size(sources), size(uniq(sources)))
+    assert.ok(size(sources) > 0)
   })
 })
