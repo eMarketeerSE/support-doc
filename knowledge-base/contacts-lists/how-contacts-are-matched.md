@@ -36,12 +36,12 @@ When this happens, many actions still need to work on a single contact — openi
 | Situation | Contact used |
 | --- | --- |
 | You view a person in the CRM panel | The contact whose External ID matches that CRM person |
-| You Quick Send to the address | The CRM-linked contact; if none, the oldest |
-| A contact clicks a personal link in a campaign email | That exact contact |
-| A form is submitted and the browser is tracked as one of the contacts | The tracked contact |
-| A form is submitted through a personal link, using the link's email address | The link's contact |
+| You Quick Send to the address | The CRM-linked contact. If several are CRM-linked, the oldest of them. If none is, the oldest contact. |
+| A contact clicks a personal link in a campaign email | The contact the email was sent to |
+| A form is submitted on your website and the contact is tracked by the Web Tracker | The contact tracked by the Web Tracker |
+| A form is submitted through a personal link, using the link's email address | The link's contact, for example the contact the email or SMS was sent to |
 | A colleague submits the form from a forwarded email, using their own address | The colleague's contact, not the original recipient |
-| No context applies, such as a plain form link that identifies the contact by email address | The CRM-linked contact; if none, the oldest |
+| No context applies, such as a plain form link that identifies the contact by email address | The CRM-linked contact. If several are CRM-linked, the oldest of them. If none is, the oldest contact. |
 
 The answer from a form, and a signal event such as a Facebook Lead Form or LinkedIn Lead Gen Form, are saved on the single contact this table picks.
 

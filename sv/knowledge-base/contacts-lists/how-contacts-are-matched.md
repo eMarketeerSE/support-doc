@@ -36,12 +36,12 @@ När det händer behöver många åtgärder ändå arbeta med en enda kontakt �
 | Situation | Kontakt som används |
 | --- | --- |
 | Du visar en person i CRM-panelen | Kontakten vars External ID matchar den CRM-personen |
-| Du gör en Quick Send till adressen | Den CRM-kopplade kontakten; om ingen finns, den äldsta |
-| En kontakt klickar på en personlig länk i ett kampanjmejl | Exakt den kontakten |
-| Ett formulär skickas in och webbläsaren är spårad som en av kontakterna | Den spårade kontakten |
-| Ett formulär skickas in via en personlig länk, med länkens e-postadress | Länkens kontakt |
+| Du gör en Quick Send till adressen | Den CRM-kopplade kontakten. Om flera är CRM-kopplade, den äldsta av dem. Om ingen är det, den äldsta kontakten. |
+| En kontakt klickar på en personlig länk i ett kampanjmejl | Kontakten som e-postmeddelandet skickades till |
+| Ett formulär skickas in på din webbplats och kontakten spåras av Web Tracker | Kontakten som spåras av Web Tracker |
+| Ett formulär skickas in via en personlig länk, med länkens e-postadress | Länkens kontakt, till exempel kontakten som e-postmeddelandet eller SMS:et skickades till |
 | En kollega skickar in formuläret från ett vidarebefordrat mejl, med sin egen adress | Kollegans kontakt, inte den ursprungliga mottagaren |
-| Inget sammanhang gäller, till exempel en vanlig formulärlänk som identifierar kontakten på e-postadress | Den CRM-kopplade kontakten; om ingen finns, den äldsta |
+| Inget sammanhang gäller, till exempel en vanlig formulärlänk som identifierar kontakten på e-postadress | Den CRM-kopplade kontakten. Om flera är CRM-kopplade, den äldsta av dem. Om ingen är det, den äldsta kontakten. |
 
 Svaret från ett formulär, och en signalhändelse som en Facebook Lead Form eller LinkedIn Lead Gen Form, sparas på den enda kontakt som den här tabellen väljer.
 
