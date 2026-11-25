@@ -3,6 +3,7 @@ import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 import { readAllPages } from './src/lib/summary'
 import { readRedirects } from './src/lib/redirects'
+import { rehypeGitbookHeadingIds } from './src/lib/rehype-gitbook-heading-ids'
 import { rehypeSiteLinks } from './src/lib/rehype-site-links'
 
 export default defineConfig({
@@ -15,6 +16,6 @@ export default defineConfig({
     syntaxHighlight: false,
     smartypants: false,
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [rehypeRaw, [rehypeSiteLinks, { pages: readAllPages() }]],
+    rehypePlugins: [rehypeRaw, rehypeGitbookHeadingIds, [rehypeSiteLinks, { pages: readAllPages() }]],
   },
 })
