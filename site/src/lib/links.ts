@@ -22,13 +22,29 @@ const unmappable = (page: SitePage, href: string, reason: string): Error =>
 
 export const isExternal = (href: string): boolean => SCHEME.test(href) || startsWith(href, '//')
 
+const parseUrl = (href: string, page: SitePage): URL => {
+  try {
+    return new URL(href, 'https://placeholder.invalid')
+  } catch {
+    throw unmappable(page, href, 'not a valid URL')
+  }
+}
+
+const decodePath = (target: string, href: string, page: SitePage): string => {
+  try {
+    return decodeURIComponent(target)
+  } catch {
+    throw unmappable(page, href, 'not a valid encoded path')
+  }
+}
+
 export const resolveLink = (href: string, page: SitePage, pages: SitePage[]): string => {
   if (startsWith(href, '#')) {
     return href
   }
 
   if (isExternal(href)) {
-    const url = new URL(href, 'https://placeholder.invalid')
+    const url = parseUrl(href, page)
     if (!GITBOOK_HOST.test(url.hostname)) {
       return href
     }
@@ -48,7 +64,10 @@ export const resolveLink = (href: string, page: SitePage, pages: SitePage[]): st
 
   const [target, ...fragmentParts] = href.split('#')
   const fragment = fragmentParts.length > 0 ? `#${fragmentParts.join('#')}` : ''
-  const resolved = path.posix.normalize(path.posix.join(path.posix.dirname(page.file), decodeURIComponent(target)))
+  const decoded = decodePath(target, href, page)
+  const joined = path.posix.normalize(path.posix.join(path.posix.dirname(page.file), decoded))
+  const isFolder = decoded.endsWith('/') || decoded === '.'
+  const resolved = isFolder ? path.posix.join(joined, 'README.md') : joined
 
   if (resolved.endsWith('.md')) {
     const targetPage = find(pages, { file: resolved })

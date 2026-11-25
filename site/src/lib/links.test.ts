@@ -9,6 +9,26 @@ const english = find(pages, { file: 'knowledge-base/getting-started/campaign-bas
 const swedish = find(pages, { file: 'sv/knowledge-base/getting-started/campaign-basics.md' })!
 
 describe('resolveLink', () => {
+  it('should map a folder link to the README page of the folder', () => {
+    const publishAForm = find(pages, { file: 'documentation/forms/publish-a-form.md' })!
+    const webTracker = find(pages, { file: 'documentation/web-tracker/README.md' })!
+    assert.strictEqual(resolveLink('../web-tracker/', publishAForm, pages), webTracker.url)
+  })
+
+  it('should map a folder link from the overview to the README page of the folder', () => {
+    const overview = find(pages, { file: 'overview.md' })!
+    const contactsLists = find(pages, { file: 'knowledge-base/contacts-lists/README.md' })!
+    assert.strictEqual(resolveLink('knowledge-base/contacts-lists/', overview, pages), contactsLists.url)
+  })
+
+  it('should throw for a folder without a README page', () => {
+    assert.throws(() => resolveLink('../no-such-folder/', english, pages), /cannot map link/)
+  })
+
+  it('should throw with context for an href that is not a valid URL', () => {
+    assert.throws(() => resolveLink('http:', english, pages), /campaign-basics\.md: cannot map link http:/)
+  })
+
   it('should map a relative .md link to the URL of its file', () => {
     assert.strictEqual(
       resolveLink('basics-creating-email.md', english, pages),
