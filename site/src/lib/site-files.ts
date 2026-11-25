@@ -12,7 +12,12 @@ export const renderSitemap = (pages: SitePage[]): string =>
     '',
   ].join('\n')
 
-export const renderRobots = (stage: string): string =>
-  stage === 'prod'
-    ? `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`
-    : 'User-agent: *\nDisallow: /\n'
+export const renderRobots = (stage: string | undefined): string => {
+  if (stage === 'prod') {
+    return `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`
+  }
+  if (stage === 'dev') {
+    return 'User-agent: *\nDisallow: /\n'
+  }
+  throw new Error(`SITE_STAGE must be dev or prod, got ${stage}`)
+}

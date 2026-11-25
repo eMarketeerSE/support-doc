@@ -25,4 +25,9 @@ describe('site files', () => {
   it('should disallow everything on dev', () => {
     assert.strictEqual(renderRobots('dev'), 'User-agent: *\nDisallow: /\n')
   })
+
+  it('should throw for a stage that is not dev or prod', () => {
+    assert.throws(() => renderRobots('staging'), /SITE_STAGE must be dev or prod, got staging/)
+    assert.throws(() => renderRobots(undefined), /SITE_STAGE/)
+  })
 })
