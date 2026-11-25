@@ -41,9 +41,9 @@ See [Form editor: UI overview](../../documentation/forms/ui-overview.md#contact-
 
 ## API
 
-The `/v1/contacts` endpoint accepts a POST request to create a new contact programmatically. This is the standard method for syncing contacts from external systems or automating contact creation.
+The `POST /v2/contacts` endpoint creates contacts programmatically, up to 100 at a time. If a contact with the same email address already exists, it is updated instead. This is the standard method for syncing contacts from external systems or automating contact creation.
 
-Full endpoint reference: [api-doc.emarketeer.com](https://api-doc.emarketeer.com/#/Contact/postContact)
+Full endpoint reference: [Contact v2 definition](https://api-doc.emarketeer.com/?urls.primaryName=Contact%20v2). For all endpoints, see [API endpoints overview](../../documentation/apis-developer/api-endpoints-overview.md).
 
 ## Signals
 

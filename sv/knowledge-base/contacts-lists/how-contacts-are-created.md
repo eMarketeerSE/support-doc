@@ -41,9 +41,9 @@ Se [Formuläreditor: UI-översikt](../../documentation/forms/ui-overview.md#cont
 
 ## API
 
-Endpoint:et `/v1/contacts` accepterar en POST-förfrågan för att skapa en ny kontakt programmatiskt. Det är standardmetoden för att synkronisera kontakter från externa system eller automatisera kontaktskapande.
+Endpoint:et `POST /v2/contacts` skapar kontakter programmatiskt, upp till 100 åt gången. Om det redan finns en kontakt med samma e-postadress uppdateras den i stället. Det är standardmetoden för att synkronisera kontakter från externa system eller automatisera kontaktskapande.
 
-Fullständig endpoint-referens: [api-doc.emarketeer.com](https://api-doc.emarketeer.com/#/Contact/postContact)
+Fullständig endpoint-referens: [Contact v2-definitionen](https://api-doc.emarketeer.com/?urls.primaryName=Contact%20v2). Alla endpoints finns i [Översikt över API-endpoints](../../documentation/apis-developer/api-endpoints-overview.md).
 
 ## Signaler
 
