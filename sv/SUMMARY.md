@@ -97,6 +97,7 @@
   * [Utlösande händelser för Journeys](documentation/journeys/journeys-triggering-events.md)
 * [Kontakter](knowledge-base/contacts-lists/README.md)
   * [Hur kontakter skapas](knowledge-base/contacts-lists/how-contacts-are-created.md)
+  * [Hur eMarketeer matchar kontakter](knowledge-base/contacts-lists/how-contacts-are-matched.md)
   * [Kontaktkortet](knowledge-base/contacts-lists/contact-card.md)
   * [Så här hanterar du kontakter i bulk](knowledge-base/contacts-lists/bulk-actions-tool.md)
   * [Så bygger och använder du kontaktfilter](knowledge-base/contacts-lists/how-to-build-contact-filters.md)
