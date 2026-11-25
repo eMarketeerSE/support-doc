@@ -36,6 +36,7 @@ Every space keeps its images flat in its own `.gitbook/assets/` folder:
 | English | `.gitbook/assets/` | `../../.gitbook/assets/<file>` |
 | Swedish | `sv/.gitbook/assets/` | `../../.gitbook/assets/<file>` (same text, resolves inside `sv/`) |
 | Changelog | `changelog/.gitbook/assets/` | `.gitbook/assets/<file>` from `changelog/<page>.md` |
+| Legal | `legal/.gitbook/assets/` | `.gitbook/assets/<file>` from `legal/<page>.md` |
 
 - The path is relative: one `../` per folder level between the article and its space root. An article one level deeper uses `../../../.gitbook/assets/`.
 - English and Swedish copies of an article use the **identical** image path. When translating, copy the path unchanged, and make sure the file exists in both `.gitbook/assets/` and `sv/.gitbook/assets/` (copy it if not).
@@ -63,8 +64,8 @@ Links **within** a single space (docs → docs, or changelog → changelog) stay
 
 - **New article**: write it in whichever language the user gave you, then translate to the other language. Both files land before the commit is pushed.
 - **Update**: if the user edits the English file, re-translate the matching Swedish file (or surgically apply the same edit if the change is small and the structure is unchanged). Same in reverse.
-- **Rename / move**: rename both files in parallel and update both `SUMMARY.md`s. If the page's URL changes, add `"<old url>": "<new url>"` to `site/redirects.json` for each language in the same commit. A move to another `##` group changes the URL.
-- **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both. Add `"<old url>": "<hub page url>"` to `site/redirects.json` for each language in the same commit.
+- **Rename / move**: rename both files in parallel and update both `SUMMARY.md`s. A URL contains the `##` heading and the file name of every parent page. Renaming a parent file, renaming a `##` heading, or moving a page under another parent changes the URL of the page and of all its child pages. Add `"<old url>": "<new url>"` to `site/redirects.json` for each changed URL and each language in the same commit. Point any existing redirect that targets an old URL at the new one.
+- **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both. Add `"<old url>": "<hub page url>"` to `site/redirects.json` for each language in the same commit, and for every child page of a deleted parent. Point any existing redirect that targets an old URL at the new one.
 - **Translation engine**: translate using Claude (you), guided by `sv/CLAUDE.md`'s glossary and style rules. Do not call external translation services.
 - **Image paths**: keep the image path identical when translating, and make sure each image file exists in both `.gitbook/assets/` and `sv/.gitbook/assets/` (see Images).
 - **Legal docs** (`documentation/legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/documentation/legal/`.
@@ -75,7 +76,9 @@ If the user explicitly asks you to edit only one language for a deliberate reaso
 
 When you add, rename, or move a page, update `SUMMARY.md` in the same commit. Follow the existing nesting. If a section gets large, group with `## Subheading` lines.
 
-When a page's URL changes (rename, move, or a move to another `##` group) or a page is deleted, add `"<old url>": "<new url>"` to `site/redirects.json` for each language in the same commit. A deleted page points at its hub page.
+A URL contains the `##` heading and the file name of every parent page. Renaming a parent file, renaming a `##` heading, or moving a page under another parent changes the URL of the page and of all its child pages. When a URL changes or a page is deleted, add `"<old url>": "<new url>"` to `site/redirects.json` for each changed URL and each language in the same commit. A deleted page points at its hub page. Point any existing redirect that targets an old URL at the new one.
+
+Before you push, run `cd site && SITE_STAGE=dev yarn build && yarn check-build`. It lists every URL that needs a redirect.
 
 ## Hub pages and link cards
 

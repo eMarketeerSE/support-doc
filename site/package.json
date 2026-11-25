@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.23.4"
   },
   "scripts": {
-    "test": "node --import tsx --test \"src/**/*.test.ts\" \"scripts/**/*.test.ts\"",
+    "test": "node --import tsx --test \"src/**/*.unit.test.ts\" \"scripts/**/*.unit.test.ts\"",
     "build": "astro build",
     "check-build": "tsx scripts/check-build-cli.ts dist"
   },

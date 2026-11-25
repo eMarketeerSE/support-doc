@@ -10,4 +10,4 @@ const SNAPSHOT_FILE = fileURLToPath(new URL('../sitemap-snapshot.txt', import.me
 const snapshot = filter(split(readFileSync(SNAPSHOT_FILE, 'utf8'), '\n'), (line) => line !== '')
 const problems = checkBuild(resolve(process.argv[2]), snapshot, readRedirects())
 forEach(problems, (problem) => console.log(problem))
-process.exit(size(problems) > 0 ? 1 : 0)
+process.exitCode = size(problems) > 0 ? 1 : 0
