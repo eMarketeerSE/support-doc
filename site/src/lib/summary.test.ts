@@ -6,11 +6,6 @@ import { Space, findTwinUrl, parseSummary, readAllPages, readSpace, slug } from 
 const noDescription = () => ''
 
 describe('summary', () => {
-  it('should read at least one page in each of the 4 spaces', () => {
-    const counts = [Space.English, Space.Swedish, Space.Changelog, Space.Legal].map((space) => readSpace(space).length)
-    assert.ok(counts.every((count) => count > 0))
-  })
-
   it('should build urls from the group, the nesting, README entries and link titles', () => {
     const summary = [
       '* [Home](overview.md)',
@@ -30,6 +25,34 @@ describe('summary', () => {
     )
   })
 
+  it('should throw on a line that is not a blank, a title, a heading, an entry or a comment', () => {
+    const invalid = ['* [A](a.md)\n\t* [B](b.md)', '* [A](a.md)\n+ [B](b.md)', '* [A](a.md)\n1. [B](b.md)', '## Guides\n##Group', '* [A](a.md)\n### Sub']
+    for (const summary of invalid) {
+      assert.throws(() => parseSummary(summary, Space.Legal, noDescription), /legal\/SUMMARY\.md line [23]: cannot read line/)
+    }
+  })
+
+  it('should accept blank lines, the title line and comment lines', () => {
+    const { pages } = parseSummary('# Table of contents\n\n<!-- note -->\n* [A](a.md)\n', Space.Legal, noDescription)
+    assert.deepStrictEqual(map(pages, 'url'), ['/legal'])
+  })
+
+  it('should throw when a heading has no letters or digits', () => {
+    assert.throws(() => parseSummary('* [A](a.md)\n## 🚀', Space.Legal, noDescription), /legal\/SUMMARY\.md line 2: heading has no letters or digits/)
+  })
+
+  it('should throw when an entry title is empty', () => {
+    assert.throws(() => parseSummary('* [](a.md)', Space.Legal, noDescription), /legal\/SUMMARY\.md line 1: entry title is empty/)
+  })
+
+  it('should throw when an entry path is not a .md file', () => {
+    assert.throws(() => parseSummary('* [A](guides/)', Space.Legal, noDescription), /legal\/SUMMARY\.md line 1: entry path must end in \.md/)
+  })
+
+  it('should throw when an entry path leaves the space', () => {
+    assert.throws(() => parseSummary('* [A](../a.md)', Space.Legal, noDescription), /legal\/SUMMARY\.md line 1: entry path leaves the space/)
+  })
+
   it('should throw when an entry indent is not a multiple of 2', () => {
     assert.throws(
       () => parseSummary('* [A](a.md)\n * [B](b.md)', Space.Legal, noDescription),
@@ -37,16 +60,49 @@ describe('summary', () => {
     )
   })
 
-  it('should put the first entry of a space at its prefix', () => {
-    const firstFiles = [Space.English, Space.Swedish, Space.Changelog, Space.Legal].map((space) => {
+  it('should put the first entry of each space at its prefix', () => {
+    const firstPages = map(Object.values(Space), (space) => {
       const page = readSpace(space)[0]
       return [page.file, page.url]
     })
-    assert.deepStrictEqual(firstFiles, [
+    assert.deepStrictEqual(firstPages, [
       ['overview.md', '/'],
       ['sv/overview.md', '/docs/docs_se'],
       ['changelog/README.md', '/changelog'],
       ['legal/legal.md', '/legal'],
+    ])
+  })
+
+  it('should build Swedish urls under /docs/docs_se with the sv/ folder', () => {
+    const { pages } = parseSummary('* [Hem](overview.md)\n## Guider\n* [A](guides/a.md)', Space.Swedish, noDescription)
+    assert.deepStrictEqual(map(pages, 'url'), ['/docs/docs_se', '/docs/docs_se/guider/a'])
+    assert.deepStrictEqual(map(pages, 'file'), ['sv/overview.md', 'sv/guides/a.md'])
+  })
+
+  it('should build changelog urls under /changelog and read a link title', () => {
+    const { pages } = parseSummary('* [Releases](README.md "2026")\n* [May](may.md "May 2026")', Space.Changelog, noDescription)
+    assert.deepStrictEqual(map(pages, 'url'), ['/changelog', '/changelog/may'])
+    assert.deepStrictEqual(map(pages, 'file'), ['changelog/README.md', 'changelog/may.md'])
+  })
+
+  it('should build the nav tree with groups and nested children', () => {
+    const summary = [
+      '* [Home](overview.md)',
+      '## Guides',
+      '* [Intro](guides/intro.md)',
+      '  * [Deep](guides/deep.md "2026")',
+      '* [Section](guides/section/README.md)',
+    ].join('\n')
+    const { nav } = parseSummary(summary, Space.English, noDescription)
+    assert.deepStrictEqual(nav, [
+      { heading: null, items: [{ title: 'Home', url: '/', children: [] }] },
+      {
+        heading: 'Guides',
+        items: [
+          { title: 'Intro', url: '/guides/intro', children: [{ title: 'Deep', url: '/guides/intro/deep', children: [] }] },
+          { title: 'Section', url: '/guides/section', children: [] },
+        ],
+      },
     ])
   })
 
@@ -55,11 +111,6 @@ describe('summary', () => {
       file: 'knowledge-base/getting-started/basics-creating-email.md',
     })
     assert.strictEqual(page?.url, '/getting-started/campaign-basics/basics-creating-email')
-  })
-
-  it('should read an entry with a link title like one without', () => {
-    const { pages } = parseSummary('* [A](README.md "2026")\n* [B](b.md)', Space.Changelog, noDescription)
-    assert.deepStrictEqual(map(pages, 'url'), ['/changelog', '/changelog/b'])
   })
 
   it('should throw when two entries give the same url', () => {

@@ -31,7 +31,8 @@ export const SPACE_SUMMARY: Record<Space, string> = {
 
 export const REPO_ROOT = fileURLToPath(new URL('../../../', import.meta.url))
 const HEADING = /^## (.+?)\s*$/
-const LIST_MARKER = /^ *[*-]/
+const TITLE = /^# /
+const COMMENT = /^<!--.*-->\s*$/
 const ENTRY = /^( *)\* \[(.*)\]\(([^)\s]+)(?: "[^"]*")?\)\s*$/
 
 export const slug = (text: string): string =>
@@ -56,9 +57,16 @@ export const parseSummary = (
   let parents: NavItem[] = []
 
   for (const [index, line] of summary.split('\n').entries()) {
+    const lineLabel = `${SPACE_SUMMARY[space]} line ${index + 1}`
+    if (line.trim() === '' || TITLE.test(line) || COMMENT.test(line)) {
+      continue
+    }
     const heading = HEADING.exec(line)
     if (heading) {
       group = slug(heading[1])
+      if (group === '') {
+        throw new Error(`${lineLabel}: heading has no letters or digits: ${line}`)
+      }
       names = []
       parents = []
       nav.push({ heading: heading[1], items: [] })
@@ -66,13 +74,19 @@ export const parseSummary = (
     }
     const entry = ENTRY.exec(line)
     if (!entry) {
-      if (LIST_MARKER.test(line)) {
-        throw new Error(`${SPACE_SUMMARY[space]} line ${index + 1}: cannot read entry: ${line}`)
-      }
-      continue
+      throw new Error(`${lineLabel}: cannot read line: ${line}`)
     }
     if (entry[1].length % 2 !== 0) {
-      throw new Error(`${SPACE_SUMMARY[space]} line ${index + 1}: indent must be a multiple of 2: ${line}`)
+      throw new Error(`${lineLabel}: indent must be a multiple of 2: ${line}`)
+    }
+    if (entry[2].trim() === '') {
+      throw new Error(`${lineLabel}: entry title is empty: ${line}`)
+    }
+    if (!entry[3].endsWith('.md')) {
+      throw new Error(`${lineLabel}: entry path must end in .md: ${line}`)
+    }
+    if (path.posix.normalize(entry[3]).startsWith('..')) {
+      throw new Error(`${lineLabel}: entry path leaves the space: ${line}`)
     }
     const level = entry[1].length / 2
     const entryPath = entry[3]
@@ -106,7 +120,17 @@ const readDescriptionFromFile = (file: string): string => {
   if (!existsSync(absolute)) {
     throw new Error(`SUMMARY.md lists ${file} but the file does not exist`)
   }
-  return String(matter(readFileSync(absolute, 'utf8')).data.description ?? '')
+  const text = readFileSync(absolute, 'utf8')
+  let data: Record<string, unknown>
+  try {
+    data = matter(text).data
+  } catch (cause) {
+    throw new Error(`${file}: invalid frontmatter`, { cause })
+  }
+  if (data.description !== undefined && typeof data.description !== 'string') {
+    throw new Error(`${file}: description must be a string`)
+  }
+  return (data.description as string | undefined) ?? ''
 }
 
 const readSummaryOf = (space: Space) =>
@@ -117,7 +141,7 @@ export const readSpace = (space: Space): SitePage[] => readSummaryOf(space).page
 export const readNav = (space: Space): NavGroup[] => readSummaryOf(space).nav
 
 export const readAllPages = (): SitePage[] => {
-  const pages = flatMap([Space.English, Space.Swedish, Space.Changelog, Space.Legal], readSpace)
+  const pages = flatMap(Object.values(Space), readSpace)
   const duplicates = chain(pages).groupBy('url').pickBy((group) => size(group) > 1).keys().value()
   if (size(duplicates) > 0) {
     throw new Error(`Duplicate url across spaces: ${duplicates.join(', ')}`)

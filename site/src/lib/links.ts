@@ -1,15 +1,15 @@
 import { existsSync } from 'node:fs'
 import path from 'node:path'
 import { find, keys, startsWith } from 'lodash-es'
-import { REPO_ROOT, type SitePage } from './summary'
+import { REPO_ROOT, SPACE_PREFIX, Space, type SitePage } from './summary'
 
 export const DOCS_SPACE_ID = '0ywqCs3au1x0DqPhEJTR'
 export const CHANGELOG_SPACE_ID = 'R2AVUzAq8nYYHcGZOcNU'
 
 const ASSET_URL_PREFIX: Record<string, string> = {
   '.gitbook/assets/': '/.gitbook/assets/',
-  'sv/.gitbook/assets/': '/docs/docs_se/.gitbook/assets/',
-  'changelog/.gitbook/assets/': '/changelog/.gitbook/assets/',
+  'sv/.gitbook/assets/': `${SPACE_PREFIX[Space.Swedish]}/.gitbook/assets/`,
+  'changelog/.gitbook/assets/': `${SPACE_PREFIX[Space.Changelog]}/.gitbook/assets/`,
 }
 const SCHEME = /^[a-z][a-z0-9+.-]*:/i
 const GITBOOK_HOST = /(^|\.)gitbook\.(com|io)$/

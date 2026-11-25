@@ -1,11 +1,25 @@
+import { z } from 'astro/zod'
 import { defineCollection } from 'astro:content'
 import { readFile } from 'node:fs/promises'
 import { pathToFileURL } from 'node:url'
 import matter from 'gray-matter'
 import { keyBy, mapValues } from 'lodash-es'
-import { REPO_ROOT, Space, findTwinUrl, readAllPages, readNav } from './lib/summary'
+import { REPO_ROOT, Space, findTwinUrl, readAllPages, readNav, type NavItem } from './lib/summary'
+
+const navItemSchema: z.ZodType<NavItem> = z.lazy(() =>
+  z.object({ title: z.string(), url: z.string(), children: z.array(navItemSchema) }),
+)
 
 const pages = defineCollection({
+  schema: z.object({
+    url: z.string(),
+    file: z.string(),
+    title: z.string(),
+    description: z.string(),
+    space: z.nativeEnum(Space),
+    twinUrl: z.string(),
+    nav: z.array(z.object({ heading: z.string().nullable(), items: z.array(navItemSchema) })),
+  }),
   loader: {
     name: 'support-pages',
     load: async ({ store, renderMarkdown }) => {

@@ -2,9 +2,9 @@
 import '../styles/site.css'
 import Nav from '../components/Nav.astro'
 import { Space, SPACE_PREFIX } from '../lib/summary'
-import type { NavGroup, SitePage } from '../lib/summary'
+import type { CollectionEntry } from 'astro:content'
 
-type Props = { page: SitePage & { twinUrl: string; nav: NavGroup[] }; hasHeading: boolean }
+type Props = { page: CollectionEntry<'pages'>['data']; hasHeading: boolean }
 
 const { page, hasHeading } = Astro.props
 const lang = page.space === Space.Swedish ? 'sv' : 'en'
