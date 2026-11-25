@@ -1,6 +1,6 @@
 import assert from 'node:assert'
 import { describe, it } from 'node:test'
-import { isExternal, resolveLink } from './links'
+import { ASSET_URL_PREFIX, isExternal, resolveLink } from './links'
 import { Space, type SitePage } from './summary'
 
 const IMAGE = 'basics-creating-email-add-email-dialog.png'
@@ -10,7 +10,8 @@ const intro: SitePage = { url: '/guides/intro', file: 'guides/intro.md', title: 
 const other: SitePage = { url: '/guides/other', file: 'guides/other.md', title: 'Other', description: '', space: Space.English }
 const section: SitePage = { url: '/guides/section', file: 'guides/section/README.md', title: 'Section', description: '', space: Space.English }
 const swedishIntro: SitePage = { url: '/docs/docs_se/guider/intro', file: 'sv/guides/intro.md', title: 'Intro', description: '', space: Space.Swedish }
-const pages = [overview, intro, other, section, swedishIntro]
+const changelogYear: SitePage = { url: '/changelog/2025', file: 'changelog/2025.md', title: '2025', description: '', space: Space.Changelog }
+const pages = [overview, intro, other, section, swedishIntro, changelogYear]
 
 describe('resolveLink', () => {
   it('should map a folder link to the README page of the folder', () => {
@@ -65,11 +66,36 @@ describe('resolveLink', () => {
     )
   })
 
-  it('should throw on a changelog-space GitBook link with a path', () => {
-    assert.throws(
-      () => resolveLink('https://app.gitbook.com/s/R2AVUzAq8nYYHcGZOcNU/some-release', intro, pages),
-      /no page for space R2AVUzAq8nYYHcGZOcNU path \/some-release/,
+  it('should keep the fragment on the changelog root link', () => {
+    assert.strictEqual(
+      resolveLink('https://app.gitbook.com/s/R2AVUzAq8nYYHcGZOcNU/#latest', intro, pages),
+      '/changelog#latest',
     )
+  })
+
+  it('should map a changelog-space link with a path to the changelog page', () => {
+    assert.strictEqual(
+      resolveLink('https://app.gitbook.com/s/R2AVUzAq8nYYHcGZOcNU/2025#march', intro, pages),
+      '/changelog/2025#march',
+    )
+  })
+
+  it('should throw on a changelog-space link to a path that is not a page', () => {
+    assert.throws(
+      () => resolveLink('https://app.gitbook.com/s/R2AVUzAq8nYYHcGZOcNU/no-such-release', intro, pages),
+      /no-such-release/,
+    )
+  })
+
+  it('should map a docs-space link with an empty path to the home page', () => {
+    assert.strictEqual(resolveLink('https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/', intro, pages), '/')
+    assert.strictEqual(resolveLink('https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR', intro, pages), '/')
+    assert.strictEqual(resolveLink('https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/#intro', intro, pages), '/#intro')
+    assert.strictEqual(resolveLink('https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR#intro', intro, pages), '/#intro')
+  })
+
+  it('should map the legal image folder to /legal/.gitbook/assets/', () => {
+    assert.strictEqual(ASSET_URL_PREFIX['legal/.gitbook/assets/'], '/legal/.gitbook/assets/')
   })
 
   it('should map an English image to /.gitbook/assets', () => {

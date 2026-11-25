@@ -13,6 +13,7 @@ export default defineConfig({
   vite: { build: { assetsInlineLimit: 0 } },
   markdown: {
     syntaxHighlight: false,
+    smartypants: false,
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypeRaw, [rehypeSiteLinks, { pages: readAllPages() }]],
   },

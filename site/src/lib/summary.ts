@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import matter from 'gray-matter'
-import { chain, find, flatMap, last, size, some } from 'lodash-es'
+import { chain, compact, filter, find, flatMap, join, last, size, some } from 'lodash-es'
 
 export enum Space {
   English = 'english',
@@ -93,7 +93,7 @@ export const parseSummary = (
     const stem = path.posix.basename(entryPath, '.md')
     const name = stem === 'README' ? path.posix.basename(path.posix.dirname(entryPath)) : stem
     names = [...names.slice(0, level), name]
-    const url = size(pages) === 0 ? SPACE_PREFIX[space] : `${prefix}/${[group, ...names].filter(Boolean).join('/')}`
+    const url = size(pages) === 0 ? SPACE_PREFIX[space] : `${prefix}/${join(compact([group, ...names]), '/')}`
     const file = path.posix.normalize(path.posix.join(summaryDirectory, entryPath))
 
     if (some(pages, { url })) {
@@ -112,7 +112,7 @@ export const parseSummary = (
     parents.push(item)
   }
 
-  return { pages, nav: nav.filter((navGroup) => navGroup.heading !== null || navGroup.items.length > 0) }
+  return { pages, nav: filter(nav, (navGroup) => navGroup.heading !== null || navGroup.items.length > 0) }
 }
 
 const readDescriptionFromFile = (file: string): string => {

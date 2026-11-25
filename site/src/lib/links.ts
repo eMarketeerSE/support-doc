@@ -1,15 +1,16 @@
 import { existsSync } from 'node:fs'
 import path from 'node:path'
-import { find, keys, startsWith } from 'lodash-es'
+import { find, join, keys, map, split, startsWith } from 'lodash-es'
 import { REPO_ROOT, SPACE_PREFIX, Space, type SitePage } from './summary'
 
 export const DOCS_SPACE_ID = '0ywqCs3au1x0DqPhEJTR'
 export const CHANGELOG_SPACE_ID = 'R2AVUzAq8nYYHcGZOcNU'
 
-const ASSET_URL_PREFIX: Record<string, string> = {
+export const ASSET_URL_PREFIX: Record<string, string> = {
   '.gitbook/assets/': '/.gitbook/assets/',
   'sv/.gitbook/assets/': `${SPACE_PREFIX[Space.Swedish]}/.gitbook/assets/`,
   'changelog/.gitbook/assets/': `${SPACE_PREFIX[Space.Changelog]}/.gitbook/assets/`,
+  'legal/.gitbook/assets/': `${SPACE_PREFIX[Space.Legal]}/.gitbook/assets/`,
 }
 const SCHEME = /^[a-z][a-z0-9+.-]*:/i
 const GITBOOK_HOST = /(^|\.)gitbook\.(com|io)$/
@@ -52,7 +53,13 @@ export const resolveLink = (href: string, page: SitePage, pages: SitePage[]): st
     }
     const spacePath = (space[2] ?? '').replace(/\/$/, '')
     if (space[1] === CHANGELOG_SPACE_ID && spacePath === '') {
-      return '/changelog'
+      return `/changelog${url.hash}`
+    }
+    if (space[1] === CHANGELOG_SPACE_ID && find(pages, { url: `/changelog${spacePath}` })) {
+      return `/changelog${spacePath}${url.hash}`
+    }
+    if (space[1] === DOCS_SPACE_ID && spacePath === '') {
+      return `/${url.hash}`
     }
     if (space[1] === DOCS_SPACE_ID && find(pages, { url: spacePath })) {
       return `${spacePath}${url.hash}`
@@ -82,6 +89,6 @@ export const resolveLink = (href: string, page: SitePage, pages: SitePage[]): st
   if (!existsSync(path.join(REPO_ROOT, resolved))) {
     throw unmappable(page, href, `${resolved} does not exist`)
   }
-  const encodedName = resolved.slice(assetFolder.length).split('/').map(encodeURIComponent).join('/')
+  const encodedName = join(map(split(resolved.slice(assetFolder.length), '/'), encodeURIComponent), '/')
   return `${ASSET_URL_PREFIX[assetFolder]}${encodedName}${fragment}`
 }
