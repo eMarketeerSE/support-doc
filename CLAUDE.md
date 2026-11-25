@@ -78,7 +78,7 @@ When you add, rename, or move a page, update `SUMMARY.md` in the same commit. Fo
 
 A URL contains the `##` heading and the file name of every parent page. Renaming a parent file, renaming a `##` heading, or moving a page under another parent changes the URL of the page and of all its child pages. When a URL changes or a page is deleted, add `"<old url>": "<new url>"` to `site/redirects.json` for each changed URL and each language in the same commit. A deleted page points at its hub page. Point any existing redirect that targets an old URL at the new one.
 
-Before you push, run `cd site && SITE_STAGE=dev yarn build && yarn check-build`. It lists every URL that needs a redirect.
+After the push, the `site-check` job on `main` lists every URL that still needs a redirect.
 
 ## Hub pages and link cards
 
