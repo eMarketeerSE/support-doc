@@ -49,4 +49,39 @@ describe('rehypeGitbookHeadingIds', () => {
       ['notes', 'notes-1', 'notes-2'],
     )
   })
+
+  it('should give each details block the id of its summary, counted with the headings', () => {
+    const details = (text: string): Element => ({
+      type: 'element',
+      tagName: 'details',
+      properties: {},
+      children: [
+        { type: 'element', tagName: 'summary', properties: {}, children: [{ type: 'text', value: text }] },
+        { type: 'element', tagName: 'p', properties: {}, children: [{ type: 'text', value: 'A contact we cannot email.' }] },
+      ],
+    })
+    const heading: Element = { type: 'element', tagName: 'h2', properties: {}, children: [{ type: 'text', value: 'Undeliverable contact' }] }
+    const tree: Root = { type: 'root', children: [details('Undeliverable contact'), details('Undeliverable contact'), heading] }
+    rehypeGitbookHeadingIds()(tree)
+    assert.deepStrictEqual(
+      (tree.children as Element[]).map((element) => element.properties.id),
+      ['undeliverable-contact', 'undeliverable-contact-1', 'undeliverable-contact-2'],
+    )
+  })
+
+  it('should keep the id a details block already has', () => {
+    const tree: Root = {
+      type: 'root',
+      children: [
+        {
+          type: 'element',
+          tagName: 'details',
+          properties: { id: 'custom' },
+          children: [{ type: 'element', tagName: 'summary', properties: {}, children: [{ type: 'text', value: 'Bounce' }] }],
+        },
+      ],
+    }
+    rehypeGitbookHeadingIds()(tree)
+    assert.strictEqual((tree.children[0] as Element).properties.id, 'custom')
+  })
 })

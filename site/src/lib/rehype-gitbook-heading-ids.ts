@@ -1,5 +1,6 @@
 import type { Root } from 'hast'
 import { toString } from 'hast-util-to-string'
+import { find } from 'lodash-es'
 import { visit } from 'unist-util-visit'
 
 const HEADING = /^h[1-6]$/
@@ -29,10 +30,11 @@ export const gitbookSlug = (text: string): string => {
 export const rehypeGitbookHeadingIds = () => (tree: Root) => {
   const countBySlug = new Map<string, number>()
   visit(tree, 'element', (element) => {
-    if (!HEADING.test(element.tagName)) {
+    const summary = element.tagName === 'details' && !element.properties.id ? find(element.children, { tagName: 'summary' }) : undefined
+    if (!HEADING.test(element.tagName) && !summary) {
       return
     }
-    const slug = gitbookSlug(toString(element))
+    const slug = gitbookSlug(toString(summary ?? element))
     const count = countBySlug.get(slug) ?? 0
     countBySlug.set(slug, count + 1)
     element.properties.id = count === 0 ? slug : `${slug}-${count}`
