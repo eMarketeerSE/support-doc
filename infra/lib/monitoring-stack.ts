@@ -12,7 +12,7 @@ interface MonitoringStackProps extends StackProps {
 }
 
 export class MonitoringStack extends Stack {
-  constructor(scope: Construct, id: string, props: MonitoringStackProps) {
+  public constructor(scope: Construct, id: string, props: MonitoringStackProps) {
     super(scope, id, props)
 
     const healthCheck = new CfnHealthCheck(this, 'SiteHealthCheck', {
@@ -37,7 +37,7 @@ export class MonitoringStack extends Stack {
         'Check: site-up',
         'Env: prod',
         'Severity: CRITICAL',
-        'Runbook: check the CloudFront distribution and S3 bucket of the support-doc-prod stack (eu-west-1), then the last Deploy workflow run (.github/workflows/deploy.yml) on main in eMarketeerSE/support-doc; redeploy from main if the bucket is empty or stale.',
+        'Runbook: check the CloudFront distribution and S3 bucket of the support-doc-prod stack (eu-west-1), then the last Deploy workflow run (.github/workflows/deploy.yml) on main in eMarketeerSE/support-doc; re-run the deploy (prod) job of the latest push run on main if the bucket is empty or stale.',
       ].join(' '),
       metric: new Metric({
         namespace: 'AWS/Route53',

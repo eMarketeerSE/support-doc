@@ -1,6 +1,6 @@
 import assert from 'node:assert'
 import { readFileSync } from 'node:fs'
-import { find, flatMap, map, sortBy } from 'lodash-es'
+import { find, flatMap, keys, map, sortBy, values } from 'lodash-es'
 import { before, describe, it } from 'node:test'
 import { App } from 'aws-cdk-lib'
 import { Template } from 'aws-cdk-lib/assertions'
@@ -20,7 +20,7 @@ describe('SiteStack', () => {
   })
 
   it('should set the CSP and no frame options on every response', () => {
-    const policies = Object.values(site.findResources('AWS::CloudFront::ResponseHeadersPolicy'))
+    const policies = values(site.findResources('AWS::CloudFront::ResponseHeadersPolicy'))
     assert.strictEqual(policies.length, 1)
     const config = policies[0].Properties.ResponseHeadersPolicyConfig
     assert.strictEqual(config.SecurityHeadersConfig.ContentSecurityPolicy.ContentSecurityPolicy, CSP)
@@ -30,7 +30,7 @@ describe('SiteStack', () => {
   })
 
   it('should trust only the dev environment of support-doc', () => {
-    const role = find(Object.values(site.findResources('AWS::IAM::Role')), {
+    const role = find(values(site.findResources('AWS::IAM::Role')), {
       Properties: { RoleName: 'support-doc-dev-github-deploy' },
     })
     const statement = role!.Properties.AssumeRolePolicyDocument.Statement[0]
@@ -47,7 +47,7 @@ describe('SiteStack', () => {
   })
 
   it('should serve /404.html with status 404 for a 403 and a 404', () => {
-    const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
+    const distributions = values(site.findResources('AWS::CloudFront::Distribution'))
     const responses = distributions[0].Properties.DistributionConfig.CustomErrorResponses
     assert.deepStrictEqual(
       map(responses, (response) => [response.ErrorCode, response.ResponseCode, response.ResponsePagePath]),
@@ -56,23 +56,23 @@ describe('SiteStack', () => {
   })
 
   it('should attach the viewer-request function to the default behavior', () => {
-    const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
+    const distributions = values(site.findResources('AWS::CloudFront::Distribution'))
     const associations = distributions[0].Properties.DistributionConfig.DefaultCacheBehavior.FunctionAssociations
     assert.strictEqual(associations.length, 1)
     assert.strictEqual(associations[0].EventType, 'viewer-request')
-    const functions = Object.values(site.findResources('AWS::CloudFront::Function'))
+    const functions = values(site.findResources('AWS::CloudFront::Function'))
     assert.strictEqual(functions.length, 1)
     const source = readFileSync(new URL('../cloudfront/viewer-request.js', import.meta.url), 'utf8')
     assert.strictEqual(functions[0].Properties.FunctionCode, source)
   })
 
   it('should give the deploy role only list, put, delete and invalidation', () => {
-    const role = find(Object.values(site.findResources('AWS::IAM::Role')), {
+    const role = find(values(site.findResources('AWS::IAM::Role')), {
       Properties: { RoleName: 'support-doc-dev-github-deploy' },
     })
     assert.strictEqual(role!.Properties.Policies, undefined)
     assert.strictEqual(role!.Properties.ManagedPolicyArns, undefined)
-    const policies = Object.values(site.findResources('AWS::IAM::Policy'))
+    const policies = values(site.findResources('AWS::IAM::Policy'))
     const statements = sortBy(flatMap(policies, 'Properties.PolicyDocument.Statement'), 'Action')
     assert.deepStrictEqual(map(statements, 'Action'), [
       ['cloudfront:CreateInvalidation', 'cloudfront:GetInvalidation'],
@@ -88,9 +88,9 @@ describe('SiteStack', () => {
   })
 
   it('should serve support.dev-emarketeer.io with A and AAAA alias records', () => {
-    const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
+    const distributions = values(site.findResources('AWS::CloudFront::Distribution'))
     assert.deepStrictEqual(distributions[0].Properties.DistributionConfig.Aliases, ['support.dev-emarketeer.io'])
-    const records = Object.values(site.findResources('AWS::Route53::RecordSet'))
+    const records = values(site.findResources('AWS::Route53::RecordSet'))
     assert.deepStrictEqual(sortBy(map(records, 'Properties.Type')), ['A', 'AAAA'])
     assert.deepStrictEqual(map(records, 'Properties.HostedZoneId'), ['Z10I9YQ2H3JPDH', 'Z10I9YQ2H3JPDH'])
     assert.deepStrictEqual(map(records, 'Properties.Name'), ['support.dev-emarketeer.io.', 'support.dev-emarketeer.io.'])
@@ -98,12 +98,12 @@ describe('SiteStack', () => {
 
   it('should output the bucket, distribution, role and url', () => {
     const outputs = site.toJSON().Outputs
-    assert.deepStrictEqual(sortBy(Object.keys(outputs)), ['BucketName', 'DeployRoleArn', 'DistributionId', 'SiteUrl'])
+    assert.deepStrictEqual(sortBy(keys(outputs)), ['BucketName', 'DeployRoleArn', 'DistributionId', 'SiteUrl'])
     assert.strictEqual(outputs.SiteUrl.Value, 'https://support.dev-emarketeer.io')
   })
 
   it('should request a DNS-validated certificate for exactly the dev domain', () => {
-    const certificates = Object.values(certificate.findResources('AWS::CertificateManager::Certificate'))
+    const certificates = values(certificate.findResources('AWS::CertificateManager::Certificate'))
     assert.strictEqual(certificates.length, 1)
     assert.strictEqual(certificates[0].Properties.DomainName, 'support.dev-emarketeer.io')
     assert.strictEqual(certificates[0].Properties.SubjectAlternativeNames, undefined)
@@ -111,7 +111,7 @@ describe('SiteStack', () => {
   })
 
   it('should shadow the dev wildcard record with a TXT record at the exact domain', () => {
-    const records = Object.values(certificate.findResources('AWS::Route53::RecordSet'))
+    const records = values(certificate.findResources('AWS::Route53::RecordSet'))
     assert.strictEqual(records.length, 1)
     assert.strictEqual(records[0].Properties.Type, 'TXT')
     assert.strictEqual(records[0].Properties.Name, 'support.dev-emarketeer.io.')
@@ -131,7 +131,7 @@ describe('SiteStack in prod', () => {
   })
 
   it('should serve support.emarketeer.com with the imported certificate', () => {
-    const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
+    const distributions = values(site.findResources('AWS::CloudFront::Distribution'))
     const config = distributions[0].Properties.DistributionConfig
     assert.deepStrictEqual(config.Aliases, ['support.emarketeer.com'])
     assert.strictEqual(
@@ -141,7 +141,7 @@ describe('SiteStack in prod', () => {
   })
 
   it('should set the CSP and no custom headers', () => {
-    const policies = Object.values(site.findResources('AWS::CloudFront::ResponseHeadersPolicy'))
+    const policies = values(site.findResources('AWS::CloudFront::ResponseHeadersPolicy'))
     assert.strictEqual(policies.length, 1)
     const config = policies[0].Properties.ResponseHeadersPolicyConfig
     assert.strictEqual(config.SecurityHeadersConfig.ContentSecurityPolicy.ContentSecurityPolicy, CSP)
@@ -150,7 +150,7 @@ describe('SiteStack in prod', () => {
   })
 
   it('should trust only the prod environment of support-doc', () => {
-    const role = find(Object.values(site.findResources('AWS::IAM::Role')), {
+    const role = find(values(site.findResources('AWS::IAM::Role')), {
       Properties: { RoleName: 'support-doc-prod-github-deploy' },
     })
     const statement = role!.Properties.AssumeRolePolicyDocument.Statement[0]
@@ -166,7 +166,7 @@ describe('SiteStack in prod', () => {
   })
 
   it('should give the deploy role only list, put, delete and invalidation', () => {
-    const policies = Object.values(site.findResources('AWS::IAM::Policy'))
+    const policies = values(site.findResources('AWS::IAM::Policy'))
     const statements = sortBy(flatMap(policies, 'Properties.PolicyDocument.Statement'), 'Action')
     assert.deepStrictEqual(map(statements, 'Action'), [
       ['cloudfront:CreateInvalidation', 'cloudfront:GetInvalidation'],
