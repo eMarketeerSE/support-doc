@@ -1,0 +1,102 @@
+name: deploy
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: Post to Slack if the run fails
+        type: boolean
+        default: false
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: deploy-dev
+  cancel-in-progress: false
+
+jobs:
+  deploy-dev:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    environment: dev
+    defaults:
+      run:
+        shell: bash
+        working-directory: site
+    env:
+      S3_BUCKET: ${{ vars.S3_BUCKET }}
+    steps:
+      - id: checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - id: setup-node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: site/.nvmrc
+          cache: yarn
+          cache-dependency-path: site/yarn.lock
+      - id: install
+        run: yarn install --frozen-lockfile
+      - id: test
+        run: yarn test
+      - id: build
+        run: yarn build
+        env:
+          SITE_STAGE: dev
+      - id: check-build
+        run: yarn check-build
+      - id: aws
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: eu-west-1
+      - id: sync-images
+        run: |
+          folders="$(yarn --silent image-folders)"
+          while read -r source target; do
+            aws s3 sync "$source" "s3://$S3_BUCKET/$target" --size-only \
+              --cache-control "public, max-age=86400"
+          done <<< "$folders"
+      - id: sync-site
+        run: |
+          folders="$(yarn --silent image-folders)"
+          excludes=()
+          while read -r _ target; do
+            excludes+=(--exclude "${target}*")
+          done <<< "$folders"
+          aws s3 sync dist/ "s3://$S3_BUCKET/" --delete "${excludes[@]}" \
+            --cache-control "public, max-age=0, must-revalidate"
+      - id: prune-images
+        run: |
+          folders="$(yarn --silent image-folders)"
+          while read -r source target; do
+            aws s3 sync "$source" "s3://$S3_BUCKET/$target" --size-only --delete \
+              --cache-control "public, max-age=86400"
+          done <<< "$folders"
+      - id: invalidate
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*"
+        env:
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}
+      - id: check-site
+        run: yarn check-site "$SITE_URL" dist
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+      - id: notify
+        if: failure() && (github.ref == 'refs/heads/main' || inputs.notify)
+        run: |
+          failed_step="$(jq -r 'to_entries | map(select(.value.outcome == "failure")) | first | .key' <<< "$STEPS")"
+          body="$(jq -n --arg text "Support site deploy (dev) failed at ${SHA:0:7}, step $failed_step: $RUN_URL" '{text: $text}')"
+          curl --fail -X POST -H 'Content-Type: application/json' --data "$body" "$SLACK_WEBHOOK"
+        env:
+          STEPS: ${{ toJSON(steps) }}
+          SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SLACK_WEBHOOK: ${{ secrets.SUPPORT_SITE_SLACK_WEBHOOK }}
