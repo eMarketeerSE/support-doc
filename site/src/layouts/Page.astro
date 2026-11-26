@@ -1,4 +1,5 @@
 ---
+import '@fontsource-variable/open-sans'
 import '../styles/site.css'
 import Nav from '../components/Nav.astro'
 import Search from '../components/Search.astro'
@@ -18,13 +19,20 @@ const { twinUrl, nav } = page
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{page.title} - eMarketeer Support</title>
     {page.description && <meta name="description" content={page.description} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
     <script is:inline type="module" src="/pagefind/pagefind-component-ui.js"></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="site-title" href={SPACE_PREFIX[page.space]}>eMarketeer Support</a>
+      <a class="site-title" href={SPACE_PREFIX[page.space]}>
+        <picture>
+          <source srcset="/logo.svg" media="(prefers-color-scheme: dark)" />
+          <img src="/logo-dark.svg" alt="eMarketeer" width="123" height="32" />
+        </picture>
+        <span>Support</span>
+      </a>
       <Search />
       <nav class="language-picker" aria-label="Language">
         <a href={page.space === Space.Swedish ? twinUrl : page.url} aria-current={lang === 'en' ? 'true' : undefined} hreflang="en">English</a>
