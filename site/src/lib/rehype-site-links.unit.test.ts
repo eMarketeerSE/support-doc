@@ -111,6 +111,45 @@ describe('rehypeSiteLinks', () => {
     assert.deepStrictEqual(textLink.children, [{ type: 'text', value: 'Read more' }])
   })
 
+  it('should fill a card that holds only whitespace', () => {
+    const tree: Root = {
+      type: 'root',
+      children: [{ type: 'element', tagName: 'a', properties: { className: ['card'], href: 'other.md' }, children: [{ type: 'text', value: '\n  ' }] }],
+    }
+    rehypeSiteLinks({ pages, root: ROOT })(tree, { path: path.join(ROOT, FILE) })
+    assert.deepStrictEqual(
+      (tree.children[0] as Element).children.map((child) => [(child as Element).tagName, ((child as Element).children[0] as Text).value]),
+      [['strong', 'Other'], ['span', 'About other things']],
+    )
+  })
+
+  it('should throw with the page file for a card that is not a page or an external URL', () => {
+    const tree: Root = {
+      type: 'root',
+      children: [{ type: 'element', tagName: 'a', properties: { className: ['card'], href: 'mailto:support@emarketeer.com' }, children: [] }],
+    }
+    assert.throws(
+      () => rehypeSiteLinks({ pages, root: ROOT })(tree, { path: path.join(ROOT, FILE) }),
+      /^Error: guides\/intro\.md: card mailto:support@emarketeer\.com is not a page or an external URL$/,
+    )
+  })
+
+  it('should keep the link text of a link with a fragment or with markup inside', () => {
+    const code: Element = { type: 'element', tagName: 'code', properties: {}, children: [{ type: 'text', value: 'other.md' }] }
+    const tree: Root = {
+      type: 'root',
+      children: [
+        { type: 'element', tagName: 'a', properties: { href: 'other.md#section' }, children: [{ type: 'text', value: 'other.md' }] },
+        { type: 'element', tagName: 'a', properties: { href: 'other.md' }, children: [code] },
+      ],
+    }
+    rehypeSiteLinks({ pages, root: ROOT })(tree, { path: path.join(ROOT, FILE) })
+    const [fragmentLink, codeLink] = tree.children as Element[]
+    assert.strictEqual(fragmentLink.properties.href, '/guides/other#section')
+    assert.deepStrictEqual(fragmentLink.children, [{ type: 'text', value: 'other.md' }])
+    assert.deepStrictEqual(codeLink.children, [code])
+  })
+
   it('should throw with the page file for an element with data-action', () => {
     const tree: Root = {
       type: 'root',

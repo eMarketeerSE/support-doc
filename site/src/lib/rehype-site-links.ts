@@ -1,7 +1,7 @@
 import path from 'node:path'
 import type { Root } from 'hast'
 import { toString } from 'hast-util-to-string'
-import { find, includes, isEmpty } from 'lodash-es'
+import { find, includes } from 'lodash-es'
 import { visit } from 'unist-util-visit'
 import { resolveLink } from './links'
 import type { SitePage } from './summary'
@@ -27,15 +27,18 @@ export const rehypeSiteLinks = (options: { pages: SitePage[]; root: string }) =>
         element.properties.rel = ['noopener']
       }
       const linkedPage = find(options.pages, { url: element.properties.href.split('#')[0] })
-      if (linkedPage && toString(element) === path.posix.basename(rawHref.split('#')[0])) {
+      const onlyChild = element.children.length === 1 ? element.children[0] : undefined
+      if (linkedPage && !includes(rawHref, '#') && onlyChild?.type === 'text' && onlyChild.value === path.posix.basename(rawHref)) {
         element.children = [{ type: 'text', value: linkedPage.title }]
       }
-      if (includes(element.properties.className as string[] | undefined, 'card') && isEmpty(element.children)) {
-        const target = find(options.pages, { url: element.properties.href.split('#')[0] })
-        const title = target?.title ?? new URL(element.properties.href).host
+      if (includes(element.properties.className as string[] | undefined, 'card') && toString(element).trim() === '') {
+        if (!linkedPage && !WEB_LINK.test(element.properties.href)) {
+          throw new Error(`${pageFile}: card ${rawHref} is not a page or an external URL`)
+        }
+        const title = linkedPage?.title ?? new URL(element.properties.href).host
         element.children = [{ type: 'element', tagName: 'strong', properties: {}, children: [{ type: 'text', value: title }] }]
-        if (target?.description) {
-          element.children.push({ type: 'element', tagName: 'span', properties: {}, children: [{ type: 'text', value: target.description }] })
+        if (linkedPage?.description) {
+          element.children.push({ type: 'element', tagName: 'span', properties: {}, children: [{ type: 'text', value: linkedPage.description }] })
         }
       }
     }
