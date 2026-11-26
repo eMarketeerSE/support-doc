@@ -5,6 +5,7 @@ import { before, describe, it } from 'node:test'
 import { App } from 'aws-cdk-lib'
 import { Template } from 'aws-cdk-lib/assertions'
 import { buildDevStacks } from './build-dev-stacks.js'
+import { buildProdStacks } from './build-prod-stacks.js'
 
 const CSP = "script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'"
 
@@ -115,5 +116,71 @@ describe('SiteStack', () => {
     assert.strictEqual(records[0].Properties.Type, 'TXT')
     assert.strictEqual(records[0].Properties.Name, 'support.dev-emarketeer.io.')
     assert.strictEqual(records[0].Properties.HostedZoneId, 'Z10I9YQ2H3JPDH')
+  })
+})
+
+describe('SiteStack in prod', () => {
+  let site: Template
+
+  before(() => {
+    site = Template.fromStack(buildProdStacks(new App()).siteStack)
+  })
+
+  it('should create no DNS records', () => {
+    site.resourceCountIs('AWS::Route53::RecordSet', 0)
+  })
+
+  it('should serve support.emarketeer.com with the imported certificate', () => {
+    const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
+    const config = distributions[0].Properties.DistributionConfig
+    assert.deepStrictEqual(config.Aliases, ['support.emarketeer.com'])
+    assert.strictEqual(
+      config.ViewerCertificate.AcmCertificateArn,
+      'arn:aws:acm:us-east-1:666865941116:certificate/f860845c-0d61-4d06-bb9b-0ee95672fd27',
+    )
+  })
+
+  it('should set the CSP and no custom headers', () => {
+    const policies = Object.values(site.findResources('AWS::CloudFront::ResponseHeadersPolicy'))
+    assert.strictEqual(policies.length, 1)
+    const config = policies[0].Properties.ResponseHeadersPolicyConfig
+    assert.strictEqual(config.SecurityHeadersConfig.ContentSecurityPolicy.ContentSecurityPolicy, CSP)
+    assert.strictEqual('FrameOptions' in config.SecurityHeadersConfig, false)
+    assert.strictEqual(config.CustomHeadersConfig, undefined)
+  })
+
+  it('should trust only the prod environment of support-doc', () => {
+    const role = find(Object.values(site.findResources('AWS::IAM::Role')), {
+      Properties: { RoleName: 'support-doc-prod-github-deploy' },
+    })
+    const statement = role!.Properties.AssumeRolePolicyDocument.Statement[0]
+    assert.strictEqual(
+      statement.Condition.StringEquals['token.actions.githubusercontent.com:sub'],
+      'repo:eMarketeerSE/support-doc:environment:prod',
+    )
+    assert.strictEqual(statement.Condition.StringEquals['token.actions.githubusercontent.com:aud'], 'sts.amazonaws.com')
+    assert.strictEqual(
+      statement.Principal.Federated,
+      'arn:aws:iam::666865941116:oidc-provider/token.actions.githubusercontent.com',
+    )
+  })
+
+  it('should give the deploy role only list, put, delete and invalidation', () => {
+    const policies = Object.values(site.findResources('AWS::IAM::Policy'))
+    const statements = sortBy(flatMap(policies, 'Properties.PolicyDocument.Statement'), 'Action')
+    assert.deepStrictEqual(map(statements, 'Action'), [
+      ['cloudfront:CreateInvalidation', 'cloudfront:GetInvalidation'],
+      's3:ListBucket',
+      ['s3:PutObject', 's3:DeleteObject'],
+    ])
+  })
+
+  it('should not create a GitHub OIDC provider', () => {
+    site.resourceCountIs('Custom::AWSCDKOpenIdConnectProvider', 0)
+    site.resourceCountIs('AWS::IAM::OIDCProvider', 0)
+  })
+
+  it('should output the prod url', () => {
+    assert.strictEqual(site.toJSON().Outputs.SiteUrl.Value, 'https://support.emarketeer.com')
   })
 })

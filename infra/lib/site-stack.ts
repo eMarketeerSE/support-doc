@@ -22,9 +22,9 @@ import { BlockPublicAccess, Bucket } from 'aws-cdk-lib/aws-s3'
 import { Construct } from 'constructs'
 
 interface SiteStackProps extends StackProps {
-  stage: 'dev'
+  stage: 'dev' | 'prod'
   domain: string
-  zone: HostedZoneAttributes
+  zone?: HostedZoneAttributes
   certificate: ICertificate
 }
 
@@ -65,9 +65,10 @@ export class SiteStack extends Stack {
         },
         contentSecurityPolicy: { contentSecurityPolicy: CONTENT_SECURITY_POLICY, override: true },
       },
-      customHeadersBehavior: {
-        customHeaders: [{ header: 'X-Robots-Tag', value: 'noindex, nofollow', override: true }],
-      },
+      customHeadersBehavior:
+        props.stage === 'dev'
+          ? { customHeaders: [{ header: 'X-Robots-Tag', value: 'noindex, nofollow', override: true }] }
+          : undefined,
     })
 
     const distribution = new Distribution(this, 'Distribution', {
@@ -90,10 +91,12 @@ export class SiteStack extends Stack {
       ],
     })
 
-    const zone = HostedZone.fromHostedZoneAttributes(this, 'Zone', props.zone)
-    const target = RecordTarget.fromAlias(new CloudFrontTarget(distribution))
-    new ARecord(this, 'AliasA', { zone, recordName: props.domain, target })
-    new AaaaRecord(this, 'AliasAAAA', { zone, recordName: props.domain, target })
+    if (props.zone) {
+      const zone = HostedZone.fromHostedZoneAttributes(this, 'Zone', props.zone)
+      const target = RecordTarget.fromAlias(new CloudFrontTarget(distribution))
+      new ARecord(this, 'AliasA', { zone, recordName: props.domain, target })
+      new AaaaRecord(this, 'AliasAAAA', { zone, recordName: props.domain, target })
+    }
 
     const provider = OpenIdConnectProvider.fromOpenIdConnectProviderArn(
       this,
