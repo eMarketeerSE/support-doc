@@ -1,16 +1,11 @@
 import { Stack, StackProps } from 'aws-cdk-lib'
 import { Certificate, CertificateValidation, ICertificate } from 'aws-cdk-lib/aws-certificatemanager'
-import { HostedZone, TxtRecord } from 'aws-cdk-lib/aws-route53'
+import { HostedZone, HostedZoneAttributes, TxtRecord } from 'aws-cdk-lib/aws-route53'
 import { Construct } from 'constructs'
-
-export interface HostedZoneProps {
-  hostedZoneId: string
-  zoneName: string
-}
 
 interface CertificateStackProps extends StackProps {
   domain: string
-  zone: HostedZoneProps
+  zone: HostedZoneAttributes
 }
 
 export class CertificateStack extends Stack {

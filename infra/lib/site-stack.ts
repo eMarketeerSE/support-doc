@@ -16,16 +16,15 @@ import {
 } from 'aws-cdk-lib/aws-cloudfront'
 import { S3BucketOrigin } from 'aws-cdk-lib/aws-cloudfront-origins'
 import { Conditions, FederatedPrincipal, OpenIdConnectProvider, PolicyStatement, Role } from 'aws-cdk-lib/aws-iam'
-import { AaaaRecord, ARecord, HostedZone, RecordTarget } from 'aws-cdk-lib/aws-route53'
+import { AaaaRecord, ARecord, HostedZone, HostedZoneAttributes, RecordTarget } from 'aws-cdk-lib/aws-route53'
 import { CloudFrontTarget } from 'aws-cdk-lib/aws-route53-targets'
 import { BlockPublicAccess, Bucket } from 'aws-cdk-lib/aws-s3'
 import { Construct } from 'constructs'
-import { HostedZoneProps } from './certificate-stack.js'
 
 interface SiteStackProps extends StackProps {
   stage: 'dev'
   domain: string
-  zone: HostedZoneProps
+  zone: HostedZoneAttributes
   certificate: ICertificate
 }
 
