@@ -43,7 +43,7 @@ eMarketeer och SuperOffice CRM har separata databaser, och de förblir separata 
 
 ### Fält
 
-Kontakter överförs med en fast uppsättning standardfält, som listas i [Importera kontakter från SuperOffice CRM](import-contacts-from-superoffice-crm.md#importerade-fält). Samma fält fylls i när eMarketeer skapar kontakter i SuperOffice.
+Kontakter överförs med en fast uppsättning standardfält, som listas i [Importera kontakter från SuperOffice CRM](import-contacts-from-superoffice-crm.md#importerade-falt). Samma fält fylls i när eMarketeer skapar kontakter i SuperOffice.
 
 När eMarketeer skapar företag i SuperOffice fylls följande fält i på företagskortet:
 

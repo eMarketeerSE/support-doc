@@ -17,4 +17,4 @@ Automatiseringen Add to campaign är en [kampanjautomatisering](campaign-automat
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).

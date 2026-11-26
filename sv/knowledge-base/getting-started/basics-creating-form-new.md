@@ -173,6 +173,6 @@ När formuläret är klart klickar du på **Publish** i editorns övre menyrad.
 
 * **Hosted URL:** En delningsbar länk till formuläret. Formuläret visas som det ser ut i fliken Preview. Dela det direkt via sociala medier, i ett chattmeddelande eller som en länk på din webbplats.
 * **Bädda in på din webbplats:** Placerar formuläret på en webbsida med ett skriptavsnitt. Se [Bädda in formulär på din webbplats](../../documentation/forms/publish-a-form.md) för en fullständig guide.
-* **E-post:** Länka till formuläret från ett e-postmeddelande. Se [Så publicerar du ett formulär](../forms/how-to-publish-a-form.md#länka-till-ett-formulär-från-ett-e-postmeddelande) för mer information.
+* **E-post:** Länka till formuläret från ett e-postmeddelande. Se [Så publicerar du ett formulär](../forms/how-to-publish-a-form.md#lanka-till-ett-formular-fran-ett-e-postmeddelande) för mer information.
 {% endstep %}
 {% endstepper %}

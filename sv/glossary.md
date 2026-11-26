@@ -443,7 +443,7 @@ eMarketeers system för engagemangshändelser. En signal är en strukturerad int
 
 <summary>Studs</summary>
 
-Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i [hårda studsar](#hård-studs) (permanenta fel) och [mjuka studsar](#mjuk-studs) (tillfälliga fel).
+Ett e-post som inte kunde levereras till mottagarens adress. Studsar delas in i [hårda studsar](#hard-studs) (permanenta fel) och [mjuka studsar](#mjuk-studs) (tillfälliga fel).
 
 </details>
 
@@ -463,7 +463,7 @@ En etikett som appliceras på en kontakt eller kampanj för segmenterings- och o
 
 <summary>Oleverbar kontakt</summary>
 
-En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett [hårt studs](#hård-studs) eller tre på varandra följande [mjuka studsar](#mjuk-studs). Olevererbara kontakter utesluts från e-postutskick.
+En kontakt som eMarketeer inte kan leverera e-post till. Statusen sätts efter ett [hårt studs](#hard-studs) eller tre på varandra följande [mjuka studsar](#mjuk-studs). Olevererbara kontakter utesluts från e-postutskick.
 
 </details>
 

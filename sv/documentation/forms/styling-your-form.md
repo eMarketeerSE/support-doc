@@ -11,7 +11,7 @@ Styla ditt formulär så att det matchar ditt varumärke via **Themes**-fliken i
 Den här guiden går igenom alternativen för tema, från att applicera ett färdigt tema till att finjustera sidhuvudet och bakgrunden. För en rundtur i hela editorn, se [Formuläreditor: UI-översikt](ui-overview.md).
 
 {% hint style="info" %}
-Du kan inte lägga till egen CSS via Themes-fliken, så du är begränsad till de alternativ som finns där. Ett formulär som är inbäddat på din webbplats kan dock få styling injicerad när det anropas. Läs mer i [Bädda in formulär på din webbplats](publish-a-form.md#styla-formuläret).
+Du kan inte lägga till egen CSS via Themes-fliken, så du är begränsad till de alternativ som finns där. Ett formulär som är inbäddat på din webbplats kan dock få styling injicerad när det anropas. Läs mer i [Bädda in formulär på din webbplats](publish-a-form.md#styla-formularet).
 {% endhint %}
 
 ## Om formulärteman
@@ -143,7 +143,7 @@ Under kategorin **Background**:
 
 För en rundtur i de andra editorflikarna, se [Formuläreditor: UI-översikt](ui-overview.md).
 
-För att styla ett formulär som är inbäddat på din webbplats med din egen CSS, se **Styla formuläret** i [Bädda in formulär på din webbplats](publish-a-form.md#styla-formuläret).
+För att styla ett formulär som är inbäddat på din webbplats med din egen CSS, se **Styla formuläret** i [Bädda in formulär på din webbplats](publish-a-form.md#styla-formularet).
 
 ## Referens
 

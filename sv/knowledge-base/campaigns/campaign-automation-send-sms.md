@@ -20,6 +20,6 @@ SMS:et måste redan finnas. Du kan inte skapa ett SMS från automatiseringen.
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).
 
 **Relaterat Journey-steg:** [Send SMS / Text message](../../documentation/journeys/journey-step-send-sms.md)

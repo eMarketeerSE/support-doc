@@ -17,6 +17,6 @@ Automatiseringen Remove from list är en [kampanjautomatisering](campaign-automa
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).
 
 **Relaterat Journey-steg:** [Contact List](../../documentation/journeys/journey-step-contact-list.md)
