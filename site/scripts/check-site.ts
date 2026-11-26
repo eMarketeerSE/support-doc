@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs'
-import { flatMap, includes, keys, map, reject, uniq } from 'lodash-es'
+import { flatMap, includes, keys, map, reject, startsWith, uniq } from 'lodash-es'
 import { isRedirectPage } from './check-build.ts'
 
 export enum Expect {
@@ -9,6 +9,8 @@ export enum Expect {
   File = 'file',
   NotFound = 'not found',
   Headers = 'headers',
+  Markdown = 'markdown',
+  PageOrRedirect = 'page or redirect page',
 }
 
 export type SiteCheck = { path: string; expect: Expect }
@@ -28,6 +30,7 @@ export const listSiteChecks = (
   snapshot: string[],
   redirects: Record<string, string>,
   imagePaths: string[],
+  llmsPaths: string[],
 ): SiteCheck[] => {
   const redirectSources = keys(redirects)
   const slashUrls = reject(snapshot, (url) => url === '/')
@@ -36,6 +39,8 @@ export const listSiteChecks = (
     ...map(reject(snapshot, (url) => includes(redirectSources, url)), (path) => ({ path, expect: Expect.Page })),
     ...map(slashUrls, (url) => ({ path: `${url}/`, expect: Expect.SlashRedirect })),
     ...map(imagePaths, (path) => ({ path, expect: Expect.File })),
+    ...map(llmsPaths, (path) => ({ path: `${path}.md`, expect: Expect.Markdown })),
+    ...map(llmsPaths, (path) => ({ path, expect: Expect.PageOrRedirect })),
     { path: MISSING_PATH, expect: Expect.NotFound },
     { path: '/', expect: Expect.Headers },
   ]
@@ -76,6 +81,19 @@ export const judgeResponse = (check: SiteCheck, response: SiteResponse): string 
       return `${check.path} (${check.expect}): content-security-policy is ${response.headers['content-security-policy']}, expected ${CSP}`
     }
     return 'x-frame-options' in response.headers ? `${check.path} (${check.expect}): x-frame-options header is set` : null
+  }
+  if (check.expect === Expect.Markdown) {
+    if (response.status !== 200) {
+      return `${check.path} (${check.expect}): status ${response.status}, expected 200`
+    }
+    const contentType = response.headers['content-type']
+    return startsWith(contentType, 'text/markdown') ? null : `${check.path} (${check.expect}): content-type is ${contentType}, expected text/markdown`
+  }
+  if (check.expect === Expect.PageOrRedirect) {
+    if (response.status !== 200) {
+      return `${check.path} (${check.expect}): status ${response.status}, expected 200`
+    }
+    return hasMarker || isRedirectPage(response.body) ? null : `${check.path} (${check.expect}): body is neither a page nor an Astro redirect page`
   }
   const unhandled: never = check.expect
   throw new Error(`Unknown check ${unhandled} for ${check.path}`)
