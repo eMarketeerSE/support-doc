@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { flatMap, keys, toPairs, union } from 'lodash-es'
 
-const isRedirectPage = (html: string): boolean =>
+export const isRedirectPage = (html: string): boolean =>
   html.includes('<title>Redirecting to:') && html.includes('<meta http-equiv="refresh"')
 
 export const checkBuild = (dist: string, snapshot: string[], redirects: Record<string, string>): string[] => {
