@@ -118,7 +118,7 @@ export class SiteStack extends Stack {
     )
     deployRole.addToPolicy(
       new PolicyStatement({
-        actions: ['cloudfront:CreateInvalidation'],
+        actions: ['cloudfront:CreateInvalidation', 'cloudfront:GetInvalidation'],
         resources: [
           this.formatArn({
             service: 'cloudfront',

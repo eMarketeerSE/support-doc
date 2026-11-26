@@ -71,7 +71,7 @@ describe('SiteStack', () => {
     const policies = Object.values(site.findResources('AWS::IAM::Policy'))
     const statements = sortBy(flatMap(policies, 'Properties.PolicyDocument.Statement'), 'Action')
     assert.deepStrictEqual(map(statements, 'Action'), [
-      'cloudfront:CreateInvalidation',
+      ['cloudfront:CreateInvalidation', 'cloudfront:GetInvalidation'],
       's3:ListBucket',
       ['s3:PutObject', 's3:DeleteObject'],
     ])
