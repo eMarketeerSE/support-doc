@@ -14,11 +14,12 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 
 - `getting-started/` — onboarding articles for new users.
 - `knowledge-base/` — feature guides and how-tos, grouped by topic in subfolders.
-- `documentation/` — technical reference, grouped by topic in subfolders. Sub-folder `legal/` for legal docs.
+- `documentation/` — technical reference, grouped by topic in subfolders.
+- `legal/` — legal docs. Its own GitBook space (has `legal/SUMMARY.md`), English-only.
 - `changelog/` — release notes. Its own GitBook space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
 - `.gitbook/assets/` — English images. `sv/.gitbook/assets/` — Swedish images. Each GitBook space only reads files inside its own folder, so the Swedish space cannot see the root `.gitbook/assets/`; every image a Swedish article uses must also exist in `sv/.gitbook/assets/`. See Images below.
 - `assets/<article-slug>/` — leftover from the migration import. Not used by articles; do not add to it or link to it. Scheduled for cleanup.
-- `sv/` — Swedish variant. Mirrors the English structure exactly except `sv/documentation/legal/` does not exist (legal stays English-only).
+- `sv/` — Swedish variant. Mirrors the English structure exactly. There is no `sv/legal/`: legal stays English-only.
 
 ## Naming
 
@@ -66,7 +67,7 @@ Links **within** a single space (docs → docs, or changelog → changelog) stay
 - **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both, and add redirects (see the `SUMMARY.md` section).
 - **Translation engine**: translate using Codex (you), guided by `sv/CLAUDE.md`'s glossary and style rules. Do not call external translation services.
 - **Image paths**: keep the image path identical when translating, and make sure each image file exists in both `.gitbook/assets/` and `sv/.gitbook/assets/` (see Images).
-- **Legal docs** (`documentation/legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/documentation/legal/`.
+- **Legal docs** (`legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/legal/`.
 
 If the user explicitly asks you to edit only one language for a deliberate reason (e.g. "fix a typo in Swedish only"), respect that. Otherwise, keep the pair in sync.
 
@@ -153,7 +154,7 @@ genuinely doesn't apply):
 - Renaming files (URL changes).
 - Restructuring sections.
 - Force-pushing.
-- Editing legal docs (`documentation/legal/`).
+- Editing legal docs (`legal/`).
 
 ## Ask, don't guess
 
