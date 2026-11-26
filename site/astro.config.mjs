@@ -7,6 +7,8 @@ import { rehypeGitbookHeadingIds } from './src/lib/rehype-gitbook-heading-ids'
 import { rehypePageDescription } from './src/lib/rehype-page-description'
 import { rehypeSiteLinks } from './src/lib/rehype-site-links'
 
+const pages = readAllPages()
+
 export default defineConfig({
   output: 'static',
   trailingSlash: 'never',
@@ -20,8 +22,8 @@ export default defineConfig({
     rehypePlugins: [
       rehypeRaw,
       rehypeGitbookHeadingIds,
-      [rehypeSiteLinks, { pages: readAllPages(), root: REPO_ROOT }],
-      [rehypePageDescription, { pages: readAllPages(), root: REPO_ROOT }],
+      [rehypeSiteLinks, { pages, root: REPO_ROOT }],
+      [rehypePageDescription, { pages, root: REPO_ROOT }],
     ],
   },
 })

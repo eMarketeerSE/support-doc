@@ -180,7 +180,7 @@ describe('isNavItemOpen', () => {
 
   it('should open the ancestors of the current page and close the other branches', () => {
     const currentUrl = '/legal/a/a1/a1x'
-    assert.deepStrictEqual([a, a1, a2, b].map((item) => isNavItemOpen(item, currentUrl)), [true, true, false, false])
+    assert.deepStrictEqual(map([a, a1, a2, b], (item) => isNavItemOpen(item, currentUrl)), [true, true, false, false])
   })
 
   it('should open the current page when it has children', () => {
@@ -188,7 +188,7 @@ describe('isNavItemOpen', () => {
   })
 
   it('should close every branch when the current page is elsewhere', () => {
-    assert.deepStrictEqual([a, b].map((item) => isNavItemOpen(item, '/legal/elsewhere')), [false, false])
+    assert.deepStrictEqual(map([a, b], (item) => isNavItemOpen(item, '/legal/elsewhere')), [false, false])
   })
 
   it('should not open a leaf page', () => {

@@ -1,6 +1,7 @@
 import assert from 'node:assert'
 import { describe, it } from 'node:test'
 import type { Element, Root } from 'hast'
+import { map } from 'lodash-es'
 import { Space } from './summary'
 import { rehypePageDescription } from './rehype-page-description'
 
@@ -18,7 +19,7 @@ const pages = [
 const run = (children: Element[], file: string): string[] => {
   const tree: Root = { type: 'root', children }
   rehypePageDescription({ pages, root: '/repo/' })(tree, { path: `/repo/${file}` })
-  return (tree.children as Element[]).map((child) => `${child.tagName}:${(child.children[0] as { value: string }).value}`)
+  return map(tree.children as Element[], (child) => `${child.tagName}:${(child.children[0] as { value: string }).value}`)
 }
 
 describe('rehypePageDescription', () => {
