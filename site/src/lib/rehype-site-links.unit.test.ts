@@ -1,11 +1,13 @@
 import assert from 'node:assert'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { describe, it } from 'node:test'
 import type { Root } from 'hast'
 import { rehypeSiteLinks } from './rehype-site-links'
-import { REPO_ROOT, Space, type SitePage } from './summary'
+import { Space, type SitePage } from './summary'
 
-const IMAGE = 'basics-creating-email-add-email-dialog.png'
+const IMAGE = 'example.png'
+const ROOT = fileURLToPath(new URL('fixtures/repo/', import.meta.url))
 const FILE = 'guides/intro.md'
 
 const pages: SitePage[] = [
@@ -23,7 +25,7 @@ describe('rehypeSiteLinks', () => {
         { type: 'element', tagName: 'img', properties: { src: `../.gitbook/assets/${IMAGE}` }, children: [] },
       ],
     }
-    rehypeSiteLinks({ pages })(tree, { path: path.join(REPO_ROOT, FILE) })
+    rehypeSiteLinks({ pages, root: ROOT })(tree, { path: path.join(ROOT, FILE) })
     const [internal, external, image] = tree.children as { properties: Record<string, string | string[]> }[]
     assert.strictEqual(internal.properties.href, '/guides/other')
     assert.strictEqual(internal.properties.target, undefined)
@@ -39,7 +41,7 @@ describe('rehypeSiteLinks', () => {
         { type: 'element', tagName: 'a', properties: { href: 'tel:+4681234567' }, children: [] },
       ],
     }
-    rehypeSiteLinks({ pages })(tree, { path: path.join(REPO_ROOT, FILE) })
+    rehypeSiteLinks({ pages, root: ROOT })(tree, { path: path.join(ROOT, FILE) })
     const links = tree.children as { properties: Record<string, string | string[]> }[]
     assert.deepStrictEqual(
       links.map((link) => [link.properties.target, link.properties.rel]),

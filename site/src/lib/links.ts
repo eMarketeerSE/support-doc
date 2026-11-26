@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs'
 import path from 'node:path'
 import { find, join, keys, map, split, startsWith } from 'lodash-es'
-import { REPO_ROOT, SPACE_PREFIX, Space, type SitePage } from './summary'
+import { SPACE_PREFIX, Space, type SitePage } from './summary'
 
 export const DOCS_SPACE_ID = '0ywqCs3au1x0DqPhEJTR'
 export const CHANGELOG_SPACE_ID = 'R2AVUzAq8nYYHcGZOcNU'
@@ -37,7 +37,7 @@ const decodePath = (target: string, href: string, page: SitePage): string => {
   }
 }
 
-export const resolveLink = (href: string, page: SitePage, pages: SitePage[]): string => {
+export const resolveLink = (href: string, page: SitePage, pages: SitePage[], root: string): string => {
   if (startsWith(href, '#')) {
     return href
   }
@@ -86,7 +86,7 @@ export const resolveLink = (href: string, page: SitePage, pages: SitePage[]): st
   if (!assetFolder) {
     throw unmappable(page, href, `${resolved} is not a page or an asset`)
   }
-  if (!existsSync(path.join(REPO_ROOT, resolved))) {
+  if (!existsSync(path.join(root, resolved))) {
     throw unmappable(page, href, `${resolved} does not exist`)
   }
   const encodedName = join(map(split(resolved.slice(assetFolder.length), '/'), encodeURIComponent), '/')

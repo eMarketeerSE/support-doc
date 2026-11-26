@@ -1,7 +1,7 @@
 import assert from 'node:assert'
 import { describe, it } from 'node:test'
-import { filter, find, map } from 'lodash-es'
-import { Space, findTwinUrl, parseSummary, readAllPages, readSpace, slug } from './summary'
+import { map } from 'lodash-es'
+import { Space, findTwinUrl, parseSummary, slug } from './summary'
 
 const noDescription = () => ''
 
@@ -60,17 +60,12 @@ describe('summary', () => {
     )
   })
 
-  it('should put the first entry of each space at its prefix', () => {
-    const firstPages = map(Object.values(Space), (space) => {
-      const page = readSpace(space)[0]
-      return [page.file, page.url]
-    })
-    assert.deepStrictEqual(firstPages, [
-      ['overview.md', '/'],
-      ['sv/overview.md', '/docs/docs_se'],
-      ['changelog/README.md', '/changelog'],
-      ['legal/legal.md', '/legal'],
-    ])
+  it('should put the first entry of the English and legal spaces at their prefix', () => {
+    const english = parseSummary('* [Home](overview.md)\n* [A](a.md)', Space.English, noDescription)
+    const legal = parseSummary('* [Legal](legal.md)\n* [Terms](terms.md)', Space.Legal, noDescription)
+    assert.deepStrictEqual(map(english.pages, 'url'), ['/', '/a'])
+    assert.deepStrictEqual(map(legal.pages, 'url'), ['/legal', '/legal/terms'])
+    assert.deepStrictEqual(map(legal.pages, 'file'), ['legal/legal.md', 'legal/terms.md'])
   })
 
   it('should build Swedish urls under /docs/docs_se with the sv/ folder', () => {
@@ -107,10 +102,13 @@ describe('summary', () => {
   })
 
   it('should nest a page under its parent and its ## group', () => {
-    const page = find(readSpace(Space.English), {
-      file: 'knowledge-base/getting-started/basics-creating-email.md',
-    })
-    assert.strictEqual(page?.url, '/getting-started/campaign-basics/basics-creating-email')
+    const summary = [
+      '## Getting started',
+      '* [Campaign basics](knowledge-base/getting-started/campaign-basics.md)',
+      '  * [Create an email](knowledge-base/getting-started/basics-creating-email.md)',
+    ].join('\n')
+    const { pages } = parseSummary(summary, Space.English, noDescription)
+    assert.strictEqual(pages[1].url, '/getting-started/campaign-basics/basics-creating-email')
   })
 
   it('should throw when two entries give the same url', () => {
@@ -125,20 +123,19 @@ describe('summary', () => {
   })
 
   it('should link a page to its twin in the other language', () => {
-    const file = 'knowledge-base/getting-started/basics-creating-email.md'
-    const pages = readAllPages()
-    const english = find(pages, { file })
-    const swedish = find(pages, { file: `sv/${file}` })
-    assert.strictEqual(findTwinUrl(english!, pages), swedish!.url)
-    assert.strictEqual(findTwinUrl(swedish!, pages), english!.url)
+    const english = { url: '/guides/intro', file: 'guides/intro.md', title: '', description: '', space: Space.English }
+    const swedish = { url: '/docs/docs_se/guider/intro', file: 'sv/guides/intro.md', title: '', description: '', space: Space.Swedish }
+    assert.strictEqual(findTwinUrl(english, [english, swedish]), swedish.url)
+    assert.strictEqual(findTwinUrl(swedish, [english, swedish]), english.url)
   })
 
   it('should link a page with no twin to the other start page', () => {
-    const pages = readAllPages()
-    assert.strictEqual(findTwinUrl(find(pages, { space: Space.Changelog })!, pages), '/docs/docs_se')
-    assert.strictEqual(findTwinUrl(find(pages, { space: Space.Legal })!, pages), '/docs/docs_se')
-    const english = filter(pages, { space: Space.English })
-    const orphan = { url: '/docs/docs_se/x', file: 'sv/x-nonexistent.md', title: '', description: '', space: Space.Swedish }
-    assert.strictEqual(findTwinUrl(orphan, [...english, orphan]), '/')
+    const changelog = { url: '/changelog', file: 'changelog/README.md', title: '', description: '', space: Space.Changelog }
+    const legal = { url: '/legal', file: 'legal/legal.md', title: '', description: '', space: Space.Legal }
+    const orphan = { url: '/docs/docs_se/x', file: 'sv/x.md', title: '', description: '', space: Space.Swedish }
+    const pages = [changelog, legal, orphan]
+    assert.strictEqual(findTwinUrl(changelog, pages), '/docs/docs_se')
+    assert.strictEqual(findTwinUrl(legal, pages), '/docs/docs_se')
+    assert.strictEqual(findTwinUrl(orphan, pages), '/')
   })
 })
