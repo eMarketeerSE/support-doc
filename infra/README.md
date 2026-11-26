@@ -23,7 +23,7 @@ Run these in `infra/`.
 
 The stack `support-doc-prod-monitoring` exists only when you pass `--context alertUrl=<incident.io URL>`. A command without it cannot change the stack.
 
-Deploy it at the DNS cutover:
+Deploy it after `dig support.emarketeer.com` returns the CloudFront domain:
 
 ```
 yarn cdk deploy support-doc-prod-monitoring --context stage=prod --context alertUrl=<incident.io URL> --profile prod-admin --require-approval never
