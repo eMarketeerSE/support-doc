@@ -16,7 +16,7 @@ const pages = defineCollection({
     file: z.string(),
     title: z.string(),
     description: z.string(),
-    space: z.nativeEnum(Space),
+    space: z.enum(Space),
     twinUrl: z.string(),
     nav: z.array(z.object({ heading: z.string().nullable(), items: z.array(navItemSchema) })),
   }),

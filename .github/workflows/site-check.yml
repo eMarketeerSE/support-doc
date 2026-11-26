@@ -22,8 +22,12 @@ jobs:
           cache: yarn
           cache-dependency-path: site/yarn.lock
       - run: yarn install --frozen-lockfile
+      - run: yarn typecheck
       - run: yarn test
+        if: ${{ !cancelled() }}
       - run: yarn build
+        if: ${{ !cancelled() }}
         env:
           SITE_STAGE: dev
       - run: yarn check-build
+        if: ${{ !cancelled() }}
