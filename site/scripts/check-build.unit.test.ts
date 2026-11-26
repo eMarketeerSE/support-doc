@@ -7,6 +7,18 @@ import { checkBuild } from './check-build.ts'
 
 const REDIRECT_HTML =
   '<!doctype html><title>Redirecting to: /new</title><meta http-equiv="refresh" content="0;url=/new">'
+const VALID_LLMS = [
+  '# eMarketeer Support',
+  '',
+  '## Support docs',
+  '',
+  '- [Welcome](https://support.emarketeer.com/overview.md): Home.',
+  '',
+  '## Legal',
+  '',
+  '- [Legal](https://support.emarketeer.com/legal/legal.md)',
+  '',
+].join('\n')
 let root: string
 let distCount = 0
 
@@ -19,6 +31,7 @@ const createDist = (): string => {
   const dist = join(root, `dist-${distCount++}`)
   writeFile(dist, 'sitemap.xml', '<urlset/>')
   writeFile(dist, 'robots.txt', 'User-agent: *')
+  writeFile(dist, 'llms.txt', VALID_LLMS)
   return dist
 }
 
@@ -72,7 +85,7 @@ describe('checkBuild', () => {
     const dist = join(root, `dist-${distCount++}`)
     mkdirSync(dist)
     const problems = checkBuild(dist, [], {})
-    assert.deepStrictEqual(problems, ['dist/sitemap.xml is missing', 'dist/robots.txt is missing'])
+    assert.deepStrictEqual(problems, ['dist/sitemap.xml is missing', 'dist/robots.txt is missing', 'dist/llms.txt is missing'])
   })
 
   it('should report a redirect whose target is not a page', () => {
@@ -107,5 +120,29 @@ describe('checkBuild', () => {
     assert.deepStrictEqual(checkBuild(dist, [], { '/old/page': '/new' }), [
       '/old/page is in site/redirects.json but the build has no redirect page there',
     ])
+  })
+
+  it('should report a missing llms.txt', () => {
+    const dist = createDist()
+    rmSync(join(dist, 'llms.txt'))
+    assert.deepEqual(checkBuild(dist, [], {}), ['dist/llms.txt is missing'])
+  })
+
+  it('should report a list line that eMMa cannot read', () => {
+    const dist = createDist()
+    writeFile(
+      dist,
+      'llms.txt',
+      '# eMarketeer Support\n\n## Changelog\n\n- [Bad](https://support.emarketeer.com/changelog/page): No md\n- [Good](https://support.emarketeer.com/changelog/ok.md)\n',
+    )
+    assert.deepEqual(checkBuild(dist, [], {}), [
+      'dist/llms.txt line is not in eMMa\'s format: - [Bad](https://support.emarketeer.com/changelog/page): No md',
+    ])
+  })
+
+  it('should ignore list lines outside the three eMMa sections', () => {
+    const dist = createDist()
+    writeFile(dist, 'llms.txt', '# eMarketeer Support\n\n## Other\n\n- not a link\n')
+    assert.deepEqual(checkBuild(dist, [], {}), [])
   })
 })

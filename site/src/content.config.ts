@@ -18,6 +18,7 @@ const pages = defineCollection({
     title: z.string(),
     description: z.string(),
     space: z.enum(Space),
+    order: z.number(),
     twinUrl: z.string(),
     nav: z.array(z.object({ heading: z.string().nullable(), items: z.array(navItemSchema) })),
   }),
@@ -27,10 +28,10 @@ const pages = defineCollection({
       store.clear()
       const allPages = readAllPages()
       const navBySpace = mapValues(keyBy(Object.values(Space)), (space) => readNav(space))
-      for (const page of allPages) {
+      for (const [order, page] of allPages.entries()) {
         const converted = matter(convertGitbook(await readFile(`${REPO_ROOT}${page.file}`, 'utf8'), page.file)).content
         const fileURL = pathToFileURL(`${REPO_ROOT}${page.file}`)
-        store.set({ id: page.url, data: { ...page, twinUrl: findTwinUrl(page, allPages), nav: navBySpace[page.space] }, body: converted, rendered: await renderMarkdown(converted, { fileURL }) })
+        store.set({ id: page.url, data: { ...page, order, twinUrl: findTwinUrl(page, allPages), nav: navBySpace[page.space] }, body: converted, rendered: await renderMarkdown(converted, { fileURL }) })
       }
     },
   },
