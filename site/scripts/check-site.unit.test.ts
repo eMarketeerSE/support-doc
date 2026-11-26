@@ -50,6 +50,8 @@ describe('listSiteChecks', () => {
     assert.deepEqual(filter(checks, { expect: Expect.File }), [
       { path: '/.gitbook/assets/a.png', expect: Expect.File },
       { path: '/llms.txt', expect: Expect.File },
+      { path: '/logo.svg', expect: Expect.File },
+      { path: '/favicon.svg', expect: Expect.File },
       { path: '/pagefind/pagefind-entry.json', expect: Expect.File },
     ])
     assert.deepEqual(filter(checks, { expect: Expect.NotFound }), [{ path: MISSING_PATH, expect: Expect.NotFound }])

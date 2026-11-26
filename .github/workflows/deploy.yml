@@ -16,13 +16,17 @@ permissions:
   contents: read
 
 jobs:
-  deploy-dev:
+  deploy:
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    environment: dev
+    strategy:
+      fail-fast: false
+      matrix:
+        stage: ${{ fromJSON(github.event_name == 'push' && '["dev","prod"]' || '["dev"]') }}
+    environment: ${{ matrix.stage }}
     concurrency:
-      group: deploy-dev
+      group: deploy-${{ matrix.stage }}
       cancel-in-progress: false
     defaults:
       run:
@@ -35,6 +39,13 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - id: check-slack-webhook
+        name: Check the Slack webhook
+        if: github.event_name == 'push' || inputs.notify
+        run: '[ -n "$SLACK_WEBHOOK" ] || { echo "::error::SUPPORT_SITE_SLACK_WEBHOOK is not set in the $STAGE environment"; exit 1; }'
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SUPPORT_SITE_SLACK_WEBHOOK }}
+          STAGE: ${{ matrix.stage }}
       - id: setup-node
         uses: actions/setup-node@v6
         with:
@@ -48,7 +59,7 @@ jobs:
       - id: build
         run: yarn build
         env:
-          SITE_STAGE: dev
+          SITE_STAGE: ${{ matrix.stage }}
       - id: check-build
         run: yarn check-build
       - id: aws
@@ -103,9 +114,10 @@ jobs:
         run: |
           failed_step="$(jq -r 'to_entries | map(select(.value.outcome == "failure")) | first | .key // "unknown (see run)"' <<< "$STEPS")"
           if [ "$JOB_STATUS" = "cancelled" ]; then outcome="was cancelled"; else outcome="failed"; fi
-          body="$(jq -n --arg text "Support site deploy (dev) $outcome at ${SHA:0:7}, step $failed_step: $RUN_URL" '{text: $text}')"
+          body="$(jq -n --arg text "Support site deploy ($STAGE) $outcome at ${SHA:0:7}, step $failed_step: $RUN_URL" '{text: $text}')"
           curl --fail-with-body --max-time 20 --retry 3 -X POST -H 'Content-Type: application/json' --data "$body" "$SLACK_WEBHOOK"
         env:
+          STAGE: ${{ matrix.stage }}
           STEPS: ${{ toJSON(steps) }}
           JOB_STATUS: ${{ job.status }}
           SHA: ${{ github.event.pull_request.head.sha || github.sha }}

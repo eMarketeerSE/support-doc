@@ -9,7 +9,7 @@ import { renderMarkdown } from './lib/render-markdown'
 import { REPO_ROOT, Space, findTwinUrl, readAllPages, readNav, type NavItem } from './lib/summary'
 
 const navItemSchema: z.ZodType<NavItem> = z.lazy(() =>
-  z.object({ title: z.string(), url: z.string(), children: z.array(navItemSchema) }),
+  z.object({ title: z.string(), url: z.string(), icon: z.string().nullable(), children: z.array(navItemSchema) }),
 )
 
 const pages = defineCollection({
