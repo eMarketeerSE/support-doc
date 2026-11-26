@@ -4,7 +4,7 @@ import { listImageFolders } from './image-folders.ts'
 
 const folders = listImageFolders(REPO_ROOT)
 if (isEmpty(folders)) {
-  console.log(`No image folders found under ${REPO_ROOT}`)
+  console.error(`No image folders found under ${REPO_ROOT}`)
   process.exit(1)
 }
 forEach(folders, ({ source, target }) => console.log(`${source} ${target}`))

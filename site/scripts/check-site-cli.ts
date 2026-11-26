@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { chunk, endsWith, filter, flatMap, forEach, map, size, split } from 'lodash-es'
+import { chunk, endsWith, filter, flatMap, forEach, isEmpty, map, size, split } from 'lodash-es'
 import { readRedirects } from '../src/lib/redirects.ts'
 import { Expect, judgeResponse, listImagePaths, listSiteChecks, type SiteCheck, type SiteResponse } from './check-site.ts'
 
@@ -47,11 +47,19 @@ const fetchProblem = async (baseUrl: string, check: SiteCheck): Promise<string |
 const baseUrl = process.argv[2]
 const distDir = process.argv[3]
 if (!URL.canParse(baseUrl ?? '') || !distDir) {
-  console.log('Usage: check-site-cli.ts <baseUrl> <dist>')
+  console.error('Usage: check-site-cli.ts <baseUrl> <dist>')
   process.exit(1)
 }
 const snapshot = filter(split(readFileSync(SNAPSHOT_FILE, 'utf8'), '\n'), (line) => line !== '')
+if (isEmpty(snapshot)) {
+  console.error(`No URLs in ${SNAPSHOT_FILE}`)
+  process.exit(1)
+}
 const imagePaths = listImagePaths(listHtmlFiles(resolve(distDir)))
+if (isEmpty(imagePaths)) {
+  console.error(`No image paths found in the HTML files under ${resolve(distDir)}`)
+  process.exit(1)
+}
 const checks = listSiteChecks(snapshot, readRedirects(), imagePaths)
 const problems: string[] = []
 for (const batch of chunk(checks, BATCH_SIZE)) {
