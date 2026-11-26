@@ -1,0 +1,26 @@
+{
+  "name": "support-doc-infra",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "cdk": "cdk",
+    "synth": "cdk synth --context stage=dev",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test \"cloudfront/**/*.unit.test.ts\" \"lib/**/*.unit.test.ts\""
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.268.0",
+    "constructs": "10.8.1",
+    "lodash-es": "4"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22",
+    "aws-cdk": "2.1140.0",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}
