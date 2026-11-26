@@ -26,7 +26,7 @@ const parseTag = (line: string, index: number, file: string): Tag | null => {
   return { name, attributes, line: index + 1 }
 }
 
-const nextFence = (line: string, fence: string | null): string | null => {
+export const nextFence = (line: string, fence: string | null): string | null => {
   const marker = FENCE.exec(line)?.[1]
   if (fence === null) {
     return marker ?? null
@@ -35,7 +35,7 @@ const nextFence = (line: string, fence: string | null): string | null => {
   return closes ? null : fence
 }
 
-const trimBlank = (lines: string[]): string[] =>
+export const trimBlank = (lines: string[]): string[] =>
   dropRightWhile(dropWhile(lines, (line) => line.trim() === ''), (line) => line.trim() === '')
 
 const wrap = (open: string, body: string[], close: string): string[] => [open, '', ...trimBlank(body), '', close]
