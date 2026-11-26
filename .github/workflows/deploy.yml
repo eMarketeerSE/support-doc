@@ -39,6 +39,13 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - id: check-slack-webhook
+        name: Check the Slack webhook
+        if: github.event_name == 'push' || inputs.notify
+        run: '[ -n "$SLACK_WEBHOOK" ] || { echo "::error::SUPPORT_SITE_SLACK_WEBHOOK is not set in the $STAGE environment"; exit 1; }'
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SUPPORT_SITE_SLACK_WEBHOOK }}
+          STAGE: ${{ matrix.stage }}
       - id: setup-node
         uses: actions/setup-node@v6
         with:
