@@ -104,10 +104,11 @@ Det här liknar att välja "Manual trigger" som Journeyns startpunkt, med en vik
 
 ### Spåra prestanda för en Journey
 
-"Journey Summary" i den vänstra panelen visar när Journey startades och hur många kontakter som finns i den. Kontakter kan ha tre statusar:
+"Journey Summary" i den vänstra panelen visar när Journey startades och hur många kontakter som finns i den. Kontakter kan ha fyra statusar:
 
 * Contacts started – antalet kontakter som matchade startpunktsfiltret och gick in i din Journey.
-* Contacts in progress – varje kontakt som har startat din Journey men inte slutfört den. Utan väntesteg passerar kontakter pågående-statusen mycket snabbt. Med väntesteg kan många kontakter samtidigt vara pågående.
+* Contacts in progress – varje kontakt som har startat din Journey men inte slutfört den och inte har tagits bort från den. Utan väntesteg passerar kontakter pågående-statusen mycket snabbt. Med väntesteg kan många kontakter samtidigt vara pågående.
+* Contacts removed – antalet kontakter som togs bort från din Journey innan de slutförde den. Om en borttagen kontakt går in i din Journey igen räknas den inte längre som borttagen.
 * Completed journeys to date – antalet kontakter som har slutfört alla steg i din Journey.
 
 ### Stegräknare
