@@ -166,6 +166,11 @@ describe('SiteStack in prod', () => {
   })
 
   it('should give the deploy role only list, put, delete and invalidation', () => {
+    const role = find(values(site.findResources('AWS::IAM::Role')), {
+      Properties: { RoleName: 'support-doc-prod-github-deploy' },
+    })
+    assert.strictEqual(role!.Properties.Policies, undefined)
+    assert.strictEqual(role!.Properties.ManagedPolicyArns, undefined)
     const policies = values(site.findResources('AWS::IAM::Policy'))
     const statements = sortBy(flatMap(policies, 'Properties.PolicyDocument.Statement'), 'Action')
     assert.deepStrictEqual(map(statements, 'Action'), [
@@ -173,6 +178,12 @@ describe('SiteStack in prod', () => {
       's3:ListBucket',
       ['s3:PutObject', 's3:DeleteObject'],
     ])
+    const resources = JSON.stringify(map(statements, 'Resource'))
+    assert.match(statements[0].Resource['Fn::Join'][1].join(''), /^arn:.*:cloudfront:/)
+    assert.match(resources, /SiteBucket/)
+    assert.doesNotMatch(resources, /"\*"/)
+    assert.strictEqual(statements[2].Resource['Fn::Join'][1][1], '/*')
+    assert.strictEqual(statements[1].Resource['Fn::GetAtt'][1], 'Arn')
   })
 
   it('should not create a GitHub OIDC provider', () => {
