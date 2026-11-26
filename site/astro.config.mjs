@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm'
 import { REPO_ROOT, readAllPages } from './src/lib/summary'
 import { readRedirects } from './src/lib/redirects'
 import { rehypeGitbookHeadingIds } from './src/lib/rehype-gitbook-heading-ids'
+import { rehypePageDescription } from './src/lib/rehype-page-description'
 import { rehypeSiteLinks } from './src/lib/rehype-site-links'
 
 export default defineConfig({
@@ -16,6 +17,11 @@ export default defineConfig({
     syntaxHighlight: false,
     smartypants: false,
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [rehypeRaw, rehypeGitbookHeadingIds, [rehypeSiteLinks, { pages: readAllPages(), root: REPO_ROOT }]],
+    rehypePlugins: [
+      rehypeRaw,
+      rehypeGitbookHeadingIds,
+      [rehypeSiteLinks, { pages: readAllPages(), root: REPO_ROOT }],
+      [rehypePageDescription, { pages: readAllPages(), root: REPO_ROOT }],
+    ],
   },
 })
