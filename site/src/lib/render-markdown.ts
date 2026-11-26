@@ -1,4 +1,4 @@
-import { compact, dropWhile, find, join, split, startsWith } from 'lodash-es'
+import { compact, drop, dropWhile, find, includes, join, split, startsWith } from 'lodash-es'
 import { nextFence, trimBlank } from './convert-gitbook'
 import { WEB_LINK, isExternal, resolveLink } from './links'
 import { mdPath } from './llms'
@@ -10,6 +10,7 @@ const CARD = /^<a class="card" href="([^"]*)"><\/a>$/
 const LINK_OR_CODE = /(`+).*?\1|\]\(([^)\s]+)(?=[)\s])|<(a|img)\s[^>]*>/g
 const HREF = /(\shref=")([^"]*)"/
 const SRC = /(\ssrc=")([^"]*)"/
+const LINK_ATTRIBUTE = /\s(?:href|src)\s*=/
 
 const absoluteUrl = (resolved: string, page: SitePage, pages: SitePage[]): string => {
   if (isExternal(resolved)) {
@@ -38,11 +39,17 @@ const rewriteLine = (line: string, page: SitePage, pages: SitePage[], root: stri
   if (card) {
     return renderCard(card[1], page, pages, root)
   }
+  if (includes(line, 'class="card"')) {
+    throw new Error(`${page.file}: card line has an unexpected form: ${line}`)
+  }
   return line.replace(LINK_OR_CODE, (match, _code, markdownHref?: string, tagName?: string) => {
     if (markdownHref !== undefined) {
       return `](${absoluteUrl(resolveLink(markdownHref, page, pages, root), page, pages)}`
     }
     if (tagName !== undefined) {
+      if (!(tagName === 'a' ? HREF : SRC).test(match) && LINK_ATTRIBUTE.test(match)) {
+        throw new Error(`${page.file}: ${tagName} link was not rewritten: ${match}`)
+      }
       return match.replace(
         tagName === 'a' ? HREF : SRC,
         (_attribute, start: string, href: string) => `${start}${absoluteUrl(resolveLink(href, page, pages, root), page, pages)}"`,
@@ -54,13 +61,16 @@ const rewriteLine = (line: string, page: SitePage, pages: SitePage[], root: stri
 
 export const renderMarkdown = (page: SitePage, body: string, pages: SitePage[], root: string): string => {
   const lines = dropWhile(split(body, '\n'), (line) => line.trim() === '')
-  const content = startsWith(lines[0], '# ') ? lines.slice(1) : lines
+  const content = startsWith(lines[0], '# ') ? drop(lines) : lines
   const output: string[] = []
   let fence: string | null = null
   for (const line of content) {
     const insideCode = fence !== null
     fence = nextFence(line, fence)
     output.push(insideCode || fence !== null ? line : rewriteLine(line, page, pages, root))
+  }
+  if (fence !== null) {
+    throw new Error(`${page.file}: unclosed code fence`)
   }
   return `${join(compact([NOTE, `# ${page.title}`, page.description, join(trimBlank(output), '\n')]), '\n\n')}\n`
 }
