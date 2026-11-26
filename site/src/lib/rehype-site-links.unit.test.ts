@@ -95,6 +95,22 @@ describe('rehypeSiteLinks', () => {
     assert.deepStrictEqual((tree.children[0] as Element).children, [existing])
   })
 
+  it('should replace a link text that repeats the last part of its href with the page title', () => {
+    const tree: Root = {
+      type: 'root',
+      children: [
+        { type: 'element', tagName: 'a', properties: { href: 'other.md' }, children: [{ type: 'text', value: 'other.md' }] },
+        { type: 'element', tagName: 'a', properties: { href: '../guides/other.md' }, children: [{ type: 'text', value: 'other.md' }] },
+        { type: 'element', tagName: 'a', properties: { href: 'other.md' }, children: [{ type: 'text', value: 'Read more' }] },
+      ],
+    }
+    rehypeSiteLinks({ pages, root: ROOT })(tree, { path: path.join(ROOT, FILE) })
+    const [fileNameLink, pathLink, textLink] = tree.children as Element[]
+    assert.deepStrictEqual(fileNameLink.children, [{ type: 'text', value: 'Other' }])
+    assert.deepStrictEqual(pathLink.children, [{ type: 'text', value: 'Other' }])
+    assert.deepStrictEqual(textLink.children, [{ type: 'text', value: 'Read more' }])
+  })
+
   it('should throw with the page file for an element with data-action', () => {
     const tree: Root = {
       type: 'root',

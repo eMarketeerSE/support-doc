@@ -1,5 +1,6 @@
 import path from 'node:path'
 import type { Root } from 'hast'
+import { toString } from 'hast-util-to-string'
 import { find, includes, isEmpty } from 'lodash-es'
 import { visit } from 'unist-util-visit'
 import { resolveLink } from './links'
@@ -19,10 +20,15 @@ export const rehypeSiteLinks = (options: { pages: SitePage[]; root: string }) =>
       throw new Error(`${pageFile}: data-action attribute on ${element.tagName} is not allowed`)
     }
     if (element.tagName === 'a' && typeof element.properties.href === 'string') {
-      element.properties.href = resolveLink(element.properties.href, page, options.pages, options.root)
+      const rawHref = element.properties.href
+      element.properties.href = resolveLink(rawHref, page, options.pages, options.root)
       if (WEB_LINK.test(element.properties.href)) {
         element.properties.target = '_blank'
         element.properties.rel = ['noopener']
+      }
+      const linkedPage = find(options.pages, { url: element.properties.href.split('#')[0] })
+      if (linkedPage && toString(element) === path.posix.basename(rawHref.split('#')[0])) {
+        element.children = [{ type: 'text', value: linkedPage.title }]
       }
       if (includes(element.properties.className as string[] | undefined, 'card') && isEmpty(element.children)) {
         const target = find(options.pages, { url: element.properties.href.split('#')[0] })
