@@ -44,6 +44,8 @@ export const listSiteChecks = (
     { path: MISSING_PATH, expect: Expect.NotFound },
     { path: '/', expect: Expect.Headers },
     { path: '/llms.txt', expect: Expect.File },
+    { path: '/logo.svg', expect: Expect.File },
+    { path: '/favicon.svg', expect: Expect.File },
     { path: '/pagefind/pagefind-entry.json', expect: Expect.File },
   ]
 }
