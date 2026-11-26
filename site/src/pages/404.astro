@@ -1,4 +1,5 @@
 ---
+import '@fontsource-variable/open-sans'
 import '../styles/site.css'
 import Search from '../components/Search.astro'
 ---
@@ -8,6 +9,7 @@ import Search from '../components/Search.astro'
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Page not found - eMarketeer Support</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" />
     <script is:inline src="/404-language.js"></script>
     <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
@@ -15,6 +17,13 @@ import Search from '../components/Search.astro'
   </head>
   <body>
     <main class="not-found">
+      <a class="site-title" href="/">
+        <picture>
+          <source srcset="/logo.svg" media="(prefers-color-scheme: dark)" />
+          <img src="/logo-dark.svg" alt="eMarketeer" width="123" height="32" />
+        </picture>
+        <span>Support</span>
+      </a>
       <Search />
       <section data-language="en">
         <h1>Page not found</h1>

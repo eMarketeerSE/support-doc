@@ -273,12 +273,15 @@ article h1 + .update-date { margin-top: 1em; }
 .not-found { max-width: 640px; margin: 20vh auto 0; padding: 0 16px; }
 html[data-language="en"] [data-language="sv"], html[data-language="sv"] [data-language="en"] { display: none; }
 .not-found h1 { color: var(--text-heading); }
+.not-found .site-title { width: fit-content; margin-bottom: 24px; }
 .not-found .site-search { margin-bottom: 32px; }
 
 @media (max-width: 767px) {
-  :root { --header-height: 132px; }
+  :root { --header-height: 92px; }
   .site-header { flex-wrap: wrap; gap: 8px 16px; height: auto; padding: 8px 16px; }
-  .site-title { flex: 1; }
+  .site-title { flex: 1; gap: 8px; }
+  .site-title img { width: auto; height: 28px; }
+  .language-picker a { padding: 4px 8px; }
   .site-header .site-search { order: 3; flex-basis: 100%; --pf-searchbox-max-width: none; }
   .layout { display: block; }
   .site-nav { position: static; max-height: none; padding: 8px 16px; border-bottom: 1px solid var(--border); }
