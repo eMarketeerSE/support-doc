@@ -3,6 +3,7 @@ import '@fontsource-variable/open-sans'
 import '../styles/site.css'
 import Nav from '../components/Nav.astro'
 import Search from '../components/Search.astro'
+import { getSectionTabs } from '../lib/section-tabs'
 import { Space, SPACE_PREFIX } from '../lib/summary'
 import type { CollectionEntry } from 'astro:content'
 
@@ -11,6 +12,7 @@ type Props = { page: CollectionEntry<'pages'>['data']; hasHeading: boolean }
 const { page, hasHeading } = Astro.props
 const lang = page.space === Space.Swedish ? 'sv' : 'en'
 const { twinUrl, nav } = page
+const sectionTabs = getSectionTabs(page.space, page.url)
 ---
 <!doctype html>
 <html lang={lang} data-site="support-doc">
@@ -39,6 +41,11 @@ const { twinUrl, nav } = page
         <a href={page.space === Space.Swedish ? page.url : twinUrl} aria-current={lang === 'sv' ? 'true' : undefined} hreflang="sv">Svenska</a>
       </nav>
     </header>
+    <nav class="section-tabs" aria-label="Sections">
+      {sectionTabs.map((tab) => (
+        <a href={tab.href} aria-current={tab.current ?? undefined}>{tab.label}</a>
+      ))}
+    </nav>
     <div class="layout">
       <div class="site-nav">
         <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menu" />
