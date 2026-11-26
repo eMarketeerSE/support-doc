@@ -119,7 +119,14 @@ export class SiteStack extends Stack {
     deployRole.addToPolicy(
       new PolicyStatement({
         actions: ['cloudfront:CreateInvalidation'],
-        resources: [`arn:aws:cloudfront::${this.account}:distribution/${distribution.distributionId}`],
+        resources: [
+          this.formatArn({
+            service: 'cloudfront',
+            region: '',
+            resource: 'distribution',
+            resourceName: distribution.distributionId,
+          }),
+        ],
       }),
     )
 

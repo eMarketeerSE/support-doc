@@ -6,7 +6,7 @@ const ACCOUNT = '377460527677'
 const DOMAIN = 'support.dev-emarketeer.io'
 const ZONE = { hostedZoneId: 'Z10I9YQ2H3JPDH', zoneName: 'dev-emarketeer.io' }
 
-export const buildDevStacks = (app: App = new App()): { certificateStack: CertificateStack; siteStack: SiteStack } => {
+export const buildDevStacks = (app: App): { certificateStack: CertificateStack; siteStack: SiteStack } => {
   const certificateStack = new CertificateStack(app, 'support-doc-dev-certificate', {
     env: { account: ACCOUNT, region: 'us-east-1' },
     crossRegionReferences: true,

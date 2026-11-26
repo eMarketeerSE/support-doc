@@ -1,5 +1,7 @@
 import assert from 'node:assert'
+import { find, flatMap, map, sortBy } from 'lodash-es'
 import { before, describe, it } from 'node:test'
+import { App } from 'aws-cdk-lib'
 import { Template } from 'aws-cdk-lib/assertions'
 import { buildDevStacks } from './build-dev-stacks.js'
 
@@ -10,7 +12,7 @@ describe('SiteStack', () => {
   let certificate: Template
 
   before(() => {
-    const stacks = buildDevStacks()
+    const stacks = buildDevStacks(new App())
     site = Template.fromStack(stacks.siteStack)
     certificate = Template.fromStack(stacks.certificateStack)
   })
@@ -26,14 +28,15 @@ describe('SiteStack', () => {
   })
 
   it('should trust only the dev environment of support-doc', () => {
-    const roles = Object.values(site.findResources('AWS::IAM::Role'))
-    const statement = roles[0].Properties.AssumeRolePolicyDocument.Statement[0]
+    const role = find(Object.values(site.findResources('AWS::IAM::Role')), {
+      Properties: { RoleName: 'support-doc-dev-github-deploy' },
+    })
+    const statement = role!.Properties.AssumeRolePolicyDocument.Statement[0]
     assert.strictEqual(
       statement.Condition.StringEquals['token.actions.githubusercontent.com:sub'],
       'repo:eMarketeerSE/support-doc:environment:dev',
     )
     assert.strictEqual(statement.Condition.StringEquals['token.actions.githubusercontent.com:aud'], 'sts.amazonaws.com')
-    assert.strictEqual(roles[0].Properties.RoleName, 'support-doc-dev-github-deploy')
   })
 
   it('should not create a GitHub OIDC provider', () => {
@@ -44,7 +47,7 @@ describe('SiteStack', () => {
     const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
     const responses = distributions[0].Properties.DistributionConfig.CustomErrorResponses
     assert.deepStrictEqual(
-      responses.map((response: Record<string, unknown>) => [response.ErrorCode, response.ResponseCode, response.ResponsePagePath]),
+      map(responses, (response) => [response.ErrorCode, response.ResponseCode, response.ResponsePagePath]),
       [[403, 404, '/404.html'], [404, 404, '/404.html']],
     )
   })
@@ -60,33 +63,38 @@ describe('SiteStack', () => {
   })
 
   it('should give the deploy role only list, put, delete and invalidation', () => {
+    const role = find(Object.values(site.findResources('AWS::IAM::Role')), {
+      Properties: { RoleName: 'support-doc-dev-github-deploy' },
+    })
+    assert.strictEqual(role!.Properties.Policies, undefined)
+    assert.strictEqual(role!.Properties.ManagedPolicyArns, undefined)
     const policies = Object.values(site.findResources('AWS::IAM::Policy'))
-    const actions = policies
-      .flatMap((policy) => policy.Properties.PolicyDocument.Statement)
-      .flatMap((statement: { Action: string | string[] }) => statement.Action)
-      .sort()
-    assert.deepStrictEqual(actions, [
+    const statements = sortBy(flatMap(policies, 'Properties.PolicyDocument.Statement'), 'Action')
+    assert.deepStrictEqual(map(statements, 'Action'), [
       'cloudfront:CreateInvalidation',
-      's3:DeleteObject',
       's3:ListBucket',
-      's3:PutObject',
+      ['s3:PutObject', 's3:DeleteObject'],
     ])
+    const resources = JSON.stringify(map(statements, 'Resource'))
+    assert.match(statements[0].Resource['Fn::Join'][1].join(''), /^arn:.*:cloudfront:/)
+    assert.match(resources, /SiteBucket/)
+    assert.doesNotMatch(resources, /"\*"/)
+    assert.strictEqual(statements[2].Resource['Fn::Join'][1][1], '/*')
+    assert.strictEqual(statements[1].Resource['Fn::GetAtt'][1], 'Arn')
   })
 
   it('should serve support.dev-emarketeer.io with A and AAAA alias records', () => {
     const distributions = Object.values(site.findResources('AWS::CloudFront::Distribution'))
     assert.deepStrictEqual(distributions[0].Properties.DistributionConfig.Aliases, ['support.dev-emarketeer.io'])
     const records = Object.values(site.findResources('AWS::Route53::RecordSet'))
-    assert.deepStrictEqual(records.map((record) => record.Properties.Type).sort(), ['A', 'AAAA'])
-    records.forEach((record) => {
-      assert.strictEqual(record.Properties.HostedZoneId, 'Z10I9YQ2H3JPDH')
-      assert.strictEqual(record.Properties.Name, 'support.dev-emarketeer.io.')
-    })
+    assert.deepStrictEqual(sortBy(map(records, 'Properties.Type')), ['A', 'AAAA'])
+    assert.deepStrictEqual(map(records, 'Properties.HostedZoneId'), ['Z10I9YQ2H3JPDH', 'Z10I9YQ2H3JPDH'])
+    assert.deepStrictEqual(map(records, 'Properties.Name'), ['support.dev-emarketeer.io.', 'support.dev-emarketeer.io.'])
   })
 
   it('should output the bucket, distribution, role and url', () => {
     const outputs = site.toJSON().Outputs
-    assert.deepStrictEqual(Object.keys(outputs).sort(), ['BucketName', 'DeployRoleArn', 'DistributionId', 'SiteUrl'])
+    assert.deepStrictEqual(sortBy(Object.keys(outputs)), ['BucketName', 'DeployRoleArn', 'DistributionId', 'SiteUrl'])
     assert.strictEqual(outputs.SiteUrl.Value, 'https://support.dev-emarketeer.io')
   })
 
