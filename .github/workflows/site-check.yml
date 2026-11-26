@@ -25,9 +25,10 @@ jobs:
       - run: yarn typecheck
       - run: yarn test
         if: ${{ !cancelled() }}
-      - run: yarn build
+      - id: build
+        run: yarn build
         if: ${{ !cancelled() }}
         env:
           SITE_STAGE: dev
       - run: yarn check-build
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
