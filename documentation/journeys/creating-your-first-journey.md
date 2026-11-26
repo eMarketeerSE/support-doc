@@ -108,10 +108,11 @@ This is similar to selecting "Manual trigger" as the Journey's starting point, w
 
 ### Tracking Journey performance
 
-The "Journey Summary" in the left panel shows when the Journey was launched and how many contacts are in it. Contacts can have three statuses:
+The "Journey Summary" in the left panel shows when the Journey was launched and how many contacts are in it. Contacts can have four statuses:
 
 * Contacts started – the number of contacts that matched the starting point filter and entered the Journey.
-* Contacts in progress – any contact that started the Journey but has not completed it. Without wait steps, contacts pass through the in-progress status briefly. With wait steps, many contacts can remain in progress at once.
+* Contacts in progress – any contact that started the Journey but has not completed it and has not been removed from it. Without wait steps, contacts pass through the in-progress status briefly. With wait steps, many contacts can remain in progress at once.
+* Contacts removed – the number of contacts that were removed from the Journey before they completed it. If a removed contact enters the Journey again, it no longer counts as removed.
 * Completed journeys to date – the number of contacts who completed all steps in the Journey.
 
 ### Step counter
