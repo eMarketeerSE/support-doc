@@ -25,6 +25,7 @@
   --hint-warning-border: var(--orange);
   --hint-danger-bg: #f8e8e4;
   --hint-danger-border: var(--rust);
+  --hint-link: #2a62a0;
   --radius: 12px;
   --header-height: 56px;
 }
@@ -49,6 +50,7 @@
     --hint-warning-border: var(--orange);
     --hint-danger-bg: #3d1d17;
     --hint-danger-border: #e07a63;
+    --hint-link: var(--link);
   }
 }
 
@@ -221,6 +223,7 @@ aside.hint-info { border-color: var(--hint-info-border); background: var(--hint-
 aside.hint-success { border-color: var(--hint-success-border); background: var(--hint-success-bg); }
 aside.hint-warning { border-color: var(--hint-warning-border); background: var(--hint-warning-bg); }
 aside.hint-danger { border-color: var(--hint-danger-border); background: var(--hint-danger-bg); }
+aside.hint a { color: var(--hint-link); }
 aside.hint::before { position: absolute; top: 12px; left: 14px; width: 20px; font-weight: 700; line-height: 1.5; text-align: center; }
 aside.hint-info::before { content: "\2139\FE0E" / ""; color: var(--hint-info-border); }
 aside.hint-success::before { content: "\2713" / ""; color: var(--hint-success-border); }
