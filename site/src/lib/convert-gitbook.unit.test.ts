@@ -14,7 +14,7 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should turn a stepper into numbered step divs', () => {
+  it('should turn a stepper into an ordered list of steps', () => {
     assert.strictEqual(
       convert([
         '{% stepper %}',
@@ -30,23 +30,23 @@ describe('convertGitbook', () => {
         '{% endstepper %}',
       ]),
       [
-        '<div class="steps">',
+        '<ol class="steps">',
         '',
-        '<div class="step">',
+        '<li class="step">',
         '',
-        '### Step 1: Open Campaigns',
+        '### Open Campaigns',
         '',
         'Pick a folder.',
         '',
-        '</div>',
+        '</li>',
         '',
-        '<div class="step">',
+        '<li class="step">',
         '',
-        '### Step 2: Click \\[New Campaign]',
+        '### Click \\[New Campaign]',
         '',
-        '</div>',
+        '</li>',
         '',
-        '</div>',
+        '</ol>',
       ].join('\n'),
     )
   })
@@ -88,7 +88,7 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should turn updates into a dated heading per update', () => {
+  it('should start each update with its date', () => {
     assert.strictEqual(
       convert([
         '{% updates format="full" %}',
@@ -99,7 +99,7 @@ describe('convertGitbook', () => {
         '{% endupdate %}',
         '{% endupdates %}',
       ]),
-      ['### 2026-11-16', '', '## November release', '', 'New editors.'].join('\n'),
+      ['<p class="update-date"><time datetime="2026-11-16">2026-11-16</time></p>', '', '## November release', '', 'New editors.'].join('\n'),
     )
   })
 
@@ -131,28 +131,11 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should number the first heading of each step within its stepper', () => {
-    const output = convert([
-      '{% stepper %}',
-      '{% step %}',
-      '### First',
-      '',
-      '### Second heading in the first step',
-      '{% endstep %}',
-      '{% step %}',
-      '### Second',
-      '{% endstep %}',
-      '{% endstepper %}',
-      '',
-      '{% stepper %}',
-      '{% step %}',
-      '## Again',
-      '{% endstep %}',
-      '{% endstepper %}',
-    ])
+  it('should keep step headings unchanged so their ids stay as in GitBook', () => {
+    const output = convert(['{% stepper %}', '{% step %}', '### First', '{% endstep %}', '{% step %}', '## Second', '{% endstep %}', '{% endstepper %}'])
     assert.deepStrictEqual(
       output.split('\n').filter((line) => line.startsWith('#')),
-      ['### Step 1: First', '### Second heading in the first step', '### Step 2: Second', '## Step 1: Again'],
+      ['### First', '## Second'],
     )
   })
 
@@ -170,11 +153,11 @@ describe('convertGitbook', () => {
         '{% endstepper %}',
       ]),
       [
-        '<div class="steps">',
+        '<ol class="steps">',
         '',
-        '<div class="step">',
+        '<li class="step">',
         '',
-        '### Step 1: Name it',
+        '### Name it',
         '',
         '<aside class="hint hint-info">',
         '',
@@ -182,16 +165,25 @@ describe('convertGitbook', () => {
         '',
         '</aside>',
         '',
-        '</div>',
+        '</li>',
         '',
-        '</div>',
+        '</ol>',
       ].join('\n'),
     )
   })
 
   it('should put a blank line between a step tag and a heading that follows it directly', () => {
-    const output = convert(['{% stepper %}', '{% step %}', 'Done.', '{% endstep %}', '{% step %}', '### Enable', '{% endstep %}', '{% endstepper %}'])
-    assert.match(output, /<div class="step">\n\n### Step 2: Enable\n\n<\/div>/)
+    const output = convert([
+      '{% stepper %}',
+      '{% step %}',
+      'Done.',
+      '{% endstep %}',
+      '{% step %}',
+      '### Enable the integration in eMarketeer',
+      '{% endstep %}',
+      '{% endstepper %}',
+    ])
+    assert.match(output, /<li class="step">\n\n### Enable the integration in eMarketeer\n\n<\/li>/)
   })
 
   it('should put a blank line between a closing tag and text that follows it directly', () => {
@@ -221,7 +213,7 @@ describe('convertGitbook', () => {
         '{% endupdate %}',
         '{% endupdates %}',
       ]),
-      ['### 2026-11-16', '', 'November.', '', '### 2026-01-26', '', 'January.'].join('\n'),
+      ['<p class="update-date"><time datetime="2026-11-16">2026-11-16</time></p>', '', 'November.', '', '<p class="update-date"><time datetime="2026-01-26">2026-01-26</time></p>', '', 'January.'].join('\n'),
     )
   })
 

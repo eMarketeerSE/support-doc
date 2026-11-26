@@ -9,7 +9,6 @@ const TAG = /^\{%\s*([\w-]+)(.*?)\s*%\}$/
 const ATTRIBUTE = /([\w-]+)="([^"]*)"/g
 const ANY_TAG = /\{%\s*([\w-]+)/
 const FENCE = /^\s*(`{3,}|~{3,})/
-const HEADING = /^(#{1,6})\s+(.*)$/
 const ASK_BUTTON = /<button\b[^>]*\bdata-action="ask"[^>]*>.*?<\/button>/g
 const YOUTUBE = /(?:youtube\.com\/watch\?(?:[^#]*&)?v=|youtu\.be\/)([\w-]+)/
 const CHILD_TAGS = ['step', 'tab', 'update']
@@ -52,7 +51,7 @@ const convertChildren = (lines: string[], start: number, file: string, parent: T
       return { children, end: index }
     }
     if (tag?.name === childName) {
-      const block = convertBlock(lines, index + 1, file, tag, parent.name === 'stepper' ? children.length + 1 : null)
+      const block = convertBlock(lines, index + 1, file, tag)
       children.push({ tag, lines: block.lines })
       index = block.end + 1
     } else if (tag) {
@@ -69,25 +68,25 @@ const convertChildren = (lines: string[], start: number, file: string, parent: T
 const convertTag = (lines: string[], index: number, file: string, tag: Tag): Block => {
   switch (tag.name) {
     case 'content-ref': {
-      const block = convertBlock(lines, index + 1, file, tag, null)
+      const block = convertBlock(lines, index + 1, file, tag)
       return { lines: [`<a class="card" href="${tag.attributes.url}"></a>`], end: block.end }
     }
     case 'hint': {
-      const block = convertBlock(lines, index + 1, file, tag, null)
+      const block = convertBlock(lines, index + 1, file, tag)
       return { lines: wrap(`<aside class="hint hint-${tag.attributes.style}">`, block.lines, '</aside>'), end: block.end }
     }
     case 'columns': {
-      const block = convertBlock(lines, index + 1, file, tag, null)
+      const block = convertBlock(lines, index + 1, file, tag)
       return { lines: wrap('<div class="columns">', block.lines, '</div>'), end: block.end }
     }
     case 'column': {
-      const block = convertBlock(lines, index + 1, file, tag, null)
+      const block = convertBlock(lines, index + 1, file, tag)
       return { lines: wrap('<div>', block.lines, '</div>'), end: block.end }
     }
     case 'stepper': {
       const { children, end } = convertChildren(lines, index + 1, file, tag, 'step')
-      const steps = flatMap(children, (child) => ['', ...wrap('<div class="step">', child.lines, '</div>')])
-      return { lines: wrap('<div class="steps">', steps, '</div>'), end }
+      const steps = flatMap(children, (child) => ['', ...wrap('<li class="step">', child.lines, '</li>')])
+      return { lines: wrap('<ol class="steps">', steps, '</ol>'), end }
     }
     case 'tabs': {
       const { children, end } = convertChildren(lines, index + 1, file, tag, 'tab')
@@ -97,7 +96,12 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
     case 'updates': {
       const { children, end } = convertChildren(lines, index + 1, file, tag, 'update')
       const newestFirst = orderBy(children, (child) => child.tag.attributes.date, 'desc')
-      const updates = flatMap(newestFirst, (child) => ['', `### ${child.tag.attributes.date}`, '', ...trimBlank(child.lines)])
+      const updates = flatMap(newestFirst, (child) => [
+        '',
+        `<p class="update-date"><time datetime="${child.tag.attributes.date}">${child.tag.attributes.date}</time></p>`,
+        '',
+        ...trimBlank(child.lines),
+      ])
       return { lines: trimBlank(updates), end }
     }
     case 'embed': {
@@ -117,10 +121,9 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
   }
 }
 
-const convertBlock = (lines: string[], start: number, file: string, open: Tag | null, stepNumber: number | null): Block => {
+const convertBlock = (lines: string[], start: number, file: string, open: Tag | null): Block => {
   const output: string[] = []
   let fence: string | null = null
-  let headingNumbered = stepNumber === null
   let afterTag = false
   let index = start
   while (index < lines.length) {
@@ -144,12 +147,10 @@ const convertBlock = (lines: string[], start: number, file: string, open: Tag | 
       throw tagError(file, index + 1, 'unknown', stray[1])
     }
     const text = fence === null ? line.replace(ASK_BUTTON, '') : line
-    const heading = !headingNumbered && fence === null ? HEADING.exec(text) : null
     if (afterTag && text.trim() !== '') {
       output.push('')
     }
-    output.push(heading ? `${heading[1]} Step ${stepNumber}: ${heading[2]}` : text)
-    headingNumbered = headingNumbered || heading !== null
+    output.push(text)
     afterTag = false
     fence = nextFence(line, fence)
     index += 1
@@ -161,4 +162,4 @@ const convertBlock = (lines: string[], start: number, file: string, open: Tag | 
 }
 
 export const convertGitbook = (markdown: string, file: string): string =>
-  convertBlock(markdown.split('\n'), 0, file, null, null).lines.join('\n')
+  convertBlock(markdown.split('\n'), 0, file, null).lines.join('\n')
