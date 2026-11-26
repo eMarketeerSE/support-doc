@@ -7,6 +7,7 @@ import { filter, map } from 'lodash-es'
 import { CSP, Expect, judgeResponse, listImagePaths, listSiteChecks, MISSING_PATH, type SiteResponse } from './check-site.ts'
 
 const SITE_HTML = '<html data-site="support-doc"><p>page</p></html>'
+const NOT_FOUND_HTML = '<html data-site="support-doc"><title>Page not found - eMarketeer Support</title></html>'
 const REDIRECT_HTML =
   '<!doctype html><title>Redirecting to: /new</title><meta http-equiv="refresh" content="0;url=/new">'
 
@@ -100,15 +101,25 @@ describe('judgeResponse', () => {
     assert.match(problem ?? '', /status 404, expected 200/)
   })
 
-  it('should pass a 404 page with the site marker', () => {
-    assert.equal(judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({ status: 404 })), null)
+  it('should pass the 404 page answered with status 404', () => {
+    assert.equal(judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({ status: 404, body: NOT_FOUND_HTML })), null)
+  })
+
+  it('should fail an ordinary page answered with status 404', () => {
+    const problem = judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({ status: 404 }))
+    assert.match(problem ?? '', /not the 404 page/)
+  })
+
+  it('should fail a slash redirect to another host with the same path', () => {
+    const problem = judgeResponse({ path: '/a/', expect: Expect.SlashRedirect }, respond({ status: 301, location: 'https://attacker.example/a' }))
+    assert.match(problem ?? '', /location is https:\/\/attacker\.example\/a, expected \/a$/)
   })
 
   it('should fail a 404 check that answers 200 or lacks the marker', () => {
     const found = judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({}))
     assert.match(found ?? '', /status 200, expected 404/)
     const unmarked = judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({ status: 404, body: 'x' }))
-    assert.match(unmarked ?? '', /data-site/)
+    assert.match(unmarked ?? '', /not the 404 page/)
   })
 
   it('should pass the exact CSP without x-frame-options', () => {

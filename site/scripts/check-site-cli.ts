@@ -15,15 +15,17 @@ const listHtmlFiles = (dir: string): string[] =>
   )
 
 const fetchResponse = async (baseUrl: string, check: SiteCheck): Promise<SiteResponse> => {
-  const response = await fetch(new URL(check.path, baseUrl), {
+  const requestUrl = new URL(check.path, baseUrl)
+  const response = await fetch(requestUrl, {
     method: check.expect === Expect.File ? 'HEAD' : 'GET',
     redirect: 'manual',
     signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
   })
   const location = response.headers.get('location')
+  const target = location === null ? null : new URL(location, requestUrl)
   return {
     status: response.status,
-    location: location === null ? null : new URL(location, baseUrl).pathname,
+    location: target === null ? null : target.origin === requestUrl.origin ? `${target.pathname}${target.search}` : target.href,
     body: await response.text(),
     headers: Object.fromEntries(response.headers.entries()),
   }

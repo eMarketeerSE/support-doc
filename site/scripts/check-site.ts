@@ -18,6 +18,7 @@ export const MISSING_PATH = '/docs/docs_se/check-site-missing-page'
 export const CSP = "script-src 'self' 'wasm-unsafe-eval'; worker-src 'self' blob:; object-src 'none'; base-uri 'self'"
 
 const SITE_MARKER = 'data-site="support-doc"'
+const NOT_FOUND_TITLE = '<title>Page not found'
 const IMAGE_SRC = /<img\b[^>]*?\ssrc="(\/(?!\/)[^"]*)"/g
 
 export const listImagePaths = (htmlFiles: string[]): string[] =>
@@ -68,7 +69,7 @@ export const judgeResponse = (check: SiteCheck, response: SiteResponse): string 
     if (response.status !== 404) {
       return `${check.path} (${check.expect}): status ${response.status}, expected 404`
     }
-    return hasMarker ? null : `${check.path} (${check.expect}): body has no ${SITE_MARKER}`
+    return response.body.includes(NOT_FOUND_TITLE) ? null : `${check.path} (${check.expect}): body is not the 404 page (no ${NOT_FOUND_TITLE})`
   }
   if (check.expect === Expect.Headers) {
     if (response.headers['content-security-policy'] !== CSP) {
