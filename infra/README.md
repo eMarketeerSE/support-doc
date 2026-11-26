@@ -23,6 +23,8 @@ Run these in `infra/`.
 
 Deploy `support-doc-prod-monitoring` at the DNS cutover. Add `--context alertUrl=<incident.io URL>` to the command.
 
+Repeat `--context alertUrl` on every later deploy of this stack. Without it, CDK removes the incident.io subscription, and the alarm pages nobody.
+
 Never commit the alert URL.
 
 ## GitHub environment variables
@@ -34,7 +36,8 @@ The stack outputs feed the variables of the GitHub environment for each stage:
 | `AWS_ROLE_ARN` | `DeployRoleArn` output |
 | `S3_BUCKET` | `BucketName` output |
 | `CLOUDFRONT_DISTRIBUTION_ID` | `DistributionId` output |
+| `SITE_URL` | `https://` + the distribution's `cloudfront.net` domain on prod until the cutover, else the `SiteUrl` output |
 
-Until the cutover, `SITE_URL` for prod is the `cloudfront.net` host of the distribution. Do not use the `SiteUrl` output.
+On prod, do not use the `SiteUrl` output for `SITE_URL` before the cutover. GitBook still serves that domain.
 
 For the deploy workflow, see [site/README.md](../site/README.md).
