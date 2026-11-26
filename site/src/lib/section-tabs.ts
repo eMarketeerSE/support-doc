@@ -1,6 +1,8 @@
 import { Space, SPACE_PREFIX } from './summary'
 
-export const getSectionTabs = (space: Space, pageUrl: string) => {
+type SectionTab = { label: string; href: string; current: 'page' | 'true' | null }
+
+export const getSectionTabs = (space: Space, pageUrl: string): SectionTab[] => {
   const docsSpace = space === Space.Swedish ? Space.Swedish : Space.English
   const isStartPage = pageUrl === SPACE_PREFIX[space]
 
@@ -20,5 +22,5 @@ export const getSectionTabs = (space: Space, pageUrl: string) => {
       href: SPACE_PREFIX[Space.Legal],
       current: space === Space.Legal ? (isStartPage ? 'page' : 'true') : null,
     },
-  ] as const
+  ]
 }
