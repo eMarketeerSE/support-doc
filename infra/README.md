@@ -16,14 +16,30 @@ CDK does not manage DNS for prod.
 Run these in `infra/`.
 
 - `yarn test` runs the unit tests.
-- `npx cdk diff --context stage=<stage> --profile <stage>-admin` shows the changes.
-- `npx cdk deploy <stack> --context stage=<stage> --profile <stage>-admin --require-approval never` deploys one stack.
+- `yarn cdk diff --context stage=<stage> --profile <stage>-admin` shows the changes.
+- `yarn cdk deploy <stack> --context stage=<stage> --profile <stage>-admin --require-approval never` deploys one stack.
 
 ## Monitoring stack
 
-Deploy `support-doc-prod-monitoring` at the DNS cutover. Add `--context alertUrl=<incident.io URL>` to the command.
+The stack `support-doc-prod-monitoring` exists only when you pass `--context alertUrl=<incident.io URL>`. A command without it cannot change the stack.
 
-Repeat `--context alertUrl` on every later deploy of this stack. Without it, CDK removes the incident.io subscription, and the alarm pages nobody.
+Deploy it at the DNS cutover:
+
+```
+yarn cdk deploy support-doc-prod-monitoring --context stage=prod --context alertUrl=<incident.io URL> --profile prod-admin --require-approval never
+```
+
+After the first deploy, check that the subscription is confirmed:
+
+```
+aws sns list-subscriptions-by-topic --topic-arn <arn> --region us-east-1 --profile prod-admin
+```
+
+The output must show a `SubscriptionArn`, not `PendingConfirmation`. Then test the page:
+
+```
+aws cloudwatch set-alarm-state --alarm-name support-doc-prod-crit-site-down --state-value ALARM --state-reason test --region us-east-1 --profile prod-admin
+```
 
 Never commit the alert URL.
 
@@ -36,8 +52,7 @@ The stack outputs feed the variables of the GitHub environment for each stage:
 | `AWS_ROLE_ARN` | `DeployRoleArn` output |
 | `S3_BUCKET` | `BucketName` output |
 | `CLOUDFRONT_DISTRIBUTION_ID` | `DistributionId` output |
-| `SITE_URL` | `https://` + the distribution's `cloudfront.net` domain on prod until the cutover, else the `SiteUrl` output |
-
-On prod, do not use the `SiteUrl` output for `SITE_URL` before the cutover. GitBook still serves that domain.
+| `SITE_URL` | On dev, the `SiteUrl` output. On prod until the cutover, `https://` + the `cloudfront.net` domain, because GitBook still serves `SiteUrl`. Get the domain from the CloudFront console or `aws cloudfront get-distribution --id <DistributionId> --query Distribution.DomainName`. The stack has no output for it. |
+| `SUPPORT_SITE_SLACK_WEBHOOK` (secret) | The #support-site webhook. Set it per environment. |
 
 For the deploy workflow, see [site/README.md](../site/README.md).

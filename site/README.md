@@ -12,13 +12,17 @@ An Astro static site. It builds the eMarketeer support docs from the Markdown fi
 
 Pages and endpoints read page data from the content collection (`getCollection('pages')`). They never call `readAllPages()` or read the disk: inside Astro's prerender bundle the repo root resolves one level off.
 
-## Dev site
+## Deploy
 
 `.github/workflows/deploy.yml` has one job, `deploy`, with one run per stage:
 
 - A pull request from this repo deploys dev only.
-- A push to `main` deploys dev and prod in parallel. A manual run deploys dev only.
-- Prod uses the GitHub `prod` environment, which only `main` can use. Until the DNS cutover, the deploy checks prod on its `cloudfront.net` host.
+- A manual run deploys dev only.
+- A push to `main` deploys dev and prod in parallel.
+- Prod uses the GitHub `prod` environment, which only `main` can use.
+- Until the DNS cutover, the deploy checks prod on its `cloudfront.net` host.
 - A failure in one stage does not cancel the other.
+- A failed or cancelled stage of a push run posts to #support-site and names the stage.
+- A manual run posts to #support-site only when `notify` is set.
 
-Dev is https://support.dev-emarketeer.io. The dev runs share one queue, and GitHub keeps only one waiting run: a newer run cancels the waiting one. So dev shows the last run that finished, which can be a pull request, not `main`. A waiting `main` run that is cancelled posts nothing; the next push to `main` deploys it again. A failed or cancelled stage of a `main` run that has started posts to #support-site and names the stage.
+Dev is https://support.dev-emarketeer.io. The dev runs share one queue, and GitHub keeps only one waiting run: a newer run cancels the waiting one. So dev shows the last run that finished, which can be a pull request, not `main`. A waiting `main` run that is cancelled posts nothing; the next push to `main` deploys it again.
