@@ -5,7 +5,7 @@ type Tag = { name: string; attributes: Record<string, string>; line: number }
 type Block = { lines: string[]; end: number }
 type Child = { tag: Tag; lines: string[] }
 
-const TAG = /^\{%\s*([\w-]+)(.*?)\s*%\}$/
+const TAG = /^\{%\s*([\w-]+)((?:(?!%\}).)*?)\s*%\}$/
 const ATTRIBUTE = /([\w-]+)="([^"]*)"/g
 const ANY_TAG = /\{%\s*([\w-]+)/
 const FENCE = /^\s*(`{3,}(?!.*`)|~{3,})/

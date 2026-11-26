@@ -512,4 +512,15 @@ describe('convertGitbook', () => {
       /guides\/x\.md line 2: text before or after GitBook tag \{% hint %\} is not allowed/,
     )
   })
+
+  it('should not let a tag reach past its own closing delimiter', () => {
+    assert.throws(
+      () => convert(['{% file src="one.tpl" %} Text that must not disappear {% unknown %}']),
+      /guides\/x\.md line 1: text before or after GitBook tag \{% file %\} is not allowed/,
+    )
+  })
+
+  it('should keep a percent sign inside an attribute value', () => {
+    assert.equal(convert(['{% file src="a%20b.tpl" %}']), '<a class="file" href="a%20b.tpl" download>a%20b.tpl</a>')
+  })
 })
