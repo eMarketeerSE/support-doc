@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
-import { filter, startsWith } from 'lodash-es'
+import { filter, join, size, split, startsWith } from 'lodash-es'
 import { EMMA_ARTICLE_LINE, mdPath, renderLlmsTxt } from './llms'
 import { Space, type SitePage } from './summary'
 
@@ -40,7 +40,7 @@ describe('renderLlmsTxt', () => {
   it('should list English, changelog and legal pages and skip Swedish', () => {
     assert.equal(
       output,
-      [
+      join([
         '# eMarketeer Support',
         '',
         '## Support docs',
@@ -56,15 +56,20 @@ describe('renderLlmsTxt', () => {
         '',
         '- [Legal](https://support.emarketeer.com/legal/legal.md): Terms.',
         '',
-      ].join('\n'),
+      ], '\n'),
     )
   })
 
   it('should write every list line in the format eMMa reads', () => {
-    const lines = filter(output.split('\n'), (line) => startsWith(line, '- ['))
-    assert.equal(lines.length, 4)
+    const lines = filter(split(output, '\n'), (line) => startsWith(line, '- ['))
+    assert.equal(size(lines), 4)
     for (const line of lines) {
       assert.match(line, EMMA_ARTICLE_LINE)
     }
+  })
+
+  it('should throw with the page file when a description has a line break', () => {
+    const broken: SitePage = { url: '/guides/broken', file: 'guides/broken.md', title: 'Broken', description: 'One\ntwo', space: Space.English }
+    assert.throws(() => renderLlmsTxt([broken]), /^Error: guides\/broken\.md: description has a line break$/)
   })
 })
