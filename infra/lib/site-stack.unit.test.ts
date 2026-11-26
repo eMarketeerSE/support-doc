@@ -105,4 +105,12 @@ describe('SiteStack', () => {
     assert.strictEqual(certificates[0].Properties.SubjectAlternativeNames, undefined)
     assert.strictEqual(certificates[0].Properties.ValidationMethod, 'DNS')
   })
+
+  it('should shadow the dev wildcard record with a TXT record at the exact domain', () => {
+    const records = Object.values(certificate.findResources('AWS::Route53::RecordSet'))
+    assert.strictEqual(records.length, 1)
+    assert.strictEqual(records[0].Properties.Type, 'TXT')
+    assert.strictEqual(records[0].Properties.Name, 'support.dev-emarketeer.io.')
+    assert.strictEqual(records[0].Properties.HostedZoneId, 'Z10I9YQ2H3JPDH')
+  })
 })

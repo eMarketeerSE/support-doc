@@ -1,6 +1,6 @@
 import { Stack, StackProps } from 'aws-cdk-lib'
 import { Certificate, CertificateValidation, ICertificate } from 'aws-cdk-lib/aws-certificatemanager'
-import { HostedZone } from 'aws-cdk-lib/aws-route53'
+import { HostedZone, TxtRecord } from 'aws-cdk-lib/aws-route53'
 import { Construct } from 'constructs'
 
 export interface HostedZoneProps {
@@ -20,6 +20,7 @@ export class CertificateStack extends Stack {
     super(scope, id, props)
 
     const zone = HostedZone.fromHostedZoneAttributes(this, 'Zone', props.zone)
+    new TxtRecord(this, 'WildcardShadow', { zone, recordName: props.domain, values: ['support-doc'] })
     this.certificate = new Certificate(this, 'Certificate', {
       domainName: props.domain,
       validation: CertificateValidation.fromDns(zone),
