@@ -1,4 +1,5 @@
 import assert from 'node:assert'
+import { readFileSync } from 'node:fs'
 import { find, flatMap, map, sortBy } from 'lodash-es'
 import { before, describe, it } from 'node:test'
 import { App } from 'aws-cdk-lib'
@@ -41,6 +42,7 @@ describe('SiteStack', () => {
 
   it('should not create a GitHub OIDC provider', () => {
     site.resourceCountIs('Custom::AWSCDKOpenIdConnectProvider', 0)
+    site.resourceCountIs('AWS::IAM::OIDCProvider', 0)
   })
 
   it('should serve /404.html with status 404 for a 403 and a 404', () => {
@@ -59,7 +61,8 @@ describe('SiteStack', () => {
     assert.strictEqual(associations[0].EventType, 'viewer-request')
     const functions = Object.values(site.findResources('AWS::CloudFront::Function'))
     assert.strictEqual(functions.length, 1)
-    assert.match(functions[0].Properties.FunctionCode, /function handler\(event\)/)
+    const source = readFileSync(new URL('../cloudfront/viewer-request.js', import.meta.url), 'utf8')
+    assert.strictEqual(functions[0].Properties.FunctionCode, source)
   })
 
   it('should give the deploy role only list, put, delete and invalidation', () => {
