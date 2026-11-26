@@ -1,24 +1,25 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { flatMap, includes, keys, startsWith, toPairs, union } from 'lodash-es'
+import { flatMap, includes, keys, split, startsWith, toPairs, union } from 'lodash-es'
+import { EMMA_ARTICLE_LINE } from '../src/lib/llms.ts'
 
-const EMMA_LINE = /^- \[(.+?)\]\(https?:\/\/[^/)]+(\/[^)]*?)\.md\)(?::\s*(.*))?$/
 const EMMA_SECTIONS = ['## Support docs', '## Changelog', '## Legal']
 
 export const isRedirectPage = (html: string): boolean =>
   html.includes('<title>Redirecting to:') && html.includes('<meta http-equiv="refresh"')
 
-export const checkLlmsTxt = (text: string): string[] => {
-  let section = ''
-  return flatMap(text.split('\n'), (line) => {
-    if (startsWith(line, '#')) {
-      section = line
+export const checkLlmsTxt = (text: string): string[] =>
+  flatMap(split(text, /^(?=## )/m), (block) => {
+    const [heading, ...lines] = split(block, '\n')
+    if (!includes(EMMA_SECTIONS, heading)) {
       return []
     }
-    const isListLine = includes(EMMA_SECTIONS, section) && startsWith(line, '- [')
-    return isListLine && !EMMA_LINE.test(line) ? [`dist/llms.txt line is not in eMMa's format: ${line}`] : []
+    return flatMap(lines, (line) =>
+      startsWith(line, '- [') && !EMMA_ARTICLE_LINE.test(line)
+        ? [`dist/llms.txt line is not in eMMa's format: ${line}`]
+        : [],
+    )
   })
-}
 
 export const checkBuild = (dist: string, snapshot: string[], redirects: Record<string, string>): string[] => {
   const missingFiles = flatMap(['sitemap.xml', 'robots.txt', 'llms.txt'], (name) =>
@@ -46,6 +47,8 @@ export const checkBuild = (dist: string, snapshot: string[], redirects: Record<s
     const isPage = existsSync(file) && !isRedirectPage(readFileSync(file, 'utf8'))
     return isPage ? [] : [`${source} redirects to ${target}, which is not a page`]
   })
-  const llmsProblems = existsSync(join(dist, 'llms.txt')) ? checkLlmsTxt(readFileSync(join(dist, 'llms.txt'), 'utf8')) : []
+  const llmsProblems = existsSync(join(dist, 'llms.txt'))
+    ? checkLlmsTxt(readFileSync(join(dist, 'llms.txt'), 'utf8'))
+    : []
   return [...missingFiles, ...llmsProblems, ...urlProblems, ...targetProblems]
 }

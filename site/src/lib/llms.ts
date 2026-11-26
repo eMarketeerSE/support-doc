@@ -3,6 +3,8 @@ import { filter, map } from 'lodash-es'
 import { SITE_URL } from './site-files'
 import { SPACE_PREFIX, Space, type SitePage } from './summary'
 
+export const EMMA_ARTICLE_LINE = /^- \[(.+?)\]\(https?:\/\/[^/)]+(\/[^)]*?)\.md\)(?::\s*(.*))?$/
+
 export const mdPath = (page: SitePage): string => {
   if (page.url === SPACE_PREFIX[page.space]) {
     const stem = path.posix.basename(page.file, '.md').toLowerCase()
@@ -12,17 +14,24 @@ export const mdPath = (page: SitePage): string => {
 }
 
 export const renderLlmsTxt = (pages: SitePage[]): string => {
-  const sections = [
-    { heading: 'Support docs', space: Space.English },
-    { heading: 'Changelog', space: Space.Changelog },
-    { heading: 'Legal', space: Space.Legal },
-  ]
-  const blocks = map(sections, ({ heading, space }) => {
-    const lines = map(
-      filter(pages, { space }),
-      (page) => `- [${page.title}](${SITE_URL}${mdPath(page)})${page.description === '' ? '' : `: ${page.description}`}`,
-    )
-    return [`## ${heading}`, '', ...lines].join('\n')
-  })
-  return ['# eMarketeer Support', ...blocks].join('\n\n') + '\n'
+  const supportLines = map(
+    filter(pages, { space: Space.English }),
+    (page) => `- [${page.title}](${SITE_URL}${mdPath(page)})${page.description === '' ? '' : `: ${page.description}`}`,
+  )
+  const changelogLines = map(
+    filter(pages, { space: Space.Changelog }),
+    (page) => `- [${page.title}](${SITE_URL}${mdPath(page)})${page.description === '' ? '' : `: ${page.description}`}`,
+  )
+  const legalLines = map(
+    filter(pages, { space: Space.Legal }),
+    (page) => `- [${page.title}](${SITE_URL}${mdPath(page)})${page.description === '' ? '' : `: ${page.description}`}`,
+  )
+  return (
+    [
+      '# eMarketeer Support',
+      ['## Support docs', '', ...supportLines].join('\n'),
+      ['## Changelog', '', ...changelogLines].join('\n'),
+      ['## Legal', '', ...legalLines].join('\n'),
+    ].join('\n\n') + '\n'
+  )
 }

@@ -1,10 +1,8 @@
 import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
 import { filter, startsWith } from 'lodash-es'
-import { mdPath, renderLlmsTxt } from './llms'
+import { EMMA_ARTICLE_LINE, mdPath, renderLlmsTxt } from './llms'
 import { Space, type SitePage } from './summary'
-
-const EMMA_LINE = /^- \[(.+?)\]\(https?:\/\/[^/)]+(\/[^)]*?)\.md\)(?::\s*(.*))?$/
 
 const pages: SitePage[] = [
   { url: '/', file: 'overview.md', title: 'Welcome', description: 'The home page.', space: Space.English },
@@ -66,7 +64,7 @@ describe('renderLlmsTxt', () => {
     const lines = filter(output.split('\n'), (line) => startsWith(line, '- ['))
     assert.equal(lines.length, 4)
     for (const line of lines) {
-      assert.match(line, EMMA_LINE)
+      assert.match(line, EMMA_ARTICLE_LINE)
     }
   })
 })

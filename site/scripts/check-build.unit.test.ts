@@ -85,7 +85,11 @@ describe('checkBuild', () => {
     const dist = join(root, `dist-${distCount++}`)
     mkdirSync(dist)
     const problems = checkBuild(dist, [], {})
-    assert.deepStrictEqual(problems, ['dist/sitemap.xml is missing', 'dist/robots.txt is missing', 'dist/llms.txt is missing'])
+    assert.deepStrictEqual(problems, [
+      'dist/sitemap.xml is missing',
+      'dist/robots.txt is missing',
+      'dist/llms.txt is missing',
+    ])
   })
 
   it('should report a redirect whose target is not a page', () => {
@@ -133,10 +137,18 @@ describe('checkBuild', () => {
     writeFile(
       dist,
       'llms.txt',
-      '# eMarketeer Support\n\n## Changelog\n\n- [Bad](https://support.emarketeer.com/changelog/page): No md\n- [Good](https://support.emarketeer.com/changelog/ok.md)\n',
+      [
+        '# eMarketeer Support',
+        '',
+        '## Changelog',
+        '',
+        '- [Bad](https://support.emarketeer.com/changelog/page): No md',
+        '- [Good](https://support.emarketeer.com/changelog/ok.md)',
+        '',
+      ].join('\n'),
     )
     assert.deepEqual(checkBuild(dist, [], {}), [
-      'dist/llms.txt line is not in eMMa\'s format: - [Bad](https://support.emarketeer.com/changelog/page): No md',
+      "dist/llms.txt line is not in eMMa's format: - [Bad](https://support.emarketeer.com/changelog/page): No md",
     ])
   })
 
