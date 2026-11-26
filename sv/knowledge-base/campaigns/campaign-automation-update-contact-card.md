@@ -18,6 +18,6 @@ Automatiseringen Update contact card är en [kampanjautomatisering](campaign-aut
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).
 
 **Relaterat Journey-steg:** [Update Contact Card](../../documentation/journeys/journey-step-update-contact-card.md)

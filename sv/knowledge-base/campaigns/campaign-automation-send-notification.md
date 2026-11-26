@@ -28,7 +28,7 @@ Aviseringen meddelar att utlösaren inträffade och vem som utlöste den. En avi
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).
 
 **Relaterat Journey-steg:** [Notify stakeholder](../../documentation/journeys/journey-step-notify-stakeholder.md), som liknar den men bara skickar e-post.
 

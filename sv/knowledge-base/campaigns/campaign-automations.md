@@ -21,7 +21,7 @@ Använd dem för enkla, direkta uppföljningar av ett utskick eller ett formulä
 2. Klicka på **New automation**.
 3. Välj den åtgärd som ska utföras.
 4. Fyll i inställningarna för åtgärden. Varje automatiserings inställningar beskrivs i en egen artikel nedan.
-5. Välj utlösaren under **When this happens**. Se [Välj utlösare](#välj-utlösare).
+5. Välj utlösaren under **When this happens**. Se [Välj utlösare](#valj-utlosare).
 
 <div data-with-frame="true" align="left"><img src="../../.gitbook/assets/campaign-automations-new-automation-panel.png" alt="Panelen New automation med de tillgängliga automatiseringarna, från Send email till Send notification"></div>
 

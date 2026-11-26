@@ -93,7 +93,7 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
       - id: notify
-        if: (failure() || cancelled()) && (github.ref == 'refs/heads/main' || inputs.notify)
+        if: (failure() || cancelled()) && (github.event_name == 'push' || inputs.notify)
         working-directory: .
         run: |
           failed_step="$(jq -r 'to_entries | map(select(.value.outcome == "failure")) | first | .key // "unknown (see run)"' <<< "$STEPS")"

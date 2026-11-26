@@ -20,6 +20,6 @@ E-postmeddelandet måste redan finnas. Du kan inte skapa ett e-postmeddelande fr
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).
 
 **Relaterat Journey-steg:** [Send Email](../../documentation/journeys/journey-step-send-email.md)

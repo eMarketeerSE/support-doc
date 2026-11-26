@@ -52,7 +52,7 @@ Nej. Det finns inget filter för kontakter med en [ogiltig e-postadress](glossar
 
 Nej. Företag är inte egna poster i eMarketeer, så du kan inte skapa dem eller söka efter dem. eMarketeer bygger i stället en företagsprofil automatiskt utifrån domänen i kontaktens e-postadress, som en del av berikningen av kontakten.
 
-Om du vill se en kontakts företagsprofil öppnar du kontaktkortet, går till fliken **Overview** och klickar på **View company**. Se [Företagskortet](knowledge-base/lead-board-scoring/the-lead-board.md#företagskortet).
+Om du vill se en kontakts företagsprofil öppnar du kontaktkortet, går till fliken **Overview** och klickar på **View company**. Se [Företagskortet](knowledge-base/lead-board-scoring/the-lead-board.md#foretagskortet).
 
 </details>
 
@@ -82,7 +82,7 @@ Ett exempel: en kontakt fyller i ditt engelska formulär och matchar en leadstr�
 
 <summary>Kan jag testa en Journey?</summary>
 
-Nej. Journey-byggaren har inget testläge. Om du vill prova en Journey på en enskild kontakt slår du på **Make Journey available on Contact Card** i [Journey-inställningarna](documentation/journeys/creating-your-first-journey.md#gör-journey-tillgänglig-på-kontaktkortet). Då kan du starta din Journey för en kontakt från kontaktkortet, utan att kontakten behöver matcha villkoren för startpunkten.
+Nej. Journey-byggaren har inget testläge. Om du vill prova en Journey på en enskild kontakt slår du på **Make Journey available on Contact Card** i [Journey-inställningarna](documentation/journeys/creating-your-first-journey.md#gor-journey-tillganglig-pa-kontaktkortet). Då kan du starta din Journey för en kontakt från kontaktkortet, utan att kontakten behöver matcha villkoren för startpunkten.
 
 Stegen körs på riktigt, så använd en testkontakt med din egen e-postadress.
 
@@ -102,7 +102,7 @@ Det går inte att ställa in direkt. Varje bildblock i e-postredigeraren visar e
 
 <summary>Kan jag bifoga en fil i ett e-postmeddelande?</summary>
 
-Nej. eMarketeer stöder inte bilagor i e-post. Ladda i stället upp filen under **Files** i eMarketeer och länka till den från e-postmeddelandet med alternativet **Link to file** i länkmenyn. Se [Lägg till en knapp med en länk](knowledge-base/getting-started/basics-creating-email.md#lägg-till-en-knapp-med-en-länk).
+Nej. eMarketeer stöder inte bilagor i e-post. Ladda i stället upp filen under **Files** i eMarketeer och länka till den från e-postmeddelandet med alternativet **Link to file** i länkmenyn. Se [Lägg till en knapp med en länk](knowledge-base/getting-started/basics-creating-email.md#lagg-till-en-knapp-med-en-lank).
 
 </details>
 
@@ -112,7 +112,7 @@ Nej. eMarketeer stöder inte bilagor i e-post. Ladda i stället upp filen under 
 
 Nej. eMarketeer stöder inte e-post med enbart ren text. Varje e-postmeddelande du skapar i eMarketeer skickas som ett multipart-meddelande, med både en HTML-version och en version i ren text.
 
-Om du vill ha ett e-postmeddelande som ser enkelt ut, som ett meddelande i ren text, väljer du mallen **Email - Plain** när du skapar e-postmeddelandet. Den har en enkel design, men det är fortfarande ett HTML-meddelande, inte ett riktigt meddelande i ren text. Se [Fyll i inställningar, välj en mall och skapa e-posten](knowledge-base/getting-started/basics-creating-email.md#fyll-i-inställningar-välj-en-mall-och-skapa-e-posten).
+Om du vill ha ett e-postmeddelande som ser enkelt ut, som ett meddelande i ren text, väljer du mallen **Email - Plain** när du skapar e-postmeddelandet. Den har en enkel design, men det är fortfarande ett HTML-meddelande, inte ett riktigt meddelande i ren text. Se [Fyll i inställningar, välj en mall och skapa e-posten](knowledge-base/getting-started/basics-creating-email.md#fyll-i-installningar-valj-en-mall-och-skapa-e-posten).
 
 </details>
 
@@ -122,7 +122,7 @@ Om du vill ha ett e-postmeddelande som ser enkelt ut, som ett meddelande i ren t
 
 Nej. eMarketeer kan inte spara eller ladda ner e-postmeddelanden. Öppna i stället e-postmeddelandets [Read on web](documentation/email-sms/read-on-web.md)-sida i webbläsaren och spara sidan som PDF:
 
-1. Skicka ett test av e-postmeddelandet till dig själv och klicka på dess read on web-länk. Om e-postmeddelandet inte har någon, lägg till den först. Se [Så här infogar du en read on web-länk](documentation/email-sms/read-on-web.md#så-här-infogar-du-en-read-on-web-länk).
+1. Skicka ett test av e-postmeddelandet till dig själv och klicka på dess read on web-länk. Om e-postmeddelandet inte har någon, lägg till den först. Se [Så här infogar du en read on web-länk](documentation/email-sms/read-on-web.md#sa-har-infogar-du-en-read-on-web-lank).
 2. Tryck på **Ctrl+P** (**Cmd+P** på Mac) för att skriva ut sidan.
 3. Välj **Spara som PDF** som skrivare och klicka sedan på **Spara**.
 

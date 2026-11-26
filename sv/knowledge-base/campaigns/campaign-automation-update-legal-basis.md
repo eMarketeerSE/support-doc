@@ -20,6 +20,6 @@ Båda inställningarna är som standard **Keep current value**, vilket lämnar d
 
 ## Utlösare
 
-Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#välj-utlösare).
+Välj den komponent och händelse som kör automatiseringen under **When this happens**. Se [Välj utlösare](campaign-automations.md#valj-utlosare).
 
 **Relaterat Journey-steg:** [Legal Basis](../../documentation/journeys/journey-step-legal-basis.md)

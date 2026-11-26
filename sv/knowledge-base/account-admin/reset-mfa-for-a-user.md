@@ -33,4 +33,4 @@ Nästa gång användaren loggar in konfigurerar den MFA igen med sin authenticat
 
 Bara en administratör på ditt konto kan återställa MFA. Om du har bytt telefon eller förlorat åtkomsten till din authenticator-app ber du en administratör på ditt konto att återställa din MFA.
 
-Om du sparade din återställningskod när du konfigurerade MFA kan du använda den för att logga in under tiden. Se [Nästa gång du loggar in](user-accounts.md#nästa-gång-du-loggar-in).
+Om du sparade din återställningskod när du konfigurerade MFA kan du använda den för att logga in under tiden. Se [Nästa gång du loggar in](user-accounts.md#nasta-gang-du-loggar-in).

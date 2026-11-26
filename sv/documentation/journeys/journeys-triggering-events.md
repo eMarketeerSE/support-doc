@@ -40,7 +40,7 @@ En Journey kan startas manuellt för en enskild kontakt från kontaktkortet, fö
 
 Till skillnad från andra utlösande händelser behöver kontakten inte matcha Journeyns startpunktsfilter. Den manuella utlösaren kringgår filtret helt, så Journey startar oavsett om kontakten annars skulle ha kvalificerat sig.
 
-Se [Gör Journey tillgänglig på kontaktkortet](creating-your-first-journey.md#gör-journey-tillgänglig-på-kontaktkortet) för hur du aktiverar det här.
+Se [Gör Journey tillgänglig på kontaktkortet](creating-your-first-journey.md#gor-journey-tillganglig-pa-kontaktkortet) för hur du aktiverar det här.
 
 ## Så fungerar utvärderingen
 
