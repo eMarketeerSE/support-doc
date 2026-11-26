@@ -62,7 +62,8 @@ describe('judgeResponse', () => {
   })
 
   it('should fail a page without the site marker', () => {
-    assert.notEqual(judgeResponse({ path: '/x', expect: Expect.Page }, respond({ body: '<html></html>' })), null)
+    const problem = judgeResponse({ path: '/x', expect: Expect.Page }, respond({ body: '<html></html>' }))
+    assert.match(problem ?? '', /data-site/)
   })
 
   it('should name the path and the status in a problem line', () => {
@@ -76,7 +77,8 @@ describe('judgeResponse', () => {
   })
 
   it('should fail a redirect source that serves a page', () => {
-    assert.notEqual(judgeResponse({ path: '/x', expect: Expect.RedirectPage }, respond({})), null)
+    const problem = judgeResponse({ path: '/x', expect: Expect.RedirectPage }, respond({}))
+    assert.match(problem ?? '', /not an Astro redirect page/)
   })
 
   it('should pass a slash redirect to the path without the slash', () => {
@@ -85,14 +87,17 @@ describe('judgeResponse', () => {
   })
 
   it('should fail a slash redirect that is a 200 or points elsewhere', () => {
-    assert.notEqual(judgeResponse({ path: '/a/', expect: Expect.SlashRedirect }, respond({})), null)
+    const ok = judgeResponse({ path: '/a/', expect: Expect.SlashRedirect }, respond({}))
+    assert.match(ok ?? '', /status 200, expected 301/)
     const elsewhere = respond({ status: 301, location: '/b' })
-    assert.notEqual(judgeResponse({ path: '/a/', expect: Expect.SlashRedirect }, elsewhere), null)
+    const moved = judgeResponse({ path: '/a/', expect: Expect.SlashRedirect }, elsewhere)
+    assert.match(moved ?? '', /location is \/b, expected \/a$/)
   })
 
   it('should pass a file with status 200 and fail one with 404', () => {
     assert.equal(judgeResponse({ path: '/a.png', expect: Expect.File }, respond({ body: '' })), null)
-    assert.notEqual(judgeResponse({ path: '/a.png', expect: Expect.File }, respond({ status: 404 })), null)
+    const problem = judgeResponse({ path: '/a.png', expect: Expect.File }, respond({ status: 404 }))
+    assert.match(problem ?? '', /status 404, expected 200/)
   })
 
   it('should pass a 404 page with the site marker', () => {
@@ -100,8 +105,10 @@ describe('judgeResponse', () => {
   })
 
   it('should fail a 404 check that answers 200 or lacks the marker', () => {
-    assert.notEqual(judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({})), null)
-    assert.notEqual(judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({ status: 404, body: 'x' })), null)
+    const found = judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({}))
+    assert.match(found ?? '', /status 200, expected 404/)
+    const unmarked = judgeResponse({ path: MISSING_PATH, expect: Expect.NotFound }, respond({ status: 404, body: 'x' }))
+    assert.match(unmarked ?? '', /data-site/)
   })
 
   it('should pass the exact CSP without x-frame-options', () => {
@@ -111,8 +118,8 @@ describe('judgeResponse', () => {
 
   it('should fail a wrong CSP or an x-frame-options header', () => {
     const wrong = respond({ headers: { 'content-security-policy': "default-src 'self'" } })
-    assert.notEqual(judgeResponse({ path: '/', expect: Expect.Headers }, wrong), null)
+    assert.match(judgeResponse({ path: '/', expect: Expect.Headers }, wrong) ?? '', /content-security-policy/)
     const framed = respond({ headers: { 'content-security-policy': CSP, 'x-frame-options': 'DENY' } })
-    assert.notEqual(judgeResponse({ path: '/', expect: Expect.Headers }, framed), null)
+    assert.match(judgeResponse({ path: '/', expect: Expect.Headers }, framed) ?? '', /x-frame-options/)
   })
 })
