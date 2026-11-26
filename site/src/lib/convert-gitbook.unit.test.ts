@@ -131,14 +131,6 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should keep step headings unchanged so their ids stay as in GitBook', () => {
-    const output = convert(['{% stepper %}', '{% step %}', '### First', '{% endstep %}', '{% step %}', '## Second', '{% endstep %}', '{% endstepper %}'])
-    assert.deepStrictEqual(
-      output.split('\n').filter((line) => line.startsWith('#')),
-      ['### First', '## Second'],
-    )
-  })
-
   it('should keep a hint inside a step inside the step', () => {
     assert.strictEqual(
       convert([
@@ -355,6 +347,169 @@ describe('convertGitbook', () => {
       '{% hint style="info" %}',
       '```',
     ])
+    assert.strictEqual(
+      once,
+      [
+        '# Every tag',
+        '',
+        '<div class="columns">',
+        '',
+        '<div>',
+        '',
+        '<a class="card" href="a.md"></a>',
+        '',
+        '</div>',
+        '',
+        '</div>',
+        '',
+        '<ol class="steps" role="list">',
+        '',
+        '<li class="step">',
+        '',
+        '### Do it',
+        '',
+        '<aside class="hint hint-info">',
+        '',
+        'Careful.',
+        '',
+        '</aside>',
+        '',
+        '</li>',
+        '',
+        '</ol>',
+        '',
+        '#### One',
+        '',
+        'Tab body.',
+        '',
+        '<p class="update-date"><time datetime="2026-01-01">2026-01-01</time></p>',
+        '',
+        'Body.',
+        '',
+        '<iframe class="video" src="https://www.youtube-nocookie.com/embed/abc" title="YouTube video" allowfullscreen loading="lazy"></iframe>',
+        '',
+        '<a class="card" href="https://example.com"></a>',
+        '',
+        '<a class="file" href="b.png" download>b.png</a>',
+        '',
+        '```',
+        '{% hint style="info" %}',
+        '```',
+      ].join('\n'),
+    )
     assert.strictEqual(convertGitbook(once, FILE), once)
+  })
+
+  it('should count lines from the top of the file, frontmatter included', () => {
+    assert.throws(
+      () => convert(['---', 'description: How to send.', 'layout: default', '---', '', '{% tabs-x %}']),
+      /guides\/x\.md line 6: unknown GitBook tag \{% tabs-x %\}/,
+    )
+  })
+
+  it('should keep the frontmatter unchanged', () => {
+    assert.strictEqual(
+      convert(['---', 'description: How to send.', '---', '{% hint style="info" %}', 'Hint.', '{% endhint %}']),
+      ['---', 'description: How to send.', '---', '', '<aside class="hint hint-info">', '', 'Hint.', '', '</aside>'].join('\n'),
+    )
+  })
+
+  it('should throw with the file and line for an empty required attribute', () => {
+    assert.throws(() => convert(['{% content-ref url="" %}', '{% endcontent-ref %}']), /guides\/x\.md line 1: missing url on GitBook tag \{% content-ref %\}/)
+    assert.throws(() => convert(['{% embed url="" %}']), /guides\/x\.md line 1: missing url on GitBook tag \{% embed %\}/)
+    assert.throws(() => convert(['{% file src="" %}']), /guides\/x\.md line 1: missing src on GitBook tag \{% file %\}/)
+    assert.throws(() => convert(['{% hint style="" %}', 'Text.', '{% endhint %}']), /guides\/x\.md line 1: missing style on GitBook tag \{% hint %\}/)
+    assert.throws(
+      () => convert(['{% tabs %}', '{% tab title="" %}', 'Body.', '{% endtab %}', '{% endtabs %}']),
+      /guides\/x\.md line 2: missing title on GitBook tag \{% tab %\}/,
+    )
+    assert.throws(
+      () => convert(['{% updates %}', '{% update date="" %}', 'Body.', '{% endupdate %}', '{% endupdates %}']),
+      /guides\/x\.md line 2: missing date on GitBook tag \{% update %\}/,
+    )
+  })
+
+  it('should throw with the file and line for an update date that is not YYYY-MM-DD', () => {
+    assert.throws(
+      () => convert(['{% updates %}', '{% update date="16 Nov 2026" %}', 'Body.', '{% endupdate %}', '{% endupdates %}']),
+      /guides\/x\.md line 2: date "16 Nov 2026" is not YYYY-MM-DD/,
+    )
+  })
+
+  it('should turn a content-ref to a folder with the folder name as text into a card', () => {
+    assert.strictEqual(
+      convert(['{% content-ref url="contacts-lists/" %}', 'contacts-lists', '{% endcontent-ref %}']),
+      '<a class="card" href="contacts-lists/"></a>',
+    )
+  })
+
+  it('should accept the link target as content-ref text in each form GitBook writes', () => {
+    assert.strictEqual(
+      convert([
+        '{% content-ref url="../forms/a.md" %}',
+        '../forms/a.md',
+        '{% endcontent-ref %}',
+        '{% content-ref url="b.md" %}',
+        '[b.md](b.md)',
+        '{% endcontent-ref %}',
+        '{% content-ref url="c.md" %}',
+        '{% endcontent-ref %}',
+      ]),
+      ['<a class="card" href="../forms/a.md"></a>', '', '<a class="card" href="b.md"></a>', '', '<a class="card" href="c.md"></a>'].join('\n'),
+    )
+  })
+
+  it('should throw with the file and line for content-ref text that is not the link target', () => {
+    assert.throws(
+      () => convert(['# Title', '{% content-ref url="create-new-campaign.md" %}', 'Read about campaigns', '{% endcontent-ref %}']),
+      /guides\/x\.md line 2: content-ref text "Read about campaigns" is not the link target/,
+    )
+  })
+
+  it('should turn an embed on a look-alike YouTube host into a link card', () => {
+    assert.strictEqual(convert(['{% embed url="https://notyoutube.com/watch?v=x" %}']), '<a class="card" href="https://notyoutube.com/watch?v=x"></a>')
+  })
+
+  it('should keep the start time of a YouTube embed', () => {
+    assert.strictEqual(
+      convert(['{% embed url="https://youtu.be/43qNPscck5E?t=30" %}', '{% embed url="https://m.youtube.com/watch?v=XN8TcivLJu4&start=45s" %}']),
+      [
+        '<iframe class="video" src="https://www.youtube-nocookie.com/embed/43qNPscck5E?start=30" title="YouTube video" allowfullscreen loading="lazy"></iframe>',
+        '',
+        '<iframe class="video" src="https://www.youtube-nocookie.com/embed/XN8TcivLJu4?start=45" title="YouTube video" allowfullscreen loading="lazy"></iframe>',
+      ].join('\n'),
+    )
+  })
+
+  it('should throw with the file and line for a YouTube embed without a video id', () => {
+    assert.throws(
+      () => convert(['# Title', '{% embed url="https://www.youtube.com/playlist?list=PL123" %}']),
+      /guides\/x\.md line 2: cannot read the YouTube video id from https:\/\/www\.youtube\.com\/playlist\?list=PL123/,
+    )
+  })
+
+  it('should throw with the file and line for a column outside columns', () => {
+    assert.throws(() => convert(['{% column %}', 'Left', '{% endcolumn %}']), /guides\/x\.md line 1: unexpected GitBook tag \{% column %\}/)
+  })
+
+  it('should throw with the file and line for text between columns', () => {
+    assert.throws(
+      () => convert(['{% columns %}', 'Loose text.', '{% column %}', 'Left', '{% endcolumn %}', '{% endcolumns %}']),
+      /guides\/x\.md line 2: unexpected content inside GitBook tag \{% columns %\}/,
+    )
+  })
+
+  it('should throw with the file and line for an empty container tag', () => {
+    assert.throws(() => convert(['# Title', '{% stepper %}', '', '{% endstepper %}']), /guides\/x\.md line 2: empty GitBook tag \{% stepper %\}/)
+    assert.throws(() => convert(['{% tabs %}', '{% endtabs %}']), /guides\/x\.md line 1: empty GitBook tag \{% tabs %\}/)
+    assert.throws(() => convert(['{% updates format="full" %}', '{% endupdates %}']), /guides\/x\.md line 1: empty GitBook tag \{% updates %\}/)
+    assert.throws(() => convert(['{% columns %}', '{% endcolumns %}']), /guides\/x\.md line 1: empty GitBook tag \{% columns %\}/)
+  })
+
+  it('should throw with the file and line for text on the same line as a tag', () => {
+    assert.throws(
+      () => convert(['# Title', '{% hint style="info" %} Careful.', '{% endhint %}']),
+      /guides\/x\.md line 2: text before or after GitBook tag \{% hint %\} is not allowed/,
+    )
   })
 })

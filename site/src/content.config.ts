@@ -28,7 +28,7 @@ const pages = defineCollection({
       const allPages = readAllPages()
       const navBySpace = mapValues(keyBy(Object.values(Space)), (space) => readNav(space))
       for (const page of allPages) {
-        const converted = convertGitbook(matter(await readFile(`${REPO_ROOT}${page.file}`, 'utf8')).content, page.file)
+        const converted = matter(convertGitbook(await readFile(`${REPO_ROOT}${page.file}`, 'utf8'), page.file)).content
         const fileURL = pathToFileURL(`${REPO_ROOT}${page.file}`)
         store.set({ id: page.url, data: { ...page, twinUrl: findTwinUrl(page, allPages), nav: navBySpace[page.space] }, body: converted, rendered: await renderMarkdown(converted, { fileURL }) })
       }
