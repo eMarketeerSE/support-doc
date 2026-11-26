@@ -8,17 +8,19 @@
   "scripts": {
     "typecheck": "astro check",
     "test": "node --import tsx --test \"src/**/*.unit.test.ts\" \"scripts/**/*.unit.test.ts\"",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "check-build": "tsx scripts/check-build-cli.ts dist",
     "check-site": "tsx scripts/check-site-cli.ts",
     "image-folders": "tsx scripts/image-folders-cli.ts"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.10",
+    "@pagefind/component-ui": "1.6.0",
     "astro": "7.4.13",
     "gray-matter": "^4.0.3",
     "hast-util-to-string": "^3.0.1",
     "lodash-es": "^4.17.21",
+    "pagefind": "1.6.0",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4",
     "unist-util-visit": "^5.0.0"

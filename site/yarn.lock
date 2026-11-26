@@ -803,6 +803,49 @@
   resolved "https://registry.yarnpkg.com/@oxc-project/types/-/types-0.159.0.tgz#f08d97c604aa955ca17896f0708beabf0b461d8c"
   integrity sha512-QWjWhxheluOJ82kDHNyps00UvRpQCtI34B5A/SzpgQycUD/79FuvT4I0aQIfE/bdPwKmX4QPftnywFBH6FxJhQ==
 
+"@pagefind/component-ui@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/component-ui/-/component-ui-1.6.0.tgz#83da585818603fb603e6bde63abc950790ba127b"
+  integrity sha512-Y1DGghiGTdPNzuXphHginp45/3wVUXiwRdfAPSGTBTEBnrj8VnAEC2mgFuy2RzVwBf4reqanPvJVwxPoLI89Ww==
+  dependencies:
+    adequate-little-templates "^1.0.2"
+    bcp-47 "^2.1.2"
+
+"@pagefind/darwin-arm64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/darwin-arm64/-/darwin-arm64-1.6.0.tgz#5327071edae5fc6d48fa9a505615f1e38b1f54fe"
+  integrity sha512-611gl64aqN12UcMyKPtZ8+vRWBKlJFSh2JgO8uScxa1Eyjo1dXz9r4wZuRno0yCUE/KN0FauEoKZ3KEwUYHCCg==
+
+"@pagefind/darwin-x64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/darwin-x64/-/darwin-x64-1.6.0.tgz#a18aac54b7f6e53fd12b0fe2dfb424a642c266f0"
+  integrity sha512-rd3ZbtuxyYqjASKZAPuIV7eeQQHJ7VYpoNKKG8CvglaD3g30eT5Nb7XGNLYwVReBsCccpkURwrGwWjSwr8nyQQ==
+
+"@pagefind/freebsd-x64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/freebsd-x64/-/freebsd-x64-1.6.0.tgz#fc3afdcfcaecda75ce7fedad37d0bf66f8413b02"
+  integrity sha512-d+sXqsaThszmPWGVDSRKqIz9GpZcj/bAksNZfg19asSxU0ogNPOMND4kV4giQvOjPFMsltUFf6hQJfoHQ6+hSQ==
+
+"@pagefind/linux-arm64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/linux-arm64/-/linux-arm64-1.6.0.tgz#f4bc27d4efdc89c498a70b3add3342924506eb34"
+  integrity sha512-SLB2I+XqCZma8NvIGIH8nyKblgKIxw5PmqsVtofWOKxNHhEtOEsddbqU+hsrNcT3EV0faM6UmKDHVIxcPYq29w==
+
+"@pagefind/linux-x64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/linux-x64/-/linux-x64-1.6.0.tgz#d34f07dbc6142c6f45bb263e41d10ba8f0ea26f4"
+  integrity sha512-IbMSx/+Vr/Xk0TTBlLkjgK+rvnbOXGmmb2/MKxQu99AR5DsqQoV3NKEA9PQz2tAhuCZjeD5xJBp4w5N5DHIC7Q==
+
+"@pagefind/windows-arm64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/windows-arm64/-/windows-arm64-1.6.0.tgz#240688ea6c7f8e391a827438569c4635a72a7114"
+  integrity sha512-wUrniW3REr7VWJHz6xE6F/p/AQgHDFpGZiY9sbWT71KfEijDE5Jnc37V8zc7cilV9h/QkwJGXoEP2+ZLwDmhtw==
+
+"@pagefind/windows-x64@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/windows-x64/-/windows-x64-1.6.0.tgz#fd8b74e66b6b4152568615406e28f36ed9109d23"
+  integrity sha512-cUA2+yXfbymdJllyMjY5YTBwuOgh0/H53Pn5fYKjDnDjk154Ft4U5RVj3TenWySPL/jG6zJfARUWSlyUyXHlZw==
+
 "@rolldown/binding-android-arm-eabi@1.2.19":
   version "1.2.19"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-android-arm-eabi/-/binding-android-arm-eabi-1.2.19.tgz#9525a98bc24c66c98a2b8131aa0a3dc577f9c42c"
@@ -1215,6 +1258,11 @@ acorn@^8.0.0, acorn@^8.19.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.19.0.tgz#6b26fd97ce1cc9dc50bdf7ad305e9f1384d4f28a"
   integrity sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==
 
+adequate-little-templates@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/adequate-little-templates/-/adequate-little-templates-1.0.2.tgz#50773b3b7b1e6bde038455562d38a9aea96f8803"
+  integrity sha512-d0tFFG538l3Y4CElRKtticzrMr/OGohs32/nf3Ewn8rbTMBYwkVNe8mPdXWrDnMlz+ZVUFQjsTmsBD5zCtU4wg==
+
 ajv-draft-04@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ajv-draft-04/-/ajv-draft-04-1.0.0.tgz#3b64761b268ba0b9e668f0b41ba53fce0ad77fc8"
@@ -1351,6 +1399,15 @@ bail@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/bail/-/bail-2.0.2.tgz#d26f5cd8fe5d6f832a31517b9f7c356040ba6d5d"
   integrity sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==
+
+bcp-47@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/bcp-47/-/bcp-47-2.1.2.tgz#daf552d46cf73300da467eee035a90141de97b9c"
+  integrity sha512-wsv86UuNFuPnVieKLyECTT+CP1WSAHeoIg5P3xu2kA9Z+7fVPoKt7dxzSeEhtJel0AI+NW3fIW3KtTKQKUCngg==
+  dependencies:
+    is-alphabetical "^2.0.0"
+    is-alphanumerical "^2.0.0"
+    is-decimal "^2.0.0"
 
 boolbase@^1.0.0:
   version "1.0.0"
@@ -2907,6 +2964,19 @@ package-manager-detector@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/package-manager-detector/-/package-manager-detector-1.9.0.tgz#217ed03645bfeb563e9efce4c5bbbfbb652754ab"
   integrity sha512-zAMfbta9nPA8AKkA4WdmNAT8R8s6Dk0/xwPsqNnRidMFcLo1YkLuPDTgs2f64XdzS8vbLNnoJ+uUIkgbz7oRHA==
+
+pagefind@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/pagefind/-/pagefind-1.6.0.tgz#baeab15ee57705dc661e8f656ca59156bd0d1380"
+  integrity sha512-yeOd9EA0TUE1PUfbQIluBxzPadBG5/0BV48FAxwMVLkhZcOvwCz6TX4/a/Ofz97pF9/FwwT7CVbTC97BfmI+LQ==
+  optionalDependencies:
+    "@pagefind/darwin-arm64" "1.6.0"
+    "@pagefind/darwin-x64" "1.6.0"
+    "@pagefind/freebsd-x64" "1.6.0"
+    "@pagefind/linux-arm64" "1.6.0"
+    "@pagefind/linux-x64" "1.6.0"
+    "@pagefind/windows-arm64" "1.6.0"
+    "@pagefind/windows-x64" "1.6.0"
 
 parse-entities@^4.0.0:
   version "4.0.2"

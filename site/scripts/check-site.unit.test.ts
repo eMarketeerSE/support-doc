@@ -3,7 +3,7 @@ import { mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, it } from 'node:test'
-import { filter, map } from 'lodash-es'
+import { filter, includes, map } from 'lodash-es'
 import { CSP, Expect, judgeResponse, listImagePaths, listSiteChecks, MISSING_PATH, type SiteResponse } from './check-site.ts'
 
 const SITE_HTML = '<html data-site="support-doc"><p>page</p></html>'
@@ -35,19 +35,23 @@ describe('listImagePaths', () => {
 
 describe('listSiteChecks', () => {
   it('should list a slash check for every snapshot URL but /', () => {
-    const checks = listSiteChecks(['/', '/a', '/b/c'], {}, [])
+    const checks = listSiteChecks(['/', '/a', '/b/c'], {}, [], [])
     const slashPaths = map(filter(checks, { expect: Expect.SlashRedirect }), 'path')
     assert.deepEqual(slashPaths, ['/a/', '/b/c/'])
   })
 
   it('should check a redirect source as a redirect page, not as a page', () => {
-    const checks = listSiteChecks(['/docs'], { '/docs': '/' }, [])
+    const checks = listSiteChecks(['/docs'], { '/docs': '/' }, [], [])
     assert.deepEqual(filter(checks, { path: '/docs' }), [{ path: '/docs', expect: Expect.RedirectPage }])
   })
 
   it('should add file, not found and headers checks', () => {
-    const checks = listSiteChecks(['/', '/a'], {}, ['/.gitbook/assets/a.png'])
-    assert.deepEqual(filter(checks, { expect: Expect.File }), [{ path: '/.gitbook/assets/a.png', expect: Expect.File }])
+    const checks = listSiteChecks(['/', '/a'], {}, ['/.gitbook/assets/a.png'], [])
+    assert.deepEqual(filter(checks, { expect: Expect.File }), [
+      { path: '/.gitbook/assets/a.png', expect: Expect.File },
+      { path: '/llms.txt', expect: Expect.File },
+      { path: '/pagefind/pagefind-entry.json', expect: Expect.File },
+    ])
     assert.deepEqual(filter(checks, { expect: Expect.NotFound }), [{ path: MISSING_PATH, expect: Expect.NotFound }])
     assert.deepEqual(filter(checks, { expect: Expect.Headers }), [{ path: '/', expect: Expect.Headers }])
     assert.deepEqual(filter(checks, { expect: Expect.Page }), [
@@ -57,7 +61,59 @@ describe('listSiteChecks', () => {
   })
 })
 
+describe('listSiteChecks with llms paths', () => {
+  it('should check each llms path as a markdown file and as a page or redirect', () => {
+    const checks = listSiteChecks(['/'], {}, [], ['/getting-started/campaign-basics', '/overview'])
+    assert.deepEqual(filter(checks, { expect: Expect.Markdown }), [
+      { path: '/getting-started/campaign-basics.md', expect: Expect.Markdown },
+      { path: '/overview.md', expect: Expect.Markdown },
+    ])
+    assert.deepEqual(filter(checks, { expect: Expect.PageOrRedirect }), [
+      { path: '/getting-started/campaign-basics', expect: Expect.PageOrRedirect },
+      { path: '/overview', expect: Expect.PageOrRedirect },
+    ])
+  })
+})
+
 describe('judgeResponse', () => {
+  it('should pass a markdown file with a text/markdown content type', () => {
+    const response = respond({ body: '# T', headers: { 'content-type': 'text/markdown; charset=utf-8' } })
+    assert.equal(judgeResponse({ path: '/x.md', expect: Expect.Markdown }, response), null)
+  })
+
+  it('should fail a markdown file served as text/html and name the content type', () => {
+    const response = respond({ headers: { 'content-type': 'text/html' } })
+    const problem = judgeResponse({ path: '/x.md', expect: Expect.Markdown }, response)
+    assert.ok(includes(problem, '/x.md'))
+    assert.ok(includes(problem, 'text/html'))
+  })
+
+  it('should fail a markdown file with a missing content type', () => {
+    assert.match(judgeResponse({ path: '/x.md', expect: Expect.Markdown }, respond({})) ?? '', /content-type/)
+  })
+
+  it('should fail a markdown file with status 404', () => {
+    const response = respond({ status: 404, headers: { 'content-type': 'text/markdown' } })
+    assert.match(judgeResponse({ path: '/x.md', expect: Expect.Markdown }, response) ?? '', /404/)
+  })
+
+  it('should pass a page or redirect check for a page with the site marker', () => {
+    assert.equal(judgeResponse({ path: '/x', expect: Expect.PageOrRedirect }, respond({})), null)
+  })
+
+  it('should pass a page or redirect check for a redirect page', () => {
+    assert.equal(judgeResponse({ path: '/x', expect: Expect.PageOrRedirect }, respond({ body: REDIRECT_HTML })), null)
+  })
+
+  it('should fail a page or redirect check for a body that is neither', () => {
+    const problem = judgeResponse({ path: '/x', expect: Expect.PageOrRedirect }, respond({ body: '<html></html>' }))
+    assert.match(problem ?? '', /neither a page nor an Astro redirect page/)
+  })
+
+  it('should fail a page or redirect check with status 404', () => {
+    assert.match(judgeResponse({ path: '/x', expect: Expect.PageOrRedirect }, respond({ status: 404 })) ?? '', /404/)
+  })
+
   it('should pass a page with the site marker', () => {
     assert.equal(judgeResponse({ path: '/x', expect: Expect.Page }, respond({})), null)
   })
@@ -69,8 +125,8 @@ describe('judgeResponse', () => {
 
   it('should name the path and the status in a problem line', () => {
     const problem = judgeResponse({ path: '/x', expect: Expect.Page }, respond({ status: 404 }))
-    assert.ok(problem?.includes('/x'))
-    assert.ok(problem?.includes('404'))
+    assert.ok(includes(problem, '/x'))
+    assert.ok(includes(problem, '404'))
   })
 
   it('should pass a redirect page', () => {

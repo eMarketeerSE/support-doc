@@ -3,10 +3,8 @@ import type { Root } from 'hast'
 import { toString } from 'hast-util-to-string'
 import { find, includes } from 'lodash-es'
 import { visit } from 'unist-util-visit'
-import { resolveLink } from './links'
+import { WEB_LINK, resolveLink } from './links'
 import type { SitePage } from './summary'
-
-const WEB_LINK = /^https?:/i
 
 export const rehypeSiteLinks = (options: { pages: SitePage[]; root: string }) => (tree: Root, file: { path: string }) => {
   const pageFile = path.relative(options.root, file.path).split(path.sep).join('/')

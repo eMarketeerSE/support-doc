@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { chunk, endsWith, filter, flatMap, forEach, isEmpty, map, size, split } from 'lodash-es'
+import { EMMA_ARTICLE_LINE } from '../src/lib/llms.ts'
 import { readRedirects } from '../src/lib/redirects.ts'
 import { Expect, judgeResponse, listImagePaths, listSiteChecks, type SiteCheck, type SiteResponse } from './check-site.ts'
 
@@ -62,7 +63,15 @@ if (isEmpty(imagePaths)) {
   console.error(`No image paths found in the HTML files under ${resolve(distDir)}`)
   process.exit(1)
 }
-const checks = listSiteChecks(snapshot, readRedirects(), imagePaths)
+const llmsPaths = flatMap(split(readFileSync(join(resolve(distDir), 'llms.txt'), 'utf8'), '\n'), (line) => {
+  const match = EMMA_ARTICLE_LINE.exec(line)
+  return match === null ? [] : [match[2]]
+})
+if (isEmpty(llmsPaths)) {
+  console.error(`No article lines in ${join(resolve(distDir), 'llms.txt')}`)
+  process.exit(1)
+}
+const checks = listSiteChecks(snapshot, readRedirects(), imagePaths, llmsPaths)
 const problems: string[] = []
 for (const batch of chunk(checks, BATCH_SIZE)) {
   const results = await Promise.all(map(batch, (check) => fetchProblem(baseUrl, check)))

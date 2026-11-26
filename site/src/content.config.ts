@@ -5,6 +5,7 @@ import { pathToFileURL } from 'node:url'
 import matter from 'gray-matter'
 import { keyBy, mapValues } from 'lodash-es'
 import { convertGitbook } from './lib/convert-gitbook'
+import { renderMarkdown } from './lib/render-markdown'
 import { REPO_ROOT, Space, findTwinUrl, readAllPages, readNav, type NavItem } from './lib/summary'
 
 const navItemSchema: z.ZodType<NavItem> = z.lazy(() =>
@@ -18,19 +19,32 @@ const pages = defineCollection({
     title: z.string(),
     description: z.string(),
     space: z.enum(Space),
+    order: z.number(),
     twinUrl: z.string(),
+    markdown: z.string(),
     nav: z.array(z.object({ heading: z.string().nullable(), items: z.array(navItemSchema) })),
   }),
   loader: {
     name: 'support-pages',
-    load: async ({ store, renderMarkdown }) => {
+    load: async ({ store, renderMarkdown: renderHtml }) => {
       store.clear()
       const allPages = readAllPages()
       const navBySpace = mapValues(keyBy(Object.values(Space)), (space) => readNav(space))
-      for (const page of allPages) {
+      for (const [order, page] of allPages.entries()) {
         const converted = matter(convertGitbook(await readFile(`${REPO_ROOT}${page.file}`, 'utf8'), page.file)).content
         const fileURL = pathToFileURL(`${REPO_ROOT}${page.file}`)
-        store.set({ id: page.url, data: { ...page, twinUrl: findTwinUrl(page, allPages), nav: navBySpace[page.space] }, body: converted, rendered: await renderMarkdown(converted, { fileURL }) })
+        store.set({
+          id: page.url,
+          data: {
+            ...page,
+            order,
+            twinUrl: findTwinUrl(page, allPages),
+            markdown: renderMarkdown(page, converted, allPages, REPO_ROOT),
+            nav: navBySpace[page.space],
+          },
+          body: converted,
+          rendered: await renderHtml(converted, { fileURL }),
+        })
       }
     },
   },

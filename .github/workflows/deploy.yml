@@ -66,11 +66,16 @@ jobs:
       - id: sync-site
         run: |
           folders="$(yarn --silent image-folders)"
-          excludes=()
+          excludes=(--exclude "*.md")
           while read -r _ target; do
             excludes+=(--exclude "${target}*")
           done <<< "$folders"
           aws s3 sync dist/ "s3://$S3_BUCKET/" --delete "${excludes[@]}" \
+            --cache-control "public, max-age=0, must-revalidate"
+      - id: sync-markdown
+        run: |
+          aws s3 sync dist/ "s3://$S3_BUCKET/" --exclude "*" --include "*.md" --delete \
+            --content-type "text/markdown; charset=utf-8" \
             --cache-control "public, max-age=0, must-revalidate"
       - id: prune-images
         run: |
