@@ -47,7 +47,11 @@ describe('listSiteChecks', () => {
 
   it('should add file, not found and headers checks', () => {
     const checks = listSiteChecks(['/', '/a'], {}, ['/.gitbook/assets/a.png'], [])
-    assert.deepEqual(filter(checks, { expect: Expect.File }), [{ path: '/.gitbook/assets/a.png', expect: Expect.File }])
+    assert.deepEqual(filter(checks, { expect: Expect.File }), [
+      { path: '/.gitbook/assets/a.png', expect: Expect.File },
+      { path: '/llms.txt', expect: Expect.File },
+      { path: '/pagefind/pagefind-entry.json', expect: Expect.File },
+    ])
     assert.deepEqual(filter(checks, { expect: Expect.NotFound }), [{ path: MISSING_PATH, expect: Expect.NotFound }])
     assert.deepEqual(filter(checks, { expect: Expect.Headers }), [{ path: '/', expect: Expect.Headers }])
     assert.deepEqual(filter(checks, { expect: Expect.Page }), [

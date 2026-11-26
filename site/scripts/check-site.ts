@@ -43,6 +43,8 @@ export const listSiteChecks = (
     ...map(llmsPaths, (path) => ({ path, expect: Expect.PageOrRedirect })),
     { path: MISSING_PATH, expect: Expect.NotFound },
     { path: '/', expect: Expect.Headers },
+    { path: '/llms.txt', expect: Expect.File },
+    { path: '/pagefind/pagefind-entry.json', expect: Expect.File },
   ]
 }
 
