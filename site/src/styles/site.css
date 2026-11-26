@@ -76,7 +76,7 @@ a { color: var(--link); }
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 11;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -169,7 +169,7 @@ a { color: var(--link); }
   padding: 24px 16px;
   font-size: 0.9rem;
 }
-.site-nav:hover, .site-nav:focus-within { scrollbar-color: var(--card-hover) transparent; }
+.site-nav:hover, .site-nav:focus-within { scrollbar-color: var(--text-muted) transparent; }
 .nav-toggle, .nav-toggle-label { display: none; }
 .site-nav h2 {
   margin: 20px 0 6px;
