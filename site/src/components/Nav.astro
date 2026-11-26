@@ -1,15 +1,31 @@
 ---
-import type { NavItem } from '../lib/summary'
+import { some } from 'lodash-es'
+import { isNavItemOpen, type NavItem } from '../lib/summary'
 
-type Props = { items: NavItem[]; currentUrl: string }
+type Props = { items: NavItem[]; currentUrl: string; topLevel?: boolean }
 
-const { items, currentUrl } = Astro.props
+const { items, currentUrl, topLevel = false } = Astro.props
+const hasIcons = topLevel && some(items, 'icon')
 ---
 <ul>
-  {items.map((item) => (
-    <li>
-      <a href={item.url} aria-current={item.url === currentUrl ? 'page' : undefined}>{item.title}</a>
-      {item.children.length > 0 && <Astro.self items={item.children} currentUrl={currentUrl} />}
-    </li>
-  ))}
+  {items.map((item) => {
+    const link = (
+      <a href={item.url} aria-current={item.url === currentUrl ? 'page' : undefined}>
+        {hasIcons && <span class="nav-icon" set:html={item.icon ?? ''} />}
+        {item.title}
+      </a>
+    )
+    return (
+      <li>
+        {item.children.length > 0 ? (
+          <details open={isNavItemOpen(item, currentUrl)}>
+            <summary>{link}</summary>
+            <Astro.self items={item.children} currentUrl={currentUrl} />
+          </details>
+        ) : (
+          link
+        )}
+      </li>
+    )
+  })}
 </ul>

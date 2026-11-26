@@ -47,7 +47,7 @@ const { twinUrl, nav } = page
           {nav.map((group) => (
             <section>
               {group.heading && <h2>{group.heading}</h2>}
-              <Nav items={group.items} currentUrl={page.url} />
+              <Nav items={group.items} currentUrl={page.url} topLevel />
             </section>
           ))}
         </nav>
@@ -55,6 +55,7 @@ const { twinUrl, nav } = page
       <main>
         <article data-pagefind-body data-pagefind-meta={`page_url:${page.url}`}>
           {!hasHeading && <h1>{page.title}</h1>}
+          {!hasHeading && page.description && <p class="page-description">{page.description}</p>}
           <slot />
         </article>
       </main>

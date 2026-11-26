@@ -3,6 +3,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import matter from 'gray-matter'
 import { chain, compact, filter, find, flatMap, join, last, size, some } from 'lodash-es'
+import { readNavIcon } from './nav-icons'
 
 export enum Space {
   English = 'english',
@@ -12,7 +13,7 @@ export enum Space {
 }
 
 export type SitePage = { url: string; file: string; title: string; description: string; space: Space }
-export type NavItem = { title: string; url: string; children: NavItem[] }
+export type NavItem = { title: string; url: string; icon: string | null; children: NavItem[] }
 export type NavGroup = { heading: string | null; items: NavItem[] }
 
 export const SPACE_PREFIX: Record<Space, string> = {
@@ -47,6 +48,7 @@ export const parseSummary = (
   summary: string,
   space: Space,
   readDescription: (file: string) => string,
+  readIcon: (file: string) => string | null,
 ): { pages: SitePage[]; nav: NavGroup[] } => {
   const prefix = SPACE_PREFIX[space] === '/' ? '' : SPACE_PREFIX[space]
   const summaryDirectory = path.posix.dirname(SPACE_SUMMARY[space])
@@ -101,7 +103,7 @@ export const parseSummary = (
     }
     pages.push({ url, file, title: entry[2], description: readDescription(file), space })
 
-    const item: NavItem = { title: entry[2], url, children: [] }
+    const item: NavItem = { title: entry[2], url, icon: level === 0 ? readIcon(file) : null, children: [] }
     parents = parents.slice(0, level)
     const parent = last(parents)
     if (parent) {
@@ -115,26 +117,39 @@ export const parseSummary = (
   return { pages, nav: filter(nav, (navGroup) => navGroup.heading !== null || navGroup.items.length > 0) }
 }
 
-const readDescriptionFromFile = (file: string): string => {
+const readFrontMatter = (file: string): Record<string, unknown> => {
   const absolute = path.join(REPO_ROOT, file)
   if (!existsSync(absolute)) {
     throw new Error(`SUMMARY.md lists ${file} but the file does not exist`)
   }
-  const text = readFileSync(absolute, 'utf8')
-  let data: Record<string, unknown>
   try {
-    data = matter(text).data
+    return matter(readFileSync(absolute, 'utf8')).data
   } catch (cause) {
     throw new Error(`${file}: invalid frontmatter`, { cause })
   }
+}
+
+const readDescriptionFromFile = (file: string): string => {
+  const data = readFrontMatter(file)
   if (data.description !== undefined && typeof data.description !== 'string') {
     throw new Error(`${file}: description must be a string`)
   }
   return (data.description as string | undefined) ?? ''
 }
 
+const readIconFromFile = (file: string): string | null => {
+  const { icon } = readFrontMatter(file)
+  if (icon === undefined) {
+    return null
+  }
+  if (typeof icon !== 'string') {
+    throw new Error(`${file}: icon must be a string`)
+  }
+  return readNavIcon(icon, file)
+}
+
 const readSummaryOf = (space: Space) =>
-  parseSummary(readFileSync(path.join(REPO_ROOT, SPACE_SUMMARY[space]), 'utf8'), space, readDescriptionFromFile)
+  parseSummary(readFileSync(path.join(REPO_ROOT, SPACE_SUMMARY[space]), 'utf8'), space, readDescriptionFromFile, readIconFromFile)
 
 export const readSpace = (space: Space): SitePage[] => readSummaryOf(space).pages
 
@@ -158,3 +173,6 @@ export const findTwinUrl = (page: SitePage, pages: SitePage[]): string => {
   }
   return SPACE_PREFIX[Space.Swedish]
 }
+
+export const isNavItemOpen = (item: NavItem, currentUrl: string): boolean =>
+  size(item.children) > 0 && (item.url === currentUrl || some(item.children, (child) => isNavItemOpen(child, currentUrl) || child.url === currentUrl))
