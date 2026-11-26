@@ -296,6 +296,13 @@ describe('convertGitbook', () => {
     )
   })
 
+  it('should throw with the file and line for an unknown hint style', () => {
+    assert.throws(
+      () => convert(['# Title', '{% hint style="tip" %}', 'Text.', '{% endhint %}']),
+      /guides\/x\.md line 2: unknown hint style "tip"/,
+    )
+  })
+
   it('should throw with the file and line for content between steps', () => {
     assert.throws(
       () => convert(['{% stepper %}', '{% step %}', 'One.', '{% endstep %}', 'Loose text.', '{% endstepper %}']),

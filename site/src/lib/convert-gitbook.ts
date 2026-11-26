@@ -12,6 +12,7 @@ const FENCE = /^\s*(`{3,}(?!.*`)|~{3,})/
 const ASK_BUTTON = /<button\b[^>]*\bdata-action="ask"[^>]*>.*?<\/button>/g
 const YOUTUBE = /(?:youtube\.com\/watch\?(?:[^#]*&)?v=|youtu\.be\/)([\w-]+)/
 const CHILD_TAGS = ['step', 'tab', 'update']
+const HINT_STYLES = ['info', 'success', 'warning', 'danger']
 const REQUIRED_ATTRIBUTE: Record<string, string> = {
   'content-ref': 'url',
   hint: 'style',
@@ -88,6 +89,9 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
       return { lines: [`<a class="card" href="${tag.attributes.url}"></a>`], end: block.end }
     }
     case 'hint': {
+      if (!includes(HINT_STYLES, tag.attributes.style)) {
+        throw new Error(`${file} line ${tag.line}: unknown hint style "${tag.attributes.style}"`)
+      }
       const block = convertBlock(lines, index + 1, file, tag)
       return { lines: wrap(`<aside class="hint hint-${tag.attributes.style}">`, block.lines, '</aside>'), end: block.end }
     }
