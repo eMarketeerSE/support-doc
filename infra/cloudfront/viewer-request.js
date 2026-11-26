@@ -21,7 +21,7 @@ function handler(event) {
   var request = event.request;
   var uri = request.uri;
 
-  if (uri === "/") {
+  if (uri === "/" || uri.indexOf("//") === 0) {
     return request;
   }
 

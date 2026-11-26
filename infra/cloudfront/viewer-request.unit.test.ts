@@ -50,4 +50,20 @@ describe('viewer-request', () => {
     const response = handler(request('/a.b/page'))
     assert.strictEqual(response.uri, '/a.b/page.html')
   })
+
+  it('should pass a path that starts with // on unchanged instead of redirecting', () => {
+    const bare = handler(request('//evil.com/'))
+    assert.strictEqual(bare.statusCode, undefined)
+    assert.strictEqual(bare.uri, '//evil.com/')
+    const withQuery = handler(request('//evil.com/x/', { a: { value: '1' } }))
+    assert.strictEqual(withQuery.statusCode, undefined)
+    assert.strictEqual(withQuery.uri, '//evil.com/x/')
+  })
+
+  it('should never answer with a location that starts with //', () => {
+    for (const uri of ['//evil.com/', '//evil.com/x/', '///evil.com/', '/a/', '/a//b/']) {
+      const response = handler(request(uri, { a: { value: '1' } }))
+      assert.ok(!(response.headers.location?.value ?? '').startsWith('//'), uri)
+    }
+  })
 })
