@@ -4,7 +4,7 @@ This file applies ONLY to translation work inside the `sv/` folder. The English 
 
 ## What this folder is
 
-`sv/` is the Swedish variant of the eMarketeer support docs. GitBook treats it as a separate Space that publishes alongside the English Space. Commits to `main` publish both languages.
+`sv/` is the Swedish variant of the eMarketeer support docs. The site builds it as its own space, next to the English one. A push to `main` publishes both languages.
 
 ## Source of truth
 
@@ -21,12 +21,12 @@ Mirrors the English structure exactly **except** `legal/` is NOT translated. Leg
 
 ## Image references
 
-The Swedish space only reads files inside `sv/`, so Swedish images live in `sv/.gitbook/assets/`. Because a Swedish article sits at the same depth inside `sv/` as its English original does at the repo root, the image path is the same text in both languages:
+Each space keeps its images in its own folder, so Swedish images live in `sv/.gitbook/assets/`. Because a Swedish article sits at the same depth inside `sv/` as its English original does at the repo root, the image path is the same text in both languages:
 
 - English `knowledge-base/<group>/article.md`: `![alt](../../.gitbook/assets/<file>)` → `.gitbook/assets/<file>`
 - Swedish `sv/knowledge-base/<group>/article.md`: `![alt](../../.gitbook/assets/<file>)` → `sv/.gitbook/assets/<file>`
 
-Copy the path unchanged when translating, and make sure the file exists in `sv/.gitbook/assets/` too. Never link to the root `assets/` or `.gitbook/assets/` folders from a Swedish article with extra `../` — the Swedish space cannot see them. Naming and replacement rules are in the root `CLAUDE.md` under Images.
+Copy the path unchanged when translating, and make sure the file exists in `sv/.gitbook/assets/` too. Never link to the root `assets/` or `.gitbook/assets/` folders from a Swedish article with extra `../`: the Swedish space keeps its own copy. Naming and replacement rules are in the root `CLAUDE.md` under Images.
 
 ## Terminology (Swedish glossary)
 
