@@ -1,0 +1,11 @@
+---
+import { getEntry, render } from 'astro:content'
+import { some } from 'lodash-es'
+import Page from '../layouts/Page.astro'
+
+const entry = (await getEntry('pages', '/'))!
+const { Content, headings } = await render(entry)
+---
+<Page page={entry.data} hasHeading={some(headings, { depth: 1 })}>
+  <Content />
+</Page>

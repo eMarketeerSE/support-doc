@@ -1,0 +1,16 @@
+---
+import { getCollection, render } from 'astro:content'
+import Page from '../layouts/Page.astro'
+import { filter, map, some } from 'lodash-es'
+
+export async function getStaticPaths() {
+  const entries = filter(await getCollection('pages'), (entry) => entry.id !== '/')
+  return map(entries, (entry) => ({ params: { path: entry.id.slice(1) }, props: { entry } }))
+}
+
+const { entry } = Astro.props
+const { Content, headings } = await render(entry)
+---
+<Page page={entry.data} hasHeading={some(headings, { depth: 1 })}>
+  <Content />
+</Page>

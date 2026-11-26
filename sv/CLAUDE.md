@@ -17,7 +17,7 @@ If the English file changes meaningfully, the Swedish file is re-translated. Don
 
 ## Folder structure
 
-Mirrors the English structure exactly **except** `documentation/legal/` is NOT translated. Legal documents stay English-only — they're legally binding and machine translation introduces meaning shifts in clauses. The Swedish home page links back to the English legal section with a note.
+Mirrors the English structure exactly **except** `legal/` is NOT translated. Legal documents stay English-only — they're legally binding and machine translation introduces meaning shifts in clauses. The Swedish home page links back to the English legal section with a note.
 
 ## Image references
 

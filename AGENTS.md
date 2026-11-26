@@ -14,11 +14,12 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 
 - `getting-started/` — onboarding articles for new users.
 - `knowledge-base/` — feature guides and how-tos, grouped by topic in subfolders.
-- `documentation/` — technical reference, grouped by topic in subfolders. Sub-folder `legal/` for legal docs.
+- `documentation/` — technical reference, grouped by topic in subfolders.
+- `legal/` — legal docs. Its own GitBook space (has `legal/SUMMARY.md`), English-only.
 - `changelog/` — release notes. Its own GitBook space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
 - `.gitbook/assets/` — English images. `sv/.gitbook/assets/` — Swedish images. Each GitBook space only reads files inside its own folder, so the Swedish space cannot see the root `.gitbook/assets/`; every image a Swedish article uses must also exist in `sv/.gitbook/assets/`. See Images below.
 - `assets/<article-slug>/` — leftover from the migration import. Not used by articles; do not add to it or link to it. Scheduled for cleanup.
-- `sv/` — Swedish variant. Mirrors the English structure exactly except `sv/documentation/legal/` does not exist (legal stays English-only).
+- `sv/` — Swedish variant. Mirrors the English structure exactly. There is no `sv/legal/`: legal stays English-only.
 
 ## Naming
 
@@ -62,17 +63,21 @@ Links **within** a single space (docs → docs, or changelog → changelog) stay
 
 - **New article**: write it in whichever language the user gave you, then translate to the other language. Both files land before the commit is pushed.
 - **Update**: if the user edits the English file, re-translate the matching Swedish file (or surgically apply the same edit if the change is small and the structure is unchanged). Same in reverse.
-- **Rename / move**: rename both files in parallel and update both `SUMMARY.md`s.
-- **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both.
+- **Rename / move**: rename both files in parallel and update both `SUMMARY.md`s, and add redirects (see the `SUMMARY.md` section).
+- **Delete**: confirm with the user before deleting either side. If deletion is approved, delete both, and add redirects (see the `SUMMARY.md` section).
 - **Translation engine**: translate using Codex (you), guided by `sv/CLAUDE.md`'s glossary and style rules. Do not call external translation services.
 - **Image paths**: keep the image path identical when translating, and make sure each image file exists in both `.gitbook/assets/` and `sv/.gitbook/assets/` (see Images).
-- **Legal docs** (`documentation/legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/documentation/legal/`.
+- **Legal docs** (`legal/*.md`) are the only exception. Legal content is English-only and is not translated. Do not create `sv/legal/`.
 
 If the user explicitly asks you to edit only one language for a deliberate reason (e.g. "fix a typo in Swedish only"), respect that. Otherwise, keep the pair in sync.
 
 ## `SUMMARY.md`
 
 When you add, rename, or move a page, update `SUMMARY.md` in the same commit. Follow the existing nesting. If a section gets large, group with `## Subheading` lines.
+
+A URL contains the `##` heading and the file name of every parent page. Renaming a parent file, renaming a `##` heading, or moving a page under another parent changes the URL of the page and of all its child pages. When a URL changes or a page is deleted, add `"<old url>": "<new url>"` to `site/redirects.json` for each changed URL and each language in the same commit. A deleted page and each of its child pages point at the hub page. Point any existing redirect that targets an old URL at the new one.
+
+The `site-check` job lists each URL in `site/sitemap-snapshot.txt` that has no page and no redirect. A page added after the snapshot is not in it, so the job cannot catch a missing redirect for that page.
 
 ## Voice and style
 
@@ -149,7 +154,7 @@ genuinely doesn't apply):
 - Renaming files (URL changes).
 - Restructuring sections.
 - Force-pushing.
-- Editing legal docs (`documentation/legal/`).
+- Editing legal docs (`legal/`).
 
 ## Ask, don't guess
 
@@ -172,6 +177,15 @@ After a content commit, push to `origin/main`. GitBook syncs within ~1 minute.
 ```bash
 git push origin main
 ```
+
+After each push, wait for the `site-check` run of the pushed commit:
+
+```bash
+gh run list --workflow site-check --commit "$(git rev-parse HEAD)" --json databaseId --jq '.[0].databaseId'
+gh run watch <id> --exit-status
+```
+
+If the run is not listed yet, wait a few seconds and list again. If it fails, read its log, fix what it lists, and push again. If `gh` is not installed or not logged in, tell the user that the check could not be read and that a developer must look at it.
 
 ## Working with a non-technical editor
 

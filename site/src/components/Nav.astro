@@ -1,0 +1,15 @@
+---
+import type { NavItem } from '../lib/summary'
+
+type Props = { items: NavItem[]; currentUrl: string }
+
+const { items, currentUrl } = Astro.props
+---
+<ul>
+  {items.map((item) => (
+    <li>
+      <a href={item.url} aria-current={item.url === currentUrl ? 'page' : undefined}>{item.title}</a>
+      {item.children.length > 0 && <Astro.self items={item.children} currentUrl={currentUrl} />}
+    </li>
+  ))}
+</ul>
