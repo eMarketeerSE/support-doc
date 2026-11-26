@@ -271,6 +271,46 @@ describe('convertGitbook', () => {
     )
   })
 
+  it('should throw with the file and line for a single-quoted required attribute', () => {
+    assert.throws(
+      () => convert(['# Title', "{% hint style='info' %}", 'Text.', '{% endhint %}']),
+      /guides\/x\.md line 2: missing style on GitBook tag \{% hint %\}/,
+    )
+  })
+
+  it('should throw with the file and line for a missing required attribute', () => {
+    assert.throws(
+      () => convert(['{% updates %}', '{% update tags="fix" %}', 'Body.', '{% endupdate %}', '{% endupdates %}']),
+      /guides\/x\.md line 2: missing date on GitBook tag \{% update %\}/,
+    )
+  })
+
+  it('should not treat a line with inline triple backticks as a fence', () => {
+    assert.throws(() => convert(['```inline``` text', '{% tabs-x %}']), /guides\/x\.md line 2: unknown GitBook tag \{% tabs-x %\}/)
+  })
+
+  it('should throw with the file and line for an indented tag', () => {
+    assert.throws(
+      () => convert(['1. First', '   {% hint style="info" %}', '   Text.', '   {% endhint %}']),
+      /guides\/x\.md line 2: indented GitBook tag \{% hint %\} is not supported/,
+    )
+  })
+
+  it('should throw with the file and line for content between steps', () => {
+    assert.throws(
+      () => convert(['{% stepper %}', '{% step %}', 'One.', '{% endstep %}', 'Loose text.', '{% endstepper %}']),
+      /guides\/x\.md line 5: unexpected content inside GitBook tag \{% stepper %\}/,
+    )
+  })
+
+  it('should throw with the file and line for a stray end tag', () => {
+    assert.throws(() => convert(['Text.', '{% endhint %}']), /guides\/x\.md line 2: unexpected GitBook tag \{% endhint %\}/)
+  })
+
+  it('should throw with the file and line for a step outside a stepper', () => {
+    assert.throws(() => convert(['{% step %}', 'One.', '{% endstep %}']), /guides\/x\.md line 1: unexpected GitBook tag \{% step %\}/)
+  })
+
   it('should change nothing when run on its own output', () => {
     const once = convert([
       '# Every tag',

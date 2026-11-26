@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { dropRightWhile, dropWhile, flatMap, fromPairs, includes, last, map, orderBy } from 'lodash-es'
+import { dropRightWhile, dropWhile, flatMap, fromPairs, has, includes, last, map, orderBy } from 'lodash-es'
 
 type Tag = { name: string; attributes: Record<string, string>; line: number }
 type Block = { lines: string[]; end: number }
@@ -8,18 +8,34 @@ type Child = { tag: Tag; lines: string[] }
 const TAG = /^\{%\s*([\w-]+)(.*?)\s*%\}$/
 const ATTRIBUTE = /([\w-]+)="([^"]*)"/g
 const ANY_TAG = /\{%\s*([\w-]+)/
-const FENCE = /^\s*(`{3,}|~{3,})/
+const FENCE = /^\s*(`{3,}(?!.*`)|~{3,})/
 const ASK_BUTTON = /<button\b[^>]*\bdata-action="ask"[^>]*>.*?<\/button>/g
 const YOUTUBE = /(?:youtube\.com\/watch\?(?:[^#]*&)?v=|youtu\.be\/)([\w-]+)/
 const CHILD_TAGS = ['step', 'tab', 'update']
+const REQUIRED_ATTRIBUTE: Record<string, string> = {
+  'content-ref': 'url',
+  hint: 'style',
+  tab: 'title',
+  update: 'date',
+  embed: 'url',
+  file: 'src',
+}
 
-const parseTag = (line: string, index: number): Tag | null => {
+const parseTag = (line: string, index: number, file: string): Tag | null => {
   const match = TAG.exec(line.trim())
   if (!match) {
     return null
   }
+  const name = match[1]
+  if (line !== line.trimStart()) {
+    throw new Error(`${file} line ${index + 1}: indented GitBook tag {% ${name} %} is not supported`)
+  }
   const attributes = fromPairs(map([...match[2].matchAll(ATTRIBUTE)], (attribute) => [attribute[1], attribute[2]]))
-  return { name: match[1], attributes, line: index + 1 }
+  const required = REQUIRED_ATTRIBUTE[name]
+  if (required && !has(attributes, required)) {
+    throw new Error(`${file} line ${index + 1}: missing ${required} on GitBook tag {% ${name} %}`)
+  }
+  return { name, attributes, line: index + 1 }
 }
 
 const nextFence = (line: string, fence: string | null): string | null => {
@@ -39,14 +55,14 @@ const wrap = (open: string, body: string[], close: string): string[] => [open, '
 const tagError = (file: string, line: number, problem: string, name: string): Error =>
   new Error(`${file} line ${line}: ${problem} GitBook tag {% ${name} %}`)
 
-const endOfOptionalEndTag = (lines: string[], index: number, name: string): number =>
-  parseTag(lines[index + 1] ?? '', index + 1)?.name === `end${name}` ? index + 1 : index
+const endOfOptionalEndTag = (lines: string[], index: number, file: string, name: string): number =>
+  parseTag(lines[index + 1] ?? '', index + 1, file)?.name === `end${name}` ? index + 1 : index
 
 const convertChildren = (lines: string[], start: number, file: string, parent: Tag, childName: string): { children: Child[]; end: number } => {
   const children: Child[] = []
   let index = start
   while (index < lines.length) {
-    const tag = parseTag(lines[index], index)
+    const tag = parseTag(lines[index], index, file)
     if (tag?.name === `end${parent.name}`) {
       return { children, end: index }
     }
@@ -110,11 +126,11 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
       const embed = youtubeId
         ? `<iframe class="video" src="https://www.youtube-nocookie.com/embed/${youtubeId}" title="YouTube video" allowfullscreen loading="lazy"></iframe>`
         : `<a class="card" href="${url}"></a>`
-      return { lines: [embed], end: endOfOptionalEndTag(lines, index, 'embed') }
+      return { lines: [embed], end: endOfOptionalEndTag(lines, index, file, 'embed') }
     }
     case 'file': {
       const src = tag.attributes.src
-      return { lines: [`<a class="file" href="${src}" download>${path.posix.basename(src)}</a>`], end: endOfOptionalEndTag(lines, index, 'file') }
+      return { lines: [`<a class="file" href="${src}" download>${path.posix.basename(src)}</a>`], end: endOfOptionalEndTag(lines, index, file, 'file') }
     }
     default:
       throw tagError(file, tag.line, includes(CHILD_TAGS, tag.name) || tag.name.startsWith('end') ? 'unexpected' : 'unknown', tag.name)
@@ -128,7 +144,7 @@ const convertBlock = (lines: string[], start: number, file: string, open: Tag | 
   let index = start
   while (index < lines.length) {
     const line = lines[index]
-    const tag = fence === null ? parseTag(line, index) : null
+    const tag = fence === null ? parseTag(line, index, file) : null
     if (tag && open && tag.name === `end${open.name}`) {
       return { lines: output, end: index }
     }
