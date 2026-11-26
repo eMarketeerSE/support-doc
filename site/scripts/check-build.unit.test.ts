@@ -83,6 +83,15 @@ describe('checkBuild', () => {
     ])
   })
 
+  it('should report a GitBook redirect snapshot path that has no page and no redirect', () => {
+    const dist = createDist()
+    writeFile(dist, 'index.html', '<p>home</p>')
+    const problems = checkBuild(dist, PAGES, ['/', '/kb/old-article'], {})
+    assert.deepStrictEqual(problems, [
+      '/kb/old-article was live and now has no page. If you renamed or removed it, add a line to site/redirects.json.',
+    ])
+  })
+
   it('should report a snapshot URL that is a refresh file but not in the redirects list', () => {
     const dist = createDist()
     writeFile(dist, 'old/page.html', REDIRECT_HTML)

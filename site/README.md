@@ -6,7 +6,9 @@ An Astro static site. It builds the eMarketeer support docs from the Markdown fi
 
 - `yarn test` runs the unit tests.
 - `SITE_STAGE=dev yarn build` builds the site into `dist/`. `SITE_STAGE` must be `dev` or `prod`; it sets `robots.txt`.
-- `yarn check-build` checks that every URL in `sitemap-snapshot.txt` is still a page or a redirect.
+- `yarn check-build` checks that every URL in `sitemap-snapshot.txt` and `gitbook-redirects-snapshot.txt` is still a page or a redirect.
+
+`gitbook-redirects-snapshot.txt` lists the redirects that GitBook served before the DNS switch, including the group roots such as `/guides`. The build fails if a redirect is removed by mistake.
 
 ## Rule
 

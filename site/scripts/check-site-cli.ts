@@ -1,12 +1,11 @@
 import { readdirSync, readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { chunk, endsWith, filter, flatMap, forEach, isEmpty, map, size, split } from 'lodash-es'
 import { EMMA_ARTICLE_LINE } from '../src/lib/llms.ts'
-import { readRedirects } from '../src/lib/redirects.ts'
+import { readAllRedirects } from '../src/lib/redirects.ts'
+import { readSnapshotUrls } from '../src/lib/snapshots.ts'
 import { Expect, judgeResponse, listImagePaths, listSiteChecks, type SiteCheck, type SiteResponse } from './check-site.ts'
 
-const SNAPSHOT_FILE = fileURLToPath(new URL('../sitemap-snapshot.txt', import.meta.url))
 const BATCH_SIZE = 16
 const REQUEST_TIMEOUT_MS = 15000
 
@@ -53,9 +52,9 @@ if (!URL.canParse(baseUrl ?? '') || !distDir) {
   console.error('Usage: check-site-cli.ts <baseUrl> <dist>')
   process.exit(1)
 }
-const snapshot = filter(split(readFileSync(SNAPSHOT_FILE, 'utf8'), '\n'), (line) => line !== '')
+const snapshot = readSnapshotUrls()
 if (isEmpty(snapshot)) {
-  console.error(`No URLs in ${SNAPSHOT_FILE}`)
+  console.error('No URLs in the snapshot files')
   process.exit(1)
 }
 const imagePaths = listImagePaths(listHtmlFiles(resolve(distDir)))
@@ -71,7 +70,7 @@ if (isEmpty(llmsPaths)) {
   console.error(`No article lines in ${join(resolve(distDir), 'llms.txt')}`)
   process.exit(1)
 }
-const checks = listSiteChecks(snapshot, readRedirects(), imagePaths, llmsPaths)
+const checks = listSiteChecks(snapshot, readAllRedirects(), imagePaths, llmsPaths)
 const problems: string[] = []
 for (const batch of chunk(checks, BATCH_SIZE)) {
   const results = await Promise.all(map(batch, (check) => fetchProblem(baseUrl, check)))
