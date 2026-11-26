@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, it } from 'node:test'
@@ -21,12 +21,14 @@ const respond = (overrides: Partial<SiteResponse>): SiteResponse => ({
 describe('listImagePaths', () => {
   it('should collect each absolute image src once and skip relative ones', () => {
     const root = mkdtempSync(join(tmpdir(), 'check-site-'))
-    mkdirSync(root, { recursive: true })
-    writeFileSync(join(root, 'a.html'), '<img src="/.gitbook/assets/a.png"><img src="../x.png">')
-    writeFileSync(join(root, 'b.html'), '<img alt="b" src="/.gitbook/assets/a.png"><img src="/changelog/.gitbook/assets/b%20c.png">')
-    const paths = listImagePaths([join(root, 'a.html'), join(root, 'b.html')])
-    rmSync(root, { recursive: true, force: true })
-    assert.deepEqual([...paths].sort(), ['/.gitbook/assets/a.png', '/changelog/.gitbook/assets/b%20c.png'])
+    try {
+      writeFileSync(join(root, 'a.html'), '<img src="/.gitbook/assets/a.png"><img src="../x.png"><img src="//cdn.example.com/y.png">')
+      writeFileSync(join(root, 'b.html'), '<img alt="b" src="/.gitbook/assets/a.png"><img src="/changelog/.gitbook/assets/b%20c.png">')
+      const paths = listImagePaths([join(root, 'a.html'), join(root, 'b.html')])
+      assert.deepEqual([...paths].sort(), ['/.gitbook/assets/a.png', '/changelog/.gitbook/assets/b%20c.png'])
+    } finally {
+      rmSync(root, { recursive: true, force: true })
+    }
   })
 })
 
