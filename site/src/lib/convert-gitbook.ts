@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { dropRightWhile, dropWhile, flatMap, fromPairs, includes, isEmpty, last, map, orderBy } from 'lodash-es'
+import { dropRightWhile, dropWhile, flatMap, fromPairs, includes, isEmpty, last, map } from 'lodash-es'
 
 type Tag = { name: string; attributes: Record<string, string>; line: number }
 type Block = { lines: string[]; end: number }
@@ -10,7 +10,6 @@ const ATTRIBUTE = /([\w-]+)="([^"]*)"/g
 const ANY_TAG = /\{%\s*([\w-]+)/
 const FENCE = /^\s*(`{3,}(?!.*`)|~{3,})/
 const ASK_BUTTON = /<button\b[^>]*\bdata-action="ask"[^>]*>.*?<\/button>/g
-const YOUTUBE_HOSTS = ['youtube.com', 'www.youtube.com', 'm.youtube.com', 'youtu.be']
 const HINT_STYLES = ['info', 'success', 'warning', 'danger']
 const DATE = /^\d{4}-\d{2}-\d{2}$/
 
@@ -103,16 +102,6 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
       const steps = flatMap(children, (child) => ['', ...wrap('<li class="step">', child.lines, '</li>')])
       return { lines: wrap('<ol class="steps" role="list">', steps, '</ol>'), end }
     }
-    case 'tabs': {
-      const { children, end } = convertChildren(lines, index + 1, file, tag, 'tab')
-      for (const child of children) {
-        if (!child.tag.attributes.title) {
-          throw new Error(`${file} line ${child.tag.line}: missing title on GitBook tag {% tab %}`)
-        }
-      }
-      const tabs = flatMap(children, (child) => ['', `#### ${child.tag.attributes.title}`, '', ...trimBlank(child.lines)])
-      return { lines: trimBlank(tabs), end }
-    }
     case 'updates': {
       const { children, end } = convertChildren(lines, index + 1, file, tag, 'update')
       for (const child of children) {
@@ -124,8 +113,7 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
           throw new Error(`${file} line ${child.tag.line}: date "${date}" is not YYYY-MM-DD`)
         }
       }
-      const newestFirst = orderBy(children, (child) => child.tag.attributes.date, 'desc')
-      const updates = flatMap(newestFirst, (child) => [
+      const updates = flatMap(children, (child) => [
         '',
         `<p class="update-date"><time datetime="${child.tag.attributes.date}">${child.tag.attributes.date}</time></p>`,
         '',
@@ -140,21 +128,15 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
       }
       const end = parseTag(lines[index + 1] ?? '', index + 1, file)?.name === 'endembed' ? index + 1 : index
       const parsed = URL.canParse(url) ? new URL(url) : null
-      if (!parsed || !includes(YOUTUBE_HOSTS, parsed.hostname)) {
+      if (parsed?.hostname !== 'www.youtube.com') {
         return { lines: [`<a class="card" href="${url}"></a>`], end }
       }
-      const videoId = parsed.hostname === 'youtu.be' ? parsed.pathname.slice(1) : parsed.pathname === '/watch' ? (parsed.searchParams.get('v') ?? '') : ''
+      const videoId = parsed.searchParams.get('v') ?? ''
       if (!/^[\w-]+$/.test(videoId)) {
         throw new Error(`${file} line ${tag.line}: cannot read the YouTube video id from ${url}`)
       }
-      const start = parsed.searchParams.get('t') ?? parsed.searchParams.get('start')
-      const seconds = start === null ? null : /^(\d+)s?$/.exec(start)?.[1]
-      if (seconds === undefined) {
-        throw new Error(`${file} line ${tag.line}: cannot read the YouTube start time from ${url}`)
-      }
-      const query = seconds === null ? '' : `?start=${seconds}`
       return {
-        lines: [`<iframe class="video" src="https://www.youtube-nocookie.com/embed/${videoId}${query}" title="YouTube video" allowfullscreen loading="lazy"></iframe>`],
+        lines: [`<iframe class="video" src="https://www.youtube-nocookie.com/embed/${videoId}" title="YouTube video" allowfullscreen loading="lazy"></iframe>`],
         end,
       }
     }
@@ -167,7 +149,7 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
       return { lines: [`<a class="file" href="${src}" download>${path.posix.basename(src)}</a>`], end }
     }
     default: {
-      const misplaced = tag.name === 'step' || tag.name === 'tab' || tag.name === 'update' || tag.name === 'column' || tag.name.startsWith('end')
+      const misplaced = tag.name === 'step' || tag.name === 'update' || tag.name === 'column' || tag.name.startsWith('end')
       throw new Error(`${file} line ${tag.line}: ${misplaced ? 'unexpected' : 'unknown'} GitBook tag {% ${tag.name} %}`)
     }
   }

@@ -81,10 +81,10 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should turn tabs into a heading per tab', () => {
-    assert.strictEqual(
-      convert(['{% tabs %}', '{% tab title="Windows" %}', 'Press Ctrl.', '{% endtab %}', '{% tab title="Mac" %}', 'Press Cmd.', '{% endtab %}', '{% endtabs %}']),
-      ['#### Windows', '', 'Press Ctrl.', '', '#### Mac', '', 'Press Cmd.'].join('\n'),
+  it('should fail on tabs, which no published page uses', () => {
+    assert.throws(
+      () => convert(['{% tabs %}', '{% tab title="Windows" %}', 'Press Ctrl.', '{% endtab %}', '{% endtabs %}']),
+      /guides\/x\.md line 1: unknown GitBook tag \{% tabs %\}/,
     )
   })
 
@@ -110,11 +110,8 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should turn a youtu.be embed into a privacy-enhanced iframe', () => {
-    assert.strictEqual(
-      convert(['{% embed url="https://youtu.be/43qNPscck5E" %}', '{% endembed %}']),
-      '<iframe class="video" src="https://www.youtube-nocookie.com/embed/43qNPscck5E" title="YouTube video" allowfullscreen loading="lazy"></iframe>',
-    )
+  it('should turn another YouTube URL form into a link card', () => {
+    assert.strictEqual(convert(['{% embed url="https://youtu.be/43qNPscck5E" %}']), '<a class="card" href="https://youtu.be/43qNPscck5E"></a>')
   })
 
   it('should turn a non-YouTube embed into a link card', () => {
@@ -192,7 +189,7 @@ describe('convertGitbook', () => {
     )
   })
 
-  it('should sort updates newest first', () => {
+  it('should keep updates in file order', () => {
     assert.strictEqual(
       convert([
         '{% updates format="full" %}',
@@ -205,7 +202,7 @@ describe('convertGitbook', () => {
         '{% endupdate %}',
         '{% endupdates %}',
       ]),
-      ['<p class="update-date"><time datetime="2026-11-16">2026-11-16</time></p>', '', 'November.', '', '<p class="update-date"><time datetime="2026-01-26">2026-01-26</time></p>', '', 'January.'].join('\n'),
+      ['<p class="update-date"><time datetime="2026-01-26">2026-01-26</time></p>', '', 'January.', '', '<p class="update-date"><time datetime="2026-11-16">2026-11-16</time></p>', '', 'November.'].join('\n'),
     )
   })
 
@@ -329,17 +326,12 @@ describe('convertGitbook', () => {
       '{% endhint %}',
       '{% endstep %}',
       '{% endstepper %}',
-      '{% tabs %}',
-      '{% tab title="One" %}',
-      'Tab body.',
-      '{% endtab %}',
-      '{% endtabs %}',
       '{% updates format="full" %}',
       '{% update date="2026-01-01" %}',
       'Body.',
       '{% endupdate %}',
       '{% endupdates %}',
-      '{% embed url="https://youtu.be/abc" %}',
+      '{% embed url="https://www.youtube.com/watch?v=abc" %}',
       '{% embed url="https://example.com" %}',
       '{% endembed %}',
       '{% file src="b.png" %}',
@@ -378,10 +370,6 @@ describe('convertGitbook', () => {
         '',
         '</ol>',
         '',
-        '#### One',
-        '',
-        'Tab body.',
-        '',
         '<p class="update-date"><time datetime="2026-01-01">2026-01-01</time></p>',
         '',
         'Body.',
@@ -419,10 +407,6 @@ describe('convertGitbook', () => {
     assert.throws(() => convert(['{% embed url="" %}']), /guides\/x\.md line 1: missing url on GitBook tag \{% embed %\}/)
     assert.throws(() => convert(['{% file src="" %}']), /guides\/x\.md line 1: missing src on GitBook tag \{% file %\}/)
     assert.throws(() => convert(['{% hint style="" %}', 'Text.', '{% endhint %}']), /guides\/x\.md line 1: missing style on GitBook tag \{% hint %\}/)
-    assert.throws(
-      () => convert(['{% tabs %}', '{% tab title="" %}', 'Body.', '{% endtab %}', '{% endtabs %}']),
-      /guides\/x\.md line 2: missing title on GitBook tag \{% tab %\}/,
-    )
     assert.throws(
       () => convert(['{% updates %}', '{% update date="" %}', 'Body.', '{% endupdate %}', '{% endupdates %}']),
       /guides\/x\.md line 2: missing date on GitBook tag \{% update %\}/,
@@ -470,17 +454,6 @@ describe('convertGitbook', () => {
     assert.strictEqual(convert(['{% embed url="https://notyoutube.com/watch?v=x" %}']), '<a class="card" href="https://notyoutube.com/watch?v=x"></a>')
   })
 
-  it('should keep the start time of a YouTube embed', () => {
-    assert.strictEqual(
-      convert(['{% embed url="https://youtu.be/43qNPscck5E?t=30" %}', '{% embed url="https://m.youtube.com/watch?v=XN8TcivLJu4&start=45s" %}']),
-      [
-        '<iframe class="video" src="https://www.youtube-nocookie.com/embed/43qNPscck5E?start=30" title="YouTube video" allowfullscreen loading="lazy"></iframe>',
-        '',
-        '<iframe class="video" src="https://www.youtube-nocookie.com/embed/XN8TcivLJu4?start=45" title="YouTube video" allowfullscreen loading="lazy"></iframe>',
-      ].join('\n'),
-    )
-  })
-
   it('should throw with the file and line for a YouTube embed without a video id', () => {
     assert.throws(
       () => convert(['# Title', '{% embed url="https://www.youtube.com/playlist?list=PL123" %}']),
@@ -501,7 +474,6 @@ describe('convertGitbook', () => {
 
   it('should throw with the file and line for an empty container tag', () => {
     assert.throws(() => convert(['# Title', '{% stepper %}', '', '{% endstepper %}']), /guides\/x\.md line 2: empty GitBook tag \{% stepper %\}/)
-    assert.throws(() => convert(['{% tabs %}', '{% endtabs %}']), /guides\/x\.md line 1: empty GitBook tag \{% tabs %\}/)
     assert.throws(() => convert(['{% updates format="full" %}', '{% endupdates %}']), /guides\/x\.md line 1: empty GitBook tag \{% updates %\}/)
     assert.throws(() => convert(['{% columns %}', '{% endcolumns %}']), /guides\/x\.md line 1: empty GitBook tag \{% columns %\}/)
   })
