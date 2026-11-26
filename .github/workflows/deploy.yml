@@ -15,15 +15,14 @@ permissions:
   id-token: write
   contents: read
 
-concurrency:
-  group: deploy-dev
-  cancel-in-progress: false
-
 jobs:
   deploy-dev:
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     environment: dev
+    concurrency:
+      group: deploy-dev
+      cancel-in-progress: false
     defaults:
       run:
         shell: bash
@@ -81,8 +80,11 @@ jobs:
           done <<< "$folders"
       - id: invalidate
         run: |
-          aws cloudfront create-invalidation \
-            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*"
+          invalidation_id="$(aws cloudfront create-invalidation \
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --paths "/*" \
+            --query Invalidation.Id --output text)"
+          aws cloudfront wait invalidation-completed \
+            --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --id "$invalidation_id"
         env:
           CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}
       - id: check-site
@@ -91,6 +93,7 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
       - id: notify
         if: failure() && (github.ref == 'refs/heads/main' || inputs.notify)
+        working-directory: .
         run: |
           failed_step="$(jq -r 'to_entries | map(select(.value.outcome == "failure")) | first | .key' <<< "$STEPS")"
           body="$(jq -n --arg text "Support site deploy (dev) failed at ${SHA:0:7}, step $failed_step: $RUN_URL" '{text: $text}')"
