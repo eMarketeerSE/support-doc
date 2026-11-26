@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import matter from 'gray-matter'
-import { chain, compact, filter, find, flatMap, join, last, size, some } from 'lodash-es'
+import { assign, chain, compact, filter, find, flatMap, join, last, map, size, some } from 'lodash-es'
 import { readNavIcon } from './nav-icons'
 
 export enum Space {
@@ -49,12 +49,14 @@ export const parseSummary = (
   space: Space,
   readDescription: (file: string) => string,
   readIcon: (file: string) => string | null,
-): { pages: SitePage[]; nav: NavGroup[] } => {
+): { pages: SitePage[]; nav: NavGroup[]; groupRoots: Record<string, string> } => {
   const prefix = SPACE_PREFIX[space] === '/' ? '' : SPACE_PREFIX[space]
   const summaryDirectory = path.posix.dirname(SPACE_SUMMARY[space])
   const pages: SitePage[] = []
   const nav: NavGroup[] = [{ heading: null, items: [] }]
+  const groupRoots: Record<string, string> = {}
   let group: string | null = null
+  let pendingGroupRoot: string | null = null
   let names: string[] = []
   let parents: NavItem[] = []
 
@@ -69,6 +71,7 @@ export const parseSummary = (
       if (group === '') {
         throw new Error(`${lineLabel}: heading has no letters or digits: ${line}`)
       }
+      pendingGroupRoot = `${prefix}/${group}`
       names = []
       parents = []
       nav.push({ heading: heading[1], items: [] })
@@ -102,6 +105,10 @@ export const parseSummary = (
       throw new Error(`Duplicate url ${url} for ${file}`)
     }
     pages.push({ url, file, title: entry[2], description: readDescription(file), space })
+    if (pendingGroupRoot !== null) {
+      groupRoots[pendingGroupRoot] = url
+      pendingGroupRoot = null
+    }
 
     const item: NavItem = { title: entry[2], url, icon: level === 0 ? readIcon(file) : null, children: [] }
     parents = parents.slice(0, level)
@@ -114,7 +121,7 @@ export const parseSummary = (
     parents.push(item)
   }
 
-  return { pages, nav: filter(nav, (navGroup) => navGroup.heading !== null || navGroup.items.length > 0) }
+  return { pages, nav: filter(nav, (navGroup) => navGroup.heading !== null || navGroup.items.length > 0), groupRoots }
 }
 
 const readFrontMatter = (file: string): Record<string, unknown> => {
@@ -152,6 +159,9 @@ const readSummaryOf = (space: Space) =>
   parseSummary(readFileSync(path.join(REPO_ROOT, SPACE_SUMMARY[space]), 'utf8'), space, readDescriptionFromFile, readIconFromFile)
 
 export const readSpace = (space: Space): SitePage[] => readSummaryOf(space).pages
+
+export const readGroupRoots = (): Record<string, string> =>
+  assign({}, ...map(Object.values(Space), (space) => readSummaryOf(space).groupRoots))
 
 export const readNav = (space: Space): NavGroup[] => readSummaryOf(space).nav
 

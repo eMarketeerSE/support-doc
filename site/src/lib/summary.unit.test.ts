@@ -160,6 +160,34 @@ describe('icons in the nav', () => {
   })
 })
 
+describe('parseSummary group roots', () => {
+  it('should map each group url prefix to the url of its first page', () => {
+    const summary = [
+      '* [Home](overview.md)',
+      '',
+      '## Getting started',
+      '',
+      '* [Basics](getting-started/basics/README.md)',
+      '  * [Send](getting-started/basics/send.md)',
+      '',
+      '## Kom igång nu',
+      '',
+      '* [Intro](intro.md)',
+    ].join('\n')
+    const { groupRoots } = parseSummary(summary, Space.English, noDescription, noIcon)
+    assert.deepStrictEqual(groupRoots, {
+      '/getting-started': '/getting-started/basics',
+      '/kom-igang-nu': '/kom-igang-nu/intro',
+    })
+  })
+
+  it('should prefix the group roots of the Swedish space', () => {
+    const summary = ['* [Hem](overview.md)', '', '## Guider', '', '* [Guider](guides.md)'].join('\n')
+    const { groupRoots } = parseSummary(summary, Space.Swedish, noDescription, noIcon)
+    assert.deepStrictEqual(groupRoots, { '/docs/docs_se/guider': '/docs/docs_se/guider/guides' })
+  })
+})
+
 describe('isNavItemOpen', () => {
   const nav = parseSummary(
     [
