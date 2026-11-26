@@ -3,7 +3,7 @@ import { mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { describe, it } from 'node:test'
-import { filter, map } from 'lodash-es'
+import { filter, includes, map } from 'lodash-es'
 import { CSP, Expect, judgeResponse, listImagePaths, listSiteChecks, MISSING_PATH, type SiteResponse } from './check-site.ts'
 
 const SITE_HTML = '<html data-site="support-doc"><p>page</p></html>'
@@ -84,8 +84,8 @@ describe('judgeResponse', () => {
   it('should fail a markdown file served as text/html and name the content type', () => {
     const response = respond({ headers: { 'content-type': 'text/html' } })
     const problem = judgeResponse({ path: '/x.md', expect: Expect.Markdown }, response)
-    assert.ok(problem?.includes('/x.md'))
-    assert.ok(problem?.includes('text/html'))
+    assert.ok(includes(problem, '/x.md'))
+    assert.ok(includes(problem, 'text/html'))
   })
 
   it('should fail a markdown file with a missing content type', () => {
@@ -125,8 +125,8 @@ describe('judgeResponse', () => {
 
   it('should name the path and the status in a problem line', () => {
     const problem = judgeResponse({ path: '/x', expect: Expect.Page }, respond({ status: 404 }))
-    assert.ok(problem?.includes('/x'))
-    assert.ok(problem?.includes('404'))
+    assert.ok(includes(problem, '/x'))
+    assert.ok(includes(problem, '404'))
   })
 
   it('should pass a redirect page', () => {
