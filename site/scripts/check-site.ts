@@ -70,8 +70,12 @@ export const judgeResponse = (check: SiteCheck, response: SiteResponse): string 
     }
     return hasMarker ? null : `${check.path} (${check.expect}): body has no ${SITE_MARKER}`
   }
-  if (response.headers['content-security-policy'] !== CSP) {
-    return `${check.path} (${check.expect}): content-security-policy is ${response.headers['content-security-policy']}, expected ${CSP}`
+  if (check.expect === Expect.Headers) {
+    if (response.headers['content-security-policy'] !== CSP) {
+      return `${check.path} (${check.expect}): content-security-policy is ${response.headers['content-security-policy']}, expected ${CSP}`
+    }
+    return 'x-frame-options' in response.headers ? `${check.path} (${check.expect}): x-frame-options header is set` : null
   }
-  return 'x-frame-options' in response.headers ? `${check.path} (${check.expect}): x-frame-options header is set` : null
+  const unhandled: never = check.expect
+  throw new Error(`Unknown check ${unhandled} for ${check.path}`)
 }
