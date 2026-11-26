@@ -56,6 +56,11 @@ describe('renderMarkdown', () => {
     assert.equal(output.split('\n')[6], '<td><a href="https://support.emarketeer.com/guides/other.md">Other</a> <a href="https://example.com/x">x</a></td>')
   })
 
+  it('should leave src on an iframe or a source element unchanged', () => {
+    const output = renderMarkdown(intro, '# Intro\n\n<iframe class="video" src="x"></iframe><video><source src="y"></video>\n', pages, ROOT)
+    assert.equal(output.split('\n')[6], '<iframe class="video" src="x"></iframe><video><source src="y"></video>')
+  })
+
   it('should point a same-page fragment link at the .md file of the page', () => {
     const output = renderMarkdown(intro, '# Intro\n\n[Below](#part)\n', pages, ROOT)
     assert.equal(output.split('\n')[6], '[Below](https://support.emarketeer.com/guides/intro.md#part)')

@@ -1,17 +1,17 @@
 import { compact, dropWhile, find, join, split, startsWith } from 'lodash-es'
 import { nextFence, trimBlank } from './convert-gitbook'
-import { isExternal, resolveLink } from './links'
+import { WEB_LINK, isExternal, resolveLink } from './links'
 import { mdPath } from './llms'
 import { SITE_URL } from './site-files'
 import type { SitePage } from './summary'
 
 const NOTE = `> For the complete documentation index, see [llms.txt](${SITE_URL}/llms.txt).`
 const CARD = /^<a class="card" href="([^"]*)"><\/a>$/
-const LINK_OR_CODE = /(`+).*?\1|\]\(([^)\s]+)(?=[)\s])|\b(href|src)="([^"]*)"/g
-const WEB_LINK = /^https?:/i
+const LINK_OR_CODE = /(`+).*?\1|\]\(([^)\s]+)(?=[)\s])|<(a|img)\s[^>]*>/g
+const HREF = /(\shref=")([^"]*)"/
+const SRC = /(\ssrc=")([^"]*)"/
 
-const absoluteTarget = (href: string, page: SitePage, pages: SitePage[], root: string): string => {
-  const resolved = resolveLink(href, page, pages, root)
+const absoluteUrl = (resolved: string, page: SitePage, pages: SitePage[]): string => {
   if (isExternal(resolved)) {
     return resolved
   }
@@ -25,7 +25,7 @@ const renderCard = (href: string, page: SitePage, pages: SitePage[], root: strin
   const linkedPage = find(pages, { url: split(resolved, '#')[0] })
   if (linkedPage) {
     const description = linkedPage.description === '' ? '' : `: ${linkedPage.description}`
-    return `- [${linkedPage.title}](${absoluteTarget(href, page, pages, root)})${description}`
+    return `- [${linkedPage.title}](${absoluteUrl(resolved, page, pages)})${description}`
   }
   if (!WEB_LINK.test(resolved)) {
     throw new Error(`${page.file}: card ${href} is not a page or an external URL`)
@@ -38,12 +38,15 @@ const rewriteLine = (line: string, page: SitePage, pages: SitePage[], root: stri
   if (card) {
     return renderCard(card[1], page, pages, root)
   }
-  return line.replace(LINK_OR_CODE, (match, _code, markdownHref?: string, attribute?: string, htmlHref?: string) => {
+  return line.replace(LINK_OR_CODE, (match, _code, markdownHref?: string, tagName?: string) => {
     if (markdownHref !== undefined) {
-      return `](${absoluteTarget(markdownHref, page, pages, root)}`
+      return `](${absoluteUrl(resolveLink(markdownHref, page, pages, root), page, pages)}`
     }
-    if (attribute !== undefined && htmlHref !== undefined) {
-      return `${attribute}="${absoluteTarget(htmlHref, page, pages, root)}"`
+    if (tagName !== undefined) {
+      return match.replace(
+        tagName === 'a' ? HREF : SRC,
+        (_attribute, start: string, href: string) => `${start}${absoluteUrl(resolveLink(href, page, pages, root), page, pages)}"`,
+      )
     }
     return match
   })

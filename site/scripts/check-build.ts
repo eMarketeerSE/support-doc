@@ -1,9 +1,12 @@
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
-import { flatMap, includes, keys, split, startsWith, toPairs, union } from 'lodash-es'
+import { endsWith, filter, flatMap, includes, keys, split, startsWith, toPairs, union } from 'lodash-es'
+import { nextFence } from '../src/lib/convert-gitbook.ts'
 import { EMMA_ARTICLE_LINE } from '../src/lib/llms.ts'
 
 const EMMA_SECTIONS = ['## Support docs', '## Changelog', '## Legal']
+const MARKDOWN_TARGET_OR_CODE = /(`+).*?\1|\]\(([^)\s]+)/g
+const ABSOLUTE_TARGET = /^(https?:|#|mailto:)/
 
 export const isRedirectPage = (html: string): boolean =>
   html.includes('<title>Redirecting to:') && html.includes('<meta http-equiv="refresh"')
@@ -20,6 +23,24 @@ export const checkLlmsTxt = (text: string): string[] =>
         : [],
     )
   })
+
+export const checkMarkdownLinks = (file: string, text: string): string[] => {
+  const problems: string[] = []
+  let fence: string | null = null
+  for (const line of split(text, '\n')) {
+    const insideCode = fence !== null
+    fence = nextFence(line, fence)
+    if (insideCode || fence !== null) {
+      continue
+    }
+    for (const match of line.matchAll(MARKDOWN_TARGET_OR_CODE)) {
+      if (match[2] !== undefined && !ABSOLUTE_TARGET.test(match[2])) {
+        problems.push(`${file} has a relative link: ${match[2]}`)
+      }
+    }
+  }
+  return problems
+}
 
 export const checkBuild = (dist: string, snapshot: string[], redirects: Record<string, string>): string[] => {
   const missingFiles = flatMap(['sitemap.xml', 'robots.txt', 'llms.txt'], (name) =>
@@ -50,5 +71,9 @@ export const checkBuild = (dist: string, snapshot: string[], redirects: Record<s
   const llmsProblems = existsSync(join(dist, 'llms.txt'))
     ? checkLlmsTxt(readFileSync(join(dist, 'llms.txt'), 'utf8'))
     : []
-  return [...missingFiles, ...llmsProblems, ...urlProblems, ...targetProblems]
+  const markdownProblems = flatMap(
+    filter(readdirSync(dist, { recursive: true, encoding: 'utf8' }), (file) => endsWith(file, '.md')),
+    (file) => checkMarkdownLinks(`dist/${file}`, readFileSync(join(dist, file), 'utf8')),
+  )
+  return [...missingFiles, ...llmsProblems, ...markdownProblems, ...urlProblems, ...targetProblems]
 }

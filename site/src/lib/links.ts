@@ -13,6 +13,7 @@ export const ASSET_URL_PREFIX: Record<string, string> = {
   'legal/.gitbook/assets/': `${SPACE_PREFIX[Space.Legal]}/.gitbook/assets/`,
 }
 const SCHEME = /^[a-z][a-z0-9+.-]*:/i
+export const WEB_LINK = /^https?:/i
 const GITBOOK_HOST = /(^|\.)gitbook\.(com|io)$/
 const GITBOOK_SPACE_PATH = /^\/(?:o\/[^/]+\/)?s\/([^/]+)(\/.*)?$/
 

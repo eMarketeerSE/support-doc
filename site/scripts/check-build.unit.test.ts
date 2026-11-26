@@ -157,4 +157,20 @@ describe('checkBuild', () => {
     writeFile(dist, 'llms.txt', '# eMarketeer Support\n\n## Other\n\n- not a link\n')
     assert.deepEqual(checkBuild(dist, [], {}), [])
   })
+
+  it('should report a relative Markdown link in a .md file with the file name', () => {
+    const dist = createDist()
+    writeFile(dist, 'guides/a.md', '# A\n\nSee [B](../b.md) and [C](https://support.emarketeer.com/c.md).\n')
+    assert.deepEqual(checkBuild(dist, [], {}), ['dist/guides/a.md has a relative link: ../b.md'])
+  })
+
+  it('should accept absolute, fragment and mailto links and links inside code in a .md file', () => {
+    const dist = createDist()
+    writeFile(
+      dist,
+      'guides/a.md',
+      ['# A', '', '[x](https://a.com) [y](http://b.com) [z](#part) [m](mailto:a@b.com) `[c](c.md)`', '', '```', '[d](d.md)', '```', ''].join('\n'),
+    )
+    assert.deepEqual(checkBuild(dist, [], {}), [])
+  })
 })
