@@ -1,0 +1,13 @@
+---
+const RESULT_TEMPLATE = `
+<a class="pf-searchbox-result" id="{{ aria.result_id }}" href="{{ meta.page_url | safeUrl }}" role="option" aria-selected="false" aria-labelledby="{{ aria.title_id }}"{{#if excerpt}} aria-describedby="{{ aria.excerpt_id }}"{{/if}}>
+  <p class="pf-searchbox-result-title" id="{{ aria.title_id }}">{{ meta.title }}</p>
+  {{#if excerpt}}
+  <p class="pf-searchbox-result-excerpt" id="{{ aria.excerpt_id }}">{{+ excerpt +}}</p>
+  {{/if}}
+</a>
+`
+---
+<pagefind-searchbox class="site-search">
+  <script is:inline type="text/pagefind-template" set:html={RESULT_TEMPLATE} />
+</pagefind-searchbox>

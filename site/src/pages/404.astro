@@ -1,5 +1,6 @@
 ---
 import '../styles/site.css'
+import Search from '../components/Search.astro'
 ---
 <!doctype html>
 <html lang="en" data-site="support-doc">
@@ -9,9 +10,12 @@ import '../styles/site.css'
     <title>Page not found - eMarketeer Support</title>
     <link rel="icon" href="/favicon.ico" />
     <script is:inline src="/404-language.js"></script>
+    <link rel="stylesheet" href="/pagefind/pagefind-component-ui.css" />
+    <script is:inline type="module" src="/pagefind/pagefind-component-ui.js"></script>
   </head>
   <body>
     <main class="not-found">
+      <Search />
       <section data-language="en">
         <h1>Page not found</h1>
         <p><a href="/">Go to eMarketeer Support</a></p>
