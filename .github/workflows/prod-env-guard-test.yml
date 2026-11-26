@@ -1,0 +1,11 @@
+name: prod-env-guard-test
+on: pull_request
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  try-prod:
+    runs-on: ubuntu-latest
+    environment: prod
+    steps:
+      - run: echo "this step must never run"
