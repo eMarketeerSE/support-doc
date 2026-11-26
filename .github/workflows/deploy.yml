@@ -19,6 +19,7 @@ jobs:
   deploy-dev:
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     environment: dev
     concurrency:
       group: deploy-dev
@@ -92,14 +93,16 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
       - id: notify
-        if: failure() && (github.ref == 'refs/heads/main' || inputs.notify)
+        if: (failure() || cancelled()) && (github.ref == 'refs/heads/main' || inputs.notify)
         working-directory: .
         run: |
-          failed_step="$(jq -r 'to_entries | map(select(.value.outcome == "failure")) | first | .key' <<< "$STEPS")"
-          body="$(jq -n --arg text "Support site deploy (dev) failed at ${SHA:0:7}, step $failed_step: $RUN_URL" '{text: $text}')"
-          curl --fail -X POST -H 'Content-Type: application/json' --data "$body" "$SLACK_WEBHOOK"
+          failed_step="$(jq -r 'to_entries | map(select(.value.outcome == "failure")) | first | .key // "unknown (see run)"' <<< "$STEPS")"
+          if [ "$JOB_STATUS" = "cancelled" ]; then outcome="was cancelled"; else outcome="failed"; fi
+          body="$(jq -n --arg text "Support site deploy (dev) $outcome at ${SHA:0:7}, step $failed_step: $RUN_URL" '{text: $text}')"
+          curl --fail-with-body --max-time 20 --retry 3 -X POST -H 'Content-Type: application/json' --data "$body" "$SLACK_WEBHOOK"
         env:
           STEPS: ${{ toJSON(steps) }}
+          JOB_STATUS: ${{ job.status }}
           SHA: ${{ github.event.pull_request.head.sha || github.sha }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           SLACK_WEBHOOK: ${{ secrets.SUPPORT_SITE_SLACK_WEBHOOK }}
