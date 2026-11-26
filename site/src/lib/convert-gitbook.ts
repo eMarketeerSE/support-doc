@@ -106,7 +106,7 @@ const convertTag = (lines: string[], index: number, file: string, tag: Tag): Blo
     case 'stepper': {
       const { children, end } = convertChildren(lines, index + 1, file, tag, 'step')
       const steps = flatMap(children, (child) => ['', ...wrap('<li class="step">', child.lines, '</li>')])
-      return { lines: wrap('<ol class="steps">', steps, '</ol>'), end }
+      return { lines: wrap('<ol class="steps" role="list">', steps, '</ol>'), end }
     }
     case 'tabs': {
       const { children, end } = convertChildren(lines, index + 1, file, tag, 'tab')

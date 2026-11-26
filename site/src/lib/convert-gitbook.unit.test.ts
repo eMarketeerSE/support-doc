@@ -30,7 +30,7 @@ describe('convertGitbook', () => {
         '{% endstepper %}',
       ]),
       [
-        '<ol class="steps">',
+        '<ol class="steps" role="list">',
         '',
         '<li class="step">',
         '',
@@ -153,7 +153,7 @@ describe('convertGitbook', () => {
         '{% endstepper %}',
       ]),
       [
-        '<ol class="steps">',
+        '<ol class="steps" role="list">',
         '',
         '<li class="step">',
         '',
