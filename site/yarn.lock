@@ -570,10 +570,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz#b21affb804cc167c133d95f45b3a1dc1323b9a87"
   integrity sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==
 
-"@fontsource-variable/open-sans@5.3.0":
+"@fontsource-variable/roboto@5.3.0":
   version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@fontsource-variable/open-sans/-/open-sans-5.3.0.tgz#60519bc6a61244acb55015ee113e98d5d4e48617"
-  integrity sha512-VOfhZfLIOBVa6K/dTEu7scqQXYdGa4jBX8quFpQ0S6574B+W2EOBJf9PkqyVtMEI7WWIWNEbpvPc3vY1mN2mmQ==
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/roboto/-/roboto-5.3.0.tgz#3ddf845c018b0ea9d15b36e06515d0ebdb02f49e"
+  integrity sha512-BoaaZiQf8fgtxv07KXkTwx1bKz/EoqIlTXq2OOKKXINxp6qXWdnlChqV+hSaDANS49yyUASFl3OVBMMDTCIHFA==
 
 "@img/colour@^1.1.0":
   version "1.1.0"
