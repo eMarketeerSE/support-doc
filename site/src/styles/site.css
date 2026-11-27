@@ -1,31 +1,32 @@
 :root {
   color-scheme: light dark;
-  --navy: #1f2937;
-  --blue: #3b78b8;
-  --rust: #b04530;
-  --orange: #f5a043;
-  --beige: #e5ddd0;
-  --off-white: #f2ede6;
-  --warm-gray: #c4b9a6;
+  --midnight: #1a2332;
+  --slate: #2a3645;
+  --orange: #f28d47;
+  --orange-text: #b5561a;
+  --teal: #3ea89a;
+  --coral: #e86a5c;
+  --line: #e5e7eb;
+  --off-white: #f7f7f4;
   --bg-page: #ffffff;
   --bg-section: var(--off-white);
-  --text-heading: var(--navy);
-  --text-body: #4b5563;
-  --text-muted: #665e51;
-  --link: var(--blue);
-  --border: var(--beige);
-  --card-hover: var(--warm-gray);
-  --step-number-bg: var(--navy);
+  --text-heading: var(--midnight);
+  --text-body: var(--slate);
+  --text-muted: #6b7280;
+  --link: var(--orange-text);
+  --border: var(--line);
+  --card-hover: var(--orange);
+  --step-number-bg: var(--midnight);
   --step-number-text: #ffffff;
-  --hint-info-bg: #eaf2fa;
-  --hint-info-border: var(--blue);
+  --hint-info-bg: #eaf6f4;
+  --hint-info-border: var(--teal);
   --hint-success-bg: #e9f5ec;
   --hint-success-border: #2f8a4c;
-  --hint-warning-bg: #fdf1e2;
+  --hint-warning-bg: #fef1e7;
   --hint-warning-border: var(--orange);
-  --hint-danger-bg: #f8e8e4;
-  --hint-danger-border: var(--rust);
-  --hint-link: #2a62a0;
+  --hint-danger-bg: #fcecea;
+  --hint-danger-border: var(--coral);
+  --hint-link: var(--orange-text);
   --radius: 12px;
   --header-height: 56px;
   --layout-max: 1280px;
@@ -36,24 +37,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-page: #111827;
-    --bg-section: #1f2937;
-    --text-heading: #f3f4f6;
+    --bg-page: var(--midnight);
+    --bg-section: var(--slate);
+    --text-heading: #ffffff;
     --text-body: #d1d5db;
     --text-muted: #9ca3af;
-    --link: #7fb2e5;
-    --border: #374151;
-    --card-hover: #6b7280;
-    --step-number-bg: #7fb2e5;
-    --step-number-text: #111827;
-    --hint-info-bg: #172a3f;
-    --hint-info-border: #7fb2e5;
+    --link: var(--orange);
+    --border: #3a4757;
+    --card-hover: var(--orange);
+    --step-number-bg: var(--orange);
+    --step-number-text: var(--midnight);
+    --hint-info-bg: #1d3a3a;
+    --hint-info-border: var(--teal);
     --hint-success-bg: #14301f;
     --hint-success-border: #5cbf7a;
     --hint-warning-bg: #3a2a14;
     --hint-warning-border: var(--orange);
     --hint-danger-bg: #3d1d17;
-    --hint-danger-border: #e07a63;
+    --hint-danger-border: var(--coral);
     --hint-link: var(--link);
   }
 }
