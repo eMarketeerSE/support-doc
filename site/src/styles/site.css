@@ -327,7 +327,7 @@ article h1 + .update-date { margin-top: 1em; }
 .not-found { max-width: 640px; margin: 20vh auto 0; padding: 0 16px; }
 html:not([data-language="sv"]) [data-language="sv"], html[data-language="sv"] [data-language="en"] { display: none; }
 .not-found h1 { color: var(--text-heading); }
-.not-found .site-title { width: fit-content; margin-bottom: 24px; }
+.not-found .site-title { width: fit-content; margin-bottom: 24px; color: var(--text-heading); }
 .not-found .site-search { margin-bottom: 32px; }
 
 @media (min-width: 768px) {

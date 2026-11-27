@@ -18,11 +18,17 @@ import Search from '../components/Search.astro'
   <body>
     <main class="not-found">
       <a class="site-title" data-language="en" href="/">
-        <img src="/logo.svg" alt="eMarketeer" width="123" height="32" />
+        <picture>
+          <source srcset="/logo.svg" media="(prefers-color-scheme: dark)" />
+          <img src="/logo-dark.svg" alt="eMarketeer" width="123" height="32" />
+        </picture>
         <span>Support</span>
       </a>
       <a class="site-title" data-language="sv" href="/docs/docs_se">
-        <img src="/logo.svg" alt="eMarketeer" width="123" height="32" />
+        <picture>
+          <source srcset="/logo.svg" media="(prefers-color-scheme: dark)" />
+          <img src="/logo-dark.svg" alt="eMarketeer" width="123" height="32" />
+        </picture>
         <span>Support</span>
       </a>
       <Search />
