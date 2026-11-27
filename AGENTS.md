@@ -1,13 +1,13 @@
 # AI Authoring Contract for eMarketeer Support Docs
 
-This repository is the Git-Sync backing store for the eMarketeer GitBook space. Commits to `main` publish immediately to production. Be precise.
+This repository is the source of the eMarketeer support site, support.emarketeer.com. Each push to `main` deploys to production in about 5 minutes. Be precise.
 
 ## What this repo is
 
-- Markdown files in this repo are rendered as pages on the eMarketeer support GitBook.
-- The site has two language variants: **English** (repo root) and **Swedish** (`sv/` subfolder). Each maps to its own GitBook Space; a language picker switches between them.
+- Markdown files in this repo are rendered as pages on the support site. The site is an Astro build in `site/`, deployed by `.github/workflows/deploy.yml`.
+- The site has two language variants: **English** (repo root) and **Swedish** (`sv/` subfolder). A language picker switches between them.
 - `SUMMARY.md` defines the English navigation; `sv/SUMMARY.md` defines the Swedish navigation.
-- `.gitbook.yaml` configures the English space; `sv/.gitbook.yaml` configures the Swedish space.
+- The `.gitbook.yaml` files are left over from GitBook. The site does not read them.
 - `sv/CLAUDE.md` holds Swedish-specific glossary and style rules. Read it whenever you touch any file under `sv/`.
 
 ## File layout
@@ -15,9 +15,9 @@ This repository is the Git-Sync backing store for the eMarketeer GitBook space. 
 - `getting-started/` — onboarding articles for new users.
 - `knowledge-base/` — feature guides and how-tos, grouped by topic in subfolders.
 - `documentation/` — technical reference, grouped by topic in subfolders.
-- `legal/` — legal docs. Its own GitBook space (has `legal/SUMMARY.md`), English-only.
-- `changelog/` — release notes. Its own GitBook space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
-- `.gitbook/assets/` — English images. `sv/.gitbook/assets/` — Swedish images. Each GitBook space only reads files inside its own folder, so the Swedish space cannot see the root `.gitbook/assets/`; every image a Swedish article uses must also exist in `sv/.gitbook/assets/`. See Images below.
+- `legal/` — legal docs. Its own space (has `legal/SUMMARY.md`), English-only.
+- `changelog/` — release notes. Its own space (has `changelog/SUMMARY.md`), English-only. See Linking between spaces.
+- `.gitbook/assets/` — English images. `sv/.gitbook/assets/` — Swedish images. Each space keeps its images in its own folder, so every image a Swedish article uses must also exist in `sv/.gitbook/assets/`. See Images below.
 - `assets/<article-slug>/` — leftover from the migration import. Not used by articles; do not add to it or link to it. Scheduled for cleanup.
 - `sv/` — Swedish variant. Mirrors the English structure exactly. There is no `sv/legal/`: legal stays English-only.
 
@@ -47,13 +47,11 @@ Every space keeps its images flat in its own `.gitbook/assets/` folder:
 
 ## Linking between spaces
 
-This site is published as more than one GitBook **space**: the main docs space (the repo root, with its own `SUMMARY.md`) and a separate **changelog** space (the `changelog/` folder, which has its own `changelog/SUMMARY.md`).
+The site has four spaces, each with its own `SUMMARY.md`: English (the repo root), Swedish (`sv/`), changelog (`changelog/`) and legal (`legal/`).
 
-Relative markdown paths (`../documentation/...`, `../knowledge-base/...`) only resolve **within** one space. A relative link that crosses from one space into another will break.
+Link to another page with a relative path to its Markdown file, also when the page is in another space. Example: from `changelog/2025.md`, link to `../documentation/forms/the-form-component.md`. The build turns the path into the page URL. It fails on a link to a file that no `SUMMARY.md` lists.
 
-For cross-space links, use GitBook's internal URL form `https://app.gitbook.com/s/<spaceId>/<published-path>`. The docs space ID is `0ywqCs3au1x0DqPhEJTR`, e.g. `https://app.gitbook.com/s/0ywqCs3au1x0DqPhEJTR/guides/guides/forms/the-form-component`. Picking the target page in the GitBook editor's link dialog produces this format automatically. Note the published path does not mirror the repo folders (`documentation/forms/the-form-component.md` publishes under `/guides/guides/forms/the-form-component`), so confirm the real URL rather than guessing.
-
-Links **within** a single space (docs → docs, or changelog → changelog) stay as normal relative paths.
+Do not add `https://app.gitbook.com/s/...` links. The build still maps the old ones in the text. When you edit an article that has one, replace it with the relative path.
 
 ## Bilingual policy
 
@@ -172,26 +170,26 @@ If a request is ambiguous — which section, what audience, conflicting facts in
 
 ## Publishing flow
 
-After a content commit, push to `origin/main`. GitBook syncs within ~1 minute.
+After a content commit, push to `origin/main`. The `deploy` workflow builds the site and publishes it in about 5 minutes.
 
 ```bash
 git push origin main
 ```
 
-After each push, wait for the `site-check` run of the pushed commit:
+After each push, wait for the `deploy` run of the pushed commit:
 
 ```bash
-gh run list --workflow site-check --commit "$(git rev-parse HEAD)" --json databaseId --jq '.[0].databaseId'
+gh run list --workflow deploy.yml --commit "$(git rev-parse HEAD)" --json databaseId --jq '.[0].databaseId'
 gh run watch <id> --exit-status
 ```
 
-If the run is not listed yet, wait a few seconds and list again. If it fails, read its log, fix what it lists, and push again. If `gh` is not installed or not logged in, tell the user that the check could not be read and that a developer must look at it.
+If the run is not listed yet, wait a few seconds and list again. The change is live when the run passes. If the run fails, the change may not be live, and the run posts a message in the #support-site Slack channel. Read its log, fix what it lists, and push again. If `gh` is not installed or not logged in, tell the user that the check could not be read and that a developer must look at it.
 
 ## Working with a non-technical editor
 
 Non-technical team members edit the site through Codex, following `EDITING-GUIDE.md`. They do not know Git. When the user says they are editing the support site, or the session is clearly for that:
 
 - Handle all Git steps silently. Describe results in plain words ("published to the support site"), not Git terms.
-- Before every push to `main`, summarize the change in plain words and ask for a yes. It goes live within about a minute.
-- After each push, give the support site link and say it updates in about a minute.
+- Before every push to `main`, summarize the change in plain words and ask for a yes. It goes live in about 5 minutes.
+- After each push, wait for the `deploy` run. Then give the support site link. If the run fails, say that the change is not live yet and that a developer sees the failure in #support-site.
 - To undo a published change, revert the commit and ask before pushing the revert.

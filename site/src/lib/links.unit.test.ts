@@ -36,6 +36,10 @@ describe('resolveLink', () => {
     assert.strictEqual(resolveLink('other.md', intro, pages, ROOT), '/guides/other')
   })
 
+  it('should map a relative .md link into another space to the URL of its file', () => {
+    assert.strictEqual(resolveLink('../changelog/2025.md#march', intro, pages, ROOT), '/changelog/2025#march')
+  })
+
   it('should keep the fragment of a page link', () => {
     assert.strictEqual(resolveLink('other.md#step-2', intro, pages, ROOT), '/guides/other#step-2')
   })

@@ -4,7 +4,7 @@ This guide explains how to change the eMarketeer support site with Claude Code. 
 
 ## How it works
 
-Every change you ask Claude for goes to the live support site at support.emarketeer.com. Customers see it about one minute after it is published.
+Every change you ask Claude for goes to the live support site at support.emarketeer.com. Customers see it about 5 minutes after it is published.
 
 Because of that, Claude always shows you what it changed and asks before it publishes. Nothing goes live until you say yes.
 
@@ -39,21 +39,22 @@ When Claude is done, it will:
 
 1. Tell you in plain words what it changed.
 2. Ask if it can publish the change. Read the summary and answer yes or no.
-3. After you say yes, publish it and give you a link to the support site.
+3. After you say yes, publish it. When the change is live, Claude gives you a link to the support site.
 
 Claude also asks you before anything that is hard to undo, like deleting or moving articles.
 
 ## Check your changes
 
-Open the support site in your browser about one minute after Claude says it published the change. Use the language picker to switch between English and Swedish.
+Open the link Claude gives you when the change is live. Use the language picker to switch between English and Swedish.
 
 If something looks wrong, tell Claude what you see, for example: "The image in the SMS consent article doesn't show." Claude fixes it and asks you again before publishing the fix.
 
-## Don't edit in GitBook directly
+## Make all changes through Claude
 
-Make all changes through Claude, not in the GitBook editor. Claude keeps the English and Swedish versions in sync and follows our writing style. Edits made directly in GitBook skip those steps.
+The support site no longer runs on GitBook, so don't use the GitBook editor. Claude keeps the English and Swedish versions in sync and follows our writing style.
 
 ## If something goes wrong
 
 - **Claude shows an error or asks something technical you don't understand:** stop, and send a screenshot to Magnus. Don't approve things you're unsure about.
+- **Claude says the publish failed:** your change is not live yet. A message about the failure also goes to the #support-site Slack channel, where a developer sees it. Ask Claude to fix it, or wait for the developer.
 - **You changed your mind about a published change:** tell Claude, for example "Undo the change you just made to the forms article." Claude undoes it and asks before publishing the undo.
